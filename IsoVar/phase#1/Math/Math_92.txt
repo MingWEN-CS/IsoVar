@@ -1,0 +1,16 @@
+org/apache/commons/math/util/MathUtils	addAndCheck	ret	113	0.6707915502872459	 
+org/apache/commons/math/util/MathUtils	addAndCheck	msg	113	0.6228132014683878	 
+org/apache/commons/math/util/MathUtils	binomialCoefficient	result	184	0.5576365008462534	oracle
+org/apache/commons/math/util/MathUtils	addAndCheck	b	111	0.5333002518183712	 
+org/apache/commons/math/util/MathUtils	binomialCoefficient	k	170	0.53132964347816	oracle
+org/apache/commons/math/util/MathUtils	binomialCoefficientLog	k	258	0.5218944861011325	oracle
+org/apache/commons/math/util/MathUtils	addAndCheck	a	111	0.5185414956616785	 
+org/apache/commons/math/util/MathUtils	binomialCoefficient	n	170	0.5128251624815814	oracle
+org/apache/commons/math/util/MathUtils	binomialCoefficientLog	n	258	0.5101699700742345	oracle
+org/apache/commons/math/util/MathUtils	binomialCoefficientLog	logSum	286	0.4920530572643485	 
+org/apache/commons/math/util/MathUtils	binomialCoefficientLog	i	289	0.4920530572643485	 
+org/apache/commons/math/util/MathUtils	addAndCheck	a	95	0.48976982097186694	 
+org/apache/commons/math/util/MathUtils	addAndCheck	b	95	0.48976982097186694	 
+org/apache/commons/math/util/MathUtils	binomialCoefficientDouble	n	236	0.4772727272727272	oracle
+org/apache/commons/math/util/MathUtils	binomialCoefficientDouble	k	236	0.4772727272727272	oracle
+org/apache/commons/math/util/MathUtils	<clinit>	this	350	0.22744360902255634	 

@@ -1,0 +1,3 @@
+Closure	78
+t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic
+s	com.google.javascript.jscomp.PeepholeFoldConstants	buggy:711	buggy:718

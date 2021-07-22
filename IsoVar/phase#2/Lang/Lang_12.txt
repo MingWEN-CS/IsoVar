@@ -1,0 +1,23 @@
+org/apache/commons/lang3/RandomStringUtils	random	gap	241	0.644725	 
+org/apache/commons/lang3/RandomStringUtils	random	letters	232	0.642639	 
+org/apache/commons/lang3/RandomStringUtils	random	start	231	0.632605	 
+org/apache/commons/lang3/RandomStringUtils	random	numbers	232	0.453592	 
+org/apache/commons/lang3/RandomStringUtils	random	chars	248	0.333333	oracle
+org/apache/commons/lang3/RandomStringUtils	random	random	248	0.250106	 
+org/apache/commons/lang3/RandomStringUtils	random	count	225	0.234222	 
+org/apache/commons/lang3/RandomStringUtils	random	end	231	0.210576	oracle
+org/apache/commons/lang3/RandomStringUtils	random	ch	248	0.170304	 
+org/apache/commons/lang3/RandomStringUtils	<clinit>	this	43	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	count	69	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	count	143	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	letters	143	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	numbers	143	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	count	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	start	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	end	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	letters	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	numbers	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	this	163	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	count	321	-0.045455	 
+org/apache/commons/lang3/RandomStringUtils	random	chars	321	-0.045455	 
+org/apache/commons/lang3/RandomStringUtils	random	this	321	-0.045455	 

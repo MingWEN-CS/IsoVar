@@ -1,0 +1,4 @@
+org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer	92	92	this	Lorg/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer;	false	0	false	getFunctionValue	()D	buggy
+org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer	97	97	this	Lorg/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer;	false	0	false	getResult	()D	buggy
+org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer	92	92	this	Lorg/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer;	false	0	false	getFunctionValue	()D	fixed
+org/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer	97	97	this	Lorg/apache/commons/math/optimization/MultiStartUnivariateRealOptimizer;	false	0	false	getResult	()D	fixed

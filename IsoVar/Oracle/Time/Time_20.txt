@@ -1,0 +1,9 @@
+buggy	org.joda.time.format.DateTimeFormatterBuilder	2542	MOV	ALL_IDS
+fix	org.joda.time.format.DateTimeFormatterBuilder	2550	INS	best
+fix	org.joda.time.format.DateTimeFormatterBuilder	2542	INS	best
+fix	org.joda.time.format.DateTimeFormatterBuilder	2545	INS	best
+fix	org.joda.time.format.DateTimeFormatterBuilder	2545	INS	id
+buggy	org.joda.time.format.DateTimeFormatterBuilder	2544	UPD	DateTimeZone
+fix	org.joda.time.format.DateTimeFormatterBuilder	2552	INS	best
+fix	org.joda.time.format.DateTimeFormatterBuilder	2546	INS	best
+fix	org.joda.time.format.DateTimeFormatterBuilder	2546	INS	id

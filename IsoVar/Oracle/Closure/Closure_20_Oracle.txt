@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax	220	219	value	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldSimpleFunctionCall	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax	220	219	value	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldSimpleFunctionCall	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax	220	219	value	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldSimpleFunctionCall	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax	220	219	value	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldSimpleFunctionCall	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed

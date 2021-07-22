@@ -1,0 +1,6 @@
+fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	ltI
+fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	i
+fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	absolutePositivityThreshold
+buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	lTData
+buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	i
+buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	absolutePositivityThreshold

@@ -1,0 +1,15 @@
+org/apache/commons/math/fraction/Fraction	compareTo	nOd	259	0.505684	oracle
+org/apache/commons/math/fraction/Fraction	compareTo	dOn	260	0.505684	oracle
+org/apache/commons/math/fraction/Fraction	compareTo	object	260	0.469231	oracle
+org/apache/commons/math/fraction/Fraction	doubleValue	this	270	0.192308	 
+org/apache/commons/math/util/MathUtils	gcd	u	561	0.112896	 
+org/apache/commons/math/util/MathUtils	gcd	v	562	0.091688	 
+org/apache/commons/math/util/MathUtils	gcd	t	597	0.067881	 
+org/apache/commons/math/fraction/Fraction	<clinit>	this	33	0.025	 
+org/apache/commons/math/util/MathUtils	<clinit>	this	434	0.025	 
+org/apache/commons/math/util/MathUtils	gcd	q	562	0.023746	 
+org/apache/commons/math/util/MathUtils	gcd	p	561	0.022824	 
+org/apache/commons/math/util/MathUtils	gcd	k	583	-0.007231	 
+org/apache/commons/math/fraction/Fraction	<init>	d	223	-0.011094	 
+org/apache/commons/math/fraction/Fraction	<init>	num	223	-0.018134	 
+org/apache/commons/math/fraction/Fraction	<init>	den	210	-0.022089	 

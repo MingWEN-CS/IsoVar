@@ -1,0 +1,4 @@
+Lang	36
+t	org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
+t	org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber
+s	org.apache.commons.lang3.math.NumberUtils	fixed:1395	fixed:1391	fixed:1392	fixed:1393	fixed:491	fixed:1394	fixed:1390	fixed:1388	fixed:1389

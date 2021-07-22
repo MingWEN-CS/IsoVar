@@ -1,0 +1,13 @@
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	17	INS	org.mockito.mock.MockCreationSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	105	INS	propagateSerializationSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	88	INS	parentMock
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	96	INS	parentMockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	105	INS	mockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	105	INS	parentMockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	89	INS	parentMockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	106	INS	mockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	92	INS	withSettingsUsing
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	101	INS	propagateSerializationSettings
+buggy	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	99	UPD	mockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	106	INS	parentMockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	72	INS	invocation

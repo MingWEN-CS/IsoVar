@@ -1,0 +1,7 @@
+fix	com.google.javascript.jscomp.CodeConsumer	261	INS	isNegativeZero
+fix	com.google.javascript.jscomp.CodeConsumer	261	INS	x
+fix	com.google.javascript.jscomp.CodeConsumer	241	INS	x
+fix	com.google.javascript.jscomp.CodeConsumer	241	INS	isNegativeZero
+fix	com.google.javascript.jscomp.CodeConsumer	262	INS	x
+fix	com.google.javascript.jscomp.CodeConsumer	262	INS	Math
+buggy	com.google.javascript.jscomp.CodeConsumer	241	MOV	x

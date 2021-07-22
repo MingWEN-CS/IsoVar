@@ -1,0 +1,28 @@
+org/jfree/data/category/DefaultIntervalCategoryDataset	getColumnCount	this	690	0.25	 
+org/jfree/data/general/AbstractDataset	clone	clone	205	0.10000000000000009	 
+org/jfree/data/general/AbstractDataset	clone	this	206	0.10000000000000009	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	clone	clone	746	0.10000000000000009	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	clone	this	748	0.10000000000000009	 
+org/jfree/data/DataUtilities	createNumberArray2D	data	128	0.03749725943578602	 
+org/jfree/data/DataUtilities	createNumberArray2D	i	130	0.03749725943578602	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getCategoryIndex	this	574	0.01830857385735235	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getSeriesIndex	this	242	0.005181040233612655	 
+org/jfree/data/DataUtilities	createNumberArray2D	l1	128	0.0	 
+org/jfree/data/DataUtilities	createNumberArray2D	result	133	0.0	 
+org/jfree/data/resources/DataPackageResources	<clinit>	this	62	0.0	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	starts	91	0.0	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	starts	107	0.0	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	baseName	152	0.0	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	setCategoryKeys	categoryKeys	338	0.0	oracle
+org/jfree/data/category/DefaultIntervalCategoryDataset	setCategoryKeys	this	338	0.0	oracle
+org/jfree/data/category/DefaultIntervalCategoryDataset	getRowIndex	rowKey	641	0.0	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	starts	150	-0.015377552267547445	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	seriesCount	155	-0.0153775522675475	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getCategoryIndex	i	574	-0.024571585892883163	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getSeriesIndex	i	242	-0.02463825099211575	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	starts	155	-0.035281054061418404	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	ends	156	-0.035281054061418404	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getSeriesIndex	result	241	-0.040963500278050013	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	<init>	resources	153	-0.07090211781851735	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getCategoryIndex	result	573	-0.09052307273067967	 
+org/jfree/data/category/DefaultIntervalCategoryDataset	getColumnIndex	columnKey	625	-0.16666666666666663	 

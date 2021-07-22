@@ -1,0 +1,14 @@
+org/apache/commons/math/util/MathUtils	542	540	u	I	false	2	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	542	541	v	I	false	3	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	542	540	u	I	false	2	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	542	541	v	I	false	3	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	719	718	lcm	I	false	2	true	lcm	(II)I	fixed
+org/apache/commons/math/util/MathUtils	719	718	lcm	I	false	2	true	lcm	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	540	u	I	false	2	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	541	v	I	false	3	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	540	u	I	false	2	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	541	v	I	false	3	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	540	u	I	false	2	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	543	541	v	I	false	3	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	544	540	p	I	false	0	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	544	540	q	I	false	1	true	gcd	(II)I	fixed

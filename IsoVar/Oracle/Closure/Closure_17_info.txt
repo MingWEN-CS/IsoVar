@@ -1,0 +1,3 @@
+Closure	17
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue688
+s	com.google.javascript.jscomp.TypedScopeCreator	fixed:1295	fixed:1294	fixed:1292	fixed:1296	fixed:1291

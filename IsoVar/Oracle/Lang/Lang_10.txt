@@ -1,0 +1,6 @@
+buggy	org.apache.commons.lang3.time.FastDateParser	304	DEL	wasWhite
+buggy	org.apache.commons.lang3.time.FastDateParser	307	DEL	Character
+buggy	org.apache.commons.lang3.time.FastDateParser	308	DEL	wasWhite
+buggy	org.apache.commons.lang3.time.FastDateParser	309	DEL	wasWhite
+buggy	org.apache.commons.lang3.time.FastDateParser	310	DEL	regex
+buggy	org.apache.commons.lang3.time.FastDateParser	314	DEL	wasWhite

@@ -1,0 +1,21 @@
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	72	1.0	oracle
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	72	1.0	oracle
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	this	86	0.5557175279555182	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	this	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	80	0.36906611042904985	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	80	0.3653762788014607	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	i	85	0.36073232369244057	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	f	88	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	fmin	88	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	clearResult	this	165	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	lower	208	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	upper	208	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	midpoint	a	223	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	midpoint	b	223	0.33333333333333337	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	m	87	0.15392517849799753	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultMaximalIterationCount	93	0.017241379310344862	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultAbsoluteAccuracy	93	0.017241379310344862	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultAbsoluteAccuracy	62	0.0	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultMaximalIterationCount	66	0.0	 

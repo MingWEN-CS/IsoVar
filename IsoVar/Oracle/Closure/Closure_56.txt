@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.SourceFile	242	INS	pos
+fix	com.google.javascript.jscomp.SourceFile	242	INS	js
+fix	com.google.javascript.jscomp.SourceFile	245	INS	js

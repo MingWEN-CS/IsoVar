@@ -1,0 +1,17 @@
+fix	com.google.javascript.jscomp.ScopedAliases	170	INS	aliasDefinition
+fix	com.google.javascript.jscomp.ScopedAliases	173	INS	aliasDefinition
+fix	com.google.javascript.jscomp.ScopedAliases	176	INS	aliasDefinition
+fix	com.google.javascript.jscomp.ScopedAliases	182	INS	typeName
+fix	com.google.javascript.jscomp.ScopedAliases	183	INS	aliasExpanded
+fix	com.google.javascript.jscomp.ScopedAliases	185	INS	Preconditions
+fix	com.google.javascript.jscomp.ScopedAliases	182	INS	typeReference
+fix	com.google.javascript.jscomp.ScopedAliases	184	INS	Preconditions
+fix	com.google.javascript.jscomp.ScopedAliases	185	INS	typeName
+fix	com.google.javascript.jscomp.ScopedAliases	186	INS	typeName
+buggy	com.google.javascript.jscomp.ScopedAliases	180	MOV	typeReference
+fix	com.google.javascript.jscomp.ScopedAliases	184	INS	aliasDefinition
+fix	com.google.javascript.jscomp.ScopedAliases	474	INS	aliasedNode
+fix	com.google.javascript.jscomp.ScopedAliases	474	INS	baseName
+buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	aliasedNode
+buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	name
+buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	typeNode

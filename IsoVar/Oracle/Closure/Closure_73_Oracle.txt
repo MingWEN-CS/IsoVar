@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/CodeGenerator	1045	996	c	C	false	8	true	strEscape	(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/CodeGenerator	1045	996	c	C	false	8	true	strEscape	(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/CodeGenerator	1045	996	c	C	false	8	true	strEscape	(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/CodeGenerator	1045	996	c	C	false	8	true	strEscape	(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	fixed

@@ -1,0 +1,4 @@
+Mockito	17
+t	org.mockitousage.basicapi.MocksSerializationTest::shouldBeSerializeAndHaveExtraInterfaces
+s	org.mockito.internal.creation.MockSettingsImpl	fixed:24	fixed:76	fixed:20	fixed:23
+s	org.mockito.internal.util.MockUtil	fixed:47	fixed:46	fixed:48	fixed:19	fixed:50

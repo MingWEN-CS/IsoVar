@@ -1,0 +1,13 @@
+org/apache/commons/math/util/MathUtils	gcd	u	540	0.532537516612116	oracle
+org/apache/commons/math/util/MathUtils	gcd	v	541	0.5118887028405934	oracle
+org/apache/commons/math/util/MathUtils	lcm	a	710	0.4261185173354656	 
+org/apache/commons/math/util/MathUtils	lcm	b	710	0.42086281341250215	 
+org/apache/commons/math/util/MathUtils	lcm	lcm	713	0.42000000000000004	oracle
+org/apache/commons/math/util/MathUtils	mulAndCheck	m	748	0.3969787013199594	 
+org/apache/commons/math/util/MathUtils	mulAndCheck	x	748	0.3846153846153847	 
+org/apache/commons/math/util/MathUtils	mulAndCheck	y	748	0.3846153846153847	 
+org/apache/commons/math/util/MathUtils	gcd	k	557	0.38000434934675015	 
+org/apache/commons/math/util/MathUtils	gcd	t	571	0.3731939700643962	 
+org/apache/commons/math/util/MathUtils	gcd	p	540	0.3679245283018868	oracle
+org/apache/commons/math/util/MathUtils	gcd	q	541	0.3679245283018868	oracle
+org/apache/commons/math/util/MathUtils	<clinit>	this	413	0.0	 

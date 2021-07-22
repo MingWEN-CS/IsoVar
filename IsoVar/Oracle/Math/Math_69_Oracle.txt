@@ -1,0 +1,10 @@
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	164	i	I	false	4	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	buggy
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	163	out	[[D	false	3	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	buggy
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	165	j	I	false	5	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	buggy
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	161	tDistribution	Lorg/apache/commons/math/distribution/TDistribution;	false	1	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	buggy
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	170	t	D	false	8	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	buggy
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	164	i	I	false	4	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	fixed
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	163	out	[[D	false	3	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	fixed
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	165	j	I	false	5	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	fixed
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	161	tDistribution	Lorg/apache/commons/math/distribution/TDistribution;	false	1	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	fixed
+org/apache/commons/math/stat/correlation/PearsonsCorrelation	171	170	t	D	false	8	false	getCorrelationPValues	()Lorg/apache/commons/math/linear/RealMatrix;	fixed

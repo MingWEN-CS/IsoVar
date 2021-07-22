@@ -1,0 +1,3 @@
+Lang	64
+t	org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumType
+s	org.apache.commons.lang.enums.ValuedEnum	fixed:191	fixed:190	fixed:192	fixed:184	fixed:183	fixed:186	fixed:185	fixed:188	fixed:187	fixed:189	fixed:211	fixed:203	fixed:214	fixed:202	fixed:213	fixed:205	fixed:204	fixed:215	fixed:207	fixed:206	fixed:209

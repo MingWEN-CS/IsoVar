@@ -1,0 +1,2 @@
+fix	com.google.javascript.jscomp.NodeUtil	1262	INS	Token.DELPROP
+fix	com.google.javascript.jscomp.NodeUtil	2911	INS	Token.DELPROP

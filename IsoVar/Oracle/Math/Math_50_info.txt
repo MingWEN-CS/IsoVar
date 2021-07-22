@@ -1,0 +1,3 @@
+Math	50
+t	org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631
+s	org.apache.commons.math.analysis.solvers.BaseSecantSolver	buggy:190	buggy:188	buggy:187	buggy:189

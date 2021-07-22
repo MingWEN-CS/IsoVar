@@ -1,0 +1,16 @@
+buggy	org.joda.time.DateTimeZone	886	MOV	offsetLocal
+buggy	org.joda.time.DateTimeZone	886	MOV	offsetAdjusted
+fix	org.joda.time.DateTimeZone	899	INS	offsetLocal
+fix	org.joda.time.DateTimeZone	901	INS	prev
+fix	org.joda.time.DateTimeZone	901	INS	instantAdjusted
+fix	org.joda.time.DateTimeZone	900	INS	prev
+fix	org.joda.time.DateTimeZone	900	INS	previousTransition
+fix	org.joda.time.DateTimeZone	904	INS	instantAdjusted
+fix	org.joda.time.DateTimeZone	904	INS	prev
+fix	org.joda.time.DateTimeZone	904	INS	diff
+fix	org.joda.time.DateTimeZone	902	INS	offsetPrev
+fix	org.joda.time.DateTimeZone	903	INS	diff
+fix	org.joda.time.DateTimeZone	903	INS	offsetPrev
+fix	org.joda.time.DateTimeZone	903	INS	offsetLocal
+fix	org.joda.time.DateTimeZone	902	INS	getOffset
+fix	org.joda.time.DateTimeZone	905	INS	offsetPrev

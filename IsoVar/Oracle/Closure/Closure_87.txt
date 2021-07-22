@@ -1,0 +1,15 @@
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	520	MOV	n
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	520	MOV	Token.BLOCK
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	523	INS	maybeExpr
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	523	INS	Token.EXPR_RESULT
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	530	INS	maybeExpr
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	530	INS	Token.CALL
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	535	INS	calledFn
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	535	INS	Token.GETELEM
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	531	INS	calledFn
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	537	INS	calledFn
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	537	INS	Token.GETPROP
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	533	MOV	NodeUtil
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	531	INS	maybeExpr
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	538	INS	calledFn
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	533	DEL	NodeUtil

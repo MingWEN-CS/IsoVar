@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/FlowSensitiveInlineVariables	155	154	c	Lcom/google/javascript/jscomp/FlowSensitiveInlineVariables$Candidate;	false	4	false	enterScope	(Lcom/google/javascript/jscomp/NodeTraversal;)V	fixed
+com/google/javascript/jscomp/FlowSensitiveInlineVariables	155	127	t	Lcom/google/javascript/jscomp/NodeTraversal;	false	1	false	enterScope	(Lcom/google/javascript/jscomp/NodeTraversal;)V	fixed

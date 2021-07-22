@@ -1,0 +1,2 @@
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer	1797	1796	dataset	Lorg/jfree/data/category/CategoryDataset;	false	3	false	getLegendItems	()Lorg/jfree/chart/LegendItemCollection;	buggy
+org/jfree/chart/renderer/category/AbstractCategoryItemRenderer	1797	1796	dataset	Lorg/jfree/data/category/CategoryDataset;	false	3	false	getLegendItems	()Lorg/jfree/chart/LegendItemCollection;	fixed

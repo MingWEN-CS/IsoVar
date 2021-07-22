@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.CodeConsumer	245	INS	x
+fix	com.google.javascript.jscomp.CodeConsumer	245	INS	negativeZero
+buggy	com.google.javascript.jscomp.CodeConsumer	245	MOV	x
+buggy	com.google.javascript.jscomp.CodeConsumer	245	MOV	prev

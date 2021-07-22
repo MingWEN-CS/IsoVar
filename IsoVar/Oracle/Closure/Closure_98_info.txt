@@ -1,0 +1,3 @@
+Closure	98
+t	com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInLoop
+s	com.google.javascript.jscomp.ReferenceCollectingCallback	fixed:580	fixed:362	fixed:571	fixed:361	fixed:364	fixed:573	fixed:363	fixed:366	fixed:553	fixed:575	fixed:365	fixed:574	fixed:368	fixed:577	fixed:367	fixed:576	fixed:579	fixed:578	fixed:558

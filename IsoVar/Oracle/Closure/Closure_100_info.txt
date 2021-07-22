@@ -1,0 +1,11 @@
+Closure	100
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction6
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction7
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testStaticFunction8
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testGlobalThis7
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod2
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testStaticMethod3
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction1
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction2
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testInnerFunction3
+s	com.google.javascript.jscomp.CheckGlobalThis	fixed:105	fixed:153	fixed:100	fixed:102	fixed:101	fixed:104	fixed:99	fixed:103

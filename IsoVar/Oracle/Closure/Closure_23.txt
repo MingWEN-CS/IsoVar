@@ -1,0 +1,10 @@
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	MOV	current
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	MOV	i
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	MOV	intIndex
+fix	com.google.javascript.jscomp.PeepholeFoldConstants	1452	INS	i
+fix	com.google.javascript.jscomp.PeepholeFoldConstants	1452	INS	intIndex
+fix	com.google.javascript.jscomp.PeepholeFoldConstants	1453	INS	mayHaveSideEffects
+fix	com.google.javascript.jscomp.PeepholeFoldConstants	1454	INS	n
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	DEL	current
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	DEL	i
+buggy	com.google.javascript.jscomp.PeepholeFoldConstants	1451	DEL	intIndex

@@ -1,0 +1,3 @@
+Closure	24
+t	com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal
+s	com.google.javascript.jscomp.ScopedAliases	fixed:290	fixed:287	fixed:278	fixed:279	buggy:295

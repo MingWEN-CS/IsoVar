@@ -1,0 +1,8 @@
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	strLen	882	0.5901147217398657	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	this	880	0.5767202432102727	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	width	879	0.450833340863105	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	str	881	0.4438076086114503	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	obj	881	0.42410362145999725	 
+org/apache/commons/lang/text/StrBuilder	<init>	initialCapacity	108	0.010638297872340552	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	capacity	228	0.0	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	this	228	0.0	 

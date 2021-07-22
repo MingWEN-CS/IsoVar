@@ -1,0 +1,4 @@
+Lang	20
+t	org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar
+t	org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray
+s	org.apache.commons.lang3.StringUtils	fixed:3298	fixed:3383

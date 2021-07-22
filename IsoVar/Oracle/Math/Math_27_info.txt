@@ -1,0 +1,3 @@
+Math	27
+t	org.apache.commons.math3.fraction.FractionTest::testMath835
+s	org.apache.commons.math3.fraction.Fraction	fixed:597

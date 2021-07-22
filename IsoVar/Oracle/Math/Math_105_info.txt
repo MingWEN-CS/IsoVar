@@ -1,0 +1,3 @@
+Math	105
+t	org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative
+s	org.apache.commons.math.stat.regression.SimpleRegression	fixed:264

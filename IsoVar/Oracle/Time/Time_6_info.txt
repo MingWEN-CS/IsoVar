@@ -1,0 +1,7 @@
+Time	6
+t	org.joda.time.chrono.TestGJDate::test_cutoverPreZero
+t	org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover
+t	org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover
+t	org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover
+t	org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover
+s	org.joda.time.chrono.GJChronology	fixed:1020	fixed:1024	fixed:1023	fixed:1022	fixed:1021	fixed:197	fixed:196	fixed:199	fixed:991	fixed:1026	fixed:198	fixed:990	fixed:1025	fixed:993	fixed:992	fixed:1017	fixed:1016	fixed:984	fixed:1019	fixed:983	fixed:1018	fixed:986	fixed:985	fixed:988	fixed:987	fixed:989

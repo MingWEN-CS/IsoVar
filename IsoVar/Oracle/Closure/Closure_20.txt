@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	220	INS	value
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	220	MOV	value
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	221	INS	NodeUtil

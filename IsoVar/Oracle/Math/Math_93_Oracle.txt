@@ -1,0 +1,15 @@
+org/apache/commons/math/util/MathUtils	346	345	result	J	false	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	346	345	result	J	false	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	n	I	false	0	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	result	J	true	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	n	I	false	0	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	result	J	true	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	n	I	false	0	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	result	J	true	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	346	345	result	J	false	1	true	factorial	(I)J	buggy
+org/apache/commons/math/util/MathUtils	345	345	n	I	false	0	true	factorial	(I)J	fixed
+org/apache/commons/math/util/MathUtils	379	376	n	I	false	0	true	factorialDouble	(I)D	fixed
+org/apache/commons/math/util/MathUtils	402	399	n	I	false	0	true	factorialLog	(I)D	fixed
+org/apache/commons/math/util/MathUtils	380	376	n	I	false	0	true	factorialDouble	(I)D	fixed
+org/apache/commons/math/util/MathUtils	403	399	n	I	false	0	true	factorialLog	(I)D	fixed
+org/apache/commons/math/util/MathUtils	403	399	n	I	false	0	true	factorialLog	(I)D	fixed

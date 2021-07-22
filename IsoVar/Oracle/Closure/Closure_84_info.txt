@@ -1,0 +1,3 @@
+Closure	84
+t	com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4
+s	com.google.javascript.jscomp.parsing.IRFactory	fixed:830	fixed:810	fixed:832	fixed:831	fixed:812	fixed:811	fixed:814	fixed:813	fixed:342	fixed:341	fixed:344	fixed:343	fixed:346	fixed:345	fixed:347	fixed:825	fixed:824	fixed:805	fixed:827	fixed:804	fixed:826	fixed:807	fixed:829	fixed:806	fixed:828	fixed:809	fixed:808

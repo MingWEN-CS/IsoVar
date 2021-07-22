@@ -1,0 +1,44 @@
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	str	1570	0.635578	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchChars	1570	0.532889	oracle
+org/apache/commons/lang3/StringUtils	containsAny	i	1451	0.520733	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	i	1574	0.50204	oracle
+org/apache/commons/lang3/StringUtils	containsAny	csLast	1449	0.497321	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1448	0.492055	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	strLen	1573	0.483165	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	ch	1575	0.483165	oracle
+org/apache/commons/lang3/StringUtils	containsNone	searchChars	1678	0.482826	oracle
+org/apache/commons/lang3/StringUtils	containsAny	cs	1444	0.476261	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	cs	1412	0.4731	 
+org/apache/commons/lang3/StringUtils	containsNone	ch	1680	0.471448	oracle
+org/apache/commons/lang3/StringUtils	containsNone	j	1681	0.471448	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	i	1377	0.47116	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	searchChars	1376	0.471062	oracle
+org/apache/commons/lang3/StringUtils	containsNone	cs	1674	0.468946	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	cs	1529	0.468406	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	cs	1372	0.465876	oracle
+org/apache/commons/lang3/StringUtils	containsNone	searchLen	1678	0.464885	oracle
+org/apache/commons/lang3/StringUtils	containsNone	i	1679	0.464885	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchLength	1448	0.463677	 
+org/apache/commons/lang3/StringUtils	indexOfAny	searchLen	1376	0.463061	oracle
+org/apache/commons/lang3/StringUtils	containsNone	cs	1715	0.459561	 
+org/apache/commons/lang3/StringUtils	containsNone	invalidChars	1715	0.459029	 
+org/apache/commons/lang3/StringUtils	indexOfAny	searchChars	1412	0.456116	 
+org/apache/commons/lang3/StringUtils	indexOfAny	ch	1378	0.453676	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	j	1379	0.453676	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	i	1535	0.453584	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	csLen	1375	0.45114	oracle
+org/apache/commons/lang3/StringUtils	containsNone	csLen	1677	0.45114	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchLast	1450	0.450862	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1498	0.437427	 
+org/apache/commons/lang3/StringUtils	containsAny	cs	1501	0.435897	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchLen	1533	0.432203	oracle
+org/apache/commons/lang3/StringUtils	containsAny	j	1453	0.428955	oracle
+org/apache/commons/lang3/StringUtils	containsAny	ch	1452	0.428245	oracle
+org/apache/commons/lang3/ArrayUtils	isEmpty	array	3279	0.427805	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchChars	1533	0.427152	oracle
+org/apache/commons/lang3/StringUtils	containsAny	csLength	1447	0.421136	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	ch	1536	0.412774	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	j	1537	0.412774	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	csLen	1532	0.406832	oracle
+org/apache/commons/lang3/StringUtils	isEmpty	cs	194	0.278117	 
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	56	0.051985	 

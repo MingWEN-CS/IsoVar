@@ -1,0 +1,3 @@
+Closure	13
+t	com.google.javascript.jscomp.IntegrationTest::testIssue787
+s	com.google.javascript.jscomp.PeepholeOptimizationsPass	fixed:127	buggy:126

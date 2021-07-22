@@ -1,0 +1,78 @@
+org/jfree/data/KeyedObjects	getObject	key	169	0.087125	 
+org/jfree/data/KeyedObjects2D	removeObject	rowIndex	301	0.020684	 
+org/jfree/data/KeyedObjects2D	removeObject	item	304	0.020357	oracle
+org/jfree/data/KeyedObjects2D	removeObject	itemCount	304	0.020357	oracle
+org/jfree/data/KeyedObjects2D	removeObject	allNull	300	0.020041	oracle
+org/jfree/data/KeyedObjects	getItemCount	this	77	0.02	 
+org/jfree/data/KeyedObjects2D	getRowIndex	this	150	0.02	 
+org/jfree/data/KeyedObjects2D	getRowIndex	key	150	0.02	 
+org/jfree/data/KeyedObjects2D	getObject	rowKey	215	0.02	 
+org/jfree/data/KeyedObjects2D	getObject	columnKey	218	0.02	oracle
+org/jfree/data/KeyedObjects2D	getObject	this	221	0.02	 
+org/jfree/data/KeyedObjects2D	getObject	rowData	232	0.02	oracle
+org/jfree/data/KeyedObjects2D	removeObject	rowKey	297	0.02	 
+org/jfree/data/KeyedObjects2D	removeObject	columnKey	297	0.02	oracle
+org/jfree/data/KeyedObjects2D	removeObject	this	302	0.02	oracle
+org/jfree/data/KeyedObjects2D	removeObject	row	302	0.02	oracle
+org/jfree/data/KeyedObjects2D	removeRow	rowKey	344	0.02	oracle
+org/jfree/data/KeyedObject	setObject	object	103	0.02	 
+org/jfree/data/KeyedObject	setObject	this	103	0.02	 
+org/jfree/data/KeyedObjects	setObject	this	203	0.016974	 
+org/jfree/data/KeyedObjects	setObject	ko	203	0.016974	 
+org/jfree/data/KeyedObjects	setObject	object	204	0.016974	 
+org/jfree/data/KeyedObjects2D	getObject	column	226	0.016924	 
+org/jfree/data/KeyedObjects2D	getObject	row	221	0.015875	oracle
+org/jfree/data/KeyedObjects2D	removeColumn	index	370	0.015677	 
+org/jfree/data/KeyedObjects2D	getColumnKey	column	174	0.011588	 
+org/jfree/data/KeyedObjects2D	removeColumn	columnIndex	356	0.011588	 
+org/jfree/data/KeyedObjects2D	setObject	row	271	0.009883	 
+org/jfree/data/KeyedObjects	setObject	keyIndex	201	0.009876	 
+org/jfree/data/KeyedObjects2D	removeRow	index	344	0.008239	oracle
+org/jfree/data/KeyedObjects2D	setObject	this	269	0.006545	 
+org/jfree/data/KeyedObjects2D	setObject	columnKey	265	0.00571	 
+org/jfree/data/KeyedObjects2D	setObject	rowKey	262	0.0032	 
+org/jfree/data/KeyedObjects	setObject	key	201	0.002614	 
+org/jfree/data/KeyedObjects	removeValue	index	252	0.001676	 
+org/jfree/data/KeyedObjects	removeValue	index	266	0.001676	 
+org/jfree/data/KeyedObjects	getIndex	key	128	0.001133	 
+org/jfree/data/KeyedObjects	getIndex	iterator	132	0.001133	 
+org/jfree/data/KeyedObjects	getIndex	this	132	0.0	 
+org/jfree/data/KeyedObjects	removeValue	this	252	0.0	 
+org/jfree/data/KeyedObjects	removeValue	key	266	0.0	 
+org/jfree/data/KeyedObjects2D	getRowCount	this	88	0.0	 
+org/jfree/data/KeyedObjects2D	getObject	result	113	0.0	 
+org/jfree/data/KeyedObjects2D	getObject	this	114	0.0	 
+org/jfree/data/KeyedObjects2D	getObject	rowData	114	0.0	 
+org/jfree/data/KeyedObjects2D	getObject	columnKey	116	0.0	 
+org/jfree/data/KeyedObjects2D	getColumnKey	this	174	0.0	 
+org/jfree/data/KeyedObjects2D	getColumnIndex	this	187	0.0	 
+org/jfree/data/KeyedObjects2D	getColumnIndex	key	187	0.0	 
+org/jfree/data/KeyedObjects2D	setObject	object	278	0.0	 
+org/jfree/data/KeyedObjects2D	removeColumn	columnKey	356	0.0	 
+org/jfree/data/KeyedObjects2D	removeColumn	columnKey	370	0.0	oracle
+org/jfree/data/KeyedObjects2D	removeColumn	this	375	0.0	 
+org/jfree/data/KeyedObjects2D	removeColumn	iterator	375	0.0	 
+org/jfree/data/KeyedObjects2D	removeColumn	rowData	377	0.0	oracle
+org/jfree/data/KeyedObject	<init>	key	75	0.0	 
+org/jfree/data/KeyedObject	<init>	object	76	0.0	 
+org/jfree/data/UnknownKeyException	<init>	message	56	0.0	 
+org/jfree/data/KeyedObjects2D	getObject	index	118	-0.002204	 
+org/jfree/data/KeyedObjects2D	setObject	rowIndex	269	-0.003535	 
+org/jfree/data/KeyedObjects2D	setObject	columnIndex	279	-0.00933	 
+org/jfree/data/KeyedObjects2D	getObject	column	116	-0.029835	 
+org/jfree/data/KeyedObjects2D	getObject	row	114	-0.031976	 
+org/jfree/data/KeyedObjects	getIndex	ko	134	-0.045455	 
+org/jfree/data/KeyedObject	getKey	this	85	-0.045455	 
+org/jfree/data/KeyedObjects	getIndex	i	131	-0.071799	 
+org/jfree/data/KeyedObjects2D	getColumnCount	this	99	-0.080645	 
+org/jfree/data/KeyedObjects2D	removeRow	this	330	-0.080645	 
+org/jfree/data/KeyedObjects2D	removeRow	rowIndex	330	-0.098605	 
+org/jfree/data/KeyedObjects	getObject	index	169	-0.195463	 
+org/jfree/data/KeyedObjects2D	addObject	object	249	-0.234694	 
+org/jfree/data/KeyedObjects2D	addObject	rowKey	249	-0.234694	 
+org/jfree/data/KeyedObjects2D	addObject	columnKey	249	-0.234694	 
+org/jfree/data/KeyedObjects	getObject	result	90	-0.357143	 
+org/jfree/data/KeyedObjects	getObject	this	91	-0.357143	 
+org/jfree/data/KeyedObjects	getObject	kobj	91	-0.357143	 
+org/jfree/data/KeyedObject	getObject	this	94	-0.357143	 
+org/jfree/data/KeyedObjects	getObject	item	91	-0.372026	 

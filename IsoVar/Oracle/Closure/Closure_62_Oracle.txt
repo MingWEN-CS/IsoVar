@@ -1,0 +1,12 @@
+com/google/javascript/jscomp/LightweightMessageFormatter	97	68	this	Lcom/google/javascript/jscomp/LightweightMessageFormatter;	false	0	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	69	sourceExcerpt	Ljava/lang/String;	false	4	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	68	this	Lcom/google/javascript/jscomp/LightweightMessageFormatter;	false	0	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	69	sourceExcerpt	Ljava/lang/String;	false	4	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	buggy
+com/google/javascript/jscomp/LightweightMessageFormatter	97	68	this	Lcom/google/javascript/jscomp/LightweightMessageFormatter;	false	0	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/LightweightMessageFormatter	97	92	charno	I	false	6	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/LightweightMessageFormatter	97	69	sourceExcerpt	Ljava/lang/String;	false	4	false	format	(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	fixed

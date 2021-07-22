@@ -1,0 +1,2 @@
+org/jfree/chart/plot/PiePlot	1378	1378	this	Lorg/jfree/chart/plot/PiePlot;	false	0	false	getMaximumExplodePercent	()D	fixed
+org/jfree/chart/plot/PiePlot	2054	2052	this	Lorg/jfree/chart/plot/PiePlot;	false	0	false	initialise	(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PiePlot;Ljava/lang/Integer;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/plot/PiePlotState;	fixed

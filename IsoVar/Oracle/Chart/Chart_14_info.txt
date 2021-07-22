@@ -1,0 +1,7 @@
+Chart	14
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker
+t	org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker
+t	org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker
+s	org.jfree.chart.plot.CategoryPlot	fixed:2451	fixed:2166	fixed:2452	fixed:2167	fixed:2453	fixed:2168
+s	org.jfree.chart.plot.XYPlot	fixed:2293	fixed:2294	fixed:2295	fixed:2532	fixed:2533	fixed:2534

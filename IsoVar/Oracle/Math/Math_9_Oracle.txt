@@ -1,0 +1,8 @@
+org/apache/commons/math3/geometry/euclidean/threed/Line	87	87	this	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	0	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	buggy
+org/apache/commons/math3/geometry/euclidean/threed/Line	87	87	this	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	0	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	buggy
+org/apache/commons/math3/geometry/euclidean/threed/Line	87	87	this	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	0	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	buggy
+org/apache/commons/math3/geometry/euclidean/threed/Line	87	87	reverted	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	true	1	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	buggy
+org/apache/commons/math3/geometry/euclidean/threed/Line	88	87	reverted	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	1	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	fixed
+org/apache/commons/math3/geometry/euclidean/threed/Line	88	87	reverted	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	1	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	fixed
+org/apache/commons/math3/geometry/euclidean/threed/Line	88	87	this	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	false	0	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	fixed
+org/apache/commons/math3/geometry/euclidean/threed/Line	88	88	this	Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	true	0	false	revert	()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	fixed

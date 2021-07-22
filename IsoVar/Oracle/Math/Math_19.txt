@@ -1,0 +1,16 @@
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	540	INS	i
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	540	INS	lB.length
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	541	INS	Double
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	541	INS	boundaries
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	541	INS	i
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	550	INS	e
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	542	INS	max
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	542	INS	Double.MAX_VALUE
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	542	INS	boundaries
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	542	INS	i
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	543	INS	e
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	545	INS	max
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	547	INS	e
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	548	INS	e
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	544	INS	i
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	544	INS	boundaries

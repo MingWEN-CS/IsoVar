@@ -1,0 +1,9 @@
+fix	com.google.javascript.jscomp.TypeCheck	1580	INS	functionType
+fix	com.google.javascript.jscomp.TypeCheck	1583	INS	child
+fix	com.google.javascript.jscomp.TypeCheck	1583	INS	Token.GETELEM
+fix	com.google.javascript.jscomp.TypeCheck	1585	INS	report
+fix	com.google.javascript.jscomp.TypeCheck	1581	INS	functionType
+fix	com.google.javascript.jscomp.TypeCheck	1582	INS	functionType
+fix	com.google.javascript.jscomp.TypeCheck	1584	INS	child
+fix	com.google.javascript.jscomp.TypeCheck	1584	INS	Token.GETPROP
+fix	com.google.javascript.jscomp.TypeCheck	1585	INS	functionType

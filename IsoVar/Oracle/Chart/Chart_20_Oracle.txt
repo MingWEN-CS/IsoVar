@@ -1,0 +1,15 @@
+org/jfree/chart/plot/ValueMarker	95	95	paint	Ljava/awt/Paint;	false	3	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	stroke	Ljava/awt/Stroke;	false	4	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	paint	Ljava/awt/Paint;	false	3	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	stroke	Ljava/awt/Stroke;	false	4	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	alpha	F	false	7	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	paint	Ljava/awt/Paint;	false	3	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	stroke	Ljava/awt/Stroke;	false	4	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	paint	Ljava/awt/Paint;	false	3	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	stroke	Ljava/awt/Stroke;	false	4	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	alpha	F	false	7	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	buggy
+org/jfree/chart/plot/ValueMarker	95	95	paint	Ljava/awt/Paint;	false	3	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	fixed
+org/jfree/chart/plot/ValueMarker	95	95	stroke	Ljava/awt/Stroke;	false	4	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	fixed
+org/jfree/chart/plot/ValueMarker	95	95	outlinePaint	Ljava/awt/Paint;	false	5	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	fixed
+org/jfree/chart/plot/ValueMarker	95	95	outlineStroke	Ljava/awt/Stroke;	false	6	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	fixed
+org/jfree/chart/plot/ValueMarker	95	95	alpha	F	false	7	false	<init>	(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	fixed

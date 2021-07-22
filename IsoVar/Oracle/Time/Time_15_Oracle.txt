@@ -1,0 +1,6 @@
+org/joda/time/field/FieldUtils	138	136	val1	J	false	0	true	safeMultiply	(JI)J	fixed
+org/joda/time/field/FieldUtils	138	136	val1	J	false	0	true	safeMultiply	(JI)J	fixed
+org/joda/time/field/FieldUtils	139	136	val1	J	false	0	true	safeMultiply	(JI)J	fixed
+org/joda/time/field/FieldUtils	139	136	val2	I	false	2	true	safeMultiply	(JI)J	fixed
+org/joda/time/field/FieldUtils	139	136	val1	J	false	0	true	safeMultiply	(JI)J	fixed
+org/joda/time/field/FieldUtils	139	136	val2	I	false	2	true	safeMultiply	(JI)J	fixed

@@ -1,0 +1,6 @@
+Closure	76
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d
+s	com.google.javascript.jscomp.DeadAssignmentsElimination	buggy:317	buggy:319	buggy:318	fixed:391	fixed:390	buggy:378	fixed:393	fixed:395	fixed:394	fixed:397	fixed:396	fixed:355	fixed:354	fixed:313	fixed:379	fixed:356	fixed:315	fixed:314	fixed:317	fixed:316	fixed:380	fixed:382	fixed:381	fixed:386	fixed:385	fixed:300	fixed:388	buggy:309	fixed:387	fixed:302	fixed:324	fixed:301	fixed:323	fixed:389	fixed:304	fixed:326	fixed:303	fixed:325	fixed:306	fixed:305	fixed:327	fixed:307	buggy:372

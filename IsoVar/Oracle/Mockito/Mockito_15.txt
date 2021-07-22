@@ -1,0 +1,3 @@
+fix	org.mockito.internal.configuration.injection.FinalMockCandidateFilter	4	INS	org.mockito.internal.util.reflection.BeanPropertySetter
+fix	org.mockito.internal.configuration.injection.FinalMockCandidateFilter	26	INS	fieldInstance
+fix	org.mockito.internal.configuration.injection.FinalMockCandidateFilter	26	INS	field

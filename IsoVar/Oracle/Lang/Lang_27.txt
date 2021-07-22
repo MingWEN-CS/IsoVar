@@ -1,0 +1,8 @@
+fix	org.apache.commons.lang3.math.NumberUtils	479	INS	expPos
+fix	org.apache.commons.lang3.math.NumberUtils	479	INS	decPos
+fix	org.apache.commons.lang3.math.NumberUtils	479	INS	str
+fix	org.apache.commons.lang3.math.NumberUtils	489	INS	expPos
+fix	org.apache.commons.lang3.math.NumberUtils	489	INS	str
+buggy	org.apache.commons.lang3.math.NumberUtils	479	MOV	expPos
+buggy	org.apache.commons.lang3.math.NumberUtils	479	MOV	decPos
+fix	org.apache.commons.lang3.math.NumberUtils	490	INS	str

@@ -1,0 +1,3 @@
+buggy	org.apache.commons.math.estimation.AbstractEstimator	166	UPD	problem
+buggy	org.apache.commons.math.estimation.AbstractEstimator	202	UPD	problem
+buggy	org.apache.commons.math.estimation.AbstractEstimator	207	UPD	problem

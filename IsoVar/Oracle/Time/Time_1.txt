@@ -1,0 +1,12 @@
+buggy	org.joda.time.field.UnsupportedDurationField	227	DEL	durationField
+fix	org.joda.time.Partial	217	INS	loopUnitField
+fix	org.joda.time.Partial	230	INS	compare
+fix	org.joda.time.Partial	230	INS	lastUnitField
+buggy	org.joda.time.Partial	221	MOV	compare
+fix	org.joda.time.Partial	218	INS	lastUnitField
+fix	org.joda.time.Partial	220	INS	loopType
+fix	org.joda.time.Partial	223	INS	loopType
+fix	org.joda.time.Partial	220	INS	types
+fix	org.joda.time.Partial	220	INS	i
+fix	org.joda.time.Partial	223	INS	types
+fix	org.joda.time.Partial	223	INS	i

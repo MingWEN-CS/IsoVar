@@ -1,0 +1,9 @@
+Closure	88
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e
+t	com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f
+s	com.google.javascript.jscomp.DeadAssignmentsElimination	fixed:327	fixed:331	fixed:333	fixed:332	fixed:335	fixed:334

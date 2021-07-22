@@ -1,0 +1,8 @@
+org/apache/commons/math/util/MathUtils	factorialDouble	n	374	0.4433353923538999	oracle
+org/apache/commons/math/util/MathUtils	factorialLog	n	394	0.4380191627471655	oracle
+org/apache/commons/math/util/MathUtils	factorialLog	logSum	397	0.4372346275429459	 
+org/apache/commons/math/util/MathUtils	factorialLog	i	398	0.4360258471411214	 
+org/apache/commons/math/util/MathUtils	<clinit>	this	316	0.0	 
+org/apache/commons/math/util/MathUtils	factorial	n	345	0.0	oracle
+org/apache/commons/math/util/MathUtils	factorial	result	345	0.0	oracle
+org/apache/commons/math/util/MathUtils	factorial	this	350	0.0	 

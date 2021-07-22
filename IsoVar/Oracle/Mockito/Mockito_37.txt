@@ -1,0 +1,8 @@
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	validateMockingConcreteClass
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	answer
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	invocation
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	28	INS	answer
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	29	INS	validateMockingConcreteClass
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	34	INS	invocation
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	35	INS	reporter
+fix	org.mockito.internal.stubbing.answers.AnswersValidator	29	INS	answer

@@ -1,0 +1,57 @@
+org/apache/commons/math3/fraction/FractionConversionException	<init>	value	53	1.0	 
+org/apache/commons/math3/fraction/FractionConversionException	<init>	p	53	1.0	 
+org/apache/commons/math3/fraction/FractionConversionException	<init>	q	53	1.0	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxDenominator	214	0.5021427338970673	 
+org/apache/commons/math3/exception/ConvergenceException	<init>	pattern	49	0.49530516431924876	 
+org/apache/commons/math3/exception/MathIllegalStateException	getContext	this	74	0.47247706422018343	 
+org/apache/commons/math3/exception/MathIllegalStateException	<init>	pattern	47	0.46803652968036535	 
+org/apache/commons/math3/fraction/Fraction	<init>	value	179	0.4325031226103737	 
+org/apache/commons/math3/fraction/Fraction	<init>	a0	180	0.4299274460593036	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	p2	198	0.4155355147171074	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	q2	199	0.41321424590741657	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	p0	193	0.3954701741094945	 
+org/apache/commons/math3/fraction/Fraction	<init>	q0	194	0.3954701741094945	 
+org/apache/commons/math3/fraction/Fraction	<init>	p1	195	0.39350030557262305	 
+org/apache/commons/math3/fraction/Fraction	<init>	q1	196	0.39350030557262305	 
+org/apache/commons/math3/fraction/Fraction	<init>	r1	205	0.3888279179941833	 
+org/apache/commons/math3/fraction/Fraction	<init>	a1	206	0.3888279179941833	 
+org/apache/commons/math3/fraction/Fraction	<init>	r0	179	0.37800888390254106	 
+org/apache/commons/math3/fraction/Fraction	<init>	overflow	178	0.3361983897038159	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	epsilon	187	0.32770507467052057	 
+org/apache/commons/math3/fraction/Fraction	<init>	stop	202	0.32160584507551626	 
+org/apache/commons/math3/util/FastMath	abs	x	2927	0.3116497199310018	 
+org/apache/commons/math3/fraction/Fraction	<init>	convergent	213	0.3060856911855706	 
+org/apache/commons/math3/fraction/Fraction	<init>	n	201	0.30540161147371964	 
+org/apache/commons/math3/fraction/Fraction	<init>	value	121	0.30000000000000004	 
+org/apache/commons/math3/fraction/Fraction	<init>	epsilon	121	0.30000000000000004	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxIterations	121	0.30000000000000004	 
+org/apache/commons/math3/util/FastMath	floor	x	3241	0.29662711419389576	 
+org/apache/commons/math3/util/FastMath	floor	y	3249	0.2762480478020299	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxIterations	214	0.25430150479593694	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	arr$	44	0.2106739571557189	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	i$	44	0.2106739571557189	 
+org/apache/commons/math3/exception/util/ExceptionContext	<init>	throwable	65	0.19281045751633985	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	this	87	0.19281045751633985	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	pattern	87	0.19281045751633985	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	arguments	88	0.19281045751633985	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	array	44	0.19281045751633985	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	len$	44	0.19281045751633985	 
+org/apache/commons/math3/exception/util/LocalizedFormats	<init>	sourceFormat	367	0.19055374592833874	 
+org/apache/commons/math3/exception/util/LocalizedFormats	<clinit>	this	44	0.19055374592833874	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	list	42	0.19035746063027575	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	o	44	0.14180619768070057	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	u	385	0.046047033042860896	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	v	386	0.0284916938640824	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	t	419	0.022448002934531086	 
+org/apache/commons/math3/fraction/Fraction	<init>	d	271	0.009438484196183039	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	k	406	0.0089738039893007	 
+org/apache/commons/math3/fraction/Fraction	<init>	num	271	0.008927665604337942	 
+org/apache/commons/math3/fraction/Fraction	<clinit>	this	42	0.008393285371702697	 
+org/apache/commons/math3/util/ArithmeticUtils	<clinit>	this	35	0.008393285371702697	 
+org/apache/commons/math3/util/FastMath	<clinit>	this	113	0.008393285371702697	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	p	385	0.008393285371702253	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	q	386	0.008393285371702253	 
+org/apache/commons/math3/util/FastMath	abs	x	2900	0.008393285371702253	 
+org/apache/commons/math3/fraction/Fraction	<init>	den	257	0.001525507811535487	 
+org/apache/commons/math3/exception/util/LocalizedFormats	values	this	39	0.0	 
+org/apache/commons/math3/exception/util/LocalizedFormats	valueOf	name	39	0.0	 

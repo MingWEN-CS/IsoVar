@@ -1,0 +1,19 @@
+org/jfree/data/time/Week	<init>	time	175	0.3666666666666667	oracle
+org/jfree/data/time/Week	<init>	time	189	0.3666666666666667	 
+org/jfree/data/time/Week	<init>	zone	192	0.3666666666666667	 
+org/jfree/data/time/Week	<init>	locale	195	0.3666666666666667	 
+org/jfree/data/time/Week	<init>	calendar	198	0.3666666666666667	 
+org/jfree/data/time/Week	<init>	tempWeek	204	0.3666666666666667	 
+org/jfree/data/time/Week	<init>	yyyy	212	0.3666666666666667	 
+org/jfree/data/time/Week	getWeek	this	248	0.33870967741935487	 
+org/jfree/data/time/Week	<init>	week	128	0.0	 
+org/jfree/data/time/Week	<init>	year	133	0.0	 
+org/jfree/data/time/Week	peg	calendar	288	0.0	 
+org/jfree/data/time/Week	peg	this	288	0.0	 
+org/jfree/data/time/Week	getFirstMillisecond	calendar	380	0.0	 
+org/jfree/data/time/Week	getFirstMillisecond	c	380	0.0	 
+org/jfree/data/time/Week	getFirstMillisecond	this	382	0.0	 
+org/jfree/data/time/Week	getLastMillisecond	calendar	405	0.0	 
+org/jfree/data/time/Week	getLastMillisecond	c	405	0.0	 
+org/jfree/data/time/Week	getLastMillisecond	this	407	0.0	 
+org/jfree/data/time/RegularTimePeriod	<clinit>	this	161	0.0	 

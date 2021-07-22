@@ -1,0 +1,5 @@
+org/apache/commons/lang/StringEscapeUtils	160	159	writer	Ljava/io/StringWriter;	false	3	true	escapeJavaStyleString	(Ljava/lang/String;ZZ)Ljava/lang/String;	fixed
+org/apache/commons/lang/StringEscapeUtils	160	155	str	Ljava/lang/String;	false	0	true	escapeJavaStyleString	(Ljava/lang/String;ZZ)Ljava/lang/String;	fixed
+org/apache/commons/lang/StringEscapeUtils	160	155	escapeSingleQuotes	Z	false	1	true	escapeJavaStyleString	(Ljava/lang/String;ZZ)Ljava/lang/String;	fixed
+org/apache/commons/lang/StringEscapeUtils	160	155	escapeForwardSlash	Z	false	2	true	escapeJavaStyleString	(Ljava/lang/String;ZZ)Ljava/lang/String;	fixed
+org/apache/commons/lang/StringEscapeUtils	245	180	escapeForwardSlash	Z	false	3	true	escapeJavaStyleString	(Ljava/io/Writer;Ljava/lang/String;ZZ)V	fixed

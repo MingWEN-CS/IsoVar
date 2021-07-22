@@ -1,0 +1,3 @@
+Closure	133
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtents
+s	com.google.javascript.jscomp.parsing.JsDocInfoParser	fixed:2401

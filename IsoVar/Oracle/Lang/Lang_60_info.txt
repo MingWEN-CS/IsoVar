@@ -1,0 +1,3 @@
+Lang	60
+t	org.apache.commons.lang.text.StrBuilderTest::testLang295
+s	org.apache.commons.lang.text.StrBuilder	fixed:1673	fixed:1730

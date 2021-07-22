@@ -1,0 +1,10 @@
+Chart	16
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex
+t	org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2
+s	org.jfree.data.category.DefaultIntervalCategoryDataset	fixed:207	fixed:338	fixed:208

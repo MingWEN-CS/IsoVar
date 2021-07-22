@@ -1,0 +1,12 @@
+org/apache/commons/math/complex/Complex	add	rhs	152	0.35106382978723405	oracle
+org/apache/commons/math/complex/Complex	add	this	153	0.35106382978723405	oracle
+org/apache/commons/math/util/MathUtils	checkNotNull	o	2331	0.2272727272727273	 
+org/apache/commons/math/util/MathUtils	<clinit>	this	85	0.14864864864864868	 
+org/apache/commons/math/complex/Complex	createComplex	realPart	997	0.12827225130890052	 
+org/apache/commons/math/complex/Complex	createComplex	imaginaryPart	997	0.12827225130890052	 
+org/apache/commons/math/complex/Complex	getReal	this	308	0.11224489795918369	 
+org/apache/commons/math/complex/Complex	getImaginary	this	299	0.1091370558375635	 
+org/apache/commons/math/complex/Complex	<init>	imaginary	92	0.01626661750732017	 
+org/apache/commons/math/complex/Complex	<init>	real	91	0.013185563450909488	 
+org/apache/commons/math/complex/Complex	<clinit>	this	52	0.010638297872340385	 
+org/apache/commons/math/complex/Complex	isNaN	this	319	0.0	 

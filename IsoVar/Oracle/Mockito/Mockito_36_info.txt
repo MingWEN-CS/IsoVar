@@ -1,0 +1,4 @@
+Mockito	36
+t	org.mockito.internal.invocation.InvocationTest::shouldScreamWhenCallingRealMethodOnInterface
+t	org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailInRuntimeWhenCallingRealMethodOnInterface
+s	org.mockito.internal.invocation.Invocation	fixed:205	fixed:204	fixed:203	fixed:11

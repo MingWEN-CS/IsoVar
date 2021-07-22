@@ -1,0 +1,4 @@
+Time	7
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear
+s	org.joda.time.format.DateTimeFormatter	buggy:710	fixed:708

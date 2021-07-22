@@ -1,0 +1,6 @@
+fix	org.mockito.internal.util.MockUtil	64	INS	newMethodInterceptorFilter
+fix	org.mockito.internal.util.MockUtil	64	INS	oldMockHandler
+buggy	org.mockito.internal.util.MockUtil	64	DEL	newMockHandler
+buggy	org.mockito.internal.util.MockUtil	64	DEL	oldMockHandler
+buggy	org.mockito.internal.util.MockUtil	65	DEL	newMockHandler
+buggy	org.mockito.internal.util.MockUtil	65	DEL	org.mockito.Mockito

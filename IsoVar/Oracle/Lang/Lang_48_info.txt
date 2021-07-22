@@ -1,0 +1,3 @@
+Lang	48
+t	org.apache.commons.lang.builder.EqualsBuilderTest::testBigDecimal
+s	org.apache.commons.lang.builder.EqualsBuilder	fixed:380	fixed:382	fixed:381	fixed:385

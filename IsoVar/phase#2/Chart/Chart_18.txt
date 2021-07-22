@@ -1,0 +1,49 @@
+org/jfree/data/DefaultKeyedValues	removeValue	this	316	0.556129	oracle
+org/jfree/data/DefaultKeyedValues	removeValue	index	333	0.550234	 
+org/jfree/data/DefaultKeyedValues	removeValue	index	316	0.500709	oracle
+org/jfree/data/DefaultKeyedValues	removeValue	key	333	0.485714	oracle
+org/jfree/data/DefaultKeyedValues	rebuildIndex	i	300	0.461874	 
+org/jfree/data/DefaultKeyedValues	rebuildIndex	this	299	0.459108	 
+org/jfree/data/DefaultKeyedValues	rebuildIndex	key	301	0.458333	 
+org/jfree/data/DefaultKeyedValues	addValue	value	197	0.430107	 
+org/jfree/data/DefaultKeyedValues	addValue	key	197	0.42	 
+org/jfree/data/DefaultKeyedValues	addValue	key	209	0.384615	 
+org/jfree/data/DefaultKeyedValues	addValue	value	209	0.384615	 
+org/jfree/data/DefaultKeyedValues	setValue	this	234	0.238513	 
+org/jfree/data/DefaultKeyedValues	setValue	keyIndex	232	0.234476	 
+org/jfree/data/DefaultKeyedValues	getIndex	i	153	0.187999	 
+org/jfree/data/DefaultKeyedValues	setValue	key	229	0.17826	 
+org/jfree/data/DefaultKeyedValues2D	setValue	row	323	0.148148	 
+org/jfree/data/DefaultKeyedValues	setValue	value	239	0.140371	 
+org/jfree/data/DefaultKeyedValues	getIndex	key	150	0.138915	 
+org/jfree/data/DefaultKeyedValues	getIndex	this	153	0.138889	 
+org/jfree/data/DefaultKeyedValues2D	setValue	rowIndex	320	0.122125	 
+org/jfree/data/DefaultKeyedValues2D	setValue	this	323	0.113405	 
+org/jfree/data/DefaultKeyedValues2D	setValue	columnKey	337	0.089705	 
+org/jfree/data/DefaultKeyedValues2D	setValue	rowKey	320	0.074711	 
+org/jfree/data/DefaultKeyedValues2D	setValue	value	337	0.070248	 
+org/jfree/data/DefaultKeyedValues2D	getRowIndex	key	182	0.069084	 
+org/jfree/data/DefaultKeyedValues2D	setValue	columnIndex	339	0.065956	 
+org/jfree/data/DefaultKeyedValues2D	addValue	value	303	0.056452	 
+org/jfree/data/DefaultKeyedValues2D	addValue	rowKey	303	0.056452	 
+org/jfree/data/DefaultKeyedValues2D	addValue	columnKey	303	0.056452	 
+org/jfree/data/DefaultKeyedValues2D	getRowIndex	this	185	0.051108	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	value	233	0.042551	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	rowKey	233	0.039063	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	columnKey	233	0.039063	 
+org/jfree/data/DefaultKeyedValues2D	<init>	sortRowKeys	107	0.022139	 
+org/jfree/data/category/DefaultCategoryDataset	removeColumn	this	350	0.000185	 
+org/jfree/data/DefaultKeyedValues2D	removeColumn	iterator	455	0.0	 
+org/jfree/data/DefaultKeyedValues2D	removeColumn	rowData	457	0.0	oracle
+org/jfree/data/DefaultKeyedValues2D	removeColumn	columnKey	458	0.0	oracle
+org/jfree/data/category/DefaultCategoryDataset	removeColumn	columnKey	350	0.0	 
+org/jfree/data/DefaultKeyedValues2D	removeColumn	this	455	-0.017944	oracle
+org/jfree/data/category/DefaultCategoryDataset	addValue	value	218	-0.057692	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	rowKey	218	-0.057692	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	columnKey	218	-0.057692	 
+org/jfree/data/category/DefaultCategoryDataset	addValue	this	218	-0.059653	 
+org/jfree/data/general/DatasetChangeEvent	<init>	source	71	-0.19869	 
+org/jfree/data/general/DatasetChangeEvent	<init>	dataset	72	-0.19869	 
+org/jfree/data/general/AbstractDataset	notifyListeners	i	185	-0.216413	 
+org/jfree/data/general/AbstractDataset	notifyListeners	this	184	-0.21708	 
+org/jfree/data/general/AbstractDataset	notifyListeners	listeners	185	-0.21708	 

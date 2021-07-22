@@ -1,0 +1,24 @@
+com/google/javascript/jscomp/ProcessCommonJSModules	<init>	reportDependencies	62	0.548233	 
+com/google/javascript/jscomp/ProcessCommonJSModules	<init>	filenamePrefix	60	0.545323	 
+com/google/javascript/jscomp/ProcessCommonJSModules	<init>	filenamePrefix	54	0.522044	 
+com/google/javascript/jscomp/ProcessCommonJSModules	normalizeSourceName	filename	120	0.481205	oracle
+com/google/javascript/jscomp/ProcessCommonJSModules	<init>	compiler	59	0.474892	 
+com/google/javascript/jscomp/ProcessCommonJSModules	guessCJSModuleName	filename	72	0.471559	 
+com/google/javascript/jscomp/ProcessCommonJSModules	<init>	compiler	54	0.451613	 
+com/google/javascript/jscomp/ProcessCommonJSModules	toModuleName	filename	89	0.440727	 
+com/google/javascript/jscomp/ProcessCommonJSModules	normalizeSourceName	this	120	0.429431	 
+com/google/javascript/jscomp/SourceFile	setCode	this	148	0.074915	 
+com/google/javascript/jscomp/SourceFile	<init>	fileName	82	0.061357	 
+com/google/javascript/jscomp/SourceFile	fromCode	fileName	323	0.061357	 
+com/google/javascript/jscomp/SourceFile	setCode	sourceCode	148	0.038963	 
+com/google/javascript/jscomp/SourceFile	fromCode	code	323	0.038963	 
+com/google/javascript/jscomp/SourceFile	access$000	x1	43	0.038963	 
+com/google/javascript/jscomp/SourceFile	access$000	x0	43	0.004274	 
+com/google/javascript/jscomp/SourceFile$Preloaded	<init>	fileName	422	0.004274	 
+com/google/javascript/jscomp/SourceFile$Preloaded	<init>	originalPath	423	0.004274	 
+com/google/javascript/jscomp/SourceFile$Preloaded	<init>	code	424	0.004274	 
+com/google/javascript/jscomp/SourceFile$Builder	buildFromCode	fileName	391	0.004274	 
+com/google/javascript/jscomp/SourceFile$Builder	buildFromCode	this	391	0.004274	 
+com/google/javascript/jscomp/SourceFile$Builder	buildFromCode	code	391	0.004274	 
+com/google/javascript/jscomp/SourceFile	setOriginalPath	originalPath	156	-0.019339	 
+com/google/javascript/jscomp/SourceFile	setOriginalPath	this	156	-0.019339	 

@@ -1,0 +1,39 @@
+org/apache/commons/lang3/math/NumberUtils	isNumber	hasExp	1325	0.5828257689488155	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	hasDecPoint	1326	0.5396127899351348	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	i	1333	0.5071408574407206	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	chars	1324	0.5060105461399051	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	allowSigns	1327	0.46686327118197685	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	str	1320	0.46166754376599006	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	sz	1324	0.45884304647074703	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	foundDigit	1328	0.44848906704444313	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	start	1330	0.44416105267750866	 
+org/apache/commons/lang3/StringUtils	isEmpty	cs	199	0.4095136631868068	 
+org/apache/commons/lang3/StringUtils	<clinit>	this	163	0.3928571428571428	 
+org/apache/commons/lang3/math/NumberUtils	<clinit>	this	41	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	str	453	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	lastChar	469	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	decPos	473	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	expPos	474	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	dec	482	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	mant	486	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	exp	500	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	numeric	505	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	506	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	525	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	d	539	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	580	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	582	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	d	590	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	str	613	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	i	616	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createFloat	str	635	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createDouble	str	651	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createInteger	str	668	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createLong	str	685	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createBigInteger	str	701	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createBigDecimal	str	717	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isDigits	str	1295	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isDigits	i	1298	0.0	 
+org/apache/commons/lang3/StringUtils	isBlank	cs	239	0.0	 
+org/apache/commons/lang3/StringUtils	isBlank	strLen	239	0.0	 
+org/apache/commons/lang3/StringUtils	isBlank	i	242	0.0	 

@@ -1,0 +1,14 @@
+fix	org.mockito.internal.invocation.InvocationMatcher	98	INS	m1
+fix	org.mockito.internal.invocation.InvocationMatcher	98	INS	m2
+buggy	org.mockito.internal.invocation.InvocationMatcher	99	MOV	m1
+fix	org.mockito.internal.invocation.InvocationMatcher	102	INS	params1.length
+fix	org.mockito.internal.invocation.InvocationMatcher	102	INS	params2.length
+fix	org.mockito.internal.invocation.InvocationMatcher	100	INS	params1
+fix	org.mockito.internal.invocation.InvocationMatcher	101	INS	params2
+fix	org.mockito.internal.invocation.InvocationMatcher	100	INS	m1
+fix	org.mockito.internal.invocation.InvocationMatcher	101	INS	m2
+fix	org.mockito.internal.invocation.InvocationMatcher	103	INS	i
+fix	org.mockito.internal.invocation.InvocationMatcher	103	INS	params1.length
+fix	org.mockito.internal.invocation.InvocationMatcher	104	INS	params1
+fix	org.mockito.internal.invocation.InvocationMatcher	104	INS	i
+fix	org.mockito.internal.invocation.InvocationMatcher	104	INS	params2

@@ -1,0 +1,4 @@
+Math	46
+t	org.apache.commons.math.complex.ComplexTest::testAtanI
+t	org.apache.commons.math.complex.ComplexTest::testDivideZero
+s	org.apache.commons.math.complex.Complex	fixed:260	fixed:297

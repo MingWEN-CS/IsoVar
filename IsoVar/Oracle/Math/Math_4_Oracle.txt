@@ -1,0 +1,2 @@
+org/apache/commons/math3/geometry/euclidean/threed/SubLine	114	113	v1D	Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;	false	3	false	intersection	(Lorg/apache/commons/math3/geometry/euclidean/threed/SubLine;Z)Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;	fixed
+org/apache/commons/math3/geometry/euclidean/twod/SubLine	118	117	v2D	Lorg/apache/commons/math3/geometry/euclidean/twod/Vector2D;	false	5	false	intersection	(Lorg/apache/commons/math3/geometry/euclidean/twod/SubLine;Z)Lorg/apache/commons/math3/geometry/euclidean/twod/Vector2D;	fixed

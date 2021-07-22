@@ -1,0 +1,4 @@
+org/jfree/chart/util/ShapeUtilities	275	265	p1	Ljava/awt/geom/GeneralPath;	false	0	true	equal	(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	buggy
+org/jfree/chart/util/ShapeUtilities	275	275	iterator2	Ljava/awt/geom/PathIterator;	true	3	true	equal	(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	buggy
+org/jfree/chart/util/ShapeUtilities	275	265	p2	Ljava/awt/geom/GeneralPath;	false	1	true	equal	(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	fixed
+org/jfree/chart/util/ShapeUtilities	275	275	iterator2	Ljava/awt/geom/PathIterator;	true	3	true	equal	(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	fixed

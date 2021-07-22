@@ -1,0 +1,4 @@
+Closure	62
+t	com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1
+t	com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2
+s	com.google.javascript.jscomp.LightweightMessageFormatter	fixed:97

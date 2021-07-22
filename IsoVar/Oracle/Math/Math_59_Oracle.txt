@@ -1,0 +1,12 @@
+org/apache/commons/math/util/FastMath	3482	3482	a	F	false	0	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	a	F	false	0	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	buggy
+org/apache/commons/math/util/FastMath	3482	3482	a	F	false	0	true	max	(FF)F	fixed
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	fixed
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	fixed
+org/apache/commons/math/util/FastMath	3482	3482	a	F	false	0	true	max	(FF)F	fixed
+org/apache/commons/math/util/FastMath	3482	3482	b	F	false	1	true	max	(FF)F	fixed
+org/apache/commons/math/util/FastMath	3482	3482	a	F	false	0	true	max	(FF)F	fixed

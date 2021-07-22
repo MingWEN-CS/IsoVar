@@ -1,0 +1,5 @@
+Closure	41
+t	com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue368
+t	com.google.javascript.jscomp.TypeCheckTest::testMethodInference6
+s	com.google.javascript.jscomp.FunctionTypeBuilder	fixed:292	fixed:490	fixed:294	fixed:293	fixed:491	fixed:487	fixed:486	fixed:489	fixed:488

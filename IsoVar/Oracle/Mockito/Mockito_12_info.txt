@@ -1,0 +1,12 @@
+Mockito	12
+t	org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics
+t	org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor
+t	org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay
+t	org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList
+t	org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor
+t	org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor
+t	org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage
+t	org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton
+t	org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass
+t	org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses
+s	org.mockito.internal.util.reflection.GenericMaster	fixed:25	fixed:24	fixed:20	fixed:22

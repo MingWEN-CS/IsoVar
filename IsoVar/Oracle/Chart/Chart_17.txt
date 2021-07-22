@@ -1,0 +1,6 @@
+fix	org.jfree.data.time.TimeSeries	858	INS	clone.data
+fix	org.jfree.data.time.TimeSeries	857	INS	clone
+fix	org.jfree.data.time.TimeSeries	858	INS	ObjectUtilities
+fix	org.jfree.data.time.TimeSeries	858	INS	data
+buggy	org.jfree.data.time.TimeSeries	857	DEL	createCopy
+buggy	org.jfree.data.time.TimeSeries	857	DEL	getItemCount

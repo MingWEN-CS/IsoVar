@@ -1,0 +1,16 @@
+fix	com.google.javascript.jscomp.TypedScopeCreator	420	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	548	INS	n
+fix	com.google.javascript.jscomp.TypedScopeCreator	548	INS	NodeUtil
+fix	com.google.javascript.jscomp.TypedScopeCreator	549	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	589	INS	info
+fix	com.google.javascript.jscomp.TypedScopeCreator	550	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	588	INS	info
+fix	com.google.javascript.jscomp.TypedScopeCreator	590	INS	info
+fix	com.google.javascript.jscomp.TypedScopeCreator	550	INS	objLit
+fix	com.google.javascript.jscomp.TypedScopeCreator	553	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	588	INS	n
+fix	com.google.javascript.jscomp.TypedScopeCreator	591	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	594	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	551	INS	defineObjectLiteral
+fix	com.google.javascript.jscomp.TypedScopeCreator	592	INS	lentObjectLiterals
+fix	com.google.javascript.jscomp.TypedScopeCreator	592	INS	Lists

@@ -1,0 +1,3 @@
+Math	82
+t	org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath288
+s	org.apache.commons.math.optimization.linear.SimplexSolver	fixed:82

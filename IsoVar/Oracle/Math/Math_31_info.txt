@@ -1,0 +1,4 @@
+Math	31
+t	org.apache.commons.math3.distribution.BinomialDistributionTest::testMath718
+t	org.apache.commons.math3.distribution.FDistributionTest::testMath785
+s	org.apache.commons.math3.util.ContinuedFraction	fixed:151	fixed:150	fixed:142	fixed:141	fixed:152	fixed:144	fixed:143	fixed:146	fixed:168	fixed:145	fixed:167	fixed:147	fixed:169	buggy:135	buggy:134

@@ -1,0 +1,5 @@
+Closure	6
+t	com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue635b
+t	com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition
+s	com.google.javascript.jscomp.TypeValidator	buggy:405	buggy:407	buggy:406	buggy:368	buggy:367	buggy:385	buggy:366	buggy:409

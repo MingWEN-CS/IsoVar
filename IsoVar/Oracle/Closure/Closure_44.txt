@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.CodeConsumer	194	INS	c
+fix	com.google.javascript.jscomp.CodeConsumer	194	INS	getLastChar
+fix	com.google.javascript.jscomp.CodeConsumer	200	INS	append

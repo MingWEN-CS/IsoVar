@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	389	INS	right
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	389	INS	Token.STRING
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	376	INS	right
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	376	INS	NodeUtil
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	390	INS	","
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	390	INS	right
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	392	INS	n
+fix	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	393	INS	reportCodeChange

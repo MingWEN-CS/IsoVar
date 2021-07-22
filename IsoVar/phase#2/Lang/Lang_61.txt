@@ -1,0 +1,29 @@
+org/apache/commons/lang/text/StrBuilder	indexOf	strLen	1765	0.641589	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	this	1762	0.618723	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	str	1762	0.601903	 
+org/apache/commons/lang/text/StrBuilder	indexOf	startIndex	1761	0.567491	 
+org/apache/commons/lang/text/StrBuilder	deleteAll	str	1184	0.527175	 
+org/apache/commons/lang/text/StrBuilder	deleteAll	len	1184	0.526637	 
+org/apache/commons/lang/text/StrBuilder	deleteAll	index	1186	0.518322	 
+org/apache/commons/lang/text/StrBuilder	indexOf	j	1779	0.512281	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	len	1202	0.50614	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	index	1204	0.500719	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	str	1202	0.489111	 
+org/apache/commons/lang/text/StrBuilder	indexOf	str	1747	0.484994	 
+org/apache/commons/lang/text/StrBuilder	indexOf	i	1778	0.476135	 
+org/apache/commons/lang/text/StrBuilder	indexOf	len	1776	0.472997	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	thisBuf	1776	0.468164	oracle
+org/apache/commons/lang/text/StrBuilder	deleteImpl	this	1114	0.437387	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	startIndex	1114	0.436285	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	endIndex	1114	0.435674	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	len	1115	0.427437	 
+org/apache/commons/lang/text/StrBuilder	<init>	str	122	0.190994	 
+org/apache/commons/lang/text/StrBuilder	append	this	476	0.174153	 
+org/apache/commons/lang/text/StrBuilder	append	strLen	472	0.153925	 
+org/apache/commons/lang/text/StrBuilder	append	str	469	0.108924	 
+org/apache/commons/lang/text/StrBuilder	append	len	474	0.104219	 
+org/apache/commons/lang/text/StrBuilder	length	this	182	0.058462	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	this	228	0.040396	 
+org/apache/commons/lang/text/StrMatcher	<clinit>	this	37	0.004673	 
+org/apache/commons/lang/text/StrMatcher$CharMatcher	<init>	ch	294	0.004673	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	capacity	228	-0.0013	 

@@ -1,0 +1,2 @@
+fix	org.mockito.internal.util.reflection.GenericMetadataSupport	79	INS	typeParameter
+fix	org.mockito.internal.util.reflection.GenericMetadataSupport	79	INS	actualTypeArgument

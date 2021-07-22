@@ -1,0 +1,4 @@
+Mockito	33
+t	org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldStubbingWork
+t	org.mockitousage.bugs.InheritedGenericsPolimorphicCallTest::shouldVerificationWorks
+s	org.mockito.internal.invocation.InvocationMatcher	fixed:106	fixed:105	fixed:108	fixed:107	fixed:109	fixed:100	fixed:110	fixed:98	fixed:102	fixed:101	fixed:104	fixed:103

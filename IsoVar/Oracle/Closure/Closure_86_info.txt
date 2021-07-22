@@ -1,0 +1,9 @@
+Closure	86
+t	com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b
+t	com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303
+s	com.google.javascript.jscomp.NodeUtil	fixed:2465

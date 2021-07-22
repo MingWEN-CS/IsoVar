@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.CheckGlobalThis	115	INS	gramps
+fix	com.google.javascript.jscomp.CheckGlobalThis	116	INS	NodeUtil
+fix	com.google.javascript.jscomp.CheckGlobalThis	115	INS	parent
+fix	com.google.javascript.jscomp.CheckGlobalThis	118	INS	maybeLends
+fix	com.google.javascript.jscomp.CheckGlobalThis	117	INS	maybeLends
+fix	com.google.javascript.jscomp.CheckGlobalThis	117	INS	gramps
+fix	com.google.javascript.jscomp.CheckGlobalThis	119	INS	maybeLends
+fix	com.google.javascript.jscomp.CheckGlobalThis	120	INS	maybeLends

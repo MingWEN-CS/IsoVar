@@ -1,0 +1,3 @@
+Math	44
+t	org.apache.commons.math.ode.events.EventStateTest::testIssue695
+s	org.apache.commons.math.ode.AbstractIntegrator	fixed:347	buggy:280	fixed:333	fixed:335	fixed:346	fixed:334	fixed:345

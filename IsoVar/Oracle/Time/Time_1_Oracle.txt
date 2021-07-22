@@ -1,0 +1,10 @@
+org/joda/time/field/UnsupportedDurationField	227	227	durationField	Lorg/joda/time/DurationField;	false	1	false	compareTo	(Lorg/joda/time/DurationField;)I	buggy
+org/joda/time/Partial	221	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	217	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	226	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	212	lastUnitField	Lorg/joda/time/DurationField;	false	4	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	226	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	212	lastUnitField	Lorg/joda/time/DurationField;	false	4	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	230	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed
+org/joda/time/Partial	218	212	lastUnitField	Lorg/joda/time/DurationField;	false	4	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	fixed

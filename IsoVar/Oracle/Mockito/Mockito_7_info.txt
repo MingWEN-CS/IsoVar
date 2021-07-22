@@ -1,0 +1,3 @@
+Mockito	7
+t	org.mockitousage.bugs.deepstubs.DeepStubFailingWhenGenricNestedAsRawTypeTest::discoverDeepMockingOfGenerics
+s	org.mockito.internal.util.reflection.GenericMetadataSupport	fixed:379

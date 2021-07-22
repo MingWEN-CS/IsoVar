@@ -1,0 +1,24 @@
+org/apache/commons/lang3/math/NumberUtils	createNumber	exp	571	0.6928324857806281	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	dec	492	0.6451590342673029	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	expPos	481	0.6145593079879552	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	decPos	480	0.5718850974186351	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	mant	496	0.5345202809330596	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	593	0.5015518742873636	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	len$	460	0.4765929118818274	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	591	0.4201837401589185	 
+org/apache/commons/lang3/math/NumberUtils	createFloat	str	643	0.4093475836866776	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	i	624	0.40919876076747186	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	str	621	0.40589024205779356	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	str	451	0.39924059744204343	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	hex_prefixes	460	0.38888888888888884	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	numDecimals	485	0.38342566241924186	oracle
+org/apache/commons/lang3/StringUtils	isBlank	strLen	257	0.3791746461015427	 
+org/apache/commons/lang3/StringUtils	isBlank	cs	257	0.3791652034078273	 
+org/apache/commons/lang3/StringUtils	isBlank	i	260	0.37912319781628984	 
+org/apache/commons/lang3/StringUtils	<clinit>	this	181	0.36956521739130443	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	i$	460	0.36687344312069303	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfxLen	459	0.364985553949782	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	lastChar	476	0.3542884247660351	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	arr$	460	0.33765139638049013	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfx	460	0.3306828892865034	 
+org/apache/commons/lang3/math/NumberUtils	<clinit>	this	34	0.0	 

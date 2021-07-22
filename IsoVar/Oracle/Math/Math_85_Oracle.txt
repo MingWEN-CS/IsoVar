@@ -1,0 +1,6 @@
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	191	fa	D	false	12	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	buggy
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	193	fb	D	false	14	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	buggy
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	191	fa	D	false	12	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	buggy
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	193	fb	D	false	14	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	buggy
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	191	fa	D	false	12	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fixed
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	198	193	fb	D	false	14	true	bracket	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fixed

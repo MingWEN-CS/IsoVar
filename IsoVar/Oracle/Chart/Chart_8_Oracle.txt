@@ -1,0 +1,3 @@
+org/jfree/data/time/Week	175	175	time	Ljava/util/Date;	false	1	false	<init>	(Ljava/util/Date;Ljava/util/TimeZone;)V	buggy
+org/jfree/data/time/Week	175	175	time	Ljava/util/Date;	false	1	false	<init>	(Ljava/util/Date;Ljava/util/TimeZone;)V	fixed
+org/jfree/data/time/Week	175	175	zone	Ljava/util/TimeZone;	false	2	false	<init>	(Ljava/util/Date;Ljava/util/TimeZone;)V	fixed

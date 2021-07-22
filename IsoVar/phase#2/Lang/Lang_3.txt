@@ -1,0 +1,24 @@
+org/apache/commons/lang3/math/NumberUtils	createNumber	exp	571	0.69542	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	dec	492	0.647747	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	expPos	481	0.616889	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	decPos	480	0.57376	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	mant	496	0.537108	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	593	0.501552	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	len$	460	0.476593	 
+org/apache/commons/lang3/StringUtils	isBlank	i	260	0.446625	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	591	0.422771	 
+org/apache/commons/lang3/math/NumberUtils	createFloat	str	643	0.411562	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	i	624	0.411443	 
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	str	621	0.408478	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	str	451	0.400969	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	hex_prefixes	460	0.391476	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	numDecimals	485	0.386013	oracle
+org/apache/commons/lang3/StringUtils	isBlank	cs	257	0.379165	 
+org/apache/commons/lang3/StringUtils	isBlank	strLen	257	0.376195	 
+org/apache/commons/lang3/StringUtils	<clinit>	this	181	0.369565	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfxLen	459	0.367573	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	i$	460	0.366873	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	lastChar	476	0.356017	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	arr$	460	0.337651	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfx	460	0.33327	 
+org/apache/commons/lang3/math/NumberUtils	<clinit>	this	34	0.0	 

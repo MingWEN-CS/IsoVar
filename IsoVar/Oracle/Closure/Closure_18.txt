@@ -1,0 +1,2 @@
+buggy	com.google.javascript.jscomp.Compiler	1288	DEL	options.closurePass
+buggy	com.google.javascript.jscomp.Compiler	1288	DEL	options.dependencyOptions

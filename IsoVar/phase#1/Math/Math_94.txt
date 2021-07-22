@@ -1,0 +1,4 @@
+org/apache/commons/math/util/MathUtils	gcd	v	412	0.48252165567464483	oracle
+org/apache/commons/math/util/MathUtils	gcd	u	412	0.44415191285384453	oracle
+org/apache/commons/math/util/MathUtils	gcd	k	427	0.0	 
+org/apache/commons/math/util/MathUtils	gcd	t	439	0.0	 

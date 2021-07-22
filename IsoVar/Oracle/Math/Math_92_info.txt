@@ -1,0 +1,3 @@
+Math	92
+t	org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge
+s	org.apache.commons.math.util.MathUtils	fixed:193	fixed:270	fixed:194	fixed:271	fixed:197	fixed:196	fixed:273	fixed:199	fixed:198	fixed:315	fixed:314	fixed:316	buggy:188	buggy:187	buggy:184	buggy:186	buggy:185	fixed:322	fixed:247	fixed:324	fixed:202	fixed:323	fixed:249	fixed:248	fixed:209	fixed:250	fixed:252	fixed:251	fixed:210	fixed:254	fixed:253	fixed:212	fixed:256	fixed:211	fixed:255	fixed:258	fixed:257	fixed:216	fixed:259	fixed:218	fixed:217	fixed:219	fixed:261	fixed:260	fixed:186	fixed:263	fixed:185	fixed:262	fixed:265	fixed:220	fixed:264	fixed:266	fixed:269	fixed:268

@@ -1,0 +1,8 @@
+buggy	org.apache.commons.math.util.MathUtils	412	UPD	u
+buggy	org.apache.commons.math.util.MathUtils	412	UPD	v
+fix	org.apache.commons.math.util.MathUtils	412	INS	u
+fix	org.apache.commons.math.util.MathUtils	412	INS	v
+buggy	org.apache.commons.math.util.MathUtils	412	MOV	u
+buggy	org.apache.commons.math.util.MathUtils	412	MOV	v
+buggy	org.apache.commons.math.util.MathUtils	412	DEL	u
+buggy	org.apache.commons.math.util.MathUtils	412	DEL	v

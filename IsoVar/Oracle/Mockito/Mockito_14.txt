@@ -1,0 +1,7 @@
+fix	org.mockito.internal.MockHandler	20	INS	org.mockito.internal.verification.MockAwareVerificationMode
+fix	org.mockito.internal.MockHandler	77	INS	verificationMode
+fix	org.mockito.internal.MockHandler	77	INS	invocation
+fix	org.mockito.internal.MockitoCore	23	INS	org.mockito.internal.verification.MockAwareVerificationMode
+fix	org.mockito.internal.MockitoCore	74	INS	mock
+fix	org.mockito.internal.MockitoCore	74	INS	mode
+buggy	org.mockito.internal.MockitoCore	73	DEL	mockingProgress

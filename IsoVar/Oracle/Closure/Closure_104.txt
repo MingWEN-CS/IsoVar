@@ -1,0 +1,2 @@
+fix	com.google.javascript.rhino.jstype.UnionType	291	INS	result
+buggy	com.google.javascript.rhino.jstype.UnionType	291	DEL	result

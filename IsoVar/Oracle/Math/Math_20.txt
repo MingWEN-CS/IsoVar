@@ -1,0 +1,4 @@
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	921	INS	boundaries
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	921	INS	isRepairMode
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	922	INS	decode
+fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	922	INS	repair

@@ -1,0 +1,4 @@
+Closure	71
+t	com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6
+t	com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8
+s	com.google.javascript.jscomp.CheckAccessControls	fixed:416

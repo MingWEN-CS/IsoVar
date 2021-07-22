@@ -1,0 +1,9 @@
+Time	24
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012
+t	org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016
+s	org.joda.time.format.DateTimeParserBucket	fixed:359	fixed:358	fixed:355	fixed:357	fixed:356

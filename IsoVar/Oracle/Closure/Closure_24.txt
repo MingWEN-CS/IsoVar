@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.ScopedAliases	287	INS	v
+fix	com.google.javascript.jscomp.ScopedAliases	290	INS	parent
+fix	com.google.javascript.jscomp.ScopedAliases	290	INS	Token.LP

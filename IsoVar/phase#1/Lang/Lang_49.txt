@@ -1,0 +1,13 @@
+org/apache/commons/lang/math/Fraction	reduce	gcd	466	0.42857142857142866	 
+org/apache/commons/lang/math/Fraction	reduce	this	466	0.4285714285714286	oracle
+org/apache/commons/lang/math/Fraction	greatestCommonDivisor	u	571	0.2883000055037865	 
+org/apache/commons/lang/math/Fraction	getFraction	numerator	146	0.24951817914056706	 
+org/apache/commons/lang/math/Fraction	greatestCommonDivisor	t	590	0.23832621217363004	 
+org/apache/commons/lang/math/Fraction	greatestCommonDivisor	v	571	0.23277070130968552	 
+org/apache/commons/lang/math/Fraction	greatestCommonDivisor	k	581	0.19431579176354652	 
+org/apache/commons/lang/math/Fraction	getFraction	denominator	142	0.18121217430269027	 
+org/apache/commons/lang/math/Fraction	getDenominator	this	377	0.030612244897959218	 
+org/apache/commons/lang/math/Fraction	<init>	numerator	126	0.0	 
+org/apache/commons/lang/math/Fraction	<init>	denominator	127	0.0	 
+org/apache/commons/lang/math/Fraction	<clinit>	this	48	0.0	 
+org/apache/commons/lang/math/Fraction	getNumerator	this	368	0.0	 

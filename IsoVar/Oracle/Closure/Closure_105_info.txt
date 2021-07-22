@@ -1,0 +1,3 @@
+Closure	105
+t	com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd
+s	com.google.javascript.jscomp.FoldConstants	fixed:1483	fixed:1494	fixed:1484	fixed:1485	fixed:1490	fixed:1502	fixed:1477

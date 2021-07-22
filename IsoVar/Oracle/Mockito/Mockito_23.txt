@@ -1,0 +1,11 @@
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	61	INS	instantiateMockitoCoreIfNeeded
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	67	INS	instantiateDelegateIfNeeded
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	136	INS	SerializableAnswer
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	62	INS	mockitoCore
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	68	INS	delegate
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	52	INS	instantiateMockitoCoreIfNeeded
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	53	INS	instantiateDelegateIfNeeded
+buggy	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	99	MOV	mockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	112	INS	mockSettings
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	63	INS	mockitoCore
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	69	INS	delegate

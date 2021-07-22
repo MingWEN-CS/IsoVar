@@ -1,0 +1,3 @@
+Lang	49
+t	org.apache.commons.lang.math.FractionTest::testReduce
+s	org.apache.commons.lang.math.Fraction	fixed:468	fixed:467	fixed:466

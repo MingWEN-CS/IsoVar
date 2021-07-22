@@ -1,0 +1,17 @@
+buggy	org.apache.commons.math.analysis.BrentSolver	138	UPD	sign
+fix	org.apache.commons.math.analysis.BrentSolver	153	INS	sign
+fix	org.apache.commons.math.analysis.BrentSolver	140	INS	Math
+fix	org.apache.commons.math.analysis.BrentSolver	140	INS	functionValueAccuracy
+fix	org.apache.commons.math.analysis.BrentSolver	143	INS	Math
+fix	org.apache.commons.math.analysis.BrentSolver	143	INS	functionValueAccuracy
+fix	org.apache.commons.math.analysis.BrentSolver	158	INS	yMin
+fix	org.apache.commons.math.analysis.BrentSolver	141	INS	setResult
+fix	org.apache.commons.math.analysis.BrentSolver	142	INS	ret
+fix	org.apache.commons.math.analysis.BrentSolver	142	INS	min
+fix	org.apache.commons.math.analysis.BrentSolver	144	INS	setResult
+fix	org.apache.commons.math.analysis.BrentSolver	145	INS	ret
+fix	org.apache.commons.math.analysis.BrentSolver	145	INS	max
+fix	org.apache.commons.math.analysis.BrentSolver	159	INS	ret
+fix	org.apache.commons.math.analysis.BrentSolver	159	INS	min
+fix	org.apache.commons.math.analysis.BrentSolver	161	INS	ret
+fix	org.apache.commons.math.analysis.BrentSolver	161	INS	max

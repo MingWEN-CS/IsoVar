@@ -1,0 +1,14 @@
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	end
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	seqEnd
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	input
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	semiNext
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	end
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	seqEnd
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	input
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	50	INS	start
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	50	INS	seqEnd
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	86	INS	semiNext
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	58	INS	input
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	59	INS	input
+buggy	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	54	UPD	input
+buggy	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	54	MOV	input

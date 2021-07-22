@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection	431	422	ref	Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;	false	1	false	isAssignedOnceInLifetime	()Z	fixed
+com/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection	431	422	ref	Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;	false	1	false	isAssignedOnceInLifetime	()Z	fixed
+com/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection	431	422	ref	Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;	false	1	false	isAssignedOnceInLifetime	()Z	fixed
+com/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection	431	422	ref	Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;	false	1	false	isAssignedOnceInLifetime	()Z	fixed

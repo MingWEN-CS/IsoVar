@@ -1,0 +1,11 @@
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2541	this	Lorg/joda/time/format/DateTimeFormatterBuilder$TimeZoneId;	false	0	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2542	validValues	Ljava/util/Set;	true	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2542	validValues	Ljava/util/Set;	false	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2542	validValues	Ljava/util/Set;	false	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2542	maxLength	I	true	6	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2544	2541	bucket	Lorg/joda/time/format/DateTimeParserBucket;	false	1	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2550	2546	b	C	false	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2542	2542	validValues	Ljava/util/Set;	true	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2552	2541	position	I	false	3	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2546	2546	b	C	true	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatterBuilder$TimeZoneId	2546	2546	b	C	true	5	false	parseInto	(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	fixed

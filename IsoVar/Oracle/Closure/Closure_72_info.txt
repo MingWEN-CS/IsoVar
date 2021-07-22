@@ -1,0 +1,4 @@
+Closure	72
+t	com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31
+s	com.google.javascript.jscomp.FunctionToBlockMutator	fixed:153	fixed:152
+s	com.google.javascript.jscomp.RenameLabels	fixed:215

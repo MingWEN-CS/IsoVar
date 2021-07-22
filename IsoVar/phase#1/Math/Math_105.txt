@@ -1,0 +1,6 @@
+org/apache/commons/math/stat/regression/SimpleRegression	addData	x	107	0.03902455958426532	 
+org/apache/commons/math/stat/regression/SimpleRegression	addData	y	108	0.03902455958426532	 
+org/apache/commons/math/stat/regression/SimpleRegression	addData	this	106	0.019718110247020748	 
+org/apache/commons/math/stat/regression/SimpleRegression	addData	dx	110	0.0	 
+org/apache/commons/math/stat/regression/SimpleRegression	addData	dy	111	0.0	 
+org/apache/commons/math/stat/regression/SimpleRegression	getSumSquaredErrors	this	264	0.0	oracle

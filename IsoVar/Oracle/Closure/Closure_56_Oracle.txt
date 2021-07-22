@@ -1,0 +1,7 @@
+com/google/javascript/jscomp/SourceFile	242	231	pos	I	false	3	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	242	211	js	Ljava/lang/String;	false	2	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	242	231	pos	I	false	3	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	242	211	js	Ljava/lang/String;	false	2	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	245	211	js	Ljava/lang/String;	false	2	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	245	231	pos	I	false	3	false	getLine	(I)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/SourceFile	245	211	js	Ljava/lang/String;	false	2	false	getLine	(I)Ljava/lang/String;	fixed

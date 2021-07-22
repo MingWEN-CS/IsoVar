@@ -1,0 +1,24 @@
+Chart	4
+t	org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange1
+t	org.jfree.chart.axis.junit.LogAxisTests::testXYAutoRange2
+t	org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange1
+t	org.jfree.chart.axis.junit.NumberAxisTests::testXYAutoRange2
+t	org.jfree.chart.axis.junit.ValueAxisTests::testAxisMargins
+t	org.jfree.chart.junit.JFreeChartTests::testSerialization4
+t	org.jfree.chart.junit.ScatterPlotTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.ScatterPlotTests::testSetSeriesToolTipGenerator
+t	org.jfree.chart.junit.ScatterPlotTests::testReplaceDataset
+t	org.jfree.chart.junit.TimeSeriesChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.TimeSeriesChartTests::testSetSeriesToolTipGenerator
+t	org.jfree.chart.junit.TimeSeriesChartTests::testReplaceDataset
+t	org.jfree.chart.junit.XYAreaChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.XYAreaChartTests::testSetSeriesToolTipGenerator
+t	org.jfree.chart.junit.XYAreaChartTests::testReplaceDataset
+t	org.jfree.chart.junit.XYStepAreaChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.XYStepAreaChartTests::testSetSeriesToolTipGenerator
+t	org.jfree.chart.junit.XYStepAreaChartTests::testReplaceDataset
+t	org.jfree.chart.junit.XYStepChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.XYStepChartTests::testSetSeriesToolTipGenerator
+t	org.jfree.chart.junit.XYStepChartTests::testReplaceDataset
+t	org.jfree.chart.plot.junit.XYPlotTests::testDrawRangeGridlines
+s	org.jfree.chart.plot.XYPlot	fixed:4493	fixed:4502

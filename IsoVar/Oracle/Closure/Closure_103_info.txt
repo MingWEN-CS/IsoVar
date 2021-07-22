@@ -1,0 +1,6 @@
+Closure	103
+t	com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException
+t	com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf
+t	com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty
+s	com.google.javascript.jscomp.ControlFlowAnalysis	fixed:894
+s	com.google.javascript.jscomp.DisambiguateProperties	fixed:765	fixed:769	fixed:771	fixed:770	fixed:772	fixed:764	fixed:763

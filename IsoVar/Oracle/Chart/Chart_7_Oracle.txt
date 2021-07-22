@@ -1,0 +1,8 @@
+org/jfree/data/time/TimePeriodValues	300	296	this	Lorg/jfree/data/time/TimePeriodValues;	false	0	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	buggy
+org/jfree/data/time/TimePeriodValues	300	300	s	J	true	9	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	buggy
+org/jfree/data/time/TimePeriodValues	302	296	this	Lorg/jfree/data/time/TimePeriodValues;	false	0	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	buggy
+org/jfree/data/time/TimePeriodValues	302	302	e	J	true	11	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	buggy
+org/jfree/data/time/TimePeriodValues	300	296	this	Lorg/jfree/data/time/TimePeriodValues;	false	0	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	fixed
+org/jfree/data/time/TimePeriodValues	300	300	s	J	true	9	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	fixed
+org/jfree/data/time/TimePeriodValues	302	296	this	Lorg/jfree/data/time/TimePeriodValues;	false	0	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	fixed
+org/jfree/data/time/TimePeriodValues	302	302	e	J	true	11	false	updateBounds	(Lorg/jfree/data/time/TimePeriod;I)V	fixed

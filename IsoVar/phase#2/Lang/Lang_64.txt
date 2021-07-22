@@ -1,0 +1,18 @@
+org/apache/commons/lang/enums/ValuedEnum	compareTo	this	183	0.422078	oracle
+org/apache/commons/lang/enums/ValuedEnum	compareTo	other	183	0.422078	oracle
+org/apache/commons/lang/enums/ValuedEnum	<init>	name	126	0.306818	 
+org/apache/commons/lang/enums/ValuedEnum	<init>	value	127	0.306818	 
+org/apache/commons/lang/enums/Enum	createEntry	enumClass	485	0.161505	 
+org/apache/commons/lang/enums/Enum	createEntry	this	486	0.161505	 
+org/apache/commons/lang/enums/Enum	createEntry	cls	485	0.138955	 
+org/apache/commons/lang/enums/Enum	init	name	327	0.044841	 
+org/apache/commons/lang/enums/Enum	init	enumClass	331	0.043851	 
+org/apache/commons/lang/enums/Enum	init	this	337	0.042502	 
+org/apache/commons/lang/enums/Enum	init	entry	349	0.039751	 
+org/apache/commons/lang/enums/Enum	init	ok	336	0.034215	 
+org/apache/commons/lang/enums/Enum	createEntry	entry	484	0.027378	 
+org/apache/commons/lang/enums/Enum	init	cls	335	0.023065	 
+org/apache/commons/lang/StringUtils	isEmpty	str	185	0.022208	 
+org/apache/commons/lang/enums/Enum	<init>	name	313	0.022059	 
+org/apache/commons/lang/enums/Enum	class$	x0	337	0.007143	 
+org/apache/commons/lang/enums/Enum	<clinit>	this	249	0.003546	 

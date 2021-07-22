@@ -1,0 +1,10 @@
+org/apache/commons/lang/LocaleUtils	toLocale	ch3	113	0.348961	oracle
+org/apache/commons/lang/LocaleUtils	toLocale	len	98	0.336238	 
+org/apache/commons/lang/LocaleUtils	toLocale	str	95	0.328324	oracle
+org/apache/commons/lang/LocaleUtils	toLocale	ch4	114	0.310666	 
+org/apache/commons/lang/LocaleUtils	toLocale	ch1	103	0.293194	 
+org/apache/commons/lang/LocaleUtils	toLocale	ch0	102	0.289808	 
+org/apache/commons/lang/LocaleUtils	<clinit>	this	47	0.0	 
+org/apache/commons/lang/LocaleUtils	<clinit>	list	51	0.0	 
+org/apache/commons/lang/LocaleUtils	availableLocaleList	this	192	0.0	 
+org/apache/commons/lang/LocaleUtils	isAvailableLocale	locale	223	0.0	 

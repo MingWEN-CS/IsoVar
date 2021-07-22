@@ -1,0 +1,12 @@
+org/apache/commons/lang/Entities	832	826	writer	Ljava/io/Writer;	false	1	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	831	828	c	I	false	5	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	831	827	i	I	false	4	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	831	826	len	I	false	3	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	834	826	writer	Ljava/io/Writer;	false	1	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	833	826	writer	Ljava/io/Writer;	false	1	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	833	828	c	I	false	5	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	836	828	c	I	false	5	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	835	835	i	I	true	4	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	828	826	str	Ljava/lang/String;	false	2	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	828	827	i	I	false	4	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed
+org/apache/commons/lang/Entities	828	828	c	I	true	5	false	escape	(Ljava/io/Writer;Ljava/lang/String;)V	fixed

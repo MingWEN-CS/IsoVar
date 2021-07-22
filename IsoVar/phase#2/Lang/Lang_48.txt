@@ -1,0 +1,5 @@
+org/apache/commons/lang/builder/EqualsBuilder	append	this	368	0.212379	oracle
+org/apache/commons/lang/builder/EqualsBuilder	append	rhs	371	0.206376	oracle
+org/apache/commons/lang/builder/EqualsBuilder	append	lhsClass	378	0.126667	 
+org/apache/commons/lang/builder/EqualsBuilder	append	lhs	371	0.123353	oracle
+org/apache/commons/lang/builder/EqualsBuilder	isEquals	this	831	0.005376	 

@@ -1,0 +1,14 @@
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockHandler	84	59	this	Lorg/mockito/internal/MockHandler;	false	0	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	84	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed

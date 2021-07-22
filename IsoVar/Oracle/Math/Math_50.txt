@@ -1,0 +1,8 @@
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	DEL	x
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	DEL	x1
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	DEL	x0
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	DEL	x1
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	DEL	FastMath
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	DEL	rtol
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	189	DEL	f0
+buggy	org.apache.commons.math.analysis.solvers.BaseSecantSolver	189	DEL	computeObjectiveValue

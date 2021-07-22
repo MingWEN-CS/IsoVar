@@ -1,0 +1,3 @@
+Time	27
+t	org.joda.time.format.TestPeriodFormatterBuilder::testBug2495455
+s	org.joda.time.format.PeriodFormatterBuilder	fixed:801	fixed:805

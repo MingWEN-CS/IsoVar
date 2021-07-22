@@ -1,0 +1,5 @@
+Closure	74
+t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3
+t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators
+t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators
+s	com.google.javascript.jscomp.PeepholeFoldConstants	fixed:1075	fixed:1086	fixed:1074	fixed:1085	fixed:1084	fixed:1083	fixed:1079	fixed:1078	fixed:1077	fixed:1076	fixed:908	fixed:907	fixed:1082	fixed:1081	fixed:1080

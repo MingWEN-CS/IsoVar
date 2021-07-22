@@ -1,0 +1,2 @@
+org/jfree/chart/plot/MultiplePiePlot	145	144	dataset	Lorg/jfree/data/category/CategoryDataset;	false	1	false	<init>	(Lorg/jfree/data/category/CategoryDataset;)V	buggy
+org/jfree/chart/plot/MultiplePiePlot	145	144	dataset	Lorg/jfree/data/category/CategoryDataset;	false	1	false	<init>	(Lorg/jfree/data/category/CategoryDataset;)V	fixed

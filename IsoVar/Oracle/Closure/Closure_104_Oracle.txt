@@ -1,0 +1,2 @@
+com/google/javascript/rhino/jstype/UnionType	291	290	result	Lcom/google/javascript/rhino/jstype/JSType;	false	3	false	meet	(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;	buggy
+com/google/javascript/rhino/jstype/UnionType	291	290	result	Lcom/google/javascript/rhino/jstype/JSType;	false	3	false	meet	(Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/JSType;	fixed

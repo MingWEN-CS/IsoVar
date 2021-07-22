@@ -1,0 +1,4 @@
+Lang	15
+t	org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments
+t	org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable
+s	org.apache.commons.lang3.reflect.TypeUtils	fixed:219	fixed:221	fixed:220	fixed:675

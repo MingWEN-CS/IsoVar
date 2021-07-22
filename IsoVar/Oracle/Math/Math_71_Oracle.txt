@@ -1,0 +1,13 @@
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	300	217	interpolator	Lorg/apache/commons/math/ode/sampling/AbstractStepInterpolator;	false	12	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	300	260	this	Lorg/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator;	false	0	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	301	197	y	[D	false	7	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	301	208	yTmp	[D	false	11	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	301	197	y0	[D	false	4	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	302	302	hNew	D	true	13	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator	303	303	this	Lorg/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator;	true	0	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	180	123	interpolator	Lorg/apache/commons/math/ode/sampling/AbstractStepInterpolator;	false	12	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	180	129	this	Lorg/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator;	false	0	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	181	100	y	[D	false	7	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	181	114	yTmp	[D	false	11	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	181	100	y0	[D	false	4	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed
+org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator	182	182	this	Lorg/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator;	true	0	false	integrate	(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	fixed

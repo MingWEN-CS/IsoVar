@@ -1,0 +1,92 @@
+com/google/javascript/jscomp/CodeGenerator	add	opstr	91	0.30593491210646834	oracle
+com/google/javascript/jscomp/CodeGenerator	add	rhsContext	106	0.18333191728581982	oracle
+com/google/javascript/rhino/Node	addChildToBack	this	608	0.17383573936729874	 
+com/google/javascript/jscomp/CodeGenerator	add	p	102	0.17222787217535918	oracle
+com/google/javascript/rhino/Node	newNumber	number	504	0.16738303851876346	 
+com/google/javascript/rhino/Node$NumberNode	<init>	number	156	0.16738303851876346	 
+com/google/javascript/jscomp/CodeGenerator	getContextForNoInOperator	context	1176	0.09442476668701172	 
+com/google/javascript/jscomp/NodeUtil	isAssignmentOp	n	1437	0.08583659846176173	 
+com/google/javascript/rhino/Node	addChildToBack	child	608	0.06877949316383153	 
+com/google/javascript/rhino/Node	<init>	right	385	0.06564382793891976	 
+com/google/javascript/rhino/Node	<init>	left	381	0.06564382793889934	 
+com/google/javascript/rhino/Node	<init>	child	367	0.06335473067262076	 
+com/google/javascript/jscomp/CodeGenerator	add	last	94	0.051319290037532383	oracle
+com/google/javascript/jscomp/NodeUtil	precedence	type	1162	0.04568802379021353	 
+com/google/javascript/jscomp/CodeGenerator	addExpr	minPrecedence	884	0.043560063299078855	 
+com/google/javascript/jscomp/CodeGenerator	addExpr	n	884	0.03979506557771095	 
+com/google/javascript/jscomp/CodeGenerator	addExpr	context	884	0.03622315950815247	 
+com/google/javascript/jscomp/CodePrinter$Builder	build	this	658	0.03451680281902031	 
+com/google/javascript/jscomp/CodePrinter	toSource	outputFormat	694	0.03420168626181874	 
+com/google/javascript/jscomp/CodePrinter$Builder	setLineLengthThreshold	threshold	613	0.03293729372937293	 
+com/google/javascript/jscomp/CodePrinter$Builder	setLineLengthThreshold	this	613	0.03293729372937293	 
+com/google/javascript/jscomp/CodePrinter	toSource	createSourceMap	693	0.03158991758619217	 
+com/google/javascript/jscomp/CodePrinter	toSource	lineBreak	694	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter	toSource	preferEndOfFileBreak	694	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter	toSource	lineLengthThreshold	694	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$Builder	build	outputFormat	663	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	lineLengthThreshold	434	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	createSrcMap	434	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	sourceMapDetailLevel	434	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	lineBreak	435	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	preferLineBreakAtEndOfFile	436	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	x0	402	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	x1	402	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	x2	402	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	x3	402	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter$CompactCodePrinter	<init>	x4	402	0.031324032640168475	 
+com/google/javascript/jscomp/CodePrinter	toSource	tagAsStrict	706	0.0309746152834407	 
+com/google/javascript/jscomp/CodeGenerator	add	childCount	92	0.03052126452085585	 
+com/google/javascript/jscomp/CodePrinter	toSource	sourceMapDetailLevel	691	0.03038462190572877	 
+com/google/javascript/jscomp/CodePrinter$MappedCodePrinter	<init>	createSrcMap	64	0.02921047134646282	 
+com/google/javascript/jscomp/CodePrinter	access$100	x0	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x1	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x2	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x3	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x4	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x5	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x6	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x7	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	access$100	x8	35	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter	toSource	root	710	0.02819573465916525	 
+com/google/javascript/jscomp/CodePrinter$Builder	<init>	node	565	0.02819573465916525	 
+com/google/javascript/jscomp/CodeGenerator	add	n	82	0.028057553956834513	 
+com/google/javascript/jscomp/NodeUtil	opToStr	operator	2124	0.028057553956834513	 
+com/google/javascript/jscomp/CodePrinter	toSource	cg	701	0.02793211452996941	 
+com/google/javascript/jscomp/CodeGenerator	add	context	106	0.0278017007171278	oracle
+com/google/javascript/jscomp/CodePrinter$MappedCodePrinter	<init>	sourceMapDetailLevel	61	0.027737386201468206	 
+com/google/javascript/jscomp/CodeGenerator	<init>	consumer	50	0.02576366591036583	 
+com/google/javascript/jscomp/CodeGenerator	<init>	outputCharset	51	0.025701559735936907	 
+com/google/javascript/jscomp/CodePrinter	toSource	mcp	694	0.02553738109366238	 
+com/google/javascript/rhino/Node	getChildCount	n	1406	0.02067931530725059	 
+com/google/javascript/jscomp/CodeGenerator	add	n	90	0.012987742782537642	oracle
+com/google/javascript/rhino/Node	getLastChild	this	544	0.007160804020100553	 
+com/google/javascript/rhino/Node	getChildCount	c	1405	0.006715200200828497	 
+com/google/javascript/rhino/Node	getChildCount	this	1406	0.006715200200828497	 
+com/google/javascript/rhino/Node	getFirstChild	this	540	0.006270378730875326	 
+com/google/javascript/jscomp/SourceMap$DetailLevel	<init>	x0	76	0.0055096418732781816	 
+com/google/javascript/jscomp/SourceMap$DetailLevel	<init>	x1	76	0.0055096418732781816	 
+com/google/javascript/rhino/Node	<init>	value	361	0.005446350319268878	 
+com/google/javascript/rhino/Node	getType	this	528	0.005446350319268878	 
+com/google/javascript/jscomp/CodeGenerator	<clinit>	this	40	0.0	 
+com/google/javascript/jscomp/CodeGenerator$Context	values	this	1154	0.0	 
+com/google/javascript/jscomp/CodeGenerator$Context	valueOf	name	1154	0.0	 
+com/google/javascript/jscomp/CodeGenerator$Context	<clinit>	this	1154	0.0	 
+com/google/javascript/jscomp/CodePrinter	toSource	sourceMap	693	0.0	 
+com/google/javascript/jscomp/CodePrinter	toSource	outputCharset	701	0.0	 
+com/google/javascript/jscomp/CodePrinter$Format	values	this	675	0.0	 
+com/google/javascript/jscomp/CodePrinter$Format	valueOf	name	675	0.0	 
+com/google/javascript/jscomp/CodePrinter$Format	<clinit>	this	675	0.0	 
+com/google/javascript/jscomp/CodePrinter$MappedCodePrinter	<init>	lineLengthThreshold	62	0.0	 
+com/google/javascript/jscomp/SourceMap$DetailLevel	values	this	76	0.0	 
+com/google/javascript/jscomp/SourceMap$DetailLevel	valueOf	name	76	0.0	 
+com/google/javascript/jscomp/SourceMap$DetailLevel	<clinit>	this	76	0.0	 
+com/google/javascript/rhino/Node	<init>	nodeType	372	0.0	 
+com/google/javascript/rhino/Node	<init>	nodeType	389	0.0	 
+com/google/javascript/jscomp/NodeUtil	<clinit>	this	50	0.0	 
+com/google/javascript/jscomp/NodeUtil$MatchNotFunction	apply	x0	2599	0.0	 
+com/google/javascript/jscomp/NodeUtil$MayBeStringResultPredicate	apply	x0	1367	0.0	 
+com/google/javascript/jscomp/NodeUtil$BooleanResultPredicate	apply	x0	1309	0.0	 
+com/google/javascript/jscomp/NodeUtil$NumbericResultPredicate	apply	x0	1256	0.0	 
+com/google/javascript/jscomp/CodeGenerator	add	type	90	-0.06558373635119757	oracle
+com/google/javascript/jscomp/CodeGenerator	add	first	93	-0.0890233739374337	oracle
+com/google/javascript/jscomp/CodeGenerator	add	this	86	-0.10856118734215284	oracle

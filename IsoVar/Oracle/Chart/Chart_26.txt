@@ -1,0 +1,1 @@
+fix	org.jfree.chart.axis.Axis	1192	INS	owner

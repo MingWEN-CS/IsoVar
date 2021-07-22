@@ -1,0 +1,3 @@
+Mockito	21
+t	org.mockito.internal.creation.instance.ConstructorInstantiatorTest::creates_instances_of_inner_classes
+s	org.mockito.internal.creation.instance.ConstructorInstantiator	fixed:25	fixed:47	fixed:24	fixed:46	fixed:27	fixed:49	fixed:26	fixed:48	fixed:29	fixed:17	fixed:28	fixed:50	fixed:41	fixed:51	fixed:43	fixed:20	fixed:42	fixed:45	fixed:33	fixed:44

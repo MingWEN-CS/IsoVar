@@ -1,0 +1,4 @@
+Lang	61
+t	org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294
+t	org.apache.commons.lang.text.StrBuilderTest::testLang294
+s	org.apache.commons.lang.text.StrBuilder	fixed:1776

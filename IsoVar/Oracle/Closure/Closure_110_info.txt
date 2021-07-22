@@ -1,0 +1,5 @@
+Closure	110
+t	com.google.javascript.jscomp.ScopedAliasesTest::testHoistedFunctionDeclaration
+t	com.google.javascript.jscomp.ScopedAliasesTest::testFunctionDeclaration
+s	com.google.javascript.jscomp.ScopedAliases	fixed:371	fixed:370	fixed:373	fixed:397	fixed:385	fixed:396	fixed:399	fixed:387	fixed:368	fixed:401	fixed:423	fixed:367	fixed:400	fixed:422	fixed:358	fixed:402	fixed:424	fixed:405	fixed:426	fixed:407	fixed:406	fixed:408
+s	com.google.javascript.rhino.Node	fixed:556	fixed:555	fixed:554

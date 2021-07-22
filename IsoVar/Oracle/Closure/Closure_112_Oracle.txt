@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/TypeInference	1192	1185	fnType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	2	false	inferTemplatedTypesForCall	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fixed
+com/google/javascript/jscomp/TypeInference	1192	1185	n	Lcom/google/javascript/rhino/Node;	false	1	false	inferTemplatedTypesForCall	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fixed
+com/google/javascript/jscomp/TypeInference	1192	1185	keys	Lcom/google/common/collect/ImmutableList;	false	3	false	inferTemplatedTypesForCall	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fixed
+com/google/javascript/jscomp/TypeInference	1192	1192	inferred	Ljava/util/Map;	true	4	false	inferTemplatedTypesForCall	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fixed

@@ -1,0 +1,14 @@
+org/apache/commons/lang3/RandomStringUtils	random	start	234	0.324809	oracle
+org/apache/commons/lang3/RandomStringUtils	random	gap	248	0.314687	 
+org/apache/commons/lang3/RandomStringUtils	random	count	225	0.241309	 
+org/apache/commons/lang3/RandomStringUtils	random	count	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	start	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	end	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	letters	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	numbers	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	this	163	0.125	 
+org/apache/commons/lang3/RandomStringUtils	random	chars	230	0.069512	 
+org/apache/commons/lang3/RandomStringUtils	random	random	253	0.052528	 
+org/apache/commons/lang3/RandomStringUtils	random	end	234	0.024761	oracle
+org/apache/commons/lang3/RandomStringUtils	<clinit>	this	43	0.0	 
+org/apache/commons/lang3/RandomStringUtils	random	ch	253	-0.023217	 

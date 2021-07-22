@@ -1,0 +1,47 @@
+org/apache/commons/math/fraction/ProperFractionFormat	parse	c	169	0.471932	oracle
+org/apache/commons/math/fraction/FractionFormat	parse	initialIndex	260	0.461906	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	source	132	0.434661	oracle
+org/apache/commons/math/fraction/ProperFractionFormat	parse	pos	132	0.42442	oracle
+org/apache/commons/math/fraction/ProperFractionFormat	parse	whole	143	0.406557	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	num	156	0.405958	oracle
+org/apache/commons/math/fraction/ProperFractionFormat	parse	w	202	0.394927	oracle
+org/apache/commons/math/fraction/FractionFormat	parse	startIndex	276	0.394507	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	d	204	0.394273	oracle
+org/apache/commons/math/fraction/ProperFractionFormat	parse	n	203	0.391537	oracle
+org/apache/commons/math/fraction/ProperFractionFormat	parse	startIndex	168	0.389912	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	den	191	0.382353	 
+org/apache/commons/math/fraction/FractionFormat	parse	source	263	0.340021	 
+org/apache/commons/math/fraction/FractionFormat	parse	pos	260	0.331206	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	initialIndex	137	0.295068	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	index	370	0.283678	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	c	377	0.275761	 
+org/apache/commons/math/fraction/FractionFormat	parse	result	244	0.257332	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	n	371	0.217156	 
+org/apache/commons/math/fraction/ProperFractionFormat	parse	ret	132	0.211062	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	source	371	0.202534	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	ret	372	0.199708	 
+org/apache/commons/math/fraction/FractionFormat	parse	c	277	0.195125	 
+org/apache/commons/math/fraction/FractionFormat	parseAndIgnoreWhitespace	source	359	0.189221	 
+org/apache/commons/math/fraction/FractionFormat	parseNextCharacter	pos	370	0.185484	 
+org/apache/commons/math/fraction/ProperFractionFormat	getWholeFormat	this	115	0.181818	 
+org/apache/commons/math/fraction/FractionFormat	parseAndIgnoreWhitespace	pos	359	0.181818	 
+org/apache/commons/math/fraction/FractionFormat	parse	num	266	0.162763	 
+org/apache/commons/math/fraction/FractionFormat	parse	source	244	0.141249	 
+org/apache/commons/math/fraction/FractionFormat	parse	parsePosition	243	0.133847	 
+org/apache/commons/math/fraction/FractionFormat	getDenominatorFormat	this	224	0.076923	 
+org/apache/commons/math/fraction/FractionFormat	getNumeratorFormat	this	232	0.035714	 
+org/apache/commons/math/fraction/ProperFractionFormat	<init>	format	58	0.0	 
+org/apache/commons/math/fraction/ProperFractionFormat	<init>	numeratorFormat	72	0.0	 
+org/apache/commons/math/fraction/ProperFractionFormat	<init>	denominatorFormat	72	0.0	 
+org/apache/commons/math/fraction/ProperFractionFormat	<init>	wholeFormat	73	0.0	 
+org/apache/commons/math/fraction/ProperFractionFormat	setWholeFormat	format	215	0.0	 
+org/apache/commons/math/fraction/ProperFractionFormat	setWholeFormat	this	219	0.0	 
+org/apache/commons/math/fraction/FractionFormat	<init>	format	62	0.0	 
+org/apache/commons/math/fraction/FractionFormat	<init>	numeratorFormat	75	0.0	 
+org/apache/commons/math/fraction/FractionFormat	<init>	denominatorFormat	76	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getImproperInstance	locale	113	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getImproperInstance	f	113	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getProperInstance	locale	131	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getProperInstance	f	131	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getDefaultNumberFormat	locale	153	0.0	 
+org/apache/commons/math/fraction/FractionFormat	getDefaultNumberFormat	nf	153	0.0	 

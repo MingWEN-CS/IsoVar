@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.ControlFlowAnalysis	894	INS	Token.INSTANCEOF
+fix	com.google.javascript.jscomp.DisambiguateProperties	763	INS	foundType
+fix	com.google.javascript.jscomp.DisambiguateProperties	769	INS	maybeType
+fix	com.google.javascript.jscomp.DisambiguateProperties	764	INS	maybeType
+fix	com.google.javascript.jscomp.DisambiguateProperties	764	INS	ObjectType
+fix	com.google.javascript.jscomp.DisambiguateProperties	765	INS	registry
+fix	com.google.javascript.jscomp.DisambiguateProperties	770	INS	foundType
+fix	com.google.javascript.jscomp.DisambiguateProperties	770	INS	maybeType

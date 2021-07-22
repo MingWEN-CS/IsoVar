@@ -1,0 +1,10 @@
+org/apache/commons/lang/WordUtils	abbreviate	result	626	0.5900648105175217	 
+org/apache/commons/lang/WordUtils	abbreviate	upper	618	0.5324525122075157	 
+org/apache/commons/lang/WordUtils	abbreviate	lower	622	0.5188609158104526	oracle
+org/apache/commons/lang/WordUtils	abbreviate	str	607	0.5118649791133859	oracle
+org/apache/commons/lang/WordUtils	abbreviate	index	627	0.49517017873191804	 
+org/apache/commons/lang/StringUtils	indexOf	str	851	0.4761904761904762	 
+org/apache/commons/lang/StringUtils	indexOf	searchStr	851	0.47619047619047616	 
+org/apache/commons/lang/StringUtils	indexOf	startPos	855	0.47619047619047616	 
+org/apache/commons/lang/StringUtils	defaultString	str	5279	0.0	 
+org/apache/commons/lang/WordUtils	abbreviate	appendToEnd	632	0.0	 

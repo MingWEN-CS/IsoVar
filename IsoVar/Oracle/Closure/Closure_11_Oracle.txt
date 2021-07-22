@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/TypeCheck	1314	1308	n	Lcom/google/javascript/rhino/Node;	false	2	false	visitGetProp	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/TypeCheck	1314	1308	parent	Lcom/google/javascript/rhino/Node;	false	3	false	visitGetProp	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/TypeCheck	1314	1308	n	Lcom/google/javascript/rhino/Node;	false	2	false	visitGetProp	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/TypeCheck	1314	1308	parent	Lcom/google/javascript/rhino/Node;	false	3	false	visitGetProp	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy

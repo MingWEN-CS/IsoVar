@@ -1,0 +1,2 @@
+org/joda/time/tz/ZoneInfoCompiler	68	68	this	Lorg/joda/time/tz/ZoneInfoCompiler;	true	0	true	<clinit>	()V	buggy
+org/joda/time/tz/ZoneInfoCompiler	70	68	this	Lorg/joda/time/tz/ZoneInfoCompiler;	false	0	true	<clinit>	()V	buggy

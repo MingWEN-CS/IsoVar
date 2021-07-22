@@ -1,0 +1,4 @@
+fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	i
+fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	begin
+fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	length
+buggy	org.apache.commons.math.stat.descriptive.moment.Variance	520	DEL	weights.length

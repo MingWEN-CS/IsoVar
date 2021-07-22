@@ -1,0 +1,3 @@
+Closure	104
+t	com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5
+s	com.google.javascript.rhino.jstype.UnionType	fixed:291

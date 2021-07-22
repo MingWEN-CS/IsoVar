@@ -1,0 +1,7 @@
+Closure	70
+t	com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl
+t	com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13
+t	com.google.javascript.jscomp.TypeCheckTest::testScoping12
+t	com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl
+t	com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13
+s	com.google.javascript.jscomp.TypedScopeCreator	fixed:1744

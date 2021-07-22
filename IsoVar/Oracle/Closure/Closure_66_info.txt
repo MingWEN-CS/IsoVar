@@ -1,0 +1,4 @@
+Closure	66
+t	com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5
+t	com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6
+s	com.google.javascript.jscomp.TypeCheck	fixed:516	fixed:518

@@ -1,0 +1,5 @@
+fix	org.apache.commons.math3.fraction.Fraction	181	INS	FastMath
+fix	org.apache.commons.math3.fraction.Fraction	209	INS	FastMath
+buggy	org.apache.commons.math3.fraction.Fraction	181	DEL	a0
+buggy	org.apache.commons.math3.fraction.Fraction	209	DEL	p2
+buggy	org.apache.commons.math3.fraction.Fraction	209	DEL	q2

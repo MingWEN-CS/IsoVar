@@ -1,0 +1,3 @@
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	410	INS	basicRow
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	414	INS	coefficients
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	414	INS	i

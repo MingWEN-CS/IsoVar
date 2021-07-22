@@ -1,0 +1,17 @@
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1407	MOV	qVar
+fix	com.google.javascript.jscomp.TypedScopeCreator	1414	INS	qVarType
+fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	qVarType
+fix	com.google.javascript.jscomp.TypedScopeCreator	1416	INS	rhsValue
+fix	com.google.javascript.jscomp.TypedScopeCreator	1416	INS	Token.OBJECTLIT
+fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	ObjectType
+fix	com.google.javascript.jscomp.TypedScopeCreator	1415	INS	rhsValue
+fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	qVar
+fix	com.google.javascript.jscomp.TypedScopeCreator	1417	INS	typeRegistry
+fix	com.google.javascript.jscomp.TypedScopeCreator	1418	INS	rhsValue
+fix	com.google.javascript.jscomp.TypedScopeCreator	1418	INS	qVarType
+fix	com.google.javascript.rhino.jstype.FunctionType	372	INS	oldPrototype
+fix	com.google.javascript.rhino.jstype.FunctionType	365	INS	oldPrototype
+fix	com.google.javascript.rhino.jstype.FunctionType	365	INS	prototype
+buggy	com.google.javascript.rhino.jstype.FunctionType	366	UPD	prototype
+fix	com.google.javascript.rhino.jstype.FunctionType	375	INS	oldPrototype
+buggy	com.google.javascript.rhino.jstype.FunctionType	341	DEL	baseType

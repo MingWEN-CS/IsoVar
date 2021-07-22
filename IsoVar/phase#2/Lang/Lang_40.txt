@@ -1,0 +1,4 @@
+org/apache/commons/lang/StringUtils	containsIgnoreCase	str	1045	0.471678	oracle
+org/apache/commons/lang/StringUtils	contains	str	1015	0.465065	 
+org/apache/commons/lang/StringUtils	containsIgnoreCase	searchStr	1045	0.465016	oracle
+org/apache/commons/lang/StringUtils	contains	searchStr	1015	0.461465	 

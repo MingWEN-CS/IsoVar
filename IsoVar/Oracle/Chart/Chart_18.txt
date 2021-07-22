@@ -1,0 +1,9 @@
+fix	org.jfree.data.DefaultKeyedValues	333	INS	key
+buggy	org.jfree.data.DefaultKeyedValues	318	DEL	index
+buggy	org.jfree.data.DefaultKeyedValues	318	DEL	keys
+fix	org.jfree.data.DefaultKeyedValues2D	455	INS	columnKey
+fix	org.jfree.data.DefaultKeyedValues2D	465	INS	index
+fix	org.jfree.data.DefaultKeyedValues2D	458	INS	columnKeys
+fix	org.jfree.data.DefaultKeyedValues2D	459	INS	columnKey
+fix	org.jfree.data.DefaultKeyedValues2D	464	INS	index
+fix	org.jfree.data.DefaultKeyedValues2D	464	INS	rowData

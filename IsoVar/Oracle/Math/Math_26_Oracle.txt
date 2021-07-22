@@ -1,0 +1,16 @@
+org/apache/commons/math3/fraction/Fraction	181	180	a0	J	false	11	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	181	178	overflow	J	false	7	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	207	p2	J	false	21	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	208	q2	J	false	23	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	207	p2	J	false	21	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	208	q2	J	false	23	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	buggy
+org/apache/commons/math3/fraction/Fraction	181	180	a0	J	false	11	false	<init>	(DDII)V	fixed
+org/apache/commons/math3/fraction/Fraction	181	178	overflow	J	false	7	false	<init>	(DDII)V	fixed
+org/apache/commons/math3/fraction/Fraction	209	207	p2	J	false	21	false	<init>	(DDII)V	fixed
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	fixed
+org/apache/commons/math3/fraction/Fraction	209	208	q2	J	false	23	false	<init>	(DDII)V	fixed
+org/apache/commons/math3/fraction/Fraction	209	178	overflow	J	false	7	false	<init>	(DDII)V	fixed

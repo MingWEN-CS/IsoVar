@@ -1,0 +1,5 @@
+Math	12
+t	org.apache.commons.math3.distribution.GammaDistributionTest::testDistributionClone
+t	org.apache.commons.math3.distribution.LogNormalDistributionTest::testDistributionClone
+t	org.apache.commons.math3.distribution.NormalDistributionTest::testDistributionClone
+s	org.apache.commons.math3.random.BitsStreamGenerator	fixed:19	fixed:30	fixed:31	fixed:33

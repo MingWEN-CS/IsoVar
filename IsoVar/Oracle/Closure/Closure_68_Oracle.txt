@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/parsing/JsDocInfoParser	1709	1686	token	Lcom/google/javascript/jscomp/parsing/JsDocToken;	false	1	false	parseBasicTypeExpression	(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/parsing/JsDocInfoParser	1762	1761	token	Lcom/google/javascript/jscomp/parsing/JsDocToken;	false	1	false	parseFunctionType	(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	fixed

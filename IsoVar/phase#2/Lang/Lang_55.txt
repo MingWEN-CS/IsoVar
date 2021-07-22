@@ -1,0 +1,4 @@
+org/apache/commons/lang/time/StopWatch	suspend	this	176	0.408016	 
+org/apache/commons/lang/time/StopWatch	stop	this	115	0.268649	oracle
+org/apache/commons/lang/time/StopWatch	getTime	this	209	0.134678	 
+org/apache/commons/lang/time/StopWatch	start	this	96	0.060593	 

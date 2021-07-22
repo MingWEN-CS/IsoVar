@@ -1,0 +1,14 @@
+fix	com.google.javascript.jscomp.FunctionInjector	697	INS	hasSideEffects
+fix	com.google.javascript.jscomp.FunctionInjector	698	INS	block
+fix	com.google.javascript.jscomp.FunctionInjector	699	INS	Preconditions
+fix	com.google.javascript.jscomp.FunctionInjector	700	INS	stmt
+fix	com.google.javascript.jscomp.FunctionInjector	701	INS	stmt
+fix	com.google.javascript.jscomp.FunctionInjector	699	INS	block
+fix	com.google.javascript.jscomp.FunctionInjector	700	INS	block
+fix	com.google.javascript.jscomp.FunctionInjector	702	INS	hasSideEffects
+fix	com.google.javascript.jscomp.FunctionInjector	702	INS	NodeUtil
+fix	com.google.javascript.jscomp.FunctionInjector	703	INS	NodeUtil
+fix	com.google.javascript.jscomp.FunctionInjector	732	INS	hasSideEffects
+fix	com.google.javascript.jscomp.FunctionInjector	732	INS	NodeUtil
+fix	com.google.javascript.jscomp.FunctionInjector	703	INS	stmt
+fix	com.google.javascript.jscomp.FunctionInjector	733	INS	CanInlineResult.NO

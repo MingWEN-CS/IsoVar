@@ -1,0 +1,7 @@
+org/apache/commons/math/complex/Complex	153	152	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	153	152	rhs	Lorg/apache/commons/math/complex/Complex;	false	1	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	153	152	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	153	152	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	153	152	rhs	Lorg/apache/commons/math/complex/Complex;	false	1	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	153	152	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	154	152	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	add	(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	fixed

@@ -1,0 +1,63 @@
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	values	370	1.0	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	values	370	1.0	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	i	513	0.53979869529903	oracle
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	weights	515	0.5393811139413356	oracle
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	sum	159	0.5096629484198304	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	containsPositiveWeight	266	0.5096629484198304	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	accum	510	0.5046425460194977	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	accum2	512	0.5046425460194977	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	values	205	0.5046425460194977	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	xbarw	210	0.5046425460194977	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	correction	213	0.5046425460194977	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	values	506	0.49926928294728423	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	dev	511	0.49926928294728423	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	values	160	0.49926928294728423	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	i	162	0.49926928294728423	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	i	214	0.49926928294728423	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	weights	262	0.4973935907410816	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	i	267	0.4973935907410816	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	sumWts	519	0.4939100825817894	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	i	520	0.4937097668485983	oracle
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	var	316	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	values	318	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	begin	318	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	length	318	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	mean	323	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	m	324	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	var	504	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	begin	506	0.49350649350649356	oracle
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	length	506	0.49350649350649356	oracle
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	values	514	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	mean	514	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	evaluate	this	524	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	begin	160	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	length	160	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	values	163	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	weights	163	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	values	222	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	begin	222	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	length	222	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	values	262	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	begin	267	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	length	267	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	allowEmpty	286	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	begin	205	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	length	205	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	sum	206	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	sumw	209	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	weights	215	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Mean	evaluate	values	215	0.49350649350649356	 
+org/apache/commons/math/stat/descriptive/moment/Variance	clear	this	204	0.2806122448979592	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	sum	120	0.2537748359378059	 
+org/apache/commons/math/stat/descriptive/moment/FirstMoment	clear	this	117	0.24271844660194164	 
+org/apache/commons/math/stat/descriptive/moment/SecondMoment	clear	this	93	0.24271844660194164	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	values	121	0.24262823909424525	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	i	123	0.2418746391857186	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	begin	121	0.22883333646489057	 
+org/apache/commons/math/stat/descriptive/summary/Sum	evaluate	length	121	0.22883333646489057	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	length	171	0.16438484691933886	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	values	175	0.1625315422068485	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	begin	167	0.16252925351408481	 
+org/apache/commons/math/util/FastMath	sqrt	a	375	0.13485477178423233	 
+org/apache/commons/math/util/FastMath	<clinit>	this	104	0.06666666666666665	 
+org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic	test	allowEmpty	180	0.0	 

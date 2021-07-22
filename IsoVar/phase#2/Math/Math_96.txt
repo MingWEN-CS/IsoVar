@@ -1,0 +1,14 @@
+org/apache/commons/math/complex/Complex	equals	rhs	254	0.493959	oracle
+org/apache/commons/math/complex/Complex	hashCode	this	280	0.490196	 
+org/apache/commons/math/complex/Complex	equals	other	248	0.460303	 
+org/apache/commons/math/complex/Complex	equals	ret	258	0.445743	oracle
+org/apache/commons/math/complex/Complex	equals	this	258	0.443829	oracle
+org/apache/commons/math/complex/Complex	multiply	rhs	355	0.380033	 
+org/apache/commons/math/complex/Complex	multiply	this	358	0.366571	 
+org/apache/commons/math/complex/Complex	createComplex	real	872	0.118823	 
+org/apache/commons/math/complex/Complex	createComplex	imaginary	872	0.118823	 
+org/apache/commons/math/complex/Complex	getReal	this	299	0.108434	 
+org/apache/commons/math/complex/Complex	isNaN	this	310	0.092584	 
+org/apache/commons/math/complex/Complex	<init>	real	77	0.010101	 
+org/apache/commons/math/complex/Complex	<init>	imaginary	78	0.010101	 
+org/apache/commons/math/complex/Complex	<clinit>	this	45	0.010101	 

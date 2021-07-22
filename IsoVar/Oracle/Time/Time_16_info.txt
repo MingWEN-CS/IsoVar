@@ -1,0 +1,9 @@
+Time	16
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29
+t	org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear
+s	org.joda.time.format.DateTimeFormatter	fixed:708

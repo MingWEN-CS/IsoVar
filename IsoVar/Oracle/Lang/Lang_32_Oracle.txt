@@ -1,0 +1,15 @@
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	registry	Ljava/util/Set;	false	1	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	registry	Ljava/util/Set;	false	1	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	value	Ljava/lang/Object;	false	0	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	registry	Ljava/util/Set;	false	1	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	registry	Ljava/util/Set;	false	1	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	148	147	value	Ljava/lang/Object;	false	0	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	540	539	s	Ljava/util/Set;	false	1	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	147	147	registry	Ljava/util/Set;	true	1	true	isRegistered	(Ljava/lang/Object;)Z	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	539	539	s	Ljava/util/Set;	true	1	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	539	539	s	Ljava/util/Set;	true	1	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	541	539	s	Ljava/util/Set;	false	1	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	541	539	value	Ljava/lang/Object;	false	0	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	520	518	this	Lorg/apache/commons/lang3/builder/HashCodeBuilder;	false	0	true	register	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	543	539	s	Ljava/util/Set;	false	1	true	unregister	(Ljava/lang/Object;)V	fixed
+org/apache/commons/lang3/builder/HashCodeBuilder	544	539	this	Lorg/apache/commons/lang3/builder/HashCodeBuilder;	false	0	true	unregister	(Ljava/lang/Object;)V	fixed

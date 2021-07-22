@@ -1,0 +1,13 @@
+org/mockito/internal/creation/MockSettingsImpl	74	74	this	Lorg/mockito/internal/creation/MockSettingsImpl;	false	0	false	isSerializable	()Z	buggy
+org/mockito/internal/creation/MockSettingsImpl	74	74	this	Lorg/mockito/internal/creation/MockSettingsImpl;	false	0	false	isSerializable	()Z	buggy
+org/mockito/internal/creation/MockSettingsImpl	74	74	this	Lorg/mockito/internal/creation/MockSettingsImpl;	false	0	false	isSerializable	()Z	buggy
+org/mockito/internal/creation/MockSettingsImpl	74	74	this	Lorg/mockito/internal/creation/MockSettingsImpl;	false	0	false	isSerializable	()Z	buggy
+org/mockito/internal/util/MockUtil	46	35	settings	Lorg/mockito/internal/creation/MockSettingsImpl;	false	2	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	43	interfaces	#[Ljava/lang/Class;	false	5	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	43	interfaces	#[Ljava/lang/Class;	false	5	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	47	ancillaryTypes	#[Ljava/lang/Class;	true	6	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	43	interfaces	#[Ljava/lang/Class;	false	5	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	43	interfaces	#[Ljava/lang/Class;	false	5	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/util/MockUtil	47	47	ancillaryTypes	#[Ljava/lang/Class;	true	6	false	createMock	(Ljava/lang/Class;Lorg/mockito/internal/creation/MockSettingsImpl;)Ljava/lang/Object;	fixed
+org/mockito/internal/creation/MockSettingsImpl	76	76	this	Lorg/mockito/internal/creation/MockSettingsImpl;	false	0	false	isSerializable	()Z	fixed
+org/mockito/internal/creation/MockSettingsImpl	23	23	this	Lorg/mockito/internal/creation/MockSettingsImpl;	true	0	false	serializable	()Lorg/mockito/MockSettings;	fixed

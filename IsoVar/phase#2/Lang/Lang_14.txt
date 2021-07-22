@@ -1,0 +1,3 @@
+org/apache/commons/lang3/StringUtils	equals	cs2	782	0.613155	oracle
+org/apache/commons/lang3/StringUtils	equals	cs1	782	0.612347	oracle
+org/apache/commons/lang3/StringUtils	<clinit>	this	148	0.0	 

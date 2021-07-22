@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/NodeUtil	1417	1416	n	Lcom/google/javascript/rhino/Node;	false	0	true	mayBeString	(Lcom/google/javascript/rhino/Node;Z)Z	buggy
+com/google/javascript/jscomp/NodeUtil	1417	1416	this	Lcom/google/javascript/jscomp/NodeUtil;	false	0	true	mayBeString	(Lcom/google/javascript/rhino/Node;Z)Z	buggy
+com/google/javascript/jscomp/NodeUtil	1417	1416	n	Lcom/google/javascript/rhino/Node;	false	0	true	mayBeString	(Lcom/google/javascript/rhino/Node;Z)Z	fixed
+com/google/javascript/jscomp/NodeUtil	1417	1416	this	Lcom/google/javascript/jscomp/NodeUtil;	false	0	true	mayBeString	(Lcom/google/javascript/rhino/Node;Z)Z	fixed

@@ -1,0 +1,11 @@
+org/apache/commons/math/fraction/ProperFractionFormat	211	156	num	Ljava/lang/Number;	false	6	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	211	211	n	I	true	11	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	173	132	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	173	132	pos	Ljava/text/ParsePosition;	false	2	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	173	173	c	C	true	8	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	174	173	c	C	false	8	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	213	210	w	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	213	212	d	I	false	12	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	213	211	n	I	false	11	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	213	210	w	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed
+org/apache/commons/math/fraction/ProperFractionFormat	213	212	d	I	false	12	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	fixed

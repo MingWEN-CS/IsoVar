@@ -1,0 +1,4 @@
+Lang	47
+t	org.apache.commons.lang.text.StrBuilderTest::testLang412Left
+t	org.apache.commons.lang.text.StrBuilderTest::testLang412Right
+s	org.apache.commons.lang.text.StrBuilder	fixed:1233	fixed:1188	fixed:1187	fixed:1186	fixed:1235	fixed:1234

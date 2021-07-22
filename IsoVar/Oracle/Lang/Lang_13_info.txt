@@ -1,0 +1,3 @@
+Lang	13
+t	org.apache.commons.lang3.SerializationUtilsTest::testPrimitiveTypeClassSerialization
+s	org.apache.commons.lang3.SerializationUtils	fixed:281	fixed:261	fixed:283	fixed:260	fixed:282	fixed:285	fixed:240	fixed:262	fixed:284	fixed:254	fixed:287	fixed:286	fixed:256	fixed:255	fixed:258	fixed:257	fixed:279	fixed:259	fixed:239

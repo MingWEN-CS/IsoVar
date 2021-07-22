@@ -1,0 +1,16 @@
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	input	37	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	index	37	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	start	38	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	isHex	39	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	firstChar	41	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	end	47	0.0	 
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	entityValue	57	0.0	oracle
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	translate	out	63	0.0	oracle
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	input	54	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	writer	58	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	out	77	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	input	80	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	sz	83	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	i	84	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	consumed	87	0.0	 
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	translate	j	93	0.0	 

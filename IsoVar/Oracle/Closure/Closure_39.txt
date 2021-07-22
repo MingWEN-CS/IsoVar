@@ -1,0 +1,6 @@
+fix	com.google.javascript.rhino.jstype.PrototypeObjectType	394	INS	forAnnotations
+fix	com.google.javascript.rhino.jstype.PrototypeObjectType	383	INS	forAnnotations
+fix	com.google.javascript.rhino.jstype.PrototypeObjectType	383	INS	i
+fix	com.google.javascript.rhino.jstype.PrototypeObjectType	383	INS	MAX_PRETTY_PRINTED_PROPERTIES
+buggy	com.google.javascript.rhino.jstype.PrototypeObjectType	383	MOV	i
+buggy	com.google.javascript.rhino.jstype.PrototypeObjectType	383	MOV	MAX_PRETTY_PRINTED_PROPERTIES

@@ -1,0 +1,7 @@
+org/jfree/data/time/TimeSeries	944	942	endIndex	I	false	5	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	buggy
+org/jfree/data/time/TimeSeries	944	942	endIndex	I	false	5	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	944	942	endIndex	I	false	5	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	944	934	startIndex	I	false	4	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	944	942	endIndex	I	false	5	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	944	942	endIndex	I	false	5	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	944	934	startIndex	I	false	4	false	createCopy	(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	fixed

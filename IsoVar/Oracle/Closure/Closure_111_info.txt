@@ -1,0 +1,3 @@
+Closure	111
+t	com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArray2
+s	com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter	fixed:54	fixed:55

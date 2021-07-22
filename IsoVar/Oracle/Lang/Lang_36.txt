@@ -1,0 +1,7 @@
+fix	org.apache.commons.lang3.math.NumberUtils	491	INS	Character
+fix	org.apache.commons.lang3.math.NumberUtils	491	INS	lastChar
+fix	org.apache.commons.lang3.math.NumberUtils	1388	INS	chars
+fix	org.apache.commons.lang3.math.NumberUtils	1388	INS	i
+fix	org.apache.commons.lang3.math.NumberUtils	1389	INS	hasDecPoint
+fix	org.apache.commons.lang3.math.NumberUtils	1389	INS	hasExp
+fix	org.apache.commons.lang3.math.NumberUtils	1394	INS	foundDigit

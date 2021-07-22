@@ -1,0 +1,7 @@
+org/apache/commons/math/util/MathUtils	equals	y	417	1.009479	oracle
+org/apache/commons/math/util/MathUtils	equals	x	417	0.653148	oracle
+org/apache/commons/math/util/MathUtils	equals	x	524	0.616063	 
+org/apache/commons/math/util/MathUtils	equals	x	523	0.598313	 
+org/apache/commons/math/util/MathUtils	equals	i	529	0.578494	 
+org/apache/commons/math/util/MathUtils	equals	y	524	0.558584	 
+org/apache/commons/math/util/MathUtils	<clinit>	this	33	0.0	 

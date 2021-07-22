@@ -1,0 +1,13 @@
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	148	INS	registry
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	148	INS	value
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	540	INS	s
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	147	INS	registry
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	539	INS	s
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	519	INS	getRegistry
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	539	INS	getRegistry
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	541	INS	s
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	520	INS	REGISTRY
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	543	INS	s
+fix	org.apache.commons.lang3.builder.HashCodeBuilder	544	INS	REGISTRY
+buggy	org.apache.commons.lang3.builder.HashCodeBuilder	105	DEL	Override
+buggy	org.apache.commons.lang3.builder.HashCodeBuilder	106	DEL	initialValue

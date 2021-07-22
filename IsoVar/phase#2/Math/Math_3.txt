@@ -1,0 +1,17 @@
+org/apache/commons/math3/util/MathArrays	linearCombination	prodHighNext	846	0.69981	 
+org/apache/commons/math3/util/MathArrays	linearCombination	cb	833	0.660678	 
+org/apache/commons/math3/util/MathArrays	linearCombination	prodHigh	836	0.620062	 
+org/apache/commons/math3/util/MathArrays	linearCombination	a	816	0.616856	oracle
+org/apache/commons/math3/util/MathArrays	linearCombination	b	817	0.616856	oracle
+org/apache/commons/math3/util/MathArrays	linearCombination	prodLowSum	824	0.610325	 
+org/apache/commons/math3/util/MathArrays	linearCombination	i	826	0.601722	 
+org/apache/commons/math3/util/MathArrays	linearCombination	bHigh	834	0.555603	 
+org/apache/commons/math3/util/MathArrays	linearCombination	ca	828	0.540416	 
+org/apache/commons/math3/util/MathArrays	linearCombination	ai	827	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	aHigh	829	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	aLow	830	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	bi	832	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	bLow	835	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	prodLow	837	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	prodHighCur	845	0.531527	 
+org/apache/commons/math3/util/MathArrays	linearCombination	len	816	0.529005	oracle

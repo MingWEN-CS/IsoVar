@@ -1,0 +1,5 @@
+org/apache/commons/math/optimization/linear/SimplexTableau	341	341	negativeVarBasicRow	Ljava/lang/Integer;	true	2	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	buggy
+org/apache/commons/math/optimization/linear/SimplexTableau	345	344	i	I	false	6	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	buggy
+org/apache/commons/math/optimization/linear/SimplexTableau	345	345	basicRow	Ljava/lang/Integer;	true	7	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	buggy
+org/apache/commons/math/optimization/linear/SimplexTableau	292	291	ignoreObjectiveRows	Z	false	2	false	getBasicRow	(IZ)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	292	292	start	I	true	4	false	getBasicRow	(IZ)Ljava/lang/Integer;	fixed

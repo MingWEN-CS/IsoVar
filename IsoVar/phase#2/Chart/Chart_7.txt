@@ -1,0 +1,56 @@
+org/jfree/data/time/TimePeriodValues	getMaxMiddleIndex	this	552	0.346154	 
+org/jfree/data/time/SimpleTimePeriod	<init>	start	77	0.148387	 
+org/jfree/data/time/SimpleTimePeriod	getStart	this	100	0.147065	 
+org/jfree/data/time/SimpleTimePeriod	getEnd	this	120	0.147062	 
+org/jfree/data/time/SimpleTimePeriod	<init>	end	77	0.145863	 
+org/jfree/data/time/TimePeriodValues	add	period	363	0.078947	 
+org/jfree/data/time/TimePeriodValues	add	value	363	0.078947	 
+org/jfree/data/time/TimePeriodValues	add	item	363	0.078947	 
+org/jfree/data/time/TimePeriodValue	<init>	period	88	0.05	 
+org/jfree/data/time/TimePeriodValue	<init>	value	88	0.041713	 
+org/jfree/data/time/TimePeriodValues	updateBounds	index	267	0.041607	 
+org/jfree/data/time/TimePeriodValues	updateBounds	this	263	0.023984	oracle
+org/jfree/data/time/TimePeriodValues	updateBounds	start	259	0.000015	 
+org/jfree/data/time/TimePeriodValues	updateBounds	end	260	0.000010	 
+org/jfree/data/time/TimePeriodValues	updateBounds	middle	261	0.0000080	 
+org/jfree/data/time/TimePeriodValues	updateBounds	minMiddle	290	0.0000070	 
+org/jfree/data/time/TimePeriodValues	updateBounds	minEnd	314	0.0000070	oracle
+org/jfree/data/time/TimePeriodValues	updateBounds	minStart	264	0.0000060	oracle
+org/jfree/data/time/TimePeriodValues	updateBounds	maxMiddle	304	0.0000010	 
+org/jfree/data/time/TimePeriodValues	<init>	name	114	0.0	 
+org/jfree/data/time/TimePeriodValues	<init>	name	129	0.0	 
+org/jfree/data/time/TimePeriodValues	<init>	domain	130	0.0	 
+org/jfree/data/time/TimePeriodValues	add	item	243	0.0	 
+org/jfree/data/time/TimePeriodValues	updateBounds	period	259	0.0	 
+org/jfree/data/time/TimePeriodValues	updateBounds	maxStart	275	0.0	oracle
+org/jfree/data/time/TimePeriodValues	updateBounds	s	286	0.0	oracle
+org/jfree/data/time/TimePeriodValues	updateBounds	e	288	0.0	oracle
+org/jfree/data/time/TimePeriodValues	add	period	375	0.0	 
+org/jfree/data/time/TimePeriodValues	add	value	375	0.0	 
+org/jfree/data/time/TimePeriodValues	add	item	375	0.0	 
+org/jfree/data/general/Series	<init>	key	102	0.0	 
+org/jfree/data/general/Series	<init>	key	112	0.0	 
+org/jfree/data/time/TimePeriodValue	<init>	period	71	0.0	 
+org/jfree/data/time/TimePeriodValue	<init>	value	75	0.0	 
+org/jfree/data/time/TimePeriodValue	getPeriod	this	97	0.0	 
+org/jfree/data/time/Year	<init>	year	97	0.0	 
+org/jfree/data/time/Year	getFirstMillisecond	this	150	0.0	 
+org/jfree/data/time/Year	getLastMillisecond	this	164	0.0	 
+org/jfree/data/time/Year	peg	calendar	176	0.0	 
+org/jfree/data/time/Year	peg	this	176	0.0	 
+org/jfree/data/time/Year	getFirstMillisecond	calendar	233	0.0	 
+org/jfree/data/time/Year	getFirstMillisecond	this	233	0.0	 
+org/jfree/data/time/Year	getLastMillisecond	calendar	252	0.0	 
+org/jfree/data/time/Year	getLastMillisecond	this	252	0.0	 
+org/jfree/data/general/SeriesChangeEvent	<init>	source	61	0.0	 
+org/jfree/data/time/RegularTimePeriod	<clinit>	this	161	0.0	 
+org/jfree/data/time/TimePeriodValues	updateBounds	maxEnd	325	-0.0000010	oracle
+org/jfree/data/time/TimePeriodValues	<init>	range	131	-0.0000040	 
+org/jfree/data/general/Series	<init>	description	116	-0.003108	 
+org/jfree/data/time/TimePeriodValues	getDataItem	this	205	-0.009505	 
+org/jfree/data/time/TimePeriodValues	add	this	246	-0.010877	 
+org/jfree/data/general/Series	fireSeriesChanged	this	313	-0.014488	 
+org/jfree/data/time/TimePeriodValues	getDataItem	index	205	-0.024495	 
+org/jfree/data/general/Series	notifyListeners	this	326	-0.041249	 
+org/jfree/data/general/Series	notifyListeners	listenerList	327	-0.0414	 
+org/jfree/data/general/Series	notifyListeners	i	327	-0.061511	 

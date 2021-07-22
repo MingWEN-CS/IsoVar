@@ -1,0 +1,12 @@
+org/apache/commons/lang/StringEscapeUtils	escapeJavaScript	str	122	0.375	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	str	149	0.29068120334595104	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	str	175	0.28808358315925303	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	i	180	0.28311945012856765	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	writer	153	0.2777777777777779	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	escapeSingleQuotes	154	0.2777777777777779	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	sz	179	0.2777777777777779	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	escapeSingleQuote	223	0.2777777777777779	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	ch	181	0.22630178166087744	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaStyleString	out	172	0.20471078829703027	oracle
+org/apache/commons/lang/StringEscapeUtils	escapeJavaScript	out	138	0.0	 
+org/apache/commons/lang/StringEscapeUtils	escapeJavaScript	str	138	0.0	 

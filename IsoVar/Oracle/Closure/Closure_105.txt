@@ -1,0 +1,10 @@
+buggy	com.google.javascript.jscomp.FoldConstants	1500	UPD	sb
+fix	com.google.javascript.jscomp.FoldConstants	1502	INS	sb
+buggy	com.google.javascript.jscomp.FoldConstants	1483	UPD	sb
+buggy	com.google.javascript.jscomp.FoldConstants	1488	UPD	sb
+fix	com.google.javascript.jscomp.FoldConstants	1483	INS	sb
+fix	com.google.javascript.jscomp.FoldConstants	1490	INS	sb
+fix	com.google.javascript.jscomp.FoldConstants	1494	INS	sb
+buggy	com.google.javascript.jscomp.FoldConstants	1483	DEL	sb
+buggy	com.google.javascript.jscomp.FoldConstants	1488	DEL	sb
+buggy	com.google.javascript.jscomp.FoldConstants	1500	DEL	sb

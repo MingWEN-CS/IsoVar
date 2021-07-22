@@ -1,0 +1,6 @@
+Closure	54
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue537a
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue537b
+t	com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2
+s	com.google.javascript.jscomp.TypedScopeCreator	fixed:1418	fixed:1419	fixed:1414	fixed:1415	fixed:1416	fixed:1417	fixed:1413
+s	com.google.javascript.rhino.jstype.FunctionType	buggy:341	fixed:372	fixed:375	fixed:366	fixed:365	fixed:376

@@ -1,0 +1,8 @@
+org/apache/commons/math3/complex/Complex	toString	this	1228	1.0	 
+org/apache/commons/math3/complex/Complex	reciprocal	this	300	0.73431510258377	oracle
+org/apache/commons/math3/complex/Complex	equals	other	340	0.4647756699764119	 
+org/apache/commons/math3/complex/Complex	equals	this	345	0.44252908221830123	 
+org/apache/commons/math3/complex/Complex	equals	c	344	0.44136724130729454	 
+org/apache/commons/math3/complex/Complex	<init>	imaginary	100	0.06313374427022994	 
+org/apache/commons/math3/complex/Complex	<init>	real	99	0.05874987037750412	 
+org/apache/commons/math3/complex/Complex	<clinit>	this	59	0.05727554179566563	 

@@ -1,0 +1,130 @@
+org/apache/commons/math3/util/FastMath	max	b	3507	0.29607486664956034	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	i	105	0.2836870296109426	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	r	75	0.28111511786186233	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	i	71	0.2808851012561679	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	c	106	0.2772556974794052	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	c	83	0.2735113808876674	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	ii	81	0.2665423066464379	oracle
+org/apache/commons/math3/util/FastMath	max	a	3507	0.2639766616227425	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	small	98	0.26282917548737156	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	i	460	0.2626105335846239	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	col	103	0.2626105335846239	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	rows	456	0.2626085650805644	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	columnCount	100	0.2626085650805644	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	index	72	0.262343168643102	oracle
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	visitor	458	0.2623421958320473	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	out	101	0.2623421958320473	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	index	82	0.26220843271592936	oracle
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	j	459	0.26212612797335294	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	m	97	0.26212612797335294	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	row	102	0.26212612797335294	 
+org/apache/commons/math3/linear/MatrixUtils	checkSubtractionCompatible	left	523	0.261904761904762	 
+org/apache/commons/math3/linear/MatrixUtils	checkSubtractionCompatible	right	523	0.261904761904762	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	columns	457	0.26190476190476186	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInColumnOrder	this	461	0.26190476190476186	 
+org/apache/commons/math3/linear/AbstractRealMatrix	subtract	rowCount	99	0.26190476190476186	 
+org/apache/commons/math3/linear/MatrixUtils	createRealMatrix	data	130	0.26190476190476186	 
+org/apache/commons/math3/linear/MatrixUtils	createRealMatrix	data	134	0.26190476190476186	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	b	122	0.25804094540487793	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	ii	125	0.2548639854784529	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	e	126	0.2548639854784529	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	j	129	0.2548639854784529	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	swap	79	0.2429354619952902	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	inverse	123	0.2394534864719538	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	i	124	0.2394534864719538	oracle
+org/apache/commons/math3/util/FastMath	abs	x	2992	0.23786280146033967	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	order	65	0.2368879028165624	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	loop	76	0.23579654993527027	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	i	80	0.23317250003248402	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	tmp	91	0.23192378442991485	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	ir	97	0.23182121355047186	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	j	146	0.22890300511532669	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	i	145	0.22751836818328713	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	matrix	65	0.2272727272727273	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	isi	82	0.2272727272727273	oracle
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	sqrt	121	0.2272727272727273	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	ij	130	0.2272727272727273	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	<init>	f	131	0.2272727272727273	 
+org/apache/commons/math3/linear/RectangularCholeskyDecomposition	getRootMatrix	this	160	0.2272727272727273	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	sum	150	0.19992527281699418	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	col	149	0.19820318904931572	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	columns	393	0.1980327831397623	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	row	148	0.1979608154165537	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	i	151	0.19793129859974473	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	i	395	0.19687091570527776	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	j	397	0.19662088297342317	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	nCols	145	0.19660789596052647	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	visitor	394	0.19620546958058288	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	out	147	0.19620513103368736	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	nSum	146	0.1959308025522738	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	m	142	0.19568527525945162	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	rows	392	0.19565217391304346	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	this	396	0.19565217391304346	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	walkInRowOrder	rowI	398	0.19565217391304346	 
+org/apache/commons/math3/linear/AbstractRealMatrix	multiply	nRows	144	0.19565217391304346	 
+org/apache/commons/math3/linear/AbstractRealMatrix	transpose	nRows	589	0.19565217391304346	 
+org/apache/commons/math3/linear/AbstractRealMatrix	transpose	nCols	590	0.19565217391304346	 
+org/apache/commons/math3/linear/AbstractRealMatrix	transpose	out	591	0.19565217391304346	 
+org/apache/commons/math3/linear/AbstractRealMatrix	walkInOptimizedOrder	visitor	860	0.19565217391304346	 
+org/apache/commons/math3/util/FastMath	sqrt	a	375	0.19565217391304346	 
+org/apache/commons/math3/linear/MatrixUtils	checkMultiplicationCompatible	left	541	0.19565217391304346	 
+org/apache/commons/math3/linear/MatrixUtils	checkMultiplicationCompatible	right	541	0.19565217391304346	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	copyOut	i	509	0.16791241051745942	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	copyOut	out	510	0.16791241051745942	 
+org/apache/commons/math3/linear/MatrixUtils	checkRowIndex	row	402	0.16666666666666796	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	getRowDimension	this	323	0.16666666666666763	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	getColumnDimension	this	329	0.16666666666666707	 
+org/apache/commons/math3/linear/MatrixUtils	checkColumnIndex	column	418	0.16666666666666707	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	<init>	rowDimension	56	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	<init>	columnDimension	56	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	createMatrix	rowDimension	138	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	createMatrix	columnDimension	138	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	getEntry	row	295	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	getEntry	column	295	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	getEntry	this	296	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setEntry	row	302	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setEntry	column	302	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setEntry	this	303	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setEntry	value	303	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	copyOut	nRows	506	0.16666666666666663	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	copyOut	this	510	0.16666666666666663	 
+org/apache/commons/math3/linear/AbstractRealMatrix	<init>	rowDimension	63	0.16666666666666663	 
+org/apache/commons/math3/linear/AbstractRealMatrix	<init>	columnDimension	66	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	prefix	115	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	suffix	115	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowPrefix	115	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowSuffix	115	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowSeparator	115	0.16666666666666663	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	columnSeparator	115	0.16666666666666663	 
+org/apache/commons/math3/util/FastMath	<clinit>	this	113	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	<clinit>	this	52	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	checkMatrixIndex	m	389	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	checkMatrixIndex	row	389	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	checkMatrixIndex	column	390	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	checkRowIndex	m	402	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	checkColumnIndex	m	418	0.16666666666666663	 
+org/apache/commons/math3/linear/MatrixUtils	createRealMatrix	rows	81	0.15306122576239928	 
+org/apache/commons/math3/linear/MatrixUtils	createRealMatrix	columns	81	0.15306122576239928	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	this	262	0.0027489997649194353	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	subMatrix	270	0.002135434997963759	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	nCols	275	0.001476073954695456	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	row	263	0.0014760739546954005	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	column	266	0.0014760739546954005	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	nRows	270	0.0	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	setSubMatrix	i	280	0.0	 
+org/apache/commons/math3/linear/Array2DRowRealMatrix	copyIn	in	526	0.0	 
+org/apache/commons/math3/util/MathUtils	checkNotNull	o	264	0.0	 
+org/apache/commons/math3/util/CompositeFormat	getDefaultNumberFormat	locale	54	0.0	 
+org/apache/commons/math3/util/CompositeFormat	getDefaultNumberFormat	nf	54	0.0	 
+org/apache/commons/math3/linear/AbstractRealMatrix	<clinit>	this	44	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	format	99	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	prefix	134	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	suffix	135	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowPrefix	136	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowSuffix	137	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	rowSeparator	138	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	columnSeparator	139	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	<init>	format	140	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	getFormat	this	207	0.0	 
+org/apache/commons/math3/linear/RealMatrixFormat	getInstance	locale	224	0.0	 
+org/apache/commons/math3/util/FastMath	max	bits	3519	0.0	 

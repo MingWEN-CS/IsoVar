@@ -1,0 +1,6 @@
+org/jfree/chart/renderer/GrayPaintScale	getPaint	value	124	0.25	oracle
+org/jfree/chart/renderer/GrayPaintScale	getPaint	this	124	0.25	oracle
+org/jfree/chart/renderer/GrayPaintScale	getPaint	v	124	0.25	oracle
+org/jfree/chart/renderer/GrayPaintScale	getPaint	g	126	0.25	oracle
+org/jfree/chart/renderer/GrayPaintScale	<init>	lowerBound	85	0.0	 
+org/jfree/chart/renderer/GrayPaintScale	<init>	upperBound	85	0.0	 

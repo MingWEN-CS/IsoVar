@@ -1,0 +1,3 @@
+Time	18
+t	org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction
+s	org.joda.time.chrono.GJChronology	fixed:369	fixed:371	fixed:370	fixed:373	fixed:372	fixed:364	fixed:375	fixed:374	fixed:377	fixed:376	fixed:368	fixed:378

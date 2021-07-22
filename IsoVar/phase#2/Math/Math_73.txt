@@ -1,0 +1,50 @@
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	yMax	125	0.688375	oracle
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	initial	103	0.68376	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	yInitial	106	0.643744	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	max	103	0.641345	oracle
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	this	107	0.62224	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	f	106	0.616933	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	yMin	113	0.614941	oracle
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	min	103	0.609295	oracle
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifySequence	lower	225	0.504776	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifySequence	initial	225	0.504776	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifySequence	upper	225	0.504776	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	isSequence	mid	196	0.499923	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	isSequence	start	196	0.494898	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	isSequence	end	196	0.494898	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	delta	225	0.452892	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	oldDelta	226	0.389086	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	x1	225	0.24784	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	x0	225	0.247439	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	dx	246	0.22413	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	x2	233	0.186227	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	i	228	0.176195	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	this	229	0.173146	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	y0	235	0.168522	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	y2	230	0.156581	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	y1	230	0.152615	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	tolerance	247	0.14399	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	p1	268	0.142614	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	f	304	0.139344	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	setResult	this	141	0.137463	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	setResult	newResult	141	0.135179	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	clearResult	this	165	0.134413	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultMaximalIterationCount	93	0.128498	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultAbsoluteAccuracy	93	0.117089	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultAbsoluteAccuracy	62	0.115142	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	setResult	iterationCount	142	0.106727	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	r3	259	0.100017	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultMaximalIterationCount	66	0.099026	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	ret	167	0.02681	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	p	267	0.02582	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	sign	173	0.020806	 
+org/apache/commons/math/MathRuntimeException	createIllegalArgumentException	pattern	305	0.002302	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	lower	208	0.0	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	upper	208	0.0	 
+org/apache/commons/math/MathRuntimeException	createIllegalArgumentException	arguments	305	0.0	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	min	165	0.0	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	max	165	0.0	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	f	169	0.0	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	this	176	0.0	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	yMax	170	-0.018632	 
+org/apache/commons/math/analysis/solvers/BrentSolver	solve	yMin	169	-0.022255	 

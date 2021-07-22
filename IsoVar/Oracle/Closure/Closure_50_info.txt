@@ -1,0 +1,4 @@
+Closure	50
+t	com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd
+t	com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin
+s	com.google.javascript.jscomp.PeepholeReplaceKnownMethods	fixed:390	fixed:393	fixed:392	fixed:394	fixed:376	fixed:389

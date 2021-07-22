@@ -1,0 +1,8 @@
+fix	org.apache.commons.math.linear.OpenMapRealVector	345	INS	entries
+fix	org.apache.commons.math.linear.OpenMapRealVector	358	INS	entries
+fix	org.apache.commons.math.linear.OpenMapRealVector	370	INS	entries
+fix	org.apache.commons.math.linear.OpenMapRealVector	383	INS	entries
+buggy	org.apache.commons.math.linear.OpenMapRealVector	345	DEL	res.entries
+buggy	org.apache.commons.math.linear.OpenMapRealVector	358	DEL	res.entries
+buggy	org.apache.commons.math.linear.OpenMapRealVector	370	DEL	res.entries
+buggy	org.apache.commons.math.linear.OpenMapRealVector	383	DEL	res.entries

@@ -1,0 +1,7 @@
+fix	org.joda.time.format.PeriodFormatterBuilder	1133	INS	bufLen
+fix	org.joda.time.format.PeriodFormatterBuilder	1133	INS	buf
+fix	org.joda.time.format.PeriodFormatterBuilder	1143	INS	valueLong
+fix	org.joda.time.format.PeriodFormatterBuilder	1143	INS	DateTimeConstants.MILLIS_PER_SECOND
+fix	org.joda.time.format.PeriodFormatterBuilder	1098	INS	valueLong
+fix	org.joda.time.format.PeriodFormatterBuilder	1098	INS	Math
+fix	org.joda.time.format.PeriodFormatterBuilder	1144	INS	buf

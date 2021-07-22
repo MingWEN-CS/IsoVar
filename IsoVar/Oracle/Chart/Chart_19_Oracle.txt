@@ -1,0 +1,2 @@
+org/jfree/chart/plot/CategoryPlot	698	698	axis	Lorg/jfree/chart/axis/CategoryAxis;	false	1	false	getDomainAxisIndex	(Lorg/jfree/chart/axis/CategoryAxis;)I	fixed
+org/jfree/chart/plot/CategoryPlot	976	976	axis	Lorg/jfree/chart/axis/ValueAxis;	false	1	false	getRangeAxisIndex	(Lorg/jfree/chart/axis/ValueAxis;)I	fixed

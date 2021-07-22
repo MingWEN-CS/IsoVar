@@ -1,0 +1,32 @@
+org/apache/commons/math/linear/RealMatrixImpl	operate	nRows	774	0.4797713242477021	oracle
+org/apache/commons/math/linear/RealMatrixImpl	operate	nCols	775	0.47575119345089745	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	sum	993	0.4745761848429995	 
+org/apache/commons/math/linear/RealMatrixImpl	operate	sum	782	0.4745761848429995	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	row	992	0.4723464145721814	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	this	993	0.47196740192974723	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	i	994	0.47196740192974723	 
+org/apache/commons/math/linear/RealMatrixImpl	operate	i	783	0.47196740192974723	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	v	986	0.4683843529139684	oracle
+org/apache/commons/math/linear/RealMatrixImpl	operate	v	776	0.4683843529139684	oracle
+org/apache/commons/math/linear/BigMatrixImpl	operate	nCols	990	0.4669421487603306	 
+org/apache/commons/math/linear/RealMatrixImpl	operate	row	780	0.4669421487603306	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	nRows	989	0.46694214876033047	oracle
+org/apache/commons/math/linear/RealMatrixImpl	operate	this	781	0.46694214876033047	 
+org/apache/commons/math/linear/RealMatrixImpl	operate	dataRow	784	0.46694214876033047	 
+org/apache/commons/math/linear/BigMatrixImpl	operate	out	997	0.46165835097474317	 
+org/apache/commons/math/linear/RealMatrixImpl	operate	out	786	0.46165835097474317	 
+org/apache/commons/math/linear/BigMatrixImpl	<init>	nCols	149	0.28715399850960577	 
+org/apache/commons/math/linear/BigMatrixImpl	<init>	r	153	0.28715399850960577	 
+org/apache/commons/math/linear/BigMatrixImpl	<init>	d	145	0.2726730354552302	 
+org/apache/commons/math/linear/BigMatrixImpl	<init>	nRows	145	0.24572545525324735	 
+org/apache/commons/math/linear/BigMatrixImpl	<init>	copyArray	139	0.24522292993630568	 
+org/apache/commons/math/linear/BigMatrixImpl	getRowDimension	this	947	0.1610169491525424	 
+org/apache/commons/math/linear/BigMatrixImpl	getColumnDimension	this	956	0.1610169491525424	 
+org/apache/commons/math/linear/BigMatrixImpl	<clinit>	this	76	0.15363128491620115	 
+org/apache/commons/math/linear/RealMatrixImpl	<init>	nCols	141	0.10827670626079816	 
+org/apache/commons/math/linear/RealMatrixImpl	<init>	r	145	0.10827670626079816	 
+org/apache/commons/math/linear/RealMatrixImpl	<init>	d	137	0.10682022925221135	 
+org/apache/commons/math/linear/RealMatrixImpl	<init>	nRows	137	0.07246757759355771	 
+org/apache/commons/math/linear/RealMatrixImpl	<init>	copyArray	131	0.0652173913043479	 
+org/apache/commons/math/linear/RealMatrixImpl	getColumnDimension	this	750	-0.014522821576763434	 
+org/apache/commons/math/linear/RealMatrixImpl	getRowDimension	this	743	-0.018518518518518434	 

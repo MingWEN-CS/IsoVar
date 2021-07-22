@@ -1,0 +1,6 @@
+Math	66
+t	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+t	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin
+t	org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics
+t	org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin
+s	org.apache.commons.math.optimization.univariate.BrentOptimizer	fixed:47	fixed:58	fixed:46	buggy:65	buggy:95	fixed:191	fixed:190	buggy:57	buggy:58	buggy:66	buggy:67	buggy:59	fixed:111	fixed:110	fixed:231	fixed:44	fixed:117	fixed:228	buggy:243	buggy:60	buggy:94

@@ -1,0 +1,12 @@
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	389	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	376	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	376	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	376	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	376	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	392	368	n	Lcom/google/javascript/rhino/Node;	false	1	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/PeepholeReplaceKnownMethods	392	374	right	Lcom/google/javascript/rhino/Node;	false	3	false	tryFoldArrayJoin	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed

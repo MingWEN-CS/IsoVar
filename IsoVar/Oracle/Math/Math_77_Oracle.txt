@@ -1,0 +1,17 @@
+org/apache/commons/math/linear/OpenMapRealVector	499	499	max	D	true	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	500	499	this	Lorg/apache/commons/math/linear/OpenMapRealVector;	false	0	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	500	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	true	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	500	499	this	Lorg/apache/commons/math/linear/OpenMapRealVector;	false	0	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	500	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	true	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	501	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	false	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	502	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	false	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	499	max	D	false	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	false	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	503	max	D	true	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	499	max	D	false	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	500	iter	Lorg/apache/commons/math/util/OpenIntToDoubleHashMap$Iterator;	false	3	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	503	503	max	D	true	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/OpenMapRealVector	505	503	max	D	false	1	false	getLInfNorm	()D	buggy
+org/apache/commons/math/linear/ArrayRealVector	721	719	max	D	false	1	false	getLInfNorm	()D	fixed
+org/apache/commons/math/linear/ArrayRealVector	721	720	a	D	false	6	false	getLInfNorm	()D	fixed
+org/apache/commons/math/linear/ArrayRealVector	721	721	max	D	true	1	false	getLInfNorm	()D	fixed

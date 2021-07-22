@@ -1,0 +1,9 @@
+org/jfree/chart/util/ShapeUtilities	equal	done	278	0.4700001111162077	 
+org/jfree/chart/util/ShapeUtilities	equal	iterator2	275	0.4696799194779551	oracle
+org/jfree/chart/util/ShapeUtilities	equal	iterator1	274	0.4696086159672642	 
+org/jfree/chart/util/ShapeUtilities	equal	p2	268	0.46953405017921157	oracle
+org/jfree/chart/util/ShapeUtilities	equal	p1	265	0.46953405017921146	oracle
+org/jfree/chart/util/ShapeUtilities	equal	seg1	283	0.46953405017921146	 
+org/jfree/chart/util/ShapeUtilities	equal	seg2	284	0.46953405017921146	 
+org/jfree/chart/util/ShapeUtilities	equal	d1	288	0.46953405017921146	 
+org/jfree/chart/util/ShapeUtilities	<clinit>	this	389	0.21845949535192555	 

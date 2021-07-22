@@ -1,0 +1,3 @@
+Lang	25
+t	org.apache.commons.lang3.text.translate.EntityArraysTest::testISO8859_1_ESCAPE
+s	org.apache.commons.lang3.text.translate.EntityArrays

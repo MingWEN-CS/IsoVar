@@ -1,0 +1,4 @@
+Math	99
+t	org.apache.commons.math.util.MathUtilsTest::testGcd
+t	org.apache.commons.math.util.MathUtilsTest::testLcm
+s	org.apache.commons.math.util.MathUtils	fixed:546	fixed:545	fixed:721	fixed:547	fixed:719	fixed:544	fixed:720	fixed:543

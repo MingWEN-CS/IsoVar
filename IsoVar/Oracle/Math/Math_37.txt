@@ -1,0 +1,14 @@
+fix	org.apache.commons.math.complex.Complex	1018	INS	isNaN
+fix	org.apache.commons.math.complex.Complex	1018	INS	Double
+fix	org.apache.commons.math.complex.Complex	1021	INS	imaginary
+fix	org.apache.commons.math.complex.Complex	1024	INS	imaginary
+fix	org.apache.commons.math.complex.Complex	1069	INS	isNaN
+fix	org.apache.commons.math.complex.Complex	1069	INS	Double
+fix	org.apache.commons.math.complex.Complex	1072	INS	real
+fix	org.apache.commons.math.complex.Complex	1075	INS	real
+fix	org.apache.commons.math.complex.Complex	1022	INS	createComplex
+fix	org.apache.commons.math.complex.Complex	1025	INS	createComplex
+fix	org.apache.commons.math.complex.Complex	1073	INS	createComplex
+fix	org.apache.commons.math.complex.Complex	1076	INS	createComplex
+buggy	org.apache.commons.math.complex.Complex	1018	DEL	isNaN
+buggy	org.apache.commons.math.complex.Complex	1063	DEL	isNaN

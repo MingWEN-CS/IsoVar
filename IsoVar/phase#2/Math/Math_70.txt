@@ -1,0 +1,21 @@
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	72	1.0	oracle
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	72	1.0	oracle
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	this	86	0.555718	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	this	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	66	0.4375	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	i	85	0.412344	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	fmin	88	0.380399	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	min	80	0.369066	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	max	80	0.365376	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	f	88	0.333333	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	lower	208	0.333333	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	verifyInterval	upper	208	0.333333	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	clearResult	this	165	0.329191	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	midpoint	a	223	0.294737	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils	midpoint	b	223	0.294737	 
+org/apache/commons/math/analysis/solvers/BisectionSolver	solve	m	87	0.175588	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultAbsoluteAccuracy	93	0.017241	 
+org/apache/commons/math/analysis/solvers/UnivariateRealSolverImpl	<init>	defaultMaximalIterationCount	93	0.013099	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultAbsoluteAccuracy	62	0.0	 
+org/apache/commons/math/ConvergingAlgorithmImpl	<init>	defaultMaximalIterationCount	66	-0.056491	 

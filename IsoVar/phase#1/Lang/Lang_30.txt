@@ -1,0 +1,44 @@
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	str	1570	0.635578159864297	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchChars	1570	0.5328891649826939	oracle
+org/apache/commons/lang3/StringUtils	containsAny	i	1451	0.5207333693273282	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	i	1574	0.502039758840295	oracle
+org/apache/commons/lang3/StringUtils	containsAny	csLast	1449	0.49732125964153745	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1448	0.49205535975442893	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	strLen	1573	0.48316498316498313	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	ch	1575	0.48316498316498313	oracle
+org/apache/commons/lang3/StringUtils	containsNone	searchChars	1678	0.482826409238983	oracle
+org/apache/commons/lang3/StringUtils	containsAny	cs	1444	0.4762609212329858	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	cs	1412	0.47309954145917016	 
+org/apache/commons/lang3/StringUtils	containsNone	ch	1680	0.4714479148478716	oracle
+org/apache/commons/lang3/StringUtils	containsNone	j	1681	0.4714479148478716	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	i	1377	0.4711596167918933	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	searchChars	1376	0.47106154849288406	oracle
+org/apache/commons/lang3/StringUtils	containsNone	cs	1674	0.46894564119884047	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	cs	1529	0.46840631884641243	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	cs	1372	0.4658762159948637	oracle
+org/apache/commons/lang3/StringUtils	containsNone	searchLen	1678	0.46488488097573233	oracle
+org/apache/commons/lang3/StringUtils	containsNone	i	1679	0.46488488097573233	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchLength	1448	0.4636773597980672	 
+org/apache/commons/lang3/StringUtils	indexOfAny	searchLen	1376	0.46306061666570336	oracle
+org/apache/commons/lang3/StringUtils	containsNone	cs	1715	0.4595607234127695	 
+org/apache/commons/lang3/StringUtils	containsNone	invalidChars	1715	0.4590290010079524	 
+org/apache/commons/lang3/StringUtils	indexOfAny	searchChars	1412	0.456116315122358	 
+org/apache/commons/lang3/StringUtils	indexOfAny	ch	1378	0.4536761386769238	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	j	1379	0.4536761386769238	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	i	1535	0.4535841290334151	oracle
+org/apache/commons/lang3/StringUtils	indexOfAny	csLen	1375	0.4511400651465799	oracle
+org/apache/commons/lang3/StringUtils	containsNone	csLen	1677	0.4511400651465799	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchLast	1450	0.45086160286851784	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1498	0.43742706523130237	 
+org/apache/commons/lang3/StringUtils	containsAny	cs	1501	0.4358974358974359	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchLen	1533	0.43220309048848116	oracle
+org/apache/commons/lang3/StringUtils	containsAny	j	1453	0.4289545698775347	oracle
+org/apache/commons/lang3/StringUtils	containsAny	ch	1452	0.4282448837463591	oracle
+org/apache/commons/lang3/ArrayUtils	isEmpty	array	3279	0.4278051730773494	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	searchChars	1533	0.4271523069689408	oracle
+org/apache/commons/lang3/StringUtils	containsAny	csLength	1447	0.4211356466876971	 
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	ch	1536	0.4127737839595333	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	j	1537	0.4127737839595333	oracle
+org/apache/commons/lang3/StringUtils	indexOfAnyBut	csLen	1532	0.406832298136646	oracle
+org/apache/commons/lang3/StringUtils	isEmpty	cs	194	0.2781165368481033	 
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	56	0.051984877126654006	 

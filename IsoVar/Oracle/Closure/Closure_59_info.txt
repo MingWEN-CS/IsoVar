@@ -1,0 +1,3 @@
+Closure	59
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff
+s	com.google.javascript.jscomp.Compiler	fixed:256	fixed:255

@@ -1,0 +1,5 @@
+buggy	org.apache.commons.math3.distribution.MultivariateNormalDistribution	183	UPD	FastMath
+buggy	org.apache.commons.math3.distribution.MultivariateNormalDistribution	183	UPD	FastMath.PI
+buggy	org.apache.commons.math3.distribution.MultivariateNormalDistribution	183	UPD	dim
+fix	org.apache.commons.math3.distribution.MultivariateNormalDistribution	183	INS	dim
+buggy	org.apache.commons.math3.distribution.MultivariateNormalDistribution	183	DEL	dim

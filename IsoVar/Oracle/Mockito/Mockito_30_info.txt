@@ -1,0 +1,4 @@
+Mockito	30
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersOnSmartNullPointerExceptionMessage
+s	org.mockito.exceptions.Reporter	fixed:438	fixed:442
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	fixed:56

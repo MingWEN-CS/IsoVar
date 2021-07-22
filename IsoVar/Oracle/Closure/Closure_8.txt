@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.CollapseVariableDeclarations	209	INS	isNamedParameter
+fix	com.google.javascript.jscomp.CollapseVariableDeclarations	209	INS	v
+fix	com.google.javascript.jscomp.CollapseVariableDeclarations	202	INS	var
+fix	com.google.javascript.jscomp.CollapseVariableDeclarations	210	INS	v
+buggy	com.google.javascript.jscomp.CollapseVariableDeclarations	202	MOV	var
+fix	com.google.javascript.jscomp.CollapseVariableDeclarations	204	INS	isNamedParameter

@@ -1,0 +1,3 @@
+Mockito	18
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValuesTest::should_return_empty_iterable
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	fixed:87	fixed:88

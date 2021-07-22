@@ -1,0 +1,4 @@
+Lang	22
+t	org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int
+t	org.apache.commons.lang3.math.FractionTest::testReduce
+s	org.apache.commons.lang3.math.Fraction	fixed:590	fixed:584	fixed:583	fixed:586	fixed:585	fixed:588	fixed:587

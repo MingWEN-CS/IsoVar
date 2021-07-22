@@ -1,0 +1,6 @@
+Math	37
+t	org.apache.commons.math.complex.ComplexTest::testTanhInf
+t	org.apache.commons.math.complex.ComplexTest::testTan
+t	org.apache.commons.math.complex.ComplexTest::testTanh
+t	org.apache.commons.math.complex.ComplexTest::testTanInf
+s	org.apache.commons.math.complex.Complex	fixed:1075	fixed:1074	fixed:1073	fixed:1072	fixed:1024	fixed:1023	fixed:1022	fixed:1077	fixed:1021	fixed:1076	fixed:1026	fixed:1025	fixed:1069	fixed:1018

@@ -1,0 +1,3 @@
+Math	55
+t	org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation
+s	org.apache.commons.math.geometry.Vector3D	fixed:490	fixed:470	fixed:461	fixed:472	fixed:483	fixed:460	fixed:471	fixed:482	fixed:463	fixed:485	fixed:462	fixed:473	fixed:487	fixed:486	fixed:467	fixed:469	fixed:468	fixed:459

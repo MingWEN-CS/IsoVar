@@ -1,0 +1,5 @@
+Closure	3
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1a
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression3
+s	com.google.javascript.jscomp.FlowSensitiveInlineVariables	fixed:380	fixed:280	fixed:155	fixed:375	fixed:377	fixed:376	fixed:379	fixed:378

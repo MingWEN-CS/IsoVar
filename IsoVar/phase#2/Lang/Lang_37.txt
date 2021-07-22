@@ -1,0 +1,6 @@
+org/apache/commons/lang3/ArrayUtils	addAll	type1	2959	0.3125	oracle
+org/apache/commons/lang3/ArrayUtils	addAll	array1	2960	0.3125	 
+org/apache/commons/lang3/ArrayUtils	addAll	array2	2960	0.3125	 
+org/apache/commons/lang3/ArrayUtils	addAll	joinedArray	2961	0.3125	 
+org/apache/commons/lang3/ArrayUtils	addAll	joinedArray	2962	0.3125	 
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	54	0.0	 

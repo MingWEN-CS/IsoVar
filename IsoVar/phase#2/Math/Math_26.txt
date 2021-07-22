@@ -1,0 +1,57 @@
+org/apache/commons/math3/fraction/FractionConversionException	<init>	value	53	1.036791	 
+org/apache/commons/math3/fraction/FractionConversionException	<init>	p	53	1.001966	 
+org/apache/commons/math3/fraction/FractionConversionException	<init>	q	53	1.001966	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxDenominator	214	0.529511	 
+org/apache/commons/math3/exception/ConvergenceException	<init>	pattern	49	0.495305	 
+org/apache/commons/math3/exception/MathIllegalStateException	getContext	this	74	0.472477	 
+org/apache/commons/math3/exception/MathIllegalStateException	<init>	pattern	47	0.468037	 
+org/apache/commons/math3/fraction/Fraction	<init>	value	179	0.432503	 
+org/apache/commons/math3/fraction/Fraction	<init>	a0	180	0.423243	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	p2	198	0.408802	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	q2	199	0.406481	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	p0	193	0.382598	 
+org/apache/commons/math3/fraction/Fraction	<init>	q0	194	0.382492	 
+org/apache/commons/math3/fraction/Fraction	<init>	q1	196	0.381931	 
+org/apache/commons/math3/fraction/Fraction	<init>	p1	195	0.380731	 
+org/apache/commons/math3/fraction/Fraction	<init>	a1	206	0.378291	 
+org/apache/commons/math3/fraction/Fraction	<init>	r1	205	0.377008	 
+org/apache/commons/math3/fraction/Fraction	<init>	r0	179	0.365951	 
+org/apache/commons/math3/fraction/Fraction	<init>	stop	202	0.348987	 
+org/apache/commons/math3/util/FastMath	abs	x	2927	0.346299	 
+org/apache/commons/math3/util/FastMath	floor	x	3241	0.331276	 
+org/apache/commons/math3/fraction/Fraction	<init>	overflow	178	0.329465	oracle
+org/apache/commons/math3/fraction/Fraction	<init>	epsilon	187	0.327705	 
+org/apache/commons/math3/fraction/Fraction	<init>	value	121	0.3	 
+org/apache/commons/math3/fraction/Fraction	<init>	epsilon	121	0.3	 
+org/apache/commons/math3/fraction/Fraction	<init>	n	201	0.298541	 
+org/apache/commons/math3/fraction/Fraction	<init>	convergent	213	0.293277	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxIterations	121	0.293139	 
+org/apache/commons/math3/util/FastMath	floor	y	3249	0.281996	 
+org/apache/commons/math3/fraction/Fraction	<init>	maxIterations	214	0.24045	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	arr$	44	0.210674	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	i$	44	0.210674	 
+org/apache/commons/math3/exception/util/LocalizedFormats	<init>	sourceFormat	367	0.192972	 
+org/apache/commons/math3/exception/util/ExceptionContext	<init>	throwable	65	0.19281	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	this	87	0.19281	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	pattern	87	0.19281	 
+org/apache/commons/math3/exception/util/ExceptionContext	addMessage	arguments	88	0.19281	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	array	44	0.19281	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	len$	44	0.19281	 
+org/apache/commons/math3/exception/util/LocalizedFormats	<clinit>	this	44	0.190554	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	list	42	0.190357	 
+org/apache/commons/math3/exception/util/ArgUtils	flatten	o	44	0.141806	 
+org/apache/commons/math3/exception/util/LocalizedFormats	valueOf	name	39	0.018674	 
+org/apache/commons/math3/util/FastMath	abs	x	2900	0.0153	 
+org/apache/commons/math3/fraction/Fraction	<clinit>	this	42	0.008393	 
+org/apache/commons/math3/util/ArithmeticUtils	<clinit>	this	35	0.008393	 
+org/apache/commons/math3/util/FastMath	<clinit>	this	113	0.008393	 
+org/apache/commons/math3/exception/util/LocalizedFormats	values	this	39	0.0	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	u	385	-0.004425	 
+org/apache/commons/math3/fraction/Fraction	<init>	d	271	-0.008769	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	t	419	-0.013388	 
+org/apache/commons/math3/fraction/Fraction	<init>	num	271	-0.014725	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	v	386	-0.01566	 
+org/apache/commons/math3/fraction/Fraction	<init>	den	257	-0.016167	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	k	406	-0.029408	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	q	386	-0.036865	 
+org/apache/commons/math3/util/ArithmeticUtils	gcd	p	385	-0.042078	 

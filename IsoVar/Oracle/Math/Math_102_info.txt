@@ -1,0 +1,8 @@
+Math	102
+t	org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+t	org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare
+t	org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic
+t	org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare
+t	org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic
+t	org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare
+s	org.apache.commons.math.stat.inference.ChiSquareTestImpl	fixed:79	fixed:83	fixed:82	fixed:85	fixed:74	fixed:84	fixed:95	fixed:76	fixed:75	fixed:78	fixed:89	fixed:77	fixed:90	fixed:81	fixed:92	fixed:80	fixed:91

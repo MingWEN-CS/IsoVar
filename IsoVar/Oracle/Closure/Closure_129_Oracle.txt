@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/PrepareAst$PrepareAnnotations	166	163	first	Lcom/google/javascript/rhino/Node;	false	2	false	annotateCalls	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/PrepareAst$PrepareAnnotations	167	163	first	Lcom/google/javascript/rhino/Node;	false	2	false	annotateCalls	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/PrepareAst$PrepareAnnotations	167	167	first	Lcom/google/javascript/rhino/Node;	true	2	false	annotateCalls	(Lcom/google/javascript/rhino/Node;)V	fixed

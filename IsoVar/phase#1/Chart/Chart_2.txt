@@ -1,0 +1,117 @@
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	ixyd	1238	0.7419927252852808	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	series	1239	0.7162859926152902	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	item	1241	0.7129589746288979	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	itemCount	1240	0.6955345231435033	 
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	intervalXYData	751	0.6887311355010071	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	lvalue	755	0.6648650401633902	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	series	752	0.6639379768954345	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	minimum	745	0.6594517237957946	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	maximum	746	0.6594517237957946	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	uvalue	756	0.6579992908102896	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	dataset	1233	0.6489555875515125	 
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	lvalue	1242	0.6420946181034842	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	itemCount	753	0.6357811786222234	 
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	uvalue	1243	0.620693846204727	oracle
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	dataset	742	0.5988698174349565	 
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	maximum	1232	0.5960708906458237	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	minimum	1231	0.5903167028476213	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	seriesCount	1233	0.5868010625475495	 
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	seriesCount	747	0.5532794658346607	 
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	item	754	0.5148356869471558	oracle
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	includeInterval	1236	0.4961561536364618	 
+org/jfree/data/ComparableObjectSeries	add	item	216	0.4945054945054945	 
+org/jfree/data/ComparableObjectSeries	add	this	220	0.4945054945054945	 
+org/jfree/data/ComparableObjectSeries	add	index	221	0.4945054945054945	 
+org/jfree/data/ComparableObjectSeries	<init>	key	98	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	<init>	autoSort	100	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	<init>	allowDuplicateXValues	101	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	getItemCount	this	131	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	add	notify	259	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	getDataItem	this	333	0.4945054945054944	 
+org/jfree/data/ComparableObjectSeries	getDataItem	index	333	0.4945054945054944	 
+org/jfree/data/ComparableObjectItem	<init>	x	73	0.4945054945054944	 
+org/jfree/data/ComparableObjectItem	<init>	y	77	0.4945054945054944	 
+org/jfree/data/ComparableObjectItem	getObject	this	95	0.4945054945054944	 
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	dataset	726	0.49268738574040216	 
+org/jfree/data/general/DatasetUtilities	iterateRangeBounds	dataset	1213	0.485480943738657	 
+org/jfree/data/general/DatasetUtilities	iterateDomainBounds	includeInterval	750	0.44764397905759157	 
+org/jfree/data/general/Series	addChangeListener	this	297	0.38159607549674246	 
+org/jfree/data/event/SeriesChangeEvent	<init>	source	70	0.36602870813397126	 
+org/jfree/data/event/SeriesChangeEvent	<init>	source	82	0.36602870813397126	 
+org/jfree/data/event/SeriesChangeEvent	<init>	summary	83	0.36602870813397126	 
+org/jfree/data/general/Series	fireSeriesChanged	this	315	0.36602870813397126	 
+org/jfree/data/general/Series	notifyListeners	listenerList	329	0.3647242900058148	 
+org/jfree/data/general/Series	notifyListeners	i	329	0.3647242900058148	 
+org/jfree/data/general/Series	notifyListeners	this	328	0.3647242900058147	 
+org/jfree/data/general/Series	<init>	key	114	0.3591772151898735	 
+org/jfree/data/general/Series	<init>	key	104	0.35917721518987344	 
+org/jfree/data/general/Series	<init>	description	118	0.35917721518987344	 
+org/jfree/data/general/Series	class$	x0	297	0.35917721518987344	 
+org/jfree/data/general/AbstractDataset	fireDatasetChanged	info	176	0.17453416149068324	 
+org/jfree/data/event/DatasetChangeEvent	<init>	source	87	0.1321303841676369	 
+org/jfree/data/event/DatasetChangeEvent	<init>	info	88	0.1321303841676369	 
+org/jfree/data/event/DatasetChangeEvent	<init>	dataset	91	0.1321303841676369	 
+org/jfree/data/general/AbstractDataset	notifyListeners	this	189	0.11060777598643246	 
+org/jfree/data/general/AbstractDataset	notifyListeners	listeners	190	0.11060777598643234	 
+org/jfree/data/general/AbstractDataset	notifyListeners	i	190	0.11060777598643234	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	x	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	xLow	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	xHigh	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	y	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	yLow	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	<init>	yHigh	64	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	getXLowValue	interval	97	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	getXHighValue	interval	112	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	getYLowValue	interval	127	0.0	 
+org/jfree/data/xy/XYIntervalDataItem	getYHighValue	interval	142	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	addSeries	series	84	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	addSeries	this	87	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getSeriesCount	this	99	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getSeries	series	113	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getSeries	this	116	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getItemCount	series	147	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartXValue	this	173	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartXValue	series	173	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartXValue	s	173	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartXValue	item	174	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndXValue	this	187	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndXValue	series	187	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndXValue	s	187	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndXValue	item	188	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartYValue	this	215	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartYValue	series	215	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartYValue	s	215	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getStartYValue	item	216	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndYValue	this	229	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndYValue	series	229	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndYValue	s	229	0.0	 
+org/jfree/data/xy/XYIntervalSeriesCollection	getEndYValue	item	230	0.0	 
+org/jfree/data/general/Series	addChangeListener	listener	297	0.0	 
+org/jfree/data/xy/XYIntervalSeries	<init>	key	64	0.0	 
+org/jfree/data/xy/XYIntervalSeries	<init>	key	79	0.0	 
+org/jfree/data/xy/XYIntervalSeries	<init>	autoSort	79	0.0	 
+org/jfree/data/xy/XYIntervalSeries	<init>	allowDuplicateXValues	79	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	x	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	xLow	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	xHigh	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	y	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	yLow	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	add	yHigh	94	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getXLowValue	index	120	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getXLowValue	item	120	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getXHighValue	index	135	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getXHighValue	item	135	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getYLowValue	index	162	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getYLowValue	item	162	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getYHighValue	index	177	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getYHighValue	item	177	0.0	 
+org/jfree/data/xy/XYIntervalSeries	getDataItem	index	189	0.0	 
+org/jfree/data/xy/XYInterval	<init>	xLow	79	0.0	 
+org/jfree/data/xy/XYInterval	<init>	xHigh	80	0.0	 
+org/jfree/data/xy/XYInterval	<init>	y	81	0.0	 
+org/jfree/data/xy/XYInterval	<init>	yLow	82	0.0	 
+org/jfree/data/xy/XYInterval	<init>	yHigh	83	0.0	 
+org/jfree/data/xy/XYInterval	getXLow	this	92	0.0	 
+org/jfree/data/xy/XYInterval	getXHigh	this	101	0.0	 
+org/jfree/data/xy/XYInterval	getYLow	this	119	0.0	 
+org/jfree/data/xy/XYInterval	getYHigh	this	128	0.0	 

@@ -1,0 +1,12 @@
+org/apache/commons/lang3/ClassUtils	toClass	i	909	0.473121	oracle
+org/apache/commons/lang3/ClassUtils	toClass	array	905	0.470864	oracle
+org/apache/commons/lang3/ClassUtils	toClass	classes	910	0.445658	oracle
+org/apache/commons/lang3/ClassUtils	addAbbreviation	primitive	116	0.009763	 
+org/apache/commons/lang3/ClassUtils	addAbbreviation	abbreviation	116	0.009763	 
+org/apache/commons/lang3/ClassUtils	<clinit>	this	58	0.0	 
+org/apache/commons/lang3/ClassUtils	<clinit>	i$	91	0.0	 
+org/apache/commons/lang3/ClassUtils	<clinit>	primitiveClass	91	0.0	 
+org/apache/commons/lang3/ClassUtils	<clinit>	wrapperClass	92	0.0	 
+org/apache/commons/lang3/ClassUtils	addAbbreviation	this	116	0.0	 
+org/apache/commons/lang3/ClassUtils	toClass	classes	912	0.0	oracle
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	55	0.0	 

@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/parsing/JsDocInfoParser	2401	2400	this	Lcom/google/javascript/jscomp/parsing/JsDocInfoParser;	false	0	false	getRemainingJSDocLine	()Ljava/lang/String;	fixed
+com/google/javascript/jscomp/parsing/JsDocInfoParser	2401	2401	this	Lcom/google/javascript/jscomp/parsing/JsDocInfoParser;	true	0	false	getRemainingJSDocLine	()Ljava/lang/String;	fixed
+com/google/javascript/jscomp/parsing/JsDocInfoParser	2401	2400	this	Lcom/google/javascript/jscomp/parsing/JsDocInfoParser;	false	0	false	getRemainingJSDocLine	()Ljava/lang/String;	fixed
+com/google/javascript/jscomp/parsing/JsDocInfoParser	2401	2401	this	Lcom/google/javascript/jscomp/parsing/JsDocInfoParser;	true	0	false	getRemainingJSDocLine	()Ljava/lang/String;	fixed

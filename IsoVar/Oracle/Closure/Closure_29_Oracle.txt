@@ -1,0 +1,16 @@
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	157	157	validProperties	Ljava/util/Set;	true	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	157	157	validProperties	Ljava/util/Set;	true	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	182	160	parent	Lcom/google/javascript/rhino/Node;	false	7	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	182	182	propName	Ljava/lang/String;	true	9	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	225	157	validProperties	Ljava/util/Set;	false	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	225	217	child	Lcom/google/javascript/rhino/Node;	false	10	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	183	157	validProperties	Ljava/util/Set;	false	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	183	182	propName	Ljava/lang/String;	false	9	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	225	157	validProperties	Ljava/util/Set;	false	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	225	217	child	Lcom/google/javascript/rhino/Node;	false	10	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	182	160	parent	Lcom/google/javascript/rhino/Node;	false	7	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	182	182	propName	Ljava/lang/String;	true	9	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	184	160	parent	Lcom/google/javascript/rhino/Node;	false	7	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	184	161	gramps	Lcom/google/javascript/rhino/Node;	false	8	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	185	157	validProperties	Ljava/util/Set;	false	3	false	isInlinableObject	(Ljava/util/List;)Z	fixed
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	185	182	propName	Ljava/lang/String;	false	9	false	isInlinableObject	(Ljava/util/List;)Z	fixed

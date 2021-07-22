@@ -1,0 +1,2 @@
+fix	org.apache.commons.math3.geometry.euclidean.threed.Line	88	INS	reverted.direction
+buggy	org.apache.commons.math3.geometry.euclidean.threed.Line	87	DEL	zero

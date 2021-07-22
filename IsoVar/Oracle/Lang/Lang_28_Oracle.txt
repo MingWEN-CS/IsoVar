@@ -1,0 +1,11 @@
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	63	57	entityValue	I	false	8	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	64	57	entityValue	I	false	8	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	65	37	out	Ljava/io/Writer;	false	3	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	65	64	chrs	[C	false	9	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	66	37	out	Ljava/io/Writer;	false	3	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	66	64	chrs	[C	false	9	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	64	57	entityValue	I	false	8	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	65	37	out	Ljava/io/Writer;	false	3	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	65	64	chrs	[C	false	9	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	66	37	out	Ljava/io/Writer;	false	3	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper	66	64	chrs	[C	false	9	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed

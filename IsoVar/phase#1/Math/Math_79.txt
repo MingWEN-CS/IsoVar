@@ -1,0 +1,36 @@
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	pointSet	107	0.9813088306880928	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	resultSet	108	0.9789417497028549	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	cluster	clusters	56	0.805109343997602	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	random	111	0.7734302392870581	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	minCluster	154	0.6742778108566974	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	cluster	points	56	0.6434836464437633	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	assignPointsToClusters	i$	89	0.6285462837768057	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	minDistance	153	0.6108781225223476	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	c	155	0.5939042044366443	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	distance	156	0.5939042044366443	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	i$	155	0.5324809887663609	 
+org/apache/commons/math/util/MathUtils	distance	sum	1624	0.5050939565805042	 
+org/apache/commons/math/util/MathUtils	distance	i	1625	0.501434826637893	oracle
+org/apache/commons/math/util/MathUtils	distance	p1	1625	0.501434826637893	oracle
+org/apache/commons/math/stat/clustering/Cluster	<init>	center	46	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/Cluster	getCenter	this	71	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	<init>	random	41	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	cluster	k	56	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	cluster	this	56	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	assignPointsToClusters	points	89	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	assignPointsToClusters	p	89	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	assignPointsToClusters	clusters	90	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	assignPointsToClusters	cluster	90	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	points	107	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	firstPoint	111	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	chooseInitialCenters	k	115	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	clusters	155	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer	getNearestCluster	point	156	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/EuclideanIntegerPoint	distanceFrom	x0	30	0.49851632047477745	 
+org/apache/commons/math/stat/clustering/EuclideanIntegerPoint	distanceFrom	this	57	0.49703703703703705	 
+org/apache/commons/math/stat/clustering/EuclideanIntegerPoint	distanceFrom	p	57	0.49703703703703705	 
+org/apache/commons/math/util/MathUtils	distance	p2	1626	0.4955621301775148	oracle
+org/apache/commons/math/util/MathUtils	distance	dp	1626	0.4955621301775148	 
+org/apache/commons/math/stat/clustering/EuclideanIntegerPoint	getPoint	this	52	0.4926253687315635	 
+org/apache/commons/math/util/MathUtils	<clinit>	this	30	0.0	 
+org/apache/commons/math/stat/clustering/EuclideanIntegerPoint	centroidOf	x0	30	0.0	 

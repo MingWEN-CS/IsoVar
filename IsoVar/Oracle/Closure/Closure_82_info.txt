@@ -1,0 +1,4 @@
+Closure	82
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue301
+t	com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes
+s	com.google.javascript.rhino.jstype.JSType	fixed:164	fixed:163	fixed:165

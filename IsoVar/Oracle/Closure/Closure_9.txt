@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.ProcessCommonJSModules	119	INS	filename
+buggy	com.google.javascript.jscomp.ProcessCommonJSModules	183	UPD	normalizeSourceName
+buggy	com.google.javascript.jscomp.ProcessCommonJSModules	183	DEL	guessCJSModuleName

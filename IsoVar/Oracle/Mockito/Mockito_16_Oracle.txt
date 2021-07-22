@@ -1,0 +1,9 @@
+org/mockito/internal/MockitoCore	32	32	classToMock	Ljava/lang/Class;	false	1	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	mockSettings	Lorg/mockito/MockSettings;	false	2	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	classToMock	Ljava/lang/Class;	false	1	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	mockSettings	Lorg/mockito/MockSettings;	false	2	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	classToMock	Ljava/lang/Class;	false	1	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	mockSettings	Lorg/mockito/MockSettings;	false	2	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	classToMock	Ljava/lang/Class;	false	1	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	32	32	mockSettings	Lorg/mockito/MockSettings;	false	2	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	34	33	shouldResetOngoingStubbing	Z	false	3	false	mock	(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	fixed

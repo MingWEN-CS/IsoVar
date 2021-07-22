@@ -1,0 +1,1 @@
+com/google/javascript/jscomp/InlineObjectLiterals$InliningBehavior	176	161	gramps	Lcom/google/javascript/rhino/Node;	false	8	false	isInlinableObject	(Ljava/util/List;)Z	fixed

@@ -1,0 +1,3 @@
+Chart	15
+t	org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset
+s	org.jfree.chart.plot.PiePlot	fixed:2057	fixed:1380	fixed:2054	fixed:1378	fixed:1379

@@ -1,0 +1,15 @@
+org/apache/commons/lang/ClassUtils	getPackageName	cls	229	0.38402412851118994	 
+org/apache/commons/lang/ClassUtils	getShortClassName	cls	169	0.3479920859792309	 
+org/apache/commons/lang/ClassUtils	getPackageName	i	252	0.2627867060821087	 
+org/apache/commons/lang/ClassUtils	getPackageName	className	245	0.2622258423923453	oracle
+org/apache/commons/lang/ClassUtils	getShortClassName	className	184	0.23514207965136447	oracle
+org/apache/commons/lang/ClassUtils	getShortClassName	lastDotIdx	196	0.23495050007631602	 
+org/apache/commons/lang/ClassUtils	getShortClassName	innerIdx	197	0.22881355932203395	 
+org/apache/commons/lang/ClassUtils	getShortClassName	out	199	0.20106689507329178	oracle
+org/apache/commons/lang/ClassUtils	<clinit>	this	58	0.0	 
+org/apache/commons/lang/ClassUtils	<clinit>	i$	91	0.0	 
+org/apache/commons/lang/ClassUtils	<clinit>	primitiveClass	91	0.0	 
+org/apache/commons/lang/ClassUtils	<clinit>	wrapperClass	92	0.0	 
+org/apache/commons/lang/ClassUtils	addAbbreviation	this	116	0.0	 
+org/apache/commons/lang/ClassUtils	addAbbreviation	primitive	116	0.0	 
+org/apache/commons/lang/ClassUtils	addAbbreviation	abbreviation	116	0.0	 

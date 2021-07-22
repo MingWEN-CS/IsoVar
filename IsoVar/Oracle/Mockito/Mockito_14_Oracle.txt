@@ -1,0 +1,14 @@
+org/mockito/internal/MockitoCore	73	68	this	Lorg/mockito/internal/MockitoCore;	false	0	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	73	68	mode	Lorg/mockito/verification/VerificationMode;	false	2	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	buggy
+org/mockito/internal/MockitoCore	74	69	this	Lorg/mockito/internal/MockitoCore;	false	0	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockitoCore	74	69	mock	Ljava/lang/Object;	false	1	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockitoCore	74	69	mode	Lorg/mockito/verification/VerificationMode;	false	2	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockitoCore	74	69	this	Lorg/mockito/internal/MockitoCore;	false	0	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockitoCore	74	69	mock	Ljava/lang/Object;	false	1	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockitoCore	74	69	mode	Lorg/mockito/verification/VerificationMode;	false	2	false	verify	(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	66	verificationMode	Lorg/mockito/verification/VerificationMode;	false	2	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed
+org/mockito/internal/MockHandler	77	59	invocation	Lorg/mockito/internal/invocation/Invocation;	false	1	false	handle	(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	fixed

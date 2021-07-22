@@ -1,0 +1,4 @@
+org/apache/commons/lang/LocaleUtils	<clinit>	this	47	1.0	 
+org/apache/commons/lang/LocaleUtils	<clinit>	list	51	1.0	 
+org/apache/commons/lang/LocaleUtils	isAvailableLocale	this	223	1.0	oracle
+org/apache/commons/lang/LocaleUtils	isAvailableLocale	locale	223	1.0	oracle

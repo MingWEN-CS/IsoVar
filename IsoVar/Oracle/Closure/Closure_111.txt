@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter	55	INS	topType
+fix	com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter	54	INS	topType
+fix	com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter	55	INS	getNativeType
+buggy	com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter	54	DEL	topType

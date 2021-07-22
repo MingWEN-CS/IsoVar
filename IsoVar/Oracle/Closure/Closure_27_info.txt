@@ -1,0 +1,5 @@
+Closure	27
+t	com.google.javascript.rhino.IRTest::testIssue727_1
+t	com.google.javascript.rhino.IRTest::testIssue727_2
+t	com.google.javascript.rhino.IRTest::testIssue727_3
+s	com.google.javascript.rhino.IR	fixed:227	fixed:228	fixed:111	fixed:113	fixed:112	fixed:236

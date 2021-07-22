@@ -1,0 +1,5 @@
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	9	INS	java.util.Arrays
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	61	INS	args
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	61	INS	Arrays
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	62	INS	args
+fix	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	61	INS	invocation

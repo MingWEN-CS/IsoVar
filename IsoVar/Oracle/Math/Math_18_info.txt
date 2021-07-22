@@ -1,0 +1,3 @@
+Math	18
+t	org.apache.commons.math3.optimization.direct.CMAESOptimizerTest::testFitAccuracyDependsOnBoundary
+s	org.apache.commons.math3.optimization.direct.CMAESOptimizer	fixed:997	fixed:932	fixed:958	fixed:991	fixed:990	fixed:994

@@ -1,0 +1,10 @@
+org/apache/commons/math/estimation/AbstractEstimator	166	162	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	getCovariances	(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	buggy
+org/apache/commons/math/estimation/AbstractEstimator	166	166	cols	I	true	3	false	getCovariances	(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	buggy
+org/apache/commons/math/estimation/AbstractEstimator	202	201	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	buggy
+org/apache/commons/math/estimation/AbstractEstimator	202	202	p	I	true	3	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	buggy
+org/apache/commons/math/estimation/AbstractEstimator	207	201	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	buggy
+org/apache/commons/math/estimation/AbstractEstimator	207	201	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	fixed
+org/apache/commons/math/estimation/AbstractEstimator	166	162	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	getCovariances	(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	fixed
+org/apache/commons/math/estimation/AbstractEstimator	166	166	cols	I	true	3	false	getCovariances	(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	fixed
+org/apache/commons/math/estimation/AbstractEstimator	202	201	problem	Lorg/apache/commons/math/estimation/EstimationProblem;	false	1	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	fixed
+org/apache/commons/math/estimation/AbstractEstimator	202	202	p	I	true	3	false	guessParametersErrors	(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	fixed

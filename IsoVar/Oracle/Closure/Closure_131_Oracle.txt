@@ -1,0 +1,13 @@
+com/google/javascript/rhino/TokenStream	193	191	length	I	false	1	true	isJSIdentifier	(Ljava/lang/String;)Z	buggy
+com/google/javascript/rhino/TokenStream	193	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	buggy
+com/google/javascript/rhino/TokenStream	193	191	length	I	false	1	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	193	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	193	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	199	i	I	false	2	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	199	i	I	false	2	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	199	i	I	false	2	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	191	s	Ljava/lang/String;	false	0	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed
+com/google/javascript/rhino/TokenStream	200	199	i	I	false	2	true	isJSIdentifier	(Ljava/lang/String;)Z	fixed

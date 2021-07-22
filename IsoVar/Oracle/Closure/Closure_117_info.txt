@@ -1,0 +1,3 @@
+Closure	117
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue1047
+s	com.google.javascript.jscomp.TypeValidator	buggy:757	buggy:756	buggy:767	buggy:759	buggy:758	buggy:764	buggy:763	buggy:766	buggy:765	fixed:731	fixed:730	fixed:735	fixed:734	fixed:726	fixed:737	fixed:725	fixed:736	fixed:728	fixed:727	fixed:738	buggy:760	fixed:729	buggy:762	buggy:761

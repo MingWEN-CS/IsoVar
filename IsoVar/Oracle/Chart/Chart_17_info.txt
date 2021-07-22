@@ -1,0 +1,3 @@
+Chart	17
+t	org.jfree.data.time.junit.TimeSeriesTests::testBug1832432
+s	org.jfree.data.time.TimeSeries	fixed:858	fixed:857

@@ -1,0 +1,9 @@
+fix	com.google.javascript.jscomp.CollapseProperties	484	INS	rvalue
+fix	com.google.javascript.jscomp.CollapseProperties	484	INS	Token.FUNCTION
+fix	com.google.javascript.jscomp.CollapseProperties	485	INS	checkForHosedThisReferences
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	MOV	type
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	MOV	Type.FUNCTION
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	MOV	aliasingGets
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	DEL	type
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	DEL	Type.FUNCTION
+buggy	com.google.javascript.jscomp.GlobalNamespace	920	DEL	aliasingGets

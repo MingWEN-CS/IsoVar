@@ -1,0 +1,2 @@
+fix	org.apache.commons.math.stat.correlation.PearsonsCorrelation	171	INS	t
+buggy	org.apache.commons.math.stat.correlation.PearsonsCorrelation	171	DEL	tDistribution

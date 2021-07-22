@@ -1,0 +1,4 @@
+Math	69
+t	org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero
+t	org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero
+s	org.apache.commons.math.stat.correlation.PearsonsCorrelation	fixed:171

@@ -1,0 +1,13 @@
+fix	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	146	INS	optimize
+fix	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	146	INS	min
+fix	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	146	INS	max
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	160	UPD	bound1
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	160	UPD	min
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	162	MOV	FastMath
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	162	UPD	FastMath
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	161	DEL	bound2
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	161	DEL	i
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	161	DEL	max
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	161	DEL	min
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	161	DEL	generator
+buggy	org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizer	162	DEL	FastMath

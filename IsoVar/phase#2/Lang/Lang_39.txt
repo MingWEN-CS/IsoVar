@@ -1,0 +1,25 @@
+org/apache/commons/lang3/StringUtils	replaceEach	start	3669	0.747423	 
+org/apache/commons/lang3/StringUtils	replaceEach	replaceIndex	3639	0.719029	 
+org/apache/commons/lang3/StringUtils	replaceEach	noMoreMatchesForReplIndex	3645	0.714387	 
+org/apache/commons/lang3/StringUtils	replaceEach	textIndex	3638	0.697667	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchLength	3623	0.647647	 
+org/apache/commons/lang3/StringUtils	replaceEach	tempIndex	3640	0.637617	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3612	0.574527	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3623	0.56766	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	greater	3676	0.563335	 
+org/apache/commons/lang3/StringUtils	replaceEach	increase	3672	0.555621	 
+org/apache/commons/lang3/StringUtils	replaceEach	replacementList	3612	0.554054	 
+org/apache/commons/lang3/StringUtils	replaceEach	text	3612	0.542486	 
+org/apache/commons/lang3/StringUtils	replaceEach	replacementList	3624	0.537025	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	i	3644	0.522591	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	text	3502	0.470588	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3502	0.470588	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3675	0.465476	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	replacementLength	3624	0.456522	 
+org/apache/commons/lang3/StringUtils	replaceEach	timeToLive	3619	0.452652	 
+org/apache/commons/lang3/StringUtils	replaceEach	buf	3684	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3688	0.0	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	textLength	3721	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3722	0.0	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	result	3725	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	repeat	3726	0.0	 

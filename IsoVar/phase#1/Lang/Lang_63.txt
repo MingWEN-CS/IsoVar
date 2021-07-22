@@ -1,0 +1,62 @@
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	newdiff	437	1.0	oracle
+org/apache/commons/lang/time/DurationFormatUtils	format	months	395	0.4423076923076923	 
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	end	433	0.41923802617958833	oracle
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	field	433	0.41923802617958833	oracle
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	endValue	434	0.41923802617958833	oracle
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	startValue	435	0.41923802617958833	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	startMillis	247	0.3999999999999999	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	endMillis	247	0.3999999999999999	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	format	247	0.3999999999999999	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	seconds	281	0.38962585476806844	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	minutes	282	0.38962585476806844	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	hours	283	0.38962585476806844	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	years	286	0.38856009423661464	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	months	285	0.38213473414444216	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	days	284	0.37519163969990876	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	milliseconds	280	0.37070295137947173	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	startMillis	265	0.36814202115543426	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	this	329	0.3576393570862473	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	endMillis	265	0.3383955606773037	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	start	274	0.3181818181818183	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	end	276	0.3181818181818183	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	format	270	0.3181818181818181	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	timezone	274	0.3181818181818181	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	padWithZeros	360	0.3181818181818181	 
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	tokens	360	0.3181818181818181	 
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	difference	433	0.3181818181818181	oracle
+org/apache/commons/lang/time/DurationFormatUtils	reduceAndCorrect	start	435	0.3181818181818181	oracle
+org/apache/commons/lang/time/DurationFormatUtils	formatPeriod	millis	265	0.285626768571864	 
+org/apache/commons/lang/time/DurationFormatUtils	format	i	383	0.14535920062235064	 
+org/apache/commons/lang/StringUtils	leftPad	size	3868	0.1428571428571428	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	containsTokenWithValue	tokens	528	0.130264762321408	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	containsTokenWithValue	i	529	0.130264762321408	 
+org/apache/commons/lang/StringUtils	leftPad	str	3865	0.10936937906985428	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	increment	this	566	0.10000000000000009	 
+org/apache/commons/lang/time/DurationFormatUtils	format	buffer	380	0.0992996101696948	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	list	461	0.08176121982518514	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	previous	465	0.08057544089619334	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	format	460	0.07878199657702195	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	array	461	0.06366474017965551	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	i	467	0.06366474017965551	 
+org/apache/commons/lang/time/DurationFormatUtils	format	sz	382	0.0625	 
+org/apache/commons/lang/time/DurationFormatUtils	format	token	384	0.0625	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	containsTokenWithValue	sz	528	0.0625	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	containsTokenWithValue	value	530	0.0625	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	getCount	this	575	0.0625	 
+org/apache/commons/lang/time/DurationFormatUtils	format	padWithZeros	395	0.037051458987740093	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	sz	466	0.02941176470588236	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	token	505	0.02941176470588236	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	<init>	value	546	0.02941176470588236	 
+org/apache/commons/lang/time/DurationFormatUtils$Token	getValue	this	584	0.02941176470588236	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	this	487	0.02245155887308381	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	buffer	464	0.013178325544528108	 
+org/apache/commons/lang/time/DurationFormatUtils	<clinit>	this	445	0.0	 
+org/apache/commons/lang/time/DurationFormatUtils	format	count	386	-0.010268615162787487	 
+org/apache/commons/lang/StringUtils	leftPad	pads	3868	-0.02527534768877243	 
+org/apache/commons/lang/time/DurationFormatUtils	format	tokens	382	-0.026047153675261503	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	value	473	-0.0690119935448571	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	ch	468	-0.08377255832122465	 
+org/apache/commons/lang/time/DurationFormatUtils	format	value	385	-0.09678301874954082	 
+org/apache/commons/lang/time/DurationFormatUtils	lexx	inLiteral	463	-0.10044378569544327	 
+org/apache/commons/lang/time/DurationFormatUtils	format	this	390	-0.10489587371487946	 
+org/apache/commons/lang/time/DurationFormatUtils	format	lastOutputSeconds	381	-0.11277370712359541	 

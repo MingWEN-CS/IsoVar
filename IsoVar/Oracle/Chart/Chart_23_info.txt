@@ -1,0 +1,3 @@
+Chart	23
+t	org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testEquals
+s	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	fixed:450	fixed:452	fixed:441	fixed:451	fixed:440	fixed:443	fixed:453	fixed:442	fixed:445	fixed:444	fixed:436	fixed:447	fixed:435	fixed:446	fixed:449	fixed:438	fixed:448	fixed:437	fixed:439

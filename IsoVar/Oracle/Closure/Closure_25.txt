@@ -1,0 +1,6 @@
+buggy	com.google.javascript.jscomp.TypeInference	1060	UPD	traverse
+fix	com.google.javascript.jscomp.TypeInference	1055	INS	backwardsInferenceFromCallSite
+buggy	com.google.javascript.jscomp.TypeInference	1038	DEL	scope
+buggy	com.google.javascript.jscomp.TypeInference	1038	DEL	traverse
+buggy	com.google.javascript.jscomp.TypeInference	1059	DEL	arg
+buggy	com.google.javascript.jscomp.TypeInference	1059	DEL	constructor

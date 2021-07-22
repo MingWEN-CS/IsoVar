@@ -1,0 +1,16 @@
+fix	org.apache.commons.lang3.LocaleUtils	97	INS	ch0
+fix	org.apache.commons.lang3.LocaleUtils	98	INS	len
+fix	org.apache.commons.lang3.LocaleUtils	103	INS	Character
+fix	org.apache.commons.lang3.LocaleUtils	106	INS	len
+fix	org.apache.commons.lang3.LocaleUtils	109	INS	len
+fix	org.apache.commons.lang3.LocaleUtils	112	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	101	INS	ch1
+fix	org.apache.commons.lang3.LocaleUtils	102	INS	ch2
+fix	org.apache.commons.lang3.LocaleUtils	101	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	102	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	115	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	99	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	104	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	110	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	113	INS	str
+fix	org.apache.commons.lang3.LocaleUtils	107	INS	str

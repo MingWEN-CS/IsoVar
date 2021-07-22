@@ -1,0 +1,7 @@
+fix	org.apache.commons.lang3.ArrayUtils	2964	INS	ase
+fix	org.apache.commons.lang3.ArrayUtils	2970	INS	ase
+fix	org.apache.commons.lang3.ArrayUtils	2966	INS	type2
+fix	org.apache.commons.lang3.ArrayUtils	2967	INS	type1
+fix	org.apache.commons.lang3.ArrayUtils	2966	INS	array2
+fix	org.apache.commons.lang3.ArrayUtils	2968	INS	type2
+fix	org.apache.commons.lang3.ArrayUtils	2968	INS	type1

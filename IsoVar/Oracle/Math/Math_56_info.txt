@@ -1,0 +1,3 @@
+Math	56
+t	org.apache.commons.math.util.MultidimensionalCounterTest::testIterationConsistency
+s	org.apache.commons.math.util.MultidimensionalCounter	fixed:237

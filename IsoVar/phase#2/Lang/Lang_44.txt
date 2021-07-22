@@ -1,0 +1,11 @@
+org/apache/commons/lang/NumberUtils	createNumber	exp	185	0.580838	 
+org/apache/commons/lang/NumberUtils	createNumber	dec	179	0.542906	 
+org/apache/commons/lang/NumberUtils	createNumber	mant	177	0.503134	 
+org/apache/commons/lang/NumberUtils	createNumber	numeric	188	0.457196	 
+org/apache/commons/lang/NumberUtils	createNumber	lastChar	155	0.455566	 
+org/apache/commons/lang/NumberUtils	isAllZeros	s	297	0.430631	 
+org/apache/commons/lang/NumberUtils	isAllZeros	i	300	0.407833	 
+org/apache/commons/lang/NumberUtils	createNumber	expPos	160	0.388351	 
+org/apache/commons/lang/NumberUtils	createNumber	allZeros	189	0.357374	 
+org/apache/commons/lang/NumberUtils	createNumber	val	139	0.344801	oracle
+org/apache/commons/lang/NumberUtils	createNumber	decPos	159	0.243765	 

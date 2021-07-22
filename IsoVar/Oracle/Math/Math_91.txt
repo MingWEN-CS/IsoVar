@@ -1,0 +1,8 @@
+fix	org.apache.commons.math.fraction.Fraction	259	INS	nOd
+fix	org.apache.commons.math.fraction.Fraction	259	INS	numerator
+fix	org.apache.commons.math.fraction.Fraction	259	INS	object.denominator
+fix	org.apache.commons.math.fraction.Fraction	260	INS	dOn
+fix	org.apache.commons.math.fraction.Fraction	260	INS	denominator
+fix	org.apache.commons.math.fraction.Fraction	260	INS	object.numerator
+buggy	org.apache.commons.math.fraction.Fraction	259	DEL	doubleValue
+buggy	org.apache.commons.math.fraction.Fraction	260	DEL	object

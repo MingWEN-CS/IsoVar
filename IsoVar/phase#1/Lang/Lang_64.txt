@@ -1,0 +1,18 @@
+org/apache/commons/lang/enums/ValuedEnum	compareTo	this	183	0.42207792207792205	oracle
+org/apache/commons/lang/enums/ValuedEnum	compareTo	other	183	0.42207792207792205	oracle
+org/apache/commons/lang/enums/ValuedEnum	<init>	name	126	0.3068181818181819	 
+org/apache/commons/lang/enums/ValuedEnum	<init>	value	127	0.3068181818181819	 
+org/apache/commons/lang/enums/Enum	createEntry	enumClass	485	0.16150469787699817	 
+org/apache/commons/lang/enums/Enum	createEntry	this	486	0.16150469787699817	 
+org/apache/commons/lang/enums/Enum	createEntry	cls	485	0.1389551852236099	 
+org/apache/commons/lang/enums/Enum	init	name	327	0.04484108857881691	 
+org/apache/commons/lang/enums/Enum	init	enumClass	331	0.04385114514707117	 
+org/apache/commons/lang/enums/Enum	init	this	337	0.04250164083744162	 
+org/apache/commons/lang/enums/Enum	init	entry	349	0.03975088312041403	 
+org/apache/commons/lang/enums/Enum	init	ok	336	0.03421538423024001	 
+org/apache/commons/lang/enums/Enum	createEntry	entry	484	0.027377698173570664	 
+org/apache/commons/lang/enums/Enum	init	cls	335	0.023065350904375004	 
+org/apache/commons/lang/StringUtils	isEmpty	str	185	0.02220820294717374	 
+org/apache/commons/lang/enums/Enum	<init>	name	313	0.022058823529411686	 
+org/apache/commons/lang/enums/Enum	class$	x0	337	0.0071428571428571175	 
+org/apache/commons/lang/enums/Enum	<clinit>	this	249	0.0035460992907800915	 

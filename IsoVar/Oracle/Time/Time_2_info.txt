@@ -1,0 +1,4 @@
+Time	2
+t	org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange
+s	org.joda.time.field.UnsupportedDurationField	fixed:227	fixed:229	fixed:228
+s	org.joda.time.Partial	fixed:218	fixed:449	fixed:450	fixed:451

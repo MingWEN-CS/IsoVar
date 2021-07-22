@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/TypedScopeCreator$LocalScopeBuilder	1744	1742	astParameter	Lcom/google/javascript/rhino/Node;	false	8	false	declareArguments	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypedScopeCreator$LocalScopeBuilder	1744	1735	functionNode	Lcom/google/javascript/rhino/Node;	false	1	false	declareArguments	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypedScopeCreator$LocalScopeBuilder	1744	1741	jsDocParameter	Lcom/google/javascript/rhino/Node;	false	6	false	declareArguments	(Lcom/google/javascript/rhino/Node;)V	fixed

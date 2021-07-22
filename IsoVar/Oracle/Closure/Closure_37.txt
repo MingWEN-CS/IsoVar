@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.NodeTraversal	541	INS	Preconditions
+fix	com.google.javascript.jscomp.parsing.IRFactory	667	INS	bodyNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	671	INS	Preconditions
+fix	com.google.javascript.jscomp.parsing.IRFactory	672	INS	bodyNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	672	INS	IR

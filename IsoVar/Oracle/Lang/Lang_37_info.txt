@@ -1,0 +1,3 @@
+Lang	37
+t	org.apache.commons.lang3.ArrayUtilsAddTest::testJira567
+s	org.apache.commons.lang3.ArrayUtils	fixed:2970	fixed:2971	fixed:2969	fixed:2966	fixed:2967	fixed:2968	fixed:2962	fixed:2964

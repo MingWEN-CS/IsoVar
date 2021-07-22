@@ -1,0 +1,8 @@
+fix	com.google.debugging.sourcemap.SourceMapConsumerV3	490	INS	entry
+fix	com.google.debugging.sourcemap.SourceMapConsumerV3	489	INS	entry
+fix	com.google.javascript.jscomp.SourceMap	139	INS	generator
+fix	com.google.javascript.jscomp.SourceMap	138	INS	lineBaseOffset
+fix	com.google.javascript.jscomp.SourceMap	140	INS	generator
+fix	com.google.javascript.jscomp.SourceMap	146	INS	node
+fix	com.google.javascript.jscomp.SourceMap	146	INS	lineBaseOffset
+fix	com.google.javascript.jscomp.SourceMap	141	INS	lineBaseOffset

@@ -1,0 +1,3 @@
+Math	103
+t	org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues
+s	org.apache.commons.math.distribution.NormalDistributionImpl	fixed:117	fixed:116	fixed:119	fixed:118	fixed:109	fixed:120	fixed:113	fixed:112	fixed:115	fixed:114

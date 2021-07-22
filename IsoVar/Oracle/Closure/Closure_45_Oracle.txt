@@ -1,0 +1,13 @@
+com/google/javascript/jscomp/RemoveUnusedVars	741	737	assignedToUnknownValue	Z	false	4	false	interpretAssigns	()V	buggy
+com/google/javascript/jscomp/RemoveUnusedVars	741	734	hasPropertyAssign	Z	false	5	false	interpretAssigns	()V	buggy
+com/google/javascript/jscomp/RemoveUnusedVars$Assign	904	898	assignNode	Lcom/google/javascript/rhino/Node;	false	1	false	<init>	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	buggy
+com/google/javascript/jscomp/RemoveUnusedVars$Assign	904	898	assignNode	Lcom/google/javascript/rhino/Node;	false	1	false	<init>	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	buggy
+com/google/javascript/jscomp/RemoveUnusedVars	732	732	maybeEscaped	Z	true	6	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	740	733	assign	Lcom/google/javascript/jscomp/RemoveUnusedVars$Assign;	false	8	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	738	assignedToUnknownValue	Z	false	4	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	741	maybeEscaped	Z	false	6	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	735	hasPropertyAssign	Z	false	5	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	738	assignedToUnknownValue	Z	false	4	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	741	maybeEscaped	Z	false	6	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	745	735	hasPropertyAssign	Z	false	5	false	interpretAssigns	()V	fixed
+com/google/javascript/jscomp/RemoveUnusedVars	741	741	maybeEscaped	Z	true	6	false	interpretAssigns	()V	fixed

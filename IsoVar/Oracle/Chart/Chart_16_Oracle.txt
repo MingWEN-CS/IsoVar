@@ -1,0 +1,5 @@
+org/jfree/data/category/DefaultIntervalCategoryDataset	338	335	categoryKeys	[Ljava/lang/Comparable;	false	1	false	setCategoryKeys	([Ljava/lang/Comparable;)V	buggy
+org/jfree/data/category/DefaultIntervalCategoryDataset	338	335	this	Lorg/jfree/data/category/DefaultIntervalCategoryDataset;	false	0	false	setCategoryKeys	([Ljava/lang/Comparable;)V	buggy
+org/jfree/data/category/DefaultIntervalCategoryDataset	338	335	categoryKeys	[Ljava/lang/Comparable;	false	1	false	setCategoryKeys	([Ljava/lang/Comparable;)V	buggy
+org/jfree/data/category/DefaultIntervalCategoryDataset	338	335	this	Lorg/jfree/data/category/DefaultIntervalCategoryDataset;	false	0	false	setCategoryKeys	([Ljava/lang/Comparable;)V	buggy
+org/jfree/data/category/DefaultIntervalCategoryDataset	338	335	categoryKeys	[Ljava/lang/Comparable;	false	1	false	setCategoryKeys	([Ljava/lang/Comparable;)V	fixed

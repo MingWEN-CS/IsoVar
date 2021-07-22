@@ -1,0 +1,2 @@
+org/apache/commons/math3/complex/Complex	305	300	this	Lorg/apache/commons/math3/complex/Complex;	false	0	false	reciprocal	()Lorg/apache/commons/math3/complex/Complex;	buggy
+org/apache/commons/math3/complex/Complex	305	300	this	Lorg/apache/commons/math3/complex/Complex;	false	0	false	reciprocal	()Lorg/apache/commons/math3/complex/Complex;	fixed

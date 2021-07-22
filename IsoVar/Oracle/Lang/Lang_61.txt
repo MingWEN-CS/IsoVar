@@ -1,0 +1,7 @@
+fix	org.apache.commons.lang.text.StrBuilder	1776	INS	len
+fix	org.apache.commons.lang.text.StrBuilder	1776	INS	size
+fix	org.apache.commons.lang.text.StrBuilder	1776	INS	strLen
+buggy	org.apache.commons.lang.text.StrBuilder	1776	MOV	strLen
+buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	thisBuf.length
+buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	len
+buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	strLen

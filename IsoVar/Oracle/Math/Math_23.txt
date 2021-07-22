@@ -1,0 +1,7 @@
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	151	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	151	INS	current
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	235	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	280	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	284	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	239	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	243	INS	best

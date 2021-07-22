@@ -1,0 +1,8 @@
+com/google/javascript/jscomp/MinimizeExitPoints	141	109	n	Lcom/google/javascript/rhino/Node;	false	1	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	142	109	n	Lcom/google/javascript/rhino/Node;	false	1	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	142	142	finallyBlock	Lcom/google/javascript/rhino/Node;	true	6	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	142	109	n	Lcom/google/javascript/rhino/Node;	false	1	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	142	142	finallyBlock	Lcom/google/javascript/rhino/Node;	true	6	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	143	142	finallyBlock	Lcom/google/javascript/rhino/Node;	false	6	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	143	109	exitType	I	false	2	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy
+com/google/javascript/jscomp/MinimizeExitPoints	143	109	labelName	Ljava/lang/String;	false	3	false	tryMinimizeExits	(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	buggy

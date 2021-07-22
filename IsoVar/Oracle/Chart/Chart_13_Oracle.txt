@@ -1,0 +1,3 @@
+org/jfree/chart/block/BorderArrangement	453	424	this	Lorg/jfree/chart/block/BorderArrangement;	false	0	false	arrangeFF	(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	buggy
+org/jfree/chart/block/BorderArrangement	453	424	this	Lorg/jfree/chart/block/BorderArrangement;	false	0	false	arrangeFF	(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	buggy
+org/jfree/chart/block/BorderArrangement	453	424	this	Lorg/jfree/chart/block/BorderArrangement;	false	0	false	arrangeFF	(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	fixed

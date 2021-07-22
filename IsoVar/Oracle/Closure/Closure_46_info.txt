@@ -1,0 +1,5 @@
+Closure	46
+t	com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2
+t	com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3
+t	com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf
+s	com.google.javascript.rhino.jstype.RecordType	buggy:148	buggy:147	buggy:149	buggy:144	buggy:155	buggy:143	buggy:154	buggy:146	buggy:145	buggy:140	buggy:151	buggy:150	buggy:142	buggy:153	buggy:141	buggy:152

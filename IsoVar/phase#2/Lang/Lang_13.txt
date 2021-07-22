@@ -1,0 +1,16 @@
+org/apache/commons/lang3/SerializationUtils	clone	in	85	0.686074	 
+org/apache/commons/lang3/SerializationUtils	clone	readObject	95	0.521499	 
+org/apache/commons/lang3/SerializationUtils	clone	object	79	0.505337	 
+org/apache/commons/lang3/SerializationException	<init>	cause	75	0.482143	 
+org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream	<init>	in	249	0.482143	 
+org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream	<init>	classLoader	250	0.482143	 
+org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass	desc	264	0.482143	 
+org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass	name	264	0.482143	oracle
+org/apache/commons/lang3/SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass	this	266	0.482143	oracle
+org/apache/commons/lang3/SerializationUtils	clone	bais	83	0.464912	 
+org/apache/commons/lang3/SerializationException	<init>	msg	75	0.461618	 
+org/apache/commons/lang3/SerializationUtils	serialize	out	134	0.454827	 
+org/apache/commons/lang3/SerializationUtils	serialize	baos	162	0.387097	 
+org/apache/commons/lang3/SerializationUtils	serialize	obj	163	0.387097	 
+org/apache/commons/lang3/SerializationUtils	serialize	outputStream	131	0.343426	 
+org/apache/commons/lang3/SerializationUtils	serialize	obj	138	0.333333	 

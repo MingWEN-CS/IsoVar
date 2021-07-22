@@ -1,0 +1,9 @@
+buggy	org.apache.commons.math.linear.OpenMapRealVector	498	DEL	getLInfNorm
+buggy	org.apache.commons.math.linear.OpenMapRealVector	499	DEL	max
+buggy	org.apache.commons.math.linear.OpenMapRealVector	500	DEL	iter
+buggy	org.apache.commons.math.linear.OpenMapRealVector	500	DEL	entries
+buggy	org.apache.commons.math.linear.OpenMapRealVector	501	DEL	iter
+buggy	org.apache.commons.math.linear.OpenMapRealVector	502	DEL	iter
+buggy	org.apache.commons.math.linear.OpenMapRealVector	503	DEL	max
+buggy	org.apache.commons.math.linear.OpenMapRealVector	503	DEL	iter
+buggy	org.apache.commons.math.linear.OpenMapRealVector	505	DEL	max

@@ -1,0 +1,4 @@
+org/jfree/data/time/TimeSeries	1057	1056	copy	Lorg/jfree/data/time/TimeSeries;	false	3	false	createCopy	(II)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	1057	1056	copy	Lorg/jfree/data/time/TimeSeries;	false	3	false	createCopy	(II)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	1058	1056	copy	Lorg/jfree/data/time/TimeSeries;	false	3	false	createCopy	(II)Lorg/jfree/data/time/TimeSeries;	fixed
+org/jfree/data/time/TimeSeries	1058	1056	copy	Lorg/jfree/data/time/TimeSeries;	false	3	false	createCopy	(II)Lorg/jfree/data/time/TimeSeries;	fixed

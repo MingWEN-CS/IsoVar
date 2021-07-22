@@ -1,0 +1,16 @@
+org/apache/commons/math/fraction/BigFraction	floatValue	result	732	0.483453	oracle
+org/apache/commons/math/fraction/BigFraction	floatValue	this	732	0.478723	oracle
+org/apache/commons/math/fraction/BigFraction	<init>	num	381	0.058947	 
+org/apache/commons/math/fraction/BigFraction	<init>	num	366	0.058919	 
+org/apache/commons/math/fraction/BigFraction	<init>	gcd	131	0.058323	 
+org/apache/commons/math/fraction/BigFraction	<clinit>	this	44	0.054217	 
+org/apache/commons/math/util/MathUtils	checkNotNull	o	244	0.054217	 
+org/apache/commons/math/fraction/BigFraction	doubleValue	result	685	0.052349	oracle
+org/apache/commons/math/fraction/BigFraction	doubleValue	this	685	0.047619	oracle
+org/apache/commons/math/fraction/BigFraction	<init>	den	121	0.042953	 
+org/apache/commons/math/fraction/BigFraction	<init>	num	120	0.042914	 
+org/apache/commons/math/fraction/BigFraction	<init>	den	381	0.03852	 
+org/apache/commons/math/exception/util/LocalizedFormats	<init>	sourceFormat	371	0.027328	 
+org/apache/commons/math/exception/util/LocalizedFormats	<clinit>	this	44	0.019774	 
+org/apache/commons/math/exception/util/LocalizedFormats	values	this	39	0.0	 
+org/apache/commons/math/exception/util/LocalizedFormats	valueOf	name	39	-0.023067	 

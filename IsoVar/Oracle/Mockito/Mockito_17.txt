@@ -1,0 +1,9 @@
+fix	org.mockito.internal.creation.MockSettingsImpl	20	INS	serializable
+fix	org.mockito.internal.creation.MockSettingsImpl	76	INS	serializable
+fix	org.mockito.internal.creation.MockSettingsImpl	23	INS	serializable
+buggy	org.mockito.internal.creation.MockSettingsImpl	74	DEL	extraInterfaces
+buggy	org.mockito.internal.creation.MockSettingsImpl	74	DEL	java.util.Arrays
+fix	org.mockito.internal.util.MockUtil	19	INS	java.io.Serializable
+fix	org.mockito.internal.util.MockUtil	46	INS	settings
+fix	org.mockito.internal.util.MockUtil	47	INS	ancillaryTypes
+fix	org.mockito.internal.util.MockUtil	47	INS	interfaces

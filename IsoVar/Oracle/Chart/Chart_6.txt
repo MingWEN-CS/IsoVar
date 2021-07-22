@@ -1,0 +1,11 @@
+fix	org.jfree.chart.util.ShapeList	113	INS	i
+fix	org.jfree.chart.util.ShapeList	113	INS	listSize
+fix	org.jfree.chart.util.ShapeList	111	INS	that
+fix	org.jfree.chart.util.ShapeList	112	INS	listSize
+fix	org.jfree.chart.util.ShapeList	111	INS	obj
+fix	org.jfree.chart.util.ShapeList	112	INS	size
+fix	org.jfree.chart.util.ShapeList	114	INS	ShapeUtilities
+fix	org.jfree.chart.util.ShapeList	114	INS	get
+fix	org.jfree.chart.util.ShapeList	114	INS	that
+buggy	org.jfree.chart.util.ShapeList	111	DEL	equals
+buggy	org.jfree.chart.util.ShapeList	111	DEL	obj

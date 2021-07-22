@@ -1,0 +1,42 @@
+org/apache/commons/math/complex/ComplexFormat	parse	startIndex	337	0.33397	oracle
+org/apache/commons/math/complex/ComplexFormat	parseNumber	source	472	0.289819	 
+org/apache/commons/math/complex/ComplexFormat	parse	source	324	0.286685	oracle
+org/apache/commons/math/complex/ComplexFormat	parse	sign	339	0.282541	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	source	412	0.280158	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	ret	413	0.275429	 
+org/apache/commons/math/complex/ComplexFormat	parse	initialIndex	321	0.273643	 
+org/apache/commons/math/complex/ComplexFormat	parseAndIgnoreWhitespace	source	399	0.273643	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	n	412	0.267478	 
+org/apache/commons/math/complex/ComplexFormat	parse	n	374	0.264886	 
+org/apache/commons/math/complex/ComplexFormat	parse	endIndex	376	0.26292	oracle
+org/apache/commons/math/complex/ComplexFormat	parseNumber	number	472	0.262197	 
+org/apache/commons/math/complex/ComplexFormat	parseNumber	startIndex	471	0.259127	 
+org/apache/commons/math/complex/ComplexFormat	parseNumber	endIndex	473	0.259127	 
+org/apache/commons/math/complex/ComplexFormat	parse	pos	321	0.25824	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	c	418	0.257677	 
+org/apache/commons/math/complex/ComplexFormat	parseNumber	pos	471	0.255306	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	index	411	0.254392	 
+org/apache/commons/math/complex/ComplexFormat	parse	c	338	0.243037	 
+org/apache/commons/math/complex/ComplexFormat	parseNextCharacter	pos	411	0.241269	 
+org/apache/commons/math/complex/ComplexFormat	parseAndIgnoreWhitespace	pos	399	0.23913	 
+org/apache/commons/math/complex/ComplexFormat	parseNumber	format	472	0.23913	 
+org/apache/commons/math/complex/ComplexFormat	parse	re	327	0.232654	 
+org/apache/commons/math/complex/ComplexFormat	getImaginaryCharacter	this	258	0.105821	 
+org/apache/commons/math/complex/ComplexFormat	getRealFormat	this	292	0.057717	 
+org/apache/commons/math/complex/ComplexFormat	<init>	imaginaryCharacter	97	0.00933	 
+org/apache/commons/math/complex/ComplexFormat	<init>	imaginaryCharacter	111	0.00933	 
+org/apache/commons/math/complex/ComplexFormat	setImaginaryCharacter	imaginaryCharacter	508	0.00933	 
+org/apache/commons/math/complex/ComplexFormat	setImaginaryFormat	this	526	0.00933	 
+org/apache/commons/math/complex/ComplexFormat	setRealFormat	this	540	0.00933	 
+org/apache/commons/math/complex/ComplexFormat	<init>	format	67	0.0	 
+org/apache/commons/math/complex/ComplexFormat	<init>	format	97	0.0	 
+org/apache/commons/math/complex/ComplexFormat	<init>	imaginaryFormat	112	0.0	 
+org/apache/commons/math/complex/ComplexFormat	<init>	realFormat	113	0.0	 
+org/apache/commons/math/complex/ComplexFormat	getDefaultNumberFormat	locale	248	0.0	 
+org/apache/commons/math/complex/ComplexFormat	getDefaultNumberFormat	nf	248	0.0	 
+org/apache/commons/math/complex/ComplexFormat	getInstance	locale	283	0.0	 
+org/apache/commons/math/complex/ComplexFormat	getInstance	f	283	0.0	 
+org/apache/commons/math/complex/ComplexFormat	parse	im	364	0.0	 
+org/apache/commons/math/complex/ComplexFormat	setImaginaryCharacter	this	512	0.0	 
+org/apache/commons/math/complex/ComplexFormat	setImaginaryFormat	imaginaryFormat	522	0.0	 
+org/apache/commons/math/complex/ComplexFormat	setRealFormat	realFormat	536	0.0	 

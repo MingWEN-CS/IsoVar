@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/NodeUtil	138	123	n	Lcom/google/javascript/rhino/Node;	false	0	true	getPureBooleanValue	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/TernaryValue;	fixed
+com/google/javascript/jscomp/NodeUtil	138	123	n	Lcom/google/javascript/rhino/Node;	false	0	true	getPureBooleanValue	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/TernaryValue;	fixed

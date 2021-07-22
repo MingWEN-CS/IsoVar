@@ -1,0 +1,18 @@
+org/apache/commons/math/geometry/Vector3D	crossProduct	v1	473	0.411765	oracle
+org/apache/commons/math/geometry/Vector3D	crossProduct	this	473	0.411765	oracle
+org/apache/commons/math/geometry/Vector3D	crossProduct	v2	473	0.411765	oracle
+org/apache/commons/math/geometry/Vector3D	getX	this	181	0.145833	 
+org/apache/commons/math/geometry/Vector3D	getY	this	189	0.145833	 
+org/apache/commons/math/geometry/Vector3D	getZ	this	197	0.145833	 
+org/apache/commons/math/geometry/Vector3DFormat	<init>	prefix	104	0.056028	 
+org/apache/commons/math/geometry/Vector3DFormat	<init>	suffix	105	0.056028	 
+org/apache/commons/math/geometry/Vector3DFormat	<init>	separator	106	0.056028	 
+org/apache/commons/math/geometry/Vector3D	<init>	x	94	0.007218	 
+org/apache/commons/math/geometry/Vector3D	<init>	y	95	0.007218	 
+org/apache/commons/math/geometry/Vector3D	<init>	z	96	0.007218	 
+org/apache/commons/math/geometry/Vector3D	<clinit>	this	35	0.0	 
+org/apache/commons/math/util/CompositeFormat	getDefaultNumberFormat	locale	56	0.0	 
+org/apache/commons/math/util/CompositeFormat	getDefaultNumberFormat	nf	56	0.0	 
+org/apache/commons/math/geometry/Vector3DFormat	<init>	format	80	0.0	 
+org/apache/commons/math/geometry/Vector3DFormat	<init>	format	110	0.0	 
+org/apache/commons/math/geometry/Vector3DFormat	getInstance	locale	168	0.0	 

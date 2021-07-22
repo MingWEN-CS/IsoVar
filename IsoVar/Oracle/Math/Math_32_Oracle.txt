@@ -1,0 +1,2 @@
+org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet	136	135	tree	Lorg/apache/commons/math3/geometry/partitioning/BSPTree;	false	2	false	computeGeometricalProperties	()V	fixed
+org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet	136	135	tree	Lorg/apache/commons/math3/geometry/partitioning/BSPTree;	false	2	false	computeGeometricalProperties	()V	fixed

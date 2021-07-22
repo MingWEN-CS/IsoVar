@@ -1,0 +1,23 @@
+com/google/javascript/rhino/IR	tryCatch	tryBody	231	0.499985	 
+com/google/javascript/rhino/IR	tryCatch	catchNode	232	0.499985	oracle
+com/google/javascript/rhino/IR	tryCatch	catchBody	233	0.499985	oracle
+com/google/javascript/rhino/IR	tryFinally	tryBody	224	0.49997	oracle
+com/google/javascript/rhino/IR	block	stmt	97	0.489372	 
+com/google/javascript/rhino/IR	name	name	293	0.403359	 
+com/google/javascript/rhino/IR	block	block	92	0.139202	 
+com/google/javascript/rhino/Node	<init>	nodeType	390	0.097463	 
+com/google/javascript/rhino/Node	getType	this	529	0.089382	 
+com/google/javascript/rhino/Node	<init>	value	362	0.08397	 
+com/google/javascript/rhino/Node	<init>	left	382	0.050406	 
+com/google/javascript/rhino/Node	<init>	right	386	0.048283	 
+com/google/javascript/rhino/IR	mayBeStatement	n	474	0.047179	 
+com/google/javascript/rhino/IR	tryCatchFinally	finallyBody	239	0.0	 
+com/google/javascript/rhino/IR	tryCatchFinally	tryBody	240	0.0	 
+com/google/javascript/rhino/IR	tryCatchFinally	catchNode	240	0.0	 
+com/google/javascript/rhino/IR	tryCatchFinally	tryNode	240	0.0	 
+com/google/javascript/rhino/IR	catchNode	expr	246	0.0	 
+com/google/javascript/rhino/IR	catchNode	body	247	0.0	 
+com/google/javascript/rhino/Node	newString	str	517	-0.000264	 
+com/google/javascript/rhino/Node	newString	type	517	-0.000345	 
+com/google/javascript/rhino/Node$StringNode	<init>	type	197	-0.092399	 
+com/google/javascript/rhino/Node$StringNode	<init>	str	198	-0.092399	 

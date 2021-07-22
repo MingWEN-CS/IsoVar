@@ -1,0 +1,31 @@
+org/jfree/chart/plot/ValueMarker	<init>	paint	95	0.277778	oracle
+org/jfree/chart/plot/ValueMarker	<init>	stroke	95	0.277778	oracle
+org/jfree/chart/plot/ValueMarker	<init>	alpha	95	0.277778	oracle
+org/jfree/chart/plot/ValueMarker	<init>	value	96	0.277778	 
+org/jfree/chart/plot/Marker	getPaint	this	211	0.038087	 
+org/jfree/chart/plot/Marker	getStroke	this	238	0.038087	 
+org/jfree/chart/plot/Marker	getOutlinePaint	this	265	0.038087	 
+org/jfree/chart/util/RectangleInsets	<init>	unitType	94	0.000738	 
+org/jfree/chart/text/TextAnchor	<init>	name	127	0.0	 
+org/jfree/chart/text/TextAnchor	<clinit>	this	60	0.0	 
+org/jfree/chart/util/RectangleAnchor	<init>	name	84	0.0	 
+org/jfree/chart/util/RectangleAnchor	<clinit>	this	40	0.0	 
+org/jfree/chart/plot/Marker	<init>	paint	177	0.0	 
+org/jfree/chart/plot/Marker	<init>	stroke	180	0.0	 
+org/jfree/chart/plot/Marker	<init>	outlinePaint	189	0.0	 
+org/jfree/chart/plot/Marker	<init>	outlineStroke	190	0.0	 
+org/jfree/chart/util/RectangleInsets	<clinit>	this	42	0.0	 
+org/jfree/chart/util/LengthAdjustmentType	<init>	name	79	0.0	 
+org/jfree/chart/util/LengthAdjustmentType	<clinit>	this	59	0.0	 
+org/jfree/chart/util/UnitType	<init>	name	72	0.0	 
+org/jfree/chart/util/UnitType	<clinit>	this	58	0.0	 
+org/jfree/chart/plot/Marker	<init>	alpha	183	-0.013079	 
+org/jfree/chart/plot/ValueMarker	getValue	this	107	-0.0181	 
+org/jfree/chart/util/RectangleInsets	<init>	top	79	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	left	79	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	bottom	79	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	right	79	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	top	98	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	bottom	99	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	left	100	-0.053792	 
+org/jfree/chart/util/RectangleInsets	<init>	right	101	-0.053792	 

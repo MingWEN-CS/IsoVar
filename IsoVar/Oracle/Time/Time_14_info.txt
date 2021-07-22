@@ -1,0 +1,10 @@
+Time	14
+t	org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap
+t	org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap
+t	org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap
+t	org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust
+t	org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust
+t	org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap
+t	org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap
+t	org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap
+s	org.joda.time.chrono.BasicMonthOfYearDateTimeField	fixed:209	fixed:212	fixed:211	fixed:214	fixed:213

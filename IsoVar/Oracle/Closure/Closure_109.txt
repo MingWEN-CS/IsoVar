@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	INS	token
+fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	INS	JsDocToken.QMARK
+fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1909	INS	newNode
+buggy	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	UPD	parseTypeName

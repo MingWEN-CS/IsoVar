@@ -1,0 +1,28 @@
+org/apache/commons/math/analysis/BrentSolver	solve	min	129	0.16308350432521096	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	max	129	0.16308350432521096	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	yMin	133	0.16308350432521096	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	yMax	134	0.16308350432521096	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	this	179	0.11936054401607693	 
+org/apache/commons/math/analysis/BrentSolver	solve	i	178	0.1174576256530046	 
+org/apache/commons/math/analysis/BrentSolver	solve	x0	175	0.09082816972813174	 
+org/apache/commons/math/analysis/BrentSolver	solve	x1	175	0.07282819111267574	 
+org/apache/commons/math/analysis/BrentSolver	solve	ret	131	0.05191882366374212	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	this	133	0.05191882366374212	oracle
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	result	140	0.045454545454545414	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	this	140	0.045454545454545414	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	iterationCount	141	0.045454545454545414	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	getAbsoluteAccuracy	this	169	0.045454545454545414	 
+org/apache/commons/math/analysis/BrentSolver	solve	x2	183	0.034924013148828925	 
+org/apache/commons/math/analysis/BrentSolver	solve	delta	175	0.028985228151773595	 
+org/apache/commons/math/analysis/BrentSolver	solve	oldDelta	176	0.004956435717660496	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	f	89	0.0	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	defaultAbsoluteAccuracy	94	0.0	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	defaultMaximalIterationCount	100	0.0	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	clearResult	this	149	0.0	 
+org/apache/commons/math/analysis/BrentSolver	<init>	f	42	0.0	 
+org/apache/commons/math/analysis/BrentSolver	solve	sign	137	0.0	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	y1	180	0.0	 
+org/apache/commons/math/analysis/BrentSolver	solve	y2	180	-0.008992128473511052	 
+org/apache/commons/math/analysis/BrentSolver	solve	y0	185	-0.020011429169408124	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	verifyInterval	lower	295	-0.02966380437819821	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	verifyInterval	upper	295	-0.02966380437819821	 

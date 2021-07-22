@@ -1,0 +1,4 @@
+fix	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer	92	INS	optimaValues
+fix	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer	97	INS	optima
+buggy	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer	92	DEL	optimizer
+buggy	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer	97	DEL	optimizer

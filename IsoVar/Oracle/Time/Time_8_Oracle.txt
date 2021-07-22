@@ -1,0 +1,15 @@
+org/joda/time/DateTimeZone	279	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	buggy
+org/joda/time/DateTimeZone	279	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	buggy
+org/joda/time/DateTimeZone	286	284	hoursInMinutes	I	false	3	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	buggy
+org/joda/time/DateTimeZone	286	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	buggy
+org/joda/time/DateTimeZone	286	286	minutesOffset	I	true	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	buggy
+org/joda/time/DateTimeZone	282	273	hoursOffset	I	false	0	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	282	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	282	273	hoursOffset	I	false	0	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	282	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	279	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	279	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	283	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	289	287	hoursInMinutes	I	false	3	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	289	273	minutesOffset	I	false	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed
+org/joda/time/DateTimeZone	289	289	minutesOffset	I	true	1	true	forOffsetHoursMinutes	(II)Lorg/joda/time/DateTimeZone;	fixed

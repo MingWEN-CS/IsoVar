@@ -1,0 +1,13 @@
+buggy	com.google.javascript.jscomp.FunctionInjector	697	DEL	hasSideEffects
+buggy	com.google.javascript.jscomp.FunctionInjector	698	DEL	block
+buggy	com.google.javascript.jscomp.FunctionInjector	699	DEL	Preconditions
+buggy	com.google.javascript.jscomp.FunctionInjector	699	DEL	block
+buggy	com.google.javascript.jscomp.FunctionInjector	700	DEL	stmt
+buggy	com.google.javascript.jscomp.FunctionInjector	700	DEL	block
+buggy	com.google.javascript.jscomp.FunctionInjector	701	DEL	stmt
+buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	hasSideEffects
+buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	NodeUtil
+buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	stmt
+buggy	com.google.javascript.jscomp.FunctionInjector	730	DEL	hasSideEffects
+buggy	com.google.javascript.jscomp.FunctionInjector	730	DEL	NodeUtil
+buggy	com.google.javascript.jscomp.FunctionInjector	731	DEL	CanInlineResult.NO

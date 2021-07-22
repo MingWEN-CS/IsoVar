@@ -1,0 +1,2 @@
+buggy	org.apache.commons.lang3.text.translate.LookupTranslator	77	MOV	lookupMap
+fix	org.apache.commons.lang3.text.translate.LookupTranslator	77	INS	subSeq

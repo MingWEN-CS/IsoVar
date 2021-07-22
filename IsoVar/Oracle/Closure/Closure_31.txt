@@ -1,0 +1,1 @@
+buggy	com.google.javascript.jscomp.Compiler	1285	DEL	options.skipAllPasses

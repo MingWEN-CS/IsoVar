@@ -1,0 +1,8 @@
+Chart	22
+t	org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey
+t	org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue
+t	org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey
+t	org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex
+t	org.jfree.data.junit.KeyedObjects2DTests::testSetObject
+t	org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey
+s	org.jfree.data.KeyedObjects2D	fixed:370	fixed:232	fixed:331	fixed:234	fixed:333	fixed:233	fixed:332	fixed:335	fixed:334	fixed:337	fixed:336	fixed:339	fixed:338	fixed:319	fixed:340	fixed:341	fixed:322	fixed:321	fixed:324	fixed:368	fixed:323	fixed:367	fixed:326	fixed:325	fixed:369	fixed:328	fixed:405	fixed:327	fixed:404	fixed:407	fixed:329	fixed:406	buggy:231

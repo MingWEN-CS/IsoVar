@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.ScopedAliases	259	INS	injectedDecls
+fix	com.google.javascript.jscomp.ScopedAliases	259	INS	Sets
+fix	com.google.javascript.jscomp.ScopedAliases	584	INS	info
+fix	com.google.javascript.jscomp.ScopedAliases	584	INS	injectedDecls
+fix	com.google.javascript.jscomp.ScopedAliases	317	INS	injectedDecls
+buggy	com.google.javascript.jscomp.ScopedAliases	581	MOV	info
+fix	com.google.javascript.jscomp.ScopedAliases	434	INS	injectedDecls
+fix	com.google.javascript.jscomp.ScopedAliases	434	INS	newDecl

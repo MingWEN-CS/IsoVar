@@ -1,0 +1,3 @@
+Lang	55
+t	org.apache.commons.lang.time.StopWatchTest::testLang315
+s	org.apache.commons.lang.time.StopWatch	fixed:118	fixed:120

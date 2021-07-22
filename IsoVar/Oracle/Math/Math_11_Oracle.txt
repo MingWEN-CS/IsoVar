@@ -1,0 +1,15 @@
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	dim	I	false	2	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	this	Lorg/apache/commons/math3/distribution/MultivariateNormalDistribution;	false	0	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	vals	[D	false	1	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	dim	I	false	2	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	this	Lorg/apache/commons/math3/distribution/MultivariateNormalDistribution;	false	0	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	vals	[D	false	1	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	dim	I	false	2	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	this	Lorg/apache/commons/math3/distribution/MultivariateNormalDistribution;	false	0	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	vals	[D	false	1	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	dim	I	false	2	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	this	Lorg/apache/commons/math3/distribution/MultivariateNormalDistribution;	false	0	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	vals	[D	false	1	false	density	([D)D	buggy
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	dim	I	false	2	false	density	([D)D	fixed
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	this	Lorg/apache/commons/math3/distribution/MultivariateNormalDistribution;	false	0	false	density	([D)D	fixed
+org/apache/commons/math3/distribution/MultivariateNormalDistribution	183	178	vals	[D	false	1	false	density	([D)D	fixed

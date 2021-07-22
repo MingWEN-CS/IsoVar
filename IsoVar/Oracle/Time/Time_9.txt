@@ -1,0 +1,16 @@
+fix	org.joda.time.DateTimeZone	96	INS	MAX_MILLIS
+fix	org.joda.time.DateTimeZone	258	INS	hoursOffset
+fix	org.joda.time.DateTimeZone	286	INS	millisOffset
+fix	org.joda.time.DateTimeZone	286	INS	MAX_MILLIS
+fix	org.joda.time.DateTimeZone	259	INS	hoursOffset
+fix	org.joda.time.DateTimeZone	266	INS	hoursInMinutes
+fix	org.joda.time.DateTimeZone	266	INS	hoursOffset
+fix	org.joda.time.DateTimeZone	287	INS	millisOffset
+fix	org.joda.time.DateTimeZone	268	INS	minutesOffset
+fix	org.joda.time.DateTimeZone	268	INS	hoursInMinutes
+fix	org.joda.time.DateTimeZone	270	INS	minutesOffset
+fix	org.joda.time.DateTimeZone	270	INS	hoursInMinutes
+buggy	org.joda.time.DateTimeZone	262	DEL	FieldUtils
+buggy	org.joda.time.DateTimeZone	264	DEL	FieldUtils
+buggy	org.joda.time.DateTimeZone	264	DEL	minutesOffset
+buggy	org.joda.time.DateTimeZone	266	DEL	FieldUtils

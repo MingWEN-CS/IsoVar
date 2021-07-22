@@ -1,0 +1,3 @@
+Closure	75
+t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIEString
+s	com.google.javascript.jscomp.NodeUtil	fixed:315	fixed:316	fixed:313	fixed:378

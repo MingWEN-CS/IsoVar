@@ -1,0 +1,3 @@
+Math	106
+t	org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus
+s	org.apache.commons.math.fraction.ProperFractionFormat	fixed:204	fixed:207	fixed:206	fixed:208	fixed:165	fixed:168	fixed:167	fixed:169

@@ -1,0 +1,3 @@
+Closure	36
+t	com.google.javascript.jscomp.IntegrationTest::testSingletonGetter1
+s	com.google.javascript.jscomp.InlineVariables	fixed:575	fixed:577	fixed:576

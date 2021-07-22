@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.AnalyzePrototypeProperties	316	INS	n
+fix	com.google.javascript.jscomp.AnalyzePrototypeProperties	316	INS	NodeUtil
+buggy	com.google.javascript.jscomp.AnalyzePrototypeProperties	316	MOV	n
+buggy	com.google.javascript.jscomp.AnalyzePrototypeProperties	316	MOV	NodeUtil
+fix	com.google.javascript.jscomp.AnalyzePrototypeProperties	318	INS	assign
+fix	com.google.javascript.jscomp.AnalyzePrototypeProperties	318	INS	Token.EXPR_RESULT

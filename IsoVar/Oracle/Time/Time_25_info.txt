@@ -1,0 +1,5 @@
+Time	25
+t	org.joda.time.TestDateTimeZoneCutover::test_DateTime_constructor_Moscow_Autumn
+t	org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn_overlap_mins
+t	org.joda.time.TestDateTimeZoneCutover::test_getOffsetFromLocal_Moscow_Autumn
+s	org.joda.time.DateTimeZone	fixed:900	fixed:899	fixed:902	fixed:901	fixed:904	fixed:903	fixed:906	fixed:905	fixed:907

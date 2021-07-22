@@ -1,0 +1,5 @@
+fix	org.mockito.internal.util.Timer	3	INS	org.mockito.exceptions.Reporter
+fix	org.mockito.internal.util.Timer	30	INS	validateInput
+fix	org.mockito.internal.util.Timer	30	INS	durationMillis
+fix	org.mockito.internal.util.Timer	31	INS	durationMillis
+fix	org.mockito.internal.util.Timer	11	INS	validateInput

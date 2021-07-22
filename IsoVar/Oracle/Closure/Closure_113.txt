@@ -1,0 +1,3 @@
+fix	com.google.javascript.jscomp.ProcessClosurePrimitives	329	INS	provided
+fix	com.google.javascript.jscomp.ProcessClosurePrimitives	329	INS	requiresLevel
+buggy	com.google.javascript.jscomp.ProcessClosurePrimitives	329	MOV	provided

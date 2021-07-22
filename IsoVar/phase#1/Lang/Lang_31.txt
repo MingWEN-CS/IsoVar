@@ -1,0 +1,12 @@
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1445	0.38038659962537374	oracle
+org/apache/commons/lang3/StringUtils	containsAny	cs	1441	0.3732074528219707	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchLength	1445	0.37238566779819304	oracle
+org/apache/commons/lang3/StringUtils	containsAny	i	1446	0.37238566779819304	oracle
+org/apache/commons/lang3/StringUtils	containsAny	ch	1447	0.36300118980941354	oracle
+org/apache/commons/lang3/StringUtils	containsAny	j	1448	0.36300118980941354	oracle
+org/apache/commons/lang3/StringUtils	containsAny	searchChars	1487	0.3625046220575581	 
+org/apache/commons/lang3/StringUtils	containsAny	csLength	1444	0.36046511627906963	oracle
+org/apache/commons/lang3/StringUtils	containsAny	cs	1490	0.36046511627906963	 
+org/apache/commons/lang3/ArrayUtils	isEmpty	array	3279	0.2716673695142035	 
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	56	0.27083333333333326	 
+org/apache/commons/lang3/StringUtils	isEmpty	cs	194	0.18817658833783996	 

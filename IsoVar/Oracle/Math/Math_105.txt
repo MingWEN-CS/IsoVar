@@ -1,0 +1,4 @@
+fix	org.apache.commons.math.stat.regression.SimpleRegression	264	INS	Math
+buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumYY
+buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumXY
+buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumXX

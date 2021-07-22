@@ -1,0 +1,3 @@
+Math	10
+t	org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAtan2SpecialCases
+s	org.apache.commons.math3.analysis.differentiation.DSCompiler	fixed:1419

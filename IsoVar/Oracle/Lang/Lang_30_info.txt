@@ -1,0 +1,12 @@
+Lang	30
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_CharArrayWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_StringWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAny_StringCharArrayWithBadSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringStringWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAny_StringWithBadSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_StringCharArrayWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAnyBut_StringCharArrayWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_StringWithBadSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testIndexOfAny_StringStringWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsNone_CharArrayWithBadSupplementaryChars
+s	org.apache.commons.lang3.StringUtils	fixed:1385	fixed:1386	fixed:1463	fixed:1387	fixed:1464	fixed:1383	fixed:1546	fixed:1601	fixed:1602	fixed:1723	fixed:1603	fixed:1604	fixed:1388	fixed:1466	fixed:1467	fixed:1544	fixed:1720	fixed:1468	fixed:1600	fixed:1705	fixed:1508	fixed:1707	fixed:1390	fixed:1451	fixed:1595	fixed:1376	fixed:1552	fixed:1596	fixed:1558	fixed:1712	fixed:1713	fixed:1553	fixed:1597	fixed:1378	fixed:1554	fixed:1598	fixed:1555	fixed:1556	fixed:1719	fixed:1715	fixed:1716	fixed:1717	fixed:1718

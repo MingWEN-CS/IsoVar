@@ -1,0 +1,14 @@
+buggy	com.google.javascript.jscomp.CheckGlobalThis	86	MOV	n
+buggy	com.google.javascript.jscomp.CheckGlobalThis	86	MOV	Token.FUNCTION
+fix	com.google.javascript.jscomp.CheckGlobalThis	153	INS	parent
+fix	com.google.javascript.jscomp.CheckGlobalThis	153	INS	NodeUtil
+fix	com.google.javascript.jscomp.CheckGlobalThis	99	INS	pType
+fix	com.google.javascript.jscomp.CheckGlobalThis	99	INS	parent
+fix	com.google.javascript.jscomp.CheckGlobalThis	100	INS	pType
+fix	com.google.javascript.jscomp.CheckGlobalThis	100	INS	Token.BLOCK
+fix	com.google.javascript.jscomp.CheckGlobalThis	103	INS	pType
+fix	com.google.javascript.jscomp.CheckGlobalThis	103	INS	Token.ASSIGN
+fix	com.google.javascript.jscomp.CheckGlobalThis	102	INS	pType
+fix	com.google.javascript.jscomp.CheckGlobalThis	102	INS	Token.NAME
+fix	com.google.javascript.jscomp.CheckGlobalThis	101	INS	pType
+fix	com.google.javascript.jscomp.CheckGlobalThis	101	INS	Token.SCRIPT

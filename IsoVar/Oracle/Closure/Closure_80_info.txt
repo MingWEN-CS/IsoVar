@@ -1,0 +1,4 @@
+Closure	80
+t	com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult
+t	com.google.javascript.jscomp.NodeUtilTest::testLocalValue1
+s	com.google.javascript.jscomp.NodeUtil	fixed:1262	fixed:2911

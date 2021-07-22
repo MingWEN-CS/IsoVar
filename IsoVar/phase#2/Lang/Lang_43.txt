@@ -1,0 +1,20 @@
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	start	419	1.09557	 
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	pattern	420	1.09557	 
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	escapingOn	421	1.09557	 
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	c	421	1.09557	 
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	pos	419	1.0	oracle
+org/apache/commons/lang/text/ExtendedMessageFormat	appendQuotedString	appendTo	422	1.0	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	pattern	144	0.588213	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	stripCustom	150	0.580645	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	this	143	0.444444	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	pos	152	0.397333	 
+org/apache/commons/lang/text/ExtendedMessageFormat	<init>	pattern	112	0.34557	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	c	156	0.289897	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	fmtCount	154	0.250681	 
+org/apache/commons/lang/text/ExtendedMessageFormat	<init>	registry	112	0.25	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	foundDescriptions	149	0.185482	 
+org/apache/commons/lang/text/ExtendedMessageFormat	next	pos	403	0.166667	 
+org/apache/commons/lang/text/ExtendedMessageFormat	applyPattern	foundFormats	148	0.114702	 
+org/apache/commons/lang/text/ExtendedMessageFormat	<init>	pattern	127	0.042759	 
+org/apache/commons/lang/text/ExtendedMessageFormat	<init>	locale	125	0.0	 
+org/apache/commons/lang/text/ExtendedMessageFormat	<init>	registry	126	0.0	 

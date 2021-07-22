@@ -1,0 +1,3 @@
+Math	65
+t	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting
+s	org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer	fixed:240	fixed:253

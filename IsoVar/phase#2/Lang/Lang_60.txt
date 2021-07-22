@@ -1,0 +1,29 @@
+org/apache/commons/lang/text/StrBuilder	indexOf	strLen	1765	0.569759	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	len	1202	0.55943	 
+org/apache/commons/lang/text/StrBuilder	contains	ch	1674	0.521135	 
+org/apache/commons/lang/text/StrBuilder	indexOf	str	1762	0.520331	 
+org/apache/commons/lang/text/StrBuilder	contains	this	1672	0.506249	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	this	1762	0.498602	 
+org/apache/commons/lang/text/StrBuilder	contains	i	1673	0.495451	oracle
+org/apache/commons/lang/text/StrBuilder	deleteFirst	index	1204	0.493963	 
+org/apache/commons/lang/text/StrBuilder	contains	thisBuf	1673	0.488265	oracle
+org/apache/commons/lang/text/StrBuilder	deleteFirst	str	1202	0.478396	 
+org/apache/commons/lang/text/StrBuilder	indexOf	i	1778	0.461216	 
+org/apache/commons/lang/text/StrBuilder	indexOf	startIndex	1761	0.455874	 
+org/apache/commons/lang/text/StrBuilder	indexOf	j	1779	0.441107	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	this	1114	0.411022	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	endIndex	1114	0.409422	 
+org/apache/commons/lang/text/StrBuilder	indexOf	len	1776	0.398744	 
+org/apache/commons/lang/text/StrBuilder	indexOf	thisBuf	1780	0.398156	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	len	1115	0.387899	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	startIndex	1114	0.387458	 
+org/apache/commons/lang/text/StrBuilder	<init>	str	122	0.100332	 
+org/apache/commons/lang/text/StrBuilder	append	strLen	472	0.052282	 
+org/apache/commons/lang/text/StrBuilder	append	this	476	0.047862	 
+org/apache/commons/lang/text/StrBuilder	length	this	182	0.043637	 
+org/apache/commons/lang/text/StrBuilder	append	len	474	0.027356	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	this	228	0.027309	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	capacity	228	0.001507	 
+org/apache/commons/lang/text/StrMatcher	<clinit>	this	37	0.0	 
+org/apache/commons/lang/text/StrMatcher$CharMatcher	<init>	ch	294	0.0	 
+org/apache/commons/lang/text/StrBuilder	append	str	469	-0.011297	 

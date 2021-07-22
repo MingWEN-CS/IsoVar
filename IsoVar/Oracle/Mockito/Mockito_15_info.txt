@@ -1,0 +1,3 @@
+Mockito	15
+t	org.mockitousage.bugs.InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest::shouldInjectUsingPropertySetterIfAvailable
+s	org.mockito.internal.configuration.injection.FinalMockCandidateFilter	fixed:26	fixed:28	fixed:4

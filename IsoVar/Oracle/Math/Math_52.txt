@@ -1,0 +1,12 @@
+buggy	org.apache.commons.math.geometry.euclidean.threed.Rotation	344	UPD	c
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	344	INS	inPlaneThreshold
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	345	INS	c
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	345	INS	inPlaneThreshold
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	345	INS	k
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	345	INS	u3
+buggy	org.apache.commons.math.geometry.euclidean.threed.Rotation	353	UPD	c
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	354	INS	c
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	354	INS	inPlaneThreshold
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	354	INS	k
+fix	org.apache.commons.math.geometry.euclidean.threed.Rotation	354	INS	u2Prime
+buggy	org.apache.commons.math.geometry.euclidean.threed.Rotation	359	UPD	c

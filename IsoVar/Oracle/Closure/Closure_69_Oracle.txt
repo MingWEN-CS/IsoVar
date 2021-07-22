@@ -1,0 +1,13 @@
+com/google/javascript/jscomp/TypeCheck	1580	1557	functionType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1580	1557	functionType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1580	1557	functionType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1580	1545	child	Lcom/google/javascript/rhino/Node;	false	3	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1580	1545	child	Lcom/google/javascript/rhino/Node;	false	3	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	t	Lcom/google/javascript/jscomp/NodeTraversal;	false	1	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	n	Lcom/google/javascript/rhino/Node;	false	2	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	this	Lcom/google/javascript/jscomp/TypeCheck;	false	0	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1557	functionType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	t	Lcom/google/javascript/jscomp/NodeTraversal;	false	1	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	n	Lcom/google/javascript/rhino/Node;	false	2	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1545	this	Lcom/google/javascript/jscomp/TypeCheck;	false	0	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1585	1557	functionType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitCall	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed

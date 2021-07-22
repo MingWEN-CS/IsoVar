@@ -1,0 +1,8 @@
+org/apache/commons/lang3/ArrayUtils	add	element	3292	1.0	 
+org/apache/commons/lang3/ArrayUtils	add	type	3295	1.0	oracle
+org/apache/commons/lang3/ArrayUtils	add	array	3298	1.0	 
+org/apache/commons/lang3/ArrayUtils	add	newArray	3299	1.0	 
+org/apache/commons/lang3/ArrayUtils	add	newArray	3300	1.0	 
+org/apache/commons/lang3/ArrayUtils	copyArrayGrow1	newArrayComponentType	3535	0.05555555555555558	 
+org/apache/commons/lang3/ArrayUtils	<clinit>	this	54	0.0	 
+org/apache/commons/lang3/ArrayUtils	copyArrayGrow1	array	3529	-0.06598921757523568	 

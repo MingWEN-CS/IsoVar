@@ -1,0 +1,16 @@
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadLeft	width	1183	1.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadLeft	this	1184	1.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadLeft	obj	1185	1.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	width	1227	1.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	this	1228	1.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	obj	1229	1.0	 
+org/apache/commons/lang/text/StrBuilder	getNullText	this	158	0.48684210526315785	 
+org/apache/commons/lang/text/StrBuilder	<init>	initialCapacity	108	0.1854866473103537	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	this	228	0.009714675500845149	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	capacity	228	0.004839205961945869	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadLeft	str	1185	0.0	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadLeft	strLen	1186	0.0	 
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	str	1229	0.0	oracle
+org/apache/commons/lang/text/StrBuilder	appendFixedWidthPadRight	strLen	1230	0.0	 
+org/apache/commons/lang/text/StrMatcher	<clinit>	this	37	0.0	 
+org/apache/commons/lang/text/StrMatcher$CharMatcher	<init>	ch	318	0.0	 

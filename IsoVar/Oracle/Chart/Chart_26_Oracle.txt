@@ -1,0 +1,1 @@
+org/jfree/chart/axis/Axis	1192	1191	owner	Lorg/jfree/chart/ChartRenderingInfo;	false	13	false	drawLabel	(Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;	fixed

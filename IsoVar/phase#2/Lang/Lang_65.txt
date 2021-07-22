@@ -1,0 +1,15 @@
+org/apache/commons/lang/time/DateUtils	truncate	field	548	0.379621	 
+org/apache/commons/lang/time/DateUtils	truncate	date	543	0.369579	 
+org/apache/commons/lang/time/DateUtils	truncate	gval	546	0.369565	 
+org/apache/commons/lang/time/DateUtils	modify	max	702	0.335616	 
+org/apache/commons/lang/time/DateUtils	modify	min	701	0.335199	 
+org/apache/commons/lang/time/DateUtils	modify	roundUp	641	0.322557	 
+org/apache/commons/lang/time/DateUtils	modify	i	642	0.29763	 
+org/apache/commons/lang/time/DateUtils	modify	field	644	0.288437	oracle
+org/apache/commons/lang/time/DateUtils	modify	j	643	0.287764	 
+org/apache/commons/lang/time/DateUtils	modify	val	620	0.276565	oracle
+org/apache/commons/lang/time/DateUtils	modify	offsetSet	668	0.271363	 
+org/apache/commons/lang/time/DateUtils	modify	round	646	0.271316	oracle
+org/apache/commons/lang/time/DateUtils	modify	this	642	0.264251	 
+org/apache/commons/lang/time/DateUtils	modify	offset	667	0.260647	oracle
+org/apache/commons/lang/time/DateUtils	<clinit>	this	44	0.0	 

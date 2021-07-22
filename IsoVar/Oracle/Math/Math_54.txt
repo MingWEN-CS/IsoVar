@@ -1,0 +1,8 @@
+fix	org.apache.commons.math.dfp.Dfp	2323	INS	cmp0
+fix	org.apache.commons.math.dfp.Dfp	2322	INS	cmp0
+fix	org.apache.commons.math.dfp.Dfp	2325	INS	cmp0
+fix	org.apache.commons.math.dfp.Dfp	2322	INS	compare
+fix	org.apache.commons.math.dfp.Dfp	2324	INS	sign
+fix	org.apache.commons.math.dfp.Dfp	273	INS	bits
+fix	org.apache.commons.math.dfp.Dfp	274	INS	sign
+buggy	org.apache.commons.math.dfp.Dfp	2319	DEL	lessThan

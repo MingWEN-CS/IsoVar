@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.parsing.IRFactory	252	INS	p
+buggy	com.google.javascript.jscomp.parsing.IRFactory	252	UPD	comment
+buggy	com.google.javascript.jscomp.parsing.IRFactory	252	MOV	comment
+fix	com.google.javascript.jscomp.parsing.IRFactory	253	INS	p
+buggy	com.google.javascript.jscomp.parsing.IRFactory	252	DEL	comment

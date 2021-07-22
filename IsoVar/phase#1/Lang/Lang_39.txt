@@ -1,0 +1,25 @@
+org/apache/commons/lang3/StringUtils	replaceEach	start	3669	0.7474234956469239	 
+org/apache/commons/lang3/StringUtils	replaceEach	replaceIndex	3639	0.7190292652361963	 
+org/apache/commons/lang3/StringUtils	replaceEach	noMoreMatchesForReplIndex	3645	0.7143866777387884	 
+org/apache/commons/lang3/StringUtils	replaceEach	textIndex	3638	0.6976667848771245	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchLength	3623	0.6476472353981589	 
+org/apache/commons/lang3/StringUtils	replaceEach	tempIndex	3640	0.6376166457352328	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3612	0.5745265937155921	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3623	0.5676598485763886	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	greater	3676	0.563335179197496	 
+org/apache/commons/lang3/StringUtils	replaceEach	increase	3672	0.5556214049235859	 
+org/apache/commons/lang3/StringUtils	replaceEach	replacementList	3612	0.5540537814788529	 
+org/apache/commons/lang3/StringUtils	replaceEach	text	3612	0.5424856022715645	 
+org/apache/commons/lang3/StringUtils	replaceEach	replacementList	3624	0.5370252482113663	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	i	3644	0.5225908871206585	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	text	3502	0.47058823529411764	 
+org/apache/commons/lang3/StringUtils	replaceEach	searchList	3502	0.47058823529411764	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3675	0.4654759599651063	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	replacementLength	3624	0.4565217391304348	 
+org/apache/commons/lang3/StringUtils	replaceEach	timeToLive	3619	0.4526524997318514	 
+org/apache/commons/lang3/StringUtils	replaceEach	buf	3684	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3688	0.0	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	textLength	3721	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	i	3722	0.0	oracle
+org/apache/commons/lang3/StringUtils	replaceEach	result	3725	0.0	 
+org/apache/commons/lang3/StringUtils	replaceEach	repeat	3726	0.0	 

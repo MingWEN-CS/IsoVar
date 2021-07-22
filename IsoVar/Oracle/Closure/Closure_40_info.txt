@@ -1,0 +1,4 @@
+Closure	40
+t	com.google.javascript.jscomp.IntegrationTest::testIssue284
+t	com.google.javascript.jscomp.NameAnalyzerTest::testIssue284
+s	com.google.javascript.jscomp.NameAnalyzer	fixed:635	buggy:639

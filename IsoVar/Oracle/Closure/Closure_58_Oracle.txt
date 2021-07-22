@@ -1,0 +1,5 @@
+com/google/javascript/jscomp/LiveVariablesAnalysis	206	204	lhs	Lcom/google/javascript/rhino/Node;	false	5	false	computeGenKill	(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	fixed
+com/google/javascript/jscomp/LiveVariablesAnalysis	210	204	lhs	Lcom/google/javascript/rhino/Node;	false	5	false	computeGenKill	(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	fixed
+com/google/javascript/jscomp/LiveVariablesAnalysis	210	181	gen	Ljava/util/BitSet;	false	2	false	computeGenKill	(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	fixed
+com/google/javascript/jscomp/LiveVariablesAnalysis	210	181	kill	Ljava/util/BitSet;	false	3	false	computeGenKill	(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	fixed
+com/google/javascript/jscomp/LiveVariablesAnalysis	210	181	conditional	Z	false	4	false	computeGenKill	(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	fixed

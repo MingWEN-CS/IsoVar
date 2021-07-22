@@ -1,0 +1,17 @@
+org/apache/commons/math3/genetics/ListPopulation	addChromosomes	this	108	0.545	 
+org/apache/commons/math3/genetics/ListPopulation	addChromosomes	chromosomeColl	108	0.5119988149074448	 
+org/apache/commons/math3/genetics/ListPopulation	iterator	this	209	0.45833333333333337	oracle
+org/apache/commons/math3/genetics/BinaryChromosome	randomBinaryRepresentation	rList	73	0.25240697517627786	 
+org/apache/commons/math3/genetics/BinaryChromosome	checkValidity	i$	58	0.24758337023577348	 
+org/apache/commons/math3/genetics/BinaryChromosome	<init>	representation	39	0.24193548387096775	 
+org/apache/commons/math3/genetics/BinaryChromosome	checkValidity	chromosomeRepresentation	58	0.24193548387096775	 
+org/apache/commons/math3/genetics/BinaryChromosome	checkValidity	i	58	0.24193548387096775	 
+org/apache/commons/math3/genetics/BinaryChromosome	randomBinaryRepresentation	length	73	0.24193548387096775	 
+org/apache/commons/math3/genetics/BinaryChromosome	randomBinaryRepresentation	j	74	0.24193548387096775	 
+org/apache/commons/math3/genetics/AbstractListChromosome	<init>	representation	43	0.21875	 
+org/apache/commons/math3/genetics/GeneticAlgorithm	<clinit>	this	40	0.19696969696969702	 
+org/apache/commons/math3/genetics/GeneticAlgorithm	getRandomGenerator	this	104	0.19696969696969702	 
+org/apache/commons/math3/genetics/ListPopulation	<init>	populationLimit	52	0.10526315789473684	 
+org/apache/commons/math3/genetics/ListPopulation	<init>	chromosomes	65	0.05350466622813749	 
+org/apache/commons/math3/genetics/ListPopulation	<init>	populationLimit	68	0.05327055503587591	 
+org/apache/commons/math3/genetics/Chromosome	compareTo	x0	28	0.0	 

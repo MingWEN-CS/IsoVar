@@ -1,0 +1,1 @@
+com/google/javascript/jscomp/VarCheck	221	206	this	Lcom/google/javascript/jscomp/VarCheck;	false	0	false	createSynthesizedExternVar	(Ljava/lang/String;)V	fixed

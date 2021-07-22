@@ -1,0 +1,29 @@
+org/jfree/data/xy/XYSeries	indexOf	x	590	0.7465391621129327	 
+org/jfree/data/xy/XYSeries	addOrUpdate	y	564	0.7430795847750865	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	index	547	0.6309855117955236	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	this	548	0.6293150240069469	oracle
+org/jfree/data/xy/XYSeries	indexOf	this	589	0.603478291211661	 
+org/jfree/data/xy/XYSeries	addOrUpdate	x	541	0.5794781535389626	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	overwritten	546	0.5451442148378733	 
+org/jfree/data/xy/XYSeries	addOrUpdate	x	527	0.4965277777777778	 
+org/jfree/data/xy/XYSeries	addOrUpdate	y	527	0.4965277777777778	 
+org/jfree/data/xy/XYDataItem	compareTo	result	191	0.46632996632996637	 
+org/jfree/data/xy/XYDataItem	compareTo	compare	181	0.275824475513026	 
+org/jfree/data/xy/XYDataItem	compareTo	o1	179	0.27567567567567564	 
+org/jfree/data/xy/XYDataItem	compareTo	dataItem	180	0.27567567567567564	 
+org/jfree/data/xy/XYDataItem	compareTo	this	181	0.27567567567567564	 
+org/jfree/data/xy/XYDataItem	getX	this	96	0.23778920308483287	 
+org/jfree/data/xy/XYDataItem	<init>	x	73	0.2157107231920199	 
+org/jfree/data/xy/XYDataItem	<init>	y	77	0.2157107231920199	 
+org/jfree/data/xy/XYSeries	getItemCount	this	186	0.2139303482587065	 
+org/jfree/data/general/Series	fireSeriesChanged	this	313	0.20864197530864204	 
+org/jfree/data/general/SeriesChangeEvent	<init>	source	61	0.20864197530864204	 
+org/jfree/data/xy/XYSeries	<init>	key	153	0.20171149144254275	 
+org/jfree/data/xy/XYSeries	<init>	autoSort	155	0.20171149144254275	 
+org/jfree/data/xy/XYSeries	<init>	allowDuplicateXValues	156	0.20171149144254275	 
+org/jfree/data/general/Series	<init>	key	112	0.1966019417475729	 
+org/jfree/data/general/Series	<init>	key	102	0.19660194174757284	 
+org/jfree/data/general/Series	<init>	description	116	0.19660194174757284	 
+org/jfree/data/general/Series	notifyListeners	this	326	0.18131813048016449	 
+org/jfree/data/general/Series	notifyListeners	listenerList	327	0.18131813048016415	 
+org/jfree/data/general/Series	notifyListeners	i	327	0.18131813048016415	 

@@ -1,0 +1,5 @@
+Math	4
+t	org.apache.commons.math3.geometry.euclidean.threed.SubLineTest::testIntersectionNotIntersecting
+t	org.apache.commons.math3.geometry.euclidean.twod.SubLineTest::testIntersectionParallel
+s	org.apache.commons.math3.geometry.euclidean.threed.SubLine	fixed:116	fixed:115	fixed:114
+s	org.apache.commons.math3.geometry.euclidean.twod.SubLine	fixed:119	fixed:118	fixed:120

@@ -1,0 +1,4 @@
+Chart	6
+t	org.jfree.chart.util.junit.ShapeListTests::testSerialization
+t	org.jfree.chart.util.junit.ShapeListTests::testEquals
+s	org.jfree.chart.util.ShapeList	fixed:117	fixed:116	fixed:118	fixed:111	fixed:113	fixed:112	fixed:115	fixed:114

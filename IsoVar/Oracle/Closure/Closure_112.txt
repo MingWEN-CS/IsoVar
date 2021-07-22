@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.TypeInference	1192	INS	Maps
+fix	com.google.javascript.jscomp.TypeInference	1197	INS	apply
+fix	com.google.javascript.jscomp.TypeInference	1196	INS	Override
+fix	com.google.javascript.jscomp.TypeInference	1197	INS	key
+fix	com.google.javascript.jscomp.TypeInference	1198	INS	keys

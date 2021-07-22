@@ -1,0 +1,28 @@
+org/apache/commons/math/analysis/BrentSolver	solve	min	129	0.218082	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	max	129	0.218082	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	yMin	133	0.188793	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	yMax	134	0.185352	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	x0	175	0.145827	 
+org/apache/commons/math/analysis/BrentSolver	solve	i	178	0.144359	 
+org/apache/commons/math/analysis/BrentSolver	solve	x1	175	0.127827	 
+org/apache/commons/math/analysis/BrentSolver	solve	this	179	0.119361	 
+org/apache/commons/math/analysis/BrentSolver	solve	ret	131	0.106917	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	x2	183	0.089923	 
+org/apache/commons/math/analysis/BrentSolver	solve	delta	175	0.062996	 
+org/apache/commons/math/analysis/BrentSolver	solve	oldDelta	176	0.059955	 
+org/apache/commons/math/analysis/BrentSolver	solve	sign	137	0.054999	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	y1	180	0.054999	 
+org/apache/commons/math/analysis/BrentSolver	solve	this	133	0.051919	oracle
+org/apache/commons/math/analysis/BrentSolver	solve	y2	180	0.046006	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	result	140	0.026721	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	this	140	0.023708	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	getAbsoluteAccuracy	this	169	0.017907	 
+org/apache/commons/math/analysis/BrentSolver	solve	y0	185	0.0115	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	setResult	iterationCount	141	0.011267	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	f	89	0.0	 
+org/apache/commons/math/analysis/BrentSolver	<init>	f	42	0.0	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	defaultAbsoluteAccuracy	94	-0.018733	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	<init>	defaultMaximalIterationCount	100	-0.018733	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	clearResult	this	149	-0.018805	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	verifyInterval	lower	295	-0.048397	 
+org/apache/commons/math/analysis/UnivariateRealSolverImpl	verifyInterval	upper	295	-0.048397	 

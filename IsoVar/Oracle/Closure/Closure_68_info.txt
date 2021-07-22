@@ -1,0 +1,3 @@
+Closure	68
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477
+s	com.google.javascript.jscomp.parsing.JsDocInfoParser	fixed:1709	fixed:868	buggy:870	fixed:1762

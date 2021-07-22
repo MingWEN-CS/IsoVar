@@ -1,0 +1,29 @@
+org/apache/commons/lang/text/StrBuilder	indexOf	str	1762	0.6103050392912508	 
+org/apache/commons/lang/text/StrBuilder	indexOf	strLen	1765	0.6013057487675154	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	this	1762	0.589690605602917	oracle
+org/apache/commons/lang/text/StrBuilder	deleteAll	str	1184	0.5213067730925964	 
+org/apache/commons/lang/text/StrBuilder	indexOf	startIndex	1761	0.5091340832016427	 
+org/apache/commons/lang/text/StrBuilder	deleteAll	len	1184	0.5085366999092537	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	len	1202	0.5054229674299144	 
+org/apache/commons/lang/text/StrBuilder	deleteAll	index	1186	0.49971134795680416	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	index	1204	0.4975145402033205	 
+org/apache/commons/lang/text/StrBuilder	deleteFirst	str	1202	0.49117191971635815	 
+org/apache/commons/lang/text/StrBuilder	indexOf	str	1747	0.4878048780487805	 
+org/apache/commons/lang/text/StrBuilder	indexOf	i	1778	0.4761347118746796	 
+org/apache/commons/lang/text/StrBuilder	indexOf	thisBuf	1776	0.4681640438321451	oracle
+org/apache/commons/lang/text/StrBuilder	indexOf	j	1779	0.46343809747707987	 
+org/apache/commons/lang/text/StrBuilder	indexOf	len	1776	0.45857988165680474	oracle
+org/apache/commons/lang/text/StrBuilder	deleteImpl	this	1114	0.4257142857142858	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	endIndex	1114	0.4257142857142858	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	startIndex	1114	0.4257142857142858	 
+org/apache/commons/lang/text/StrBuilder	deleteImpl	len	1115	0.4257142857142858	 
+org/apache/commons/lang/text/StrBuilder	<init>	str	122	0.21696587276320012	 
+org/apache/commons/lang/text/StrBuilder	append	strLen	472	0.1319128279104188	 
+org/apache/commons/lang/text/StrBuilder	append	this	476	0.1319128279104188	 
+org/apache/commons/lang/text/StrBuilder	append	str	469	0.13069025588747318	 
+org/apache/commons/lang/text/StrBuilder	append	len	474	0.13035019455252916	 
+org/apache/commons/lang/text/StrBuilder	length	this	182	0.024271844660194164	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	this	228	0.011363840847903817	 
+org/apache/commons/lang/text/StrMatcher	<clinit>	this	37	0.004672897196261738	 
+org/apache/commons/lang/text/StrMatcher$CharMatcher	<init>	ch	294	0.004672897196261738	 
+org/apache/commons/lang/text/StrBuilder	ensureCapacity	capacity	228	-0.0013000233309785614	 

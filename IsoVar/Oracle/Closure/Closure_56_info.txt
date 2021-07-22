@@ -1,0 +1,5 @@
+Closure	56
+t	com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine
+t	com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1
+t	com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2
+s	com.google.javascript.jscomp.SourceFile	fixed:242	fixed:245	fixed:244	fixed:246

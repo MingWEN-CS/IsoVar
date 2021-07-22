@@ -1,0 +1,34 @@
+org/mockito/internal/util/reflection/GenericMetadataSupport	getActualTypeArgumentFor	typeVariable	184	0.493874	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	<init>	typeParameters	363	0.49084	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	<init>	typeVariable	364	0.49084	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	<init>	source	365	0.49084	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	readTypeParameters	this	372	0.49084	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	readTypeVariables	this	376	0.49084	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	<init>	clazz	255	0.486354	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	<init>	currentExploredClass	257	0.486354	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	boundsOf	typeParameter	105	0.484079	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	getActualTypeArgumentFor	this	182	0.484079	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	getActualTypeArgumentFor	typeParameter	182	0.484079	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	getActualTypeArgumentFor	type	182	0.484079	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVarBoundedType	<init>	typeVariable	520	0.484079	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariableIfNotPresent	this	93	0.482589	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariableIfNotPresent	typeVariable	93	0.482589	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	parameterizedType	70	0.481846	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	typeParameters	71	0.481846	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	actualTypeArguments	72	0.481846	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	typeParameter	74	0.481846	oracle
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	actualTypeArgument	75	0.481846	oracle
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	this	80	0.481846	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	resolveGenericReturnType	method	200	0.47083	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	resolveGenericReturnType	genericReturnType	200	0.47083	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeParametersOn	typeParameters	87	0.468657	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	superClassOf	currentExploredClass	266	0.468657	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	superClassOf	genericSuperclass	266	0.468657	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	readActualTypeParametersOnDeclaringClass	clazz	275	0.468657	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	classType	67	0.467934	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	inferFrom	type	229	0.467934	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeVariablesOn	i	73	0.457129	 
+org/mockito/internal/util/Checks	checkNotNull	value	14	0.027857	 
+org/mockito/internal/util/reflection/GenericMetadataSupport	registerTypeParametersOn	typeVariable	87	0.0	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	readTypeVariables	type	376	0.0	 
+org/mockito/internal/util/reflection/GenericMetadataSupport$FromClassGenericMetadataSupport	readActualTypeParametersOnDeclaringClass	genericInterface	277	0.0	 

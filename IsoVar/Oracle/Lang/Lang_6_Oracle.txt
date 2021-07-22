@@ -1,0 +1,8 @@
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	89	pos	I	false	3	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	buggy
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	76	input	Ljava/lang/CharSequence;	false	1	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	buggy
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	89	pos	I	false	3	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	buggy
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	95	pos	I	true	3	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	buggy
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	89	pos	I	false	3	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	fixed
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	76	input	Ljava/lang/CharSequence;	false	1	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	fixed
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	94	pt	I	false	6	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	fixed
+org/apache/commons/lang3/text/translate/CharSequenceTranslator	95	95	pos	I	true	3	false	translate	(Ljava/lang/CharSequence;Ljava/io/Writer;)V	fixed

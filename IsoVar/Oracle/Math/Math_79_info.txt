@@ -1,0 +1,3 @@
+Math	79
+t	org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testPerformClusterAnalysisDegenerate
+s	org.apache.commons.math.util.MathUtils	fixed:1624	fixed:1626

@@ -1,0 +1,11 @@
+Time	12
+t	org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1
+t	org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3
+t	org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+t	org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+t	org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1
+t	org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3
+t	org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1
+t	org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3
+s	org.joda.time.LocalDate	fixed:249	fixed:248	fixed:210	fixed:244	fixed:247	fixed:213	fixed:246
+s	org.joda.time.LocalDateTime	fixed:237	fixed:239	fixed:241	fixed:240	fixed:199	fixed:242	fixed:202

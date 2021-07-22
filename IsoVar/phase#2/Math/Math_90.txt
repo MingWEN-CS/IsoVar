@@ -1,0 +1,4 @@
+org/apache/commons/math/stat/Frequency	addValue	v	121	0.002986	oracle
+org/apache/commons/math/stat/Frequency	addValue	count	126	-0.059838	 
+org/apache/commons/math/stat/Frequency	addValue	obj	121	-0.071578	 
+org/apache/commons/math/stat/Frequency	addValue	this	126	-0.10912	 

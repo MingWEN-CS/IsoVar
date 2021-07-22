@@ -1,0 +1,4 @@
+Closure	60
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504
+t	com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue
+s	com.google.javascript.jscomp.NodeUtil	fixed:138	fixed:108	fixed:109	fixed:140	fixed:141

@@ -1,0 +1,29 @@
+org/jfree/data/xy/XYSeries	indexOf	x	590	0.746539	 
+org/jfree/data/xy/XYSeries	addOrUpdate	y	564	0.74308	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	index	547	0.712553	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	this	548	0.638757	oracle
+org/jfree/data/xy/XYSeries	indexOf	this	589	0.595452	 
+org/jfree/data/xy/XYSeries	addOrUpdate	x	541	0.579478	oracle
+org/jfree/data/xy/XYSeries	addOrUpdate	overwritten	546	0.545144	 
+org/jfree/data/xy/XYSeries	addOrUpdate	x	527	0.496528	 
+org/jfree/data/xy/XYSeries	addOrUpdate	y	527	0.496528	 
+org/jfree/data/xy/XYDataItem	compareTo	result	191	0.477099	 
+org/jfree/data/xy/XYDataItem	compareTo	compare	181	0.283106	 
+org/jfree/data/xy/XYDataItem	compareTo	o1	179	0.275676	 
+org/jfree/data/xy/XYDataItem	compareTo	dataItem	180	0.275676	 
+org/jfree/data/xy/XYDataItem	compareTo	this	181	0.275676	 
+org/jfree/data/xy/XYDataItem	getX	this	96	0.237789	 
+org/jfree/data/xy/XYSeries	<init>	autoSort	155	0.227676	 
+org/jfree/data/xy/XYSeries	<init>	allowDuplicateXValues	156	0.217789	 
+org/jfree/data/xy/XYDataItem	<init>	x	73	0.215711	 
+org/jfree/data/xy/XYDataItem	<init>	y	77	0.215711	 
+org/jfree/data/xy/XYSeries	getItemCount	this	186	0.21393	 
+org/jfree/data/general/Series	fireSeriesChanged	this	313	0.208642	 
+org/jfree/data/general/SeriesChangeEvent	<init>	source	61	0.208642	 
+org/jfree/data/xy/XYSeries	<init>	key	153	0.201711	 
+org/jfree/data/general/Series	<init>	key	102	0.196602	 
+org/jfree/data/general/Series	<init>	key	112	0.196602	 
+org/jfree/data/general/Series	<init>	description	116	0.191677	 
+org/jfree/data/general/Series	notifyListeners	listenerList	327	0.181318	 
+org/jfree/data/general/Series	notifyListeners	i	327	0.181318	 
+org/jfree/data/general/Series	notifyListeners	this	326	0.162812	 

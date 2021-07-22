@@ -1,0 +1,14 @@
+org/apache/commons/lang3/math/NumberUtils	createNumber	hexDigits	467	0.7501111193756265	oracle
+org/apache/commons/lang3/math/NumberUtils	createNumber	arr$	460	0.5701173616327204	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfxLen	459	0.5386327668349258	oracle
+org/apache/commons/lang3/math/NumberUtils	createNumber	str	451	0.5057553384978748	oracle
+org/apache/commons/lang3/math/NumberUtils	createNumber	pfx	460	0.4787417745316869	 
+org/apache/commons/lang3/math/NumberUtils	createInteger	str	680	0.45156174498948	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	i$	460	0.4273386043435878	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	hex_prefixes	460	0.4140624999999999	 
+org/apache/commons/lang3/StringUtils	isBlank	strLen	257	0.4070260305849881	 
+org/apache/commons/lang3/StringUtils	isBlank	cs	257	0.4070173747824156	 
+org/apache/commons/lang3/StringUtils	isBlank	i	260	0.40697886965683966	 
+org/apache/commons/lang3/StringUtils	<clinit>	this	181	0.3999999999999999	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	len$	460	0.3755616655832584	 
+org/apache/commons/lang3/math/NumberUtils	<clinit>	this	34	0.07352941176470584	 

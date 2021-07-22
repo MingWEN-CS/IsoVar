@@ -1,0 +1,3 @@
+Closure	58
+t	com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn
+s	com.google.javascript.jscomp.LiveVariablesAnalysis	fixed:206	fixed:209	fixed:210	fixed:211

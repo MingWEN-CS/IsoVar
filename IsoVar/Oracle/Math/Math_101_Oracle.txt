@@ -1,0 +1,14 @@
+org/apache/commons/math/complex/ComplexFormat	377	375	startIndex	I	false	5	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	376	endIndex	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	375	startIndex	I	false	5	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	376	endIndex	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	375	startIndex	I	false	5	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	376	endIndex	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	321	source	Ljava/lang/String;	false	1	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	375	startIndex	I	false	5	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/ComplexFormat	377	376	endIndex	I	false	10	false	parse	(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	fixed

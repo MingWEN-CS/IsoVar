@@ -1,0 +1,4 @@
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	267	INS	best
+fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	230	INS	best
+buggy	org.apache.commons.math3.optimization.univariate.BrentOptimizer	230	DEL	current
+buggy	org.apache.commons.math3.optimization.univariate.BrentOptimizer	267	DEL	current

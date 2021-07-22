@@ -1,0 +1,4 @@
+Mockito	16
+t	org.mockitousage.bugs.StubbingMocksThatAreConfiguredToReturnMocksTest::shouldAllowStubbingMocksConfiguredWithRETURNS_MOCKS
+s	org.mockito.internal.MockitoCore	fixed:36	fixed:32	fixed:34
+s	org.mockito.Mockito	fixed:899	fixed:827

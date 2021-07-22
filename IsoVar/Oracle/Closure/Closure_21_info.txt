@@ -1,0 +1,3 @@
+Closure	21
+t	com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCode
+s	com.google.javascript.jscomp.CheckSideEffects	fixed:113	fixed:101

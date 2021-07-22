@@ -1,0 +1,10 @@
+Closure	116
+t	com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a
+t	com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b
+t	com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+t	com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2
+t	com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101
+t	com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8
+t	com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9
+t	com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+s	com.google.javascript.jscomp.FunctionInjector	fixed:700	fixed:733	fixed:699	fixed:732	fixed:702	fixed:701	fixed:734	fixed:704	fixed:703	fixed:705	fixed:698	fixed:697

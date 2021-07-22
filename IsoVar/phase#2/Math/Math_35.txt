@@ -1,0 +1,8 @@
+org/apache/commons/math3/genetics/ListPopulation	<init>	populationLimit	51	0.186231	 
+org/apache/commons/math3/genetics/ListPopulation	<init>	chromosomes	51	0.071429	 
+org/apache/commons/math3/genetics/ElitisticListPopulation	<init>	chromosomes	50	0.071429	 
+org/apache/commons/math3/genetics/ElitisticListPopulation	<init>	elitismRate	51	0.071429	oracle
+org/apache/commons/math3/genetics/ElitisticListPopulation	<init>	populationLimit	50	0.045149	 
+org/apache/commons/math3/genetics/ListPopulation	<init>	populationLimit	70	-0.066172	 
+org/apache/commons/math3/genetics/ElitisticListPopulation	<init>	elitismRate	65	-0.166667	oracle
+org/apache/commons/math3/genetics/ElitisticListPopulation	<init>	populationLimit	64	-0.20156	 

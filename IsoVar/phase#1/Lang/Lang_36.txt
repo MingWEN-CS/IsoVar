@@ -1,0 +1,56 @@
+org/apache/commons/lang3/math/NumberUtils	isNumber	i	1326	0.5632089662219033	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	chars	1317	0.5582958789998428	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	allowSigns	1320	0.4839284502497253	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	mant	482	0.4375847992045677	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	str	1313	0.42740788067430446	 
+org/apache/commons/lang3/SystemUtils	<clinit>	this	87	0.42727272727272747	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionTrimmed	ch	1187	0.42727272727272747	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionAsFloat	this	1133	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionAsInt	str	1165	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionTrimmed	this	1185	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionMatches	this	1203	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionMatches	versionPrefix	1206	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getOSMatches	osNamePrefix	1219	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getOSMatches	osNamePrefix	1233	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getSystemProperty	property	1249	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	isJavaVersionAtLeast	this	1274	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	isJavaVersionAtLeast	requiredVersion	1274	0.42727272727272736	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionAsFloat	str	1136	0.42727272727272725	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionTrimmed	i	1186	0.42727272727272725	 
+org/apache/commons/lang3/SystemUtils	getOSMatches	this	1216	0.42727272727272725	 
+org/apache/commons/lang3/SystemUtils	getOSMatches	this	1230	0.42727272727272725	 
+org/apache/commons/lang3/SystemUtils	getJavaVersionAsInt	this	1162	0.42727272727272714	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	sz	1317	0.4175459523480337	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	dec	478	0.39545426398094724	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	start	1323	0.3914284588038375	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	decPos	469	0.3495921382108452	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	lastChar	465	0.34860798125751075	oracle
+org/apache/commons/lang3/math/NumberUtils	isNumber	hasDecPoint	1319	0.34088587471248516	oracle
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	i	609	0.33643936705744787	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	foundDigit	1321	0.33091436117123446	oracle
+org/apache/commons/lang3/math/NumberUtils	isAllZeros	str	606	0.3189770499594193	 
+org/apache/commons/lang3/StringUtils	isBlank	strLen	229	0.3100427311440845	 
+org/apache/commons/lang3/StringUtils	isBlank	str	229	0.30994575316329437	 
+org/apache/commons/lang3/StringUtils	isEmpty	str	191	0.30987656187930196	 
+org/apache/commons/lang3/StringUtils	isBlank	i	232	0.309533042366886	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	str	449	0.30043261426459067	 
+org/apache/commons/lang3/math/NumberUtils	isNumber	hasExp	1318	0.2633976740038088	oracle
+org/apache/commons/lang3/math/NumberUtils	createNumber	expPos	470	0.25390905215173887	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	exp	493	0.22143211103045563	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	499	0.11496136897953158	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	numeric	498	0.10742234470432072	 
+org/apache/commons/lang3/SystemUtils	getOSMatches	osVersionPrefix	1233	0.0	 
+org/apache/commons/lang3/math/NumberUtils	<clinit>	this	41	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	518	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	d	532	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	allZeros	573	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	f	575	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createNumber	d	583	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createFloat	str	628	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createDouble	str	644	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createInteger	str	661	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createLong	str	678	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createBigInteger	str	694	0.0	 
+org/apache/commons/lang3/math/NumberUtils	createBigDecimal	str	710	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isDigits	str	1288	0.0	 
+org/apache/commons/lang3/math/NumberUtils	isDigits	i	1291	0.0	 

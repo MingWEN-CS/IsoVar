@@ -1,0 +1,6 @@
+fix	org.apache.commons.math3.fraction.BigFraction	306	INS	epsilon
+fix	org.apache.commons.math3.fraction.BigFraction	306	INS	FastMath
+fix	org.apache.commons.math3.fraction.BigFraction	306	INS	maxDenominator
+fix	org.apache.commons.math3.fraction.Fraction	215	INS	epsilon
+fix	org.apache.commons.math3.fraction.Fraction	215	INS	FastMath
+fix	org.apache.commons.math3.fraction.Fraction	215	INS	maxDenominator

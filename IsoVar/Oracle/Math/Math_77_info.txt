@@ -1,0 +1,5 @@
+Math	77
+t	org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions
+t	org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions
+s	org.apache.commons.math.linear.ArrayRealVector	fixed:721
+s	org.apache.commons.math.linear.OpenMapRealVector	buggy:504	buggy:503	buggy:506	buggy:505	buggy:500	buggy:499	buggy:502	buggy:501	buggy:498

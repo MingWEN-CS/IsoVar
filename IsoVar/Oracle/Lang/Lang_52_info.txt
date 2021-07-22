@@ -1,0 +1,3 @@
+Lang	52
+t	org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript
+s	org.apache.commons.lang.StringEscapeUtils	fixed:238	fixed:237	fixed:239	fixed:236
