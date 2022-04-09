@@ -1,0 +1,8 @@
+Closure	79
+t	com.google.javascript.jscomp.NormalizeTest::testIssue
+t	com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1
+t	com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3
+t	com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns
+t	com.google.javascript.jscomp.VarCheckTest::testCallInExterns
+s	com.google.javascript.jscomp.Normalize	fixed:122
+s	com.google.javascript.jscomp.VarCheck	fixed:221

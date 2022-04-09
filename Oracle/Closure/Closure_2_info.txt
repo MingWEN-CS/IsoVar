@@ -1,0 +1,3 @@
+Closure	2
+t	com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces
+s	com.google.javascript.jscomp.TypeCheck	fixed:1572	fixed:1575	fixed:1576	fixed:1578

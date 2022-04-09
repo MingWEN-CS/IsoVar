@@ -1,0 +1,10 @@
+Closure	1
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1
+t	com.google.javascript.jscomp.IntegrationTest::testIssue787
+t	com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1
+t	com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2
+t	com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3
+t	com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b
+s	com.google.javascript.jscomp.RemoveUnusedVars	fixed:380	fixed:381	fixed:379

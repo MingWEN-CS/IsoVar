@@ -1,3 +1,0 @@
-Closure	130
-t	com.google.javascript.jscomp.CollapsePropertiesTest::testIssue931
-s	com.google.javascript.jscomp.CollapseProperties	fixed:172

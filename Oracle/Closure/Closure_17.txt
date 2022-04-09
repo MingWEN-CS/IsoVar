@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.TypedScopeCreator	1292	INS	rValueInfo
+fix	com.google.javascript.jscomp.TypedScopeCreator	1291	INS	rValueInfo
+fix	com.google.javascript.jscomp.TypedScopeCreator	1291	INS	rValue
+fix	com.google.javascript.jscomp.TypedScopeCreator	1294	INS	rValueInfo

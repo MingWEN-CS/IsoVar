@@ -1,0 +1,7 @@
+Mockito	19
+t	org.mockitousage.annotation.MockInjectionUsingSetterOrPropertyTest::shouldInsertFieldWithCorrectNameWhenMultipleTypesAvailable
+s	org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter	fixed:13	fixed:24
+s	org.mockito.internal.configuration.injection.filter.MockCandidateFilter	fixed:9	fixed:16
+s	org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter	fixed:47	fixed:46	fixed:57	fixed:49	fixed:48	fixed:59	fixed:50	fixed:52	fixed:51	fixed:43	fixed:54	fixed:31	fixed:42	fixed:53	fixed:23	fixed:45	fixed:56	fixed:44	fixed:55
+s	org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter	fixed:28	fixed:20
+s	org.mockito.internal.configuration.injection.PropertyAndSetterInjection	fixed:114

@@ -1,0 +1,4 @@
+Chart	19
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex
+s	org.jfree.chart.plot.CategoryPlot	fixed:700	fixed:699	fixed:977	fixed:976	fixed:978	fixed:698

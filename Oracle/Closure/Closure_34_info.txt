@@ -1,0 +1,4 @@
+Closure	34
+t	com.google.javascript.jscomp.CodePrinterTest::testManyAdds
+s	com.google.javascript.jscomp.CodeGenerator	fixed:122	fixed:752
+s	com.google.javascript.jscomp.CodePrinter	fixed:334

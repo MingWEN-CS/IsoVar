@@ -1,0 +1,3 @@
+Math	67
+t	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin
+s	org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer	fixed:92	fixed:97

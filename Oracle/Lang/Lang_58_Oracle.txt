@@ -1,0 +1,10 @@
+org/apache/commons/lang/math/NumberUtils	452	438	dec	Ljava/lang/String;	false	3	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	444	exp	Ljava/lang/String;	false	4	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	438	dec	Ljava/lang/String;	false	3	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	444	exp	Ljava/lang/String;	false	4	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang/math/NumberUtils	452	447	numeric	Ljava/lang/String;	false	7	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy

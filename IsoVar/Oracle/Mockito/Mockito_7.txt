@@ -1,2 +1,0 @@
-fix	org.mockito.internal.util.reflection.GenericMetadataSupport	379	INS	registerTypeParametersOn
-fix	org.mockito.internal.util.reflection.GenericMetadataSupport	379	INS	typeVariable

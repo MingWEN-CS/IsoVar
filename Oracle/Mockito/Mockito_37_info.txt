@@ -1,0 +1,4 @@
+Mockito	37
+t	org.mockito.internal.stubbing.answers.AnswersValidatorTest::shouldFailWhenCallingRealMethodOnIterface
+t	org.mockitousage.spies.SpyingOnInterfacesTest::shouldFailFastWhenCallingRealMethodOnInterface
+s	org.mockito.internal.stubbing.answers.AnswersValidator	fixed:36	fixed:35	fixed:37	fixed:29	fixed:28	fixed:30	fixed:34	fixed:33

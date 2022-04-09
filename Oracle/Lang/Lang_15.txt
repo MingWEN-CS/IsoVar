@@ -1,0 +1,12 @@
+fix	org.apache.commons.lang3.reflect.TypeUtils	219	INS	var
+buggy	org.apache.commons.lang3.reflect.TypeUtils	219	UPD	toTypeVarAssigns
+buggy	org.apache.commons.lang3.reflect.TypeUtils	220	UPD	entry
+fix	org.apache.commons.lang3.reflect.TypeUtils	220	INS	unrollVariableAssignments
+buggy	org.apache.commons.lang3.reflect.TypeUtils	221	UPD	fromTypeVarAssigns
+buggy	org.apache.commons.lang3.reflect.TypeUtils	221	UPD	entry
+buggy	org.apache.commons.lang3.reflect.TypeUtils	221	MOV	entry
+buggy	org.apache.commons.lang3.reflect.TypeUtils	219	DEL	entry
+buggy	org.apache.commons.lang3.reflect.TypeUtils	221	DEL	entry
+buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	cls
+buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	length
+buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	toClass

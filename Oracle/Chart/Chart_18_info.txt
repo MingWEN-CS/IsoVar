@@ -1,0 +1,7 @@
+Chart	18
+t	org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955
+t	org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey
+t	org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue
+t	org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2
+s	org.jfree.data.DefaultKeyedValues	buggy:318	buggy:320	fixed:333	fixed:334
+s	org.jfree.data.DefaultKeyedValues2D	fixed:458	fixed:457	fixed:459	fixed:460	fixed:465	fixed:464	fixed:456	fixed:467	fixed:455

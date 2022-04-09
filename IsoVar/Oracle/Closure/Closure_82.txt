@@ -1,2 +1,0 @@
-fix	com.google.javascript.rhino.jstype.JSType	163	INS	registry
-fix	com.google.javascript.rhino.jstype.JSType	163	INS	registry

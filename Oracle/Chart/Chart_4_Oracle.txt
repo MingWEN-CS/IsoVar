@@ -1,0 +1,1 @@
+org/jfree/chart/plot/XYPlot	4493	4473	r	Lorg/jfree/chart/renderer/xy/XYItemRenderer;	false	10	false	getDataRange	(Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;	fixed

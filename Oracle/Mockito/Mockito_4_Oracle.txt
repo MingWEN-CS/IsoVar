@@ -1,0 +1,2 @@
+org/mockito/exceptions/Reporter	424	418	undesired	Lorg/mockito/invocation/Invocation;	false	1	false	noMoreInteractionsWanted	(Lorg/mockito/invocation/Invocation;Ljava/util/List;)V	fixed
+org/mockito/exceptions/Reporter	434	431	undesired	Lorg/mockito/invocation/Invocation;	false	1	false	noMoreInteractionsWantedInOrder	(Lorg/mockito/invocation/Invocation;)V	fixed

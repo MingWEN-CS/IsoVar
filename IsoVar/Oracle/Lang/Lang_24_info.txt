@@ -1,3 +1,0 @@
-Lang	24
-t	org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber
-s	org.apache.commons.lang3.math.NumberUtils	fixed:1413

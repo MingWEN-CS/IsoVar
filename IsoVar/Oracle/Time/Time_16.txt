@@ -1,2 +1,0 @@
-fix	org.joda.time.format.DateTimeFormatter	708	INS	chrono
-buggy	org.joda.time.format.DateTimeFormatter	708	DEL	iDefaultYear

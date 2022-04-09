@@ -1,0 +1,6 @@
+org/joda/time/format/DateTimeFormatter	710	709	chrono	Lorg/joda/time/Chronology;	false	7	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatter	710	708	instantLocal	J	false	8	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatter	710	710	defaultYear	I	true	10	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	buggy
+org/joda/time/format/DateTimeFormatter	708	707	chrono	Lorg/joda/time/Chronology;	false	7	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatter	708	706	instantMillis	J	false	5	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	fixed
+org/joda/time/format/DateTimeFormatter	708	708	defaultYear	I	true	8	false	parseInto	(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	fixed

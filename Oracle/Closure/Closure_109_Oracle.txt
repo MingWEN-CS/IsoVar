@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/parsing/JsDocInfoParser	1908	1908	token	Lcom/google/javascript/jscomp/parsing/JsDocToken;	false	1	false	parseContextTypeExpression	(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/parsing/JsDocInfoParser	1908	1908	token	Lcom/google/javascript/jscomp/parsing/JsDocToken;	false	1	false	parseContextTypeExpression	(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/jscomp/parsing/JsDocInfoParser	1908	1908	token	Lcom/google/javascript/jscomp/parsing/JsDocToken;	false	1	false	parseContextTypeExpression	(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	fixed

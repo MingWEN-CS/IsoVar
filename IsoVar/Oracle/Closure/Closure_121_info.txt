@@ -1,3 +1,0 @@
-Closure	121
-t	com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053
-s	com.google.javascript.jscomp.InlineVariables	fixed:301	fixed:301	fixed:301

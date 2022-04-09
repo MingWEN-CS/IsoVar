@@ -1,3 +1,0 @@
-Math	5
-t	org.apache.commons.math3.complex.ComplexTest::testReciprocalZero
-s	org.apache.commons.math3.complex.Complex	fixed:305

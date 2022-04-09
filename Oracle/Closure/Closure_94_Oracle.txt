@@ -1,0 +1,8 @@
+com/google/javascript/jscomp/NodeUtil	349	321	val	Lcom/google/javascript/rhino/Node;	false	0	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	defines	Ljava/util/Set;	false	1	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	val	Lcom/google/javascript/rhino/Node;	false	0	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	defines	Ljava/util/Set;	false	1	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	val	Lcom/google/javascript/rhino/Node;	false	0	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	defines	Ljava/util/Set;	false	1	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	val	Lcom/google/javascript/rhino/Node;	false	0	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	349	321	defines	Ljava/util/Set;	false	1	true	isValidDefineValue	(Lcom/google/javascript/rhino/Node;Ljava/util/Set;)Z	fixed

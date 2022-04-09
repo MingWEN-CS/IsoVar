@@ -1,0 +1,5 @@
+Math	29
+t	org.apache.commons.math3.linear.SparseRealVectorTest::testEbeDivideMixedTypes
+t	org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplyMixedTypes
+t	org.apache.commons.math3.linear.SparseRealVectorTest::testEbeMultiplySameType
+s	org.apache.commons.math3.linear.OpenMapRealVector	fixed:380	fixed:382	fixed:381	fixed:351	fixed:384	fixed:373	fixed:350	fixed:383	fixed:375	fixed:374	fixed:377	fixed:376	fixed:379	fixed:378	fixed:349

@@ -1,0 +1,10 @@
+org/joda/time/MutableDateTime	639	636	amount	I	false	2	false	add	(Lorg/joda/time/DurationFieldType;I)V	fixed
+org/joda/time/MutableDateTime	662	662	years	I	false	1	false	addYears	(I)V	fixed
+org/joda/time/MutableDateTime	685	685	weekyears	I	false	1	false	addWeekyears	(I)V	fixed
+org/joda/time/MutableDateTime	708	708	months	I	false	1	false	addMonths	(I)V	fixed
+org/joda/time/MutableDateTime	731	731	weeks	I	false	1	false	addWeeks	(I)V	fixed
+org/joda/time/MutableDateTime	774	774	days	I	false	1	false	addDays	(I)V	fixed
+org/joda/time/MutableDateTime	797	797	hours	I	false	1	false	addHours	(I)V	fixed
+org/joda/time/MutableDateTime	830	830	minutes	I	false	1	false	addMinutes	(I)V	fixed
+org/joda/time/MutableDateTime	863	863	seconds	I	false	1	false	addSeconds	(I)V	fixed
+org/joda/time/MutableDateTime	898	898	millis	I	false	1	false	addMillis	(I)V	fixed

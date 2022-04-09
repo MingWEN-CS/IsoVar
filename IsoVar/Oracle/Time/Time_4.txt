@@ -1,2 +1,0 @@
-fix	org.joda.time.Partial	464	INS	iChronology
-buggy	org.joda.time.Partial	464	DEL	iChronology

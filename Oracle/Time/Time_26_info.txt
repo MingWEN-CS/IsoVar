@@ -1,0 +1,12 @@
+Time	26
+t	org.joda.time.TestDateTimeZoneCutover::testWithSecondOfMinuteInDstChange
+t	org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange
+t	org.joda.time.TestDateTimeZoneCutover::testWithMinuteOfHourInDstChange_mockZone
+t	org.joda.time.TestDateTimeZoneCutover::testBug2182444_usCentral
+t	org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_Paris_summer
+t	org.joda.time.TestDateTimeZoneCutover::testWithHourOfDayInDstChange
+t	org.joda.time.TestDateTimeZoneCutover::testWithMillisOfSecondInDstChange_NewYork_winter
+t	org.joda.time.TestDateTimeZoneCutover::testBug2182444_ausNSW
+s	org.joda.time.chrono.ZonedChronology	fixed:436	fixed:448	fixed:528	fixed:481	fixed:460	fixed:540	fixed:467
+s	org.joda.time.DateTimeZone	fixed:942	fixed:941	fixed:944	fixed:943	fixed:937	fixed:936	fixed:939	fixed:938	fixed:940
+s	org.joda.time.field.LenientDateTimeField	fixed:75

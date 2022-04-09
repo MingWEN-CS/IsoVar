@@ -1,0 +1,4 @@
+Lang	8
+t	org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected
+t	org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected
+s	org.apache.commons.lang3.time.FastDatePrinter	buggy:1098	buggy:1112	fixed:1132

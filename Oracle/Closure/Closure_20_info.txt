@@ -1,0 +1,3 @@
+Closure	20
+t	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSimpleFunctionCall
+s	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	fixed:221	fixed:220

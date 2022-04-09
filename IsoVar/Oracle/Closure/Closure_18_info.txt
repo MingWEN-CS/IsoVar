@@ -1,3 +1,0 @@
-Closure	18
-t	com.google.javascript.jscomp.IntegrationTest::testDependencySorting
-s	com.google.javascript.jscomp.Compiler	fixed:1288

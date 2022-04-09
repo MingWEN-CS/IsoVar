@@ -1,0 +1,11 @@
+com/google/javascript/jscomp/RenameLabels$ProcessLabels	215	213	li	Lcom/google/javascript/jscomp/RenameLabels$LabelInfo;	false	5	false	visitLabel	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/RenameLabels$ProcessLabels	215	213	li	Lcom/google/javascript/jscomp/RenameLabels$LabelInfo;	false	5	false	visitLabel	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/RenameLabels$ProcessLabels	215	210	this	Lcom/google/javascript/jscomp/RenameLabels$ProcessLabels;	false	0	false	visitLabel	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/RenameLabels$ProcessLabels	215	213	li	Lcom/google/javascript/jscomp/RenameLabels$LabelInfo;	false	5	false	visitLabel	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/RenameLabels$ProcessLabels	215	210	this	Lcom/google/javascript/jscomp/RenameLabels$ProcessLabels;	false	0	false	visitLabel	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	this	Lcom/google/javascript/jscomp/FunctionToBlockMutator;	false	0	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	idSupplier	Lcom/google/common/base/Supplier;	false	3	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	fnNode	Lcom/google/javascript/rhino/Node;	false	1	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	this	Lcom/google/javascript/jscomp/FunctionToBlockMutator;	false	0	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	idSupplier	Lcom/google/common/base/Supplier;	false	3	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed
+com/google/javascript/jscomp/FunctionToBlockMutator	152	143	fnNode	Lcom/google/javascript/rhino/Node;	false	1	false	makeLocalNamesUnique	(Lcom/google/javascript/rhino/Node;Z)V	fixed

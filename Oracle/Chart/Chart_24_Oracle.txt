@@ -1,0 +1,10 @@
+org/jfree/chart/renderer/GrayPaintScale	126	124	value	D	false	1	false	getPaint	(D)Ljava/awt/Paint;	buggy
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	buggy
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	buggy
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	buggy
+org/jfree/chart/renderer/GrayPaintScale	126	126	g	I	true	5	false	getPaint	(D)Ljava/awt/Paint;	buggy
+org/jfree/chart/renderer/GrayPaintScale	126	125	v	D	false	3	false	getPaint	(D)Ljava/awt/Paint;	fixed
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	fixed
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	fixed
+org/jfree/chart/renderer/GrayPaintScale	126	124	this	Lorg/jfree/chart/renderer/GrayPaintScale;	false	0	false	getPaint	(D)Ljava/awt/Paint;	fixed
+org/jfree/chart/renderer/GrayPaintScale	126	126	g	I	true	5	false	getPaint	(D)Ljava/awt/Paint;	fixed

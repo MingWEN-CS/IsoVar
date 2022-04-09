@@ -1,0 +1,4 @@
+Lang	19
+t	org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity
+t	org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds
+s	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	fixed:58	fixed:57	fixed:59	fixed:50	fixed:52	fixed:40	fixed:51	fixed:84	fixed:86

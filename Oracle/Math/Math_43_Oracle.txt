@@ -1,0 +1,15 @@
+org/apache/commons/math/stat/descriptive/SummaryStatistics	158	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	buggy
+org/apache/commons/math/stat/descriptive/SummaryStatistics	161	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	buggy
+org/apache/commons/math/stat/descriptive/SummaryStatistics	164	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	buggy
+org/apache/commons/math/stat/descriptive/SummaryStatistics	158	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	158	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	158	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	158	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	161	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	161	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	161	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	161	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	164	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	164	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	164	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed
+org/apache/commons/math/stat/descriptive/SummaryStatistics	164	150	this	Lorg/apache/commons/math/stat/descriptive/SummaryStatistics;	false	0	false	addValue	(D)V	fixed

@@ -1,4 +1,0 @@
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	711	DEL	error
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	711	DEL	DiagnosticType
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	718	DEL	error
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	718	DEL	DiagnosticType

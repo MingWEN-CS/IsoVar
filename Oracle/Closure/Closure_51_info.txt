@@ -1,0 +1,3 @@
+Closure	51
+t	com.google.javascript.jscomp.CodePrinterTest::testIssue582
+s	com.google.javascript.jscomp.CodeConsumer	fixed:259	fixed:261	fixed:241	fixed:262

@@ -1,3 +1,0 @@
-Closure	113
-t	com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass
-s	com.google.javascript.jscomp.ProcessClosurePrimitives	fixed:329

@@ -1,0 +1,3 @@
+Math	38
+t	org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints
+s	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	fixed:1660	fixed:1662	fixed:1663	fixed:1752

@@ -1,0 +1,4 @@
+fix	org.apache.commons.math.analysis.solvers.BrentSolver	136	INS	yMin
+fix	org.apache.commons.math.analysis.solvers.BrentSolver	136	INS	yMax
+fix	org.apache.commons.math.analysis.solvers.BrentSolver	137	INS	MathRuntimeException
+fix	org.apache.commons.math.analysis.solvers.BrentSolver	138	INS	MathRuntimeException

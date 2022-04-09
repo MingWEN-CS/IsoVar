@@ -1,0 +1,4 @@
+Closure	28
+t	com.google.javascript.jscomp.InlineCostEstimatorTest::testCost
+t	com.google.javascript.jscomp.InlineFunctionsTest::testIssue728
+s	com.google.javascript.jscomp.InlineCostEstimator	fixed:105	fixed:102	fixed:104	fixed:103

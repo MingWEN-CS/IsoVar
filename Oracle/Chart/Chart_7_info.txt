@@ -1,0 +1,3 @@
+Chart	7
+t	org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex
+s	org.jfree.data.time.TimePeriodValues	fixed:300	fixed:302

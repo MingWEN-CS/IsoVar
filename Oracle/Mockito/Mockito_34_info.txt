@@ -1,0 +1,4 @@
+Mockito	34
+t	org.mockito.internal.invocation.InvocationMatcherTest::shouldMatchCaptureArgumentsWhenArgsCountDoesNOTMatch
+t	org.mockitousage.basicapi.UsingVarargsTest::shouldMatchEasilyEmptyVararg
+s	org.mockito.internal.invocation.InvocationMatcher	fixed:106

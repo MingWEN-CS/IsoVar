@@ -1,0 +1,3 @@
+Math	93
+t	org.apache.commons.math.util.MathUtilsTest::testFactorial
+s	org.apache.commons.math.util.MathUtils	fixed:348	fixed:403	fixed:347	fixed:402	fixed:404	fixed:380	fixed:381	fixed:346	fixed:379	fixed:345

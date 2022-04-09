@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.parsing.IRFactory	568	INS	loopNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	569	INS	errorReporter
+fix	com.google.javascript.jscomp.parsing.IRFactory	571	INS	errorReporter
+fix	com.google.javascript.jscomp.parsing.IRFactory	575	INS	newNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	572	INS	loopNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	575	INS	Node

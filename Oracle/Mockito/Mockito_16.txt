@@ -1,0 +1,5 @@
+fix	org.mockito.internal.MockitoCore	34	INS	shouldResetOngoingStubbing
+buggy	org.mockito.internal.MockitoCore	32	DEL	T
+buggy	org.mockito.internal.MockitoCore	32	DEL	mock
+buggy	org.mockito.internal.MockitoCore	32	DEL	classToMock
+buggy	org.mockito.internal.MockitoCore	32	DEL	mockSettings

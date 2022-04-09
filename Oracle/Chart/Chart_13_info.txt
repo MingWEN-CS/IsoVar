@@ -1,0 +1,3 @@
+Chart	13
+t	org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint
+s	org.jfree.chart.block.BorderArrangement	fixed:453

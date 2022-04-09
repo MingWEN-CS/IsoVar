@@ -1,0 +1,3 @@
+org/apache/commons/lang3/math/NumberUtils	1413	1380	foundDigit	Z	false	6	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1413	1373	hasExp	Z	false	3	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1413	1363	hasDecPoint	Z	false	4	true	isNumber	(Ljava/lang/String;)Z	fixed

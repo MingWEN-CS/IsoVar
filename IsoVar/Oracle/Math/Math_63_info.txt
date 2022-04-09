@@ -1,3 +1,0 @@
-Math	63
-t	org.apache.commons.math.util.MathUtilsTest::testArrayEquals
-s	org.apache.commons.math.util.MathUtils	fixed:417

@@ -1,0 +1,5 @@
+org/apache/commons/lang/math/Fraction	466	466	this	Lorg/apache/commons/lang/math/Fraction;	false	0	false	reduce	()Lorg/apache/commons/lang/math/Fraction;	fixed
+org/apache/commons/lang/math/Fraction	467	466	this	Lorg/apache/commons/lang/math/Fraction;	false	0	false	reduce	()Lorg/apache/commons/lang/math/Fraction;	fixed
+org/apache/commons/lang/math/Fraction	467	466	this	Lorg/apache/commons/lang/math/Fraction;	false	0	false	reduce	()Lorg/apache/commons/lang/math/Fraction;	fixed
+org/apache/commons/lang/math/Fraction	467	466	this	Lorg/apache/commons/lang/math/Fraction;	false	0	false	reduce	()Lorg/apache/commons/lang/math/Fraction;	fixed
+org/apache/commons/lang/math/Fraction	467	466	this	Lorg/apache/commons/lang/math/Fraction;	false	0	false	reduce	()Lorg/apache/commons/lang/math/Fraction;	fixed

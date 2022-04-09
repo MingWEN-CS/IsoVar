@@ -1,0 +1,11 @@
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	329	INS	basicRows
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	332	INS	basicRows
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	337	UPD	getNumObjectiveFunctions
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	337	MOV	getNumObjectiveFunctions
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	338	UPD	tableau
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	338	MOV	tableau
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	336	DEL	basicRow
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	337	DEL	j
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	337	DEL	getNumObjectiveFunctions
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	337	DEL	i
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	338	DEL	tableau

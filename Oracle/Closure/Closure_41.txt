@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	486	INS	isVarArgs
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	487	INS	oldParameterType
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	487	INS	isVarArgs
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	292	INS	oldParams
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	293	INS	paramBuilder
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	488	INS	builder
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	489	INS	oldParameterType
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	293	INS	oldParams

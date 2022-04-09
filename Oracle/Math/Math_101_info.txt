@@ -1,0 +1,4 @@
+Math	101
+t	org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter
+t	org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter
+s	org.apache.commons.math.complex.ComplexFormat	fixed:377	fixed:378

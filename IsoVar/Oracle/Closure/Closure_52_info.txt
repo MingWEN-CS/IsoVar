@@ -1,3 +1,0 @@
-Closure	52
-t	com.google.javascript.jscomp.CodePrinterTest::testNumericKeys
-s	com.google.javascript.jscomp.CodeGenerator	fixed:745

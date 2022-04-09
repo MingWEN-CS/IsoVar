@@ -1,0 +1,7 @@
+fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	300	INS	interpolator
+fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	301	INS	System
+fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	302	INS	hNew
+fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	303	INS	stepSize
+fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	180	INS	interpolator
+fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	181	INS	System
+fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	182	INS	stepSize

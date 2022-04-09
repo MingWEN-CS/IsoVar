@@ -1,0 +1,16 @@
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	buggy
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	fixed
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	fixed
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	fixed
+org/apache/commons/math/stat/regression/SimpleRegression	264	264	this	Lorg/apache/commons/math/stat/regression/SimpleRegression;	false	0	false	getSumSquaredErrors	()D	fixed

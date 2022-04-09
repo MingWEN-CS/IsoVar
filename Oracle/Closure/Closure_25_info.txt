@@ -1,0 +1,3 @@
+Closure	25
+t	com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew
+s	com.google.javascript.jscomp.TypeInference	fixed:1055	buggy:1059	buggy:1038	fixed:1036	buggy:1060	buggy:1061

@@ -1,0 +1,7 @@
+fix	com.google.javascript.jscomp.Compiler	1467	INS	firstOutput
+fix	com.google.javascript.jscomp.Compiler	1473	INS	builder
+fix	com.google.javascript.jscomp.Compiler	1473	INS	firstOutput
+buggy	com.google.javascript.jscomp.Compiler	1474	MOV	options
+buggy	com.google.javascript.jscomp.Compiler	1474	MOV	LanguageMode.ECMASCRIPT5_STRICT
+fix	com.google.javascript.jscomp.Compiler	1432	INS	toSource
+fix	com.google.javascript.jscomp.Compiler	1432	INS	inputSeqNum

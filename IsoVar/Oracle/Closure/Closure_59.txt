@@ -1,2 +1,0 @@
-fix	com.google.javascript.jscomp.Compiler	255	INS	options.checkGlobalThisLevel
-fix	com.google.javascript.jscomp.Compiler	256	INS	options

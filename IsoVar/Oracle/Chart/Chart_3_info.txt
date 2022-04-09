@@ -1,3 +1,0 @@
-Chart	3
-t	org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3
-s	org.jfree.data.time.TimeSeries	fixed:1057	fixed:1058

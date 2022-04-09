@@ -1,0 +1,3 @@
+com/google/javascript/rhino/JSDocInfoBuilder	189	189	this	Lcom/google/javascript/rhino/JSDocInfoBuilder;	false	0	false	recordBlockDescription	(Ljava/lang/String;)Z	buggy
+com/google/javascript/jscomp/GlobalNamespace$Name	908	900	this	Lcom/google/javascript/jscomp/GlobalNamespace$Name;	false	0	false	canCollapseUnannotatedChildNames	()Z	fixed
+com/google/javascript/jscomp/GlobalNamespace$Name	907	900	this	Lcom/google/javascript/jscomp/GlobalNamespace$Name;	false	0	false	canCollapseUnannotatedChildNames	()Z	fixed

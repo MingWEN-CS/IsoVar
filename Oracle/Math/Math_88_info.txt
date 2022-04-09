@@ -1,0 +1,3 @@
+Math	88
+t	org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272
+s	org.apache.commons.math.optimization.linear.SimplexTableau	fixed:337	buggy:339	fixed:336	buggy:338	fixed:329	buggy:337	buggy:336	buggy:341	fixed:332	fixed:335	buggy:340

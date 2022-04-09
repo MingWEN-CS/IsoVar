@@ -1,0 +1,3 @@
+Chart	21
+t	org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds
+s	org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset	fixed:771	fixed:770	fixed:157	fixed:773	fixed:751	fixed:772	fixed:750	fixed:775	fixed:753	fixed:774	fixed:752	fixed:777	fixed:755	fixed:776	fixed:754	fixed:779	fixed:757	fixed:778	fixed:756	fixed:759	fixed:758	fixed:780	fixed:760	fixed:762	fixed:189	fixed:761	fixed:764	fixed:763	fixed:744	fixed:766	fixed:743	fixed:765	fixed:768	fixed:746	fixed:767	fixed:748	fixed:769	fixed:747	fixed:749

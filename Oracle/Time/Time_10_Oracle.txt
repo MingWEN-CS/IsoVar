@@ -1,0 +1,6 @@
+org/joda/time/base/BaseSingleFieldPeriod	105	104	chrono	Lorg/joda/time/Chronology;	false	3	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed
+org/joda/time/base/BaseSingleFieldPeriod	105	90	zeroInstance	Lorg/joda/time/ReadablePeriod;	false	2	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed
+org/joda/time/base/BaseSingleFieldPeriod	105	104	chrono	Lorg/joda/time/Chronology;	false	3	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed
+org/joda/time/base/BaseSingleFieldPeriod	105	90	start	Lorg/joda/time/ReadablePartial;	false	0	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed
+org/joda/time/base/BaseSingleFieldPeriod	105	104	chrono	Lorg/joda/time/Chronology;	false	3	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed
+org/joda/time/base/BaseSingleFieldPeriod	105	90	end	Lorg/joda/time/ReadablePartial;	false	1	true	between	(Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePartial;Lorg/joda/time/ReadablePeriod;)I	fixed

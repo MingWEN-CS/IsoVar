@@ -1,0 +1,4 @@
+buggy	com.google.javascript.jscomp.FunctionTypeBuilder	184	MOV	type
+fix	com.google.javascript.jscomp.FunctionTypeBuilder	184	INS	type
+fix	com.google.javascript.rhino.jstype.FunctionType	880	INS	maybeTypeOfThis
+fix	com.google.javascript.rhino.jstype.FunctionType	881	INS	maybeTypeOfThis

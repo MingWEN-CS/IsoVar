@@ -1,0 +1,3 @@
+Time	4
+t	org.joda.time.TestPartial_Basics::testWith3
+s	org.joda.time.Partial	fixed:464

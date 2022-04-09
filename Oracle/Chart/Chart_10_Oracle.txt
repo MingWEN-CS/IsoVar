@@ -1,0 +1,2 @@
+org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator	65	65	toolTipText	Ljava/lang/String;	false	1	false	generateToolTipFragment	(Ljava/lang/String;)Ljava/lang/String;	buggy
+org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator	65	65	toolTipText	Ljava/lang/String;	false	1	false	generateToolTipFragment	(Ljava/lang/String;)Ljava/lang/String;	fixed

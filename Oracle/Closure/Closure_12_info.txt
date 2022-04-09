@@ -1,0 +1,3 @@
+Closure	12
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b
+s	com.google.javascript.jscomp.MaybeReachingVariableUse	fixed:160	fixed:162	fixed:161	fixed:164	fixed:163	fixed:165

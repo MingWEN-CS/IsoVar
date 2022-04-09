@@ -1,0 +1,1 @@
+com/google/javascript/jscomp/MustBeReachingVariableDef	435	434	def	Lcom/google/javascript/jscomp/MustBeReachingVariableDef$Definition;	false	5	false	dependsOnOuterScopeVars	(Ljava/lang/String;Lcom/google/javascript/rhino/Node;)Z	fixed

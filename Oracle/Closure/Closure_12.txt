@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	161	INS	branchEdges
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	160	INS	branchEdges
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	161	INS	edge
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	162	INS	edge
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	162	INS	Branch.ON_EX
+fix	com.google.javascript.jscomp.MaybeReachingVariableUse	160	INS	getCfg

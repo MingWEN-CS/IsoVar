@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b9abb4e4-f5d0-4e04-a2d5-6fc4e614ed31" name="222.20.94.23">
+        <fileTransfer rootFolder="/data/MutationAnalysis" accessType="SFTP" host="222.20.94.23" port="2246" sshConfigId="a0511afb-bf50-46b2-a22a-275e16d74873" sshConfig="xiezifan@222.20.94.23:2246 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

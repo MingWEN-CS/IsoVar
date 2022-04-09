@@ -1,0 +1,7 @@
+fix	org.joda.time.DateTimeZone	282	INS	hoursOffset
+fix	org.joda.time.DateTimeZone	282	INS	minutesOffset
+fix	org.joda.time.DateTimeZone	279	INS	minutesOffset
+buggy	org.joda.time.DateTimeZone	279	MOV	minutesOffset
+fix	org.joda.time.DateTimeZone	283	INS	minutesOffset
+fix	org.joda.time.DateTimeZone	289	INS	Math
+buggy	org.joda.time.DateTimeZone	286	DEL	minutesOffset

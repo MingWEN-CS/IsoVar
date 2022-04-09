@@ -1,3 +1,0 @@
-Math	34
-t	org.apache.commons.math3.genetics.ListPopulationTest::testIterator
-s	org.apache.commons.math3.genetics.ListPopulation	fixed:209

@@ -1,0 +1,5 @@
+org/apache/commons/math3/distribution/DiscreteDistribution	187	182	this	Lorg/apache/commons/math3/distribution/DiscreteDistribution;	false	0	false	sample	(I)[Ljava/lang/Object;	buggy
+org/apache/commons/math3/distribution/DiscreteDistribution	187	182	sampleSize	I	false	1	false	sample	(I)[Ljava/lang/Object;	buggy
+org/apache/commons/math3/distribution/DiscreteDistribution	187	182	this	Lorg/apache/commons/math3/distribution/DiscreteDistribution;	false	0	false	sample	(I)[Ljava/lang/Object;	buggy
+org/apache/commons/math3/distribution/DiscreteDistribution	187	182	sampleSize	I	false	1	false	sample	(I)[Ljava/lang/Object;	buggy
+org/apache/commons/math3/distribution/DiscreteDistribution	187	182	sampleSize	I	false	1	false	sample	(I)[Ljava/lang/Object;	fixed

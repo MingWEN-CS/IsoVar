@@ -1,0 +1,6 @@
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed
+org/mockito/internal/configuration/injection/FinalMockCandidateFilter$1	26	26	this	Lorg/mockito/internal/configuration/injection/FinalMockCandidateFilter$1;	false	0	false	thenInject	()Z	fixed

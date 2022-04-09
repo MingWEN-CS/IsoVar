@@ -1,3 +1,0 @@
-Chart	9
-t	org.jfree.data.time.junit.TimeSeriesTests::testBug1864222
-s	org.jfree.data.time.TimeSeries	fixed:944

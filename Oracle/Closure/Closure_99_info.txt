@@ -1,0 +1,5 @@
+Closure	99
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testPropertyOfMethod
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testMethod4
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testInterface1
+s	com.google.javascript.jscomp.CheckGlobalThis	fixed:92	fixed:131	fixed:133	fixed:132	fixed:126	fixed:136

@@ -1,0 +1,7 @@
+Time	3
+t	org.joda.time.TestMutableDateTime_Adds::testAddYears_int_dstOverlapWinter_addZero
+t	org.joda.time.TestMutableDateTime_Adds::testAddDays_int_dstOverlapWinter_addZero
+t	org.joda.time.TestMutableDateTime_Adds::testAddWeeks_int_dstOverlapWinter_addZero
+t	org.joda.time.TestMutableDateTime_Adds::testAdd_DurationFieldType_int_dstOverlapWinter_addZero
+t	org.joda.time.TestMutableDateTime_Adds::testAddMonths_int_dstOverlapWinter_addZero
+s	org.joda.time.MutableDateTime	fixed:641	fixed:685	fixed:662	fixed:687	fixed:731	fixed:797	fixed:830	fixed:863	fixed:664	fixed:774	fixed:733	fixed:799	fixed:832	fixed:865	fixed:898	fixed:710	fixed:776	fixed:900	fixed:639	fixed:708

@@ -1,0 +1,1 @@
+com/google/javascript/jscomp/CodeGenerator	966	961	sb	Ljava/lang/StringBuilder;	false	6	true	strEscape	(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	fixed

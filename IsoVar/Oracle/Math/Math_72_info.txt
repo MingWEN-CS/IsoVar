@@ -1,3 +1,0 @@
-Math	72
-t	org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints
-s	org.apache.commons.math.analysis.solvers.BrentSolver	fixed:127	fixed:115

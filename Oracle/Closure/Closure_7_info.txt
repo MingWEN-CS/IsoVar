@@ -1,0 +1,4 @@
+Closure	7
+t	com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunction2
+t	com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testTypeof3
+s	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	fixed:613	fixed:616	fixed:615	fixed:618	fixed:619

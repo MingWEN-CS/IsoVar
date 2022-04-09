@@ -1,0 +1,6 @@
+fix	org.apache.commons.math.complex.Complex	258	INS	real
+fix	org.apache.commons.math.complex.Complex	258	INS	rhs.real
+fix	org.apache.commons.math.complex.Complex	258	INS	imaginary
+fix	org.apache.commons.math.complex.Complex	258	INS	rhs.imaginary
+buggy	org.apache.commons.math.complex.Complex	258	DEL	Double
+buggy	org.apache.commons.math.complex.Complex	258	DEL	rhs

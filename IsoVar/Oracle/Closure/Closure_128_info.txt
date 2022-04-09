@@ -1,3 +1,0 @@
-Closure	128
-t	com.google.javascript.jscomp.CodePrinterTest::testIssue942
-s	com.google.javascript.jscomp.CodeGenerator	fixed:787	fixed:794	fixed:786	fixed:785

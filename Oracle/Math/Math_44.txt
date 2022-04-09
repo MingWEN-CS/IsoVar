@@ -1,0 +1,7 @@
+fix	org.apache.commons.math.ode.AbstractIntegrator	333	INS	occuringEvents
+fix	org.apache.commons.math.ode.AbstractIntegrator	345	INS	occuringEvents
+fix	org.apache.commons.math.ode.AbstractIntegrator	333	INS	remaining
+fix	org.apache.commons.math.ode.AbstractIntegrator	345	INS	remaining
+fix	org.apache.commons.math.ode.AbstractIntegrator	334	INS	remaining
+fix	org.apache.commons.math.ode.AbstractIntegrator	346	INS	remaining
+buggy	org.apache.commons.math.ode.AbstractIntegrator	280	DEL	resetOccurred

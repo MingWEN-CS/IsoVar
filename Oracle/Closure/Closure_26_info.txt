@@ -1,0 +1,9 @@
+Closure	26
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS
+t	com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS
+t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports
+t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName
+t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash
+t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming
+t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports
+s	com.google.javascript.jscomp.ProcessCommonJSModules	fixed:128	fixed:209	fixed:208	fixed:210	fixed:232

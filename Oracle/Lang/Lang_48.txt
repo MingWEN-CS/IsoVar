@@ -1,0 +1,3 @@
+fix	org.apache.commons.lang.builder.EqualsBuilder	380	INS	lhs
+fix	org.apache.commons.lang.builder.EqualsBuilder	381	INS	isEquals
+fix	org.apache.commons.lang.builder.EqualsBuilder	381	INS	lhs

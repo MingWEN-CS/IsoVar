@@ -1,0 +1,3 @@
+Lang	18
+t	org.apache.commons.lang3.time.FastDateFormatTest::testFormat
+s	org.apache.commons.lang3.time.FastDateFormat	fixed:495	fixed:498	fixed:497

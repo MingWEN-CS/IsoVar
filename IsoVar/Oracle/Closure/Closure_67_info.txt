@@ -1,3 +1,0 @@
-Closure	67
-t	com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7
-s	com.google.javascript.jscomp.AnalyzePrototypeProperties	fixed:318

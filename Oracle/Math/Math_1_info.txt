@@ -1,0 +1,5 @@
+Math	1
+t	org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor
+t	org.apache.commons.math3.fraction.FractionTest::testDigitLimitConstructor
+s	org.apache.commons.math3.fraction.BigFraction	fixed:306	fixed:308	fixed:307
+s	org.apache.commons.math3.fraction.Fraction	fixed:216	fixed:215	fixed:217

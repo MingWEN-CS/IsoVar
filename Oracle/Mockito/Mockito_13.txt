@@ -1,0 +1,5 @@
+buggy	org.mockito.internal.MockHandler	77	MOV	verificationMode
+buggy	org.mockito.internal.MockHandler	77	MOV	invocation
+fix	org.mockito.internal.MockHandler	84	INS	mockingProgress
+buggy	org.mockito.internal.MockHandler	77	DEL	verificationMode
+buggy	org.mockito.internal.MockHandler	77	DEL	invocation

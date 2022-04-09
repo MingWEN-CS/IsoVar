@@ -1,0 +1,10 @@
+com/google/javascript/jscomp/CodeConsumer	245	243	x	D	false	1	false	addNumber	(D)V	buggy
+com/google/javascript/jscomp/CodeConsumer	245	243	prev	C	false	3	false	addNumber	(D)V	buggy
+com/google/javascript/jscomp/CodeConsumer	245	243	x	D	false	1	false	addNumber	(D)V	buggy
+com/google/javascript/jscomp/CodeConsumer	245	243	prev	C	false	3	false	addNumber	(D)V	buggy
+com/google/javascript/jscomp/CodeConsumer	245	243	x	D	false	1	false	addNumber	(D)V	fixed
+com/google/javascript/jscomp/CodeConsumer	245	244	negativeZero	Z	false	4	false	addNumber	(D)V	fixed
+com/google/javascript/jscomp/CodeConsumer	245	243	prev	C	false	3	false	addNumber	(D)V	fixed
+com/google/javascript/jscomp/CodeConsumer	245	243	x	D	false	1	false	addNumber	(D)V	fixed
+com/google/javascript/jscomp/CodeConsumer	245	244	negativeZero	Z	false	4	false	addNumber	(D)V	fixed
+com/google/javascript/jscomp/CodeConsumer	245	243	prev	C	false	3	false	addNumber	(D)V	fixed

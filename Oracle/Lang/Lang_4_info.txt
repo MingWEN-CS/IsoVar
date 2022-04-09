@@ -1,0 +1,3 @@
+Lang	4
+t	org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882
+s	org.apache.commons.lang3.text.translate.LookupTranslator	fixed:46	fixed:51	fixed:31	fixed:77

@@ -1,0 +1,8 @@
+fix	org.apache.commons.math.complex.Complex	260	INS	NaN
+fix	org.apache.commons.math.complex.Complex	297	INS	NaN
+buggy	org.apache.commons.math.complex.Complex	260	DEL	isZero
+buggy	org.apache.commons.math.complex.Complex	260	DEL	NaN
+buggy	org.apache.commons.math.complex.Complex	260	DEL	INF
+buggy	org.apache.commons.math.complex.Complex	297	DEL	isZero
+buggy	org.apache.commons.math.complex.Complex	297	DEL	NaN
+buggy	org.apache.commons.math.complex.Complex	297	DEL	INF

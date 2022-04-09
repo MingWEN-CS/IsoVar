@@ -1,0 +1,5 @@
+fix	org.apache.commons.math.complex.ComplexFormat	377	INS	startIndex
+fix	org.apache.commons.math.complex.ComplexFormat	377	INS	source
+buggy	org.apache.commons.math.complex.ComplexFormat	378	MOV	source
+fix	org.apache.commons.math.complex.ComplexFormat	378	INS	endIndex
+fix	org.apache.commons.math.complex.ComplexFormat	378	INS	source

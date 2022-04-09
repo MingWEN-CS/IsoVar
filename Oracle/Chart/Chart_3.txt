@@ -1,0 +1,4 @@
+fix	org.jfree.data.time.TimeSeries	1057	INS	copy.minY
+fix	org.jfree.data.time.TimeSeries	1057	INS	Double.NaN
+fix	org.jfree.data.time.TimeSeries	1058	INS	copy.maxY
+fix	org.jfree.data.time.TimeSeries	1058	INS	Double.NaN

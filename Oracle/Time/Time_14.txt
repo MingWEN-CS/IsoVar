@@ -1,0 +1,9 @@
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	209	INS	partial
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	209	INS	DateTimeFieldType
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	209	INS	fieldIndex
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	211	INS	curMonth0
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	211	INS	partial
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	212	INS	newMonth
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	212	INS	curMonth0
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	212	INS	valueToAdd
+fix	org.joda.time.chrono.BasicMonthOfYearDateTimeField	213	INS	set

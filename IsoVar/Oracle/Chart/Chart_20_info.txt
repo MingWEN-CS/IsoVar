@@ -1,3 +1,0 @@
-Chart	20
-t	org.jfree.chart.plot.junit.ValueMarkerTests::test1808376
-s	org.jfree.chart.plot.ValueMarker	fixed:95

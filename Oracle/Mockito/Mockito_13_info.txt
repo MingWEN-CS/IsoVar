@@ -1,0 +1,3 @@
+Mockito	13
+t	org.mockitousage.bugs.VerifyingWithAnExtraCallToADifferentMockTest::shouldAllowVerifyingWhenOtherMockCallIsInTheSameLine
+s	org.mockito.internal.MockHandler	fixed:81	fixed:84	fixed:77

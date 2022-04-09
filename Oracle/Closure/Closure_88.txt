@@ -1,0 +1,13 @@
+buggy	com.google.javascript.jscomp.DeadAssignmentsElimination	325	MOV	NodeUtil
+buggy	com.google.javascript.jscomp.DeadAssignmentsElimination	325	MOV	variable
+buggy	com.google.javascript.jscomp.DeadAssignmentsElimination	325	MOV	n
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	333	INS	state
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	333	INS	VariableLiveness.READ
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	327	INS	Preconditions
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	327	INS	n
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	327	INS	Token.ASSIGN
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	331	INS	rhs
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	332	INS	state
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	331	INS	n
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	332	INS	isVariableReadBeforeKill
+fix	com.google.javascript.jscomp.DeadAssignmentsElimination	334	INS	state

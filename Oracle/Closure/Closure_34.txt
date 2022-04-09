@@ -1,0 +1,15 @@
+fix	com.google.javascript.jscomp.CodeGenerator	752	INS	cc
+buggy	com.google.javascript.jscomp.CodeGenerator	754	UPD	cc
+buggy	com.google.javascript.jscomp.CodeGenerator	122	UPD	addExpr
+buggy	com.google.javascript.jscomp.CodeGenerator	122	MOV	addExpr
+buggy	com.google.javascript.jscomp.CodeGenerator	123	MOV	cc
+buggy	com.google.javascript.jscomp.CodeGenerator	124	UPD	addExpr
+buggy	com.google.javascript.jscomp.CodeGenerator	124	MOV	addExpr
+fix	com.google.javascript.jscomp.CodeGenerator	122	INS	unrollBinaryOperator
+buggy	com.google.javascript.jscomp.CodeGenerator	124	MOV	p
+buggy	com.google.javascript.jscomp.CodeGenerator	122	DEL	addExpr
+buggy	com.google.javascript.jscomp.CodeGenerator	123	DEL	cc
+buggy	com.google.javascript.jscomp.CodeGenerator	124	DEL	addExpr
+fix	com.google.javascript.jscomp.CodePrinter	334	INS	getLastChar
+fix	com.google.javascript.jscomp.CodePrinter	334	INS	op
+buggy	com.google.javascript.jscomp.CodePrinter	334	MOV	getLastChar

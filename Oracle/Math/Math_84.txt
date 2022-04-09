@@ -1,0 +1,13 @@
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	64	INS	checker
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	64	INS	getConvergenceChecker
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	99	INS	i
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	99	INS	simplex.length
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	102	INS	converged
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	97	INS	iter
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	98	INS	converged
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	97	INS	getIterations
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	100	INS	converged
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	100	INS	checker
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	100	INS	original
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	100	INS	i
+fix	org.apache.commons.math.optimization.direct.MultiDirectional	100	INS	simplex

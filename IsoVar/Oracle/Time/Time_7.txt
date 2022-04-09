@@ -1,2 +1,0 @@
-fix	org.joda.time.format.DateTimeFormatter	708	INS	DateTimeUtils
-buggy	org.joda.time.format.DateTimeFormatter	710	MOV	chrono

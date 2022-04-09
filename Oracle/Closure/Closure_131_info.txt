@@ -1,0 +1,4 @@
+Closure	131
+t	com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps
+t	com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert
+s	com.google.javascript.rhino.TokenStream	fixed:194	fixed:200

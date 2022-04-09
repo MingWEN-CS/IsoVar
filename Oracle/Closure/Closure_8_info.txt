@@ -1,0 +1,3 @@
+Closure	8
+t	com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820
+s	com.google.javascript.jscomp.CollapseVariableDeclarations	fixed:204	fixed:209	fixed:210	fixed:211

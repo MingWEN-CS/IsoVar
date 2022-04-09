@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.NameAnalyzer	635	INS	name
+fix	com.google.javascript.jscomp.NameAnalyzer	635	INS	getName
+buggy	com.google.javascript.jscomp.NameAnalyzer	635	DEL	name
+buggy	com.google.javascript.jscomp.NameAnalyzer	635	DEL	getName
+buggy	com.google.javascript.jscomp.NameAnalyzer	636	DEL	name

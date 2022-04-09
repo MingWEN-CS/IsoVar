@@ -1,0 +1,9 @@
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	INS	meanImpl
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	INS	mean
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	INS	varianceImpl
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	INS	variance
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	INS	geoMeanImpl
+fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	INS	geoMean
+buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	DEL	meanImpl
+buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	DEL	varianceImpl
+buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	DEL	geoMeanImpl

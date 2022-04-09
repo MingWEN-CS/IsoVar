@@ -1,0 +1,3 @@
+Math	40
+t	org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716
+s	org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver	fixed:238	fixed:237	fixed:241	fixed:243	fixed:242	fixed:244	fixed:236	fixed:235

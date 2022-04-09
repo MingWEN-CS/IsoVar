@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/CodeGenerator	285	285	rhsContext	Lcom/google/javascript/jscomp/CodeGenerator$Context;	true	9	false	add	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	buggy
+com/google/javascript/jscomp/CodeGenerator	285	108	context	Lcom/google/javascript/jscomp/CodeGenerator$Context;	false	2	false	add	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	fixed
+com/google/javascript/jscomp/CodeGenerator	285	285	rhsContext	Lcom/google/javascript/jscomp/CodeGenerator$Context;	true	9	false	add	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	fixed

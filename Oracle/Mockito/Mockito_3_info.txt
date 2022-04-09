@@ -1,0 +1,11 @@
+Mockito	3
+t	org.mockito.internal.invocation.InvocationMatcherTest::should_capture_varargs_as_vararg
+t	org.mockitousage.bugs.varargs.VarargsAndAnyObjectPicksUpExtraInvocationsTest::shouldVerifyCorrectlyNumberOfInvocationsWithVarargs
+t	org.mockitousage.bugs.varargs.VarargsNotPlayingWithAnyObjectTest::shouldMatchAnyVararg
+t	org.mockitousage.matchers.CapturingArgumentsTest::should_capture_all_vararg
+t	org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_multiple_times
+t	org.mockitousage.matchers.CapturingArgumentsTest::should_capture_vararg
+t	org.mockitousage.matchers.CapturingArgumentsTest::captures_correctly_when_captor_used_on_pure_vararg_method
+t	org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive_wrapper
+t	org.mockitousage.matchers.CapturingArgumentsTest::should_capture_byte_vararg_by_creating_captor_with_primitive
+s	org.mockito.internal.invocation.InvocationMatcher	fixed:151	fixed:150	fixed:131	fixed:153	fixed:130	fixed:152	fixed:155	fixed:132	fixed:154	fixed:146	fixed:145	fixed:156	fixed:148	fixed:147	fixed:127	fixed:149	fixed:129

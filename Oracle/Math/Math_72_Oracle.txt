@@ -1,0 +1,4 @@
+org/apache/commons/math/analysis/solvers/BrentSolver	115	113	yMin	D	false	10	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	buggy
+org/apache/commons/math/analysis/solvers/BrentSolver	127	125	yMax	D	false	12	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	buggy
+org/apache/commons/math/analysis/solvers/BrentSolver	127	102	max	D	false	4	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	fixed
+org/apache/commons/math/analysis/solvers/BrentSolver	115	102	min	D	false	2	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	fixed

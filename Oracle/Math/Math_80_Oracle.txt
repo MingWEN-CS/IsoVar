@@ -1,0 +1,10 @@
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1133	n	I	false	1	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1135	j	I	true	3	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1133	n	I	false	1	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1135	j	I	true	3	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1133	n	I	false	1	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1135	j	I	true	3	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1133	n	I	false	1	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1135	j	I	true	3	false	flipIfWarranted	(II)Z	buggy
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1133	n	I	false	1	false	flipIfWarranted	(II)Z	fixed
+org/apache/commons/math/linear/EigenDecompositionImpl	1135	1135	j	I	true	3	false	flipIfWarranted	(II)Z	fixed

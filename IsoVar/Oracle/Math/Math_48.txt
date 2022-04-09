@@ -1,2 +1,0 @@
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	189	INS	x
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	189	INS	x1

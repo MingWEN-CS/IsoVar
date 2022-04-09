@@ -1,0 +1,3 @@
+Closure	96
+t	com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16
+s	com.google.javascript.jscomp.TypeCheck	fixed:1409	fixed:1415	fixed:1410	fixed:1413

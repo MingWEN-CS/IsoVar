@@ -1,0 +1,16 @@
+org/jfree/data/DefaultKeyedValues	318	316	index	I	false	1	false	removeValue	(I)V	buggy
+org/jfree/data/DefaultKeyedValues	318	316	this	Lorg/jfree/data/DefaultKeyedValues;	false	0	false	removeValue	(I)V	buggy
+org/jfree/data/DefaultKeyedValues	318	316	index	I	false	1	false	removeValue	(I)V	buggy
+org/jfree/data/DefaultKeyedValues	318	316	this	Lorg/jfree/data/DefaultKeyedValues;	false	0	false	removeValue	(I)V	buggy
+org/jfree/data/DefaultKeyedValues	333	331	key	Ljava/lang/Comparable;	false	1	false	removeValue	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	455	455	columnKey	Ljava/lang/Comparable;	false	1	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	465	464	index	I	false	4	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	458	455	this	Lorg/jfree/data/DefaultKeyedValues2D;	false	0	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	458	455	columnKey	Ljava/lang/Comparable;	false	1	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	459	455	columnKey	Ljava/lang/Comparable;	false	1	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	463	rowData	Lorg/jfree/data/DefaultKeyedValues;	false	3	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	455	columnKey	Ljava/lang/Comparable;	false	1	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	464	index	I	true	4	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	463	rowData	Lorg/jfree/data/DefaultKeyedValues;	false	3	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	455	columnKey	Ljava/lang/Comparable;	false	1	false	removeColumn	(Ljava/lang/Comparable;)V	fixed
+org/jfree/data/DefaultKeyedValues2D	464	464	index	I	true	4	false	removeColumn	(Ljava/lang/Comparable;)V	fixed

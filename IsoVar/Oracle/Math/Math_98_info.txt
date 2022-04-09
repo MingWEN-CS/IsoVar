@@ -1,5 +1,0 @@
-Math	98
-t	org.apache.commons.math.linear.BigMatrixImplTest::testMath209
-t	org.apache.commons.math.linear.RealMatrixImplTest::testMath209
-s	org.apache.commons.math.linear.BigMatrixImpl	fixed:991
-s	org.apache.commons.math.linear.RealMatrixImpl	fixed:779

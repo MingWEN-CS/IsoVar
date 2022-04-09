@@ -1,0 +1,2 @@
+fix	com.google.javascript.jscomp.NameAnalyzer	578	INS	parent
+fix	com.google.javascript.jscomp.NameAnalyzer	578	INS	n

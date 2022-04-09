@@ -1,0 +1,6 @@
+org/apache/commons/lang3/text/translate/LookupTranslator	77	70	this	Lorg/apache/commons/lang3/text/translate/LookupTranslator;	false	0	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	buggy
+org/apache/commons/lang3/text/translate/LookupTranslator	77	76	subSeq	Ljava/lang/CharSequence;	false	6	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	buggy
+org/apache/commons/lang3/text/translate/LookupTranslator	77	77	result	Ljava/lang/CharSequence;	true	7	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	buggy
+org/apache/commons/lang3/text/translate/LookupTranslator	77	70	this	Lorg/apache/commons/lang3/text/translate/LookupTranslator;	false	0	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/LookupTranslator	77	76	subSeq	Ljava/lang/CharSequence;	false	6	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed
+org/apache/commons/lang3/text/translate/LookupTranslator	77	77	result	Ljava/lang/CharSequence;	true	7	false	translate	(Ljava/lang/CharSequence;ILjava/io/Writer;)I	fixed

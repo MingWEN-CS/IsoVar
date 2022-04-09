@@ -1,3 +1,0 @@
-Math	90
-t	org.apache.commons.math.stat.FrequencyTest::testAddNonComparable
-s	org.apache.commons.math.stat.Frequency	fixed:111	fixed:110	fixed:123

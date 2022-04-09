@@ -1,0 +1,4 @@
+Chart	2
+t	org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2
+t	org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3
+s	org.jfree.data.general.DatasetUtilities	fixed:1261	fixed:1255	fixed:1254	fixed:1253	fixed:1252	fixed:1258	fixed:760	fixed:761	fixed:764	fixed:1249	fixed:755	fixed:767	fixed:759	fixed:758

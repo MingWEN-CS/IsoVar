@@ -1,3 +1,0 @@
-Chart	24
-t	org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint
-s	org.jfree.chart.renderer.GrayPaintScale	fixed:126

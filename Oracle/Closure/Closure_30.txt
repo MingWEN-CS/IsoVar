@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.MustBeReachingVariableDef	71	INS	unknownDependencies
+fix	com.google.javascript.jscomp.MustBeReachingVariableDef	435	INS	def.unknownDependencies
+fix	com.google.javascript.jscomp.MustBeReachingVariableDef	399	INS	dep
+fix	com.google.javascript.jscomp.MustBeReachingVariableDef	400	INS	def.unknownDependencies
+buggy	com.google.javascript.jscomp.MustBeReachingVariableDef	396	DEL	jsScope
+buggy	com.google.javascript.jscomp.MustBeReachingVariableDef	396	DEL	n

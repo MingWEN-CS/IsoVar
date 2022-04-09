@@ -1,0 +1,8 @@
+buggy	com.google.javascript.jscomp.TypeValidator	365	MOV	leftType
+buggy	com.google.javascript.jscomp.TypeValidator	365	MOV	rightType
+buggy	com.google.javascript.jscomp.TypeValidator	366	DEL	leftType
+buggy	com.google.javascript.jscomp.TypeValidator	366	DEL	rightType
+buggy	com.google.javascript.jscomp.TypeValidator	367	DEL	registerMismatch
+buggy	com.google.javascript.jscomp.TypeValidator	405	DEL	leftType
+buggy	com.google.javascript.jscomp.TypeValidator	405	DEL	rightType
+buggy	com.google.javascript.jscomp.TypeValidator	406	DEL	registerMismatch

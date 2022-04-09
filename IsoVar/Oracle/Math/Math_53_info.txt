@@ -1,3 +1,0 @@
-Math	53
-t	org.apache.commons.math.complex.ComplexTest::testAddNaN
-s	org.apache.commons.math.complex.Complex	fixed:153	fixed:155	fixed:154

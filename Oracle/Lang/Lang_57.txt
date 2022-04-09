@@ -1,0 +1,2 @@
+buggy	org.apache.commons.lang.LocaleUtils	223	UPD	cAvailableLocaleSet
+buggy	org.apache.commons.lang.LocaleUtils	223	MOV	cAvailableLocaleSet

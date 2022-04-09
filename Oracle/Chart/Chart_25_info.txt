@@ -1,0 +1,6 @@
+Chart	25
+t	org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullMeanVertical
+t	org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullDeviationVertical
+t	org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullMeanHorizontal
+t	org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullDeviationHorizontal
+s	org.jfree.chart.renderer.category.StatisticalBarRenderer	fixed:261	fixed:470	fixed:260	fixed:320	fixed:410	fixed:498	fixed:411	fixed:469	fixed:259	fixed:468	fixed:349	fixed:319	fixed:318	fixed:409

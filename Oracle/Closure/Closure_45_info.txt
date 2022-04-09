@@ -1,0 +1,3 @@
+Closure	45
+t	com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1
+s	com.google.javascript.jscomp.RemoveUnusedVars	fixed:732	fixed:745	fixed:908	fixed:740	fixed:742	fixed:741

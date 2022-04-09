@@ -1,0 +1,3 @@
+org/apache/commons/lang3/math/NumberUtils	452	446	str	Ljava/lang/String;	false	0	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	buggy
+org/apache/commons/lang3/math/NumberUtils	718	711	str	Ljava/lang/String;	false	0	true	createBigDecimal	(Ljava/lang/String;)Ljava/math/BigDecimal;	fixed
+org/apache/commons/lang3/math/NumberUtils	723	711	str	Ljava/lang/String;	false	0	true	createBigDecimal	(Ljava/lang/String;)Ljava/math/BigDecimal;	fixed

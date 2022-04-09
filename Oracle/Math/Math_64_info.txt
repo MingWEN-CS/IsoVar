@@ -1,0 +1,4 @@
+Math	64
+t	org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson
+t	org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+s	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	fixed:272	fixed:274	fixed:351	fixed:450	fixed:273	fixed:353	fixed:430	fixed:330	fixed:352	fixed:451	fixed:258	fixed:356	fixed:433	fixed:436	fixed:259	fixed:435	fixed:438	fixed:437	buggy:443	buggy:365	buggy:442	buggy:445	buggy:444	fixed:283	fixed:321	fixed:449	fixed:329

@@ -1,0 +1,14 @@
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	217	compare	I	false	8	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/Partial	218	215	loopUnitField	Lorg/joda/time/DurationField;	false	7	false	<init>	([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	buggy
+org/joda/time/field/UnsupportedDurationField	227	227	durationField	Lorg/joda/time/DurationField;	false	1	false	compareTo	(Lorg/joda/time/DurationField;)I	fixed
+org/joda/time/Partial	449	429	fieldType	Lorg/joda/time/DateTimeFieldType;	false	1	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	fixed

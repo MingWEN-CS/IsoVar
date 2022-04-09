@@ -1,0 +1,8 @@
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	112	INS	ex
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	113	INS	x
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	113	INS	mean
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	113	INS	standardDeviation
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	115	INS	x
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	115	INS	mean
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	115	INS	standardDeviation
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	118	INS	ex

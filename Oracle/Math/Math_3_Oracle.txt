@@ -1,0 +1,5 @@
+org/apache/commons/math3/util/MathArrays	821	816	len	I	false	2	true	linearCombination	([D[D)D	fixed
+org/apache/commons/math3/util/MathArrays	823	816	a	[D	false	0	true	linearCombination	([D[D)D	fixed
+org/apache/commons/math3/util/MathArrays	823	816	b	[D	false	1	true	linearCombination	([D[D)D	fixed
+org/apache/commons/math3/util/MathArrays	823	816	a	[D	false	0	true	linearCombination	([D[D)D	fixed
+org/apache/commons/math3/util/MathArrays	823	816	b	[D	false	1	true	linearCombination	([D[D)D	fixed

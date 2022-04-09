@@ -1,0 +1,3 @@
+Closure	123
+t	com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop
+s	com.google.javascript.jscomp.CodeGenerator	fixed:285

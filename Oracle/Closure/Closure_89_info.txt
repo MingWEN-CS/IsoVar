@@ -1,0 +1,11 @@
+Closure	89
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildOfUncollapsibleFunctionInLocalScope
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_1
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_2
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_3
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth2
+s	com.google.javascript.jscomp.CollapseProperties	fixed:485	fixed:484	fixed:486
+s	com.google.javascript.jscomp.GlobalNamespace	fixed:920

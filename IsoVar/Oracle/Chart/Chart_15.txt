@@ -1,2 +1,0 @@
-fix	org.jfree.chart.plot.PiePlot	1378	INS	dataset
-fix	org.jfree.chart.plot.PiePlot	2054	INS	dataset

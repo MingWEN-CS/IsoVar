@@ -1,0 +1,3 @@
+org/apache/commons/math/analysis/solvers/BisectionSolver	72	72	f	Lorg/apache/commons/math/analysis/UnivariateRealFunction;	false	1	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	fixed
+org/apache/commons/math/analysis/solvers/BisectionSolver	72	72	min	D	false	2	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	fixed
+org/apache/commons/math/analysis/solvers/BisectionSolver	72	72	max	D	false	4	false	solve	(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	fixed

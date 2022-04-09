@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/ProcessClosurePrimitives$ProvidedName	789	783	this	Lcom/google/javascript/jscomp/ProcessClosurePrimitives$ProvidedName;	false	0	false	replace	()V	buggy
+com/google/javascript/jscomp/ProcessClosurePrimitives$ProvidedName	789	789	indexOfDot	I	true	1	false	replace	()V	buggy

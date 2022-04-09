@@ -1,0 +1,4 @@
+fix	org.apache.commons.lang.WordUtils	616	INS	lower
+fix	org.apache.commons.lang.WordUtils	616	INS	str
+fix	org.apache.commons.lang.WordUtils	617	INS	lower
+fix	org.apache.commons.lang.WordUtils	617	INS	str

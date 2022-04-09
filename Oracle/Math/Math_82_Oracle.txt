@@ -1,0 +1,4 @@
+org/apache/commons/math/optimization/linear/SimplexSolver	82	81	entry	D	false	9	false	getPivotRow	(ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;	buggy
+org/apache/commons/math/optimization/linear/SimplexSolver	82	77	this	Lorg/apache/commons/math/optimization/linear/SimplexSolver;	false	0	false	getPivotRow	(ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;	buggy
+org/apache/commons/math/optimization/linear/SimplexSolver	82	81	entry	D	false	9	false	getPivotRow	(ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexSolver	82	77	this	Lorg/apache/commons/math/optimization/linear/SimplexSolver;	false	0	false	getPivotRow	(ILorg/apache/commons/math/optimization/linear/SimplexTableau;)Ljava/lang/Integer;	fixed

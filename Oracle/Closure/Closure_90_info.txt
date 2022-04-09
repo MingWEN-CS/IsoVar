@@ -1,0 +1,5 @@
+Closure	90
+t	com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8
+t	com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9
+s	com.google.javascript.jscomp.FunctionTypeBuilder	fixed:184
+s	com.google.javascript.rhino.jstype.FunctionType	fixed:881	fixed:880	fixed:882

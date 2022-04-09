@@ -1,0 +1,10 @@
+org/jfree/data/xy/XYSeries	548	547	index	I	false	4	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	541	this	Lorg/jfree/data/xy/XYSeries;	false	0	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	547	index	I	false	4	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	541	this	Lorg/jfree/data/xy/XYSeries;	false	0	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	547	index	I	false	4	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	541	this	Lorg/jfree/data/xy/XYSeries;	false	0	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	547	index	I	false	4	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	548	541	this	Lorg/jfree/data/xy/XYSeries;	false	0	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	buggy
+org/jfree/data/xy/XYSeries	545	541	x	Ljava/lang/Number;	false	1	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	fixed
+org/jfree/data/xy/XYSeries	545	541	y	Ljava/lang/Number;	false	2	false	addOrUpdate	(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	fixed

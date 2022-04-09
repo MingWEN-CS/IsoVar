@@ -1,0 +1,5 @@
+com/google/javascript/jscomp/Compiler	1288	1263	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	parseInputs	()Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/Compiler	1288	1263	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	parseInputs	()Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/Compiler	1288	1263	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	parseInputs	()Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/Compiler	1288	1263	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	parseInputs	()Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/jscomp/Compiler	1288	1263	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	parseInputs	()Lcom/google/javascript/rhino/Node;	fixed

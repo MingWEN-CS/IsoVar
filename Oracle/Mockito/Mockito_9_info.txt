@@ -1,0 +1,5 @@
+Mockito	9
+t	org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodStubbed
+t	org.mockitousage.constructor.CreatingMocksWithConstructorTest::testCallsRealInterfaceMethod
+t	org.mockitousage.constructor.CreatingMocksWithConstructorTest::abstractMethodReturnsDefault
+s	org.mockito.internal.stubbing.answers.CallsRealMethods	fixed:8	fixed:38	fixed:39	fixed:40	fixed:10

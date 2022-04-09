@@ -1,0 +1,3 @@
+Math	94
+t	org.apache.commons.math.util.MathUtilsTest::testGcd
+s	org.apache.commons.math.util.MathUtils	fixed:412

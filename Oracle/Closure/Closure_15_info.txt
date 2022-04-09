@@ -1,0 +1,3 @@
+Closure	15
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testSimpleForIn
+s	com.google.javascript.jscomp.FlowSensitiveInlineVariables	fixed:102	fixed:104	fixed:103

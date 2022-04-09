@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/Normalize	94	88	root	Lcom/google/javascript/rhino/Node;	false	2	false	process	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/Normalize	89	88	root	Lcom/google/javascript/rhino/Node;	false	2	false	process	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	fixed

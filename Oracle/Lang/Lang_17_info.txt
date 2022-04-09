@@ -1,0 +1,3 @@
+Lang	17
+t	org.apache.commons.lang3.StringEscapeUtilsTest::testLang720
+s	org.apache.commons.lang3.text.translate.CharSequenceTranslator	buggy:97	buggy:98	buggy:96	fixed:90	buggy:99	fixed:83	buggy:100	buggy:90	buggy:102	buggy:94	fixed:89

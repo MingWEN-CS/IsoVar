@@ -1,3 +1,0 @@
-Lang	6
-t	org.apache.commons.lang3.StringUtilsTest::testEscapeSurrogatePairs
-s	org.apache.commons.lang3.text.translate.CharSequenceTranslator	fixed:95

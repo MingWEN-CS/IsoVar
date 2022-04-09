@@ -1,0 +1,3 @@
+Closure	87
+t	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291
+s	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	fixed:540	fixed:531	fixed:530	fixed:541	fixed:544	fixed:543	fixed:535	fixed:523	fixed:545	fixed:537	fixed:536	fixed:539	fixed:538

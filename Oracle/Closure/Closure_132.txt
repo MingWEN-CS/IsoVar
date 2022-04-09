@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	777	INS	areNodesEqualForInlining
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	777	INS	elseOp
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	783	INS	mayHaveSideEffects
+fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	784	INS	thenOp
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	777	DEL	areNodesEqualForInlining
+buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	777	DEL	elseOp

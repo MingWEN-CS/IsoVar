@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/TypeCheck	1661	1660	fnType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitNew	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/TypeCheck	1661	1660	fnType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitNew	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/TypeCheck	1661	1660	fnType	Lcom/google/javascript/rhino/jstype/FunctionType;	false	5	false	visitNew	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fixed

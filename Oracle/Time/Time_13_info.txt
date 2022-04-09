@@ -1,0 +1,3 @@
+Time	13
+t	org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative
+s	org.joda.time.format.PeriodFormatterBuilder	fixed:1145	fixed:1133	fixed:1144	fixed:1143	fixed:1098

@@ -1,0 +1,2 @@
+buggy	org.jfree.chart.plot.ValueMarker	95	UPD	paint
+buggy	org.jfree.chart.plot.ValueMarker	95	UPD	stroke

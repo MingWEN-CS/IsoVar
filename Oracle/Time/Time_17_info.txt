@@ -1,0 +1,3 @@
+Time	17
+t	org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset
+s	org.joda.time.DateTimeZone	fixed:1185	fixed:1171	fixed:1182	fixed:1167	fixed:1178	fixed:1189	fixed:1177	fixed:1188	fixed:1176	fixed:1186	fixed:1169	fixed:1168	fixed:1179	fixed:1170	fixed:1181	fixed:1192	fixed:1180	fixed:1191

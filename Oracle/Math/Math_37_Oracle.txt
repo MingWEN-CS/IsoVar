@@ -1,0 +1,14 @@
+org/apache/commons/math/complex/Complex	1018	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	buggy
+org/apache/commons/math/complex/Complex	1063	1063	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	buggy
+org/apache/commons/math/complex/Complex	1018	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1018	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1018	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1018	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1021	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1024	1018	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tan	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1069	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1069	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1069	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1069	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1072	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed
+org/apache/commons/math/complex/Complex	1075	1069	this	Lorg/apache/commons/math/complex/Complex;	false	0	false	tanh	()Lorg/apache/commons/math/complex/Complex;	fixed

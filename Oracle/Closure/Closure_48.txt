@@ -1,0 +1,11 @@
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1523	MOV	rhsValue
+fix	com.google.javascript.jscomp.TypedScopeCreator	1521	INS	inferred
+fix	com.google.javascript.jscomp.TypedScopeCreator	1521	INS	rhsValue
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1525	MOV	info
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1525	MOV	scope
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1525	UPD	info
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1525	UPD	scope
+fix	com.google.javascript.jscomp.TypedScopeCreator	1524	INS	inferred
+fix	com.google.javascript.jscomp.TypedScopeCreator	1526	INS	n
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1523	DEL	rhsValue
+buggy	com.google.javascript.jscomp.TypedScopeCreator	1521	DEL	inferred

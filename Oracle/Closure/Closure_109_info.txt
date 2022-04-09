@@ -1,0 +1,4 @@
+Closure	109
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3
+s	com.google.javascript.jscomp.parsing.JsDocInfoParser	fixed:1908	fixed:1909	fixed:1910	fixed:1911	fixed:1912

@@ -1,0 +1,4 @@
+Mockito	38
+t	org.mockito.internal.verification.argumentmatching.ArgumentMatchingToolTest::shouldWorkFineWhenGivenArgIsNull
+t	org.mockitousage.bugs.ActualInvocationHasNullArgumentNPEBugTest::shouldAllowPassingNullArgument
+s	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool	fixed:48

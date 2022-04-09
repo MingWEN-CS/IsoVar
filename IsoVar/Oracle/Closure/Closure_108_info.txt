@@ -1,3 +1,0 @@
-Closure	108
-t	com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144
-s	com.google.javascript.jscomp.ScopedAliases	fixed:259	fixed:317	fixed:584	fixed:434

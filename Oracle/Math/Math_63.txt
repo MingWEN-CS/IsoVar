@@ -1,0 +1,5 @@
+buggy	org.apache.commons.math.util.MathUtils	417	UPD	Double
+buggy	org.apache.commons.math.util.MathUtils	417	MOV	Double
+buggy	org.apache.commons.math.util.MathUtils	417	DEL	Double
+buggy	org.apache.commons.math.util.MathUtils	417	DEL	x
+buggy	org.apache.commons.math.util.MathUtils	417	DEL	y

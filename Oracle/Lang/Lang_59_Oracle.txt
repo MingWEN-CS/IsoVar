@@ -1,0 +1,8 @@
+org/apache/commons/lang/text/StrBuilder	884	881	str	Ljava/lang/String;	false	4	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	buggy
+org/apache/commons/lang/text/StrBuilder	884	882	strLen	I	false	5	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	buggy
+org/apache/commons/lang/text/StrBuilder	884	879	this	Lorg/apache/commons/lang/text/StrBuilder;	false	0	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	buggy
+org/apache/commons/lang/text/StrBuilder	884	879	this	Lorg/apache/commons/lang/text/StrBuilder;	false	0	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	buggy
+org/apache/commons/lang/text/StrBuilder	884	881	str	Ljava/lang/String;	false	4	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	fixed
+org/apache/commons/lang/text/StrBuilder	884	879	width	I	false	2	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	fixed
+org/apache/commons/lang/text/StrBuilder	884	879	this	Lorg/apache/commons/lang/text/StrBuilder;	false	0	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	fixed
+org/apache/commons/lang/text/StrBuilder	884	879	this	Lorg/apache/commons/lang/text/StrBuilder;	false	0	false	appendFixedWidthPadRight	(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	fixed

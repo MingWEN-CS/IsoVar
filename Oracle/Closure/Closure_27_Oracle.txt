@@ -1,0 +1,7 @@
+com/google/javascript/rhino/IR	224	224	tryBody	Lcom/google/javascript/rhino/Node;	false	0	true	tryFinally	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/rhino/IR	225	224	finallyBody	Lcom/google/javascript/rhino/Node;	false	1	true	tryFinally	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/rhino/IR	233	231	catchNode	Lcom/google/javascript/rhino/Node;	false	1	true	tryCatch	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/rhino/IR	233	231	catchNode	Lcom/google/javascript/rhino/Node;	false	1	true	tryCatch	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/rhino/IR	233	233	catchBody	Lcom/google/javascript/rhino/Node;	true	2	true	tryCatch	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	buggy
+com/google/javascript/rhino/IR	112	112	stmt	Lcom/google/javascript/rhino/Node;	false	0	true	blockUnchecked	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed
+com/google/javascript/rhino/IR	112	112	stmt	Lcom/google/javascript/rhino/Node;	false	0	true	blockUnchecked	(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	fixed

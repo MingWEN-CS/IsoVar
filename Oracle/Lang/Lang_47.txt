@@ -1,0 +1,4 @@
+fix	org.apache.commons.lang.text.StrBuilder	1186	INS	str
+fix	org.apache.commons.lang.text.StrBuilder	1233	INS	str
+fix	org.apache.commons.lang.text.StrBuilder	1187	INS	str
+fix	org.apache.commons.lang.text.StrBuilder	1234	INS	str

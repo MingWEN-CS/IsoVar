@@ -1,0 +1,3 @@
+fix	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	32	INS	instantiator
+buggy	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	34	UPD	classInstantiator
+buggy	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	45	UPD	classInstantiator

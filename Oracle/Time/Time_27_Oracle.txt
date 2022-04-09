@@ -1,0 +1,4 @@
+org/joda/time/format/PeriodFormatterBuilder	801	800	sep	Lorg/joda/time/format/PeriodFormatterBuilder$Separator;	false	4	true	toFormatter	(Ljava/util/List;ZZ)Lorg/joda/time/format/PeriodFormatter;	fixed
+org/joda/time/format/PeriodFormatterBuilder	801	800	sep	Lorg/joda/time/format/PeriodFormatterBuilder$Separator;	false	4	true	toFormatter	(Ljava/util/List;ZZ)Lorg/joda/time/format/PeriodFormatter;	fixed
+org/joda/time/format/PeriodFormatterBuilder	801	800	sep	Lorg/joda/time/format/PeriodFormatterBuilder$Separator;	false	4	true	toFormatter	(Ljava/util/List;ZZ)Lorg/joda/time/format/PeriodFormatter;	fixed
+org/joda/time/format/PeriodFormatterBuilder	801	800	sep	Lorg/joda/time/format/PeriodFormatterBuilder$Separator;	false	4	true	toFormatter	(Ljava/util/List;ZZ)Lorg/joda/time/format/PeriodFormatter;	fixed

@@ -1,0 +1,2 @@
+org/apache/commons/math/stat/Frequency	303	303	v	Ljava/lang/Object;	false	1	false	getPct	(Ljava/lang/Object;)D	buggy
+org/apache/commons/math/stat/Frequency	303	303	v	Ljava/lang/Object;	false	1	false	getPct	(Ljava/lang/Object;)D	fixed

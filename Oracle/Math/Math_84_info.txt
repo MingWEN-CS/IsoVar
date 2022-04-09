@@ -1,0 +1,4 @@
+Math	84
+t	org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize
+t	org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283
+s	org.apache.commons.math.optimization.direct.MultiDirectional	fixed:94	fixed:93	fixed:100	fixed:98	fixed:102	fixed:64	fixed:97	fixed:101	fixed:99

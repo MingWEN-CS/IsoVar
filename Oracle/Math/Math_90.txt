@@ -1,0 +1,6 @@
+fix	org.apache.commons.math.stat.Frequency	109	INS	addValue
+fix	org.apache.commons.math.stat.Frequency	123	INS	v
+fix	org.apache.commons.math.stat.Frequency	120	INS	v
+fix	org.apache.commons.math.stat.Frequency	121	INS	IllegalArgumentException
+fix	org.apache.commons.math.stat.Frequency	110	INS	addValue
+fix	org.apache.commons.math.stat.Frequency	110	INS	v

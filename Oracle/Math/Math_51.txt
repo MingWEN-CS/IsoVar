@@ -1,0 +1,12 @@
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	185	INS	REGULA_FALSI
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	186	INS	x
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	186	INS	x1
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	delta
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	x0
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	x1
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	delta
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	192	INS	f0
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	FastMath
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	rtol
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	INS	FastMath
+fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	192	INS	computeObjectiveValue

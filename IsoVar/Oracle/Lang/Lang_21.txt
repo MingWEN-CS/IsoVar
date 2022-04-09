@@ -1,2 +1,0 @@
-buggy	org.apache.commons.lang3.time.DateUtils	262	UPD	cal1
-buggy	org.apache.commons.lang3.time.DateUtils	262	UPD	cal2

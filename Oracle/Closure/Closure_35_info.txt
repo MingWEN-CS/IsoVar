@@ -1,0 +1,3 @@
+Closure	35
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue669
+s	com.google.javascript.jscomp.TypeInference	fixed:1122	fixed:1121

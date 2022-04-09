@@ -1,0 +1,3 @@
+Closure	91
+t	com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3
+s	com.google.javascript.jscomp.CheckGlobalThis	fixed:117	fixed:116	fixed:119	fixed:118	fixed:120	fixed:122	fixed:121	fixed:123	fixed:115

@@ -1,0 +1,6 @@
+com/google/javascript/jscomp/Compiler	1473	1468	builder	Lcom/google/javascript/jscomp/CodePrinter$Builder;	false	4	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/Compiler	1473	1468	firstOutput	Z	false	3	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/Compiler	1473	1468	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/Compiler	1473	1468	builder	Lcom/google/javascript/jscomp/CodePrinter$Builder;	false	4	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/Compiler	1473	1468	firstOutput	Z	false	3	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed
+com/google/javascript/jscomp/Compiler	1473	1468	this	Lcom/google/javascript/jscomp/Compiler;	false	0	false	toSource	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	fixed

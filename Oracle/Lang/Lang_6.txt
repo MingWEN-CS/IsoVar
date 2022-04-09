@@ -1,0 +1,1 @@
+buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	95	UPD	Character

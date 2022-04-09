@@ -1,0 +1,4 @@
+buggy	org.joda.time.tz.ZoneInfoCompiler	68	MOV	cVerbose
+fix	org.joda.time.tz.ZoneInfoCompiler	69	INS	initialValue
+fix	org.joda.time.tz.ZoneInfoCompiler	70	INS	Boolean.FALSE
+buggy	org.joda.time.tz.ZoneInfoCompiler	70	DEL	cVerbose

@@ -1,0 +1,5 @@
+fix	org.apache.commons.math.fraction.ProperFractionFormat	171	INS	num
+fix	org.apache.commons.math.fraction.ProperFractionFormat	211	INS	den
+fix	org.apache.commons.math.fraction.ProperFractionFormat	173	INS	pos
+fix	org.apache.commons.math.fraction.ProperFractionFormat	174	INS	pos
+fix	org.apache.commons.math.fraction.ProperFractionFormat	213	INS	pos

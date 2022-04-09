@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.FunctionToBlockMutator	152	INS	compiler
+fix	com.google.javascript.jscomp.FunctionToBlockMutator	152	INS	idSupplier
+fix	com.google.javascript.jscomp.RenameLabels	215	INS	li.referenced
+fix	com.google.javascript.jscomp.RenameLabels	215	INS	removeUnused
+buggy	com.google.javascript.jscomp.RenameLabels	215	DEL	li.referenced

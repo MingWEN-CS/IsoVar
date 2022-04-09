@@ -1,0 +1,6 @@
+fix	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1662	INS	iptMinus1
+fix	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1662	INS	ipt
+fix	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1663	INS	jptMinus1
+fix	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1663	INS	jpt
+buggy	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1662	DEL	ipt
+buggy	org.apache.commons.math.optimization.direct.BOBYQAOptimizer	1663	DEL	jpt

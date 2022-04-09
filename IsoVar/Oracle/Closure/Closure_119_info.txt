@@ -1,3 +1,0 @@
-Closure	119
-t	com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch
-s	com.google.javascript.jscomp.GlobalNamespace	fixed:366

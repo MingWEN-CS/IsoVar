@@ -1,0 +1,4 @@
+Lang	41
+t	org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class
+t	org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class
+s	org.apache.commons.lang.ClassUtils	fixed:191	fixed:195	fixed:194	fixed:197	fixed:263	fixed:196	fixed:265	fixed:198	fixed:264	fixed:201	fixed:267	fixed:200	fixed:203	fixed:258	fixed:269	fixed:202	fixed:268	fixed:205	fixed:216	fixed:207	fixed:206

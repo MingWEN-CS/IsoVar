@@ -1,0 +1,30 @@
+Time_21	deprecated
+Chart_15	no variable oracle
+Chart_23	no variable oracle
+Math_2	no variable oracle
+Math_12	no variable oracle
+Math_22	no variable oracle
+Math_27	no variable oracle
+Math_104	no variable oracle
+Mockito_5	no variable oracle
+Mockito_6	no variable oracle
+Mockito_36	no variable oracle
+Lang_2	deprecated
+Lang_23	no variable oracle
+Lang_25	no variable oracle
+Lang_29	no variable oracle
+Lang_56	no variable oracle
+Lang_51	no variable oracle
+Lang_53	no variable oracle
+Closure_1	no variable oracle
+Closure_4	no variable oracle
+Closure_19	no variable oracle
+Closure_28	no variable oracle
+Closure_33	no variable oracle
+Closure_63	deprecated
+Closure_80	no variable oracle
+Closure_82	no variable oracle
+Closure_86	no variable oracle
+Closure_93	deprecated
+Closure_119	no variable oracle
+Closure_133	no variable oracle

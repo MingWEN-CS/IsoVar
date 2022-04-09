@@ -1,0 +1,5 @@
+Closure	69
+t	com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2
+t	com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3
+t	com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4
+s	com.google.javascript.jscomp.TypeCheck	fixed:1582	fixed:1583	fixed:1584	fixed:1585	fixed:1580	fixed:1581	fixed:1586

@@ -1,3 +1,0 @@
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	698	INS	lvalLong
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	698	INS	lvalInt
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	698	UPD	lvalInt

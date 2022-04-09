@@ -1,2 +1,0 @@
-fix	org.mockito.internal.configuration.DefaultInjectionEngine	93	INS	injected
-fix	org.mockito.internal.configuration.DefaultInjectionEngine	94	INS	mocks

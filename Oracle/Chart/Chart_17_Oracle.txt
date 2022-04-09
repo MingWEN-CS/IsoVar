@@ -1,0 +1,12 @@
+org/jfree/data/time/TimeSeries	857	857	clone	Ljava/lang/Object;	true	1	false	clone	()Ljava/lang/Object;	buggy
+org/jfree/data/time/TimeSeries	857	857	clone	Ljava/lang/Object;	true	1	false	clone	()Ljava/lang/Object;	buggy
+org/jfree/data/time/TimeSeries	858	857	clone	Lorg/jfree/data/time/TimeSeries;	false	1	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	857	this	Lorg/jfree/data/time/TimeSeries;	false	0	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	858	this	Lorg/jfree/data/time/TimeSeries;	true	0	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	857	857	clone	Lorg/jfree/data/time/TimeSeries;	true	1	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	857	clone	Lorg/jfree/data/time/TimeSeries;	false	1	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	857	this	Lorg/jfree/data/time/TimeSeries;	false	0	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	858	this	Lorg/jfree/data/time/TimeSeries;	true	0	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	857	clone	Lorg/jfree/data/time/TimeSeries;	false	1	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	857	this	Lorg/jfree/data/time/TimeSeries;	false	0	false	clone	()Ljava/lang/Object;	fixed
+org/jfree/data/time/TimeSeries	858	858	this	Lorg/jfree/data/time/TimeSeries;	true	0	false	clone	()Ljava/lang/Object;	fixed

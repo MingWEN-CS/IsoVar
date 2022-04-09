@@ -1,2 +1,0 @@
-fix	org.joda.time.format.PeriodFormatterBuilder	801	INS	sep.iAfterParser
-fix	org.joda.time.format.PeriodFormatterBuilder	801	INS	sep.iAfterPrinter

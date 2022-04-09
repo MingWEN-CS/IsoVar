@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/SourceMap	139	121	this	Lcom/google/javascript/jscomp/SourceMap;	false	0	false	addMapping	(Lcom/google/javascript/rhino/Node;Lcom/google/debugging/sourcemap/FilePosition;Lcom/google/debugging/sourcemap/FilePosition;)V	fixed
+com/google/javascript/jscomp/SourceMap	139	121	this	Lcom/google/javascript/jscomp/SourceMap;	false	0	false	addMapping	(Lcom/google/javascript/rhino/Node;Lcom/google/debugging/sourcemap/FilePosition;Lcom/google/debugging/sourcemap/FilePosition;)V	fixed
+com/google/javascript/jscomp/SourceMap	138	138	lineBaseOffset	I	true	6	false	addMapping	(Lcom/google/javascript/rhino/Node;Lcom/google/debugging/sourcemap/FilePosition;Lcom/google/debugging/sourcemap/FilePosition;)V	fixed
+com/google/javascript/jscomp/SourceMap	141	141	lineBaseOffset	I	true	6	false	addMapping	(Lcom/google/javascript/rhino/Node;Lcom/google/debugging/sourcemap/FilePosition;Lcom/google/debugging/sourcemap/FilePosition;)V	fixed

@@ -1,2 +1,0 @@
-fix	com.google.javascript.jscomp.ReferenceCollectingCallback	431	INS	ref
-fix	com.google.javascript.jscomp.ReferenceCollectingCallback	431	INS	ref.scope

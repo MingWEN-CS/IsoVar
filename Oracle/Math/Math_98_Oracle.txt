@@ -1,0 +1,4 @@
+org/apache/commons/math/linear/BigMatrixImpl	991	986	v	[Ljava/math/BigDecimal;	false	1	false	operate	([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	buggy
+org/apache/commons/math/linear/RealMatrixImpl	779	774	v	[D	false	1	false	operate	([D)[D	buggy
+org/apache/commons/math/linear/BigMatrixImpl	991	989	nRows	I	false	2	false	operate	([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	fixed
+org/apache/commons/math/linear/RealMatrixImpl	779	774	nRows	I	false	2	false	operate	([D)[D	fixed

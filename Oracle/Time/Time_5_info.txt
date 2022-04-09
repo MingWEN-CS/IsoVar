@@ -1,0 +1,5 @@
+Time	5
+t	org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1
+t	org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2
+t	org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks
+s	org.joda.time.Period	fixed:1640	fixed:1638	fixed:1628	fixed:1639	fixed:1629	fixed:1634	fixed:1635	fixed:1636	fixed:1637	fixed:1630	fixed:1631	fixed:1632

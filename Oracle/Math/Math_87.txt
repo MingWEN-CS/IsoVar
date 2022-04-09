@@ -1,0 +1,4 @@
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	275	INS	MathUtils
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	275	INS	getEntry
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	275	INS	row
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	276	MOV	row

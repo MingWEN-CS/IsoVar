@@ -1,0 +1,9 @@
+fix	org.joda.time.base.BasePeriod	224	INS	iType
+fix	org.joda.time.base.BasePeriod	225	INS	values
+fix	org.joda.time.base.BasePeriod	226	INS	iType
+fix	org.joda.time.base.BasePeriod	227	INS	iValues
+fix	org.joda.time.base.BasePeriod	228	INS	System
+fix	org.joda.time.base.BasePeriod	224	INS	PeriodType
+fix	org.joda.time.base.BasePeriod	226	INS	PeriodType
+fix	org.joda.time.base.BasePeriod	225	INS	ISOChronology
+buggy	org.joda.time.base.BasePeriod	222	DEL	duration

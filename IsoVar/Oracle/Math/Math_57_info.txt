@@ -1,3 +1,0 @@
-Math	57
-t	org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances
-s	org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer	fixed:175

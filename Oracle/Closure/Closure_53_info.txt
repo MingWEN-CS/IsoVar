@@ -1,0 +1,3 @@
+Closure	53
+t	com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545
+s	com.google.javascript.jscomp.InlineObjectLiterals	fixed:331	fixed:353	fixed:333	fixed:332

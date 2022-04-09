@@ -1,3 +1,0 @@
-Lang	51
-t	org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String
-s	org.apache.commons.lang.BooleanUtils	fixed:682

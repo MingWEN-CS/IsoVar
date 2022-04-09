@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.ProcessCommonJSModules	128	INS	modulesWithExports
+fix	com.google.javascript.jscomp.ProcessCommonJSModules	128	INS	Sets
+fix	com.google.javascript.jscomp.ProcessCommonJSModules	232	INS	modulesWithExports
+fix	com.google.javascript.jscomp.ProcessCommonJSModules	208	INS	modulesWithExports

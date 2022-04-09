@@ -1,0 +1,13 @@
+org/apache/commons/math/optimization/linear/SimplexTableau	276	273	row	Ljava/lang/Integer;	false	2	false	getBasicRow	(I)Ljava/lang/Integer;	buggy
+org/apache/commons/math/optimization/linear/SimplexTableau	275	274	i	I	false	3	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	col	I	false	1	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	this	Lorg/apache/commons/math/optimization/linear/SimplexTableau;	false	0	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	row	Ljava/lang/Integer;	false	2	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	274	i	I	false	3	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	col	I	false	1	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	this	Lorg/apache/commons/math/optimization/linear/SimplexTableau;	false	0	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	row	Ljava/lang/Integer;	false	2	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	274	i	I	false	3	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	col	I	false	1	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	this	Lorg/apache/commons/math/optimization/linear/SimplexTableau;	false	0	false	getBasicRow	(I)Ljava/lang/Integer;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	275	273	row	Ljava/lang/Integer;	false	2	false	getBasicRow	(I)Ljava/lang/Integer;	fixed

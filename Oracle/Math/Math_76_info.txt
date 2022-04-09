@@ -1,0 +1,4 @@
+Math	76
+t	org.apache.commons.math.linear.SingularValueSolverTest::testMath320A
+t	org.apache.commons.math.linear.SingularValueSolverTest::testMath320B
+s	org.apache.commons.math.linear.SingularValueDecompositionImpl	fixed:171	fixed:182	fixed:270	fixed:181	fixed:162	fixed:251	fixed:166	fixed:177	fixed:265	fixed:179	fixed:267	fixed:255	fixed:269	fixed:259

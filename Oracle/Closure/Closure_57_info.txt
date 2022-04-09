@@ -1,0 +1,3 @@
+Closure	57
+t	com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire
+s	com.google.javascript.jscomp.ClosureCodingConvention	fixed:197

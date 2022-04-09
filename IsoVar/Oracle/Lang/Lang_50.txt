@@ -1,2 +1,0 @@
-buggy	org.apache.commons.lang.time.FastDateFormat	285	DEL	locale
-buggy	org.apache.commons.lang.time.FastDateFormat	465	DEL	locale

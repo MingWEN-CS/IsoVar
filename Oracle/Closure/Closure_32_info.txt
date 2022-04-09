@@ -1,0 +1,6 @@
+Closure	32
+t	com.google.javascript.jscomp.IntegrationTest::testIssue701
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve
+t	com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii
+s	com.google.javascript.jscomp.parsing.JsDocInfoParser	fixed:1384	fixed:1395	fixed:1396	fixed:1397	fixed:1365	fixed:1398	fixed:1392	fixed:1393	fixed:1394	fixed:1403	fixed:1404	fixed:1399	fixed:1400	fixed:1358	fixed:1402	buggy:1415	buggy:1414	buggy:1416

@@ -1,3 +1,0 @@
-Closure	114
-t	com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall
-s	com.google.javascript.jscomp.NameAnalyzer	fixed:578

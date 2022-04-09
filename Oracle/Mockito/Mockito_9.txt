@@ -1,0 +1,4 @@
+fix	org.mockito.internal.stubbing.answers.CallsRealMethods	8	INS	java.lang.reflect.Modifier
+fix	org.mockito.internal.stubbing.answers.CallsRealMethods	10	INS	org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer
+fix	org.mockito.internal.stubbing.answers.CallsRealMethods	38	INS	Modifier
+fix	org.mockito.internal.stubbing.answers.CallsRealMethods	38	INS	invocation

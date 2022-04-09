@@ -1,0 +1,7 @@
+org/mockito/internal/configuration/DefaultInjectionEngine	93	92	this	Lorg/mockito/internal/configuration/DefaultInjectionEngine;	false	0	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	93	92	mocks	Ljava/util/Set;	false	2	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	93	92	field	Ljava/lang/reflect/Field;	false	7	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	93	92	fieldInstance	Ljava/lang/Object;	false	3	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	93	93	injected	Ljava/lang/Object;	true	8	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	94	92	mocks	Ljava/util/Set;	false	2	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed
+org/mockito/internal/configuration/DefaultInjectionEngine	94	93	injected	Ljava/lang/Object;	false	8	false	injectMockCandidate	(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fixed

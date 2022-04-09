@@ -1,0 +1,4 @@
+Time	10
+t	org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay
+t	org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay
+s	org.joda.time.base.BaseSingleFieldPeriod	fixed:105	fixed:52

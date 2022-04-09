@@ -1,0 +1,3 @@
+org/mockito/Matchers	292	292	clazz	Ljava/lang/Class;	false	0	true	any	(Ljava/lang/Class;)Ljava/lang/Object;	buggy
+org/mockito/Matchers	292	292	clazz	Ljava/lang/Class;	false	0	true	any	(Ljava/lang/Class;)Ljava/lang/Object;	fixed
+org/mockito/Matchers	292	292	clazz	Ljava/lang/Class;	false	0	true	any	(Ljava/lang/Class;)Ljava/lang/Object;	fixed

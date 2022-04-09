@@ -1,3 +1,0 @@
-Closure	102
-t	com.google.javascript.jscomp.CompilerRunnerTest::testIssue115
-s	com.google.javascript.jscomp.Normalize	buggy:94	fixed:89

@@ -1,0 +1,4 @@
+Closure	11
+t	com.google.javascript.jscomp.TypeCheckTest::testGetprop4
+t	com.google.javascript.jscomp.TypeCheckTest::testIssue810
+s	com.google.javascript.jscomp.TypeCheck	buggy:1314	buggy:1315

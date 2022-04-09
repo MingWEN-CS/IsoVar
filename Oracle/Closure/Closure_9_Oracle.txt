@@ -1,0 +1,5 @@
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	183	180	this	Lcom/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback;	false	0	false	visitScript	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	183	180	script	Lcom/google/javascript/rhino/Node;	false	2	false	visitScript	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	183	183	moduleName	Ljava/lang/String;	true	3	false	visitScript	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	183	183	moduleName	Ljava/lang/String;	true	3	false	visitScript	(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/ProcessCommonJSModules	119	119	filename	Ljava/lang/String;	false	1	false	normalizeSourceName	(Ljava/lang/String;)Ljava/lang/String;	fixed

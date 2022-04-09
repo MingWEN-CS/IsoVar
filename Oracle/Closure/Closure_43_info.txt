@@ -1,0 +1,4 @@
+Closure	43
+t	com.google.javascript.jscomp.TypeCheckTest::testLends10
+t	com.google.javascript.jscomp.TypeCheckTest::testLends11
+s	com.google.javascript.jscomp.TypedScopeCreator	fixed:591	fixed:590	fixed:593	fixed:592	fixed:551	fixed:595	fixed:550	fixed:594	fixed:553	fixed:597	fixed:420	fixed:552	fixed:588	fixed:554	fixed:589	fixed:548	fixed:549

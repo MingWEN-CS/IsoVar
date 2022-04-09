@@ -1,0 +1,17 @@
+fix	org.mockito.internal.invocation.InvocationMatcher	123	INS	position
+fix	org.mockito.internal.invocation.InvocationMatcher	123	INS	indexOfVararg
+fix	org.mockito.internal.invocation.InvocationMatcher	129	INS	position
+fix	org.mockito.internal.invocation.InvocationMatcher	129	INS	indexOfVararg
+fix	org.mockito.internal.invocation.InvocationMatcher	129	INS	matchers
+fix	org.mockito.internal.invocation.InvocationMatcher	124	INS	m
+fix	org.mockito.internal.invocation.InvocationMatcher	125	INS	m
+fix	org.mockito.internal.invocation.InvocationMatcher	130	INS	m
+fix	org.mockito.internal.invocation.InvocationMatcher	131	INS	m
+fix	org.mockito.internal.invocation.InvocationMatcher	124	INS	matchers
+fix	org.mockito.internal.invocation.InvocationMatcher	130	INS	matchers
+fix	org.mockito.internal.invocation.InvocationMatcher	126	INS	invocation
+fix	org.mockito.internal.invocation.InvocationMatcher	132	INS	invocation
+fix	org.mockito.internal.invocation.InvocationMatcher	132	INS	position
+fix	org.mockito.internal.invocation.InvocationMatcher	132	INS	indexOfVararg
+fix	org.mockito.internal.invocation.InvocationMatcher	126	INS	m
+fix	org.mockito.internal.invocation.InvocationMatcher	132	INS	m

@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/FunctionRewriter	117	117	n	Lcom/google/javascript/rhino/Node;	false	0	true	isReduceableFunctionExpression	(Lcom/google/javascript/rhino/Node;)Z	fixed
+com/google/javascript/jscomp/FunctionRewriter	117	117	n	Lcom/google/javascript/rhino/Node;	false	0	true	isReduceableFunctionExpression	(Lcom/google/javascript/rhino/Node;)Z	fixed

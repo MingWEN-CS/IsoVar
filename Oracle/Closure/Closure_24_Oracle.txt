@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/ScopedAliases$Traversal	287	274	v	Lcom/google/javascript/jscomp/Scope$Var;	false	4	false	findAliases	(Lcom/google/javascript/jscomp/NodeTraversal;)V	fixed
+com/google/javascript/jscomp/ScopedAliases$Traversal	290	277	parent	Lcom/google/javascript/rhino/Node;	false	7	false	findAliases	(Lcom/google/javascript/jscomp/NodeTraversal;)V	fixed
+com/google/javascript/jscomp/ScopedAliases$Traversal	290	277	parent	Lcom/google/javascript/rhino/Node;	false	7	false	findAliases	(Lcom/google/javascript/jscomp/NodeTraversal;)V	fixed

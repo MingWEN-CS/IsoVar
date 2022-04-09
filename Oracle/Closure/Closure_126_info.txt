@@ -1,0 +1,4 @@
+Closure	126
+t	com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally
+t	com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization
+s	com.google.javascript.jscomp.MinimizeExitPoints	buggy:144	buggy:143	buggy:142	buggy:141

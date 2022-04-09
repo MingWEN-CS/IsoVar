@@ -1,0 +1,3 @@
+Mockito	10
+t	org.mockitousage.bugs.DeepStubsWronglyReportsSerializationProblemsTest::should_not_raise_a_mockito_exception_about_serialization_when_accessing_deep_stub
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	fixed:106	fixed:105	fixed:107	fixed:17	fixed:92	fixed:72	fixed:96	fixed:101	fixed:89	fixed:88

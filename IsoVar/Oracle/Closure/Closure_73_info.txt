@@ -1,3 +1,0 @@
-Closure	73
-t	com.google.javascript.jscomp.CodePrinterTest::testUnicode
-s	com.google.javascript.jscomp.CodeGenerator	fixed:1045

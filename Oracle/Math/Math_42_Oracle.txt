@@ -1,0 +1,6 @@
+org/apache/commons/math/optimization/linear/SimplexTableau	410	409	basicRow	Ljava/lang/Integer;	false	9	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	410	409	basicRow	Ljava/lang/Integer;	false	9	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	414	403	i	I	false	7	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	414	402	coefficients	[D	false	6	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	414	403	i	I	false	7	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed
+org/apache/commons/math/optimization/linear/SimplexTableau	414	402	coefficients	[D	false	6	false	getSolution	()Lorg/apache/commons/math/optimization/RealPointValuePair;	fixed

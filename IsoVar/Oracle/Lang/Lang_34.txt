@@ -1,3 +1,0 @@
-fix	org.apache.commons.lang3.builder.ToStringStyle	164	INS	m
-buggy	org.apache.commons.lang3.builder.ToStringStyle	148	DEL	REGISTRY
-buggy	org.apache.commons.lang3.builder.ToStringStyle	148	DEL	Collections

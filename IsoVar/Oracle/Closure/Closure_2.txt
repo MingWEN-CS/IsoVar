@@ -1,3 +1,0 @@
-fix	com.google.javascript.jscomp.TypeCheck	1572	INS	implicitProto
-fix	com.google.javascript.jscomp.TypeCheck	1575	INS	currentPropertyNames
-fix	com.google.javascript.jscomp.TypeCheck	1575	INS	ImmutableSet

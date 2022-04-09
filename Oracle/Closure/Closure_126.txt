@@ -1,0 +1,4 @@
+buggy	com.google.javascript.jscomp.MinimizeExitPoints	141	DEL	NodeUtil
+buggy	com.google.javascript.jscomp.MinimizeExitPoints	142	DEL	finallyBlock
+buggy	com.google.javascript.jscomp.MinimizeExitPoints	142	DEL	n
+buggy	com.google.javascript.jscomp.MinimizeExitPoints	143	DEL	tryMinimizeExits

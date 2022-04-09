@@ -1,2 +1,0 @@
-buggy	com.google.javascript.rhino.jstype.NamedType	190	UPD	detectImplicitPrototypeCycle
-buggy	com.google.javascript.rhino.jstype.NamedType	202	UPD	detectImplicitPrototypeCycle

@@ -1,0 +1,5 @@
+fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.inExterns
+fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.globalSets
+fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.localSets
+buggy	com.google.javascript.jscomp.CollapseProperties	172	MOV	name.globalSets
+buggy	com.google.javascript.jscomp.CollapseProperties	172	MOV	name.localSets

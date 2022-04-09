@@ -1,0 +1,6 @@
+Closure	30
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testInlineAcrossSideEffect1
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testCanInlineAcrossNoSideEffect
+t	com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue698
+s	com.google.javascript.jscomp.FlowSensitiveInlineVariables	fixed:157
+s	com.google.javascript.jscomp.MustBeReachingVariableDef	fixed:403	fixed:436	fixed:435	fixed:437	fixed:71	fixed:397	fixed:399	fixed:401	fixed:400

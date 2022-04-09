@@ -1,0 +1,2 @@
+com/google/javascript/rhino/jstype/JSType	163	163	this	Lcom/google/javascript/rhino/jstype/JSType;	false	0	false	isEmptyType	()Z	fixed
+com/google/javascript/rhino/jstype/JSType	163	163	this	Lcom/google/javascript/rhino/jstype/JSType;	false	0	false	isEmptyType	()Z	fixed

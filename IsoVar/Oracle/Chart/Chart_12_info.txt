@@ -1,3 +1,0 @@
-Chart	12
-t	org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor
-s	org.jfree.chart.plot.MultiplePiePlot	fixed:145

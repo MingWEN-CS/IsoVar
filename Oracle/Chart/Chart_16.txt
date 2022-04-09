@@ -1,0 +1,3 @@
+fix	org.jfree.data.category.DefaultIntervalCategoryDataset	338	INS	getCategoryCount
+buggy	org.jfree.data.category.DefaultIntervalCategoryDataset	338	DEL	startData
+buggy	org.jfree.data.category.DefaultIntervalCategoryDataset	338	DEL	length

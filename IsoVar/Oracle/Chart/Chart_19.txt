@@ -1,2 +1,0 @@
-fix	org.jfree.chart.plot.CategoryPlot	698	INS	axis
-fix	org.jfree.chart.plot.CategoryPlot	976	INS	axis

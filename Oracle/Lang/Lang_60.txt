@@ -1,0 +1,4 @@
+fix	org.apache.commons.lang.text.StrBuilder	1730	INS	size
+fix	org.apache.commons.lang.text.StrBuilder	1673	INS	size
+buggy	org.apache.commons.lang.text.StrBuilder	1673	DEL	thisBuf.length
+buggy	org.apache.commons.lang.text.StrBuilder	1730	DEL	thisBuf.length

@@ -1,3 +1,0 @@
-Lang	33
-t	org.apache.commons.lang3.ClassUtilsTest::testToClass_object
-s	org.apache.commons.lang3.ClassUtils	fixed:910

@@ -1,0 +1,3 @@
+Lang	35
+t	org.apache.commons.lang3.ArrayUtilsAddTest::testLANG571
+s	org.apache.commons.lang3.ArrayUtils	fixed:3574	fixed:3295

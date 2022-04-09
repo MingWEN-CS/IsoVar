@@ -1,0 +1,5 @@
+buggy	org.jfree.data.xy.XYSeries	548	MOV	index
+buggy	org.jfree.data.xy.XYSeries	548	MOV	allowDuplicateXValues
+fix	org.jfree.data.xy.XYSeries	545	INS	add
+buggy	org.jfree.data.xy.XYSeries	548	DEL	index
+buggy	org.jfree.data.xy.XYSeries	548	DEL	allowDuplicateXValues

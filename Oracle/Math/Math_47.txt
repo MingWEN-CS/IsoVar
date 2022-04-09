@@ -1,0 +1,14 @@
+fix	org.apache.commons.math.complex.Complex	82	INS	isZero
+fix	org.apache.commons.math.complex.Complex	258	INS	divisor.isZero
+fix	org.apache.commons.math.complex.Complex	106	INS	isZero
+fix	org.apache.commons.math.complex.Complex	106	INS	real
+fix	org.apache.commons.math.complex.Complex	106	INS	imaginary
+fix	org.apache.commons.math.complex.Complex	259	INS	isZero
+fix	org.apache.commons.math.complex.Complex	259	INS	NaN
+fix	org.apache.commons.math.complex.Complex	259	INS	INF
+fix	org.apache.commons.math.complex.Complex	295	INS	isZero
+fix	org.apache.commons.math.complex.Complex	295	INS	NaN
+fix	org.apache.commons.math.complex.Complex	295	INS	INF
+buggy	org.apache.commons.math.complex.Complex	256	DEL	divisor
+buggy	org.apache.commons.math.complex.Complex	257	DEL	NaN
+buggy	org.apache.commons.math.complex.Complex	293	DEL	NaN

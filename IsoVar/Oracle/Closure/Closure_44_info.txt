@@ -1,3 +1,0 @@
-Closure	44
-t	com.google.javascript.jscomp.CodePrinterTest::testIssue620
-s	com.google.javascript.jscomp.CodeConsumer	fixed:194	fixed:200

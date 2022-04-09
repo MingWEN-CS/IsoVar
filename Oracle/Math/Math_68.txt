@@ -1,0 +1,11 @@
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	166	INS	setConvergenceChecker
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	248	INS	current
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	254	INS	previous
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	254	INS	current
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	306	INS	current
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	417	INS	checker
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	348	INS	current
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	419	INS	checker
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	419	INS	getIterations
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	420	INS	current
+fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	428	INS	current

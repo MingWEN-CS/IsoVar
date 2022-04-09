@@ -1,2 +1,0 @@
-fix	org.mockito.internal.matchers.Equality	13	INS	o1
-fix	org.mockito.internal.matchers.Equality	13	INS	o2

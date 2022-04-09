@@ -1,3 +1,0 @@
-Closure	65
-t	com.google.javascript.jscomp.CodePrinterTest::testZero
-s	com.google.javascript.jscomp.CodeGenerator	fixed:1015

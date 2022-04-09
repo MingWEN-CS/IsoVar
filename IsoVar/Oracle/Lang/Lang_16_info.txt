@@ -1,3 +1,0 @@
-Lang	16
-t	org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber
-s	org.apache.commons.lang3.math.NumberUtils	fixed:458

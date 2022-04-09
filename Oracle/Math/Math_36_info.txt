@@ -1,0 +1,4 @@
+Math	36
+t	org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator
+t	org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator
+s	org.apache.commons.math.fraction.BigFraction	fixed:689	fixed:744	fixed:743	fixed:746	fixed:745	fixed:690	fixed:739	fixed:692	fixed:691	fixed:693	fixed:742	fixed:686

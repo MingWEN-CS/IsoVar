@@ -1,0 +1,3 @@
+Math	45
+t	org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679
+s	org.apache.commons.math.linear.OpenMapRealMatrix	fixed:50	fixed:52	fixed:51	fixed:54	fixed:53

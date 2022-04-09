@@ -1,0 +1,3 @@
+Math	91
+t	org.apache.commons.math.fraction.FractionTest::testCompareTo
+s	org.apache.commons.math.fraction.Fraction	fixed:259	fixed:260

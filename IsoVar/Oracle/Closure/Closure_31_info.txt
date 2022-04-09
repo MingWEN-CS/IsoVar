@@ -1,3 +1,0 @@
-Closure	31
-t	com.google.javascript.jscomp.CommandLineRunnerTest::testDependencySortingWhitespaceMode
-s	com.google.javascript.jscomp.Compiler	buggy:1285

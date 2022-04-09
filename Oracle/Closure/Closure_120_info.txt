@@ -1,0 +1,3 @@
+Closure	120
+t	com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053
+s	com.google.javascript.jscomp.ReferenceCollectingCallback	fixed:432	fixed:431	fixed:433

@@ -1,0 +1,12 @@
+org/mockito/internal/util/MockUtil	64	63	oldMockHandler	Lorg/mockito/internal/MockHandlerInterface;	false	2	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	64	64	newMockHandler	Lorg/mockito/internal/MockHandler;	true	3	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	64	63	oldMockHandler	Lorg/mockito/internal/MockHandlerInterface;	false	2	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	64	64	newMockHandler	Lorg/mockito/internal/MockHandler;	true	3	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	65	64	newMockHandler	Lorg/mockito/internal/MockHandler;	false	3	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	65	65	newFilter	Lorg/mockito/internal/creation/MethodInterceptorFilter;	true	4	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	65	64	newMockHandler	Lorg/mockito/internal/MockHandler;	false	3	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	65	65	newFilter	Lorg/mockito/internal/creation/MethodInterceptorFilter;	true	4	false	resetMock	(Ljava/lang/Object;)V	buggy
+org/mockito/internal/util/MockUtil	64	63	oldMockHandler	Lorg/mockito/internal/MockHandlerInterface;	false	2	false	resetMock	(Ljava/lang/Object;)V	fixed
+org/mockito/internal/util/MockUtil	64	64	newFilter	Lorg/mockito/internal/creation/MethodInterceptorFilter;	true	3	false	resetMock	(Ljava/lang/Object;)V	fixed
+org/mockito/internal/util/MockUtil	64	63	oldMockHandler	Lorg/mockito/internal/MockHandlerInterface;	false	2	false	resetMock	(Ljava/lang/Object;)V	fixed
+org/mockito/internal/util/MockUtil	64	64	newFilter	Lorg/mockito/internal/creation/MethodInterceptorFilter;	true	3	false	resetMock	(Ljava/lang/Object;)V	fixed

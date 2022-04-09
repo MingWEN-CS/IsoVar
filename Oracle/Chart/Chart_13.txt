@@ -1,0 +1,3 @@
+fix	org.jfree.chart.block.BorderArrangement	453	INS	Math
+buggy	org.jfree.chart.block.BorderArrangement	453	MOV	constraint
+buggy	org.jfree.chart.block.BorderArrangement	453	MOV	w

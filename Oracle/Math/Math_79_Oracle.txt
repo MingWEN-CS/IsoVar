@@ -1,0 +1,6 @@
+org/apache/commons/math/util/MathUtils	1624	1624	sum	D	true	2	true	distance	([I[I)D	fixed
+org/apache/commons/math/util/MathUtils	1626	1625	i	I	false	4	true	distance	([I[I)D	fixed
+org/apache/commons/math/util/MathUtils	1626	1624	p1	[I	false	0	true	distance	([I[I)D	fixed
+org/apache/commons/math/util/MathUtils	1626	1625	i	I	false	4	true	distance	([I[I)D	fixed
+org/apache/commons/math/util/MathUtils	1626	1624	p2	[I	false	1	true	distance	([I[I)D	fixed
+org/apache/commons/math/util/MathUtils	1626	1626	dp	D	true	5	true	distance	([I[I)D	fixed

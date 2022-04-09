@@ -1,0 +1,3 @@
+Math	87
+t	org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraint
+s	org.apache.commons.math.optimization.linear.SimplexTableau	buggy:280	fixed:275	fixed:277

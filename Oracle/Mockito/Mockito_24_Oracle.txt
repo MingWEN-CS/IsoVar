@@ -1,0 +1,2 @@
+org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues	76	64	invocation	Lorg/mockito/invocation/InvocationOnMock;	false	1	false	answer	(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;	fixed
+org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues	76	64	invocation	Lorg/mockito/invocation/InvocationOnMock;	false	1	false	answer	(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;	fixed

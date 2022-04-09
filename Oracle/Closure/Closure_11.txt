@@ -1,0 +1,2 @@
+buggy	com.google.javascript.jscomp.TypeCheck	1314	DEL	n
+buggy	com.google.javascript.jscomp.TypeCheck	1314	DEL	parent

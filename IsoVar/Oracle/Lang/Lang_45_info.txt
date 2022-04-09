@@ -1,3 +1,0 @@
-Lang	45
-t	org.apache.commons.lang.WordUtilsTest::testAbbreviate
-s	org.apache.commons.lang.WordUtils	fixed:616	fixed:618	fixed:617

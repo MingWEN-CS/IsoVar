@@ -1,0 +1,17 @@
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	UPD	x
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	UPD	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	UPD	standardDeviation
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	MOV	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	MOV	standardDeviation
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	126	INS	FastMath
+fix	org.apache.commons.math.distribution.NormalDistributionImpl	127	INS	dev
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	132	UPD	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	132	MOV	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	DEL	x
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	DEL	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	130	DEL	standardDeviation
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	132	DEL	x
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	132	DEL	standardDeviation
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	132	DEL	mean
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	135	DEL	ex
+buggy	org.apache.commons.math.distribution.NormalDistributionImpl	129	DEL	ex

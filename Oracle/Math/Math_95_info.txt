@@ -1,0 +1,3 @@
+Math	95
+t	org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom
+s	org.apache.commons.math.distribution.FDistributionImpl	fixed:149	fixed:144	fixed:146

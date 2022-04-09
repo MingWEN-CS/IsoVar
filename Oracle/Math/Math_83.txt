@@ -1,0 +1,3 @@
+fix	org.apache.commons.math.optimization.linear.SimplexTableau	292	INS	ignoreObjectiveRows
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	341	UPD	getBasicRow
+buggy	org.apache.commons.math.optimization.linear.SimplexTableau	345	UPD	getBasicRow

@@ -1,3 +1,0 @@
-Closure	97
-t	com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts
-s	com.google.javascript.jscomp.PeepholeFoldConstants	fixed:699	fixed:698

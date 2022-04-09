@@ -1,0 +1,24 @@
+Chart	26
+t	org.jfree.chart.junit.AreaChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.BarChart3DTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.BarChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.GanttChartTests::testDrawWithNullInfo2
+t	org.jfree.chart.junit.LineChart3DTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.LineChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.StackedAreaChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.StackedBarChart3DTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.StackedBarChartTests::testDrawWithNullInfo
+t	org.jfree.chart.junit.WaterfallChartTests::testDrawWithNullInfo
+t	org.jfree.chart.plot.junit.CategoryPlotTests::test1654215
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization3
+t	org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization4
+t	org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.IntervalBarRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.LayeredBarRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.LevelRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests::testDrawWithNullInfo
+t	org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testDrawWithNullInfo
+s	org.jfree.chart.axis.Axis	fixed:1198	fixed:1192

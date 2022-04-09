@@ -1,0 +1,12 @@
+buggy	org.apache.commons.lang3.StringUtils	3298	UPD	array
+buggy	org.apache.commons.lang3.StringUtils	3298	UPD	startIndex
+buggy	org.apache.commons.lang3.StringUtils	3383	UPD	array
+buggy	org.apache.commons.lang3.StringUtils	3383	UPD	startIndex
+buggy	org.apache.commons.lang3.StringUtils	3383	UPD	separator
+fix	org.apache.commons.lang3.StringUtils	3298	INS	noOfItems
+fix	org.apache.commons.lang3.StringUtils	3383	INS	noOfItems
+buggy	org.apache.commons.lang3.StringUtils	3298	DEL	array
+buggy	org.apache.commons.lang3.StringUtils	3298	DEL	startIndex
+buggy	org.apache.commons.lang3.StringUtils	3383	DEL	array
+buggy	org.apache.commons.lang3.StringUtils	3383	DEL	startIndex
+buggy	org.apache.commons.lang3.StringUtils	3383	DEL	separator

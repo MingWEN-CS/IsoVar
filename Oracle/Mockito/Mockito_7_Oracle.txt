@@ -1,0 +1,2 @@
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	379	376	this	Lorg/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType;	false	0	false	readTypeVariables	()V	fixed
+org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType	379	376	this	Lorg/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType;	false	0	false	readTypeVariables	()V	fixed

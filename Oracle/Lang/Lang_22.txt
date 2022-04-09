@@ -1,0 +1,8 @@
+fix	org.apache.commons.lang3.math.Fraction	583	INS	u
+fix	org.apache.commons.lang3.math.Fraction	583	INS	v
+buggy	org.apache.commons.lang3.math.Fraction	584	UPD	Math
+fix	org.apache.commons.lang3.math.Fraction	584	INS	u
+fix	org.apache.commons.lang3.math.Fraction	584	INS	Integer.MIN_VALUE
+fix	org.apache.commons.lang3.math.Fraction	584	INS	v
+fix	org.apache.commons.lang3.math.Fraction	587	INS	Math
+fix	org.apache.commons.lang3.math.Fraction	590	INS	Math

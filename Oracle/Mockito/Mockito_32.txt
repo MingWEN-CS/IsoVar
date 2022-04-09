@@ -1,0 +1,7 @@
+fix	org.mockito.internal.configuration.SpyAnnotationEngine	19	INS	org.mockito.Mockito.withSettings
+fix	org.mockito.internal.configuration.SpyAnnotationEngine	50	INS	Mockito
+fix	org.mockito.internal.configuration.SpyAnnotationEngine	50	INS	instance
+fix	org.mockito.internal.configuration.SpyAnnotationEngine	53	INS	field
+buggy	org.mockito.internal.configuration.SpyAnnotationEngine	49	UPD	Mockito
+buggy	org.mockito.internal.configuration.SpyAnnotationEngine	49	MOV	Mockito
+fix	org.mockito.internal.configuration.SpyAnnotationEngine	50	INS	withSettings

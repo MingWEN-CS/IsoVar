@@ -1,0 +1,7 @@
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	63	INS	entityValue
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	64	INS	chrs
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	65	INS	out
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	66	INS	out
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	64	INS	Character
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	65	INS	chrs
+fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	66	INS	chrs

@@ -1,0 +1,7 @@
+org/joda/time/Partial	464	427	this	Lorg/joda/time/Partial;	false	0	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	buggy
+org/joda/time/Partial	464	432	newTypes	[Lorg/joda/time/DateTimeFieldType;	false	4	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	buggy
+org/joda/time/Partial	464	464	newPartial	Lorg/joda/time/Partial;	true	8	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	buggy
+org/joda/time/Partial	464	432	newTypes	[Lorg/joda/time/DateTimeFieldType;	false	4	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	fixed
+org/joda/time/Partial	464	427	this	Lorg/joda/time/Partial;	false	0	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	fixed
+org/joda/time/Partial	464	464	newPartial	Lorg/joda/time/Partial;	true	8	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	fixed
+org/joda/time/Partial	464	433	newValues	[I	false	5	false	with	(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	buggy

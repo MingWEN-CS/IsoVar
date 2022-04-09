@@ -1,2 +1,0 @@
-buggy	org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	198	UPD	fa
-buggy	org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	198	UPD	fb

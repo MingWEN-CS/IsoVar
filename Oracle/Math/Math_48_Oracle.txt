@@ -1,0 +1,4 @@
+org/apache/commons/math/analysis/solvers/BaseSecantSolver	189	161	x	D	false	16	false	doSolve	()D	fixed
+org/apache/commons/math/analysis/solvers/BaseSecantSolver	189	132	x1	D	false	3	false	doSolve	()D	fixed
+org/apache/commons/math/analysis/solvers/BaseSecantSolver	189	161	x	D	false	16	false	doSolve	()D	fixed
+org/apache/commons/math/analysis/solvers/BaseSecantSolver	189	132	x1	D	false	3	false	doSolve	()D	fixed

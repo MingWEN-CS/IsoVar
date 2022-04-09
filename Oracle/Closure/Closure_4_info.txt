@@ -1,0 +1,5 @@
+Closure	4
+t	com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop
+t	com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop
+t	com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor
+s	com.google.javascript.rhino.jstype.NamedType	fixed:190	fixed:202

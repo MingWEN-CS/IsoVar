@@ -1,0 +1,4 @@
+org/jfree/chart/plot/XYPlot	2293	2290	markers	Ljava/util/ArrayList;	false	5	false	removeDomainMarker	(ILorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;Z)Z	fixed
+org/jfree/chart/plot/XYPlot	2532	2529	markers	Ljava/util/ArrayList;	false	5	false	removeRangeMarker	(ILorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;Z)Z	fixed
+org/jfree/chart/plot/CategoryPlot	2166	2163	markers	Ljava/util/ArrayList;	false	5	false	removeDomainMarker	(ILorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;Z)Z	fixed
+org/jfree/chart/plot/CategoryPlot	2451	2448	markers	Ljava/util/ArrayList;	false	5	false	removeRangeMarker	(ILorg/jfree/chart/plot/Marker;Lorg/jfree/chart/util/Layer;Z)Z	fixed

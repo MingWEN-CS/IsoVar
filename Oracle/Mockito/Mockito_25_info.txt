@@ -1,0 +1,8 @@
+Mockito	25
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::will_return_default_value_on_non_mockable_nested_generic
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::can_create_mock_from_multiple_type_variable_bounds_when_return_type_of_parameterized_method_is_a_typevar_that_is_referencing_a_typevar_on_class
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::can_create_mock_from_return_types_declared_with_a_bounded_wildcard
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::can_create_mock_from_multiple_type_variable_bounds_when_return_type_of_parameterized_method_is_a_parameterizedtype_that_is_referencing_a_typevar_on_class
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::generic_deep_mock_frenzy__look_at_these_chained_calls
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsGenericDeepStubsTest::can_create_mock_from_multiple_type_variable_bounds_when_method_return_type_is_referencing_a_typevar_on_class
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	fixed:7	fixed:59	fixed:94	fixed:71	fixed:93	fixed:95	fixed:98	fixed:97	fixed:56	fixed:99	fixed:81	fixed:80	fixed:83	fixed:82	fixed:85	fixed:100	fixed:84	fixed:21	fixed:87	fixed:102	fixed:20	fixed:101	fixed:89	fixed:104	fixed:88	fixed:103	fixed:106	fixed:90	fixed:91

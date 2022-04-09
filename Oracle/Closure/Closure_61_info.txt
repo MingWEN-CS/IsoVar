@@ -1,0 +1,5 @@
+Closure	61
+t	com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1
+t	com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2
+t	com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps
+s	com.google.javascript.jscomp.NodeUtil	fixed:963	fixed:959	fixed:958	fixed:960	fixed:962	fixed:961

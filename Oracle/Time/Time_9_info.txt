@@ -1,0 +1,3 @@
+Time	9
+t	org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int
+s	org.joda.time.DateTimeZone	fixed:259	fixed:270	fixed:260	fixed:96	fixed:287	fixed:286	fixed:266	fixed:288	fixed:258	fixed:268

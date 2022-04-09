@@ -1,0 +1,3 @@
+Closure	55
+t	com.google.javascript.jscomp.FunctionRewriterTest::testIssue538
+s	com.google.javascript.jscomp.FunctionRewriter	fixed:117	fixed:118

@@ -1,0 +1,3 @@
+Lang	58
+t	org.apache.commons.lang.math.NumberUtilsTest::testLang300
+s	org.apache.commons.lang.math.NumberUtils	fixed:454

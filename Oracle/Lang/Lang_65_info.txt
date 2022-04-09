@@ -1,0 +1,3 @@
+Lang	65
+t	org.apache.commons.lang.time.DateUtilsTest::testTruncateLang59
+s	org.apache.commons.lang.time.DateUtils	fixed:650	fixed:652	fixed:651	fixed:654	fixed:653	fixed:634	fixed:636	fixed:658	fixed:635	fixed:657	fixed:737	fixed:659	fixed:739	fixed:639	fixed:660	fixed:641	fixed:663	fixed:640	fixed:643	fixed:665	fixed:642	fixed:664	fixed:645	fixed:644	fixed:666	fixed:625	fixed:624	fixed:649	fixed:626	fixed:648

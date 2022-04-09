@@ -1,0 +1,4 @@
+org/apache/commons/math3/optimization/linear/SimplexTableau	338	337	entry	D	false	3	false	dropPhase1Objective	()V	buggy
+org/apache/commons/math3/optimization/linear/SimplexTableau	338	328	this	Lorg/apache/commons/math3/optimization/linear/SimplexTableau;	false	0	false	dropPhase1Objective	()V	buggy
+org/apache/commons/math3/optimization/linear/SimplexTableau	338	337	entry	D	false	3	false	dropPhase1Objective	()V	fixed
+org/apache/commons/math3/optimization/linear/SimplexTableau	338	328	this	Lorg/apache/commons/math3/optimization/linear/SimplexTableau;	false	0	false	dropPhase1Objective	()V	fixed

@@ -1,0 +1,6 @@
+fix	org.mockito.internal.creation.DelegatingMethod	55	INS	o
+fix	org.mockito.internal.creation.DelegatingMethod	58	INS	o
+fix	org.mockito.internal.creation.DelegatingMethod	68	INS	method
+fix	org.mockito.internal.creation.DelegatingMethod	59	INS	that
+fix	org.mockito.internal.creation.DelegatingMethod	60	INS	method
+fix	org.mockito.internal.creation.DelegatingMethod	59	INS	o

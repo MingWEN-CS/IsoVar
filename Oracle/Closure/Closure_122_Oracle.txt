@@ -1,0 +1,9 @@
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	buggy
+com/google/javascript/jscomp/parsing/IRFactory	252	252	p	Ljava/util/regex/Pattern;	true	2	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	fixed
+com/google/javascript/jscomp/parsing/IRFactory	253	252	p	Ljava/util/regex/Pattern;	false	2	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	fixed
+com/google/javascript/jscomp/parsing/IRFactory	253	252	comment	Lcom/google/javascript/rhino/head/ast/Comment;	false	1	false	handleBlockComment	(Lcom/google/javascript/rhino/head/ast/Comment;)V	fixed

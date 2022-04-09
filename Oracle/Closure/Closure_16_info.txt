@@ -1,0 +1,4 @@
+Closure	16
+t	com.google.javascript.jscomp.IntegrationTest::testIssue772
+t	com.google.javascript.jscomp.ScopedAliasesTest::testIssue772
+s	com.google.javascript.jscomp.ScopedAliases	fixed:182	fixed:170	fixed:173	fixed:184	fixed:183	fixed:186	fixed:185	fixed:474	fixed:176

@@ -1,0 +1,6 @@
+fix	com.google.javascript.rhino.TokenStream	193	INS	length
+buggy	com.google.javascript.rhino.TokenStream	193	MOV	length
+fix	com.google.javascript.rhino.TokenStream	200	INS	Character
+fix	com.google.javascript.rhino.TokenStream	200	INS	s
+fix	com.google.javascript.rhino.TokenStream	194	INS	Character
+fix	com.google.javascript.rhino.TokenStream	194	INS	s

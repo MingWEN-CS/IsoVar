@@ -1,0 +1,2 @@
+fix	com.google.javascript.jscomp.CommandLineRunner	434	INS	flags.process_closure_primitives
+buggy	com.google.javascript.jscomp.CommandLineRunner	433	DEL	flags.process_closure_primitives

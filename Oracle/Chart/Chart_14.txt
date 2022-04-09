@@ -1,0 +1,4 @@
+fix	org.jfree.chart.plot.CategoryPlot	2166	INS	markers
+fix	org.jfree.chart.plot.CategoryPlot	2451	INS	markers
+fix	org.jfree.chart.plot.XYPlot	2293	INS	markers
+fix	org.jfree.chart.plot.XYPlot	2532	INS	markers

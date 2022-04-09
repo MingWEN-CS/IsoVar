@@ -1,0 +1,12 @@
+fix	org.apache.commons.math.util.MathUtils	345	INS	n
+buggy	org.apache.commons.math.util.MathUtils	346	UPD	result
+buggy	org.apache.commons.math.util.MathUtils	346	UPD	Long.MAX_VALUE
+fix	org.apache.commons.math.util.MathUtils	379	INS	n
+fix	org.apache.commons.math.util.MathUtils	402	INS	n
+fix	org.apache.commons.math.util.MathUtils	380	INS	factorial
+fix	org.apache.commons.math.util.MathUtils	403	INS	Math
+fix	org.apache.commons.math.util.MathUtils	403	INS	factorial
+buggy	org.apache.commons.math.util.MathUtils	345	DEL	result
+buggy	org.apache.commons.math.util.MathUtils	345	DEL	Math
+buggy	org.apache.commons.math.util.MathUtils	345	DEL	factorialDouble
+buggy	org.apache.commons.math.util.MathUtils	346	DEL	Long.MAX_VALUE

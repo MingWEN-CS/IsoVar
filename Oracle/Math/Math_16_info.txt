@@ -1,0 +1,4 @@
+Math	16
+t	org.apache.commons.math3.util.FastMathTest::testMath905LargePositive
+t	org.apache.commons.math3.util.FastMathTest::testMath905LargeNegative
+s	org.apache.commons.math3.util.FastMath	fixed:395	fixed:472	fixed:82	fixed:397	fixed:473	fixed:399	fixed:465	fixed:476	fixed:398	fixed:475	fixed:467	fixed:477	fixed:403	fixed:469	fixed:402	fixed:468	fixed:479	fixed:405	fixed:407	fixed:406	fixed:409

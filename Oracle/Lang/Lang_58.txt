@@ -1,0 +1,8 @@
+buggy	org.apache.commons.lang.math.NumberUtils	452	MOV	dec
+fix	org.apache.commons.lang.math.NumberUtils	454	INS	numeric
+fix	org.apache.commons.lang.math.NumberUtils	454	INS	isDigits
+buggy	org.apache.commons.lang.math.NumberUtils	455	MOV	numeric
+buggy	org.apache.commons.lang.math.NumberUtils	455	MOV	Character
+buggy	org.apache.commons.lang.math.NumberUtils	455	DEL	Character
+buggy	org.apache.commons.lang.math.NumberUtils	455	DEL	numeric
+buggy	org.apache.commons.lang.math.NumberUtils	452	DEL	dec

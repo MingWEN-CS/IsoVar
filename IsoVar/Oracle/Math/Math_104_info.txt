@@ -1,3 +1,0 @@
-Math	104
-t	org.apache.commons.math.special.GammaTest::testRegularizedGammaPositivePositive
-s	org.apache.commons.math.special.Gamma	fixed:37

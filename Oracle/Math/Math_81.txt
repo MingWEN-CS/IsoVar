@@ -1,0 +1,5 @@
+fix	org.apache.commons.math.linear.EigenDecompositionImpl	603	INS	upperSpectra
+fix	org.apache.commons.math.linear.EigenDecompositionImpl	603	INS	Math
+buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	work
+buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	i
+buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	TOLERANCE_2

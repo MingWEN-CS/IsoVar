@@ -1,3 +1,0 @@
-Closure	9
-t	com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName
-s	com.google.javascript.jscomp.ProcessCommonJSModules	fixed:119	fixed:184

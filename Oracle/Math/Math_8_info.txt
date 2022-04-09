@@ -1,0 +1,3 @@
+Math	8
+t	org.apache.commons.math3.distribution.DiscreteRealDistributionTest::testIssue942
+s	org.apache.commons.math3.distribution.DiscreteDistribution	fixed:181	fixed:187

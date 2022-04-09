@@ -1,0 +1,3 @@
+com/google/javascript/jscomp/CommandLineRunner	433	420	this	Lcom/google/javascript/jscomp/CommandLineRunner;	false	0	false	createOptions	()Lcom/google/javascript/jscomp/CompilerOptions;	buggy
+com/google/javascript/jscomp/CommandLineRunner	434	420	options	Lcom/google/javascript/jscomp/CompilerOptions;	false	1	false	createOptions	()Lcom/google/javascript/jscomp/CompilerOptions;	fixed
+com/google/javascript/jscomp/CommandLineRunner	434	420	this	Lcom/google/javascript/jscomp/CommandLineRunner;	false	0	false	createOptions	()Lcom/google/javascript/jscomp/CompilerOptions;	fixed

@@ -1,0 +1,4 @@
+org/joda/time/base/BasePeriod	222	222	duration	J	false	1	false	<init>	(J)V	buggy
+org/joda/time/base/BasePeriod	225	222	duration	J	false	1	false	<init>	(J)V	fixed
+org/joda/time/base/BasePeriod	228	225	values	[I	false	3	false	<init>	(J)V	fixed
+org/joda/time/base/BasePeriod	225	222	duration	J	false	1	false	<init>	(J)V	fixed

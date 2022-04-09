@@ -1,0 +1,3 @@
+Mockito	31
+t	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNullsTest::shouldPrintTheParametersWhenCallingAMethodWithArgs
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls	fixed:9	fixed:61	fixed:62

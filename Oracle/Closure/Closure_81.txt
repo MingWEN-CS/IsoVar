@@ -1,0 +1,8 @@
+buggy	com.google.javascript.jscomp.parsing.IRFactory	516	MOV	name
+fix	com.google.javascript.jscomp.parsing.IRFactory	518	INS	functionType
+fix	com.google.javascript.jscomp.parsing.IRFactory	518	INS	FunctionNode.FUNCTION_EXPRESSION
+fix	com.google.javascript.jscomp.parsing.IRFactory	517	INS	functionType
+fix	com.google.javascript.jscomp.parsing.IRFactory	517	INS	functionNode
+fix	com.google.javascript.jscomp.parsing.IRFactory	519	INS	errorReporter
+fix	com.google.javascript.jscomp.parsing.IRFactory	521	INS	errorReporter
+fix	com.google.javascript.jscomp.parsing.IRFactory	522	INS	functionNode

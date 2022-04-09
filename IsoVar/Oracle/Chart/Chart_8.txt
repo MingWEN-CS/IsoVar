@@ -1,2 +1,0 @@
-fix	org.jfree.data.time.Week	175	INS	zone
-buggy	org.jfree.data.time.Week	175	DEL	RegularTimePeriod.DEFAULT_TIME_ZONE

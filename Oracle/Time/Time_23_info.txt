@@ -1,0 +1,3 @@
+Time	23
+t	org.joda.time.TestDateTimeZone::testForID_String_old
+s	org.joda.time.DateTimeZone	buggy:577	fixed:580	buggy:578	fixed:564	fixed:566	fixed:577	fixed:565	fixed:587	fixed:568	fixed:567	fixed:589	buggy:583	buggy:581

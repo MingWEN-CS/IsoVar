@@ -1,0 +1,4 @@
+Closure	37
+t	com.google.javascript.jscomp.IntegrationTest::testIncompleteFunction
+s	com.google.javascript.jscomp.NodeTraversal	fixed:541
+s	com.google.javascript.jscomp.parsing.IRFactory	fixed:667	fixed:672	fixed:671	fixed:673

@@ -1,0 +1,9 @@
+fix	com.google.javascript.jscomp.InlineObjectLiterals	157	INS	validProperties
+fix	com.google.javascript.jscomp.InlineObjectLiterals	157	INS	Sets
+fix	com.google.javascript.jscomp.InlineObjectLiterals	182	INS	propName
+fix	com.google.javascript.jscomp.InlineObjectLiterals	225	INS	validProperties
+fix	com.google.javascript.jscomp.InlineObjectLiterals	183	INS	validProperties
+fix	com.google.javascript.jscomp.InlineObjectLiterals	225	INS	child
+fix	com.google.javascript.jscomp.InlineObjectLiterals	182	INS	parent
+fix	com.google.javascript.jscomp.InlineObjectLiterals	184	INS	NodeUtil
+fix	com.google.javascript.jscomp.InlineObjectLiterals	185	INS	validProperties

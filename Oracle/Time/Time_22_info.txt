@@ -1,0 +1,4 @@
+Time	22
+t	org.joda.time.TestDuration_Basics::testToPeriod_fixedZone
+t	org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone
+s	org.joda.time.base.BasePeriod	fixed:227	fixed:226	fixed:228	fixed:222	fixed:225	fixed:224

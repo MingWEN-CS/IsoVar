@@ -1,3 +1,0 @@
-Chart	10
-t	org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment
-s	org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator	fixed:65

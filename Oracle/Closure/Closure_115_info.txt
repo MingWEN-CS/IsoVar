@@ -1,0 +1,7 @@
+Closure	115
+t	com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818
+t	com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1
+t	com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8
+t	com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9
+t	com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6
+s	com.google.javascript.jscomp.FunctionInjector	buggy:702	buggy:701	buggy:704	buggy:703	buggy:698	buggy:731	buggy:697	buggy:730	buggy:700	buggy:699	buggy:732

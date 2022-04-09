@@ -1,0 +1,6 @@
+org/apache/commons/lang3/time/FastDateFormat	495	482	tokenLen	I	false	13	false	parsePattern	()Ljava/util/List;	buggy
+org/apache/commons/lang3/time/FastDateFormat	496	482	tokenLen	I	false	13	false	parsePattern	()Ljava/util/List;	buggy
+org/apache/commons/lang3/time/FastDateFormat	496	496	rule	Lorg/apache/commons/lang3/time/FastDateFormat$Rule;	true	14	false	parsePattern	()Ljava/util/List;	buggy
+org/apache/commons/lang3/time/FastDateFormat	498	482	tokenLen	I	false	13	false	parsePattern	()Ljava/util/List;	fixed
+org/apache/commons/lang3/time/FastDateFormat	498	482	tokenLen	I	false	13	false	parsePattern	()Ljava/util/List;	fixed
+org/apache/commons/lang3/time/FastDateFormat	498	498	rule	Lorg/apache/commons/lang3/time/FastDateFormat$Rule;	true	14	false	parsePattern	()Ljava/util/List;	fixed

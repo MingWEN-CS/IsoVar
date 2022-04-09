@@ -1,0 +1,17 @@
+buggy	com.google.javascript.rhino.jstype.RecordType	140	DEL	Override
+buggy	com.google.javascript.rhino.jstype.RecordType	141	DEL	getLeastSupertype
+buggy	com.google.javascript.rhino.jstype.RecordType	141	DEL	that
+buggy	com.google.javascript.rhino.jstype.RecordType	142	DEL	that
+buggy	com.google.javascript.rhino.jstype.RecordType	143	DEL	getLeastSupertype
+buggy	com.google.javascript.rhino.jstype.RecordType	143	DEL	that
+buggy	com.google.javascript.rhino.jstype.RecordType	145	DEL	builder
+buggy	com.google.javascript.rhino.jstype.RecordType	145	DEL	registry
+buggy	com.google.javascript.rhino.jstype.RecordType	146	DEL	property
+buggy	com.google.javascript.rhino.jstype.RecordType	146	DEL	properties
+buggy	com.google.javascript.rhino.jstype.RecordType	147	DEL	that
+buggy	com.google.javascript.rhino.jstype.RecordType	148	DEL	that
+buggy	com.google.javascript.rhino.jstype.RecordType	149	DEL	getPropertyType
+buggy	com.google.javascript.rhino.jstype.RecordType	150	DEL	builder
+buggy	com.google.javascript.rhino.jstype.RecordType	150	DEL	getPropertyType
+buggy	com.google.javascript.rhino.jstype.RecordType	151	DEL	getPropertyNode
+buggy	com.google.javascript.rhino.jstype.RecordType	154	DEL	builder

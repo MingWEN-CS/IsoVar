@@ -1,0 +1,4 @@
+buggy	org.apache.commons.math.distribution.PoissonDistributionImpl	22	UPD	org.apache.commons.math.MathRuntimeException
+fix	org.apache.commons.math.distribution.PoissonDistributionImpl	94	INS	LocalizedFormats.MEAN
+fix	org.apache.commons.math.distribution.PoissonDistributionImpl	94	INS	p
+buggy	org.apache.commons.math.distribution.PoissonDistributionImpl	94	DEL	MathRuntimeException

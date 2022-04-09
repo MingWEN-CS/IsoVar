@@ -1,0 +1,3 @@
+Math	41
+t	org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted
+s	org.apache.commons.math.stat.descriptive.moment.Variance	fixed:520

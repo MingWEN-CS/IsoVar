@@ -1,3 +1,0 @@
-fix	org.apache.commons.math3.optimization.linear.SimplexSolver	119	INS	tableau
-fix	org.apache.commons.math3.optimization.linear.SimplexSolver	140	INS	getIterations
-fix	org.apache.commons.math3.optimization.linear.SimplexSolver	140	INS	getMaxIterations

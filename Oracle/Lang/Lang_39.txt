@@ -1,0 +1,3 @@
+fix	org.apache.commons.lang3.StringUtils	3676	INS	searchList
+fix	org.apache.commons.lang3.StringUtils	3676	INS	i
+fix	org.apache.commons.lang3.StringUtils	3676	INS	replacementList

@@ -1,4 +1,0 @@
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	m
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	i
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	length
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	k

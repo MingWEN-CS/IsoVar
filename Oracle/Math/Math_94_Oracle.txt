@@ -1,0 +1,16 @@
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	buggy
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	412	412	u	I	false	0	true	gcd	(II)I	fixed
+org/apache/commons/math/util/MathUtils	412	412	v	I	false	1	true	gcd	(II)I	fixed

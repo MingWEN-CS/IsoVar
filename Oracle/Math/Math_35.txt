@@ -1,0 +1,4 @@
+fix	org.apache.commons.math3.genetics.ElitisticListPopulation	51	INS	setElitismRate
+fix	org.apache.commons.math3.genetics.ElitisticListPopulation	65	INS	setElitismRate
+buggy	org.apache.commons.math3.genetics.ElitisticListPopulation	51	DEL	elitismRate
+buggy	org.apache.commons.math3.genetics.ElitisticListPopulation	65	DEL	elitismRate

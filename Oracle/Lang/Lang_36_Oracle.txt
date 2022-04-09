@@ -1,0 +1,13 @@
+org/apache/commons/lang3/math/NumberUtils	491	465	lastChar	C	false	1	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	fixed
+org/apache/commons/lang3/math/NumberUtils	491	465	lastChar	C	false	1	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	fixed
+org/apache/commons/lang3/math/NumberUtils	491	465	lastChar	C	false	1	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	fixed
+org/apache/commons/lang3/math/NumberUtils	491	465	lastChar	C	false	1	true	createNumber	(Ljava/lang/String;)Ljava/lang/Number;	fixed
+org/apache/commons/lang3/math/NumberUtils	1388	1343	i	I	false	8	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1388	1316	chars	[C	false	1	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1388	1343	i	I	false	8	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1388	1316	chars	[C	false	1	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1389	1356	hasDecPoint	Z	false	4	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1389	1366	hasExp	Z	false	3	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1389	1356	hasDecPoint	Z	false	4	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1389	1366	hasExp	Z	false	3	true	isNumber	(Ljava/lang/String;)Z	fixed
+org/apache/commons/lang3/math/NumberUtils	1394	1373	foundDigit	Z	false	6	true	isNumber	(Ljava/lang/String;)Z	fixed

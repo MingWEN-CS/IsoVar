@@ -1,3 +1,0 @@
-Math	100
-t	org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters
-s	org.apache.commons.math.estimation.AbstractEstimator	fixed:207	fixed:166	fixed:202

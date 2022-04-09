@@ -1,0 +1,9 @@
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	372	i	I	false	4	false	toStringHelper	(Z)Ljava/lang/String;	buggy
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	372	i	I	false	4	false	toStringHelper	(Z)Ljava/lang/String;	buggy
+com/google/javascript/rhino/jstype/PrototypeObjectType	394	354	forAnnotations	Z	false	1	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	354	forAnnotations	Z	false	1	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	372	i	I	false	4	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	354	forAnnotations	Z	false	1	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	372	i	I	false	4	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	354	forAnnotations	Z	false	1	false	toStringHelper	(Z)Ljava/lang/String;	fixed
+com/google/javascript/rhino/jstype/PrototypeObjectType	383	372	i	I	false	4	false	toStringHelper	(Z)Ljava/lang/String;	fixed

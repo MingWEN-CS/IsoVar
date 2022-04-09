@@ -1,0 +1,11 @@
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	126	INS	Token.LP
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	181	INS	Token.LP
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	189	INS	nameStack
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	127	INS	renamer
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	139	INS	nameStack
+buggy	com.google.javascript.jscomp.MakeDeclaredNamesUnique	96	UPD	declarationRoot
+fix	com.google.javascript.jscomp.MakeDeclaredNamesUnique	127	INS	nameStack
+buggy	com.google.javascript.jscomp.MakeDeclaredNamesUnique	92	UPD	declarationRoot
+buggy	com.google.javascript.jscomp.MakeDeclaredNamesUnique	92	MOV	declarationRoot
+buggy	com.google.javascript.jscomp.MakeDeclaredNamesUnique	91	DEL	declarationRoot
+buggy	com.google.javascript.jscomp.MakeDeclaredNamesUnique	91	DEL	Token.FUNCTION

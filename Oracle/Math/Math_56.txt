@@ -1,0 +1,12 @@
+fix	org.apache.commons.math.util.MultidimensionalCounter	237	INS	indices
+fix	org.apache.commons.math.util.MultidimensionalCounter	237	INS	last
+fix	org.apache.commons.math.util.MultidimensionalCounter	237	INS	index
+fix	org.apache.commons.math.util.MultidimensionalCounter	237	INS	count
+buggy	org.apache.commons.math.util.MultidimensionalCounter	237	DEL	idx
+buggy	org.apache.commons.math.util.MultidimensionalCounter	238	DEL	count
+buggy	org.apache.commons.math.util.MultidimensionalCounter	238	DEL	index
+buggy	org.apache.commons.math.util.MultidimensionalCounter	239	DEL	count
+buggy	org.apache.commons.math.util.MultidimensionalCounter	239	DEL	idx
+buggy	org.apache.commons.math.util.MultidimensionalCounter	240	DEL	idx
+buggy	org.apache.commons.math.util.MultidimensionalCounter	242	DEL	idx
+buggy	org.apache.commons.math.util.MultidimensionalCounter	243	DEL	idx

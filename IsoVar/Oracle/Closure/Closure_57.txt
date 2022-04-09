@@ -1,3 +1,0 @@
-fix	com.google.javascript.jscomp.ClosureCodingConvention	197	INS	target
-fix	com.google.javascript.jscomp.ClosureCodingConvention	197	INS	Token.STRING
-buggy	com.google.javascript.jscomp.ClosureCodingConvention	197	MOV	target

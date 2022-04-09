@@ -1,3 +1,0 @@
-fix	com.google.javascript.jscomp.GlobalNamespace	908	INS	declaration
-fix	com.google.javascript.jscomp.GlobalNamespace	907	INS	Preconditions
-buggy	com.google.javascript.rhino.JSDocInfoBuilder	189	DEL	parseDocumentation

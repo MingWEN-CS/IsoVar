@@ -1,0 +1,5 @@
+Closure	122
+t	com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3
+t	com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4
+t	com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5
+s	com.google.javascript.jscomp.parsing.IRFactory	fixed:252	fixed:253

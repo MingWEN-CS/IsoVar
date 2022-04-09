@@ -1,0 +1,9 @@
+Mockito	6
+t	org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAllAnyPrimitiveWrapperMatchers
+t	org.mockitousage.matchers.AnyXMatchersAcceptNullsTest::shouldNotAcceptNullInAnyXMatchers
+t	org.mockitousage.matchers.MatchersTest::anyStringMatcher
+t	org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyCollection
+t	org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyList
+t	org.mockitousage.matchers.NewMatchersTest::shouldAllowAnyMap
+t	org.mockitousage.matchers.NewMatchersTest::shouldAllowAnySet
+s	org.mockito.Matchers	fixed:122

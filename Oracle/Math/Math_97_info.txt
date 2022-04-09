@@ -1,0 +1,3 @@
+Math	97
+t	org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints
+s	org.apache.commons.math.analysis.BrentSolver	fixed:160	fixed:140	fixed:162	fixed:161	fixed:142	fixed:153	fixed:141	fixed:152	fixed:144	fixed:143	fixed:146	fixed:145	fixed:156	fixed:159	fixed:158	fixed:138

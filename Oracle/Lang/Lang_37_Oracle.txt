@@ -1,0 +1,8 @@
+org/apache/commons/lang3/ArrayUtils	2966	2966	type2	Ljava/lang/Class;	true	5	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2967	2959	type1	Ljava/lang/Class;	false	2	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2967	2966	type2	Ljava/lang/Class;	false	5	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2966	2966	type2	Ljava/lang/Class;	true	5	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2968	2966	type2	Ljava/lang/Class;	false	5	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2968	2959	type1	Ljava/lang/Class;	false	2	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2968	2966	type2	Ljava/lang/Class;	false	5	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed
+org/apache/commons/lang3/ArrayUtils	2968	2959	type1	Ljava/lang/Class;	false	2	true	addAll	([Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;	fixed

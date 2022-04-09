@@ -1,0 +1,6 @@
+Math	35
+t	org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow
+t	org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh
+t	org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow
+t	org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh
+s	org.apache.commons.math3.genetics.ElitisticListPopulation	fixed:51	fixed:65

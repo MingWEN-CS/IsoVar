@@ -1,0 +1,10 @@
+buggy	org.apache.commons.math.util.MathUtils	542	MOV	u
+buggy	org.apache.commons.math.util.MathUtils	542	MOV	v
+fix	org.apache.commons.math.util.MathUtils	719	INS	lcm
+fix	org.apache.commons.math.util.MathUtils	719	INS	Integer.MIN_VALUE
+fix	org.apache.commons.math.util.MathUtils	543	INS	u
+fix	org.apache.commons.math.util.MathUtils	543	INS	Integer.MIN_VALUE
+fix	org.apache.commons.math.util.MathUtils	543	INS	v
+fix	org.apache.commons.math.util.MathUtils	544	INS	MathRuntimeException
+fix	org.apache.commons.math.util.MathUtils	546	INS	p
+fix	org.apache.commons.math.util.MathUtils	546	INS	q

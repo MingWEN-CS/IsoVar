@@ -1,0 +1,4 @@
+fix	com.google.javascript.jscomp.InlineCostEstimator	103	INS	addConstant
+fix	com.google.javascript.jscomp.InlineCostEstimator	102	INS	Override
+fix	com.google.javascript.jscomp.InlineCostEstimator	103	INS	newcode
+fix	com.google.javascript.jscomp.InlineCostEstimator	104	INS	add

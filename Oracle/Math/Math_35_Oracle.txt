@@ -1,0 +1,4 @@
+org/apache/commons/math3/genetics/ElitisticListPopulation	51	50	elitismRate	D	false	3	false	<init>	(Ljava/util/List;ID)V	buggy
+org/apache/commons/math3/genetics/ElitisticListPopulation	65	64	elitismRate	D	false	2	false	<init>	(ID)V	buggy
+org/apache/commons/math3/genetics/ElitisticListPopulation	51	50	elitismRate	D	false	3	false	<init>	(Ljava/util/List;ID)V	fixed
+org/apache/commons/math3/genetics/ElitisticListPopulation	65	64	elitismRate	D	false	2	false	<init>	(ID)V	fixed

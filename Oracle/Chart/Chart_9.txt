@@ -1,0 +1,3 @@
+fix	org.jfree.data.time.TimeSeries	944	INS	endIndex
+fix	org.jfree.data.time.TimeSeries	944	INS	startIndex
+buggy	org.jfree.data.time.TimeSeries	944	MOV	endIndex

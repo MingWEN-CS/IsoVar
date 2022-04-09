@@ -1,0 +1,16 @@
+org/apache/commons/lang3/math/Fraction	584	584	u	I	false	0	true	greatestCommonDivisor	(II)I	buggy
+org/apache/commons/lang3/math/Fraction	584	584	v	I	false	1	true	greatestCommonDivisor	(II)I	buggy
+org/apache/commons/lang3/math/Fraction	583	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	583	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	583	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	583	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	584	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	587	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	587	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	590	583	u	I	false	0	true	greatestCommonDivisor	(II)I	fixed
+org/apache/commons/lang3/math/Fraction	590	583	v	I	false	1	true	greatestCommonDivisor	(II)I	fixed

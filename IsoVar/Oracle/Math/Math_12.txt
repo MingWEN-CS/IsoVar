@@ -1,2 +1,0 @@
-fix	org.apache.commons.math3.random.BitsStreamGenerator	19	INS	java.io.Serializable
-fix	org.apache.commons.math3.random.BitsStreamGenerator	33	INS	serialVersionUID

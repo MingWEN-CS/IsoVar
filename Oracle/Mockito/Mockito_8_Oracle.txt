@@ -1,0 +1,4 @@
+org/mockito/internal/util/reflection/GenericMetadataSupport	79	74	typeParameter	Ljava/lang/reflect/TypeVariable;	false	6	false	registerTypeVariablesOn	(Ljava/lang/reflect/Type;)V	fixed
+org/mockito/internal/util/reflection/GenericMetadataSupport	79	75	actualTypeArgument	Ljava/lang/reflect/Type;	false	7	false	registerTypeVariablesOn	(Ljava/lang/reflect/Type;)V	fixed
+org/mockito/internal/util/reflection/GenericMetadataSupport	79	74	typeParameter	Ljava/lang/reflect/TypeVariable;	false	6	false	registerTypeVariablesOn	(Ljava/lang/reflect/Type;)V	fixed
+org/mockito/internal/util/reflection/GenericMetadataSupport	79	75	actualTypeArgument	Ljava/lang/reflect/Type;	false	7	false	registerTypeVariablesOn	(Ljava/lang/reflect/Type;)V	fixed

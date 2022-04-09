@@ -1,0 +1,12 @@
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1659	ipt	I	false	11	false	prelim	([D[D)V	buggy
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1662	iptMinus1	I	true	24	false	prelim	([D[D)V	buggy
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1658	jpt	I	false	12	false	prelim	([D[D)V	buggy
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1663	jptMinus1	I	true	25	false	prelim	([D[D)V	buggy
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1659	ipt	I	false	11	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1662	iptMinus1	I	true	24	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1659	ipt	I	false	11	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1662	1662	iptMinus1	I	true	24	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1658	jpt	I	false	12	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1663	jptMinus1	I	true	25	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1658	jpt	I	false	12	false	prelim	([D[D)V	fixed
+org/apache/commons/math/optimization/direct/BOBYQAOptimizer	1663	1663	jptMinus1	I	true	25	false	prelim	([D[D)V	fixed

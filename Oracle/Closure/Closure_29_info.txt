@@ -1,0 +1,7 @@
+Closure	29
+t	com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10
+t	com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12
+t	com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22
+t	com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724
+t	com.google.javascript.jscomp.IntegrationTest::testIssue724
+s	com.google.javascript.jscomp.InlineObjectLiterals	fixed:182	fixed:184	fixed:183	fixed:186	fixed:185	fixed:188	fixed:187	fixed:157	fixed:189	fixed:225

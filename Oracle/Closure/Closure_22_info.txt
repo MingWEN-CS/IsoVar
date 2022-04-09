@@ -1,0 +1,3 @@
+Closure	22
+t	com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCode
+s	com.google.javascript.jscomp.CheckSideEffects	fixed:107	buggy:137	buggy:136	buggy:106	buggy:127	buggy:138	buggy:135	buggy:134	fixed:101

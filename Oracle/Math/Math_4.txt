@@ -1,0 +1,2 @@
+fix	org.apache.commons.math3.geometry.euclidean.threed.SubLine	114	INS	v1D
+fix	org.apache.commons.math3.geometry.euclidean.twod.SubLine	118	INS	v2D

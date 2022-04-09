@@ -1,0 +1,8 @@
+buggy	com.google.javascript.jscomp.RemoveUnusedVars	904	UPD	assignNode
+buggy	com.google.javascript.jscomp.RemoveUnusedVars	904	MOV	assignNode
+fix	com.google.javascript.jscomp.RemoveUnusedVars	732	INS	maybeEscaped
+fix	com.google.javascript.jscomp.RemoveUnusedVars	740	INS	assign.maybeAliased
+fix	com.google.javascript.jscomp.RemoveUnusedVars	745	INS	assignedToUnknownValue
+fix	com.google.javascript.jscomp.RemoveUnusedVars	745	INS	maybeEscaped
+buggy	com.google.javascript.jscomp.RemoveUnusedVars	741	MOV	assignedToUnknownValue
+fix	com.google.javascript.jscomp.RemoveUnusedVars	741	INS	maybeEscaped

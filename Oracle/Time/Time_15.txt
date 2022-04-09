@@ -1,0 +1,4 @@
+fix	org.joda.time.field.FieldUtils	138	INS	val1
+fix	org.joda.time.field.FieldUtils	138	INS	Long.MIN_VALUE
+fix	org.joda.time.field.FieldUtils	139	INS	val1
+fix	org.joda.time.field.FieldUtils	139	INS	val2

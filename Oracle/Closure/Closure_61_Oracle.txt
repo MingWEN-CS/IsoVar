@@ -1,0 +1,7 @@
+com/google/javascript/jscomp/NodeUtil	958	937	nameNode	Lcom/google/javascript/rhino/Node;	false	2	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	958	937	nameNode	Lcom/google/javascript/rhino/Node;	false	2	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	959	937	nameNode	Lcom/google/javascript/rhino/Node;	false	2	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	959	959	namespaceName	Ljava/lang/String;	true	3	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	960	959	namespaceName	Ljava/lang/String;	false	3	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	959	937	nameNode	Lcom/google/javascript/rhino/Node;	false	2	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed
+com/google/javascript/jscomp/NodeUtil	959	959	namespaceName	Ljava/lang/String;	true	3	true	functionCallHasSideEffects	(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	fixed

@@ -1,0 +1,3 @@
+Lang	14
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals
+s	org.apache.commons.lang3.StringUtils	fixed:788	fixed:791	fixed:790

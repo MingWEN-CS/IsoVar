@@ -1,0 +1,7 @@
+org/apache/commons/math/dfp/Dfp	2323	2322	cmp0	I	false	3	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	2322	2308	this	Lorg/apache/commons/math/dfp/Dfp;	false	0	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	2322	2322	cmp0	I	true	3	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	2325	2322	cmp0	I	false	3	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	2322	2322	cmp0	I	true	3	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	2324	2308	this	Lorg/apache/commons/math/dfp/Dfp;	false	0	false	toDouble	()D	fixed
+org/apache/commons/math/dfp/Dfp	273	265	bits	J	false	4	false	<init>	(Lorg/apache/commons/math/dfp/DfpField;D)V	fixed

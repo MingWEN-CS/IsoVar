@@ -1,0 +1,4 @@
+Lang	31
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyCharArrayWithSupplementaryChars
+t	org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testContainsAnyStringWithSupplementaryChars
+s	org.apache.commons.lang3.StringUtils	fixed:1452	fixed:1460	fixed:1447	fixed:1454	fixed:1455	fixed:1456	fixed:1446	fixed:1457

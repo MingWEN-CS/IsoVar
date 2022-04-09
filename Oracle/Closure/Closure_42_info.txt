@@ -1,0 +1,3 @@
+Closure	42
+t	com.google.javascript.jscomp.parsing.ParserTest::testForEach
+s	com.google.javascript.jscomp.parsing.IRFactory	fixed:568	fixed:569	fixed:571	fixed:570	fixed:572	fixed:575	fixed:576

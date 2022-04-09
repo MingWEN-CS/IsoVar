@@ -1,3 +1,0 @@
-Closure	101
-t	com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives
-s	com.google.javascript.jscomp.CommandLineRunner	buggy:434	buggy:433	buggy:435	fixed:434

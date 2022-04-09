@@ -1,0 +1,8 @@
+org/apache/commons/lang/WordUtils	616	607	lower	I	false	1	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	616	607	str	Ljava/lang/String;	false	0	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	616	607	lower	I	false	1	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	616	607	str	Ljava/lang/String;	false	0	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	617	607	str	Ljava/lang/String;	false	0	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	617	617	lower	I	true	1	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	617	607	str	Ljava/lang/String;	false	0	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed
+org/apache/commons/lang/WordUtils	617	617	lower	I	true	1	true	abbreviate	(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	fixed

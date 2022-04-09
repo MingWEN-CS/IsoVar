@@ -1,0 +1,3 @@
+Math	54
+t	org.apache.commons.math.dfp.DfpTest::testIssue567
+s	org.apache.commons.math.dfp.Dfp	fixed:2322	fixed:274	fixed:273	fixed:275	fixed:2323	fixed:2324	fixed:2325

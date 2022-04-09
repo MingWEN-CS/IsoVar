@@ -1,0 +1,4 @@
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	232	225	this	Lcom/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback;	false	0	false	visitModuleExports	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	232	225	moduleName	Ljava/lang/String;	false	2	false	visitModuleExports	(Lcom/google/javascript/rhino/Node;)V	fixed
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	208	208	this	Lcom/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback;	false	0	false	emitOptionalModuleExportsOverride	(Lcom/google/javascript/rhino/Node;Ljava/lang/String;)V	fixed
+com/google/javascript/jscomp/ProcessCommonJSModules$ProcessCommonJsModulesCallback	208	208	moduleName	Ljava/lang/String;	false	2	false	emitOptionalModuleExportsOverride	(Lcom/google/javascript/rhino/Node;Ljava/lang/String;)V	fixed

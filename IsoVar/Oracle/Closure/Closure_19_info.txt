@@ -1,3 +1,0 @@
-Closure	19
-t	com.google.javascript.jscomp.TypeInferenceTest::testNoThisInference
-s	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	fixed:172	fixed:174

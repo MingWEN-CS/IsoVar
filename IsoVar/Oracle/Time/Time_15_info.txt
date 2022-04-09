@@ -1,3 +1,0 @@
-Time	15
-t	org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt
-s	org.joda.time.field.FieldUtils	fixed:139	fixed:138	fixed:140

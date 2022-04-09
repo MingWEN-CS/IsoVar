@@ -1,0 +1,4 @@
+Math	68
+t	org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson
+t	org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth
+s	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	fixed:348	fixed:248	fixed:306	fixed:417	fixed:428	fixed:419	fixed:166	fixed:254	fixed:430	fixed:421	fixed:420	fixed:422

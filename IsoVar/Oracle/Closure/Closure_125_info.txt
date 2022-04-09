@@ -1,3 +1,0 @@
-Closure	125
-t	com.google.javascript.jscomp.TypeCheckTest::testIssue1002
-s	com.google.javascript.jscomp.TypeCheck	fixed:1661

@@ -1,0 +1,3 @@
+Closure	38
+t	com.google.javascript.jscomp.CodePrinterTest::testMinusNegativeZero
+s	com.google.javascript.jscomp.CodeConsumer	fixed:245

@@ -1,0 +1,4 @@
+Closure	95
+t	com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5
+t	com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope
+s	com.google.javascript.jscomp.TypedScopeCreator	fixed:900	fixed:899	fixed:901	fixed:906	fixed:905	fixed:908	fixed:907

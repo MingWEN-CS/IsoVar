@@ -1,0 +1,3 @@
+Lang	32
+t	org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle
+s	org.apache.commons.lang3.builder.HashCodeBuilder	fixed:540	fixed:520	fixed:542	fixed:541	fixed:104	fixed:148	fixed:522	fixed:544	fixed:147	fixed:521	fixed:543	fixed:546	fixed:545	fixed:547	fixed:539	fixed:519	fixed:518

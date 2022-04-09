@@ -1,0 +1,5 @@
+com/google/javascript/jscomp/CodeGenerator	745	738	len	I	false	1	true	isSimpleNumber	(Ljava/lang/String;)Z	buggy
+com/google/javascript/jscomp/CodeGenerator	745	738	len	I	false	1	true	isSimpleNumber	(Ljava/lang/String;)Z	fixed
+com/google/javascript/jscomp/CodeGenerator	745	738	s	Ljava/lang/String;	false	0	true	isSimpleNumber	(Ljava/lang/String;)Z	fixed
+com/google/javascript/jscomp/CodeGenerator	745	738	len	I	false	1	true	isSimpleNumber	(Ljava/lang/String;)Z	fixed
+com/google/javascript/jscomp/CodeGenerator	745	738	s	Ljava/lang/String;	false	0	true	isSimpleNumber	(Ljava/lang/String;)Z	fixed

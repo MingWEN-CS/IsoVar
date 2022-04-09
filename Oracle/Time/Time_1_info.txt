@@ -1,0 +1,4 @@
+Time	1
+t	org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray
+s	org.joda.time.field.UnsupportedDurationField	buggy:229	buggy:228	buggy:227
+s	org.joda.time.Partial	fixed:218	fixed:217	fixed:219	fixed:230	fixed:221	fixed:220	fixed:223	fixed:222	fixed:225	fixed:224

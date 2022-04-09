@@ -1,0 +1,8 @@
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	280	INS	scope
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	155	INS	t
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	375	INS	Token.NAME
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	377	INS	var
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	var
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	scope
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	input
+fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	378	INS	var

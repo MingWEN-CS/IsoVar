@@ -1,3 +1,0 @@
-Math	9
-t	org.apache.commons.math3.geometry.euclidean.threed.LineTest::testRevert
-s	org.apache.commons.math3.geometry.euclidean.threed.Line	fixed:87	fixed:88

@@ -1,0 +1,14 @@
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	435	INS	equals
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	435	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	429	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	436	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	443	INS	plotLines
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	443	INS	that.plotLines
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	442	INS	that
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	452	INS	equals
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	452	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	442	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	446	INS	PaintUtilities
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	439	INS	obj
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	446	INS	groupPaint
+fix	org.jfree.chart.renderer.category.MinMaxCategoryRenderer	449	INS	groupStroke

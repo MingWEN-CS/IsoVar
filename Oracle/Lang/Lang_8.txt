@@ -1,0 +1,5 @@
+fix	org.apache.commons.lang3.time.FastDatePrinter	1132	INS	zone
+fix	org.apache.commons.lang3.time.FastDatePrinter	1132	INS	calendar
+buggy	org.apache.commons.lang3.time.FastDatePrinter	1098	DEL	zone
+buggy	org.apache.commons.lang3.time.FastDatePrinter	1112	DEL	zone
+buggy	org.apache.commons.lang3.time.FastDatePrinter	1112	DEL	timeZone

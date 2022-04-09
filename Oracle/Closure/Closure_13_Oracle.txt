@@ -1,0 +1,2 @@
+com/google/javascript/jscomp/PeepholeOptimizationsPass	126	124	c	Lcom/google/javascript/rhino/Node;	false	3	false	traverse	(Lcom/google/javascript/rhino/Node;)V	buggy
+com/google/javascript/jscomp/PeepholeOptimizationsPass	127	124	c	Lcom/google/javascript/rhino/Node;	false	3	false	traverse	(Lcom/google/javascript/rhino/Node;)V	fixed

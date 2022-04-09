@@ -1,2 +1,0 @@
-fix	com.google.javascript.jscomp.CheckAccessControls	416	INS	parent
-buggy	com.google.javascript.jscomp.CheckAccessControls	416	UPD	t

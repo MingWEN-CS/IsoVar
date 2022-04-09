@@ -1,0 +1,6 @@
+fix	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	INS	resultEqualsValue
+buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	MOV	ctorType
+buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	UPD	ctorType
+fix	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	618	INS	type
+buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	DEL	resultEqualsValue
+buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	DEL	ctorType

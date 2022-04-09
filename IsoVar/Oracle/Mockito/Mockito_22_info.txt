@@ -1,3 +1,0 @@
-Mockito	22
-t	org.mockito.internal.matchers.EqualityTest::shouldKnowIfObjectsAreEqual
-s	org.mockito.internal.matchers.Equality	fixed:14	fixed:13	fixed:15

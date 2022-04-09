@@ -1,0 +1,7 @@
+Closure	106
+t	com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign
+t	com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator
+s	com.google.javascript.jscomp.GlobalNamespace	fixed:910	fixed:908	fixed:907	fixed:909
+s	com.google.javascript.rhino.JSDocInfoBuilder	buggy:191	buggy:189

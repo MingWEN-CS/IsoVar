@@ -1,0 +1,3 @@
+Mockito	23
+t	org.mockitousage.stubbing.DeepStubsSerializableTest::should_serialize_and_deserialize_mock_created_by_deep_stubs
+s	org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs	fixed:69	fixed:68	fixed:61	fixed:71	fixed:52	fixed:63	fixed:62	fixed:65	fixed:53	fixed:64	fixed:112	fixed:45	fixed:67	fixed:44	fixed:136	fixed:127	fixed:138	fixed:70

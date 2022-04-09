@@ -1,0 +1,3 @@
+Math	83
+t	org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath286
+s	org.apache.commons.math.optimization.linear.SimplexTableau	fixed:292	fixed:341	fixed:345
