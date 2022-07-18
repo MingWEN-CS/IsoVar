@@ -99,7 +99,7 @@ $ java -jar artifacts/IsoVar.jar --phase instrument --project_name Time --ID 1
 ```
 Note: for Defects4j and Bears, we have hard-coded some information related to the two benchmarks, including binary path, test binary path, number of bugs.
 
-3. isolate suspicious variables list and the file will be generated at [report/Time/Time_1.txt](report/Time/Time_1.txt)
+4. isolate suspicious variables list and the file will be generated at [report/Time/Time_1.txt](report/Time/Time_1.txt)
 ```
 $ java -jar artifacts/IsoVar.jar --phase analyze --project_name Time --ID 1
 ```
@@ -117,10 +117,9 @@ java -jar artifacts/IsoVar.jar --phase instrument --project_name Time --ID 1 --p
 ```
 java -jar artifacts/IsoVar.jar --phase analyze --project_name Time --ID 1 --dependency path/to/Time1_dependency/ --project_root path/to/Time_1_buggy
 ```
-4. auto-tune the parameters (alpha, beta and gamma)
+4. auto-tune the parameters (alpha, beta and gamma). The program will read the report and utilize the intermediate results to find optimal parameters setting.
 ```
 java -jar artifacts/IsoVar.jar --phase parameters_tuning
-# the program will read the report and utilize the intermediate results to find optimal parameters setting.
 ```
 
 # result analyze
