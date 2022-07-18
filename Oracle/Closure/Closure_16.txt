@@ -1,17 +1,19 @@
-fix	com.google.javascript.jscomp.ScopedAliases	170	INS	aliasDefinition
-fix	com.google.javascript.jscomp.ScopedAliases	173	INS	aliasDefinition
-fix	com.google.javascript.jscomp.ScopedAliases	176	INS	aliasDefinition
-fix	com.google.javascript.jscomp.ScopedAliases	182	INS	typeName
-fix	com.google.javascript.jscomp.ScopedAliases	183	INS	aliasExpanded
-fix	com.google.javascript.jscomp.ScopedAliases	185	INS	Preconditions
-fix	com.google.javascript.jscomp.ScopedAliases	182	INS	typeReference
-fix	com.google.javascript.jscomp.ScopedAliases	184	INS	Preconditions
-fix	com.google.javascript.jscomp.ScopedAliases	185	INS	typeName
-fix	com.google.javascript.jscomp.ScopedAliases	186	INS	typeName
-buggy	com.google.javascript.jscomp.ScopedAliases	180	MOV	typeReference
-fix	com.google.javascript.jscomp.ScopedAliases	184	INS	aliasDefinition
-fix	com.google.javascript.jscomp.ScopedAliases	474	INS	aliasedNode
-fix	com.google.javascript.jscomp.ScopedAliases	474	INS	baseName
-buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	aliasedNode
-buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	name
-buggy	com.google.javascript.jscomp.ScopedAliases	468	DEL	typeNode
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	this.this$0	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	typeNode	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	aliasedNode	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	endIndex	buggy
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	this.typeReference	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	name	buggy
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	this.aliasName	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	this.aliasUsages	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	this.this$0	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	typeNode	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	aliasedNode	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	<init>(Lcom/google/javascript/jscomp/ScopedAliases;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Ljava/lang/String;)V	this.aliasDefinition	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	aliasExpanded	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	this.typeReference	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	typeName	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	<init>(Lcom/google/javascript/jscomp/ScopedAliases;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Ljava/lang/String;)V	aliasDefinition	fixed
+com.google.javascript.jscomp.ScopedAliases$AliasedTypeNode	applyAlias()V	this.aliasName	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	baseName	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	fixTypeNode(Lcom/google/javascript/rhino/Node;)V	this.aliasUsages	fixed

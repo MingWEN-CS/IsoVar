@@ -111,16 +111,21 @@ the format for each variable is: className \t methodSignature \t variableName \t
 1. unzip the demo.zip and there are two directory: Time_1_buggy and Time1_dependency
 2. instrument
 ```
-java -jar artifacts/IsoVar.jar --phase instrument --project_name Time --ID 1 --project_root path/to/Time_1_buggy
+java -jar artifacts/IsoVar.jar --phase instrument --project_name Time --ID 1 --project_root path/to/Time_1_buggy 
 ```
 3. analyze and the report will be generated at [report/Time/Time_1.txt](report/Time/Time_1.txt)
 ```
 java -jar artifacts/IsoVar.jar --phase analyze --project_name Time --ID 1 --dependency path/to/Time1_dependency/ --project_root path/to/Time_1_buggy
 ```
+4. auto-tune the parameters (alpha, beta and gamma)
+```
+java -jar artifacts/IsoVar.jar --phase parameters_tuning
+# the program will read the report and utilize the intermediate results to find optimal parameters setting.
+```
 
 # result analyze
 
-- The top 5 variables with suspicious values are:
+- The top 5 variables with suspicious values are: 
 ```
 org.joda.time.field.UnsupportedDurationField	compareTo(Lorg/joda/time/DurationField;)I	durationField	0.4985170538803757
 org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	i	0.4933133236564228
@@ -128,6 +133,8 @@ org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/
 org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	this.iChronology	0.48207900331000014
 org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	types	0.48153547133138963
 ```
+
+the newest version will also print some intermediate results, you can ignore them
 
 - the patch of Time 1 is https://github.com/rjust/defects4j/blob/master/framework/projects/Time/patches/1.src.patch
 

@@ -1,11 +1,13 @@
-fix	org.joda.time.chrono.GJChronology	368	INS	ex
-fix	org.joda.time.chrono.GJChronology	369	INS	monthOfYear
-fix	org.joda.time.chrono.GJChronology	369	INS	dayOfMonth
-fix	org.joda.time.chrono.GJChronology	375	INS	instant
-fix	org.joda.time.chrono.GJChronology	375	INS	iCutoverMillis
-fix	org.joda.time.chrono.GJChronology	372	INS	instant
-fix	org.joda.time.chrono.GJChronology	370	INS	ex
-fix	org.joda.time.chrono.GJChronology	372	INS	iGregorianChronology
-fix	org.joda.time.chrono.GJChronology	373	INS	iGregorianChronology
-fix	org.joda.time.chrono.GJChronology	374	INS	iGregorianChronology
-fix	org.joda.time.chrono.GJChronology	376	INS	ex
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	year	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	this.iCutoverMillis	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	secondOfMinute	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	instant	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	instant	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	this.iGregorianChronology	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	monthOfYear	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	monthOfYear	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	ex	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	dayOfMonth	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	hourOfDay	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	minuteOfHour	fixed
+org.joda.time.chrono.GJChronology	getDateTimeMillis(IIIIIII)J	millisOfSecond	fixed

@@ -1,4 +1,1 @@
-fix	org.apache.commons.lang.text.StrBuilder	1186	INS	str
-fix	org.apache.commons.lang.text.StrBuilder	1233	INS	str
-fix	org.apache.commons.lang.text.StrBuilder	1187	INS	str
-fix	org.apache.commons.lang.text.StrBuilder	1234	INS	str
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadLeft(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	str	fixed

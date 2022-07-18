@@ -1,0 +1,78 @@
+=================================================
+Project : closure_14	start : 22/07/16 16:00
+Current failed test : com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779 | 22/07/16 16:00
+Sat Jul 16 16:00:28 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,579
+Sat Jul 16 16:37:23 UTC 2022 Sat Jul 16 16:37:23 UTC 2022 : com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter,250=>Find no block
+Sat Jul 16 16:37:24 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,767
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);
+}
+
+Time : 22/07/16 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6182856494444295 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>0,0]
+if(lastJump==cfgNode){
+createEdge(cfgNode,Branch.ON_EX,catchBlock);
+return ;
+}else {
+finallyMap.put(lastJump,catchBlock);
+}
+
+Time : 22/07/16 16:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>766,768]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.UNCOND,finallyNode);
+}
+
+Time : 22/07/16 16:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_14_buggy/src/com/google/javascript/jscomp/ControlFlowAnalysis.java=>766,768]
+for(Node finallyNode : cfa.finallyMap.get(parent)){
+cfa.createEdge(fromNode,Branch.ON_EX,finallyNode);
+}
+
+Time : 22/07/16 16:39
+----------------------------------------
+Sat Jul 16 16:52:25 UTC 2022 Sat Jul 16 16:52:25 UTC 2022 : com.google.javascript.jscomp.ControlFlowAnalysis,768=>Find no block
+Sat Jul 16 16:52:25 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,844
+Sat Jul 16 17:24:22 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,491
+Sat Jul 16 17:46:23 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,766
+Sat Jul 16 17:46:23 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,764
+Sat Jul 16 18:17:14 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,765
+Sat Jul 16 18:17:14 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,770
+Sat Jul 16 18:17:15 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,1013
+Sat Jul 16 18:21:21 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,1014
+Sat Jul 16 18:21:21 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,752
+Sat Jul 16 18:28:12 UTC 2022 Sat Jul 16 18:28:12 UTC 2022 : com.google.javascript.jscomp.CheckMissingReturn,63=>Find no block
+Sat Jul 16 18:28:13 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,1006
+Sat Jul 16 18:32:52 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,841
+Sat Jul 16 18:32:53 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,842
+Sat Jul 16 18:32:53 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,854
+Sat Jul 16 18:59:57 UTC 2022 Sat Jul 16 18:59:57 UTC 2022 : com.google.javascript.jscomp.ControlFlowAnalysis,855=>Find no block
+Sat Jul 16 18:59:58 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,230
+Sat Jul 16 19:16:11 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,231
+Sat Jul 16 19:16:11 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,285
+Sat Jul 16 19:35:40 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,286
+Sat Jul 16 19:35:40 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,287
+Sat Jul 16 19:35:41 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,332
+Sat Jul 16 19:46:47 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,333
+Sat Jul 16 19:51:49 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,544
+Sat Jul 16 19:59:22 UTC 2022 Sat Jul 16 19:59:22 UTC 2022 : com.google.javascript.jscomp.ControlFlowAnalysis,545=>Find no block
+Sat Jul 16 19:59:22 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,751
+Sat Jul 16 19:59:23 UTC 2022 com.google.javascript.jscomp.ControlFlowAnalysis,757
+Sat Jul 16 20:59:13 UTC 2022 com.google.javascript.jscomp.NodeUtil,2759
+Timeout time : 22/07/16 21:00

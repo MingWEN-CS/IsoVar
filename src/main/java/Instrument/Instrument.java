@@ -1,9 +1,14 @@
 package Instrument;
 
 import IsoVar.*;
+import Util.Pair;
 import Util.RunCommand;
 import Util.TestSuite;
+import jas.Var;
 import org.apache.commons.io.FileUtils;
+import org.javatuples.Quartet;
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.tree.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import soot.*;
@@ -11,7 +16,12 @@ import soot.baf.BafASMBackend;
 import soot.options.Options;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
+
+import static org.objectweb.asm.Opcodes.*;
+import static org.objectweb.asm.Opcodes.ASTORE;
 
 
 public class Instrument {
@@ -53,11 +63,11 @@ public class Instrument {
 
     public static Map<Integer, BBMapping[]> readInstrMapping(Configuration config) {
         Map<Integer, BBMapping[]> instrMapping = new HashMap<>();
-        File file = new File(config.instrMapping + "/" + config.getProjectName() + "/" +
+        File file = new File(Configuration.instrMapping + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         InputStreamReader inputReader;
         try {
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
@@ -96,11 +106,11 @@ public class Instrument {
 
     public static Map<Integer, Map<VariableTrimInfo, Set<Integer>>> readInstrMapping_Bears(Configuration config) {
         Map<Integer, Map<VariableTrimInfo, Set<Integer>>> instrMapping = new HashMap<>();
-        File file = new File(config.instrMapping + "/" + config.getProjectName() + "/" +
+        File file = new File(Configuration.instrMapping + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         InputStreamReader inputReader;
         try {
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
@@ -120,33 +130,7 @@ public class Instrument {
                 sb.append(methodSig, firstBlank + 1, methodSig.length());
 
                 int hash = myHashCode(sb.toString());
-                for (int i = 3; i < lineSplit.length; i++) {
-                    String[] varNames = lineSplit[i].split(" ");
-                    for (int j = 1; j < varNames.length; j++) {
-                        String nameDesc = varNames[j];
-                        if (nameDesc.contains("Exception"))
-                            continue;
-                        int rightBrackets = nameDesc.indexOf(")");
-                        int second = nameDesc.indexOf("@");
-                        if (second == -1)
-                            second = nameDesc.indexOf(":");
-                        String name = nameDesc.substring(rightBrackets + 1, second);
-                        if (name.contains("$"))
-                            continue;
-                        int lineNum = Integer.parseInt(nameDesc.substring(second + 1));
-                        if (lineNum == -1)
-                            continue;
-                        VariableTrimInfo varTrim = new VariableTrimInfo(name, hash);
-                        Set<Integer> lines = methodMap.get(varTrim);
-                        if (lines == null) {
-                            lines = new HashSet<>();
-                            lines.add(lineNum);
-                            methodMap.put(varTrim, lines);
-                        } else {
-                            lines.add(lineNum);
-                        }
-                    }
-                }
+                readInstrForMethod(lineSplit, methodMap, hash);
                 instrMapping.put(hash, methodMap);
             }
             bf.close();
@@ -159,11 +143,11 @@ public class Instrument {
 
     public static Map<String, Map<VariableTrimInfo, Set<Integer>>> readInstrMapping_D4j(Configuration config) {
         Map<String, Map<VariableTrimInfo, Set<Integer>>> map = new HashMap<>();
-        File file = new File(config.instrMapping + "/" + config.getProjectName() + "/" +
+        File file = new File(Configuration.instrMapping + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         InputStreamReader inputReader;
         try {
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
@@ -172,33 +156,7 @@ public class Instrument {
                 lineSplit = line.split("\t");
                 String className = lineSplit[0];
                 int methodHash = Integer.parseInt(lineSplit[2]);
-                for (int i = 3; i < lineSplit.length; i++) {
-                    String[] varNames = lineSplit[i].split(" ");
-                    for (int j = 1; j < varNames.length; j++) {
-                        String nameDesc = varNames[j];
-                        if (nameDesc.contains("Exception"))
-                            continue;
-                        int rightBrackets = nameDesc.indexOf(")");
-                        int second = nameDesc.indexOf("@");
-                        if (second == -1)
-                            second = nameDesc.indexOf(":");
-                        String name = nameDesc.substring(rightBrackets + 1, second);
-                        if (name.contains("$"))
-                            continue;
-                        int lineNum = Integer.parseInt(nameDesc.substring(second + 1));
-                        if (lineNum == -1)
-                            continue;
-                        VariableTrimInfo varTrim = new VariableTrimInfo(name, methodHash);
-                        Set<Integer> lines = methodMap.get(varTrim);
-                        if (lines == null) {
-                            lines = new HashSet<>();
-                            lines.add(lineNum);
-                            methodMap.put(varTrim, lines);
-                        } else {
-                            lines.add(lineNum);
-                        }
-                    }
-                }
+                readInstrForMethod(lineSplit, methodMap, methodHash);
                 Map<VariableTrimInfo, Set<Integer>> subMap = map.get(className);
                 if (subMap == null) {
                     subMap = new HashMap<>(methodMap);
@@ -214,14 +172,45 @@ public class Instrument {
         return map;
     }
 
+    private static void readInstrForMethod(String[] lineSplit, Map<VariableTrimInfo, Set<Integer>> methodMap, int methodHash) {
+        for (int i = 3; i < lineSplit.length; i++) {
+            String[] varNames = lineSplit[i].split(" ");
+            for (int j = 1; j < varNames.length; j++) {
+                String nameDesc = varNames[j];
+                if (nameDesc.contains("Exception"))
+                    continue;
+                int rightBrackets = nameDesc.indexOf(")");
+                int second = nameDesc.indexOf("@");
+                if (second == -1)
+                    second = nameDesc.indexOf(":");
+                String name = nameDesc.substring(rightBrackets + 1, second);
+                if (name.contains("$"))
+                    continue;
+                int lineNum = Integer.parseInt(nameDesc.substring(second + 1));
+                if (lineNum == -1)
+                    continue;
+                VariableInfo var = new VariableInfo(varNames[j], methodHash, lineSplit[0], lineSplit[1]);
+                VariableTrimInfo varTrim = new VariableTrimInfo(var);
+                Set<Integer> lines = methodMap.get(varTrim);
+                if (lines == null) {
+                    lines = new HashSet<>();
+                    lines.add(lineNum);
+                    methodMap.put(varTrim, lines);
+                } else {
+                    lines.add(lineNum);
+                }
+            }
+        }
+    }
+
     public static Map<TestSuite, Map<Integer, Integer[]>> readFailingBBAccess(Configuration config, RunCommand cmd) {
-        String failingDir = config.ReportRoot + "/failing/" + config.getProjectName() + "/" +
+        String failingDir = Configuration.ReportRoot + "/failing/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + "/";
         return readBBAccess(failingDir, cmd.failing);
     }
 
     public static Map<TestSuite, Map<Integer, Integer[]>> readPassingBBAccess(Configuration config, RunCommand cmd) {
-        String failingDir = config.ReportRoot + "/passing/" + config.getProjectName() + "/" +
+        String failingDir = Configuration.ReportRoot + "/passing/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + "/";
         return readBBAccess(failingDir, cmd.passing);
     }
@@ -232,7 +221,7 @@ public class Instrument {
             File file = new File(folderPath + suite.className + "#" + suite.methodName + ".txt");
             if (!file.exists())
                 return null;
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             while ((line = bf.readLine()) != null) {
@@ -265,7 +254,7 @@ public class Instrument {
     public static void writeMutants(String path, SootClass clazz) {
         try {
             int java_version = Options.v().java_version();
-            OutputStream streamOut = new FileOutputStream(path);
+            OutputStream streamOut = Files.newOutputStream(Paths.get(path));
             BafASMBackend backend = new BafASMBackend(clazz, java_version);
             backend.generateClassFile(streamOut);
             streamOut.close();
@@ -284,8 +273,10 @@ public class Instrument {
     public void doInstr() {
 //        System.out.println("instrument the method to get all variables are involved which BBs");
         logger.info(String.format("instrument the method to get all variables are involved which BBs, mapping file is at %s"
-                , config.instrMappingRoot + "/" + config.getProjectName() + "/" +
+                , Configuration.instrMappingRoot + "/" + config.getProjectName() + "/" +
                         config.getProjectName() + "_" + config.getCurrent() + ".txt"));
+        if (MainClass.isLinux())
+            runDefects4jCompileAndTest();
         File instrDir = new File(config.getProjectInstrPath());
         if (!instrDir.exists()) {
             instrDir.mkdirs();
@@ -295,8 +286,6 @@ public class Instrument {
         analyze(config.getProjectTargetPath(), "", methodMap);
         copyInstrumentClass(config.getProjectInstrPath());
         writeInstrMap(config, methodMap);
-//        if (isLinux())
-//            runDefects4jCompileAndTest();
     }
 
     private void initializeSoot() {
@@ -342,9 +331,9 @@ public class Instrument {
                     analyze(file.getAbsolutePath(), relative + "/" + file.getName(), methodMap);
                 } else if (!file.getName().endsWith(".class")) {
                     String descPath;
-                    path = path.replace("\\","/");
-                    if (path.contains("target/classes") ) {
-                            descPath = path.replaceAll("target/classes", "target/instr_classes");
+                    path = path.replace("\\", "/");
+                    if (path.contains("target/classes")) {
+                        descPath = path.replaceAll("target/classes", "target/instr_classes");
                     } else {
                         descPath = path.replace("build", "instr_build");
                     }
@@ -389,7 +378,7 @@ public class Instrument {
     }
 
     private void writeInstrMap(Configuration config, Map<MethodInfo, Set<VariableInfo>[]> methodMap) {
-        File file = new File(config.instrMappingRoot + File.separator +
+        File file = new File(Configuration.instrMappingRoot + File.separator +
                 config.getProjectName() + File.separator +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         File parent = file.getParentFile();
@@ -398,18 +387,40 @@ public class Instrument {
         try {
             FileWriter fw = new FileWriter(file);
             for (Map.Entry<MethodInfo, Set<VariableInfo>[]> entry : methodMap.entrySet()) {
-                fw.write(entry.getKey() + "\t");
+                MethodInfo methodInfo = entry.getKey();
+                fw.write(methodInfo + "\t");
                 Set<VariableInfo>[] BBs = entry.getValue();
                 for (int i = 0; i < BBs.length; i++) {
                     Set<VariableInfo> locals = BBs[i];
                     fw.write(i + " ");
                     for (VariableInfo local : locals) {
+                        if (!local.isDef && local.getLine() == -1)
+                            continue;
 //                        if (local.isArrayRef)
 //                            fw.write("[]");
                         fw.write("(" + local.getDesc() + ")");
-                        if (local.isDef())
-                            fw.write(local.name + "@");
-                        else fw.write(local.name + ":");
+                        if (local.getLine() != -1 && !local.name.contains(".")) {
+                            Pair<Integer, Boolean> info = getVarsInfo(local, BBs);
+                            String clazzRoot = config.getProjectTargetPath();
+                            String path = clazzRoot + methodInfo.className.replace(".", "/") + ".class";
+                            String newName = recoverName(path, methodInfo.subSignature, local.desc, info);
+                            if (newName == null) {
+                                local.trueName = local.name;
+//                                newName = recoverName(path, methodInfo.subSignature, local.desc, info);
+//                                info = getVarsInfo(local, BBs);
+                            } else
+                                local.trueName = newName;
+                        } else
+                            local.trueName = local.name;
+
+                        fw.write(local.name);
+                        if (local.trueName != null)
+                            fw.write("^" + local.trueName);
+                        if (local.isDef()) {
+                            fw.write("@");
+                        } else {
+                            fw.write(":");
+                        }
                         fw.write(local.getLine() + " ");
                     }
                     fw.write("\t");
@@ -423,24 +434,190 @@ public class Instrument {
         }
     }
 
+    public static String recoverName(String classPath, String methodSig, String desc, Pair<Integer, Boolean> info) {
+        try {
+            ClassNode cn = new ClassNode(ASM7);
+            ClassReader cr = new ClassReader(Files.newInputStream(Paths.get(classPath)));
+            cr.accept(cn, ClassReader.EXPAND_FRAMES | ClassReader.SKIP_FRAMES);
+            int line = info.getKey();
+            boolean isDef = info.getValue();
+            Pair<String, Integer> newDesc = transformVarDescToBytecode(desc, isDef);
+            for (MethodNode mn : cn.methods) {
+                if (methodSig.equals(mn.name + mn.desc)) {
+                    int currentLine = -1;
+                    AbstractInsnNode[] instructions = mn.instructions.toArray();
+                    List<LocalVariableNode> candidates = new ArrayList<>();
+                    Map<LabelNode, Integer> labelIndexMap = new HashMap<>();
+                    int targetInsnIndex = -1;
+                    int targetVarIndex = -1;
+                    for (int i = 0; i < mn.instructions.size(); i++) {
+                        AbstractInsnNode ins = instructions[i];
+                        if (ins instanceof LineNumberNode) {
+                            LineNumberNode lineNumberNode = (LineNumberNode) ins;
+                            currentLine = lineNumberNode.line;
+                        } else if (ins instanceof LabelNode) {
+                            labelIndexMap.put((LabelNode) ins, i);
+                        } else if (line == currentLine) {
+                            int opcode = -1;
+                            if (instructions[i] instanceof VarInsnNode) {
+                                VarInsnNode varInsnNode = (VarInsnNode) ins;
+                                targetVarIndex = varInsnNode.var;
+                                opcode = varInsnNode.getOpcode();
+                            } else if (instructions[i] instanceof IincInsnNode) {
+                                IincInsnNode node = (IincInsnNode) ins;
+                                targetVarIndex = node.var;
+                                opcode = node.getOpcode();
+                            }
+                            if (opcode == newDesc.getValue() || opcode == IINC) {
+                                targetInsnIndex = i + 1;
+                                for (LocalVariableNode local : mn.localVariables) {
+                                    if (local.index == targetVarIndex &&
+                                            local.desc.equals(newDesc.getKey())) {
+                                        candidates.add(local);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                    if (candidates.size() == 1) {
+                        return candidates.get(0).name;
+                    } else {
+                        for (LocalVariableNode candidate : candidates) {
+                            if (candidate.index == targetVarIndex &&
+                                    labelIndexMap.get(candidate.start) <= targetInsnIndex &&
+                                    labelIndexMap.get(candidate.end) >= targetInsnIndex) {
+                                return candidate.name;
+                            }
+                        }
+                    }
+                    // may overwrite parameter slot
+                    for (LocalVariableNode local : mn.localVariables) {
+                        if (targetVarIndex == local.index) {
+                            return local.name;
+                        }
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    public static Pair<Integer, Boolean> getVarsInfo(VariableInfo local, Set<VariableInfo>[] bbMappings) {
+        if (local.isDef)
+            return new Pair<>(local.getLine(), true);
+        int def = -1;
+        int line = local.getLine();
+        String name = local.name;
+        for (Set<VariableInfo> bbMapping : bbMappings) {
+            for (VariableInfo var : bbMapping) {
+                if (var.name.equals(name) && var.isDef() && var.getLine() < line) {
+                    if (var.getLine() > def)
+                        def = var.getLine();
+                }
+            }
+        }
+        if (def == -1)
+            return new Pair<>(local.getLine(), false);
+        return new Pair<>(def, true);
+    }
+
+
+    private static Pair<String, Integer> transformVarDescToBytecode(String desc, boolean isDef) {
+        StringBuilder prefix = new StringBuilder();
+        int store = -1;
+        int load = -1;
+        while (desc.endsWith("[]")) {
+            desc = desc.substring(0, desc.length() - 2);
+            prefix.append("[");
+            store = ASTORE;
+            load = ALOAD;
+        }
+        switch (desc) {
+            case "boolean":
+                if (store == -1)
+                    store = ISTORE;
+                if (load == -1)
+                    load = ILOAD;
+                if (isDef) return new Pair<>(prefix + "Z", store);
+                else return new Pair<>(prefix + "Z", load);
+            case "char":
+                if (store == -1)
+                    store = ISTORE;
+                if (load == -1)
+                    load = ILOAD;
+                if (isDef) return new Pair<>(prefix + "C", store);
+                else return new Pair<>(prefix + "C", load);
+            case "byte":
+                if (store == -1)
+                    store = ISTORE;
+                if (load == -1)
+                    load = ILOAD;
+                if (isDef) return new Pair<>(prefix + "B", store);
+                else return new Pair<>(prefix + "B", load);
+            case "short":
+                if (store == -1)
+                    store = ISTORE;
+                if (load == -1)
+                    load = ILOAD;
+                if (isDef) return new Pair<>(prefix + "S", store);
+                else return new Pair<>(prefix + "S", load);
+            case "int":
+                if (store == -1)
+                    store = ISTORE;
+                if (load == -1)
+                    load = ILOAD;
+                if (isDef) return new Pair<>(prefix + "I", store);
+                else return new Pair<>(prefix + "I", load);
+            case "float":
+                if (store == -1)
+                    store = FSTORE;
+                if (load == -1)
+                    load = FLOAD;
+                if (isDef) return new Pair<>(prefix + "F", store);
+                else return new Pair<>(prefix + "F", load);
+            case "double":
+                if (store == -1)
+                    store = DSTORE;
+                if (load == -1)
+                    load = DLOAD;
+                if (isDef) return new Pair<>(prefix + "D", store);
+                else return new Pair<>(prefix + "D", load);
+            case "long":
+                if (store == -1)
+                    store = LSTORE;
+                if (load == -1)
+                    load = LLOAD;
+                if (isDef) return new Pair<>(prefix + "J", store);
+                else return new Pair<>(prefix + "J", load);
+            default:
+                if (isDef) return new Pair<>(prefix + "L" + desc.replace(".", "/") + ";", ASTORE);
+                else return new Pair<>(prefix + "L" + desc.replace(".", "/") + ";", ALOAD);
+        }
+    }
+
     public void runDefects4jCompileAndTest() {
         try {
-            File workDir = new File(config.getProjectRoot());
+//            File workDir = new File(config.getProjectRoot());
+            File file = new File(config.getProjectRoot() + "/cmd.sh");
 
-            String cmd1 = "defects4j compile";
+            FileWriter fw = new FileWriter(file);
 
-            String cmd2 = "defects4j test";
+            fw.write("cd " + config.getProjectRoot() + "\n");
+            fw.write("echo running defects4j export -p tests.all -o alltest\n");
+            fw.write("defects4j export -p tests.all -o alltest\n");
+            fw.write("echo running defects4j export -p cp.test -o dep\n");
+            fw.write("defects4j export -p cp.test -o dep\n");
+            fw.write("echo running defects4j export -p tests.trigger -o trigger\n");
+            fw.write("defects4j export -p tests.trigger -o trigger\n");
+            fw.write("echo running defects4j compile\n");
+            fw.write("defects4j compile\n");
+            fw.close();
 
-            String cmd3 = "defects4j export -p cp.test -o dep.txt";
-//            Process p = new ProcessBuilder().command("bash", "-c", cd, cmd1, cmd2, cmd3).start();
-            System.out.println("run defects4j compile");
-            Runtime.getRuntime().exec(cmd1, null, workDir);
-
-            System.out.println("run defects4j test");
-            Runtime.getRuntime().exec(cmd2, null, workDir);
-
-            System.out.println("run defects4j export -p cp.test -o dep.txt");
-            Process p = Runtime.getRuntime().exec(cmd3, null, workDir);
+            Process p = new ProcessBuilder().command("bash", config.getProjectRoot() + "/cmd.sh").start();
 
             BufferedInputStream in = new BufferedInputStream(p.getInputStream());
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -448,8 +625,9 @@ public class Instrument {
             while ((line = br.readLine()) != null) {
                 System.out.println(line);
             }
-            in.close();
             br.close();
+            in.close();
+            file.delete();
         } catch (IOException e) {
             e.printStackTrace();
         }

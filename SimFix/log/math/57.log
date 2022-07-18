@@ -1,0 +1,280 @@
+=================================================
+Project : math_57	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testSmallDistances | 22/06/30 00:54
+Thu Jun 30 00:55:26 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,69
+Thu Jun 30 00:55:46 UTC 2022 Thu Jun 30 00:55:46 UTC 2022 : org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,70=>Find no block
+Thu Jun 30 00:55:55 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,134
+Thu Jun 30 00:59:12 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,175
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=0;i<pointSet.size();i++){
+ final T p=pointSet.get(i);
+ final Cluster<T> nearest=getNearestCluster(resultSet,p);
+ final double d=p.distanceFrom(nearest.getCenter());
+sum+=d*d;
+dx2[i]=sum;
+}
+
+Time : 22/06/30 01:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.494010984788007 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java=>0,0]
+checkVectorDimensions(v.getDimension());
+boolean thisIsSmaller=entries.size()<v.entries.size();
+Iterator iter=thisIsSmaller?entries.iterator():v.entries.iterator();
+OpenIntToDoubleHashMap larger=thisIsSmaller?v.entries:entries;
+double d=0;
+while(iter.hasNext()){
+iter.advance();
+d+=iter.value()*larger.get(iter.key());
+}
+return d;
+
+Time : 22/06/30 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java=>175,182]
+int sum=0;
+for(int i=0;i<pointSet.size();i++){
+ final T p=pointSet.get(i);
+ final Cluster<T> nearest=getNearestCluster(resultSet,p);
+ final double d=p.distanceFrom(nearest.getCenter());
+sum+=d*d;
+dx2[i]=sum;
+}
+
+Time : 22/06/30 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_57_buggy/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java=>175,182]
+double sum=0;
+for(int i=0;i<pointSet.size();i++){
+ final T p=pointSet.get(i);
+ final Cluster<T> nearest=getNearestCluster(resultSet,p);
+ final double d=p.distanceFrom(nearest.getCenter());
+sum+=d*d;
+dx2[i]=sum;
+}
+
+Time : 22/06/30 01:01
+----------------------------------------
+Thu Jun 30 01:07:11 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,176
+Thu Jun 30 01:14:53 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,177
+Thu Jun 30 01:14:54 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,178
+Thu Jun 30 01:14:54 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,179
+Thu Jun 30 01:14:55 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,180
+Thu Jun 30 01:14:56 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,181
+Thu Jun 30 01:14:57 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,186
+Thu Jun 30 01:21:49 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,187
+Thu Jun 30 01:46:24 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,188
+Thu Jun 30 01:46:25 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,189
+Thu Jun 30 01:46:25 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,190
+Thu Jun 30 01:46:26 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,191
+Thu Jun 30 01:46:26 UTC 2022 Thu Jun 30 01:46:26 UTC 2022 : org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,194=>Find no block
+Thu Jun 30 01:46:27 UTC 2022 Thu Jun 30 01:46:27 UTC 2022 : org.apache.commons.math.util.MathUtils,44=>Find no block
+Thu Jun 30 01:46:27 UTC 2022 Thu Jun 30 01:46:27 UTC 2022 : org.apache.commons.math.util.MathUtils,89=>Find no block
+Thu Jun 30 01:46:28 UTC 2022 org.apache.commons.math.util.MathUtils,1873
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+Arrays.fill(p1,0);
+sum+=dp*dp;
+}
+return FastMath.sqrt(sum);
+
+Time : 22/06/30 01:58
+----------------------------------------
+Thu Jun 30 02:01:02 UTC 2022 org.apache.commons.math.util.MathUtils,1874
+Thu Jun 30 02:16:39 UTC 2022 org.apache.commons.math.util.MathUtils,1875
+Thu Jun 30 02:16:40 UTC 2022 org.apache.commons.math.util.MathUtils,1876
+Thu Jun 30 02:16:41 UTC 2022 org.apache.commons.math.util.MathUtils,1878
+Thu Jun 30 02:16:42 UTC 2022 Thu Jun 30 02:16:42 UTC 2022 : org.apache.commons.math.util.FastMath,55=>Find no block
+Thu Jun 30 02:16:42 UTC 2022 Thu Jun 30 02:16:42 UTC 2022 : org.apache.commons.math.util.FastMath,60=>Find no block
+Thu Jun 30 02:16:43 UTC 2022 Thu Jun 30 02:16:43 UTC 2022 : org.apache.commons.math.util.FastMath,65=>Find no block
+Thu Jun 30 02:16:43 UTC 2022 Thu Jun 30 02:16:43 UTC 2022 : org.apache.commons.math.util.FastMath,70=>Find no block
+Thu Jun 30 02:16:43 UTC 2022 Thu Jun 30 02:16:43 UTC 2022 : org.apache.commons.math.util.FastMath,73=>Find no block
+Thu Jun 30 02:16:44 UTC 2022 Thu Jun 30 02:16:44 UTC 2022 : org.apache.commons.math.util.FastMath,76=>Find no block
+Thu Jun 30 02:16:45 UTC 2022 Thu Jun 30 02:16:45 UTC 2022 : org.apache.commons.math.util.FastMath,85=>Find no block
+Thu Jun 30 02:16:45 UTC 2022 Thu Jun 30 02:16:45 UTC 2022 : org.apache.commons.math.util.FastMath,105=>Find no block
+Thu Jun 30 02:16:46 UTC 2022 Thu Jun 30 02:16:46 UTC 2022 : org.apache.commons.math.util.FastMath,118=>Find no block
+Thu Jun 30 02:16:46 UTC 2022 Thu Jun 30 02:16:46 UTC 2022 : org.apache.commons.math.util.FastMath,128=>Find no block
+Thu Jun 30 02:16:46 UTC 2022 Thu Jun 30 02:16:46 UTC 2022 : org.apache.commons.math.util.FastMath,131=>Find no block
+Thu Jun 30 02:16:47 UTC 2022 Thu Jun 30 02:16:47 UTC 2022 : org.apache.commons.math.util.FastMath,134=>Find no block
+Thu Jun 30 02:16:47 UTC 2022 Thu Jun 30 02:16:47 UTC 2022 : org.apache.commons.math.util.FastMath,137=>Find no block
+Thu Jun 30 02:16:47 UTC 2022 Thu Jun 30 02:16:47 UTC 2022 : org.apache.commons.math.util.FastMath,140=>Find no block
+Thu Jun 30 02:16:48 UTC 2022 Thu Jun 30 02:16:48 UTC 2022 : org.apache.commons.math.util.FastMath,143=>Find no block
+Thu Jun 30 02:16:48 UTC 2022 Thu Jun 30 02:16:48 UTC 2022 : org.apache.commons.math.util.FastMath,146=>Find no block
+Thu Jun 30 02:16:48 UTC 2022 Thu Jun 30 02:16:48 UTC 2022 : org.apache.commons.math.util.FastMath,167=>Find no block
+Thu Jun 30 02:16:49 UTC 2022 Thu Jun 30 02:16:49 UTC 2022 : org.apache.commons.math.util.FastMath,175=>Find no block
+Thu Jun 30 02:16:49 UTC 2022 Thu Jun 30 02:16:49 UTC 2022 : org.apache.commons.math.util.FastMath,178=>Find no block
+Thu Jun 30 02:16:50 UTC 2022 Thu Jun 30 02:16:50 UTC 2022 : org.apache.commons.math.util.FastMath,208=>Find no block
+Thu Jun 30 02:16:50 UTC 2022 Thu Jun 30 02:16:50 UTC 2022 : org.apache.commons.math.util.FastMath,209=>Find no block
+Thu Jun 30 02:16:51 UTC 2022 Thu Jun 30 02:16:51 UTC 2022 : org.apache.commons.math.util.FastMath,210=>Find no block
+Thu Jun 30 02:16:51 UTC 2022 Thu Jun 30 02:16:51 UTC 2022 : org.apache.commons.math.util.FastMath,213=>Find no block
+Thu Jun 30 02:16:51 UTC 2022 Thu Jun 30 02:16:51 UTC 2022 : org.apache.commons.math.util.FastMath,214=>Find no block
+Thu Jun 30 02:16:52 UTC 2022 Thu Jun 30 02:16:52 UTC 2022 : org.apache.commons.math.util.FastMath,217=>Find no block
+Thu Jun 30 02:16:52 UTC 2022 Thu Jun 30 02:16:52 UTC 2022 : org.apache.commons.math.util.FastMath,218=>Find no block
+Thu Jun 30 02:16:53 UTC 2022 Thu Jun 30 02:16:53 UTC 2022 : org.apache.commons.math.util.FastMath,219=>Find no block
+Thu Jun 30 02:16:53 UTC 2022 Thu Jun 30 02:16:53 UTC 2022 : org.apache.commons.math.util.FastMath,220=>Find no block
+Thu Jun 30 02:16:53 UTC 2022 Thu Jun 30 02:16:53 UTC 2022 : org.apache.commons.math.util.FastMath,222=>Find no block
+Thu Jun 30 02:16:54 UTC 2022 Thu Jun 30 02:16:54 UTC 2022 : org.apache.commons.math.util.FastMath,224=>Find no block
+Thu Jun 30 02:16:54 UTC 2022 Thu Jun 30 02:16:54 UTC 2022 : org.apache.commons.math.util.FastMath,225=>Find no block
+Thu Jun 30 02:16:55 UTC 2022 Thu Jun 30 02:16:55 UTC 2022 : org.apache.commons.math.util.FastMath,226=>Find no block
+Thu Jun 30 02:16:55 UTC 2022 Thu Jun 30 02:16:55 UTC 2022 : org.apache.commons.math.util.FastMath,231=>Find no block
+Thu Jun 30 02:16:56 UTC 2022 Thu Jun 30 02:16:56 UTC 2022 : org.apache.commons.math.util.FastMath,232=>Find no block
+Thu Jun 30 02:16:56 UTC 2022 Thu Jun 30 02:16:56 UTC 2022 : org.apache.commons.math.util.FastMath,233=>Find no block
+Thu Jun 30 02:16:56 UTC 2022 Thu Jun 30 02:16:56 UTC 2022 : org.apache.commons.math.util.FastMath,234=>Find no block
+Thu Jun 30 02:16:57 UTC 2022 Thu Jun 30 02:16:57 UTC 2022 : org.apache.commons.math.util.FastMath,238=>Find no block
+Thu Jun 30 02:16:57 UTC 2022 Thu Jun 30 02:16:57 UTC 2022 : org.apache.commons.math.util.FastMath,239=>Find no block
+Thu Jun 30 02:16:57 UTC 2022 Thu Jun 30 02:16:57 UTC 2022 : org.apache.commons.math.util.FastMath,240=>Find no block
+Thu Jun 30 02:16:58 UTC 2022 Thu Jun 30 02:16:58 UTC 2022 : org.apache.commons.math.util.FastMath,244=>Find no block
+Thu Jun 30 02:16:58 UTC 2022 Thu Jun 30 02:16:58 UTC 2022 : org.apache.commons.math.util.FastMath,245=>Find no block
+Thu Jun 30 02:16:59 UTC 2022 org.apache.commons.math.util.FastMath,277
+Thu Jun 30 02:18:21 UTC 2022 org.apache.commons.math.util.FastMath,987
+Thu Jun 30 02:18:28 UTC 2022 org.apache.commons.math.util.FastMath,988
+Thu Jun 30 02:18:29 UTC 2022 org.apache.commons.math.util.FastMath,989
+Thu Jun 30 02:18:46 UTC 2022 org.apache.commons.math.util.FastMath,990
+Thu Jun 30 02:20:24 UTC 2022 org.apache.commons.math.util.FastMath,991
+Thu Jun 30 02:21:58 UTC 2022 org.apache.commons.math.util.FastMath,992
+Thu Jun 30 02:21:59 UTC 2022 org.apache.commons.math.util.FastMath,994
+Thu Jun 30 02:37:20 UTC 2022 org.apache.commons.math.util.FastMath,995
+Thu Jun 30 02:37:20 UTC 2022 org.apache.commons.math.util.FastMath,996
+Thu Jun 30 02:37:21 UTC 2022 org.apache.commons.math.util.FastMath,997
+Thu Jun 30 02:37:21 UTC 2022 org.apache.commons.math.util.FastMath,999
+Thu Jun 30 02:37:22 UTC 2022 org.apache.commons.math.util.FastMath,1000
+Thu Jun 30 02:37:22 UTC 2022 org.apache.commons.math.util.FastMath,1002
+Thu Jun 30 02:37:23 UTC 2022 org.apache.commons.math.util.FastMath,1003
+Thu Jun 30 02:37:23 UTC 2022 org.apache.commons.math.util.FastMath,1004
+Thu Jun 30 02:37:24 UTC 2022 org.apache.commons.math.util.FastMath,1007
+Thu Jun 30 02:37:39 UTC 2022 org.apache.commons.math.util.FastMath,1008
+Thu Jun 30 02:37:40 UTC 2022 org.apache.commons.math.util.FastMath,1009
+Thu Jun 30 02:37:40 UTC 2022 org.apache.commons.math.util.FastMath,1012
+Thu Jun 30 02:37:56 UTC 2022 org.apache.commons.math.util.FastMath,1021
+Thu Jun 30 02:39:28 UTC 2022 org.apache.commons.math.util.FastMath,1022
+Thu Jun 30 02:39:28 UTC 2022 org.apache.commons.math.util.FastMath,1023
+Thu Jun 30 02:39:29 UTC 2022 org.apache.commons.math.util.FastMath,1024
+Thu Jun 30 02:39:29 UTC 2022 Thu Jun 30 02:39:29 UTC 2022 : org.apache.commons.math.util.FastMath,1025=>Find no block
+Thu Jun 30 02:39:29 UTC 2022 Thu Jun 30 02:39:29 UTC 2022 : org.apache.commons.math.util.FastMath,1030=>Find no block
+Thu Jun 30 02:39:30 UTC 2022 org.apache.commons.math.util.FastMath,1037
+Thu Jun 30 02:40:29 UTC 2022 org.apache.commons.math.util.FastMath,1038
+Thu Jun 30 02:40:29 UTC 2022 org.apache.commons.math.util.FastMath,1040
+Thu Jun 30 02:41:26 UTC 2022 org.apache.commons.math.util.FastMath,1041
+Thu Jun 30 02:41:26 UTC 2022 org.apache.commons.math.util.FastMath,1042
+Thu Jun 30 02:41:27 UTC 2022 org.apache.commons.math.util.FastMath,1043
+Thu Jun 30 02:41:27 UTC 2022 Thu Jun 30 02:41:27 UTC 2022 : org.apache.commons.math.util.FastMath,1044=>Find no block
+Thu Jun 30 02:41:28 UTC 2022 org.apache.commons.math.util.FastMath,1045
+Thu Jun 30 02:41:28 UTC 2022 org.apache.commons.math.util.FastMath,1046
+Thu Jun 30 02:41:29 UTC 2022 org.apache.commons.math.util.FastMath,1047
+Thu Jun 30 02:41:29 UTC 2022 Thu Jun 30 02:41:29 UTC 2022 : org.apache.commons.math.util.FastMath,1049=>Find no block
+Thu Jun 30 02:41:30 UTC 2022 org.apache.commons.math.util.FastMath,1057
+Thu Jun 30 02:41:36 UTC 2022 org.apache.commons.math.util.FastMath,1058
+Thu Jun 30 02:41:37 UTC 2022 org.apache.commons.math.util.FastMath,1061
+Thu Jun 30 02:41:37 UTC 2022 Thu Jun 30 02:41:37 UTC 2022 : org.apache.commons.math.util.FastMath,1062=>Find no block
+Thu Jun 30 02:41:37 UTC 2022 org.apache.commons.math.util.FastMath,1070
+Thu Jun 30 02:41:46 UTC 2022 org.apache.commons.math.util.FastMath,1071
+Thu Jun 30 02:41:46 UTC 2022 org.apache.commons.math.util.FastMath,1073
+Thu Jun 30 02:41:46 UTC 2022 Thu Jun 30 02:41:46 UTC 2022 : org.apache.commons.math.util.FastMath,1074=>Find no block
+Thu Jun 30 02:41:47 UTC 2022 org.apache.commons.math.util.FastMath,1095
+Thu Jun 30 02:42:13 UTC 2022 org.apache.commons.math.util.FastMath,1096
+Thu Jun 30 02:42:13 UTC 2022 org.apache.commons.math.util.FastMath,1098
+Thu Jun 30 02:44:03 UTC 2022 org.apache.commons.math.util.FastMath,1103
+Thu Jun 30 02:44:29 UTC 2022 org.apache.commons.math.util.FastMath,1104
+Thu Jun 30 02:44:53 UTC 2022 org.apache.commons.math.util.FastMath,1106
+Thu Jun 30 02:45:24 UTC 2022 org.apache.commons.math.util.FastMath,1107
+Thu Jun 30 02:45:25 UTC 2022 org.apache.commons.math.util.FastMath,1111
+Thu Jun 30 02:50:27 UTC 2022 org.apache.commons.math.util.FastMath,1113
+Thu Jun 30 02:50:27 UTC 2022 org.apache.commons.math.util.FastMath,1115
+Thu Jun 30 02:50:28 UTC 2022 org.apache.commons.math.util.FastMath,1118
+Thu Jun 30 02:50:28 UTC 2022 org.apache.commons.math.util.FastMath,1120
+Thu Jun 30 02:50:29 UTC 2022 Thu Jun 30 02:50:29 UTC 2022 : org.apache.commons.math.util.FastMath,1122=>Find no block
+Thu Jun 30 02:50:29 UTC 2022 org.apache.commons.math.util.FastMath,1130
+Thu Jun 30 02:50:38 UTC 2022 org.apache.commons.math.util.FastMath,1131
+Thu Jun 30 02:50:38 UTC 2022 org.apache.commons.math.util.FastMath,1132
+Thu Jun 30 02:51:25 UTC 2022 org.apache.commons.math.util.FastMath,1135
+Thu Jun 30 02:52:11 UTC 2022 org.apache.commons.math.util.FastMath,1136
+Thu Jun 30 02:53:30 UTC 2022 org.apache.commons.math.util.FastMath,1137
+Thu Jun 30 02:55:09 UTC 2022 org.apache.commons.math.util.FastMath,1139
+Thu Jun 30 02:56:06 UTC 2022 org.apache.commons.math.util.FastMath,1140
+Thu Jun 30 02:56:28 UTC 2022 org.apache.commons.math.util.FastMath,1143
+Thu Jun 30 02:57:07 UTC 2022 org.apache.commons.math.util.FastMath,1144
+Thu Jun 30 02:59:56 UTC 2022 org.apache.commons.math.util.FastMath,1146
+Thu Jun 30 03:02:35 UTC 2022 org.apache.commons.math.util.FastMath,1147
+Thu Jun 30 03:03:17 UTC 2022 org.apache.commons.math.util.FastMath,1148
+Thu Jun 30 03:04:25 UTC 2022 org.apache.commons.math.util.FastMath,1149
+Thu Jun 30 03:05:28 UTC 2022 org.apache.commons.math.util.FastMath,1150
+Thu Jun 30 03:06:30 UTC 2022 org.apache.commons.math.util.FastMath,1151
+Thu Jun 30 03:07:00 UTC 2022 org.apache.commons.math.util.FastMath,1154
+Thu Jun 30 03:07:37 UTC 2022 org.apache.commons.math.util.FastMath,1155
+Thu Jun 30 03:08:58 UTC 2022 org.apache.commons.math.util.FastMath,1156
+Thu Jun 30 03:12:45 UTC 2022 org.apache.commons.math.util.FastMath,1158
+Thu Jun 30 03:14:30 UTC 2022 org.apache.commons.math.util.FastMath,1159
+Thu Jun 30 03:15:30 UTC 2022 org.apache.commons.math.util.FastMath,1160
+Thu Jun 30 03:15:30 UTC 2022 org.apache.commons.math.util.FastMath,1161
+Thu Jun 30 03:15:30 UTC 2022 org.apache.commons.math.util.FastMath,1162
+Thu Jun 30 03:15:31 UTC 2022 org.apache.commons.math.util.FastMath,1163
+Thu Jun 30 03:15:31 UTC 2022 org.apache.commons.math.util.FastMath,1166
+Thu Jun 30 03:16:09 UTC 2022 org.apache.commons.math.util.FastMath,1167
+Thu Jun 30 03:17:27 UTC 2022 org.apache.commons.math.util.FastMath,1168
+Thu Jun 30 03:21:23 UTC 2022 org.apache.commons.math.util.FastMath,1170
+Thu Jun 30 03:21:23 UTC 2022 org.apache.commons.math.util.FastMath,1171
+Thu Jun 30 03:21:24 UTC 2022 org.apache.commons.math.util.FastMath,1172
+Thu Jun 30 03:21:24 UTC 2022 org.apache.commons.math.util.FastMath,1173
+Thu Jun 30 03:21:25 UTC 2022 org.apache.commons.math.util.FastMath,1174
+Thu Jun 30 03:21:25 UTC 2022 org.apache.commons.math.util.FastMath,1175
+Thu Jun 30 03:21:26 UTC 2022 Thu Jun 30 03:21:26 UTC 2022 : org.apache.commons.math.util.FastMath,1176=>Find no block
+Thu Jun 30 03:21:26 UTC 2022 org.apache.commons.math.util.FastMath,1185
+Thu Jun 30 03:21:34 UTC 2022 org.apache.commons.math.util.FastMath,1186
+Thu Jun 30 03:21:34 UTC 2022 org.apache.commons.math.util.FastMath,1187
+Thu Jun 30 03:22:22 UTC 2022 org.apache.commons.math.util.FastMath,1196
+Thu Jun 30 03:23:02 UTC 2022 org.apache.commons.math.util.FastMath,1197
+Thu Jun 30 03:26:08 UTC 2022 org.apache.commons.math.util.FastMath,1199
+Thu Jun 30 03:26:09 UTC 2022 org.apache.commons.math.util.FastMath,1201
+Thu Jun 30 03:35:10 UTC 2022 org.apache.commons.math.util.FastMath,1202
+Thu Jun 30 03:35:11 UTC 2022 org.apache.commons.math.util.FastMath,1203
+Thu Jun 30 03:35:12 UTC 2022 org.apache.commons.math.util.FastMath,1204
+Thu Jun 30 03:35:13 UTC 2022 org.apache.commons.math.util.FastMath,1207
+Thu Jun 30 03:35:13 UTC 2022 org.apache.commons.math.util.FastMath,1208
+Thu Jun 30 03:35:14 UTC 2022 org.apache.commons.math.util.FastMath,1210
+Thu Jun 30 03:35:14 UTC 2022 org.apache.commons.math.util.FastMath,1213
+Thu Jun 30 03:35:18 UTC 2022 org.apache.commons.math.util.FastMath,1214
+Thu Jun 30 03:35:18 UTC 2022 org.apache.commons.math.util.FastMath,1215
+Thu Jun 30 03:35:19 UTC 2022 org.apache.commons.math.util.FastMath,1217
+Thu Jun 30 03:35:19 UTC 2022 org.apache.commons.math.util.FastMath,1220
+Thu Jun 30 03:35:37 UTC 2022 org.apache.commons.math.util.FastMath,1716
+Thu Jun 30 03:36:16 UTC 2022 org.apache.commons.math.util.FastMath,1717
+Thu Jun 30 03:36:16 UTC 2022 org.apache.commons.math.util.FastMath,1718
+Thu Jun 30 03:37:02 UTC 2022 org.apache.commons.math.util.FastMath,1719
+Thu Jun 30 03:39:31 UTC 2022 org.apache.commons.math.util.FastMath,1721
+Thu Jun 30 03:40:48 UTC 2022 org.apache.commons.math.util.FastMath,1724
+Thu Jun 30 03:41:13 UTC 2022 org.apache.commons.math.util.FastMath,1725
+Thu Jun 30 03:42:22 UTC 2022 org.apache.commons.math.util.FastMath,1726
+Thu Jun 30 03:44:06 UTC 2022 org.apache.commons.math.util.FastMath,1727
+Thu Jun 30 03:45:47 UTC 2022 org.apache.commons.math.util.FastMath,1728
+Thu Jun 30 03:47:20 UTC 2022 org.apache.commons.math.util.FastMath,1729
+Thu Jun 30 03:48:33 UTC 2022 org.apache.commons.math.util.FastMath,1730
+Thu Jun 30 03:50:12 UTC 2022 org.apache.commons.math.util.FastMath,1731
+Thu Jun 30 03:50:54 UTC 2022 org.apache.commons.math.util.FastMath,1734
+Thu Jun 30 03:51:57 UTC 2022 org.apache.commons.math.util.FastMath,1740
+Thu Jun 30 03:53:13 UTC 2022 org.apache.commons.math.util.FastMath,1741
+Thu Jun 30 03:58:45 UTC 2022 org.apache.commons.math.util.FastMath,1743
+Thu Jun 30 04:05:12 UTC 2022 org.apache.commons.math.util.FastMath,1744
+Thu Jun 30 04:05:13 UTC 2022 org.apache.commons.math.util.FastMath,1745
+Thu Jun 30 04:05:14 UTC 2022 org.apache.commons.math.util.FastMath,1746
+Thu Jun 30 04:05:14 UTC 2022 org.apache.commons.math.util.FastMath,1747
+Thu Jun 30 04:05:15 UTC 2022 org.apache.commons.math.util.FastMath,1748
+Thu Jun 30 04:05:15 UTC 2022 org.apache.commons.math.util.FastMath,1749
+Thu Jun 30 04:05:17 UTC 2022 org.apache.commons.math.util.FastMath,1752
+Success time : 22/06/30 04:12

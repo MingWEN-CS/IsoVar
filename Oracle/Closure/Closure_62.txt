@@ -1,2 +1,4 @@
-buggy	com.google.javascript.jscomp.LightweightMessageFormatter	97	UPD	charno
-buggy	com.google.javascript.jscomp.LightweightMessageFormatter	97	UPD	sourceExcerpt
+com.google.javascript.jscomp.LightweightMessageFormatter	format(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	charno	buggy
+com.google.javascript.jscomp.LightweightMessageFormatter	format(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	sourceExcerpt	buggy
+com.google.javascript.jscomp.LightweightMessageFormatter	format(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	charno	fixed
+com.google.javascript.jscomp.LightweightMessageFormatter	format(Lcom/google/javascript/jscomp/JSError;Z)Ljava/lang/String;	sourceExcerpt	fixed

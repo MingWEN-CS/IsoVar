@@ -1,6 +1,12 @@
-buggy	com.google.javascript.jscomp.TypeInference	1060	UPD	traverse
-fix	com.google.javascript.jscomp.TypeInference	1055	INS	backwardsInferenceFromCallSite
-buggy	com.google.javascript.jscomp.TypeInference	1038	DEL	scope
-buggy	com.google.javascript.jscomp.TypeInference	1038	DEL	traverse
-buggy	com.google.javascript.jscomp.TypeInference	1059	DEL	arg
-buggy	com.google.javascript.jscomp.TypeInference	1059	DEL	constructor
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	arg	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	arg	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	arg	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	arg	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	scope	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	constructor	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	scope	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	scope	buggy
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	ct	fixed
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	scope	fixed
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	n	fixed
+com.google.javascript.jscomp.TypeInference	traverseNew(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/type/FlowScope;)Lcom/google/javascript/jscomp/type/FlowScope;	scope#2	fixed

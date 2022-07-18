@@ -1,2 +1,3 @@
-fix	org.mockito.exceptions.Reporter	438	INS	obj
-fix	org.mockito.exceptions.Reporter	442	INS	join
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowingInterceptor	intercept(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Lorg/mockito/cglib/proxy/MethodProxy;)Ljava/lang/Object;	this.location	buggy
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowingInterceptor	intercept(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Lorg/mockito/cglib/proxy/MethodProxy;)Ljava/lang/Object;	this.location	fixed
+org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$ThrowingInterceptor	intercept(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;Lorg/mockito/cglib/proxy/MethodProxy;)Ljava/lang/Object;	obj	fixed

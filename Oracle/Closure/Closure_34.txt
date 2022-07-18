@@ -1,15 +1,18 @@
-fix	com.google.javascript.jscomp.CodeGenerator	752	INS	cc
-buggy	com.google.javascript.jscomp.CodeGenerator	754	UPD	cc
-buggy	com.google.javascript.jscomp.CodeGenerator	122	UPD	addExpr
-buggy	com.google.javascript.jscomp.CodeGenerator	122	MOV	addExpr
-buggy	com.google.javascript.jscomp.CodeGenerator	123	MOV	cc
-buggy	com.google.javascript.jscomp.CodeGenerator	124	UPD	addExpr
-buggy	com.google.javascript.jscomp.CodeGenerator	124	MOV	addExpr
-fix	com.google.javascript.jscomp.CodeGenerator	122	INS	unrollBinaryOperator
-buggy	com.google.javascript.jscomp.CodeGenerator	124	MOV	p
-buggy	com.google.javascript.jscomp.CodeGenerator	122	DEL	addExpr
-buggy	com.google.javascript.jscomp.CodeGenerator	123	DEL	cc
-buggy	com.google.javascript.jscomp.CodeGenerator	124	DEL	addExpr
-fix	com.google.javascript.jscomp.CodePrinter	334	INS	getLastChar
-fix	com.google.javascript.jscomp.CodePrinter	334	INS	op
-buggy	com.google.javascript.jscomp.CodePrinter	334	MOV	getLastChar
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	p	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	opstr	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	last	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	this.cc	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	context	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	rhsContext	buggy
+com.google.javascript.jscomp.TypedCodeGenerator	getFunctionAnnotation(Lcom/google/javascript/rhino/Node;)Ljava/lang/String;	paramNode	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	first	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	p	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	opstr	fixed
+com.google.javascript.jscomp.CodeGenerator	unrollBinaryOperator(Lcom/google/javascript/rhino/Node;ILjava/lang/String;Lcom/google/javascript/jscomp/CodeGenerator$Context;Lcom/google/javascript/jscomp/CodeGenerator$Context;II)V	opStr	fixed
+com.google.javascript.jscomp.CodePrinter$PrettyCodePrinter	appendOp(Ljava/lang/String;Z)V	op	fixed
+com.google.javascript.jscomp.CodeGenerator	unrollBinaryOperator(Lcom/google/javascript/rhino/Node;ILjava/lang/String;Lcom/google/javascript/jscomp/CodeGenerator$Context;Lcom/google/javascript/jscomp/CodeGenerator$Context;II)V	this.cc	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	context	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	rhsContext	fixed
+com.google.javascript.jscomp.TypedCodeGenerator	getFunctionAnnotation(Lcom/google/javascript/rhino/Node;)Ljava/lang/String;	paramNode	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	type	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	n	fixed

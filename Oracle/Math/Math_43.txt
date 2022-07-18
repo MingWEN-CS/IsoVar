@@ -1,9 +1,21 @@
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	INS	meanImpl
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	INS	mean
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	INS	varianceImpl
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	INS	variance
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	INS	geoMeanImpl
-fix	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	INS	geoMean
-buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	158	DEL	meanImpl
-buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	161	DEL	varianceImpl
-buggy	org.apache.commons.math.stat.descriptive.SummaryStatistics	164	DEL	geoMeanImpl
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.n	buggy
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.meanImpl[]	buggy
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics	getMin()D	l1	buggy
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	v	buggy
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.varianceImpl	buggy
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics	getMin()D	this.statistics	buggy
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.meanImpl	buggy
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	i	buggy
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.geoMeanImpl	buggy
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.geoMean	fixed
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.n	fixed
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.meanImpl[]	fixed
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics	getMin()D	l1	fixed
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	v	fixed
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.mean	fixed
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.varianceImpl	fixed
+org.apache.commons.math.stat.descriptive.AggregateSummaryStatistics	getMin()D	this.statistics	fixed
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.variance	fixed
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	this.meanImpl	fixed
+org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics	addValue([D)V	i	fixed
+org.apache.commons.math.stat.descriptive.SummaryStatistics	addValue(D)V	this.geoMeanImpl	fixed

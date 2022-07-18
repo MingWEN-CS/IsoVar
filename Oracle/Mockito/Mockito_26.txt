@@ -1,0 +1,4 @@
+org.mockito.internal.util.Primitives	<clinit>()V	.primitiveValues	buggy
+org.mockito.internal.util.Primitives	<clinit>()V	.TYPE	buggy
+org.mockito.internal.util.Primitives	<clinit>()V	.primitiveValues	fixed
+org.mockito.internal.util.Primitives	<clinit>()V	.TYPE	fixed

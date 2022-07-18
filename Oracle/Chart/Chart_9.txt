@@ -1,3 +1,3 @@
-fix	org.jfree.data.time.TimeSeries	944	INS	endIndex
-fix	org.jfree.data.time.TimeSeries	944	INS	startIndex
-buggy	org.jfree.data.time.TimeSeries	944	MOV	endIndex
+org.jfree.data.time.TimeSeries	createCopy(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	endIndex	buggy
+org.jfree.data.time.TimeSeries	createCopy(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	startIndex	fixed
+org.jfree.data.time.TimeSeries	createCopy(Lorg/jfree/data/time/RegularTimePeriod;Lorg/jfree/data/time/RegularTimePeriod;)Lorg/jfree/data/time/TimeSeries;	endIndex	fixed

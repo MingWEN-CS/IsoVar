@@ -1,5 +1,6 @@
-buggy	org.jfree.data.xy.XYSeries	548	MOV	index
-buggy	org.jfree.data.xy.XYSeries	548	MOV	allowDuplicateXValues
-fix	org.jfree.data.xy.XYSeries	545	INS	add
-buggy	org.jfree.data.xy.XYSeries	548	DEL	index
-buggy	org.jfree.data.xy.XYSeries	548	DEL	allowDuplicateXValues
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	this.allowDuplicateXValues	buggy
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	index	buggy
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	this.allowDuplicateXValues	fixed
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	x	fixed
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	y	fixed
+org.jfree.data.xy.XYSeries	addOrUpdate(Ljava/lang/Number;Ljava/lang/Number;)Lorg/jfree/data/xy/XYDataItem;	index	fixed

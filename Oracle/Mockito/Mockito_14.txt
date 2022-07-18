@@ -1,7 +1,7 @@
-fix	org.mockito.internal.MockHandler	20	INS	org.mockito.internal.verification.MockAwareVerificationMode
-fix	org.mockito.internal.MockHandler	77	INS	verificationMode
-fix	org.mockito.internal.MockHandler	77	INS	invocation
-fix	org.mockito.internal.MockitoCore	23	INS	org.mockito.internal.verification.MockAwareVerificationMode
-fix	org.mockito.internal.MockitoCore	74	INS	mock
-fix	org.mockito.internal.MockitoCore	74	INS	mode
-buggy	org.mockito.internal.MockitoCore	73	DEL	mockingProgress
+org.mockito.internal.MockitoCore	verify(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	mode	buggy
+org.mockito.internal.MockitoCore	verify(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	this.mockingProgress	buggy
+org.mockito.internal.MockitoCore	verify(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	mode	fixed
+org.mockito.internal.MockHandler	handle(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	invocation	fixed
+org.mockito.internal.MockHandler	handle(Lorg/mockito/internal/invocation/Invocation;)Ljava/lang/Object;	invocationMatcher	fixed
+org.mockito.internal.MockitoCore	verify(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	this.mockingProgress	fixed
+org.mockito.internal.MockitoCore	verify(Ljava/lang/Object;Lorg/mockito/verification/VerificationMode;)Ljava/lang/Object;	mock	fixed

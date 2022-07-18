@@ -1,3 +1,8 @@
-buggy	org.apache.commons.math.estimation.AbstractEstimator	166	UPD	problem
-buggy	org.apache.commons.math.estimation.AbstractEstimator	202	UPD	problem
-buggy	org.apache.commons.math.estimation.AbstractEstimator	207	UPD	problem
+org.apache.commons.math.estimation.AbstractEstimator	guessParametersErrors(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	p	buggy
+org.apache.commons.math.estimation.AbstractEstimator	getCovariances(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	problem	buggy
+org.apache.commons.math.estimation.AbstractEstimator	getCovariances(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	cols	buggy
+org.apache.commons.math.estimation.AbstractEstimator	guessParametersErrors(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	errors	buggy
+org.apache.commons.math.estimation.AbstractEstimator	guessParametersErrors(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	p	fixed
+org.apache.commons.math.estimation.AbstractEstimator	getCovariances(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	problem	fixed
+org.apache.commons.math.estimation.AbstractEstimator	getCovariances(Lorg/apache/commons/math/estimation/EstimationProblem;)[[D	cols	fixed
+org.apache.commons.math.estimation.AbstractEstimator	guessParametersErrors(Lorg/apache/commons/math/estimation/EstimationProblem;)[D	errors	fixed

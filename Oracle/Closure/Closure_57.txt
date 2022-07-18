@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.ClosureCodingConvention	197	INS	target
-fix	com.google.javascript.jscomp.ClosureCodingConvention	197	INS	Token.STRING
-buggy	com.google.javascript.jscomp.ClosureCodingConvention	197	MOV	target
+com.google.javascript.jscomp.ClosureCodingConvention	extractClassNameIfGoog(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Ljava/lang/String;)Ljava/lang/String;	target	buggy
+com.google.javascript.jscomp.ClosureCodingConvention	extractClassNameIfGoog(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Ljava/lang/String;)Ljava/lang/String;	target	fixed

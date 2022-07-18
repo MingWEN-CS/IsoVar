@@ -1,5 +1,3 @@
-fix	com.google.javascript.jscomp.NodeUtil	958	INS	nameNode
-fix	com.google.javascript.jscomp.NodeUtil	958	INS	Token.NAME
-fix	com.google.javascript.jscomp.NodeUtil	959	INS	namespaceName
-fix	com.google.javascript.jscomp.NodeUtil	960	INS	namespaceName
-fix	com.google.javascript.jscomp.NodeUtil	959	INS	nameNode
+com.google.javascript.jscomp.NodeUtil	functionCallHasSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	name	fixed
+com.google.javascript.jscomp.NodeUtil	functionCallHasSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	name	fixed
+com.google.javascript.jscomp.NodeUtil	functionCallHasSideEffects(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/AbstractCompiler;)Z	nameNode	fixed

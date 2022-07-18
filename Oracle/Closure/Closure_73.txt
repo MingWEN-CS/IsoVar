@@ -1,1 +1,2 @@
-buggy	com.google.javascript.jscomp.CodeGenerator	1045	UPD	c
+com.google.javascript.jscomp.CodeGenerator	strEscape(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	c	buggy
+com.google.javascript.jscomp.CodeGenerator	strEscape(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	c	fixed

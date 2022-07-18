@@ -1,12 +1,16 @@
-buggy	org.apache.commons.lang3.StringUtils	3298	UPD	array
-buggy	org.apache.commons.lang3.StringUtils	3298	UPD	startIndex
-buggy	org.apache.commons.lang3.StringUtils	3383	UPD	array
-buggy	org.apache.commons.lang3.StringUtils	3383	UPD	startIndex
-buggy	org.apache.commons.lang3.StringUtils	3383	UPD	separator
-fix	org.apache.commons.lang3.StringUtils	3298	INS	noOfItems
-fix	org.apache.commons.lang3.StringUtils	3383	INS	noOfItems
-buggy	org.apache.commons.lang3.StringUtils	3298	DEL	array
-buggy	org.apache.commons.lang3.StringUtils	3298	DEL	startIndex
-buggy	org.apache.commons.lang3.StringUtils	3383	DEL	array
-buggy	org.apache.commons.lang3.StringUtils	3383	DEL	startIndex
-buggy	org.apache.commons.lang3.StringUtils	3383	DEL	separator
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	array[]	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	array[]	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	array[]	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	array[]	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	separator	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	startIndex	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	startIndex	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	buf	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	startIndex	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	startIndex	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	array	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	array	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	array	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;Ljava/lang/String;II)Ljava/lang/String;	array	buggy
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	buf	fixed
+org.apache.commons.lang3.StringUtils	join([Ljava/lang/Object;CII)Ljava/lang/String;	noOfItems	fixed

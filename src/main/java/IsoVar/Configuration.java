@@ -1,23 +1,24 @@
 package IsoVar;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashSet;
 import java.util.Set;
 
 import static IsoVar.MainClass.isLinux;
 
 public class Configuration {
-    public final String instrMapping = "InstrMapping/";
-    public final String oracleRootPath = "Oracle/";
-    public final String mutantsRootPath = "Mutants/";
-    public final String TestRoot = "FailingAndPassing/";
-    public final String ReportRoot = "test-report/";
+    public static final String instrMapping = "InstrMapping/";
+    public static final String oracleRootPath = "Oracle/";
+    public static final String mutantsRootPath = "Mutants/";
+    public static final String ReportRoot = "report/";
     public final String metricRoot = "metric/";
     //    public final String similaritiesRoot = "Similarities/";
-    public final String instrMappingRoot = "InstrMapping/";
+    public static final String instrMappingRoot = "InstrMapping/";
     public final String suspiciousProject = "SuspiciousProject/";
-    public final String IsoVarRoot = System.getProperty("user.dir");
-    public final String dependencies = "dependencies/*";
+    public static final String IsoVarRoot = System.getProperty("user.dir");
     public Set<Integer> deprecated = new HashSet<>();
     public String targetPath;
     public String testPath;
@@ -35,9 +36,9 @@ public class Configuration {
     private String report_dir;
     private String dependency;
     private String phase;
-    private double alpha;
-    private double beta;
-    private double gamma;
+    private double alpha = 0.4;
+    private double beta = 0.9;
+    private double gamma = 1;
     private int max_mutation;
 
 
@@ -70,8 +71,10 @@ public class Configuration {
             File file = new File(dependency);
             if (!file.exists())
                 throw new RuntimeException("dependency file is not exist.");
-            if (file.isFile()) {
-                InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            Path path = file.toPath();
+            BasicFileAttributes basicFileAttributes = Files.readAttributes(path, BasicFileAttributes.class);
+            if (basicFileAttributes.isRegularFile()) {
+                InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(path));
                 BufferedReader bf = new BufferedReader(inputReader);
                 String line;
                 while ((line = bf.readLine()) != null) {
@@ -83,7 +86,7 @@ public class Configuration {
                 }
                 bf.close();
                 inputReader.close();
-            } else if (file.isDirectory())
+            } else if (basicFileAttributes.isDirectory())
                 this.dependency = System.getProperty("user.dir") + "/junit/*;" + dependency + "/*";
         } catch (IOException e) {
             e.printStackTrace();
@@ -186,13 +189,14 @@ public class Configuration {
         return current;
     }
 
-    public void setCurrent(int current) {
+    public boolean setCurrent(int current) {
         this.current = current;
         if (deprecated.contains(current)) {
-            System.err.println("the bug is deprecated");
-            System.exit(0);
+            System.err.println("the bug " + projectName + "_" + current + " is deprecated");
+            return false;
         }
         reviseProjectPath(current);
+        return true;
     }
 
     public String getBaselineRankingFile(String name) {
@@ -214,15 +218,17 @@ public class Configuration {
 
     public void setProjectRoot(String projectRoot) {
         File file = new File(projectRoot);
-        if(!file.exists())
-            throw new RuntimeException("the target project "+projectRoot+" is no exist");
+        if (getPhase().equals("parameters_tuning"))
+            return;
+        if (!file.exists())
+            throw new RuntimeException("the target project " + projectRoot + " is no exist");
         project_root = projectRoot;
     }
 
     public String getFixedProjectTargetPath() {
         if (!projectName.equals("Bears"))
-//            return "/data/MutationAnalysis/target_classes/" +
-            return "E:/target_classes/" +
+            return "/data/MutationAnalysis/target_classes/" +
+//            return "E:/target_classes/" +
                     getProjectName() + "/" +
                     getProjectName() + "_" + getCurrent() + "_fixed/" + targetPath;
         else
@@ -311,7 +317,7 @@ public class Configuration {
     private void readNoWork() {
         File file = new File("NoWork.txt");
         try {
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
@@ -338,7 +344,7 @@ public class Configuration {
     public String getPatchFile() {
         if (!projectName.equals("Bears"))
 //            return "Oracle/25.src.patch";
-            return "/home/xiezifan/MutationAnalysis/defects4j/framework/projects/"
+            return "/home/xiezifan/tools/defects4j/framework/projects/"
                     + projectName + "/patches/" + current + ".src.patch";
         else
             return "/data/luokaixuan/bears_fixed/" + projectName + "-" + current + ".patch";

@@ -1,8 +1,3 @@
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	validateMockingConcreteClass
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	answer
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	33	INS	invocation
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	28	INS	answer
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	29	INS	validateMockingConcreteClass
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	34	INS	invocation
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	35	INS	reporter
-fix	org.mockito.internal.stubbing.answers.AnswersValidator	29	INS	answer
+org.mockito.internal.stubbing.answers.AnswersValidator	validate(Lorg/mockito/stubbing/Answer;Lorg/mockito/internal/invocation/Invocation;)V	invocation	fixed
+org.mockito.internal.stubbing.answers.AnswersValidator	validate(Lorg/mockito/stubbing/Answer;Lorg/mockito/internal/invocation/Invocation;)V	answer	fixed
+org.mockito.internal.stubbing.answers.AnswersValidator	validateMockingConcreteClass(Lorg/mockito/internal/stubbing/answers/CallsRealMethods;Lorg/mockito/internal/invocation/Invocation;)V	this.reporter	fixed

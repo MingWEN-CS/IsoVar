@@ -1,4 +1,2 @@
-fix	org.apache.commons.lang.WordUtils	616	INS	lower
-fix	org.apache.commons.lang.WordUtils	616	INS	str
-fix	org.apache.commons.lang.WordUtils	617	INS	lower
-fix	org.apache.commons.lang.WordUtils	617	INS	str
+org.apache.commons.lang.WordUtils	abbreviate(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	str	fixed
+org.apache.commons.lang.WordUtils	abbreviate(Ljava/lang/String;IILjava/lang/String;)Ljava/lang/String;	lower	fixed

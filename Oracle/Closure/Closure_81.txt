@@ -1,8 +1,5 @@
-buggy	com.google.javascript.jscomp.parsing.IRFactory	516	MOV	name
-fix	com.google.javascript.jscomp.parsing.IRFactory	518	INS	functionType
-fix	com.google.javascript.jscomp.parsing.IRFactory	518	INS	FunctionNode.FUNCTION_EXPRESSION
-fix	com.google.javascript.jscomp.parsing.IRFactory	517	INS	functionType
-fix	com.google.javascript.jscomp.parsing.IRFactory	517	INS	functionNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	519	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	521	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	522	INS	functionNode
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	this.this$0	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	functionType	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	functionType	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	functionNode	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/jscomp/mozilla/rhino/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	functionNode	fixed

@@ -1,2 +1,8 @@
-fix	org.joda.time.Partial	464	INS	iChronology
-buggy	org.joda.time.Partial	464	DEL	iChronology
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newTypes	buggy
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newPartial	buggy
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	this.iChronology	buggy
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newValues	buggy
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newTypes	fixed
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newPartial	fixed
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	this.iChronology	fixed
+org.joda.time.Partial	with(Lorg/joda/time/DateTimeFieldType;I)Lorg/joda/time/Partial;	newValues	fixed

@@ -1,6 +1,3 @@
-fix	org.apache.commons.lang3.StringUtils	788	INS	cs1
-fix	org.apache.commons.lang3.StringUtils	788	INS	cs2
-fix	org.apache.commons.lang3.StringUtils	791	INS	CharSequenceUtils
-fix	org.apache.commons.lang3.StringUtils	791	INS	Math
-fix	org.apache.commons.lang3.StringUtils	791	INS	cs1
-fix	org.apache.commons.lang3.StringUtils	791	INS	cs2
+org.apache.commons.lang3.StringUtils	equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z	cs1	fixed
+org.apache.commons.lang3.StringUtils	equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z	cs1	fixed
+org.apache.commons.lang3.StringUtils	equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z	cs2	fixed

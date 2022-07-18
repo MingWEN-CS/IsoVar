@@ -1,1 +1,7 @@
-buggy	org.apache.commons.math.util.FastMath	3482	UPD	b
+org.apache.commons.math.util.FastMath	max(FF)F	a	buggy
+org.apache.commons.math.util.FastMath	max(FF)F	a	buggy
+org.apache.commons.math.util.FastMath	max(FF)F	b	buggy
+org.apache.commons.math.util.FastMath	max(FF)F	a	fixed
+org.apache.commons.math.util.FastMath	max(FF)F	a	fixed
+org.apache.commons.math.util.FastMath	max(FF)F	a	fixed
+org.apache.commons.math.util.FastMath	max(FF)F	b	fixed

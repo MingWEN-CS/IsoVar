@@ -1,3 +1,6 @@
-fix	org.apache.commons.lang3.builder.ToStringStyle	164	INS	m
-buggy	org.apache.commons.lang3.builder.ToStringStyle	148	DEL	REGISTRY
-buggy	org.apache.commons.lang3.builder.ToStringStyle	148	DEL	Collections
+org.apache.commons.lang3.builder.ToStringStyle	getRegistry()Ljava/util/Map;	.REGISTRY	buggy
+org.apache.commons.lang3.builder.ToStringStyle	isRegistered(Ljava/lang/Object;)Z	value	buggy
+org.apache.commons.lang3.builder.ToStringStyle	isRegistered(Ljava/lang/Object;)Z	m	buggy
+org.apache.commons.lang3.builder.ToStringStyle	getRegistry()Ljava/util/Map;	.REGISTRY	fixed
+org.apache.commons.lang3.builder.ToStringStyle	isRegistered(Ljava/lang/Object;)Z	m	fixed
+org.apache.commons.lang3.builder.ToStringStyle	isRegistered(Ljava/lang/Object;)Z	value	fixed

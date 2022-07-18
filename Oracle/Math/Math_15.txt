@@ -1,3 +1,4 @@
-fix	org.apache.commons.math3.util.FastMath	313	INS	TWO_POWER_53
-fix	org.apache.commons.math3.util.FastMath	313	INS	TWO_POWER_52
-buggy	org.apache.commons.math3.util.FastMath	1541	UPD	TWO_POWER_52
+org.apache.commons.math3.util.FastMath	pow(DD)D	y	buggy
+org.apache.commons.math3.util.FastMathCalc	slowexp(D[D)D	ys[]	fixed
+org.apache.commons.math3.util.FastMathCalc	slowexp(D[D)D	as[]	fixed
+org.apache.commons.math3.util.FastMath	pow(DD)D	y	fixed

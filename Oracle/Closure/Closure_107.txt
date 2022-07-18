@@ -1,1 +1,4 @@
-fix	com.google.javascript.jscomp.CommandLineRunner	862	INS	options
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	.OFF	fixed
+com.google.javascript.jscomp.AbstractCommandLineRunner	processResults(Lcom/google/javascript/jscomp/Result;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)I	options	fixed
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	.MSG_CONVENTIONS	fixed
+com.google.javascript.jscomp.AbstractCommandLineRunner	processResults(Lcom/google/javascript/jscomp/Result;Ljava/util/List;Lcom/google/javascript/jscomp/CompilerOptions;)I	modules	fixed

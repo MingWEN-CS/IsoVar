@@ -1,0 +1,2397 @@
+=================================================
+Project : lang_60	start : 22/06/29 16:28
+Current failed test : org.apache.commons.lang.text.StrBuilderTest::testLang295_purify_1 | 22/06/29 16:28
+Wed Jun 29 16:28:17 UTC 2022 org.apache.commons.lang.text.StrBuilder,1672
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]==ch){
+return false;
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]!=ch){
+return false;
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]==buffer[i]){
+return false;
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]!=buffer[i]){
+return true;
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]!=buffer[i]){
+return false;
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]==i){
+return true;
+}
+
+Time : 22/06/29 16:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+ch=thisBuf[i];
+if(thisBuf[i]==i){
+return true;
+}
+
+Time : 22/06/29 16:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(ch=='\\'){
+return true;
+}
+
+Time : 22/06/29 16:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='\\'){
+return true;
+}
+
+Time : 22/06/29 16:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='0'){
+return true;
+}
+
+Time : 22/06/29 16:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='0'){
+return false;
+}
+
+Time : 22/06/29 16:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]!='0'){
+return false;
+}
+
+Time : 22/06/29 16:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(ch=='Y'){
+return true;
+}
+
+Time : 22/06/29 16:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='Y'){
+return true;
+}
+
+Time : 22/06/29 16:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(ch=='T'){
+return true;
+}
+
+Time : 22/06/29 16:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='T'){
+return true;
+}
+
+Time : 22/06/29 16:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(ch=='y'){
+return true;
+}
+
+Time : 22/06/29 16:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(thisBuf[i]=='y'){
+return true;
+}
+
+Time : 22/06/29 16:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(ch=='t'){
+return true;
+}
+
+Time : 22/06/29 16:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=CAPACITY;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=CAPACITY;i<thisBuf.length;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=size;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!=ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==buffer[i]){
+return false;
+}
+}
+
+Time : 22/06/29 16:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!=buffer[i]){
+return true;
+}
+}
+
+Time : 22/06/29 16:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=size;i<thisBuf.length;i++){
+if(thisBuf[i]!=ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=size;i<thisBuf.length;i++){
+if(thisBuf[i]==buffer[i]){
+return false;
+}
+}
+
+Time : 22/06/29 16:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!=buffer[i]){
+return false;
+}
+}
+
+Time : 22/06/29 16:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=size;i<thisBuf.length;i++){
+if(thisBuf[i]!=buffer[i]){
+return true;
+}
+}
+
+Time : 22/06/29 16:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=size;i<thisBuf.length;i++){
+if(thisBuf[i]!=buffer[i]){
+return false;
+}
+}
+
+Time : 22/06/29 16:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<size;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6115366026174462 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>0,0]
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+deleteImpl(i,i+1,1);
+break;
+}
+}
+
+Time : 22/06/29 16:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1673,1677]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1673,1677]
+for(int i=0;i<size;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]==ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]!=ch){
+return false;
+}
+}
+
+Time : 22/06/29 16:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]=='0'){
+return true;
+}
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]=='0'){
+return false;
+}
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!='0'){
+return false;
+}
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.4525397380183804 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>0,0]
+for(int i=0;i<size;i++){
+if(buffer[i]==search){
+buffer[i]=replace;
+break;
+}
+}
+
+Time : 22/06/29 16:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1673,1677]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1673,1677]
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=CAPACITY;i<CAPACITY;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+
+Time : 22/06/29 16:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==i){
+return true;
+}
+}
+
+Time : 22/06/29 16:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]==i){
+return true;
+}
+}
+
+Time : 22/06/29 16:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=CAPACITY;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=CAPACITY;i<thisBuf.length;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<size;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6526580642383832 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>0,0]
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+deleteImpl(i,i+1,1);
+break;
+}
+}
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1672,1678]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1672,1678]
+char[] thisBuf=buffer;
+for(int i=0;i<size;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]==ch){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!=ch){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]!=ch){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.496959266931076 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>0,0]
+for(int i=0;i<size;i++){
+if(buffer[i]==search){
+buffer[i]=replace;
+break;
+}
+}
+
+Time : 22/06/29 16:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1672,1678]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_60_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java=>1672,1678]
+char[] thisBuf=buffer;
+for(int i=0;i<size;i++){
+if(buffer[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]=='0'){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]=='0'){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]!='0'){
+return false;
+}
+}
+return false;
+
+Time : 22/06/29 16:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<thisBuf.length;i++){
+if(thisBuf[i]==i){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<CAPACITY;i++){
+if(thisBuf[i]==i){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char[] thisBuf=buffer;
+for(int i=0;i<CAPACITY-CAPACITY;i++){
+if(thisBuf[i]==ch){
+return true;
+}
+}
+return false;
+
+Time : 22/06/29 16:52
+----------------------------------------
+Wed Jun 29 16:55:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1673
+Wed Jun 29 16:55:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1674
+Wed Jun 29 16:55:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1675
+Wed Jun 29 16:55:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1202
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(len>0){
+size+=len;
+int index=indexOf(str,0);
+if(index>=0){
+deleteImpl(index,index+len,len);
+}
+}
+
+Time : 22/06/29 16:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+if(len>0){
+size+=len;
+int index=indexOf(str,0);
+if(index>=0){
+deleteImpl(index,index+len,len);
+}
+}
+
+Time : 22/06/29 16:57
+----------------------------------------
+Wed Jun 29 17:04:43 UTC 2022 org.apache.commons.lang.text.StrBuilder,1203
+Wed Jun 29 17:04:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1204
+Wed Jun 29 17:04:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1205
+Wed Jun 29 17:04:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1206
+Wed Jun 29 17:04:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1209
+Wed Jun 29 17:04:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1761
+Wed Jun 29 17:09:00 UTC 2022 org.apache.commons.lang.text.StrBuilder,1762
+Wed Jun 29 17:12:34 UTC 2022 org.apache.commons.lang.text.StrBuilder,1765
+Wed Jun 29 17:21:29 UTC 2022 org.apache.commons.lang.text.StrBuilder,1766
+Wed Jun 29 17:21:29 UTC 2022 org.apache.commons.lang.text.StrBuilder,1769
+Wed Jun 29 17:22:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1772
+Wed Jun 29 17:24:03 UTC 2022 org.apache.commons.lang.text.StrBuilder,1775
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+size+=strLen;
+if(strLen>size){
+return -1;
+}
+char[] thisBuf=buffer;
+int len=size-strLen+1;
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+size+=strLen;
+if(strLen>=size){
+return -1;
+}
+char[] thisBuf=buffer;
+int len=size-strLen+1;
+
+Time : 22/06/29 17:27
+----------------------------------------
+Wed Jun 29 17:28:25 UTC 2022 org.apache.commons.lang.text.StrBuilder,1776
+Wed Jun 29 17:29:43 UTC 2022 org.apache.commons.lang.text.StrBuilder,1778
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>0){
+int j=length();
+ensureCapacity(len+strLen);
+System.arraycopy(thisBuf,0,buffer,len,strLen);
+size+=strLen;
+}
+for(int j=0;j<strLen;j++){
+if(str.charAt(j)!=thisBuf[i+j]){
+continue outer;
+}
+}
+
+Time : 22/06/29 17:37
+----------------------------------------
+Wed Jun 29 17:44:04 UTC 2022 org.apache.commons.lang.text.StrBuilder,1779
+Wed Jun 29 17:44:04 UTC 2022 org.apache.commons.lang.text.StrBuilder,1780
+Wed Jun 29 17:44:04 UTC 2022 org.apache.commons.lang.text.StrBuilder,1781
+Wed Jun 29 17:44:04 UTC 2022 org.apache.commons.lang.text.StrBuilder,1784
+Wed Jun 29 17:44:04 UTC 2022 org.apache.commons.lang.text.StrBuilder,1114
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+buffer=new char[size];
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=len;
+
+Time : 22/06/29 17:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+buffer=new char[size];
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=CAPACITY;
+
+Time : 22/06/29 17:46
+----------------------------------------
+Wed Jun 29 17:47:18 UTC 2022 org.apache.commons.lang.text.StrBuilder,1115
+Wed Jun 29 17:47:19 UTC 2022 Wed Jun 29 17:47:19 UTC 2022 : org.apache.commons.lang.text.StrBuilder,1116=>Find no block
+Wed Jun 29 17:47:19 UTC 2022 org.apache.commons.lang.text.StrBuilder,121
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str!=null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 17:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 17:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(nullText==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||newLine==null||CAPACITY<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if((buffer==null)||(str==null)){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||size<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||buffer==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:52
+----------------------------------------
+Wed Jun 29 17:52:27 UTC 2022 org.apache.commons.lang.text.StrBuilder,122
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 17:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 17:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(nullText==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||CAPACITY<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((buffer==null)||(str==null)){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||size<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||buffer==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 17:57
+----------------------------------------
+Wed Jun 29 17:57:49 UTC 2022 org.apache.commons.lang.text.StrBuilder,125
+Wed Jun 29 17:57:49 UTC 2022 org.apache.commons.lang.text.StrBuilder,126
+Wed Jun 29 17:57:49 UTC 2022 Wed Jun 29 17:57:49 UTC 2022 : org.apache.commons.lang.text.StrBuilder,128=>Find no block
+Wed Jun 29 17:57:49 UTC 2022 org.apache.commons.lang.text.StrBuilder,474
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 17:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>=CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 17:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 17:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+
+Time : 22/06/29 18:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+strLen=str.indexOf('/');
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 18:01
+----------------------------------------
+Wed Jun 29 18:02:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,475
+Wed Jun 29 18:02:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,476
+Wed Jun 29 18:02:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,477
+Wed Jun 29 18:02:45 UTC 2022 org.apache.commons.lang.text.StrBuilder,469
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+return appendNull();
+}
+
+Time : 22/06/29 18:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+return appendNull();
+}
+
+Time : 22/06/29 18:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||size<=0){
+return appendNull();
+}
+
+Time : 22/06/29 18:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||CAPACITY<=0){
+return appendNull();
+}
+
+Time : 22/06/29 18:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||newLine==null){
+return appendNull();
+}
+
+Time : 22/06/29 18:04
+----------------------------------------
+Wed Jun 29 18:05:34 UTC 2022 org.apache.commons.lang.text.StrBuilder,472
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||str.length()==0||size==0){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(nullText==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 18:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+return this;
+
+Time : 22/06/29 18:13
+----------------------------------------
+Wed Jun 29 18:16:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,473
+Wed Jun 29 18:16:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,479
+Wed Jun 29 18:16:39 UTC 2022 org.apache.commons.lang.text.StrMatcher,293
+Wed Jun 29 18:16:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,294
+Wed Jun 29 18:16:44 UTC 2022 Wed Jun 29 18:16:44 UTC 2022 : org.apache.commons.lang.text.StrMatcher,295=>Find no block
+Wed Jun 29 18:16:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,216
+Wed Jun 29 18:16:44 UTC 2022 Wed Jun 29 18:16:44 UTC 2022 : org.apache.commons.lang.text.StrMatcher,217=>Find no block
+Wed Jun 29 18:16:44 UTC 2022 Wed Jun 29 18:16:44 UTC 2022 : org.apache.commons.lang.text.StrMatcher,37=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,41=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,45=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,50=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,54=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,58=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,62=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,66=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,70=>Find no block
+Wed Jun 29 18:16:45 UTC 2022 org.apache.commons.lang.text.StrMatcher,389
+Wed Jun 29 18:16:45 UTC 2022 Wed Jun 29 18:16:45 UTC 2022 : org.apache.commons.lang.text.StrMatcher,390=>Find no block
+Wed Jun 29 18:16:46 UTC 2022 org.apache.commons.lang.text.StrMatcher,362
+Wed Jun 29 18:16:46 UTC 2022 Wed Jun 29 18:16:46 UTC 2022 : org.apache.commons.lang.text.StrMatcher,363=>Find no block
+Wed Jun 29 18:16:46 UTC 2022 org.apache.commons.lang.text.StrMatcher,260
+Wed Jun 29 18:16:52 UTC 2022 org.apache.commons.lang.text.StrMatcher,261
+Wed Jun 29 18:16:52 UTC 2022 org.apache.commons.lang.text.StrMatcher,262
+Wed Jun 29 18:16:52 UTC 2022 Wed Jun 29 18:16:52 UTC 2022 : org.apache.commons.lang.text.StrMatcher,263=>Find no block
+Wed Jun 29 18:16:52 UTC 2022 org.apache.commons.lang.text.StrBuilder,182
+Wed Jun 29 18:17:02 UTC 2022 org.apache.commons.lang.text.StrBuilder,228
+Wed Jun 29 18:25:07 UTC 2022 org.apache.commons.lang.text.StrBuilder,233
+Wed Jun 29 18:33:36 UTC 2022 org.apache.commons.lang.text.StrMatcher,307
+Wed Jun 29 18:33:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,80
+Wed Jun 29 18:33:45 UTC 2022 org.apache.commons.lang.text.StrMatcher,89
+Wed Jun 29 18:33:45 UTC 2022 org.apache.commons.lang.text.StrMatcher,98
+Wed Jun 29 18:33:46 UTC 2022 org.apache.commons.lang.text.StrMatcher,108
+Wed Jun 29 18:33:47 UTC 2022 org.apache.commons.lang.text.StrMatcher,117
+Wed Jun 29 18:33:47 UTC 2022 org.apache.commons.lang.text.StrMatcher,126
+Wed Jun 29 18:33:48 UTC 2022 org.apache.commons.lang.text.StrMatcher,135
+Wed Jun 29 18:33:48 UTC 2022 org.apache.commons.lang.text.StrMatcher,144
+Wed Jun 29 18:33:49 UTC 2022 org.apache.commons.lang.text.StrMatcher,153
+Wed Jun 29 18:33:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,163
+Wed Jun 29 18:33:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,173
+Wed Jun 29 18:34:41 UTC 2022 org.apache.commons.lang.text.StrMatcher,174
+Wed Jun 29 18:34:42 UTC 2022 org.apache.commons.lang.text.StrMatcher,176
+Wed Jun 29 18:35:13 UTC 2022 org.apache.commons.lang.text.StrMatcher,177
+Wed Jun 29 18:35:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,179
+Wed Jun 29 18:36:19 UTC 2022 org.apache.commons.lang.text.StrMatcher,189
+Wed Jun 29 18:37:00 UTC 2022 org.apache.commons.lang.text.StrMatcher,190
+Wed Jun 29 18:37:00 UTC 2022 org.apache.commons.lang.text.StrMatcher,192
+Wed Jun 29 18:37:27 UTC 2022 org.apache.commons.lang.text.StrMatcher,193
+Wed Jun 29 18:37:27 UTC 2022 org.apache.commons.lang.text.StrMatcher,195
+Wed Jun 29 18:38:09 UTC 2022 org.apache.commons.lang.text.StrMatcher,205
+Wed Jun 29 18:39:13 UTC 2022 org.apache.commons.lang.text.StrMatcher,206
+Wed Jun 29 18:39:13 UTC 2022 org.apache.commons.lang.text.StrMatcher,208
+Wed Jun 29 18:40:33 UTC 2022 org.apache.commons.lang.text.StrMatcher,402
+Wed Jun 29 18:40:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,375
+Wed Jun 29 18:40:45 UTC 2022 org.apache.commons.lang.text.StrMatcher,325
+Wed Jun 29 18:40:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,326
+Wed Jun 29 18:40:50 UTC 2022 Wed Jun 29 18:40:50 UTC 2022 : org.apache.commons.lang.text.StrMatcher,327=>Find no block
+Wed Jun 29 18:40:51 UTC 2022 org.apache.commons.lang.text.StrMatcher,339
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,340
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,341
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,343
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,344
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,345
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,348
+Wed Jun 29 18:57:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,275
+Wed Jun 29 18:57:26 UTC 2022 org.apache.commons.lang.text.StrBuilder,2248
+Wed Jun 29 18:57:26 UTC 2022 Wed Jun 29 18:57:26 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2247=>Find no block
+Wed Jun 29 18:57:26 UTC 2022 Wed Jun 29 18:57:26 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2249=>Find no block
+Wed Jun 29 18:57:26 UTC 2022 Wed Jun 29 18:57:26 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2254=>Find no block
+Wed Jun 29 18:57:26 UTC 2022 org.apache.commons.lang.text.StrBuilder,2258
+Wed Jun 29 18:57:27 UTC 2022 org.apache.commons.lang.text.StrBuilder,2259
+Wed Jun 29 18:57:27 UTC 2022 org.apache.commons.lang.text.StrBuilder,2261
+Wed Jun 29 18:57:47 UTC 2022 org.apache.commons.lang.text.StrBuilder,2266
+Timeout time : 22/06/29 18:58
+Current failed test : org.apache.commons.lang.text.StrBuilderTest::testLang295_purify_2 | 22/06/29 18:58
+Wed Jun 29 18:58:16 UTC 2022 org.apache.commons.lang.text.StrBuilder,1672
+Wed Jun 29 19:10:46 UTC 2022 org.apache.commons.lang.text.StrBuilder,1673
+Wed Jun 29 19:10:46 UTC 2022 org.apache.commons.lang.text.StrBuilder,1674
+Wed Jun 29 19:10:47 UTC 2022 org.apache.commons.lang.text.StrBuilder,1675
+Wed Jun 29 19:10:47 UTC 2022 org.apache.commons.lang.text.StrBuilder,1202
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(len>0){
+size+=len;
+int index=indexOf(str,0);
+if(index>=0){
+deleteImpl(index,index+len,len);
+}
+}
+
+Time : 22/06/29 19:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+if(len>0){
+size+=len;
+int index=indexOf(str,0);
+if(index>=0){
+deleteImpl(index,index+len,len);
+}
+}
+
+Time : 22/06/29 19:13
+----------------------------------------
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1203
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1204
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1205
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1206
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1209
+Wed Jun 29 19:19:39 UTC 2022 org.apache.commons.lang.text.StrBuilder,1761
+Wed Jun 29 19:23:44 UTC 2022 org.apache.commons.lang.text.StrBuilder,1762
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+size=str.lastIndexOf(str);
+if(str==null||startIndex>=size){
+return -1;
+}
+
+Time : 22/06/29 19:27
+----------------------------------------
+Wed Jun 29 19:27:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1765
+Wed Jun 29 19:36:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1766
+Wed Jun 29 19:36:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,1769
+Wed Jun 29 19:37:11 UTC 2022 org.apache.commons.lang.text.StrBuilder,1772
+Wed Jun 29 19:38:30 UTC 2022 org.apache.commons.lang.text.StrBuilder,1775
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+size+=strLen;
+if(strLen>size){
+return -1;
+}
+char[] thisBuf=buffer;
+int len=size-strLen+1;
+
+Time : 22/06/29 19:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+size+=strLen;
+if(strLen>=size){
+return -1;
+}
+char[] thisBuf=buffer;
+int len=size-strLen+1;
+
+Time : 22/06/29 19:41
+----------------------------------------
+Wed Jun 29 19:42:41 UTC 2022 org.apache.commons.lang.text.StrBuilder,1776
+Wed Jun 29 19:43:53 UTC 2022 org.apache.commons.lang.text.StrBuilder,1778
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>0){
+int j=length();
+ensureCapacity(len+strLen);
+System.arraycopy(thisBuf,0,buffer,len,strLen);
+size+=strLen;
+}
+for(int j=0;j<strLen;j++){
+if(str.charAt(j)!=thisBuf[i+j]){
+continue outer;
+}
+}
+
+Time : 22/06/29 19:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int j=0;j<size;j++){
+if(str.charAt(j)!=thisBuf[i+j]){
+deleteImpl(j,i,len);
+deleteImpl(j,i,len);
+i-=len;
+
+continue outer;
+}
+}
+
+Time : 22/06/29 19:52
+----------------------------------------
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1779
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1780
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1781
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1784
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang.text.StrBuilder,1114
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=size;
+
+Time : 22/06/29 19:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=CAPACITY;
+
+Time : 22/06/29 20:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+buffer=new char[size];
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=len;
+
+Time : 22/06/29 20:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+buffer=new char[size];
+System.arraycopy(buffer,endIndex,buffer,startIndex,size-endIndex);
+size-=CAPACITY;
+
+Time : 22/06/29 20:00
+----------------------------------------
+Wed Jun 29 20:01:08 UTC 2022 org.apache.commons.lang.text.StrBuilder,1115
+Wed Jun 29 20:01:08 UTC 2022 Wed Jun 29 20:01:08 UTC 2022 : org.apache.commons.lang.text.StrBuilder,1116=>Find no block
+Wed Jun 29 20:01:08 UTC 2022 org.apache.commons.lang.text.StrBuilder,121
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str!=null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 20:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 20:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(nullText==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||newLine==null||CAPACITY<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if((buffer==null)||(str==null)){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||size<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super();
+if(str==null||buffer==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:05
+----------------------------------------
+Wed Jun 29 20:06:05 UTC 2022 org.apache.commons.lang.text.StrBuilder,122
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 20:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(SystemUtils.LINE_SEPARATOR);
+}
+
+Time : 22/06/29 20:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(nullText==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||CAPACITY<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((buffer==null)||(str==null)){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||size<=0){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||buffer==null){
+buffer=new char[CAPACITY];
+}else {
+buffer=new char[str.length()+CAPACITY];
+append(str);
+}
+
+Time : 22/06/29 20:11
+----------------------------------------
+Wed Jun 29 20:11:20 UTC 2022 org.apache.commons.lang.text.StrBuilder,125
+Wed Jun 29 20:11:20 UTC 2022 org.apache.commons.lang.text.StrBuilder,126
+Wed Jun 29 20:11:20 UTC 2022 Wed Jun 29 20:11:20 UTC 2022 : org.apache.commons.lang.text.StrBuilder,128=>Find no block
+Wed Jun 29 20:11:20 UTC 2022 org.apache.commons.lang.text.StrBuilder,474
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 20:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>=CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 20:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 20:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+
+Time : 22/06/29 20:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+
+Time : 22/06/29 20:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+strLen=str.indexOf('/');
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+
+Time : 22/06/29 20:15
+----------------------------------------
+Wed Jun 29 20:16:19 UTC 2022 org.apache.commons.lang.text.StrBuilder,475
+Wed Jun 29 20:16:19 UTC 2022 org.apache.commons.lang.text.StrBuilder,476
+Wed Jun 29 20:16:19 UTC 2022 org.apache.commons.lang.text.StrBuilder,477
+Wed Jun 29 20:16:19 UTC 2022 org.apache.commons.lang.text.StrBuilder,469
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+return appendNull();
+}
+
+Time : 22/06/29 20:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+return appendNull();
+}
+
+Time : 22/06/29 20:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||size<=0){
+return appendNull();
+}
+
+Time : 22/06/29 20:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||CAPACITY<=0){
+return appendNull();
+}
+
+Time : 22/06/29 20:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null||newLine==null){
+return appendNull();
+}
+
+Time : 22/06/29 20:18
+----------------------------------------
+Wed Jun 29 20:19:05 UTC 2022 org.apache.commons.lang.text.StrBuilder,472
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||newLine==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null||str.length()==0||size==0){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(nullText==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=len;
+}
+return this;
+
+Time : 22/06/29 20:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>CAPACITY){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+return this;
+
+Time : 22/06/29 20:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(size>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+return this;
+
+Time : 22/06/29 20:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=size;
+}
+return this;
+
+Time : 22/06/29 20:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str==null){
+return appendNull();
+}
+int strLen=str.length();
+if(strLen>0){
+int len=length();
+ensureCapacity(len+strLen);
+str.getChars(0,strLen,buffer,len);
+size+=strLen;
+}
+size=0;
+return this;
+
+Time : 22/06/29 20:30
+----------------------------------------
+Wed Jun 29 20:30:43 UTC 2022 org.apache.commons.lang.text.StrBuilder,473
+Wed Jun 29 20:30:43 UTC 2022 org.apache.commons.lang.text.StrBuilder,479
+Wed Jun 29 20:30:43 UTC 2022 org.apache.commons.lang.text.StrMatcher,293
+Wed Jun 29 20:30:47 UTC 2022 org.apache.commons.lang.text.StrMatcher,294
+Wed Jun 29 20:30:47 UTC 2022 Wed Jun 29 20:30:47 UTC 2022 : org.apache.commons.lang.text.StrMatcher,295=>Find no block
+Wed Jun 29 20:30:47 UTC 2022 org.apache.commons.lang.text.StrMatcher,216
+Wed Jun 29 20:30:48 UTC 2022 Wed Jun 29 20:30:48 UTC 2022 : org.apache.commons.lang.text.StrMatcher,217=>Find no block
+Wed Jun 29 20:30:48 UTC 2022 Wed Jun 29 20:30:48 UTC 2022 : org.apache.commons.lang.text.StrMatcher,37=>Find no block
+Wed Jun 29 20:30:48 UTC 2022 Wed Jun 29 20:30:48 UTC 2022 : org.apache.commons.lang.text.StrMatcher,41=>Find no block
+Wed Jun 29 20:30:48 UTC 2022 Wed Jun 29 20:30:48 UTC 2022 : org.apache.commons.lang.text.StrMatcher,45=>Find no block
+Wed Jun 29 20:30:48 UTC 2022 Wed Jun 29 20:30:48 UTC 2022 : org.apache.commons.lang.text.StrMatcher,50=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,54=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,58=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,62=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,66=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,70=>Find no block
+Wed Jun 29 20:30:49 UTC 2022 org.apache.commons.lang.text.StrMatcher,389
+Wed Jun 29 20:30:49 UTC 2022 Wed Jun 29 20:30:49 UTC 2022 : org.apache.commons.lang.text.StrMatcher,390=>Find no block
+Wed Jun 29 20:30:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,362
+Wed Jun 29 20:30:50 UTC 2022 Wed Jun 29 20:30:50 UTC 2022 : org.apache.commons.lang.text.StrMatcher,363=>Find no block
+Wed Jun 29 20:30:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,260
+Wed Jun 29 20:30:55 UTC 2022 org.apache.commons.lang.text.StrMatcher,261
+Wed Jun 29 20:30:55 UTC 2022 org.apache.commons.lang.text.StrMatcher,262
+Wed Jun 29 20:30:55 UTC 2022 Wed Jun 29 20:30:55 UTC 2022 : org.apache.commons.lang.text.StrMatcher,263=>Find no block
+Wed Jun 29 20:30:55 UTC 2022 org.apache.commons.lang.text.StrBuilder,182
+Wed Jun 29 20:31:05 UTC 2022 org.apache.commons.lang.text.StrBuilder,228
+Wed Jun 29 20:39:07 UTC 2022 org.apache.commons.lang.text.StrBuilder,233
+Wed Jun 29 20:47:25 UTC 2022 org.apache.commons.lang.text.StrMatcher,307
+Wed Jun 29 20:47:33 UTC 2022 org.apache.commons.lang.text.StrMatcher,80
+Wed Jun 29 20:47:34 UTC 2022 org.apache.commons.lang.text.StrMatcher,89
+Wed Jun 29 20:47:35 UTC 2022 org.apache.commons.lang.text.StrMatcher,98
+Wed Jun 29 20:47:35 UTC 2022 org.apache.commons.lang.text.StrMatcher,108
+Wed Jun 29 20:47:36 UTC 2022 org.apache.commons.lang.text.StrMatcher,117
+Wed Jun 29 20:47:36 UTC 2022 org.apache.commons.lang.text.StrMatcher,126
+Wed Jun 29 20:47:37 UTC 2022 org.apache.commons.lang.text.StrMatcher,135
+Wed Jun 29 20:47:37 UTC 2022 org.apache.commons.lang.text.StrMatcher,144
+Wed Jun 29 20:47:38 UTC 2022 org.apache.commons.lang.text.StrMatcher,153
+Wed Jun 29 20:47:38 UTC 2022 org.apache.commons.lang.text.StrMatcher,163
+Wed Jun 29 20:47:39 UTC 2022 org.apache.commons.lang.text.StrMatcher,173
+Wed Jun 29 20:48:26 UTC 2022 org.apache.commons.lang.text.StrMatcher,174
+Wed Jun 29 20:48:26 UTC 2022 org.apache.commons.lang.text.StrMatcher,176
+Wed Jun 29 20:48:56 UTC 2022 org.apache.commons.lang.text.StrMatcher,177
+Wed Jun 29 20:48:56 UTC 2022 org.apache.commons.lang.text.StrMatcher,179
+Wed Jun 29 20:50:00 UTC 2022 org.apache.commons.lang.text.StrMatcher,189
+Wed Jun 29 20:50:40 UTC 2022 org.apache.commons.lang.text.StrMatcher,190
+Wed Jun 29 20:50:41 UTC 2022 org.apache.commons.lang.text.StrMatcher,192
+Wed Jun 29 20:51:07 UTC 2022 org.apache.commons.lang.text.StrMatcher,193
+Wed Jun 29 20:51:07 UTC 2022 org.apache.commons.lang.text.StrMatcher,195
+Wed Jun 29 20:51:48 UTC 2022 org.apache.commons.lang.text.StrMatcher,205
+Wed Jun 29 20:52:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,206
+Wed Jun 29 20:52:50 UTC 2022 org.apache.commons.lang.text.StrMatcher,208
+Wed Jun 29 20:54:07 UTC 2022 org.apache.commons.lang.text.StrMatcher,402
+Wed Jun 29 20:54:16 UTC 2022 org.apache.commons.lang.text.StrMatcher,375
+Wed Jun 29 20:54:16 UTC 2022 org.apache.commons.lang.text.StrMatcher,325
+Wed Jun 29 20:54:21 UTC 2022 org.apache.commons.lang.text.StrMatcher,326
+Wed Jun 29 20:54:22 UTC 2022 Wed Jun 29 20:54:22 UTC 2022 : org.apache.commons.lang.text.StrMatcher,327=>Find no block
+Wed Jun 29 20:54:22 UTC 2022 org.apache.commons.lang.text.StrMatcher,339
+Wed Jun 29 21:09:52 UTC 2022 org.apache.commons.lang.text.StrMatcher,340
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,341
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,343
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,344
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,345
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,348
+Wed Jun 29 21:09:53 UTC 2022 org.apache.commons.lang.text.StrMatcher,275
+Wed Jun 29 21:10:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,2248
+Wed Jun 29 21:10:01 UTC 2022 Wed Jun 29 21:10:01 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2247=>Find no block
+Wed Jun 29 21:10:01 UTC 2022 Wed Jun 29 21:10:01 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2249=>Find no block
+Wed Jun 29 21:10:01 UTC 2022 Wed Jun 29 21:10:01 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2254=>Find no block
+Wed Jun 29 21:10:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,2258
+Wed Jun 29 21:10:02 UTC 2022 org.apache.commons.lang.text.StrBuilder,2259
+Wed Jun 29 21:10:02 UTC 2022 org.apache.commons.lang.text.StrBuilder,2261
+Wed Jun 29 21:10:23 UTC 2022 org.apache.commons.lang.text.StrBuilder,2266
+Wed Jun 29 21:16:40 UTC 2022 org.apache.commons.lang.text.StrBuilder,2268
+Wed Jun 29 21:16:40 UTC 2022 org.apache.commons.lang.text.StrBuilder,2270
+Wed Jun 29 21:17:24 UTC 2022 org.apache.commons.lang.text.StrBuilder,2271
+Wed Jun 29 21:17:24 UTC 2022 org.apache.commons.lang.text.StrBuilder,2273
+Wed Jun 29 21:18:14 UTC 2022 org.apache.commons.lang.text.StrBuilder,2274
+Wed Jun 29 21:18:14 UTC 2022 org.apache.commons.lang.text.StrBuilder,2276
+Wed Jun 29 21:19:25 UTC 2022 org.apache.commons.lang.text.StrBuilder,2277
+Wed Jun 29 21:19:25 UTC 2022 org.apache.commons.lang.text.StrBuilder,2279
+Wed Jun 29 21:20:30 UTC 2022 org.apache.commons.lang.text.StrBuilder,2280
+Wed Jun 29 21:21:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,2281
+Wed Jun 29 21:21:01 UTC 2022 org.apache.commons.lang.text.StrBuilder,2286
+Wed Jun 29 21:21:42 UTC 2022 org.apache.commons.lang.text.StrBuilder,2287
+Wed Jun 29 21:21:42 UTC 2022 org.apache.commons.lang.text.StrBuilder,2289
+Wed Jun 29 21:21:50 UTC 2022 org.apache.commons.lang.text.StrBuilder,2290
+Wed Jun 29 21:21:50 UTC 2022 org.apache.commons.lang.text.StrBuilder,2292
+Wed Jun 29 21:22:29 UTC 2022 org.apache.commons.lang.text.StrBuilder,2293
+Wed Jun 29 21:22:29 UTC 2022 org.apache.commons.lang.text.StrBuilder,2298
+Wed Jun 29 21:22:37 UTC 2022 org.apache.commons.lang.text.StrBuilder,2303
+Wed Jun 29 21:22:38 UTC 2022 org.apache.commons.lang.text.StrBuilder,2308
+Wed Jun 29 21:22:55 UTC 2022 Wed Jun 29 21:22:55 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2309=>Find no block
+Wed Jun 29 21:22:55 UTC 2022 org.apache.commons.lang.text.StrBuilder,2313
+Wed Jun 29 21:23:10 UTC 2022 Wed Jun 29 21:23:10 UTC 2022 : org.apache.commons.lang.text.StrBuilder,2314=>Find no block
+Wed Jun 29 21:23:10 UTC 2022 org.apache.commons.lang.text.StrBuilder,98
+Wed Jun 29 21:23:11 UTC 2022 Wed Jun 29 21:23:11 UTC 2022 : org.apache.commons.lang.text.StrBuilder,99=>Find no block
+Wed Jun 29 21:23:11 UTC 2022 org.apache.commons.lang.text.StrBuilder,107
+Wed Jun 29 21:24:05 UTC 2022 org.apache.commons.lang.text.StrBuilder,108
+Wed Jun 29 21:24:11 UTC 2022 org.apache.commons.lang.text.StrBuilder,109
+Wed Jun 29 21:24:11 UTC 2022 org.apache.commons.lang.text.StrBuilder,111
+Wed Jun 29 21:24:11 UTC 2022 Wed Jun 29 21:24:11 UTC 2022 : org.apache.commons.lang.text.StrBuilder,112=>Find no block
+Wed Jun 29 21:24:12 UTC 2022 org.apache.commons.lang.text.StrBuilder,123
+Wed Jun 29 21:24:12 UTC 2022 org.apache.commons.lang.text.StrBuilder,137
+Wed Jun 29 21:24:12 UTC 2022 org.apache.commons.lang.text.StrBuilder,147
+Wed Jun 29 21:24:13 UTC 2022 org.apache.commons.lang.text.StrBuilder,148
+Wed Jun 29 21:24:13 UTC 2022 org.apache.commons.lang.text.StrBuilder,158
+Wed Jun 29 21:24:13 UTC 2022 org.apache.commons.lang.text.StrBuilder,168
+Wed Jun 29 21:25:53 UTC 2022 org.apache.commons.lang.text.StrBuilder,169
+Wed Jun 29 21:25:53 UTC 2022 org.apache.commons.lang.text.StrBuilder,171
+Wed Jun 29 21:27:58 UTC 2022 org.apache.commons.lang.text.StrBuilder,172
+Wed Jun 29 21:27:59 UTC 2022 org.apache.commons.lang.text.StrBuilder,194
+Timeout time : 22/06/29 21:28

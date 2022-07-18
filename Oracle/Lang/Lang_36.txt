@@ -1,7 +1,8 @@
-fix	org.apache.commons.lang3.math.NumberUtils	491	INS	Character
-fix	org.apache.commons.lang3.math.NumberUtils	491	INS	lastChar
-fix	org.apache.commons.lang3.math.NumberUtils	1388	INS	chars
-fix	org.apache.commons.lang3.math.NumberUtils	1388	INS	i
-fix	org.apache.commons.lang3.math.NumberUtils	1389	INS	hasDecPoint
-fix	org.apache.commons.lang3.math.NumberUtils	1389	INS	hasExp
-fix	org.apache.commons.lang3.math.NumberUtils	1394	INS	foundDigit
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	lastChar	buggy
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	foundDigit	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	chars[]	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	hasDecPoint	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	lastChar	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	hasExp	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	i	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	chars	fixed

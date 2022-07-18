@@ -1,1 +1,2 @@
-fix	org.apache.commons.math.distribution.FDistributionImpl	146	INS	d
+org.apache.commons.math.distribution.FDistributionImpl	getInitialDomain(D)D	ret	fixed
+org.apache.commons.math.distribution.FDistributionImpl	getInitialDomain(D)D	d	fixed

@@ -1,2 +1,2 @@
-buggy	com.google.javascript.jscomp.TypeCheck	1314	DEL	n
-buggy	com.google.javascript.jscomp.TypeCheck	1314	DEL	parent
+com.google.javascript.jscomp.TypeCheck	visitGetProp(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	buggy
+com.google.javascript.jscomp.TypeCheck	visitGetProp(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	n	buggy

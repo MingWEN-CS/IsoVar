@@ -1,0 +1,404 @@
+=================================================
+Project : lang_58	start : 22/06/29 16:28
+Current failed test : org.apache.commons.lang.math.NumberUtilsTest::testLang300 | 22/06/29 16:28
+Wed Jun 29 16:28:08 UTC 2022 org.apache.commons.lang.math.NumberUtils,464
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'&&isDigits(numeric.substring(1))||isDigits(numeric))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.075005835983946 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>0,0]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'&&isDigits(numeric.substring(1))||isDigits(numeric))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>452,463]
+if(dec==null&&exp==null&&isDigits(numeric.substring(1))&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>452,463]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'&&isDigits(numeric.substring(1))||isDigits(numeric))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.075005835983946 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>0,0]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'&&isDigits(numeric.substring(1))||isDigits(numeric))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>452,463]
+if(dec==null&&exp==null&&isDigits(numeric.substring(1))&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_58_buggy/src/java/org/apache/commons/lang/math/NumberUtils.java=>452,463]
+if(dec==null&&exp==null&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(numeric==null||dec==null||str==null){
+return null;
+}
+case 'L' :
+if(dec==null&&exp==null&&isDigits(numeric.substring(1))&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+throw new NumberFormatException(str+" is not a valid number.");
+
+
+Time : 22/06/29 16:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(numeric==null||dec==null||str==null){
+return null;
+}
+case 'L' :
+if(dec==null&&exp==null&&isDigits(numeric.substring(1))&&(numeric.charAt(0)=='-'||Character.isDigit(numeric.charAt(0)))){
+try{
+return createLong(numeric);
+}catch (NumberFormatException nfe) {
+}
+
+return createBigInteger(numeric);
+}
+throw new NumberFormatException(str+" is not a valid number.");
+
+case 'f' :
+
+
+Time : 22/06/29 16:33
+----------------------------------------
+Wed Jun 29 16:35:06 UTC 2022 org.apache.commons.lang.math.NumberUtils,1508
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(StringUtils.isEmpty(str)){
+return true;
+}
+
+Time : 22/06/29 16:35
+----------------------------------------
+Wed Jun 29 16:35:58 UTC 2022 org.apache.commons.lang.math.NumberUtils,398
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(str!=null){
+return null;
+}
+
+Time : 22/06/29 16:36
+----------------------------------------
+Wed Jun 29 16:37:07 UTC 2022 org.apache.commons.lang.math.NumberUtils,401
+Wed Jun 29 16:38:31 UTC 2022 org.apache.commons.lang.math.NumberUtils,404
+Wed Jun 29 16:39:07 UTC 2022 org.apache.commons.lang.math.NumberUtils,411
+Wed Jun 29 16:39:59 UTC 2022 org.apache.commons.lang.math.NumberUtils,414
+Wed Jun 29 16:42:52 UTC 2022 org.apache.commons.lang.math.NumberUtils,418
+Wed Jun 29 16:44:42 UTC 2022 org.apache.commons.lang.math.NumberUtils,419
+Wed Jun 29 16:44:42 UTC 2022 org.apache.commons.lang.math.NumberUtils,421
+Wed Jun 29 17:06:08 UTC 2022 org.apache.commons.lang.math.NumberUtils,433
+Wed Jun 29 17:06:09 UTC 2022 org.apache.commons.lang.math.NumberUtils,436
+Wed Jun 29 17:06:09 UTC 2022 org.apache.commons.lang.math.NumberUtils,438
+Wed Jun 29 17:09:21 UTC 2022 org.apache.commons.lang.math.NumberUtils,440
+Wed Jun 29 17:23:03 UTC 2022 org.apache.commons.lang.math.NumberUtils,441
+Wed Jun 29 17:23:03 UTC 2022 org.apache.commons.lang.math.NumberUtils,444
+Wed Jun 29 17:23:04 UTC 2022 org.apache.commons.lang.math.NumberUtils,447
+Wed Jun 29 17:27:43 UTC 2022 org.apache.commons.lang.math.NumberUtils,448
+Wed Jun 29 17:27:43 UTC 2022 Wed Jun 29 17:27:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,449=>Find no block
+Wed Jun 29 17:27:43 UTC 2022 org.apache.commons.lang.math.NumberUtils,452
+Wed Jun 29 17:27:43 UTC 2022 org.apache.commons.lang.math.NumberUtils,457
+Wed Jun 29 17:27:43 UTC 2022 org.apache.commons.lang.math.NumberUtils,556
+Wed Jun 29 17:28:54 UTC 2022 org.apache.commons.lang.math.NumberUtils,559
+Wed Jun 29 17:33:35 UTC 2022 org.apache.commons.lang.math.NumberUtils,560
+Wed Jun 29 17:33:36 UTC 2022 org.apache.commons.lang.math.NumberUtils,561
+Wed Jun 29 17:33:36 UTC 2022 org.apache.commons.lang.StringUtils,185
+Wed Jun 29 17:34:17 UTC 2022 org.apache.commons.lang.StringUtils,223
+Wed Jun 29 17:36:09 UTC 2022 org.apache.commons.lang.StringUtils,226
+Wed Jun 29 17:39:12 UTC 2022 org.apache.commons.lang.StringUtils,227
+Wed Jun 29 17:39:12 UTC 2022 org.apache.commons.lang.StringUtils,228
+Wed Jun 29 17:39:13 UTC 2022 org.apache.commons.lang.math.NumberUtils,628
+Wed Jun 29 17:39:13 UTC 2022 org.apache.commons.lang.math.NumberUtils,631
+Wed Jun 29 17:41:02 UTC 2022 org.apache.commons.lang.math.NumberUtils,1507
+Wed Jun 29 17:41:02 UTC 2022 org.apache.commons.lang.math.NumberUtils,1510
+Wed Jun 29 17:42:17 UTC 2022 org.apache.commons.lang.math.NumberUtils,1511
+Wed Jun 29 17:42:17 UTC 2022 org.apache.commons.lang.math.NumberUtils,1515
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(StringUtils.isEmpty(str)){
+return true;
+}
+for(int i=0;i<str.length();i++){
+if(!Character.isDigit(str.charAt(i))){
+return false;
+}
+}
+return true;
+
+Time : 22/06/29 17:42
+----------------------------------------
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,41=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,43=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,45=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,47=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,49=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,51=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,53=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,55=>Find no block
+Wed Jun 29 17:43:42 UTC 2022 Wed Jun 29 17:43:42 UTC 2022 : org.apache.commons.lang.math.NumberUtils,57=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,59=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,61=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,63=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,65=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,67=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,69=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,71=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,73=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 Wed Jun 29 17:43:43 UTC 2022 : org.apache.commons.lang.math.NumberUtils,75=>Find no block
+Wed Jun 29 17:43:43 UTC 2022 org.apache.commons.lang.StringUtils,161
+Wed Jun 29 17:43:44 UTC 2022 Wed Jun 29 17:43:44 UTC 2022 : org.apache.commons.lang.StringUtils,162=>Find no block
+Wed Jun 29 17:43:44 UTC 2022 org.apache.commons.lang.StringUtils,203
+Wed Jun 29 17:43:52 UTC 2022 org.apache.commons.lang.StringUtils,224
+Wed Jun 29 17:43:52 UTC 2022 org.apache.commons.lang.StringUtils,231
+Wed Jun 29 17:48:06 UTC 2022 org.apache.commons.lang.StringUtils,251
+Wed Jun 29 17:48:13 UTC 2022 org.apache.commons.lang.StringUtils,276
+Wed Jun 29 17:48:39 UTC 2022 org.apache.commons.lang.StringUtils,303
+Wed Jun 29 17:49:11 UTC 2022 org.apache.commons.lang.StringUtils,329
+Wed Jun 29 17:49:55 UTC 2022 org.apache.commons.lang.StringUtils,330
+Wed Jun 29 17:49:56 UTC 2022 org.apache.commons.lang.StringUtils,355
+Wed Jun 29 17:49:56 UTC 2022 org.apache.commons.lang.StringUtils,383
+Wed Jun 29 17:51:25 UTC 2022 org.apache.commons.lang.StringUtils,410
+Wed Jun 29 17:51:25 UTC 2022 org.apache.commons.lang.StringUtils,411
+Wed Jun 29 17:51:25 UTC 2022 org.apache.commons.lang.StringUtils,413
+Wed Jun 29 17:54:09 UTC 2022 org.apache.commons.lang.StringUtils,414
+Wed Jun 29 17:54:09 UTC 2022 org.apache.commons.lang.StringUtils,440
+Wed Jun 29 17:54:36 UTC 2022 org.apache.commons.lang.StringUtils,470
+Wed Jun 29 17:54:54 UTC 2022 org.apache.commons.lang.StringUtils,471
+Wed Jun 29 17:54:54 UTC 2022 org.apache.commons.lang.StringUtils,473
+Wed Jun 29 17:56:53 UTC 2022 org.apache.commons.lang.StringUtils,474
+Wed Jun 29 17:56:53 UTC 2022 org.apache.commons.lang.StringUtils,503
+Wed Jun 29 17:59:28 UTC 2022 org.apache.commons.lang.StringUtils,504
+Wed Jun 29 17:59:28 UTC 2022 org.apache.commons.lang.StringUtils,506
+Wed Jun 29 18:02:41 UTC 2022 org.apache.commons.lang.StringUtils,507
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,508
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,509
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,511
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,512
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,514
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,515
+Wed Jun 29 18:15:07 UTC 2022 org.apache.commons.lang.StringUtils,518
+Wed Jun 29 18:32:00 UTC 2022 org.apache.commons.lang.StringUtils,547
+Wed Jun 29 18:34:41 UTC 2022 org.apache.commons.lang.StringUtils,548
+Wed Jun 29 18:34:41 UTC 2022 org.apache.commons.lang.StringUtils,551
+Wed Jun 29 18:43:23 UTC 2022 org.apache.commons.lang.StringUtils,552
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,553
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,555
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,556
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,558
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,559
+Wed Jun 29 18:43:24 UTC 2022 org.apache.commons.lang.StringUtils,562
+Wed Jun 29 18:57:11 UTC 2022 org.apache.commons.lang.StringUtils,587
+Wed Jun 29 18:57:11 UTC 2022 org.apache.commons.lang.StringUtils,617
+Wed Jun 29 18:58:17 UTC 2022 org.apache.commons.lang.StringUtils,618
+Wed Jun 29 18:58:18 UTC 2022 org.apache.commons.lang.StringUtils,620
+Wed Jun 29 19:03:04 UTC 2022 org.apache.commons.lang.StringUtils,621
+Wed Jun 29 19:03:04 UTC 2022 org.apache.commons.lang.StringUtils,622
+Wed Jun 29 19:03:04 UTC 2022 org.apache.commons.lang.StringUtils,624
+Wed Jun 29 19:03:05 UTC 2022 org.apache.commons.lang.StringUtils,650
+Wed Jun 29 19:03:16 UTC 2022 org.apache.commons.lang.StringUtils,675
+Wed Jun 29 19:03:25 UTC 2022 org.apache.commons.lang.StringUtils,700
+Wed Jun 29 19:03:40 UTC 2022 org.apache.commons.lang.StringUtils,701
+Wed Jun 29 19:03:40 UTC 2022 org.apache.commons.lang.StringUtils,703
+Wed Jun 29 19:06:49 UTC 2022 org.apache.commons.lang.StringUtils,732
+Wed Jun 29 19:06:49 UTC 2022 org.apache.commons.lang.StringUtils,733
+Wed Jun 29 19:06:49 UTC 2022 org.apache.commons.lang.StringUtils,735
+Wed Jun 29 19:09:27 UTC 2022 org.apache.commons.lang.StringUtils,761
+Wed Jun 29 19:11:05 UTC 2022 org.apache.commons.lang.StringUtils,762
+Wed Jun 29 19:11:05 UTC 2022 org.apache.commons.lang.StringUtils,764
+Wed Jun 29 19:14:31 UTC 2022 org.apache.commons.lang.StringUtils,795
+Wed Jun 29 19:16:07 UTC 2022 org.apache.commons.lang.StringUtils,796
+Wed Jun 29 19:16:07 UTC 2022 org.apache.commons.lang.StringUtils,798
+Wed Jun 29 19:17:23 UTC 2022 org.apache.commons.lang.StringUtils,799
+Wed Jun 29 19:17:23 UTC 2022 org.apache.commons.lang.StringUtils,801
+Wed Jun 29 19:20:21 UTC 2022 org.apache.commons.lang.StringUtils,802
+Wed Jun 29 19:25:42 UTC 2022 org.apache.commons.lang.StringUtils,804
+Wed Jun 29 19:25:43 UTC 2022 org.apache.commons.lang.StringUtils,805
+Wed Jun 29 19:25:43 UTC 2022 org.apache.commons.lang.StringUtils,806
+Wed Jun 29 19:25:43 UTC 2022 org.apache.commons.lang.StringUtils,808
+Wed Jun 29 19:25:43 UTC 2022 org.apache.commons.lang.StringUtils,809
+Wed Jun 29 19:25:43 UTC 2022 org.apache.commons.lang.StringUtils,810
+Wed Jun 29 19:28:01 UTC 2022 org.apache.commons.lang.StringUtils,845
+Wed Jun 29 19:28:01 UTC 2022 org.apache.commons.lang.StringUtils,846
+Wed Jun 29 19:28:01 UTC 2022 org.apache.commons.lang.StringUtils,849
+Wed Jun 29 19:31:12 UTC 2022 org.apache.commons.lang.StringUtils,850
+Wed Jun 29 19:31:12 UTC 2022 org.apache.commons.lang.StringUtils,852
+Wed Jun 29 19:36:58 UTC 2022 org.apache.commons.lang.StringUtils,877
+Wed Jun 29 19:36:59 UTC 2022 org.apache.commons.lang.StringUtils,878
+Wed Jun 29 19:36:59 UTC 2022 org.apache.commons.lang.StringUtils,880
+Wed Jun 29 19:40:06 UTC 2022 org.apache.commons.lang.StringUtils,911
+Wed Jun 29 19:40:06 UTC 2022 org.apache.commons.lang.StringUtils,912
+Wed Jun 29 19:40:06 UTC 2022 org.apache.commons.lang.StringUtils,914
+Wed Jun 29 19:42:47 UTC 2022 org.apache.commons.lang.StringUtils,940
+Wed Jun 29 19:42:47 UTC 2022 org.apache.commons.lang.StringUtils,941
+Wed Jun 29 19:42:47 UTC 2022 org.apache.commons.lang.StringUtils,943
+Wed Jun 29 19:45:55 UTC 2022 org.apache.commons.lang.StringUtils,975
+Wed Jun 29 19:45:55 UTC 2022 org.apache.commons.lang.StringUtils,976
+Wed Jun 29 19:45:55 UTC 2022 org.apache.commons.lang.StringUtils,978
+Wed Jun 29 19:49:14 UTC 2022 org.apache.commons.lang.StringUtils,1003
+Wed Jun 29 19:49:30 UTC 2022 org.apache.commons.lang.StringUtils,1004
+Wed Jun 29 19:49:30 UTC 2022 org.apache.commons.lang.StringUtils,1006
+Wed Jun 29 19:50:59 UTC 2022 org.apache.commons.lang.StringUtils,1031
+Wed Jun 29 19:52:46 UTC 2022 org.apache.commons.lang.StringUtils,1032
+Wed Jun 29 19:52:46 UTC 2022 org.apache.commons.lang.StringUtils,1034
+Wed Jun 29 19:56:00 UTC 2022 org.apache.commons.lang.StringUtils,1061
+Wed Jun 29 19:56:00 UTC 2022 org.apache.commons.lang.StringUtils,1062
+Wed Jun 29 19:56:00 UTC 2022 org.apache.commons.lang.StringUtils,1064
+Wed Jun 29 19:58:50 UTC 2022 org.apache.commons.lang.StringUtils,1092
+Wed Jun 29 20:00:05 UTC 2022 org.apache.commons.lang.StringUtils,1093
+Wed Jun 29 20:00:05 UTC 2022 org.apache.commons.lang.StringUtils,1095
+Wed Jun 29 20:07:35 UTC 2022 org.apache.commons.lang.StringUtils,1096
+Wed Jun 29 20:07:36 UTC 2022 org.apache.commons.lang.StringUtils,1097
+Wed Jun 29 20:07:36 UTC 2022 org.apache.commons.lang.StringUtils,1098
+Wed Jun 29 20:07:36 UTC 2022 org.apache.commons.lang.StringUtils,1099
+Wed Jun 29 20:07:36 UTC 2022 org.apache.commons.lang.StringUtils,1103
+Wed Jun 29 20:10:43 UTC 2022 org.apache.commons.lang.StringUtils,1129
+Wed Jun 29 20:12:05 UTC 2022 org.apache.commons.lang.StringUtils,1130
+Wed Jun 29 20:12:05 UTC 2022 org.apache.commons.lang.StringUtils,1132
+Wed Jun 29 20:13:38 UTC 2022 org.apache.commons.lang.StringUtils,1160
+Wed Jun 29 20:13:38 UTC 2022 org.apache.commons.lang.StringUtils,1161
+Wed Jun 29 20:13:38 UTC 2022 org.apache.commons.lang.StringUtils,1163
+Wed Jun 29 20:16:30 UTC 2022 org.apache.commons.lang.StringUtils,1164
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1165
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1166
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1167
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1170
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1172
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1198
+Wed Jun 29 20:22:45 UTC 2022 org.apache.commons.lang.StringUtils,1199
+Wed Jun 29 20:22:46 UTC 2022 org.apache.commons.lang.StringUtils,1201
+Wed Jun 29 20:27:20 UTC 2022 org.apache.commons.lang.StringUtils,1202
+Wed Jun 29 20:27:20 UTC 2022 org.apache.commons.lang.StringUtils,1203
+Wed Jun 29 20:27:21 UTC 2022 org.apache.commons.lang.StringUtils,1206
+Wed Jun 29 20:29:43 UTC 2022 org.apache.commons.lang.StringUtils,1234
+Wed Jun 29 20:34:17 UTC 2022 org.apache.commons.lang.StringUtils,1235
+Wed Jun 29 20:34:17 UTC 2022 org.apache.commons.lang.StringUtils,1237
+Wed Jun 29 20:36:08 UTC 2022 org.apache.commons.lang.StringUtils,1238
+Wed Jun 29 20:36:08 UTC 2022 org.apache.commons.lang.StringUtils,1240
+Wed Jun 29 20:37:08 UTC 2022 org.apache.commons.lang.StringUtils,1241
+Wed Jun 29 20:37:08 UTC 2022 org.apache.commons.lang.StringUtils,1243
+Wed Jun 29 20:45:16 UTC 2022 org.apache.commons.lang.StringUtils,1269
+Wed Jun 29 20:47:01 UTC 2022 org.apache.commons.lang.StringUtils,1270
+Wed Jun 29 20:47:02 UTC 2022 org.apache.commons.lang.StringUtils,1272
+Wed Jun 29 20:49:56 UTC 2022 org.apache.commons.lang.StringUtils,1300
+Wed Jun 29 20:51:45 UTC 2022 org.apache.commons.lang.StringUtils,1301
+Wed Jun 29 20:51:46 UTC 2022 org.apache.commons.lang.StringUtils,1303
+Wed Jun 29 20:57:41 UTC 2022 org.apache.commons.lang.StringUtils,1304
+Wed Jun 29 21:07:18 UTC 2022 org.apache.commons.lang.StringUtils,1305
+Wed Jun 29 21:07:18 UTC 2022 org.apache.commons.lang.StringUtils,1306
+Wed Jun 29 21:07:19 UTC 2022 org.apache.commons.lang.StringUtils,1307
+Wed Jun 29 21:07:19 UTC 2022 org.apache.commons.lang.StringUtils,1308
+Wed Jun 29 21:07:19 UTC 2022 org.apache.commons.lang.StringUtils,1309
+Wed Jun 29 21:07:19 UTC 2022 org.apache.commons.lang.StringUtils,1313
+Wed Jun 29 21:11:30 UTC 2022 org.apache.commons.lang.StringUtils,1339
+Wed Jun 29 21:11:30 UTC 2022 org.apache.commons.lang.StringUtils,1340
+Success time : 22/06/29 21:11

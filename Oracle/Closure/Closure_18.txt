@@ -1,2 +1,2 @@
-buggy	com.google.javascript.jscomp.Compiler	1288	DEL	options.closurePass
-buggy	com.google.javascript.jscomp.Compiler	1288	DEL	options.dependencyOptions
+com.google.javascript.jscomp.Compiler	parseInputs()Lcom/google/javascript/rhino/Node;	this.options	buggy
+com.google.javascript.jscomp.Compiler	parseInputs()Lcom/google/javascript/rhino/Node;	this.options	fixed

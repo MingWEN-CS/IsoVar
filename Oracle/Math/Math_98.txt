@@ -1,4 +1,4 @@
-fix	org.apache.commons.math.linear.BigMatrixImpl	991	INS	nRows
-buggy	org.apache.commons.math.linear.BigMatrixImpl	991	DEL	v.length
-fix	org.apache.commons.math.linear.RealMatrixImpl	779	INS	nRows
-buggy	org.apache.commons.math.linear.RealMatrixImpl	779	DEL	v.length
+org.apache.commons.math.linear.BigMatrixImpl	operate([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	v	buggy
+org.apache.commons.math.linear.BigMatrixImpl	operate([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	out	buggy
+org.apache.commons.math.linear.BigMatrixImpl	operate([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	nRows	fixed
+org.apache.commons.math.linear.BigMatrixImpl	operate([Ljava/math/BigDecimal;)[Ljava/math/BigDecimal;	out	fixed

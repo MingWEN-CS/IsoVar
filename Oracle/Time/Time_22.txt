@@ -1,9 +1,5 @@
-fix	org.joda.time.base.BasePeriod	224	INS	iType
-fix	org.joda.time.base.BasePeriod	225	INS	values
-fix	org.joda.time.base.BasePeriod	226	INS	iType
-fix	org.joda.time.base.BasePeriod	227	INS	iValues
-fix	org.joda.time.base.BasePeriod	228	INS	System
-fix	org.joda.time.base.BasePeriod	224	INS	PeriodType
-fix	org.joda.time.base.BasePeriod	226	INS	PeriodType
-fix	org.joda.time.base.BasePeriod	225	INS	ISOChronology
-buggy	org.joda.time.base.BasePeriod	222	DEL	duration
+org.joda.time.base.BasePeriod	<init>(J)V	duration	buggy
+org.joda.time.base.BasePeriod	<init>(J)V	duration	fixed
+org.joda.time.base.BasePeriod	<init>(J)V	values	fixed
+org.joda.time.base.BasePeriod	<init>(J)V	this.iValues	fixed
+org.joda.time.base.BasePeriod	<init>(J)V	this.iType	fixed

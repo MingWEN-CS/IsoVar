@@ -1,2 +1,8 @@
-buggy	org.jfree.chart.plot.ValueMarker	95	UPD	paint
-buggy	org.jfree.chart.plot.ValueMarker	95	UPD	stroke
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	alpha	buggy
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	paint	buggy
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	stroke	buggy
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	outlineStroke	fixed
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	outlinePaint	fixed
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	alpha	fixed
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	paint	fixed
+org.jfree.chart.plot.ValueMarker	<init>(DLjava/awt/Paint;Ljava/awt/Stroke;Ljava/awt/Paint;Ljava/awt/Stroke;F)V	stroke	fixed

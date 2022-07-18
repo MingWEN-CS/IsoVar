@@ -1,2 +1,4 @@
-fix	com.google.javascript.jscomp.InlineVariables	301	INS	isInlineableDeclaredConstant
-fix	com.google.javascript.jscomp.InlineVariables	301	INS	referenceInfo
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	inlineNonConstants(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection;Z)V	v	buggy
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	inlineNonConstants(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection;Z)V	referenceInfo	buggy
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	inlineNonConstants(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection;Z)V	v	fixed
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	inlineNonConstants(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$ReferenceCollection;Z)V	referenceInfo	fixed

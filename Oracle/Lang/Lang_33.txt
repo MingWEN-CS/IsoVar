@@ -1,2 +1,10 @@
-fix	org.apache.commons.lang3.ClassUtils	910	INS	array
-fix	org.apache.commons.lang3.ClassUtils	910	INS	i
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	array[]	buggy
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	array	buggy
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	classes	buggy
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	i	buggy
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	classes[]	buggy
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	array[]	fixed
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	array[]	fixed
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	array	fixed
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	classes	fixed
+org.apache.commons.lang3.ClassUtils	toClass([Ljava/lang/Object;)[Ljava/lang/Class;	i	fixed

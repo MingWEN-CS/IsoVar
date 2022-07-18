@@ -1,1 +1,5 @@
-fix	org.apache.commons.lang3.math.NumberUtils	1413	INS	hasDecPoint
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	foundDigit	buggy
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	hasExp	buggy
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	foundDigit	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	hasDecPoint	fixed
+org.apache.commons.lang3.math.NumberUtils	isNumber(Ljava/lang/String;)Z	hasExp	fixed

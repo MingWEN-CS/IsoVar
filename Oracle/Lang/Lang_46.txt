@@ -1,4 +1,9 @@
-fix	org.apache.commons.lang.StringEscapeUtils	154	INS	escapeForwardSlash
-fix	org.apache.commons.lang.StringEscapeUtils	179	INS	escapeForwardSlash
-fix	org.apache.commons.lang.StringEscapeUtils	160	INS	escapeJavaStyleString
-fix	org.apache.commons.lang.StringEscapeUtils	245	INS	escapeForwardSlash
+org.apache.commons.lang.StringEscapeUtils	escapeJava(Ljava/lang/String;)Ljava/lang/String;	str	buggy
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/lang/String;Z)Ljava/lang/String;	escapeSingleQuotes	buggy
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/lang/String;Z)Ljava/lang/String;	writer	buggy
+org.apache.commons.lang.StringEscapeUtils	escapeJava(Ljava/io/Writer;Ljava/lang/String;)V	out	buggy
+org.apache.commons.lang.StringEscapeUtils	escapeJava(Ljava/lang/String;)Ljava/lang/String;	str	fixed
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/lang/String;ZZ)Ljava/lang/String;	escapeSingleQuotes	fixed
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/lang/String;ZZ)Ljava/lang/String;	writer	fixed
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/lang/String;ZZ)Ljava/lang/String;	escapeForwardSlash	fixed
+org.apache.commons.lang.StringEscapeUtils	escapeJava(Ljava/io/Writer;Ljava/lang/String;)V	out	fixed

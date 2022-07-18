@@ -1,4 +1,3 @@
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	INS	token
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	INS	JsDocToken.QMARK
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1909	INS	newNode
-buggy	com.google.javascript.jscomp.parsing.JsDocInfoParser	1908	UPD	parseTypeName
+com.google.javascript.jscomp.parsing.JsDocInfoParser	parseContextTypeExpression(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	token	buggy
+com.google.javascript.jscomp.parsing.JsDocInfoParser	parseContextTypeExpression(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	.QMARK	fixed
+com.google.javascript.jscomp.parsing.JsDocInfoParser	parseContextTypeExpression(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	token	fixed

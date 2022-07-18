@@ -1,1 +1,1 @@
-fix	com.google.javascript.jscomp.TypeCheck	518	INS	typeable
+com.google.javascript.jscomp.TypeCheck	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	typeable	fixed

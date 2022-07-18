@@ -1,8 +1,12 @@
-buggy	com.google.javascript.jscomp.RemoveUnusedVars	904	UPD	assignNode
-buggy	com.google.javascript.jscomp.RemoveUnusedVars	904	MOV	assignNode
-fix	com.google.javascript.jscomp.RemoveUnusedVars	732	INS	maybeEscaped
-fix	com.google.javascript.jscomp.RemoveUnusedVars	740	INS	assign.maybeAliased
-fix	com.google.javascript.jscomp.RemoveUnusedVars	745	INS	assignedToUnknownValue
-fix	com.google.javascript.jscomp.RemoveUnusedVars	745	INS	maybeEscaped
-buggy	com.google.javascript.jscomp.RemoveUnusedVars	741	MOV	assignedToUnknownValue
-fix	com.google.javascript.jscomp.RemoveUnusedVars	741	INS	maybeEscaped
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	assignedToUnknownValue	buggy
+com.google.javascript.jscomp.RemoveUnusedVars$Assign	<init>(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	this	buggy
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	hasPropertyAssign	buggy
+com.google.javascript.jscomp.RemoveUnusedVars$Assign	<init>(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	assignNode	buggy
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	assignedToUnknownValue	fixed
+com.google.javascript.jscomp.RemoveUnusedVars$Assign	<init>(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	this.maybeAliased	fixed
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	hasPropertyAssign	fixed
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	assign	fixed
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	hasPropertyAssign	fixed
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	hasPropertyAssign	fixed
+com.google.javascript.jscomp.RemoveUnusedVars	interpretAssigns()V	assign.maybeAliased	fixed
+com.google.javascript.jscomp.RemoveUnusedVars$Assign	<init>(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Z)V	assignNode	fixed

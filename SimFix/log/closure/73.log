@@ -1,0 +1,85 @@
+=================================================
+Project : closure_73	start : 22/06/29 16:28
+Current failed test : com.google.javascript.jscomp.CodePrinterTest::testUnicode | 22/06/29 16:28
+Wed Jun 29 16:28:16 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1051
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(c>0x1f&&c<0x7f){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.0 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_73_buggy/src/com/google/javascript/jscomp/CodeGenerator.java=>0,0]
+if(c>0x1f&&c<0x7f){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_73_buggy/src/com/google/javascript/jscomp/CodeGenerator.java=>1045,1052]
+if(c>0x1f&&c<=0x7f){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_73_buggy/src/com/google/javascript/jscomp/CodeGenerator.java=>1045,1052]
+if(c>0x1f&&c<0x7f){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+Wed Jun 29 16:31:23 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1160
+Wed Jun 29 16:31:27 UTC 2022 Wed Jun 29 16:31:27 UTC 2022 : com.google.javascript.jscomp.CodeGenerator,1164=>Find no block
+Wed Jun 29 16:31:28 UTC 2022 Wed Jun 29 16:31:28 UTC 2022 : com.google.javascript.jscomp.CodeGenerator,1165=>Find no block
+Wed Jun 29 16:31:28 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1177
+Wed Jun 29 16:31:36 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1187
+Wed Jun 29 16:35:45 UTC 2022 Wed Jun 29 16:35:45 UTC 2022 : com.google.javascript.jscomp.CodeGenerator,1192=>Find no block
+Wed Jun 29 16:35:45 UTC 2022 com.google.javascript.jscomp.Compiler,1247
+Wed Jun 29 16:35:48 UTC 2022 com.google.javascript.jscomp.Compiler,1243
+Wed Jun 29 16:38:30 UTC 2022 com.google.javascript.jscomp.Compiler,1244
+Wed Jun 29 16:38:30 UTC 2022 com.google.javascript.jscomp.Compiler,1246
+Wed Jun 29 16:38:31 UTC 2022 com.google.javascript.jscomp.Compiler,1249
+Wed Jun 29 16:38:31 UTC 2022 com.google.javascript.jscomp.Compiler,1250
+Wed Jun 29 16:38:32 UTC 2022 Wed Jun 29 16:38:32 UTC 2022 : com.google.javascript.jscomp.CodeGenerator,944=>Find no block
+Wed Jun 29 16:38:32 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1034
+Wed Jun 29 17:06:03 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1045
+Wed Jun 29 17:06:03 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1046
+Wed Jun 29 17:06:03 UTC 2022 com.google.javascript.jscomp.CodeGenerator,996
+Wed Jun 29 18:15:22 UTC 2022 Wed Jun 29 18:15:22 UTC 2022 : com.google.javascript.jscomp.CodeGenerator,997=>Find no block
+Wed Jun 29 18:15:23 UTC 2022 com.google.javascript.jscomp.CodeGenerator,628
+Wed Jun 29 18:45:54 UTC 2022 com.google.javascript.jscomp.CodeGenerator,634
+Wed Jun 29 19:03:02 UTC 2022 com.google.javascript.jscomp.CodeGenerator,635
+Wed Jun 29 19:17:42 UTC 2022 com.google.javascript.jscomp.CodeGenerator,959
+Wed Jun 29 19:17:44 UTC 2022 com.google.javascript.jscomp.CodeGenerator,960
+Wed Jun 29 19:17:45 UTC 2022 com.google.javascript.jscomp.CodeGenerator,961
+Wed Jun 29 19:17:45 UTC 2022 com.google.javascript.jscomp.CodeGenerator,940
+Wed Jun 29 19:24:49 UTC 2022 com.google.javascript.jscomp.CodeGenerator,943
+Wed Jun 29 19:24:50 UTC 2022 com.google.javascript.jscomp.CodeGenerator,952
+Wed Jun 29 19:24:50 UTC 2022 com.google.javascript.jscomp.CodeGenerator,964
+Wed Jun 29 19:26:02 UTC 2022 com.google.javascript.jscomp.CodeGenerator,993
+Wed Jun 29 19:26:55 UTC 2022 com.google.javascript.jscomp.CodeGenerator,994
+Wed Jun 29 19:26:56 UTC 2022 com.google.javascript.jscomp.CodeGenerator,995
+Wed Jun 29 20:33:59 UTC 2022 com.google.javascript.jscomp.CodeGenerator,1056
+Timeout time : 22/06/29 21:28

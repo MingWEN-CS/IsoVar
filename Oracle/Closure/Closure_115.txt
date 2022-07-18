@@ -1,13 +1,5 @@
-buggy	com.google.javascript.jscomp.FunctionInjector	697	DEL	hasSideEffects
-buggy	com.google.javascript.jscomp.FunctionInjector	698	DEL	block
-buggy	com.google.javascript.jscomp.FunctionInjector	699	DEL	Preconditions
-buggy	com.google.javascript.jscomp.FunctionInjector	699	DEL	block
-buggy	com.google.javascript.jscomp.FunctionInjector	700	DEL	stmt
-buggy	com.google.javascript.jscomp.FunctionInjector	700	DEL	block
-buggy	com.google.javascript.jscomp.FunctionInjector	701	DEL	stmt
-buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	hasSideEffects
-buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	NodeUtil
-buggy	com.google.javascript.jscomp.FunctionInjector	702	DEL	stmt
-buggy	com.google.javascript.jscomp.FunctionInjector	730	DEL	hasSideEffects
-buggy	com.google.javascript.jscomp.FunctionInjector	730	DEL	NodeUtil
-buggy	com.google.javascript.jscomp.FunctionInjector	731	DEL	CanInlineResult.NO
+com.google.javascript.jscomp.FunctionInjector	canInlineReferenceDirectly(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;	block	buggy
+com.google.javascript.jscomp.FunctionInjector	canInlineReferenceDirectly(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;	this.compiler	buggy
+com.google.javascript.jscomp.FunctionInjector	canInlineReferenceDirectly(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;	hasSideEffects	buggy
+com.google.javascript.jscomp.FunctionInjector	canInlineReferenceDirectly(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;	stmt	buggy
+com.google.javascript.jscomp.FunctionInjector	canInlineReferenceDirectly(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionInjector$CanInlineResult;	.NO	buggy

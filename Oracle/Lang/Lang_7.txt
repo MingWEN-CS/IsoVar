@@ -1,3 +1,2 @@
-fix	org.apache.commons.lang3.math.NumberUtils	718	INS	str
-fix	org.apache.commons.lang3.math.NumberUtils	723	INS	str
-buggy	org.apache.commons.lang3.math.NumberUtils	452	DEL	str
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	buggy
+org.apache.commons.lang3.math.NumberUtils	createBigDecimal(Ljava/lang/String;)Ljava/math/BigDecimal;	str	fixed

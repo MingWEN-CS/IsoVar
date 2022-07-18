@@ -7,10 +7,13 @@ public class VariableInfo {
     public boolean isParameter = false;
     public boolean isClinit = false;
     public VariableType type;
-    boolean isDef;
+    public boolean isDef;
     int line;
-    public String className, methodName, name, desc;
+    public String className, methodName, name, desc, trueName; // true name denotes the recovered name by asm
 
+    public void setDef(boolean def) {
+        isDef = def;
+    }
 
     public VariableInfo(String str, int methodHash, String className, String methodName) {
         this.className = className;
@@ -31,7 +34,7 @@ public class VariableInfo {
                 name = name.substring(0, name.indexOf('['));
                 this.isArrayRef = true;
             }
-            this.name = name;
+            handleRecoverName(name);
             this.line = Integer.parseInt(lineSplit[1]);
         } else if (str.contains(":")) {
             this.isDef = false;
@@ -41,9 +44,10 @@ public class VariableInfo {
                 name = name.substring(0, name.indexOf('['));
                 this.isArrayRef = true;
             }
-            this.name = name;
+            handleRecoverName(name);
             this.line = Integer.parseInt(lineSplit[1]);
         }
+
         if (line == -1) {
             this.isParameter = true;
         }
@@ -57,6 +61,16 @@ public class VariableInfo {
         this.isDef = isDef;
     }
 
+    public void handleRecoverName(String name) {
+        int pos = name.indexOf('^');
+        if (pos == -1)
+            this.name = name;
+        else {
+            this.name = name.substring(0, pos);
+            this.trueName = name.substring(pos + 1);
+        }
+    }
+
     public VariableInfo(String name, String desc) {
         this.name = name;
         this.desc = desc;
@@ -67,6 +81,11 @@ public class VariableInfo {
         this.desc = var.desc;
         this.line = line;
         this.isDef = isDef;
+    }
+
+    public VariableInfo(String name, int hash) {
+        this.name = name;
+        this.methodHash = hash;
     }
 
     public int getLine() {

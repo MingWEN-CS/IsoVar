@@ -1,8 +1,5 @@
-fix	com.google.javascript.jscomp.ScopedAliases	259	INS	injectedDecls
-fix	com.google.javascript.jscomp.ScopedAliases	259	INS	Sets
-fix	com.google.javascript.jscomp.ScopedAliases	584	INS	info
-fix	com.google.javascript.jscomp.ScopedAliases	584	INS	injectedDecls
-fix	com.google.javascript.jscomp.ScopedAliases	317	INS	injectedDecls
-buggy	com.google.javascript.jscomp.ScopedAliases	581	MOV	info
-fix	com.google.javascript.jscomp.ScopedAliases	434	INS	injectedDecls
-fix	com.google.javascript.jscomp.ScopedAliases	434	INS	newDecl
+com.google.javascript.jscomp.ScopedAliases$Traversal	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	info	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	existingName	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	node	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	<init>(Lcom/google/javascript/jscomp/ScopedAliases;)V	this.injectedDecls	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	n	fixed

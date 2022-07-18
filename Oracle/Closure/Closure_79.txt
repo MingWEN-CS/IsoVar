@@ -1,1 +1,1 @@
-fix	com.google.javascript.jscomp.VarCheck	221	INS	compiler
+com.google.javascript.jscomp.VarCheck	createSynthesizedExternVar(Ljava/lang/String;)V	this.compiler	fixed

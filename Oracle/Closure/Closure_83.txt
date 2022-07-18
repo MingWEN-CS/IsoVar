@@ -1,0 +1,6 @@
+com.google.javascript.jscomp.CommandLineRunner$Flags$BooleanOptionHandler	parseArguments(Lorg/kohsuke/args4j/spi/Parameters;)I	param	buggy
+com.google.javascript.jscomp.CommandLineRunner$Flags$BooleanOptionHandler	parseArguments(Lorg/kohsuke/args4j/spi/Parameters;)I	params	buggy
+com.google.javascript.jscomp.CommandLineRunner$Flags$BooleanOptionHandler	parseArguments(Lorg/kohsuke/args4j/spi/Parameters;)I	param	fixed
+com.google.javascript.jscomp.AbstractCommandLineRunner	createSourceInputs(Ljava/util/List;)Ljava/util/List;	this.inputsSupplierForTesting	fixed
+com.google.javascript.jscomp.AbstractCommandLineRunner	createSourceInputs(Ljava/util/List;)Ljava/util/List;	files	fixed
+com.google.javascript.jscomp.CommandLineRunner$Flags$BooleanOptionHandler	parseArguments(Lorg/kohsuke/args4j/spi/Parameters;)I	params	fixed

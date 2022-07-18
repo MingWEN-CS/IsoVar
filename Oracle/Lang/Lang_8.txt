@@ -1,5 +1,4 @@
-fix	org.apache.commons.lang3.time.FastDatePrinter	1132	INS	zone
-fix	org.apache.commons.lang3.time.FastDatePrinter	1132	INS	calendar
-buggy	org.apache.commons.lang3.time.FastDatePrinter	1098	DEL	zone
-buggy	org.apache.commons.lang3.time.FastDatePrinter	1112	DEL	zone
-buggy	org.apache.commons.lang3.time.FastDatePrinter	1112	DEL	timeZone
+org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule	<init>(Ljava/util/TimeZone;Ljava/util/Locale;I)V	this.zone	buggy
+org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule	<init>(Ljava/util/TimeZone;Ljava/util/Locale;I)V	timeZone	buggy
+org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule	appendTo(Ljava/lang/StringBuffer;Ljava/util/Calendar;)V	calendar	fixed
+org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule	appendTo(Ljava/lang/StringBuffer;Ljava/util/Calendar;)V	zone	fixed

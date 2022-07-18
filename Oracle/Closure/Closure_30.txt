@@ -1,6 +1,11 @@
-fix	com.google.javascript.jscomp.MustBeReachingVariableDef	71	INS	unknownDependencies
-fix	com.google.javascript.jscomp.MustBeReachingVariableDef	435	INS	def.unknownDependencies
-fix	com.google.javascript.jscomp.MustBeReachingVariableDef	399	INS	dep
-fix	com.google.javascript.jscomp.MustBeReachingVariableDef	400	INS	def.unknownDependencies
-buggy	com.google.javascript.jscomp.MustBeReachingVariableDef	396	DEL	jsScope
-buggy	com.google.javascript.jscomp.MustBeReachingVariableDef	396	DEL	n
+com.google.javascript.jscomp.MustBeReachingVariableDef$1	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	this.this$0	buggy
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	process(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	root	buggy
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	process(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	this.compiler	buggy
+com.google.javascript.jscomp.MustBeReachingVariableDef$1	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	n	buggy
+com.google.javascript.jscomp.MustBeReachingVariableDef	dependsOnOuterScopeVars(Ljava/lang/String;Lcom/google/javascript/rhino/Node;)Z	def	fixed
+com.google.javascript.jscomp.MustBeReachingVariableDef$1	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	this.val$def	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	process(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	root	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	process(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	this.compiler	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	process(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	externs	fixed
+com.google.javascript.jscomp.MustBeReachingVariableDef$1	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	n	fixed
+com.google.javascript.jscomp.MustBeReachingVariableDef$1	visit(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	dep	fixed

@@ -1,2 +1,10 @@
-fix	org.mockito.internal.configuration.DefaultInjectionEngine	93	INS	injected
-fix	org.mockito.internal.configuration.DefaultInjectionEngine	94	INS	mocks
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	this.mockCandidateFilter	buggy
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	field	buggy
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	mocks	buggy
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fieldInstance	buggy
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	this.mockCandidateFilter	fixed
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	field	fixed
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	injected	fixed
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	injected	fixed
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	mocks	fixed
+org.mockito.internal.configuration.DefaultInjectionEngine	injectMockCandidate(Ljava/lang/Class;Ljava/util/Set;Ljava/lang/Object;)V	fieldInstance	fixed

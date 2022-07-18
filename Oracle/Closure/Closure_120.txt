@@ -1,2 +1,1 @@
-fix	com.google.javascript.jscomp.ReferenceCollectingCallback	431	INS	ref
-fix	com.google.javascript.jscomp.ReferenceCollectingCallback	431	INS	ref.scope
+com.google.javascript.jscomp.ReferenceCollectingCallback$ReferenceCollection	isAssignedOnceInLifetime()Z	ref	fixed

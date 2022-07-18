@@ -1,2 +1,4 @@
-fix	org.apache.commons.math3.fraction.Fraction	597	INS	doubleValue
-buggy	org.apache.commons.math3.fraction.Fraction	597	DEL	multiply
+org.apache.commons.math3.fraction.BigFraction	compareTo(Lorg/apache/commons/math3/fraction/BigFraction;)I	dOn	buggy
+org.apache.commons.math3.fraction.BigFraction	compareTo(Lorg/apache/commons/math3/fraction/BigFraction;)I	nOd	buggy
+org.apache.commons.math3.fraction.BigFraction	compareTo(Lorg/apache/commons/math3/fraction/BigFraction;)I	dOn	fixed
+org.apache.commons.math3.fraction.BigFraction	compareTo(Lorg/apache/commons/math3/fraction/BigFraction;)I	nOd	fixed

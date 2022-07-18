@@ -1,0 +1,167 @@
+=================================================
+Project : math_75	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.stat.FrequencyTest::testPcts | 22/06/30 00:54
+Thu Jun 30 00:55:15 UTC 2022 org.apache.commons.math.stat.Frequency,303
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return getPct((Comparable<?>)v);
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.9622504486493764 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java=>0,0]
+return getPct(Long.valueOf(v));
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java=>303,303]
+return getCumPct((Comparable<?>)v);
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_75_buggy/src/main/java/org/apache/commons/math/stat/Frequency.java=>303,303]
+return getPct((Comparable<?>)v);
+
+Time : 22/06/30 00:56
+----------------------------------------
+Thu Jun 30 00:56:21 UTC 2022 org.apache.commons.math.stat.Frequency,342
+Thu Jun 30 00:56:42 UTC 2022 org.apache.commons.math.stat.Frequency,331
+Thu Jun 30 00:56:43 UTC 2022 org.apache.commons.math.stat.Frequency,386
+Thu Jun 30 00:56:54 UTC 2022 org.apache.commons.math.stat.Frequency,444
+Thu Jun 30 00:57:22 UTC 2022 org.apache.commons.math.stat.Frequency,177
+Thu Jun 30 00:57:24 UTC 2022 Thu Jun 30 00:57:24 UTC 2022 : org.apache.commons.math.stat.Frequency,178=>Find no block
+Thu Jun 30 00:57:24 UTC 2022 org.apache.commons.math.stat.Frequency,320
+Thu Jun 30 00:57:35 UTC 2022 org.apache.commons.math.stat.Frequency,408
+Thu Jun 30 00:57:51 UTC 2022 Thu Jun 30 00:57:51 UTC 2022 : org.apache.commons.math.stat.Frequency,541=>Find no block
+Thu Jun 30 00:57:52 UTC 2022 org.apache.commons.math.stat.Frequency,561
+Thu Jun 30 00:57:53 UTC 2022 org.apache.commons.math.stat.Frequency,142
+Thu Jun 30 00:58:06 UTC 2022 org.apache.commons.math.stat.Frequency,218
+Thu Jun 30 00:58:08 UTC 2022 org.apache.commons.math.stat.Frequency,251
+Thu Jun 30 00:58:25 UTC 2022 org.apache.commons.math.stat.Frequency,316
+Thu Jun 30 00:58:26 UTC 2022 org.apache.commons.math.stat.Frequency,317
+Thu Jun 30 00:58:29 UTC 2022 org.apache.commons.math.stat.Frequency,385
+Thu Jun 30 00:58:29 UTC 2022 org.apache.commons.math.stat.Frequency,388
+Thu Jun 30 00:58:50 UTC 2022 org.apache.commons.math.stat.Frequency,389
+Thu Jun 30 00:58:50 UTC 2022 org.apache.commons.math.stat.Frequency,390
+Thu Jun 30 00:58:51 UTC 2022 org.apache.commons.math.stat.Frequency,392
+Thu Jun 30 00:59:19 UTC 2022 org.apache.commons.math.stat.Frequency,395
+Thu Jun 30 00:59:38 UTC 2022 org.apache.commons.math.stat.Frequency,396
+Thu Jun 30 00:59:39 UTC 2022 org.apache.commons.math.stat.Frequency,397
+Thu Jun 30 00:59:40 UTC 2022 Thu Jun 30 00:59:40 UTC 2022 : org.apache.commons.math.stat.Frequency,401=>Find no block
+Thu Jun 30 00:59:41 UTC 2022 org.apache.commons.math.stat.Frequency,403
+Thu Jun 30 00:59:53 UTC 2022 org.apache.commons.math.stat.Frequency,407
+Thu Jun 30 00:59:54 UTC 2022 org.apache.commons.math.stat.Frequency,495
+Thu Jun 30 01:00:06 UTC 2022 Thu Jun 30 01:00:06 UTC 2022 : org.apache.commons.math.stat.Frequency,159=>Find no block
+Thu Jun 30 01:00:07 UTC 2022 org.apache.commons.math.stat.Frequency,215
+Thu Jun 30 01:00:42 UTC 2022 org.apache.commons.math.stat.Frequency,216
+Thu Jun 30 01:00:43 UTC 2022 org.apache.commons.math.stat.Frequency,217
+Thu Jun 30 01:00:43 UTC 2022 org.apache.commons.math.stat.Frequency,220
+Thu Jun 30 01:00:44 UTC 2022 org.apache.commons.math.stat.Frequency,244
+Thu Jun 30 01:00:55 UTC 2022 org.apache.commons.math.stat.Frequency,247
+Thu Jun 30 01:01:08 UTC 2022 org.apache.commons.math.stat.Frequency,249
+Thu Jun 30 01:01:09 UTC 2022 org.apache.commons.math.stat.Frequency,250
+Thu Jun 30 01:01:09 UTC 2022 Thu Jun 30 01:01:09 UTC 2022 : org.apache.commons.math.stat.Frequency,255=>Find no block
+Thu Jun 30 01:01:09 UTC 2022 org.apache.commons.math.stat.Frequency,256
+Thu Jun 30 01:01:10 UTC 2022 org.apache.commons.math.stat.Frequency,382
+Thu Jun 30 01:01:11 UTC 2022 org.apache.commons.math.stat.Frequency,491
+Thu Jun 30 01:01:11 UTC 2022 org.apache.commons.math.stat.Frequency,492
+Thu Jun 30 01:01:12 UTC 2022 org.apache.commons.math.stat.Frequency,133
+Thu Jun 30 01:01:23 UTC 2022 org.apache.commons.math.stat.Frequency,134
+Thu Jun 30 01:01:33 UTC 2022 org.apache.commons.math.stat.Frequency,138
+Thu Jun 30 01:01:47 UTC 2022 org.apache.commons.math.stat.Frequency,139
+Thu Jun 30 01:01:48 UTC 2022 org.apache.commons.math.stat.Frequency,140
+Thu Jun 30 01:01:48 UTC 2022 Thu Jun 30 01:01:48 UTC 2022 : org.apache.commons.math.stat.Frequency,149=>Find no block
+Thu Jun 30 01:01:48 UTC 2022 Thu Jun 30 01:01:48 UTC 2022 : org.apache.commons.math.stat.Frequency,150=>Find no block
+Thu Jun 30 01:01:49 UTC 2022 org.apache.commons.math.stat.Frequency,158
+Thu Jun 30 01:01:49 UTC 2022 Thu Jun 30 01:01:49 UTC 2022 : org.apache.commons.math.stat.Frequency,59=>Find no block
+Thu Jun 30 01:01:49 UTC 2022 org.apache.commons.math.stat.Frequency,60
+Thu Jun 30 01:01:51 UTC 2022 Thu Jun 30 01:01:51 UTC 2022 : org.apache.commons.math.stat.Frequency,61=>Find no block
+Thu Jun 30 01:01:51 UTC 2022 Thu Jun 30 01:01:51 UTC 2022 : org.apache.commons.math.stat.Frequency,69=>Find no block
+Thu Jun 30 01:01:51 UTC 2022 org.apache.commons.math.stat.Frequency,70
+Thu Jun 30 01:01:53 UTC 2022 Thu Jun 30 01:01:53 UTC 2022 : org.apache.commons.math.stat.Frequency,71=>Find no block
+Thu Jun 30 01:01:54 UTC 2022 org.apache.commons.math.stat.Frequency,81
+Thu Jun 30 01:02:12 UTC 2022 org.apache.commons.math.stat.Frequency,82
+Thu Jun 30 01:02:13 UTC 2022 org.apache.commons.math.stat.Frequency,83
+Thu Jun 30 01:03:04 UTC 2022 org.apache.commons.math.stat.Frequency,84
+Thu Jun 30 01:03:04 UTC 2022 org.apache.commons.math.stat.Frequency,85
+Thu Jun 30 01:04:50 UTC 2022 org.apache.commons.math.stat.Frequency,86
+Thu Jun 30 01:06:00 UTC 2022 org.apache.commons.math.stat.Frequency,87
+Thu Jun 30 01:06:00 UTC 2022 org.apache.commons.math.stat.Frequency,88
+Thu Jun 30 01:07:12 UTC 2022 org.apache.commons.math.stat.Frequency,89
+Thu Jun 30 01:08:36 UTC 2022 org.apache.commons.math.stat.Frequency,90
+Thu Jun 30 01:09:52 UTC 2022 org.apache.commons.math.stat.Frequency,91
+Thu Jun 30 01:11:08 UTC 2022 org.apache.commons.math.stat.Frequency,92
+Thu Jun 30 01:12:29 UTC 2022 org.apache.commons.math.stat.Frequency,93
+Thu Jun 30 01:13:45 UTC 2022 org.apache.commons.math.stat.Frequency,94
+Thu Jun 30 01:13:45 UTC 2022 Thu Jun 30 01:13:45 UTC 2022 : org.apache.commons.math.stat.Frequency,95=>Find no block
+Thu Jun 30 01:13:45 UTC 2022 org.apache.commons.math.stat.Frequency,96
+Thu Jun 30 01:17:03 UTC 2022 org.apache.commons.math.stat.Frequency,113
+Thu Jun 30 01:17:47 UTC 2022 org.apache.commons.math.stat.Frequency,114
+Thu Jun 30 01:17:47 UTC 2022 org.apache.commons.math.stat.Frequency,116
+Thu Jun 30 01:17:48 UTC 2022 Thu Jun 30 01:17:48 UTC 2022 : org.apache.commons.math.stat.Frequency,120=>Find no block
+Thu Jun 30 01:17:48 UTC 2022 org.apache.commons.math.stat.Frequency,135
+Thu Jun 30 01:17:48 UTC 2022 Thu Jun 30 01:17:48 UTC 2022 : org.apache.commons.math.stat.Frequency,144=>Find no block
+Thu Jun 30 01:17:49 UTC 2022 org.apache.commons.math.stat.Frequency,146
+Thu Jun 30 01:18:08 UTC 2022 org.apache.commons.math.stat.Frequency,168
+Thu Jun 30 01:18:10 UTC 2022 Thu Jun 30 01:18:10 UTC 2022 : org.apache.commons.math.stat.Frequency,169=>Find no block
+Thu Jun 30 01:18:10 UTC 2022 org.apache.commons.math.stat.Frequency,186
+Thu Jun 30 01:18:12 UTC 2022 Thu Jun 30 01:18:12 UTC 2022 : org.apache.commons.math.stat.Frequency,187=>Find no block
+Thu Jun 30 01:18:12 UTC 2022 org.apache.commons.math.stat.Frequency,191
+Thu Jun 30 01:18:15 UTC 2022 Thu Jun 30 01:18:15 UTC 2022 : org.apache.commons.math.stat.Frequency,192=>Find no block
+Thu Jun 30 01:18:16 UTC 2022 org.apache.commons.math.stat.Frequency,204
+Thu Jun 30 01:18:17 UTC 2022 org.apache.commons.math.stat.Frequency,233
+Thu Jun 30 01:18:51 UTC 2022 org.apache.commons.math.stat.Frequency,245
+Thu Jun 30 01:18:51 UTC 2022 Thu Jun 30 01:18:51 UTC 2022 : org.apache.commons.math.stat.Frequency,253=>Find no block
+Thu Jun 30 01:18:52 UTC 2022 org.apache.commons.math.stat.Frequency,266
+Thu Jun 30 01:19:22 UTC 2022 org.apache.commons.math.stat.Frequency,276
+Thu Jun 30 01:19:22 UTC 2022 org.apache.commons.math.stat.Frequency,286
+Thu Jun 30 01:19:54 UTC 2022 org.apache.commons.math.stat.Frequency,318
+Thu Jun 30 01:19:55 UTC 2022 org.apache.commons.math.stat.Frequency,353
+Thu Jun 30 01:20:19 UTC 2022 org.apache.commons.math.stat.Frequency,369
+Thu Jun 30 01:20:51 UTC 2022 org.apache.commons.math.stat.Frequency,383
+Thu Jun 30 01:20:52 UTC 2022 Thu Jun 30 01:20:52 UTC 2022 : org.apache.commons.math.stat.Frequency,399=>Find no block
+Thu Jun 30 01:20:52 UTC 2022 org.apache.commons.math.stat.Frequency,400
+Thu Jun 30 01:21:17 UTC 2022 org.apache.commons.math.stat.Frequency,404
+Thu Jun 30 01:21:18 UTC 2022 org.apache.commons.math.stat.Frequency,411
+Thu Jun 30 01:22:02 UTC 2022 org.apache.commons.math.stat.Frequency,412
+Thu Jun 30 01:22:02 UTC 2022 org.apache.commons.math.stat.Frequency,413
+Thu Jun 30 01:22:03 UTC 2022 org.apache.commons.math.stat.Frequency,414
+Thu Jun 30 01:22:03 UTC 2022 org.apache.commons.math.stat.Frequency,415
+Thu Jun 30 01:22:03 UTC 2022 org.apache.commons.math.stat.Frequency,417
+Thu Jun 30 01:22:04 UTC 2022 Thu Jun 30 01:22:04 UTC 2022 : org.apache.commons.math.stat.Frequency,419=>Find no block
+Thu Jun 30 01:22:04 UTC 2022 org.apache.commons.math.stat.Frequency,420
+Thu Jun 30 01:22:21 UTC 2022 org.apache.commons.math.stat.Frequency,432
+Thu Jun 30 01:22:22 UTC 2022 org.apache.commons.math.stat.Frequency,456
+Thu Jun 30 01:22:57 UTC 2022 org.apache.commons.math.stat.Frequency,475
+Thu Jun 30 01:22:58 UTC 2022 org.apache.commons.math.stat.Frequency,493
+Thu Jun 30 01:22:59 UTC 2022 org.apache.commons.math.stat.Frequency,508
+Thu Jun 30 01:23:18 UTC 2022 org.apache.commons.math.stat.Frequency,521
+Thu Jun 30 01:23:20 UTC 2022 org.apache.commons.math.stat.Frequency,534
+Thu Jun 30 01:23:45 UTC 2022 org.apache.commons.math.stat.Frequency,568
+Thu Jun 30 01:24:10 UTC 2022 org.apache.commons.math.stat.Frequency,569
+Thu Jun 30 01:24:10 UTC 2022 org.apache.commons.math.stat.Frequency,570
+Thu Jun 30 01:24:11 UTC 2022 org.apache.commons.math.stat.Frequency,572
+Thu Jun 30 01:24:11 UTC 2022 org.apache.commons.math.stat.Frequency,578
+Thu Jun 30 01:24:43 UTC 2022 org.apache.commons.math.stat.Frequency,579
+Thu Jun 30 01:24:43 UTC 2022 org.apache.commons.math.stat.Frequency,580
+Thu Jun 30 01:24:56 UTC 2022 org.apache.commons.math.stat.Frequency,581
+Thu Jun 30 01:24:57 UTC 2022 org.apache.commons.math.stat.Frequency,582
+Thu Jun 30 01:24:59 UTC 2022 org.apache.commons.math.stat.Frequency,583
+Thu Jun 30 01:24:59 UTC 2022 org.apache.commons.math.stat.Frequency,584
+Thu Jun 30 01:26:43 UTC 2022 org.apache.commons.math.stat.Frequency,585
+Thu Jun 30 01:26:43 UTC 2022 org.apache.commons.math.stat.Frequency,586
+Thu Jun 30 01:26:44 UTC 2022 org.apache.commons.math.stat.Frequency,587
+Thu Jun 30 01:26:44 UTC 2022 org.apache.commons.math.stat.Frequency,588
+Thu Jun 30 01:26:44 UTC 2022 org.apache.commons.math.stat.Frequency,589
+Thu Jun 30 01:26:45 UTC 2022 org.apache.commons.math.stat.Frequency,590
+Success time : 22/06/30 01:26

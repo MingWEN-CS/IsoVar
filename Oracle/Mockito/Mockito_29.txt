@@ -1,1 +1,4 @@
-fix	org.mockito.internal.matchers.Same	29	INS	wanted
+org.mockito.internal.matchers.Same	describeTo(Lorg/hamcrest/Description;)V	this.wanted	buggy
+org.mockito.internal.matchers.Same	describeTo(Lorg/hamcrest/Description;)V	description	buggy
+org.mockito.internal.matchers.Same	describeTo(Lorg/hamcrest/Description;)V	this.wanted	fixed
+org.mockito.internal.matchers.Same	describeTo(Lorg/hamcrest/Description;)V	description	fixed

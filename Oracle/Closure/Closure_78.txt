@@ -1,4 +1,1 @@
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	711	DEL	error
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	711	DEL	DiagnosticType
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	718	DEL	error
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	718	DEL	DiagnosticType
+com.google.javascript.jscomp.PeepholeFoldConstants	performArithmeticOp(ILcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	right	buggy

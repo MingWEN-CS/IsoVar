@@ -1,0 +1,230 @@
+=================================================
+Project : time_7	start : 22/07/16 15:25
+Current failed test : org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear | 22/07/16 15:25
+Sat Jul 16 15:25:13 UTC 2022 Sat Jul 16 15:25:13 UTC 2022 : org.joda.time.format.DateTimeParserBucket,373=>Find no block
+Sat Jul 16 15:25:14 UTC 2022 org.joda.time.format.DateTimeParserBucket,374
+=================================================
+Project : time_7	start : 22/07/16 15:25
+Current failed test : org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear | 22/07/16 15:25
+Sat Jul 16 15:25:28 UTC 2022 Sat Jul 16 15:25:28 UTC 2022 : org.joda.time.format.DateTimeParserBucket,373=>Find no block
+Sat Jul 16 15:25:28 UTC 2022 org.joda.time.format.DateTimeParserBucket,374
+Sat Jul 16 15:25:41 UTC 2022 org.joda.time.format.DateTimeParserBucket,375
+Sat Jul 16 15:25:41 UTC 2022 org.joda.time.format.DateTimeParserBucket,377
+Sat Jul 16 15:25:58 UTC 2022 org.joda.time.format.DateTimeParserBucket,375
+Sat Jul 16 15:25:58 UTC 2022 org.joda.time.format.DateTimeParserBucket,377
+Sat Jul 16 15:27:10 UTC 2022 org.joda.time.IllegalFieldValueException,314
+Sat Jul 16 15:27:12 UTC 2022 org.joda.time.IllegalFieldValueException,323
+Sat Jul 16 15:27:17 UTC 2022 org.joda.time.IllegalFieldValueException,325
+Sat Jul 16 15:27:17 UTC 2022 org.joda.time.IllegalFieldValueException,326
+Sat Jul 16 15:27:17 UTC 2022 Sat Jul 16 15:27:17 UTC 2022 : org.joda.time.IllegalFieldValueException,328=>Find no block
+Sat Jul 16 15:27:17 UTC 2022 org.joda.time.format.DateTimeFormatter,701
+Sat Jul 16 15:27:35 UTC 2022 org.joda.time.IllegalFieldValueException,314
+Sat Jul 16 15:27:36 UTC 2022 org.joda.time.IllegalFieldValueException,323
+Sat Jul 16 15:28:03 UTC 2022 org.joda.time.format.DateTimeFormatter,702
+Sat Jul 16 15:28:04 UTC 2022 org.joda.time.format.DateTimeFormatter,706
+Sat Jul 16 15:30:56 UTC 2022 org.joda.time.format.DateTimeFormatter,707
+Sat Jul 16 15:35:16 UTC 2022 org.joda.time.format.DateTimeFormatter,708
+Sat Jul 16 15:38:58 UTC 2022 org.joda.time.format.DateTimeFormatter,709
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantMillis);
+
+Time : 22/07/16 15:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9714759713788307 : [/data/MutationAnalysis/target_classes_comment_new/Time/Time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>0,0]
+int millisOfDay=ISOChronology.getInstanceUTC().millisOfDay().get(millis);
+setMillis(getChronology().millisOfDay().set(getMillis(),millisOfDay));
+
+Time : 22/07/16 15:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Time/Time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>708,710]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantLocal);
+
+Time : 22/07/16 15:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Time/Time_7_buggy/src/main/java/org/joda/time/format/DateTimeFormatter.java=>708,710]
+long instantLocal=instantMillis+chrono.getZone().getOffset(instantMillis);
+chrono=selectChronology(chrono);
+int defaultYear=chrono.year().get(instantMillis);
+
+Time : 22/07/16 15:43
+----------------------------------------
+Sat Jul 16 15:44:33 UTC 2022 org.joda.time.format.DateTimeFormatter,710
+Sat Jul 16 15:49:39 UTC 2022 org.joda.time.format.DateTimeFormatter,712
+Sat Jul 16 15:56:09 UTC 2022 org.joda.time.format.DateTimeFormatter,714
+Sat Jul 16 16:02:29 UTC 2022 org.joda.time.format.DateTimeFormatter,715
+Sat Jul 16 16:10:35 UTC 2022 org.joda.time.format.DateTimeParserBucket,358
+Sat Jul 16 16:10:46 UTC 2022 org.joda.time.format.DateTimeParserBucket,359
+Sat Jul 16 16:10:47 UTC 2022 org.joda.time.MutableDateTime,351
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super(year,monthOfYear,dayOfMonth,hourOfDay,minuteOfHour,secondOfMinute,millisOfSecond);
+
+Time : 22/07/16 16:11
+----------------------------------------
+Sat Jul 16 16:11:26 UTC 2022 Sat Jul 16 16:11:26 UTC 2022 : org.joda.time.MutableDateTime,353=>Find no block
+Sat Jul 16 16:11:27 UTC 2022 org.joda.time.field.FieldUtils,218
+Sat Jul 16 16:14:30 UTC 2022 org.joda.time.field.BaseDurationField,150
+Sat Jul 16 16:14:31 UTC 2022 org.joda.time.chrono.BasicMonthOfYearDateTimeField,306
+Sat Jul 16 16:14:33 UTC 2022 org.joda.time.format.DateTimeParserBucket,518
+Sat Jul 16 16:14:55 UTC 2022 org.joda.time.chrono.BasicChronology,419
+Sat Jul 16 16:14:56 UTC 2022 org.joda.time.format.DateTimeParserBucket,421
+Sat Jul 16 16:18:50 UTC 2022 org.joda.time.format.DateTimeParserBucket,422
+Sat Jul 16 16:18:50 UTC 2022 org.joda.time.format.DateTimeParserBucket,423
+Sat Jul 16 16:18:50 UTC 2022 org.joda.time.IllegalFieldValueException,53
+Sat Jul 16 16:22:54 UTC 2022 org.joda.time.IllegalFieldValueException,50
+Sat Jul 16 16:22:54 UTC 2022 org.joda.time.format.ISODateTimeFormat,971
+Sat Jul 16 16:31:20 UTC 2022 org.joda.time.format.ISODateTimeFormat,972
+Sat Jul 16 16:31:20 UTC 2022 org.joda.time.format.ISODateTimeFormat,977
+Sat Jul 16 16:39:53 UTC 2022 org.joda.time.IllegalFieldValueException,108
+Sat Jul 16 16:39:54 UTC 2022 org.joda.time.IllegalFieldValueException,109
+Sat Jul 16 16:39:55 UTC 2022 org.joda.time.IllegalFieldValueException,110
+Sat Jul 16 16:39:55 UTC 2022 org.joda.time.IllegalFieldValueException,111
+Sat Jul 16 16:39:55 UTC 2022 org.joda.time.IllegalFieldValueException,112
+Sat Jul 16 16:39:55 UTC 2022 org.joda.time.IllegalFieldValueException,113
+Sat Jul 16 16:39:56 UTC 2022 org.joda.time.IllegalFieldValueException,114
+Sat Jul 16 16:39:56 UTC 2022 org.joda.time.IllegalFieldValueException,115
+Sat Jul 16 16:39:56 UTC 2022 org.joda.time.IllegalFieldValueException,116
+Sat Jul 16 16:39:56 UTC 2022 Sat Jul 16 16:39:56 UTC 2022 : org.joda.time.IllegalFieldValueException,117=>Find no block
+Sat Jul 16 16:39:57 UTC 2022 org.joda.time.format.ISODateTimeFormat,935
+Sat Jul 16 16:48:16 UTC 2022 org.joda.time.format.ISODateTimeFormat,936
+Sat Jul 16 16:48:16 UTC 2022 org.joda.time.format.ISODateTimeFormat,941
+Sat Jul 16 16:56:38 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,976
+Sat Jul 16 16:57:07 UTC 2022 org.joda.time.format.ISODateTimeFormat,897
+Sat Jul 16 17:05:42 UTC 2022 org.joda.time.format.ISODateTimeFormat,898
+Sat Jul 16 17:05:42 UTC 2022 org.joda.time.format.ISODateTimeFormat,903
+Sat Jul 16 17:13:49 UTC 2022 org.joda.time.format.ISODateTimeFormat,1442
+Sat Jul 16 17:21:52 UTC 2022 org.joda.time.format.ISODateTimeFormat,1443
+Sat Jul 16 17:21:53 UTC 2022 org.joda.time.format.ISODateTimeFormat,1449
+Sat Jul 16 17:29:54 UTC 2022 org.joda.time.IllegalFieldValueException,41
+Sat Jul 16 17:33:51 UTC 2022 org.joda.time.IllegalFieldValueException,44
+Sat Jul 16 17:33:51 UTC 2022 org.joda.time.IllegalFieldValueException,59
+Sat Jul 16 17:39:12 UTC 2022 org.joda.time.IllegalFieldValueException,63
+Sat Jul 16 17:45:35 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,549
+Sat Jul 16 17:46:21 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,552
+Sat Jul 16 17:48:04 UTC 2022 org.joda.time.format.DateTimeFormatter,190
+Sat Jul 16 17:49:16 UTC 2022 org.joda.time.format.DateTimeFormatter,193
+Sat Jul 16 17:50:27 UTC 2022 org.joda.time.format.DateTimeFormatter,204
+Sat Jul 16 17:50:28 UTC 2022 org.joda.time.chrono.BasicChronology,584
+Sat Jul 16 17:54:54 UTC 2022 org.joda.time.chrono.BasicChronology,585
+Sat Jul 16 17:54:54 UTC 2022 org.joda.time.chrono.BasicChronology,586
+Sat Jul 16 17:54:55 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1822
+Sat Jul 16 17:54:56 UTC 2022 org.joda.time.tz.DateTimeZoneBuilder,1611
+Sat Jul 16 18:04:29 UTC 2022 org.joda.time.tz.DateTimeZoneBuilder,1612
+Sat Jul 16 18:04:29 UTC 2022 org.joda.time.tz.DateTimeZoneBuilder,1613
+Sat Jul 16 18:04:29 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1754
+Sat Jul 16 18:04:50 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1755
+Sat Jul 16 18:04:50 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1756
+Sat Jul 16 18:04:50 UTC 2022 Sat Jul 16 18:04:50 UTC 2022 : org.joda.time.format.DateTimeFormatterBuilder,1757=>Find no block
+Sat Jul 16 18:04:51 UTC 2022 Sat Jul 16 18:04:51 UTC 2022 : org.joda.time.format.DateTimeFormatterBuilder,1748=>Find no block
+Sat Jul 16 18:04:51 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1760
+Sat Jul 16 18:04:52 UTC 2022 org.joda.time.DateTimeFieldType,378
+Sat Jul 16 18:04:56 UTC 2022 org.joda.time.format.DateTimeFormat,486
+Sat Jul 16 18:06:05 UTC 2022 org.joda.time.format.DateTimeFormat,488
+Sat Jul 16 18:08:34 UTC 2022 org.joda.time.format.DateTimeFormat,490
+Sat Jul 16 18:09:31 UTC 2022 org.joda.time.format.DateTimeFormat,491
+Sat Jul 16 18:10:22 UTC 2022 org.joda.time.format.DateTimeFormat,479
+Sat Jul 16 18:10:22 UTC 2022 org.joda.time.format.DateTimeFormat,551
+Sat Jul 16 18:11:19 UTC 2022 org.joda.time.format.DateTimeFormat,613
+Sat Jul 16 18:20:42 UTC 2022 org.joda.time.format.DateTimeFormat,614
+Sat Jul 16 18:20:42 UTC 2022 org.joda.time.format.DateTimeFormat,549
+Sat Jul 16 18:21:09 UTC 2022 org.joda.time.format.DateTimeFormat,550
+Sat Jul 16 18:21:10 UTC 2022 org.joda.time.format.DateTimeFormat,596
+Sat Jul 16 18:57:43 UTC 2022 org.joda.time.format.DateTimeFormat,598
+Sat Jul 16 18:57:43 UTC 2022 org.joda.time.format.DateTimeFormat,600
+Sat Jul 16 19:04:22 UTC 2022 org.joda.time.format.DateTimeFormat,601
+Sat Jul 16 19:04:25 UTC 2022 org.joda.time.format.DateTimeFormat,603
+Sat Jul 16 19:04:25 UTC 2022 org.joda.time.format.DateTimeFormat,611
+Sat Jul 16 19:04:26 UTC 2022 org.joda.time.format.DateTimeFormat,616
+Sat Jul 16 19:04:26 UTC 2022 org.joda.time.format.DateTimeFormat,586
+Sat Jul 16 19:15:47 UTC 2022 org.joda.time.format.DateTimeFormat,587
+Sat Jul 16 19:15:47 UTC 2022 org.joda.time.format.DateTimeFormat,683
+Sat Jul 16 19:18:08 UTC 2022 org.joda.time.format.DateTimeFormat,685
+Sat Jul 16 19:18:08 UTC 2022 Sat Jul 16 19:18:08 UTC 2022 : org.joda.time.format.DateTimeFormat,687=>Find no block
+Sat Jul 16 19:18:08 UTC 2022 org.joda.time.format.DateTimeFormat,688
+Sat Jul 16 19:18:22 UTC 2022 org.joda.time.format.DateTimeFormat,170
+Sat Jul 16 19:18:24 UTC 2022 org.joda.time.format.DateTimeFormat,674
+Sat Jul 16 19:21:31 UTC 2022 org.joda.time.format.DateTimeFormat,677
+Sat Jul 16 19:24:25 UTC 2022 Sat Jul 16 19:24:25 UTC 2022 : org.joda.time.format.DateTimeFormat,678=>Find no block
+Sat Jul 16 19:24:26 UTC 2022 org.joda.time.format.DateTimeFormat,679
+Sat Jul 16 19:24:52 UTC 2022 org.joda.time.format.DateTimeFormat,680
+Sat Jul 16 19:24:52 UTC 2022 org.joda.time.format.DateTimeFormat,681
+Sat Jul 16 19:24:52 UTC 2022 org.joda.time.format.DateTimeFormat,682
+Sat Jul 16 19:24:53 UTC 2022 org.joda.time.format.DateTimeParserBucket,503
+Sat Jul 16 19:24:54 UTC 2022 org.joda.time.format.DateTimeParserBucket,499
+Sat Jul 16 19:25:51 UTC 2022 org.joda.time.format.DateTimeParserBucket,500
+Sat Jul 16 19:25:52 UTC 2022 org.joda.time.format.DateTimeParserBucket,502
+Sat Jul 16 19:25:52 UTC 2022 org.joda.time.format.DateTimeFormatterBuilder,1259
+Sat Jul 16 19:33:13 UTC 2022 org.joda.time.format.DateTimeParserBucket,520
+Sat Jul 16 19:34:05 UTC 2022 org.joda.time.format.DateTimeParserBucket,517
+Sat Jul 16 19:34:06 UTC 2022 org.joda.time.format.DateTimeParserBucket,354
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(count>iDefaultYear){
+DurationField months=DurationFieldType.months().getField(iChrono);
+DurationField days=DurationFieldType.days().getField(iChrono);
+DurationField first=savedFields[0].iField.getDurationField();
+if(compareReverse(first,months)>=0&&compareReverse(first,days)<=0){
+saveField(DateTimeFieldType.year(),iDefaultYear);
+return computeMillis(resetFields,text);
+}
+}
+
+Time : 22/07/16 19:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(count>iSavedFieldsCount){
+DurationField months=DurationFieldType.months().getField(iChrono);
+DurationField days=DurationFieldType.days().getField(iChrono);
+DurationField first=savedFields[0].iField.getDurationField();
+if(compareReverse(first,months)>=0&&compareReverse(first,days)<=0){
+saveField(DateTimeFieldType.year(),iDefaultYear);
+return computeMillis(resetFields,text);
+}
+}
+
+Time : 22/07/16 19:36
+----------------------------------------
+Sat Jul 16 19:37:09 UTC 2022 org.joda.time.format.DateTimeParserBucket,355
+Sat Jul 16 19:37:10 UTC 2022 org.joda.time.format.DateTimeParserBucket,356
+Sat Jul 16 19:37:10 UTC 2022 org.joda.time.format.DateTimeParserBucket,357
+Sat Jul 16 19:37:10 UTC 2022 org.joda.time.format.DateTimeParserBucket,366
+Sat Jul 16 19:40:12 UTC 2022 org.joda.time.format.DateTimeParserBucket,420
+Sat Jul 16 19:40:12 UTC 2022 org.joda.time.format.DateTimeParserBucket,511
+Sat Jul 16 19:40:12 UTC 2022 org.joda.time.format.DateTimeParserBucket,482
+Sat Jul 16 19:42:30 UTC 2022 org.joda.time.format.DateTimeParserBucket,483
+Sat Jul 16 19:42:31 UTC 2022 org.joda.time.format.DateTimeParserBucket,487
+Sat Jul 16 19:42:49 UTC 2022 org.joda.time.format.DateTimeParserBucket,490
+Sat Jul 16 19:46:10 UTC 2022 Sat Jul 16 19:46:10 UTC 2022 : org.joda.time.format.DateTimeFormat,563=>Find no block
+Sat Jul 16 19:46:11 UTC 2022 org.joda.time.format.DateTimeFormat,583
+Sat Jul 16 19:49:59 UTC 2022 org.joda.time.format.DateTimeFormat,585
+Sat Jul 16 19:49:59 UTC 2022 org.joda.time.format.DateTimeFormat,400
+Sat Jul 16 20:18:34 UTC 2022 org.joda.time.format.DateTimeFormat,401
+Sat Jul 16 20:18:34 UTC 2022 org.joda.time.format.DateTimeFormat,403
+Sat Jul 16 20:23:27 UTC 2022 org.joda.time.format.DateTimeFormat,404
+Sat Jul 16 20:23:33 UTC 2022 org.joda.time.format.DateTimeFormat,405
+Sat Jul 16 20:23:33 UTC 2022 org.joda.time.format.DateTimeFormat,406
+Sat Jul 16 20:24:35 UTC 2022 org.joda.time.format.DateTimeFormat,408
+Timeout time : 22/07/16 20:25

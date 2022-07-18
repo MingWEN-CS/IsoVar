@@ -1,3 +1,5 @@
-fix	com.google.javascript.jscomp.ScopedAliases	287	INS	v
-fix	com.google.javascript.jscomp.ScopedAliases	290	INS	parent
-fix	com.google.javascript.jscomp.ScopedAliases	290	INS	Token.LP
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	parent	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	n	buggy
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	parent	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	v	fixed
+com.google.javascript.jscomp.ScopedAliases$Traversal	findAliases(Lcom/google/javascript/jscomp/NodeTraversal;)V	n	fixed

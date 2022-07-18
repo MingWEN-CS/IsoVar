@@ -1,2 +1,6 @@
-fix	com.google.javascript.jscomp.CommandLineRunner	434	INS	flags.process_closure_primitives
-buggy	com.google.javascript.jscomp.CommandLineRunner	433	DEL	flags.process_closure_primitives
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	options.closurePass	buggy
+com.google.javascript.jscomp.AbstractCommandLineRunner	writeOutput(Ljava/io/PrintStream;Lcom/google/javascript/jscomp/Compiler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	code	buggy
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	this.flags	buggy
+com.google.javascript.jscomp.AbstractCommandLineRunner	writeOutput(Ljava/io/PrintStream;Lcom/google/javascript/jscomp/Compiler;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	out	buggy
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	options.closurePass	fixed
+com.google.javascript.jscomp.CommandLineRunner	createOptions()Lcom/google/javascript/jscomp/CompilerOptions;	this.flags	fixed

@@ -1,0 +1,6 @@
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n1n2prod	buggy
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n1	buggy
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n2	buggy
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n1n2prod	fixed
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n1	fixed
+org.apache.commons.math3.stat.inference.MannWhitneyUTest	calculateAsymptoticPValue(DII)D	n2	fixed

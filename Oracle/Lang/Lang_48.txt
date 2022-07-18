@@ -1,3 +1,3 @@
-fix	org.apache.commons.lang.builder.EqualsBuilder	380	INS	lhs
-fix	org.apache.commons.lang.builder.EqualsBuilder	381	INS	isEquals
-fix	org.apache.commons.lang.builder.EqualsBuilder	381	INS	lhs
+org.apache.commons.lang.builder.EqualsBuilder	append(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang/builder/EqualsBuilder;	lhs	fixed
+org.apache.commons.lang.builder.EqualsBuilder	append(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang/builder/EqualsBuilder;	this	fixed
+org.apache.commons.lang.builder.EqualsBuilder	append(Ljava/lang/Object;Ljava/lang/Object;)Lorg/apache/commons/lang/builder/EqualsBuilder;	rhs	fixed

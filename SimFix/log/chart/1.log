@@ -1,0 +1,350 @@
+=================================================
+Project : chart_1	start : 22/06/29 16:28
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 22/06/29 16:28
+Wed Jun 29 16:28:24 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Wed Jun 29 16:29:01 UTC 2022 org.jfree.chart.plot.CategoryPlot,1613
+Wed Jun 29 16:29:07 UTC 2022 Wed Jun 29 16:29:07 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Wed Jun 29 16:29:08 UTC 2022 org.jfree.chart.plot.CategoryPlot,1665
+Wed Jun 29 16:33:53 UTC 2022 org.jfree.chart.plot.CategoryPlot,1667
+Wed Jun 29 16:34:20 UTC 2022 org.jfree.chart.plot.CategoryPlot,1672
+Wed Jun 29 16:39:12 UTC 2022 org.jfree.chart.plot.CategoryPlot,1673
+Wed Jun 29 16:39:13 UTC 2022 org.jfree.chart.plot.CategoryPlot,1674
+Wed Jun 29 16:39:14 UTC 2022 org.jfree.chart.plot.CategoryPlot,1675
+Wed Jun 29 16:39:15 UTC 2022 org.jfree.chart.plot.CategoryPlot,1678
+Wed Jun 29 16:41:00 UTC 2022 org.jfree.chart.plot.CategoryPlot,1679
+Wed Jun 29 16:46:58 UTC 2022 org.jfree.chart.plot.CategoryPlot,1681
+Wed Jun 29 16:51:01 UTC 2022 org.jfree.chart.plot.CategoryPlot,1682
+Wed Jun 29 16:51:02 UTC 2022 Wed Jun 29 16:51:02 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1684=>Find no block
+Wed Jun 29 16:51:03 UTC 2022 org.jfree.chart.plot.CategoryPlot,567
+Wed Jun 29 16:51:07 UTC 2022 Wed Jun 29 16:51:07 UTC 2022 : org.jfree.chart.plot.CategoryPlot,568=>Find no block
+Wed Jun 29 16:51:07 UTC 2022 org.jfree.chart.plot.CategoryPlot,1339
+Wed Jun 29 16:51:21 UTC 2022 Wed Jun 29 16:51:21 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1340=>Find no block
+Wed Jun 29 16:51:22 UTC 2022 org.jfree.chart.plot.CategoryPlot,1358
+Wed Jun 29 16:52:27 UTC 2022 org.jfree.chart.plot.CategoryPlot,1045
+Wed Jun 29 16:53:18 UTC 2022 org.jfree.chart.plot.CategoryPlot,1046
+Wed Jun 29 16:53:18 UTC 2022 org.jfree.chart.plot.CategoryPlot,1352
+Wed Jun 29 17:00:15 UTC 2022 org.jfree.chart.plot.CategoryPlot,1353
+Wed Jun 29 17:00:16 UTC 2022 org.jfree.chart.plot.CategoryPlot,1356
+Wed Jun 29 17:00:16 UTC 2022 org.jfree.chart.plot.CategoryPlot,1357
+Wed Jun 29 17:00:17 UTC 2022 org.jfree.chart.plot.CategoryPlot,1362
+Wed Jun 29 17:00:18 UTC 2022 org.jfree.chart.plot.CategoryPlot,1365
+Wed Jun 29 17:00:18 UTC 2022 Wed Jun 29 17:00:18 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1367=>Find no block
+Wed Jun 29 17:00:19 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,201
+Wed Jun 29 17:00:23 UTC 2022 Wed Jun 29 17:00:23 UTC 2022 : org.jfree.chart.renderer.category.LineAndShapeRenderer,202=>Find no block
+Wed Jun 29 17:00:23 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1791
+Wed Jun 29 17:00:55 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1792
+Wed Jun 29 17:00:56 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1795
+Wed Jun 29 17:02:08 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1796
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5946799084892447 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>0,0]
+CategoryAnchor anchor=getDomainGridlinePosition();
+RectangleEdge domainAxisEdge=getDomainAxisEdge();
+CategoryDataset dataset=getDataset();
+if(dataset==null){
+return ;
+}
+CategoryAxis axis=getDomainAxis();
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1795,1799]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(dataset!=null){
+return result;
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1795,1799]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(plot==null){
+return null;
+}
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5138229770162042 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>0,0]
+if(plot==null){
+return null;
+}
+XYDataset dataset=plot.getDataset(datasetIndex);
+if(dataset==null){
+return null;
+}
+
+Time : 22/06/29 17:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1795,1799]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(dataset!=null){
+return result;
+}
+
+Time : 22/06/29 17:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1795,1799]
+int index=this.plot.getIndexOf(this);
+CategoryDataset dataset=this.plot.getDataset(index);
+if(plot==null){
+return null;
+}
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:03
+----------------------------------------
+Wed Jun 29 17:04:55 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1797
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6153499647171805 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>0,0]
+if(dataset==null){
+return ;
+}
+
+Time : 22/06/29 17:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1797,1799]
+if(dataset!=null){
+return result;
+}
+
+Time : 22/06/29 17:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_1_buggy/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java=>1797,1799]
+if(dataset==null){
+return result;
+}
+
+Time : 22/06/29 17:05
+----------------------------------------
+Wed Jun 29 17:05:43 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1798
+Wed Jun 29 17:05:44 UTC 2022 org.jfree.chart.plot.CategoryPlot,1727
+Wed Jun 29 17:05:57 UTC 2022 org.jfree.data.category.DefaultCategoryDataset,259
+Wed Jun 29 17:06:26 UTC 2022 Wed Jun 29 17:06:26 UTC 2022 : org.jfree.data.category.DefaultCategoryDataset,260=>Find no block
+Wed Jun 29 17:06:26 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,211
+Wed Jun 29 17:06:52 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,212
+Wed Jun 29 17:06:53 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,213
+Wed Jun 29 17:07:25 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,214
+Wed Jun 29 17:08:04 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,215
+Wed Jun 29 17:09:52 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,216
+Wed Jun 29 17:11:47 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,217
+Wed Jun 29 17:13:46 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,218
+Wed Jun 29 17:17:15 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,219
+Wed Jun 29 17:20:58 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,220
+Wed Jun 29 17:26:09 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,221
+Wed Jun 29 17:30:05 UTC 2022 org.jfree.chart.renderer.category.LineAndShapeRenderer,222
+Wed Jun 29 17:30:06 UTC 2022 Wed Jun 29 17:30:06 UTC 2022 : org.jfree.chart.renderer.category.LineAndShapeRenderer,223=>Find no block
+Wed Jun 29 17:30:06 UTC 2022 org.jfree.data.general.AbstractDataset,191
+Wed Jun 29 17:30:35 UTC 2022 org.jfree.data.general.AbstractDataset,192
+Wed Jun 29 17:30:35 UTC 2022 org.jfree.chart.LegendItemCollection,107
+Wed Jun 29 17:30:47 UTC 2022 Wed Jun 29 17:30:47 UTC 2022 : org.jfree.chart.LegendItemCollection,68=>Find no block
+Wed Jun 29 17:30:48 UTC 2022 org.jfree.chart.LegendItemCollection,69
+Wed Jun 29 17:30:55 UTC 2022 Wed Jun 29 17:30:55 UTC 2022 : org.jfree.chart.LegendItemCollection,70=>Find no block
+Wed Jun 29 17:30:55 UTC 2022 org.jfree.data.category.DefaultCategoryDataset,243
+Wed Jun 29 17:31:38 UTC 2022 org.jfree.data.category.DefaultCategoryDataset,244
+Wed Jun 29 17:31:39 UTC 2022 Wed Jun 29 17:31:39 UTC 2022 : org.jfree.data.category.DefaultCategoryDataset,246=>Find no block
+Wed Jun 29 17:31:39 UTC 2022 org.jfree.data.category.AbstractCategoryDataset,64
+Wed Jun 29 17:31:42 UTC 2022 Wed Jun 29 17:31:42 UTC 2022 : org.jfree.data.category.AbstractCategoryDataset,65=>Find no block
+Wed Jun 29 17:31:43 UTC 2022 org.jfree.data.category.AbstractCategoryDataset,87
+Wed Jun 29 17:32:06 UTC 2022 org.jfree.data.category.AbstractCategoryDataset,88
+Wed Jun 29 17:32:07 UTC 2022 Wed Jun 29 17:32:07 UTC 2022 : org.jfree.data.category.AbstractCategoryDataset,90=>Find no block
+Wed Jun 29 17:32:07 UTC 2022 Wed Jun 29 17:32:07 UTC 2022 : org.jfree.data.category.DefaultCategoryDataset,80=>Find no block
+Wed Jun 29 17:32:08 UTC 2022 org.jfree.data.category.DefaultCategoryDataset,81
+Wed Jun 29 17:32:28 UTC 2022 org.jfree.data.category.DefaultCategoryDataset,83
+Wed Jun 29 17:32:29 UTC 2022 Wed Jun 29 17:32:29 UTC 2022 : org.jfree.data.category.DefaultCategoryDataset,84=>Find no block
+Wed Jun 29 17:32:30 UTC 2022 org.jfree.data.KeyedObjects2D,257
+Wed Jun 29 17:32:55 UTC 2022 Wed Jun 29 17:32:55 UTC 2022 : org.jfree.data.KeyedObjects2D,258=>Find no block
+Wed Jun 29 17:32:56 UTC 2022 org.jfree.data.SelectableValue,65
+Wed Jun 29 17:33:00 UTC 2022 Wed Jun 29 17:33:00 UTC 2022 : org.jfree.data.SelectableValue,66=>Find no block
+Wed Jun 29 17:33:01 UTC 2022 Wed Jun 29 17:33:01 UTC 2022 : org.jfree.data.SelectableValue,74=>Find no block
+Wed Jun 29 17:33:01 UTC 2022 org.jfree.data.SelectableValue,75
+Wed Jun 29 17:33:24 UTC 2022 org.jfree.data.SelectableValue,76
+Wed Jun 29 17:33:24 UTC 2022 Wed Jun 29 17:33:24 UTC 2022 : org.jfree.data.SelectableValue,77=>Find no block
+Wed Jun 29 17:33:25 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,293
+Wed Jun 29 17:33:42 UTC 2022 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,296
+Wed Jun 29 17:33:59 UTC 2022 Wed Jun 29 17:33:59 UTC 2022 : org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,297=>Find no block
+Wed Jun 29 17:33:59 UTC 2022 org.jfree.data.KeyedObjects2D,270
+Wed Jun 29 17:34:23 UTC 2022 org.jfree.data.KeyedObjects2D,273
+Wed Jun 29 17:34:37 UTC 2022 org.jfree.data.KeyedObjects2D,277
+Wed Jun 29 17:38:36 UTC 2022 org.jfree.data.KeyedObjects2D,278
+Wed Jun 29 17:41:28 UTC 2022 org.jfree.data.KeyedObjects2D,282
+Wed Jun 29 17:41:30 UTC 2022 org.jfree.data.KeyedObjects2D,283
+Wed Jun 29 17:41:30 UTC 2022 org.jfree.data.KeyedObjects2D,284
+Wed Jun 29 17:41:32 UTC 2022 org.jfree.data.KeyedObjects2D,286
+Wed Jun 29 17:47:11 UTC 2022 org.jfree.data.KeyedObjects2D,287
+Wed Jun 29 17:48:56 UTC 2022 org.jfree.data.KeyedObjects2D,288
+Wed Jun 29 17:52:06 UTC 2022 org.jfree.data.KeyedObjects2D,289
+Wed Jun 29 17:52:07 UTC 2022 Wed Jun 29 17:52:07 UTC 2022 : org.jfree.data.KeyedObjects2D,292=>Find no block
+Wed Jun 29 17:52:08 UTC 2022 Wed Jun 29 17:52:08 UTC 2022 : org.jfree.data.KeyedObjects2D,73=>Find no block
+Wed Jun 29 17:52:08 UTC 2022 org.jfree.data.KeyedObjects2D,74
+Wed Jun 29 17:52:12 UTC 2022 org.jfree.data.KeyedObjects2D,75
+Wed Jun 29 17:52:13 UTC 2022 org.jfree.data.KeyedObjects2D,76
+Wed Jun 29 17:52:13 UTC 2022 Wed Jun 29 17:52:13 UTC 2022 : org.jfree.data.KeyedObjects2D,77=>Find no block
+Wed Jun 29 17:52:14 UTC 2022 Wed Jun 29 17:52:14 UTC 2022 : org.jfree.chart.util.SortOrder,74=>Find no block
+Wed Jun 29 17:52:14 UTC 2022 org.jfree.chart.util.SortOrder,75
+Wed Jun 29 17:52:30 UTC 2022 Wed Jun 29 17:52:30 UTC 2022 : org.jfree.chart.util.SortOrder,76=>Find no block
+Wed Jun 29 17:52:30 UTC 2022 Wed Jun 29 17:52:30 UTC 2022 : org.jfree.chart.util.SortOrder,59=>Find no block
+Wed Jun 29 17:52:31 UTC 2022 Wed Jun 29 17:52:31 UTC 2022 : org.jfree.chart.util.SortOrder,63=>Find no block
+Wed Jun 29 17:52:32 UTC 2022 org.jfree.chart.plot.CategoryPlot,584
+Wed Jun 29 17:53:16 UTC 2022 Wed Jun 29 17:53:16 UTC 2022 : org.jfree.chart.plot.CategoryPlot,361=>Find no block
+Wed Jun 29 17:53:17 UTC 2022 Wed Jun 29 17:53:17 UTC 2022 : org.jfree.chart.plot.CategoryPlot,368=>Find no block
+Wed Jun 29 17:53:17 UTC 2022 Wed Jun 29 17:53:17 UTC 2022 : org.jfree.chart.plot.CategoryPlot,374=>Find no block
+Wed Jun 29 17:53:19 UTC 2022 Wed Jun 29 17:53:19 UTC 2022 : org.jfree.chart.plot.CategoryPlot,509=>Find no block
+Wed Jun 29 17:53:20 UTC 2022 org.jfree.chart.plot.CategoryPlot,586
+Wed Jun 29 17:53:20 UTC 2022 org.jfree.chart.plot.CategoryPlot,589
+Wed Jun 29 17:54:32 UTC 2022 org.jfree.chart.plot.CategoryPlot,590
+Wed Jun 29 17:55:39 UTC 2022 org.jfree.chart.plot.CategoryPlot,591
+Wed Jun 29 17:56:44 UTC 2022 org.jfree.chart.plot.CategoryPlot,592
+Wed Jun 29 17:57:54 UTC 2022 org.jfree.chart.plot.CategoryPlot,594
+Wed Jun 29 17:58:33 UTC 2022 org.jfree.chart.plot.CategoryPlot,595
+Wed Jun 29 17:59:13 UTC 2022 org.jfree.chart.plot.CategoryPlot,597
+Wed Jun 29 18:00:12 UTC 2022 org.jfree.chart.plot.CategoryPlot,599
+Wed Jun 29 18:03:56 UTC 2022 org.jfree.chart.plot.CategoryPlot,600
+Wed Jun 29 18:08:22 UTC 2022 org.jfree.chart.plot.CategoryPlot,601
+Wed Jun 29 18:08:22 UTC 2022 org.jfree.chart.plot.CategoryPlot,605
+Wed Jun 29 18:10:51 UTC 2022 org.jfree.chart.plot.CategoryPlot,607
+Wed Jun 29 18:12:07 UTC 2022 org.jfree.chart.plot.CategoryPlot,608
+Wed Jun 29 18:13:01 UTC 2022 org.jfree.chart.plot.CategoryPlot,610
+Wed Jun 29 18:16:29 UTC 2022 org.jfree.chart.plot.CategoryPlot,611
+Wed Jun 29 18:16:30 UTC 2022 org.jfree.chart.plot.CategoryPlot,616
+Wed Jun 29 18:22:25 UTC 2022 org.jfree.chart.plot.CategoryPlot,617
+Wed Jun 29 18:26:37 UTC 2022 org.jfree.chart.plot.CategoryPlot,618
+Wed Jun 29 18:28:49 UTC 2022 org.jfree.chart.plot.CategoryPlot,622
+Wed Jun 29 18:35:23 UTC 2022 org.jfree.chart.plot.CategoryPlot,624
+Wed Jun 29 18:40:08 UTC 2022 org.jfree.chart.plot.CategoryPlot,625
+Wed Jun 29 18:43:30 UTC 2022 org.jfree.chart.plot.CategoryPlot,626
+Wed Jun 29 18:46:27 UTC 2022 org.jfree.chart.plot.CategoryPlot,631
+Wed Jun 29 18:49:24 UTC 2022 org.jfree.chart.plot.CategoryPlot,632
+Wed Jun 29 18:50:35 UTC 2022 org.jfree.chart.plot.CategoryPlot,634
+Wed Jun 29 18:51:30 UTC 2022 org.jfree.chart.plot.CategoryPlot,635
+Wed Jun 29 18:52:43 UTC 2022 org.jfree.chart.plot.CategoryPlot,636
+Wed Jun 29 18:54:32 UTC 2022 org.jfree.chart.plot.CategoryPlot,637
+Wed Jun 29 18:57:03 UTC 2022 org.jfree.chart.plot.CategoryPlot,639
+Wed Jun 29 19:02:55 UTC 2022 org.jfree.chart.plot.CategoryPlot,640
+Wed Jun 29 19:05:08 UTC 2022 org.jfree.chart.plot.CategoryPlot,641
+Wed Jun 29 19:07:43 UTC 2022 org.jfree.chart.plot.CategoryPlot,643
+Wed Jun 29 19:08:40 UTC 2022 org.jfree.chart.plot.CategoryPlot,644
+Wed Jun 29 19:10:05 UTC 2022 org.jfree.chart.plot.CategoryPlot,645
+Wed Jun 29 19:11:40 UTC 2022 org.jfree.chart.plot.CategoryPlot,647
+Wed Jun 29 19:13:18 UTC 2022 org.jfree.chart.plot.CategoryPlot,648
+Wed Jun 29 19:16:01 UTC 2022 org.jfree.chart.plot.CategoryPlot,649
+Wed Jun 29 19:19:03 UTC 2022 org.jfree.chart.plot.CategoryPlot,651
+Wed Jun 29 19:22:00 UTC 2022 org.jfree.chart.plot.CategoryPlot,652
+Wed Jun 29 19:22:37 UTC 2022 org.jfree.chart.plot.CategoryPlot,653
+Wed Jun 29 19:23:14 UTC 2022 org.jfree.chart.plot.CategoryPlot,654
+Wed Jun 29 19:24:01 UTC 2022 org.jfree.chart.plot.CategoryPlot,656
+Wed Jun 29 19:24:57 UTC 2022 org.jfree.chart.plot.CategoryPlot,658
+Wed Jun 29 19:25:56 UTC 2022 org.jfree.chart.plot.CategoryPlot,659
+Wed Jun 29 19:27:05 UTC 2022 org.jfree.chart.plot.CategoryPlot,660
+Wed Jun 29 19:28:03 UTC 2022 org.jfree.chart.plot.CategoryPlot,662
+Wed Jun 29 19:28:57 UTC 2022 org.jfree.chart.plot.CategoryPlot,663
+Wed Jun 29 19:29:44 UTC 2022 org.jfree.chart.plot.CategoryPlot,664
+Wed Jun 29 19:30:49 UTC 2022 org.jfree.chart.plot.CategoryPlot,665
+Wed Jun 29 19:32:05 UTC 2022 org.jfree.chart.plot.CategoryPlot,667
+Wed Jun 29 19:33:07 UTC 2022 org.jfree.chart.plot.CategoryPlot,669
+Wed Jun 29 19:33:51 UTC 2022 org.jfree.chart.plot.CategoryPlot,670
+Wed Jun 29 19:33:51 UTC 2022 Wed Jun 29 19:33:51 UTC 2022 : org.jfree.chart.plot.CategoryPlot,671=>Find no block
+Wed Jun 29 19:33:52 UTC 2022 Wed Jun 29 19:33:52 UTC 2022 : org.jfree.chart.plot.CategoryPlot,286=>Find no block
+Wed Jun 29 19:33:53 UTC 2022 Wed Jun 29 19:33:53 UTC 2022 : org.jfree.chart.plot.CategoryPlot,291=>Find no block
+Wed Jun 29 19:33:53 UTC 2022 Wed Jun 29 19:33:53 UTC 2022 : org.jfree.chart.plot.CategoryPlot,294=>Find no block
+Wed Jun 29 19:33:54 UTC 2022 Wed Jun 29 19:33:54 UTC 2022 : org.jfree.chart.plot.CategoryPlot,309=>Find no block
+Wed Jun 29 19:33:55 UTC 2022 Wed Jun 29 19:33:55 UTC 2022 : org.jfree.chart.plot.CategoryPlot,317=>Find no block
+Wed Jun 29 19:33:55 UTC 2022 Wed Jun 29 19:33:55 UTC 2022 : org.jfree.chart.plot.CategoryPlot,320=>Find no block
+Wed Jun 29 19:33:56 UTC 2022 org.jfree.chart.plot.CategoryPlot,913
+Wed Jun 29 19:35:42 UTC 2022 Wed Jun 29 19:35:42 UTC 2022 : org.jfree.chart.plot.CategoryPlot,914=>Find no block
+Wed Jun 29 19:35:42 UTC 2022 org.jfree.chart.plot.CategoryPlot,946
+Wed Jun 29 19:37:14 UTC 2022 org.jfree.chart.plot.CategoryPlot,950
+Wed Jun 29 19:52:36 UTC 2022 org.jfree.chart.plot.CategoryPlot,951
+Wed Jun 29 19:52:37 UTC 2022 Wed Jun 29 19:52:37 UTC 2022 : org.jfree.chart.plot.CategoryPlot,954=>Find no block
+Wed Jun 29 19:52:38 UTC 2022 org.jfree.chart.plot.CategoryPlot,1013
+Wed Jun 29 19:57:06 UTC 2022 org.jfree.chart.plot.CategoryPlot,1014
+Wed Jun 29 19:57:06 UTC 2022 org.jfree.chart.plot.CategoryPlot,1015
+Wed Jun 29 19:57:07 UTC 2022 Wed Jun 29 19:57:07 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1019=>Find no block
+Wed Jun 29 19:57:07 UTC 2022 org.jfree.chart.plot.CategoryPlot,1040
+Wed Jun 29 20:05:13 UTC 2022 org.jfree.chart.plot.CategoryPlot,1041
+Wed Jun 29 20:05:14 UTC 2022 org.jfree.chart.plot.CategoryPlot,1042
+Wed Jun 29 20:05:15 UTC 2022 org.jfree.chart.plot.CategoryPlot,1044
+Wed Jun 29 20:05:15 UTC 2022 org.jfree.chart.plot.CategoryPlot,1051
+Wed Jun 29 20:05:16 UTC 2022 org.jfree.chart.plot.CategoryPlot,1197
+Wed Jun 29 20:06:58 UTC 2022 Wed Jun 29 20:06:58 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1198=>Find no block
+Wed Jun 29 20:06:59 UTC 2022 org.jfree.chart.plot.CategoryPlot,1227
+Wed Jun 29 20:06:59 UTC 2022 org.jfree.chart.plot.CategoryPlot,1231
+Wed Jun 29 20:22:30 UTC 2022 org.jfree.chart.plot.CategoryPlot,1232
+Wed Jun 29 20:22:31 UTC 2022 Wed Jun 29 20:22:31 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1235=>Find no block
+Wed Jun 29 20:22:31 UTC 2022 org.jfree.chart.plot.CategoryPlot,1291
+Wed Jun 29 20:27:16 UTC 2022 org.jfree.chart.plot.CategoryPlot,1292
+Wed Jun 29 20:27:16 UTC 2022 org.jfree.chart.plot.CategoryPlot,1293
+Wed Jun 29 20:27:17 UTC 2022 Wed Jun 29 20:27:17 UTC 2022 : org.jfree.chart.plot.CategoryPlot,1297=>Find no block
+Wed Jun 29 20:27:18 UTC 2022 org.jfree.chart.plot.CategoryPlot,1320
+Wed Jun 29 20:31:36 UTC 2022 org.jfree.chart.plot.CategoryPlot,1321
+Wed Jun 29 20:34:53 UTC 2022 org.jfree.chart.plot.CategoryPlot,1322
+Wed Jun 29 20:34:54 UTC 2022 org.jfree.chart.plot.CategoryPlot,1324
+Wed Jun 29 20:34:54 UTC 2022 org.jfree.chart.plot.CategoryPlot,1410
+Wed Jun 29 20:38:42 UTC 2022 org.jfree.chart.plot.CategoryPlot,1411
+Wed Jun 29 20:38:43 UTC 2022 org.jfree.chart.plot.CategoryPlot,1412
+Success time : 22/06/29 20:38

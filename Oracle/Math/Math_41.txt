@@ -1,4 +1,6 @@
-fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	i
-fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	begin
-fix	org.apache.commons.math.stat.descriptive.moment.Variance	520	INS	length
-buggy	org.apache.commons.math.stat.descriptive.moment.Variance	520	DEL	weights.length
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	i	buggy
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	weights	buggy
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	length	fixed
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	i	fixed
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	begin	fixed
+org.apache.commons.math.stat.descriptive.moment.Variance	evaluate([D[DDII)D	begin	fixed

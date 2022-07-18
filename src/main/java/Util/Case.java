@@ -14,19 +14,28 @@ public class Case {
 //
 //            System.out.print("Closure_"+i+"_fixed/ ");
 //        }
-        for (char c = 'B';c<='S';c++) {
-            String fenzi="(";
-            String fenmu ="(";
-            for (int i = 1; i <= 9; i++) {
-                fenzi += String.valueOf(c)+i +"*T"+i;
-                if(i!=9)
-                    fenzi+="+";
-                fenmu += "T"+i;
-                if(i!=9)
-                    fenmu+="+";
-            }
-            System.out.printf("=%s)/%s)",fenzi,fenmu);
-            System.out.printf("\n");
+//        for (char c = 'B';c<='S';c++) {
+//            String fenzi="(";
+//            String fenmu ="(";
+//            for (int i = 1; i <= 9; i++) {
+//                fenzi += String.valueOf(c)+i +"*T"+i;
+//                if(i!=9)
+//                    fenzi+="+";
+//                fenmu += "T"+i;
+//                if(i!=9)
+//                    fenmu+="+";
+//            }
+//            System.out.printf("=%s)/%s)",fenzi,fenmu);
+//            System.out.printf("\n");
+//        }
+//        =COUNTIFS(C1:C95,">0",C1:C95,"<=0.1")
+        for (double i = 0; i <= 1; i+=0.1) {
+            String j = String.format("%.1f",i);
+            System.out.print("=COUNTIFS(E1:E95,\">");
+            System.out.print(j);
+            System.out.print("\",E1:E95,\"<=");
+            String k = String.format("%.1f",i+0.1);
+            System.out.println(k+"\")");
         }
     }
 

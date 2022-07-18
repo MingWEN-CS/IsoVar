@@ -1,0 +1,280 @@
+=================================================
+Project : chart_3	start : 22/07/16 08:12
+Current failed test : org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3 | 22/07/16 08:12
+Sat Jul 16 08:12:43 UTC 2022 org.jfree.data.time.TimeSeries,1050
+Sat Jul 16 08:13:42 UTC 2022 org.jfree.data.time.TimeSeries,1053
+Sat Jul 16 08:14:36 UTC 2022 org.jfree.data.time.TimeSeries,1056
+Sat Jul 16 08:41:22 UTC 2022 org.jfree.data.time.TimeSeries,1057
+Sat Jul 16 09:12:05 UTC 2022 org.jfree.data.time.TimeSeries,1058
+Sat Jul 16 09:12:06 UTC 2022 org.jfree.data.time.TimeSeries,1059
+Sat Jul 16 09:12:09 UTC 2022 org.jfree.data.time.TimeSeries,1060
+Sat Jul 16 09:12:10 UTC 2022 org.jfree.data.time.TimeSeries,1062
+Sat Jul 16 09:12:11 UTC 2022 org.jfree.data.time.TimeSeries,1064
+Sat Jul 16 09:12:12 UTC 2022 Sat Jul 16 09:12:12 UTC 2022 : org.jfree.data.time.TimeSeries,1068=>Find no block
+Sat Jul 16 09:12:14 UTC 2022 org.jfree.data.time.TimeSeries,1071
+Sat Jul 16 09:15:28 UTC 2022 org.jfree.data.time.TimeSeries,564
+Sat Jul 16 09:17:55 UTC 2022 Sat Jul 16 09:17:55 UTC 2022 : org.jfree.data.time.TimeSeries,565=>Find no block
+Sat Jul 16 09:17:58 UTC 2022 org.jfree.data.general.Series,243
+Sat Jul 16 09:25:40 UTC 2022 org.jfree.data.general.Series,244
+Sat Jul 16 09:25:41 UTC 2022 org.jfree.data.general.Series,245
+Sat Jul 16 09:25:42 UTC 2022 org.jfree.data.general.Series,246
+Sat Jul 16 09:25:43 UTC 2022 org.jfree.data.time.TimeSeries,345
+Sat Jul 16 09:25:56 UTC 2022 org.jfree.data.time.TimeSeries,360
+Sat Jul 16 09:26:04 UTC 2022 org.jfree.data.time.TimeSeries,653
+Sat Jul 16 09:28:16 UTC 2022 Sat Jul 16 09:28:16 UTC 2022 : org.jfree.data.time.TimeSeries,654=>Find no block
+Sat Jul 16 09:28:19 UTC 2022 org.jfree.data.time.TimeSeries,666
+Sat Jul 16 09:33:06 UTC 2022 org.jfree.data.time.TimeSeries,667
+Sat Jul 16 09:33:07 UTC 2022 Sat Jul 16 09:33:07 UTC 2022 : org.jfree.data.time.TimeSeries,668=>Find no block
+Sat Jul 16 09:33:09 UTC 2022 org.jfree.data.time.Year,171
+Sat Jul 16 09:33:17 UTC 2022 org.jfree.data.time.Year,253
+Sat Jul 16 09:33:18 UTC 2022 org.jfree.data.time.Year,348
+Sat Jul 16 09:34:01 UTC 2022 org.jfree.data.time.Year,349
+Sat Jul 16 09:34:03 UTC 2022 org.jfree.data.time.Year,350
+Sat Jul 16 09:34:05 UTC 2022 Sat Jul 16 09:34:05 UTC 2022 : org.jfree.data.time.Year,351=>Find no block
+Sat Jul 16 09:34:08 UTC 2022 org.jfree.data.time.Year,367
+Sat Jul 16 09:38:09 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,121
+Sat Jul 16 09:38:32 UTC 2022 Sat Jul 16 09:38:32 UTC 2022 : org.jfree.data.time.TimeSeriesDataItem,122=>Find no block
+Sat Jul 16 09:38:33 UTC 2022 Sat Jul 16 09:38:33 UTC 2022 : org.jfree.data.time.Year,114=>Find no block
+Sat Jul 16 09:38:34 UTC 2022 org.jfree.data.time.Year,115
+Sat Jul 16 09:53:09 UTC 2022 org.jfree.data.time.Year,119
+Sat Jul 16 10:04:55 UTC 2022 org.jfree.data.time.Year,120
+Sat Jul 16 10:05:01 UTC 2022 Sat Jul 16 10:05:01 UTC 2022 : org.jfree.data.time.Year,121=>Find no block
+Sat Jul 16 10:05:03 UTC 2022 org.jfree.data.time.Year,211
+Sat Jul 16 10:05:43 UTC 2022 org.jfree.data.time.Year,212
+Sat Jul 16 10:05:44 UTC 2022 Sat Jul 16 10:05:44 UTC 2022 : org.jfree.data.time.Year,213=>Find no block
+Sat Jul 16 10:05:46 UTC 2022 org.jfree.data.time.Year,268
+Sat Jul 16 10:10:43 UTC 2022 org.jfree.data.time.Year,269
+Sat Jul 16 10:10:45 UTC 2022 org.jfree.data.time.Year,272
+Sat Jul 16 10:10:46 UTC 2022 org.jfree.data.time.Year,287
+Sat Jul 16 10:15:40 UTC 2022 org.jfree.data.time.Year,288
+Sat Jul 16 10:15:48 UTC 2022 org.jfree.data.time.Year,291
+Sat Jul 16 10:15:50 UTC 2022 org.jfree.data.time.TimeSeries,680
+Sat Jul 16 10:15:52 UTC 2022 Sat Jul 16 10:15:52 UTC 2022 : org.jfree.data.time.TimeSeries,681=>Find no block
+Sat Jul 16 10:15:53 UTC 2022 org.jfree.data.time.TimeSeries,693
+Sat Jul 16 10:15:54 UTC 2022 org.jfree.data.time.TimeSeries,694
+Sat Jul 16 10:15:55 UTC 2022 Sat Jul 16 10:15:55 UTC 2022 : org.jfree.data.time.TimeSeries,695=>Find no block
+Sat Jul 16 10:15:56 UTC 2022 org.jfree.data.time.TimeSeries,429
+Sat Jul 16 10:16:31 UTC 2022 org.jfree.data.time.TimeSeries,463
+Sat Jul 16 10:16:46 UTC 2022 org.jfree.data.time.TimeSeries,584
+Sat Jul 16 10:28:53 UTC 2022 org.jfree.data.time.TimeSeries,603
+Sat Jul 16 10:47:39 UTC 2022 org.jfree.data.time.TimeSeries,604
+Sat Jul 16 10:50:16 UTC 2022 org.jfree.data.time.TimeSeries,605
+Sat Jul 16 10:50:36 UTC 2022 org.jfree.data.time.TimeSeries,606
+Sat Jul 16 10:50:37 UTC 2022 org.jfree.data.time.TimeSeries,878
+Sat Jul 16 11:04:20 UTC 2022 org.jfree.data.time.TimeSeries,879
+Sat Jul 16 11:04:22 UTC 2022 Sat Jul 16 11:04:22 UTC 2022 : org.jfree.data.time.TimeSeries,881=>Find no block
+Sat Jul 16 11:04:23 UTC 2022 org.jfree.data.time.TimeSeries,885
+Sat Jul 16 11:11:38 UTC 2022 org.jfree.data.time.TimeSeries,1269
+Sat Jul 16 11:12:48 UTC 2022 org.jfree.data.time.TimeSeries,1273
+Sat Jul 16 11:12:49 UTC 2022 org.jfree.data.time.TimeSeries,1292
+Sat Jul 16 11:13:58 UTC 2022 org.jfree.data.time.TimeSeries,1296
+Sat Jul 16 11:13:59 UTC 2022 Sat Jul 16 11:13:59 UTC 2022 : org.jfree.data.time.RegularTimePeriod,71=>Find no block
+Sat Jul 16 11:14:00 UTC 2022 Sat Jul 16 11:14:00 UTC 2022 : org.jfree.data.time.TimeSeriesDataItem,105=>Find no block
+Sat Jul 16 11:14:02 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,106
+Sat Jul 16 11:14:08 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,109
+Sat Jul 16 11:15:25 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,110
+Sat Jul 16 11:15:27 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,111
+Sat Jul 16 11:15:28 UTC 2022 Sat Jul 16 11:15:28 UTC 2022 : org.jfree.data.time.TimeSeriesDataItem,112=>Find no block
+Sat Jul 16 11:15:29 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,130
+Sat Jul 16 11:15:36 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,141
+Sat Jul 16 11:15:41 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,266
+Sat Jul 16 11:22:06 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,268
+Sat Jul 16 11:22:08 UTC 2022 Sat Jul 16 11:22:08 UTC 2022 : org.jfree.data.time.TimeSeriesDataItem,272=>Find no block
+Sat Jul 16 11:22:09 UTC 2022 org.jfree.data.time.TimeSeriesDataItem,273
+Sat Jul 16 11:22:11 UTC 2022 org.jfree.data.time.TimeSeries,576
+Sat Jul 16 11:23:16 UTC 2022 org.jfree.data.time.TimeSeries,579
+Sat Jul 16 11:26:55 UTC 2022 org.jfree.data.time.TimeSeries,580
+Sat Jul 16 11:26:57 UTC 2022 org.jfree.data.time.TimeSeries,581
+Sat Jul 16 11:28:06 UTC 2022 org.jfree.data.time.TimeSeries,582
+Sat Jul 16 11:28:15 UTC 2022 org.jfree.data.time.TimeSeries,596
+Sat Jul 16 11:30:07 UTC 2022 org.jfree.data.time.TimeSeries,597
+Sat Jul 16 11:30:11 UTC 2022 org.jfree.data.time.TimeSeries,598
+Sat Jul 16 11:54:31 UTC 2022 org.jfree.data.time.TimeSeries,599
+Sat Jul 16 11:54:32 UTC 2022 org.jfree.data.time.TimeSeries,600
+Sat Jul 16 11:54:33 UTC 2022 org.jfree.data.time.TimeSeries,626
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+findBoundsByIteration();
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 22/07/16 11:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5145909208469572 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>0,0]
+if(end<start){
+throw new IllegalArgumentException("Requires start <= end.");
+}
+for(int i=0;i<=(end-start);i++){
+this.data.remove(start);
+}
+findBoundsByIteration();
+if(this.data.isEmpty()){
+this.timePeriodClass=null;
+}
+if(notify){
+fireSeriesChanged();
+}
+
+Time : 22/07/16 11:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>626,640]
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 22/07/16 11:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_3_buggy/source/org/jfree/data/time/TimeSeries.java=>626,640]
+findBoundsByIteration();
+if(added){
+updateBoundsForAddedItem(item);
+if(getItemCount()>this.maximumItemCount){
+TimeSeriesDataItem d=(TimeSeriesDataItem)this.data.remove(0);
+updateBoundsForRemovedItem(d);
+}
+removeAgedItems(false);
+if(notify){
+fireSeriesChanged();
+}
+}
+
+Time : 22/07/16 11:58
+----------------------------------------
+Sat Jul 16 12:04:38 UTC 2022 org.jfree.data.time.TimeSeries,627
+Sat Jul 16 12:04:39 UTC 2022 org.jfree.data.time.TimeSeries,629
+Sat Jul 16 12:04:40 UTC 2022 org.jfree.data.time.TimeSeries,634
+Sat Jul 16 12:04:41 UTC 2022 org.jfree.data.time.TimeSeries,637
+Sat Jul 16 12:04:42 UTC 2022 org.jfree.data.time.TimeSeries,638
+Sat Jul 16 12:04:44 UTC 2022 Sat Jul 16 12:04:44 UTC 2022 : org.jfree.data.time.TimeSeries,642=>Find no block
+Sat Jul 16 12:04:45 UTC 2022 org.jfree.data.time.TimeSeries,877
+Sat Jul 16 12:11:33 UTC 2022 Sat Jul 16 12:11:33 UTC 2022 : org.jfree.data.time.TimeSeries,892=>Find no block
+Sat Jul 16 12:11:35 UTC 2022 org.jfree.data.time.TimeSeries,1211
+Sat Jul 16 12:14:53 UTC 2022 org.jfree.data.time.TimeSeries,1212
+Sat Jul 16 12:15:55 UTC 2022 org.jfree.data.time.TimeSeries,1213
+Sat Jul 16 12:15:56 UTC 2022 org.jfree.data.time.TimeSeries,1214
+Sat Jul 16 12:15:57 UTC 2022 org.jfree.data.time.TimeSeries,1215
+Sat Jul 16 12:15:58 UTC 2022 Sat Jul 16 12:15:58 UTC 2022 : org.jfree.data.time.TimeSeries,1217=>Find no block
+Sat Jul 16 12:16:00 UTC 2022 org.jfree.data.time.TimeSeries,1265
+Sat Jul 16 12:17:42 UTC 2022 org.jfree.data.time.TimeSeries,1266
+Sat Jul 16 12:17:44 UTC 2022 org.jfree.data.time.TimeSeries,1288
+Sat Jul 16 12:19:12 UTC 2022 org.jfree.data.time.TimeSeries,1289
+Sat Jul 16 12:19:13 UTC 2022 org.jfree.data.general.Series,315
+Sat Jul 16 12:20:26 UTC 2022 org.jfree.data.general.Series,316
+Sat Jul 16 12:20:27 UTC 2022 Sat Jul 16 12:20:27 UTC 2022 : org.jfree.data.general.Series,318=>Find no block
+Sat Jul 16 12:20:28 UTC 2022 org.jfree.data.general.Series,328
+Sat Jul 16 12:29:19 UTC 2022 org.jfree.data.general.Series,329
+Sat Jul 16 12:29:20 UTC 2022 Sat Jul 16 12:29:20 UTC 2022 : org.jfree.data.general.Series,336=>Find no block
+Sat Jul 16 12:29:22 UTC 2022 org.jfree.data.event.SeriesChangeEvent,70
+Sat Jul 16 12:29:28 UTC 2022 Sat Jul 16 12:29:28 UTC 2022 : org.jfree.data.event.SeriesChangeEvent,71=>Find no block
+Sat Jul 16 12:29:30 UTC 2022 org.jfree.data.event.SeriesChangeEvent,82
+Sat Jul 16 12:29:37 UTC 2022 org.jfree.data.event.SeriesChangeEvent,83
+Sat Jul 16 12:29:38 UTC 2022 Sat Jul 16 12:29:38 UTC 2022 : org.jfree.data.event.SeriesChangeEvent,84=>Find no block
+Sat Jul 16 12:29:39 UTC 2022 org.jfree.data.time.TimeSeries,254
+Sat Jul 16 12:30:37 UTC 2022 org.jfree.data.time.TimeSeries,169
+Sat Jul 16 12:30:43 UTC 2022 Sat Jul 16 12:30:43 UTC 2022 : org.jfree.data.time.TimeSeries,170=>Find no block
+Sat Jul 16 12:30:45 UTC 2022 org.jfree.data.time.TimeSeries,186
+Sat Jul 16 12:32:53 UTC 2022 org.jfree.data.time.TimeSeries,187
+Sat Jul 16 12:32:55 UTC 2022 org.jfree.data.time.TimeSeries,188
+Sat Jul 16 12:32:56 UTC 2022 org.jfree.data.time.TimeSeries,189
+Sat Jul 16 12:32:57 UTC 2022 org.jfree.data.time.TimeSeries,190
+Sat Jul 16 12:32:59 UTC 2022 org.jfree.data.time.TimeSeries,191
+Sat Jul 16 12:33:00 UTC 2022 org.jfree.data.time.TimeSeries,192
+Sat Jul 16 12:33:01 UTC 2022 org.jfree.data.time.TimeSeries,193
+Sat Jul 16 12:33:02 UTC 2022 org.jfree.data.time.TimeSeries,194
+Sat Jul 16 12:33:03 UTC 2022 Sat Jul 16 12:33:03 UTC 2022 : org.jfree.data.time.TimeSeries,195=>Find no block
+Sat Jul 16 12:33:05 UTC 2022 org.jfree.data.general.Series,104
+Sat Jul 16 12:33:10 UTC 2022 Sat Jul 16 12:33:10 UTC 2022 : org.jfree.data.general.Series,105=>Find no block
+Sat Jul 16 12:33:11 UTC 2022 Sat Jul 16 12:33:11 UTC 2022 : org.jfree.data.general.Series,113=>Find no block
+Sat Jul 16 12:33:12 UTC 2022 org.jfree.data.general.Series,114
+Sat Jul 16 12:33:49 UTC 2022 org.jfree.data.general.Series,117
+Sat Jul 16 12:37:02 UTC 2022 org.jfree.data.general.Series,118
+Sat Jul 16 12:37:09 UTC 2022 org.jfree.data.general.Series,119
+Sat Jul 16 12:37:11 UTC 2022 org.jfree.data.general.Series,120
+Sat Jul 16 12:37:13 UTC 2022 org.jfree.data.general.Series,121
+Sat Jul 16 12:37:14 UTC 2022 Sat Jul 16 12:37:14 UTC 2022 : org.jfree.data.general.Series,122=>Find no block
+Sat Jul 16 12:37:16 UTC 2022 org.jfree.data.time.RegularTimePeriod,86
+Sat Jul 16 12:38:09 UTC 2022 org.jfree.data.time.RegularTimePeriod,88
+Sat Jul 16 12:38:12 UTC 2022 org.jfree.data.time.RegularTimePeriod,90
+Sat Jul 16 12:38:18 UTC 2022 Sat Jul 16 12:38:18 UTC 2022 : org.jfree.data.time.RegularTimePeriod,95=>Find no block
+Sat Jul 16 12:38:21 UTC 2022 Sat Jul 16 12:38:21 UTC 2022 : org.jfree.data.time.RegularTimePeriod,93=>Find no block
+Sat Jul 16 12:38:24 UTC 2022 org.jfree.data.time.RegularTimePeriod,96
+Sat Jul 16 12:38:25 UTC 2022 org.jfree.data.time.RegularTimePeriod,108
+Sat Jul 16 12:41:56 UTC 2022 org.jfree.data.time.RegularTimePeriod,109
+Sat Jul 16 12:42:09 UTC 2022 org.jfree.data.time.RegularTimePeriod,111
+Sat Jul 16 12:42:11 UTC 2022 org.jfree.data.time.RegularTimePeriod,112
+Sat Jul 16 12:42:17 UTC 2022 org.jfree.data.time.RegularTimePeriod,114
+Sat Jul 16 12:42:18 UTC 2022 org.jfree.data.time.RegularTimePeriod,115
+Sat Jul 16 12:42:24 UTC 2022 org.jfree.data.time.RegularTimePeriod,117
+Sat Jul 16 12:42:26 UTC 2022 org.jfree.data.time.RegularTimePeriod,118
+Sat Jul 16 12:42:27 UTC 2022 org.jfree.data.time.RegularTimePeriod,120
+Sat Jul 16 12:42:28 UTC 2022 org.jfree.data.time.RegularTimePeriod,121
+Sat Jul 16 12:42:29 UTC 2022 org.jfree.data.time.RegularTimePeriod,123
+Sat Jul 16 12:42:30 UTC 2022 org.jfree.data.time.RegularTimePeriod,124
+Sat Jul 16 12:42:31 UTC 2022 org.jfree.data.time.RegularTimePeriod,126
+Sat Jul 16 12:42:36 UTC 2022 org.jfree.data.time.RegularTimePeriod,127
+Sat Jul 16 12:42:39 UTC 2022 org.jfree.data.time.RegularTimePeriod,130
+Sat Jul 16 12:42:41 UTC 2022 org.jfree.data.time.RegularTimePeriod,178
+Sat Jul 16 12:42:49 UTC 2022 org.jfree.data.time.RegularTimePeriod,190
+Sat Jul 16 12:42:56 UTC 2022 org.jfree.data.time.RegularTimePeriod,250
+Sat Jul 16 12:43:22 UTC 2022 org.jfree.data.time.RegularTimePeriod,251
+Sat Jul 16 12:43:23 UTC 2022 org.jfree.data.time.RegularTimePeriod,252
+Sat Jul 16 12:43:24 UTC 2022 org.jfree.data.time.RegularTimePeriod,264
+Sat Jul 16 12:46:26 UTC 2022 org.jfree.data.time.RegularTimePeriod,265
+Sat Jul 16 12:46:27 UTC 2022 org.jfree.data.time.RegularTimePeriod,266
+Sat Jul 16 12:46:28 UTC 2022 org.jfree.data.time.RegularTimePeriod,275
+Sat Jul 16 12:46:36 UTC 2022 Sat Jul 16 12:46:36 UTC 2022 : org.jfree.data.time.RegularTimePeriod,89=>Find no block
+Sat Jul 16 12:46:37 UTC 2022 org.jfree.data.time.TimePeriodFormatException,55
+Sat Jul 16 12:46:44 UTC 2022 Sat Jul 16 12:46:44 UTC 2022 : org.jfree.data.time.TimePeriodFormatException,56=>Find no block
+Sat Jul 16 12:46:45 UTC 2022 org.jfree.data.time.Day,113
+Sat Jul 16 12:46:51 UTC 2022 Sat Jul 16 12:46:51 UTC 2022 : org.jfree.data.time.Day,114=>Find no block
+Sat Jul 16 12:46:52 UTC 2022 Sat Jul 16 12:46:52 UTC 2022 : org.jfree.data.time.Day,123=>Find no block
+Sat Jul 16 12:46:54 UTC 2022 org.jfree.data.time.Day,124
+Sat Jul 16 12:48:44 UTC 2022 org.jfree.data.time.Day,125
+Sat Jul 16 12:48:45 UTC 2022 Sat Jul 16 12:48:45 UTC 2022 : org.jfree.data.time.Day,126=>Find no block
+Sat Jul 16 12:48:46 UTC 2022 Sat Jul 16 12:48:46 UTC 2022 : org.jfree.data.time.Day,133=>Find no block
+Sat Jul 16 12:48:48 UTC 2022 org.jfree.data.time.Day,134
+Sat Jul 16 12:48:54 UTC 2022 org.jfree.data.time.Day,135
+Sat Jul 16 12:48:55 UTC 2022 org.jfree.data.time.Day,137
+Sat Jul 16 12:50:12 UTC 2022 org.jfree.data.time.Day,138
+Sat Jul 16 12:50:20 UTC 2022 Sat Jul 16 12:50:20 UTC 2022 : org.jfree.data.time.Day,139=>Find no block
+Sat Jul 16 12:50:22 UTC 2022 org.jfree.data.time.Day,151
+Sat Jul 16 12:50:28 UTC 2022 Sat Jul 16 12:50:28 UTC 2022 : org.jfree.data.time.Day,152=>Find no block
+Sat Jul 16 12:50:29 UTC 2022 Sat Jul 16 12:50:29 UTC 2022 : org.jfree.data.time.Day,160=>Find no block
+Sat Jul 16 12:50:31 UTC 2022 org.jfree.data.time.Day,162
+Sat Jul 16 12:50:37 UTC 2022 org.jfree.data.time.Day,163
+Sat Jul 16 12:50:38 UTC 2022 org.jfree.data.time.Day,165
+Sat Jul 16 12:50:44 UTC 2022 org.jfree.data.time.Day,166
+Sat Jul 16 12:50:46 UTC 2022 org.jfree.data.time.Day,168
+Sat Jul 16 12:52:06 UTC 2022 org.jfree.data.time.Day,169
+Sat Jul 16 12:55:30 UTC 2022 org.jfree.data.time.Day,170
+Sat Jul 16 13:00:02 UTC 2022 org.jfree.data.time.Day,171
+Sat Jul 16 13:07:40 UTC 2022 org.jfree.data.time.Day,172
+Success time : 22/07/16 13:12

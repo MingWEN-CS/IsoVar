@@ -1,4 +1,8 @@
-fix	com.google.javascript.jscomp.TypedScopeCreator	1292	INS	rValueInfo
-fix	com.google.javascript.jscomp.TypedScopeCreator	1291	INS	rValueInfo
-fix	com.google.javascript.jscomp.TypedScopeCreator	1291	INS	rValue
-fix	com.google.javascript.jscomp.TypedScopeCreator	1294	INS	rValueInfo
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValue	buggy
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValueInfo	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValueInfo	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValueInfo	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValueInfo	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	this.this$0	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	this.scope	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	getDeclaredType(Ljava/lang/String;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/JSType;	rValue	fixed

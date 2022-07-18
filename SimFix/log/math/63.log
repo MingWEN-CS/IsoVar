@@ -1,0 +1,339 @@
+=================================================
+Project : math_63	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.util.MathUtilsTest::testArrayEquals | 22/06/30 00:54
+Thu Jun 30 00:55:20 UTC 2022 org.apache.commons.math.util.MathUtils,417
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return (Double.isNaN(x)&&Double.isNaN(y))&&x==y;
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return equals(x,y,1)||FastMath.abs(y-x)<=SAFE_MIN;
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.808976301345361 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_63_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+return equals(x,y,1)||FastMath.abs(y-x)<=eps;
+
+Time : 22/06/30 00:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_63_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>417,417]
+return (Double.isNaN(x)&&Double.isNaN(y))||x==y;
+
+Time : 22/06/30 00:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_63_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>417,417]
+return equals(x,y,1)||FastMath.abs(y-x)<=SAFE_MIN;
+
+Time : 22/06/30 00:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return FastMath.abs(x-SAFE_MIN)<=SAFE_MIN-0.5*(SAFE_MIN-y);
+
+Time : 22/06/30 00:59
+----------------------------------------
+Thu Jun 30 01:00:34 UTC 2022 org.apache.commons.math.util.MathUtils,523
+Thu Jun 30 01:00:45 UTC 2022 org.apache.commons.math.util.MathUtils,524
+Thu Jun 30 01:00:46 UTC 2022 org.apache.commons.math.util.MathUtils,526
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x.length==y.length){
+return false;
+}
+
+Time : 22/06/30 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(NAN_GAP!=y.length){
+return false;
+}
+
+Time : 22/06/30 01:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x.length!=NAN_GAP){
+return false;
+}
+
+Time : 22/06/30 01:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(NAN_GAP==0){
+throw MathRuntimeException.createIllegalArgumentException(LocalizedFormats.AT_LEAST_ONE_COLUMN);
+}
+if(x.length!=NAN_GAP){
+return false;
+}
+
+Time : 22/06/30 01:08
+----------------------------------------
+Thu Jun 30 01:09:46 UTC 2022 org.apache.commons.math.util.MathUtils,527
+Thu Jun 30 01:09:47 UTC 2022 org.apache.commons.math.util.MathUtils,529
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x[0]=0.0;
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+
+Time : 22/06/30 01:14
+----------------------------------------
+Thu Jun 30 01:15:29 UTC 2022 org.apache.commons.math.util.MathUtils,530
+Thu Jun 30 01:15:30 UTC 2022 org.apache.commons.math.util.MathUtils,534
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(x.length!=y.length){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return false;
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(x.length!=NAN_GAP){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return true;
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(x.length==y.length){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return true;
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(NAN_GAP!=y.length){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return true;
+
+Time : 22/06/30 01:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(NAN_GAP==0){
+throw MathRuntimeException.createIllegalArgumentException(LocalizedFormats.AT_LEAST_ONE_COLUMN);
+}
+if(x.length!=NAN_GAP){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return true;
+
+Time : 22/06/30 01:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x=new double[NAN_GAP];
+if((x==null)||(y==null)){
+return !((x==null)^(y==null));
+}
+if(x.length!=y.length){
+return false;
+}
+for(int i=0;i<x.length;++i){
+if(!equals(x[i],y[i])){
+return false;
+}
+}
+return true;
+
+Time : 22/06/30 01:32
+----------------------------------------
+Thu Jun 30 01:35:00 UTC 2022 Thu Jun 30 01:35:00 UTC 2022 : org.apache.commons.math.util.MathUtils,33=>Find no block
+Thu Jun 30 01:35:00 UTC 2022 Thu Jun 30 01:35:00 UTC 2022 : org.apache.commons.math.util.MathUtils,75=>Find no block
+Thu Jun 30 01:35:01 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,63
+Thu Jun 30 01:35:03 UTC 2022 Thu Jun 30 01:35:03 UTC 2022 : org.apache.commons.math.exception.NonMonotonousSequenceException,64=>Find no block
+Thu Jun 30 01:35:04 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,82
+Thu Jun 30 01:35:43 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,91
+Thu Jun 30 01:35:43 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,92
+Thu Jun 30 01:35:44 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,93
+Thu Jun 30 01:35:44 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,94
+Thu Jun 30 01:35:45 UTC 2022 Thu Jun 30 01:35:45 UTC 2022 : org.apache.commons.math.exception.NonMonotonousSequenceException,95=>Find no block
+Thu Jun 30 01:35:45 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,101
+Thu Jun 30 01:35:48 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,107
+Thu Jun 30 01:35:50 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,115
+Thu Jun 30 01:36:08 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,121
+Thu Jun 30 01:36:11 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,50
+Thu Jun 30 01:36:57 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,51
+Thu Jun 30 01:36:57 UTC 2022 Thu Jun 30 01:36:57 UTC 2022 : org.apache.commons.math.exception.MathIllegalNumberException,52=>Find no block
+Thu Jun 30 01:36:57 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,64
+Thu Jun 30 01:37:38 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,65
+Thu Jun 30 01:37:38 UTC 2022 Thu Jun 30 01:37:38 UTC 2022 : org.apache.commons.math.exception.MathIllegalNumberException,66=>Find no block
+Thu Jun 30 01:37:38 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,72
+Thu Jun 30 01:37:40 UTC 2022 Thu Jun 30 01:37:40 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,61=>Find no block
+Thu Jun 30 01:37:41 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,62
+Thu Jun 30 01:37:59 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,63
+Thu Jun 30 01:37:59 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,64
+Thu Jun 30 01:37:59 UTC 2022 Thu Jun 30 01:37:59 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,65=>Find no block
+Thu Jun 30 01:37:59 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,72
+Thu Jun 30 01:38:01 UTC 2022 Thu Jun 30 01:38:01 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,73=>Find no block
+Thu Jun 30 01:38:02 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,83
+Thu Jun 30 01:38:13 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,89
+Thu Jun 30 01:38:27 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,95
+Thu Jun 30 01:38:40 UTC 2022 Thu Jun 30 01:38:40 UTC 2022 : org.apache.commons.math.util.MathUtils,1806=>Find no block
+Thu Jun 30 01:38:41 UTC 2022 Thu Jun 30 01:38:41 UTC 2022 : org.apache.commons.math.util.MathUtils,1808=>Find no block
+Thu Jun 30 01:38:41 UTC 2022 Thu Jun 30 01:38:41 UTC 2022 : org.apache.commons.math.util.MathUtils,1810=>Find no block
+Thu Jun 30 01:38:42 UTC 2022 Thu Jun 30 01:38:42 UTC 2022 : org.apache.commons.math.util.MathUtils,1827=>Find no block
+Thu Jun 30 01:38:42 UTC 2022 org.apache.commons.math.util.MathUtils,88
+Thu Jun 30 01:38:44 UTC 2022 Thu Jun 30 01:38:44 UTC 2022 : org.apache.commons.math.util.MathUtils,89=>Find no block
+Thu Jun 30 01:38:45 UTC 2022 org.apache.commons.math.util.MathUtils,102
+Thu Jun 30 01:39:39 UTC 2022 org.apache.commons.math.util.MathUtils,103
+Thu Jun 30 01:42:01 UTC 2022 org.apache.commons.math.util.MathUtils,104
+Thu Jun 30 01:42:02 UTC 2022 org.apache.commons.math.util.MathUtils,106
+Thu Jun 30 01:42:02 UTC 2022 org.apache.commons.math.util.MathUtils,120
+Thu Jun 30 01:42:05 UTC 2022 org.apache.commons.math.util.MathUtils,136
+Thu Jun 30 01:48:04 UTC 2022 org.apache.commons.math.util.MathUtils,138
+Thu Jun 30 01:48:07 UTC 2022 org.apache.commons.math.util.MathUtils,142
+Thu Jun 30 01:48:08 UTC 2022 org.apache.commons.math.util.MathUtils,143
+Thu Jun 30 01:48:09 UTC 2022 org.apache.commons.math.util.MathUtils,145
+Thu Jun 30 01:48:09 UTC 2022 org.apache.commons.math.util.MathUtils,146
+Thu Jun 30 01:48:10 UTC 2022 org.apache.commons.math.util.MathUtils,148
+Thu Jun 30 01:48:10 UTC 2022 org.apache.commons.math.util.MathUtils,152
+Thu Jun 30 01:48:11 UTC 2022 org.apache.commons.math.util.MathUtils,159
+Thu Jun 30 01:48:11 UTC 2022 org.apache.commons.math.util.MathUtils,160
+Thu Jun 30 01:48:11 UTC 2022 org.apache.commons.math.util.MathUtils,162
+Thu Jun 30 01:48:11 UTC 2022 org.apache.commons.math.util.MathUtils,166
+Thu Jun 30 01:49:10 UTC 2022 org.apache.commons.math.util.MathUtils,195
+Thu Jun 30 01:54:46 UTC 2022 org.apache.commons.math.util.MathUtils,196
+Thu Jun 30 02:00:18 UTC 2022 org.apache.commons.math.util.MathUtils,197
+Thu Jun 30 02:00:19 UTC 2022 org.apache.commons.math.util.MathUtils,199
+Thu Jun 30 02:06:09 UTC 2022 org.apache.commons.math.util.MathUtils,200
+Thu Jun 30 02:06:10 UTC 2022 org.apache.commons.math.util.MathUtils,203
+Thu Jun 30 02:08:18 UTC 2022 org.apache.commons.math.util.MathUtils,204
+Thu Jun 30 02:08:21 UTC 2022 org.apache.commons.math.util.MathUtils,211
+Thu Jun 30 02:17:49 UTC 2022 org.apache.commons.math.util.MathUtils,212
+Thu Jun 30 03:26:42 UTC 2022 org.apache.commons.math.util.MathUtils,214
+Thu Jun 30 03:37:07 UTC 2022 org.apache.commons.math.util.MathUtils,215
+Thu Jun 30 03:37:08 UTC 2022 org.apache.commons.math.util.MathUtils,216
+Thu Jun 30 03:37:09 UTC 2022 org.apache.commons.math.util.MathUtils,217
+Thu Jun 30 03:37:09 UTC 2022 org.apache.commons.math.util.MathUtils,219
+Thu Jun 30 03:37:10 UTC 2022 org.apache.commons.math.util.MathUtils,222
+Thu Jun 30 03:48:59 UTC 2022 org.apache.commons.math.util.MathUtils,223
+Thu Jun 30 03:49:00 UTC 2022 org.apache.commons.math.util.MathUtils,230
+Thu Jun 30 03:49:00 UTC 2022 org.apache.commons.math.util.MathUtils,231
+Thu Jun 30 03:49:01 UTC 2022 org.apache.commons.math.util.MathUtils,232
+Thu Jun 30 03:49:03 UTC 2022 Thu Jun 30 03:49:03 UTC 2022 : org.apache.commons.math.util.MathUtils,234=>Find no block
+Thu Jun 30 03:49:04 UTC 2022 org.apache.commons.math.util.MathUtils,238
+Thu Jun 30 04:00:08 UTC 2022 org.apache.commons.math.util.MathUtils,239
+Thu Jun 30 04:00:08 UTC 2022 org.apache.commons.math.util.MathUtils,240
+Thu Jun 30 04:00:08 UTC 2022 org.apache.commons.math.util.MathUtils,241
+Thu Jun 30 04:00:09 UTC 2022 org.apache.commons.math.util.MathUtils,242
+Thu Jun 30 04:00:09 UTC 2022 org.apache.commons.math.util.MathUtils,245
+Thu Jun 30 04:37:54 UTC 2022 org.apache.commons.math.util.MathUtils,271
+Thu Jun 30 04:43:16 UTC 2022 org.apache.commons.math.util.MathUtils,272
+Thu Jun 30 04:47:44 UTC 2022 org.apache.commons.math.util.MathUtils,273
+Thu Jun 30 04:47:44 UTC 2022 org.apache.commons.math.util.MathUtils,275
+Thu Jun 30 04:47:45 UTC 2022 org.apache.commons.math.util.MathUtils,276
+Thu Jun 30 04:47:45 UTC 2022 org.apache.commons.math.util.MathUtils,278
+Thu Jun 30 04:50:09 UTC 2022 org.apache.commons.math.util.MathUtils,279
+Thu Jun 30 04:50:09 UTC 2022 org.apache.commons.math.util.MathUtils,281
+Thu Jun 30 04:53:45 UTC 2022 org.apache.commons.math.util.MathUtils,282
+Thu Jun 30 04:53:45 UTC 2022 org.apache.commons.math.util.MathUtils,285
+Thu Jun 30 05:16:23 UTC 2022 org.apache.commons.math.util.MathUtils,286
+Thu Jun 30 05:16:24 UTC 2022 org.apache.commons.math.util.MathUtils,287
+Thu Jun 30 05:16:24 UTC 2022 org.apache.commons.math.util.MathUtils,290
+Thu Jun 30 05:22:07 UTC 2022 org.apache.commons.math.util.MathUtils,312
+Thu Jun 30 05:27:34 UTC 2022 org.apache.commons.math.util.MathUtils,313
+Thu Jun 30 05:32:05 UTC 2022 org.apache.commons.math.util.MathUtils,314
+Thu Jun 30 05:32:06 UTC 2022 org.apache.commons.math.util.MathUtils,316
+Thu Jun 30 05:37:58 UTC 2022 org.apache.commons.math.util.MathUtils,317
+Thu Jun 30 05:37:59 UTC 2022 org.apache.commons.math.util.MathUtils,324
+Thu Jun 30 05:42:21 UTC 2022 org.apache.commons.math.util.MathUtils,325
+Thu Jun 30 05:42:21 UTC 2022 org.apache.commons.math.util.MathUtils,332
+Thu Jun 30 05:46:47 UTC 2022 org.apache.commons.math.util.MathUtils,333
+Thu Jun 30 05:46:47 UTC 2022 org.apache.commons.math.util.MathUtils,336
+Thu Jun 30 05:49:07 UTC 2022 org.apache.commons.math.util.MathUtils,337
+Thu Jun 30 05:49:07 UTC 2022 org.apache.commons.math.util.MathUtils,343
+Timeout time : 22/06/30 05:55

@@ -1,3 +1,9 @@
-fix	org.apache.commons.math.optimization.linear.SimplexTableau	292	INS	ignoreObjectiveRows
-buggy	org.apache.commons.math.optimization.linear.SimplexTableau	341	UPD	getBasicRow
-buggy	org.apache.commons.math.optimization.linear.SimplexTableau	345	UPD	getBasicRow
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	negativeVarBasicRow	buggy
+org.apache.commons.math.optimization.linear.SimplexTableau	getBasicRow(IZ)Ljava/lang/Integer;	start	buggy
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	i	buggy
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	basicRow	buggy
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	negativeVarBasicRow	fixed
+org.apache.commons.math.optimization.linear.SimplexTableau	getBasicRow(IZ)Ljava/lang/Integer;	ignoreObjectiveRows	fixed
+org.apache.commons.math.optimization.linear.SimplexTableau	getBasicRow(IZ)Ljava/lang/Integer;	start	fixed
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	i	fixed
+org.apache.commons.math.optimization.linear.SimplexTableau	getSolution()Lorg/apache/commons/math/optimization/RealPointValuePair;	basicRow	fixed

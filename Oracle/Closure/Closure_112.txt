@@ -1,5 +1,12 @@
-fix	com.google.javascript.jscomp.TypeInference	1192	INS	Maps
-fix	com.google.javascript.jscomp.TypeInference	1197	INS	apply
-fix	com.google.javascript.jscomp.TypeInference	1196	INS	Override
-fix	com.google.javascript.jscomp.TypeInference	1197	INS	key
-fix	com.google.javascript.jscomp.TypeInference	1198	INS	keys
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fnType	buggy
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	inferred	buggy
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	n	buggy
+com.google.javascript.jscomp.TypeInference$1	<init>(Lcom/google/javascript/jscomp/TypeInference;Lcom/google/common/collect/ImmutableList;)V	this.this$0	fixed
+com.google.javascript.jscomp.TypeInference$1	<init>(Lcom/google/javascript/jscomp/TypeInference;Lcom/google/common/collect/ImmutableList;)V	l1	fixed
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	fnType	fixed
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	keys	fixed
+com.google.javascript.jscomp.TypeInference$1	<init>(Lcom/google/javascript/jscomp/TypeInference;Lcom/google/common/collect/ImmutableList;)V	this.val$keys	fixed
+com.google.javascript.jscomp.TypeInference$1	<init>(Lcom/google/javascript/jscomp/TypeInference;Lcom/google/common/collect/ImmutableList;)V	l2	fixed
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	inferred	fixed
+com.google.javascript.jscomp.TypeInference	inferTemplatedTypesForCall(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/jstype/FunctionType;)Z	n	fixed
+com.google.javascript.jscomp.TypeInference$1	apply(Lcom/google/javascript/rhino/jstype/TemplateType;)Z	key	fixed

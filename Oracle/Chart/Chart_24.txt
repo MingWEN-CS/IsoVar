@@ -1,1 +1,8 @@
-buggy	org.jfree.chart.renderer.GrayPaintScale	126	UPD	value
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	g	buggy
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	value	buggy
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	this.lowerBound	buggy
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	this.upperBound	buggy
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	v	fixed
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	g	fixed
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	this.lowerBound	fixed
+org.jfree.chart.renderer.GrayPaintScale	getPaint(D)Ljava/awt/Paint;	this.upperBound	fixed

@@ -1,2 +1,8 @@
-fix	com.google.javascript.jscomp.Compiler	255	INS	options.checkGlobalThisLevel
-fix	com.google.javascript.jscomp.Compiler	256	INS	options
+com.google.javascript.jscomp.Compiler	initOptions(Lcom/google/javascript/jscomp/CompilerOptions;)V	options.checkGlobalThisLevel	buggy
+com.google.javascript.jscomp.CompilerOptions	setCheckMissingGetCssNameLevel(Lcom/google/javascript/jscomp/CheckLevel;)V	this.checkMissingGetCssNameLevel	buggy
+com.google.javascript.jscomp.CompilerOptions	setCheckMissingGetCssNameLevel(Lcom/google/javascript/jscomp/CheckLevel;)V	level	buggy
+com.google.javascript.jscomp.Compiler	initOptions(Lcom/google/javascript/jscomp/CompilerOptions;)V	options.checkGlobalThisLevel	fixed
+com.google.javascript.jscomp.CompilerOptions	setCheckMissingGetCssNameLevel(Lcom/google/javascript/jscomp/CheckLevel;)V	this.checkMissingGetCssNameLevel	fixed
+com.google.javascript.jscomp.CompilerOptions	setCheckMissingGetCssNameLevel(Lcom/google/javascript/jscomp/CheckLevel;)V	level	fixed
+com.google.javascript.jscomp.Compiler	initOptions(Lcom/google/javascript/jscomp/CompilerOptions;)V	.GLOBAL_THIS	fixed
+com.google.javascript.jscomp.Compiler	initOptions(Lcom/google/javascript/jscomp/CompilerOptions;)V	options	fixed

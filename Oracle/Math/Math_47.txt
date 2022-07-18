@@ -1,14 +1,8 @@
-fix	org.apache.commons.math.complex.Complex	82	INS	isZero
-fix	org.apache.commons.math.complex.Complex	258	INS	divisor.isZero
-fix	org.apache.commons.math.complex.Complex	106	INS	isZero
-fix	org.apache.commons.math.complex.Complex	106	INS	real
-fix	org.apache.commons.math.complex.Complex	106	INS	imaginary
-fix	org.apache.commons.math.complex.Complex	259	INS	isZero
-fix	org.apache.commons.math.complex.Complex	259	INS	NaN
-fix	org.apache.commons.math.complex.Complex	259	INS	INF
-fix	org.apache.commons.math.complex.Complex	295	INS	isZero
-fix	org.apache.commons.math.complex.Complex	295	INS	NaN
-fix	org.apache.commons.math.complex.Complex	295	INS	INF
-buggy	org.apache.commons.math.complex.Complex	256	DEL	divisor
-buggy	org.apache.commons.math.complex.Complex	257	DEL	NaN
-buggy	org.apache.commons.math.complex.Complex	293	DEL	NaN
+org.apache.commons.math.complex.Complex	divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	divisor	buggy
+org.apache.commons.math.complex.Complex	divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	.NaN	buggy
+org.apache.commons.math.complex.Complex	<init>(DD)V	imaginary	fixed
+org.apache.commons.math.complex.Complex	<init>(DD)V	this	fixed
+org.apache.commons.math.complex.Complex	divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	divisor.isZero	fixed
+org.apache.commons.math.complex.Complex	divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	this.isZero	fixed
+org.apache.commons.math.complex.Complex	<init>(DD)V	real	fixed
+org.apache.commons.math.complex.Complex	divide(Lorg/apache/commons/math/complex/Complex;)Lorg/apache/commons/math/complex/Complex;	.NaN	fixed

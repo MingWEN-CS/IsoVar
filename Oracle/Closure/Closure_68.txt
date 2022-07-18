@@ -1,2 +1,2 @@
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1709	INS	restoreLookAhead
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	1762	INS	restoreLookAhead
+com.google.javascript.jscomp.parsing.JsDocInfoParser	parseBasicTypeExpression(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	token	fixed
+com.google.javascript.jscomp.parsing.JsDocInfoParser	parseFunctionType(Lcom/google/javascript/jscomp/parsing/JsDocToken;)Lcom/google/javascript/rhino/Node;	token	fixed

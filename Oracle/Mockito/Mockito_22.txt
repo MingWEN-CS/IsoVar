@@ -1,2 +1,5 @@
-fix	org.mockito.internal.matchers.Equality	13	INS	o1
-fix	org.mockito.internal.matchers.Equality	13	INS	o2
+org.mockito.internal.matchers.Equality	areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z	o1	buggy
+org.mockito.internal.matchers.Equality	areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z	o2	buggy
+org.mockito.internal.matchers.Equality	areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z	o1	fixed
+org.mockito.internal.matchers.Equality	areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z	o1	fixed
+org.mockito.internal.matchers.Equality	areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z	o2	fixed

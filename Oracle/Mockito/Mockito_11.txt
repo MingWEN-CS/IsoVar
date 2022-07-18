@@ -1,6 +1,5 @@
-fix	org.mockito.internal.creation.DelegatingMethod	55	INS	o
-fix	org.mockito.internal.creation.DelegatingMethod	58	INS	o
-fix	org.mockito.internal.creation.DelegatingMethod	68	INS	method
-fix	org.mockito.internal.creation.DelegatingMethod	59	INS	that
-fix	org.mockito.internal.creation.DelegatingMethod	60	INS	method
-fix	org.mockito.internal.creation.DelegatingMethod	59	INS	o
+org.mockito.internal.creation.DelegatingMethod	equals(Ljava/lang/Object;)Z	that	fixed
+org.mockito.internal.creation.DelegatingMethod	equals(Ljava/lang/Object;)Z	this.method	fixed
+org.mockito.internal.creation.DelegatingMethod	equals(Ljava/lang/Object;)Z	this	fixed
+org.mockito.internal.creation.DelegatingMethod	equals(Ljava/lang/Object;)Z	that.method	fixed
+org.mockito.internal.creation.DelegatingMethod	equals(Ljava/lang/Object;)Z	o	fixed

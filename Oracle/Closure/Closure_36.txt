@@ -1,1 +1,2 @@
-fix	com.google.javascript.jscomp.InlineVariables	575	INS	convention
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	canInline(Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;)Z	convention	fixed
+com.google.javascript.jscomp.InlineVariables$InliningBehavior	canInline(Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;)Z	callNode	fixed

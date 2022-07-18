@@ -14,6 +14,7 @@ Lang_23	no variable oracle
 Lang_25	no variable oracle
 Lang_29	no variable oracle
 Lang_56	no variable oracle
+Lang_43	failing test can not stop
 Lang_51	no variable oracle
 Lang_53	no variable oracle
 Closure_1	no variable oracle

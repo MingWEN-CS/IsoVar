@@ -1,0 +1,1821 @@
+=================================================
+Project : math_41	start : 22/07/16 08:15
+Current failed test : org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted | 22/07/16 08:16
+Sat Jul 16 08:16:21 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,370
+Sat Jul 16 08:19:43 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,222
+Sat Jul 16 08:20:28 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,258
+Sat Jul 16 08:20:47 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,262
+Sat Jul 16 08:26:26 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,266
+Sat Jul 16 08:31:59 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,267
+Sat Jul 16 09:16:55 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,268
+Sat Jul 16 09:16:57 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,271
+Sat Jul 16 09:17:01 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,274
+Sat Jul 16 09:17:04 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,277
+Sat Jul 16 09:17:07 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,278
+Sat Jul 16 09:17:08 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,282
+Sat Jul 16 09:17:14 UTC 2022 org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic,286
+Sat Jul 16 09:18:24 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,316
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 22/07/16 09:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 22/07/16 09:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin+length>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin>values.length){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+values[begin]=var;
+if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 22/07/16 09:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+
+Time : 22/07/16 09:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length!=1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length!=1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length==values.length){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,weights,m,begin,length);
+}
+
+Time : 22/07/16 09:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double var=Double.NaN;
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+
+Time : 22/07/16 09:53
+----------------------------------------
+Sat Jul 16 09:59:43 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,318
+Sat Jul 16 09:59:45 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,319
+Sat Jul 16 09:59:46 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,320
+Sat Jul 16 09:59:47 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,322
+Sat Jul 16 09:59:48 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,323
+Sat Jul 16 09:59:49 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,324
+Sat Jul 16 09:59:50 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,325
+Sat Jul 16 09:59:51 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,328
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 22/07/16 10:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,weights,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 22/07/16 10:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 22/07/16 10:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,begin,length)){
+clear();
+if(length==1){
+var=0.0;
+}else if(length>1){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+var=evaluate(values,m,begin,length);
+}
+}
+return var;
+
+Time : 22/07/16 10:04
+----------------------------------------
+Sat Jul 16 10:08:18 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,504
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=dev/accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=mean-var;
+accum2=dev/accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=dev/accum;
+var+=accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+dev=mean-var;
+accum2=dev/accum;
+var+=accum2;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+weights[begin+1]=accum2+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=accum2+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=mean;
+accum=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 10:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6071504429856334 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>0,0]
+for(int i=begin;i<begin+length;i++){
+sumLog+=FastMath.log(values[i]);
+}
+
+Time : 22/07/16 10:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>520,522]
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>520,522]
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<=begin;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<sumWts;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin;i++){
+accum2+=weights[i]-mean;
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=begin;i<begin+length;i++){
+accum2+=weights[i]-mean;
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 10:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=begin;i<begin;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5093043170495624 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>0,0]
+if(test(values,begin,length)&&length>2){
+Mean mean=new Mean();
+double m=mean.evaluate(values,begin,length);
+double accum=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+ final double d=values[i]-m;
+accum+=d*d;
+accum2+=d;
+}
+ final double variance=(accum-(accum2*accum2/length))/(length-1);
+double accum3=0.0;
+for(int i=begin;i<begin+length;i++){
+ final double d=values[i]-m;
+accum3+=d*d;
+}
+accum3/=variance*FastMath.sqrt(variance);
+double n0=length;
+skew=(n0/((n0-1)*(n0-2)))*accum3;
+}
+
+Time : 22/07/16 11:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>509,529]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java=>509,529]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=length;
+for(int i=begin;i<begin;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=length;
+for(int i=begin;i<begin+length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length>values.length){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights==null){
+throw new NullArgumentException(LocalizedFormats.INPUT_ARRAY);
+}
+if(length>values.length){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin+length>values.length){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(begin>values.length){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(length!=1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length!=1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights==null){
+throw new NullArgumentException(LocalizedFormats.INPUT_ARRAY);
+}
+if(length!=1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights.length==values.length){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights==null){
+throw new NullArgumentException(LocalizedFormats.INPUT_ARRAY);
+}
+if(weights.length!=1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(weights==null){
+throw new NullArgumentException(LocalizedFormats.INPUT_ARRAY);
+}
+if(weights.length==values.length){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+
+Time : 22/07/16 11:37
+----------------------------------------
+Sat Jul 16 11:47:07 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,506
+Sat Jul 16 11:48:48 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,507
+Sat Jul 16 11:48:50 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,509
+Sat Jul 16 11:48:51 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,510
+Sat Jul 16 11:49:10 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,511
+Sat Jul 16 11:49:12 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,512
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+weights[begin+1]=var+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+weights[begin+1]=var+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+accum=var*var;
+weights[begin+1]=var+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+accum=var*var;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+weights[begin+1]=var+accum;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=var+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+accum=var*var;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+weights[begin+1]=var+accum;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+accum=var*var;
+weights[begin+1]=var+accum;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double dev=0.0;
+double accum2=0.0;
+var=(weights[begin]-var)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=var+accum;
+var=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+
+Time : 22/07/16 12:15
+----------------------------------------
+Sat Jul 16 12:18:40 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,513
+Sat Jul 16 12:18:41 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,514
+Sat Jul 16 12:18:42 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,515
+Sat Jul 16 12:18:44 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,516
+Sat Jul 16 12:18:45 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,519
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+values[begin]=var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+weights[begin+1]=accum2+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=accum2+accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum=var*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+var=(weights[begin]-accum2)*var+2.0*var;
+accum=var*var;
+weights[begin+1]=accum2+accum;
+accum2=var*var-mean;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+accum2=dev/accum;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+
+Time : 22/07/16 12:50
+----------------------------------------
+Sat Jul 16 12:55:57 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,520
+Sat Jul 16 12:56:01 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,521
+Sat Jul 16 12:56:02 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,524
+Sat Jul 16 12:56:03 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,525
+Sat Jul 16 12:56:04 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Variance,531
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+if(length==1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+}
+return mean;
+
+Time : 22/07/16 12:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+if(length==1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+}
+return moment.m2/(moment.n-1.0);
+
+Time : 22/07/16 13:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+if(length==1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+}
+return moment.m2/(moment.n);
+
+Time : 22/07/16 13:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+if(length==1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+}
+if(var<0){
+return 0;
+}
+return mean;
+
+Time : 22/07/16 13:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(test(values,weights,begin,length)){
+if(length==1){
+var=0.0;
+}else if(length>1){
+double accum=0.0;
+double dev=0.0;
+double accum2=0.0;
+for(int i=begin;i<begin+length;i++){
+dev=values[i]-mean;
+accum+=weights[i]*(dev*dev);
+accum2+=weights[i]*dev;
+}
+double sumWts=0;
+for(int i=0;i<weights.length;i++){
+sumWts+=weights[i];
+}
+if(isBiasCorrected){
+var=(accum-(accum2*accum2/sumWts))/(sumWts-1.0);
+}else {
+var=(accum-(accum2*accum2/sumWts))/sumWts;
+}
+}
+}
+return mean*0.5;
+
+Time : 22/07/16 13:05
+----------------------------------------
+Sat Jul 16 13:07:03 UTC 2022 org.apache.commons.math.stat.descriptive.moment.Mean,205
+Timeout time : 22/07/16 13:16

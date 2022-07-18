@@ -1,8 +1,5 @@
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	486	INS	isVarArgs
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	487	INS	oldParameterType
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	487	INS	isVarArgs
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	292	INS	oldParams
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	293	INS	paramBuilder
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	488	INS	builder
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	489	INS	oldParameterType
-fix	com.google.javascript.jscomp.FunctionTypeBuilder	293	INS	oldParams
+com.google.javascript.jscomp.FunctionTypeBuilder	inferFromOverriddenFunction(Lcom/google/javascript/rhino/jstype/FunctionType;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionTypeBuilder;	paramBuilder	fixed
+com.google.javascript.jscomp.FunctionTypeBuilder	inferParameterTypes(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/JSDocInfo;)Lcom/google/javascript/jscomp/FunctionTypeBuilder;	isVarArgs	fixed
+com.google.javascript.jscomp.FunctionTypeBuilder	inferFromOverriddenFunction(Lcom/google/javascript/rhino/jstype/FunctionType;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/jscomp/FunctionTypeBuilder;	oldParams	fixed
+com.google.javascript.jscomp.FunctionTypeBuilder	inferParameterTypes(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/JSDocInfo;)Lcom/google/javascript/jscomp/FunctionTypeBuilder;	oldParameterType	fixed
+com.google.javascript.jscomp.FunctionTypeBuilder	inferParameterTypes(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/JSDocInfo;)Lcom/google/javascript/jscomp/FunctionTypeBuilder;	builder	fixed

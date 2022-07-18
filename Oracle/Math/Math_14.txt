@@ -1,18 +1,13 @@
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	267	INS	m
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	270	INS	i
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	270	INS	dim
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	273	INS	sqrtM
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	268	INS	dim
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	269	INS	sqrtM
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	268	INS	m
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	269	INS	dim
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	271	INS	sqrtM
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	271	INS	FastMath
-fix	org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	271	INS	m
-fix	org.apache.commons.math3.optim.nonlinear.vector.Weight	43	INS	weight
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	43	DEL	org.apache.commons.math3.linear.MatrixUtils
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	44	DEL	i
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	44	DEL	dim
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	45	DEL	weightMatrix
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	45	DEL	weight
-buggy	org.apache.commons.math3.optim.nonlinear.vector.Weight	45	DEL	i
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	weight[]	buggy
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	this.weightMatrix	buggy
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	dim	buggy
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	i	buggy
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	weight	buggy
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	sqrtM	fixed
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	this.weightMatrix	fixed
+org.apache.commons.math3.optim.nonlinear.vector.Weight	<init>([D)V	weight	fixed
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	dim	fixed
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	dim	fixed
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	i	fixed
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	dim	fixed
+org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer	squareRoot(Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;	m	fixed

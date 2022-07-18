@@ -1,4 +1,2 @@
-fix	org.apache.commons.lang3.RandomStringUtils	246	INS	end
-fix	org.apache.commons.lang3.RandomStringUtils	246	INS	start
-fix	org.apache.commons.lang3.RandomStringUtils	247	INS	end
-fix	org.apache.commons.lang3.RandomStringUtils	247	INS	start
+org.apache.commons.lang3.RandomStringUtils	random(IIIZZ[CLjava/util/Random;)Ljava/lang/String;	start	fixed
+org.apache.commons.lang3.RandomStringUtils	random(IIIZZ[CLjava/util/Random;)Ljava/lang/String;	end	fixed

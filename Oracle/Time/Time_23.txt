@@ -1,1 +1,2 @@
-fix	org.joda.time.DateTimeZone	580	INS	map
+org.joda.time.DateTimeZone	getConvertedId(Ljava/lang/String;)Ljava/lang/String;	map	buggy
+org.joda.time.DateTimeZone	getConvertedId(Ljava/lang/String;)Ljava/lang/String;	map	fixed

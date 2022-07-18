@@ -1,13 +1,9 @@
-fix	org.apache.commons.lang.StringUtils	1050	INS	i
-fix	org.apache.commons.lang.StringUtils	1050	INS	max
-fix	org.apache.commons.lang.StringUtils	1048	INS	len
-fix	org.apache.commons.lang.StringUtils	1049	INS	max
-fix	org.apache.commons.lang.StringUtils	1049	INS	str
-fix	org.apache.commons.lang.StringUtils	1049	INS	len
-fix	org.apache.commons.lang.StringUtils	1048	INS	searchStr
-buggy	org.apache.commons.lang.StringUtils	1048	MOV	str
-buggy	org.apache.commons.lang.StringUtils	1048	UPD	str
-fix	org.apache.commons.lang.StringUtils	1051	INS	str
-buggy	org.apache.commons.lang.StringUtils	1048	MOV	searchStr
-buggy	org.apache.commons.lang.StringUtils	1048	UPD	searchStr
-buggy	org.apache.commons.lang.StringUtils	1048	DEL	contains
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	str	buggy
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	searchStr	buggy
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	str	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	len	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	searchStr	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	len	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	len	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	max	fixed
+org.apache.commons.lang.StringUtils	containsIgnoreCase(Ljava/lang/String;Ljava/lang/String;)Z	i	fixed

@@ -1,12 +1,7 @@
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	185	INS	REGULA_FALSI
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	186	INS	x
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	186	INS	x1
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	delta
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	x0
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	x1
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	191	INS	delta
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	192	INS	f0
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	FastMath
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	187	INS	rtol
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	188	INS	FastMath
-fix	org.apache.commons.math.analysis.solvers.BaseSecantSolver	192	INS	computeObjectiveValue
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	x	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	delta	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	x0	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	x1	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	rtol	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	f0	fixed
+org.apache.commons.math.analysis.solvers.BaseSecantSolver	doSolve()D	atol	fixed

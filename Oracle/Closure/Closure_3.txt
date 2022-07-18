@@ -1,8 +1,6 @@
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	280	INS	scope
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	155	INS	t
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	375	INS	Token.NAME
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	377	INS	var
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	var
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	scope
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	376	INS	input
-fix	com.google.javascript.jscomp.FlowSensitiveInlineVariables	378	INS	var
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	enterScope(Lcom/google/javascript/jscomp/NodeTraversal;)V	c	buggy
+com.google.javascript.jscomp.FlowSensitiveInlineVariables$Candidate$1	apply(Lcom/google/javascript/rhino/Node;)Z	input	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	enterScope(Lcom/google/javascript/jscomp/NodeTraversal;)V	c	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables	enterScope(Lcom/google/javascript/jscomp/NodeTraversal;)V	t	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables$Candidate$1	apply(Lcom/google/javascript/rhino/Node;)Z	this.val$scope	fixed
+com.google.javascript.jscomp.FlowSensitiveInlineVariables$Candidate$1	apply(Lcom/google/javascript/rhino/Node;)Z	var	fixed

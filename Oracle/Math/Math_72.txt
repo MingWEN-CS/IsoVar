@@ -1,2 +1,4 @@
-buggy	org.apache.commons.math.analysis.solvers.BrentSolver	115	UPD	setResult
-buggy	org.apache.commons.math.analysis.solvers.BrentSolver	127	UPD	setResult
+org.apache.commons.math.analysis.solvers.BrentSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	yMin	buggy
+org.apache.commons.math.analysis.solvers.BrentSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	yMax	buggy
+org.apache.commons.math.analysis.solvers.BrentSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	min	fixed
+org.apache.commons.math.analysis.solvers.BrentSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	max	fixed

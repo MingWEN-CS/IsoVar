@@ -1,2 +1,2 @@
-fix	com.google.javascript.jscomp.TypeCheck	1661	INS	fnType
-buggy	com.google.javascript.jscomp.TypeCheck	1661	MOV	fnType
+com.google.javascript.jscomp.TypeCheck	visitNew(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fnType	buggy
+com.google.javascript.jscomp.TypeCheck	visitNew(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	fnType	fixed

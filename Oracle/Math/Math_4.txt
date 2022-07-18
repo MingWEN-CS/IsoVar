@@ -1,2 +1,2 @@
-fix	org.apache.commons.math3.geometry.euclidean.threed.SubLine	114	INS	v1D
-fix	org.apache.commons.math3.geometry.euclidean.twod.SubLine	118	INS	v2D
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	intersection(Lorg/apache/commons/math3/geometry/euclidean/threed/SubLine;Z)Lorg/apache/commons/math3/geometry/euclidean/threed/Vector3D;	v1D	fixed
+org.apache.commons.math3.geometry.euclidean.twod.SubLine	intersection(Lorg/apache/commons/math3/geometry/euclidean/twod/SubLine;Z)Lorg/apache/commons/math3/geometry/euclidean/twod/Vector2D;	v2D	fixed

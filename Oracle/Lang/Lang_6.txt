@@ -1,1 +1,5 @@
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	95	UPD	Character
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	input	buggy
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	pos	buggy
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	input	fixed
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	pos	fixed
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	pt	fixed

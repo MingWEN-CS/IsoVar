@@ -1,0 +1,40 @@
+project	id		total plausibles	total correct	rank_before	rank_after
+Time	4	8	8	8
+Time	11	39	4	3
+Chart	1	2	1	1
+Chart	8	199	1	15
+Chart	11	2	1	1
+Chart	12	2	2	2
+Chart	20	1	1	1
+Chart	24	2	2	2
+Chart	26	103	17	19
+Lang	26	1	1	1
+Lang	33	1	1	1
+Lang	59	2	2	1
+Math	5	3	1	1
+Math	33	1	1	1
+Math	34	1	1	1
+Math	50	40	40	40
+Math	58	2	2	2
+Math	59	1	1	1
+Math	70	1	1	1
+Math	75	1	1	1
+Math	82	9	8	2
+Mockito	5	22	8	no variable
+Mockito	29	2	2	2
+Closure	10	4	1	1
+Closure	11	15	1	1
+Closure	31	6	6	3
+Closure	46	7	1	1
+Closure	62	2	2	2
+Closure	63	2	2	2 des
+Closure	73	1	1	1
+Closure	70	1	1	1
+Closure	86	3	2	no variable
+Closure	92	4	1	1
+Closure	93	4	1	1 des
+Closure	126	11	5	5
+
+
+
+

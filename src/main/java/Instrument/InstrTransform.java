@@ -91,6 +91,9 @@ public class InstrTransform {
 
     public static Set<VariableInfo>[] doTransverse(Body b) {
         BlockGraph bg = new BriefBlockGraph(b);
+        SootMethod method = b.getMethod();
+        String subSig = byteCodeSunSignature(method);
+        String className = method.getDeclaringClass().getName();
         int uniqueIndex = 0;
         int total = bg.size();
         Set<VariableInfo>[] locals = new Set[total];
@@ -104,6 +107,10 @@ public class InstrTransform {
         while (!queue.isEmpty()) {
             Block block = queue.poll();
             Set<VariableInfo> set = traverserBlock(block, fieldLocalMap);
+            for (VariableInfo var : set) {
+                var.className = className;
+                var.methodName = subSig;
+            }
             locals[uniqueIndex++] = set;
             for (Block succs : bg.getSuccsOf(block)) {
                 if (!accessed.contains(succs)) {
@@ -147,8 +154,8 @@ public class InstrTransform {
 //            return;
 
         String subSig = byteCodeSunSignature(method);
-        int hash = myHashCode(method.getDeclaringClass().getName()) +
-                myHashCode(subSig);
+        String className = method.getDeclaringClass().getName();
+        int hash = myHashCode(className) + myHashCode(subSig);
 
         BlockGraph bg = new BriefBlockGraph(b);
 
@@ -166,6 +173,10 @@ public class InstrTransform {
         while (!queue.isEmpty()) {
             Block block = queue.poll();
             Set<VariableInfo> set = traverserBlock(block, fieldLocalMap);
+            for (VariableInfo var : set) {
+                var.className = className;
+                var.methodName = subSig;
+            }
             locals[uniqueIndex] = set;
             insertExprBB(block, hash, total, uniqueIndex++);
             for (Block succs : bg.getSuccsOf(block)) {
@@ -229,7 +240,7 @@ public class InstrTransform {
                             String baseName = baseLocal.getName();
                             if (isOriginVar(baseName)) {
                                 VariableInfo var = new VariableInfo(stmt.getJavaSourceStartLineNumber(),
-                                        baseName + "[]", base.getType().toString(), true);
+                                        baseName + "[]", base.getType().toString(), false);
                                 set.add(var);
                                 toRmvObjName = baseLocal.getName();
                             } else if (fieldLocalMap.get(baseName) != null) {

@@ -1,1 +1,8 @@
-buggy	com.google.javascript.jscomp.ControlFlowAnalysis	767	UPD	cfa
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	fromNode	buggy
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	finallyNode	buggy
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	.UNCOND	buggy
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	cfa	buggy
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	fromNode	fixed
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	finallyNode	fixed
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	.ON_EX	fixed
+com.google.javascript.jscomp.ControlFlowAnalysis	computeFollowNode(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/ControlFlowAnalysis;)Lcom/google/javascript/rhino/Node;	cfa	fixed

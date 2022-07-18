@@ -1,0 +1,977 @@
+=================================================
+Project : math_50	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631 | 22/06/30 00:54
+Thu Jun 30 00:55:26 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,188
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(f0==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5954545454545457 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+double f0=computeObjectiveValue(x0);
+double f1=computeObjectiveValue(x1);
+if(f0==0.0){
+return x0;
+}
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(f0==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+f0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 00:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x==ftol){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.1860099202502337 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+x0=x1;
+f0=f1;
+x1=x;
+f1=fx;
+if(FastMath.abs(f1)<=ftol){
+return x1;
+}
+
+Time : 22/06/30 01:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==ftol){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=x0;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x1=x;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+f0=x0;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+x1=x;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=x0;
+x1=x;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+f0=x0;
+x1=x;
+x0=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x==x0){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.9704787500656593 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+for(m=j;m<n-1;m++){
+double delta=FastMath.abs(realEigenvalues[m])+FastMath.abs(realEigenvalues[m+1]);
+if(FastMath.abs(e[m])+delta==delta){
+break;
+}
+}
+
+Time : 22/06/30 01:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x0){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=computeObjectiveValue(x0);
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(f1==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.7053901948655494 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+if(f1==0.0){
+return x1;
+}
+verifyBracketing(x0,x1);
+ final double ftol=getFunctionValueAccuracy();
+
+Time : 22/06/30 01:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(f1==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.6464780474782357 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+if(x0>x1){
+throw new NumberIsTooLargeException(LocalizedFormats.LOWER_ENDPOINT_ABOVE_UPPER_ENDPOINT,x0,x1,true);
+}
+return cumulativeProbability(x1)-cumulativeProbability(x0);
+
+Time : 22/06/30 01:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x0==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=UnivariateRealSolverUtils.midpoint(atol,f0);
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=f0*FastMath.sqrt(fx+rtol)-0.5;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0+=x;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0+=x;
+f0+=fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1+fx;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x!=x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=fx;
+f0=x1;
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+verifyBracketing(atol,x0);
+if(f1==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x==Double.POSITIVE_INFINITY){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.7731967044445726 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>0,0]
+if(x==Double.POSITIVE_INFINITY){
+if(y!=y){
+return y;
+}
+if(y<0.0){
+return 0.0;
+}else {
+return Double.POSITIVE_INFINITY;
+}
+}
+
+Time : 22/06/30 01:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==x1){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_50_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java=>187,190]
+if(x==Double.POSITIVE_INFINITY){
+x0=0.5*(x0+x1-FastMath.max(rtol*FastMath.abs(x1),atol));
+f0=computeObjectiveValue(x0);
+}
+
+Time : 22/06/30 01:58
+----------------------------------------
+Thu Jun 30 01:58:42 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,189
+Thu Jun 30 01:58:58 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,239
+Thu Jun 30 02:00:25 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,187
+Thu Jun 30 02:00:29 UTC 2022 org.apache.commons.math.analysis.solvers.RegulaFalsiSolver,43
+Thu Jun 30 02:00:35 UTC 2022 Thu Jun 30 02:00:35 UTC 2022 : org.apache.commons.math.analysis.solvers.RegulaFalsiSolver,44=>Find no block
+Thu Jun 30 02:00:36 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,124
+Thu Jun 30 02:01:20 UTC 2022 Thu Jun 30 02:01:20 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,237=>Find no block
+Thu Jun 30 02:01:21 UTC 2022 org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,195
+Thu Jun 30 02:02:21 UTC 2022 Thu Jun 30 02:02:21 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,205=>Find no block
+Thu Jun 30 02:02:22 UTC 2022 Thu Jun 30 02:02:22 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,178=>Find no block
+Thu Jun 30 02:02:22 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,171
+Thu Jun 30 02:06:16 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,174
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f1=fx;
+x0=x1;
+f0=f1;
+inverted=!inverted;
+
+Time : 22/06/30 02:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fx==0.0){
+return x1;
+}
+f1=fx;
+x0=x1;
+f0=f1;
+inverted=!inverted;
+
+Time : 22/06/30 02:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x1=x1;
+f1=fx;
+x0=x1;
+f0=f1;
+inverted=!inverted;
+
+Time : 22/06/30 02:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fx==0.0){
+return x1;
+}
+x1=x1;
+f1=fx;
+x0=x1;
+f0=f1;
+inverted=!inverted;
+
+Time : 22/06/30 02:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x1;
+f0=fx;
+inverted=!inverted;
+
+Time : 22/06/30 02:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+x0=x0;
+f0=f1;
+inverted=!inverted;
+
+Time : 22/06/30 02:19
+----------------------------------------
+Thu Jun 30 02:30:24 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,175
+Thu Jun 30 02:30:25 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,176
+Thu Jun 30 02:30:25 UTC 2022 Thu Jun 30 02:30:25 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,178=>Find no block
+Thu Jun 30 02:30:26 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,198
+Thu Jun 30 03:00:14 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,199
+Thu Jun 30 03:00:18 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,204
+Thu Jun 30 03:11:39 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,235
+Thu Jun 30 03:17:55 UTC 2022 Thu Jun 30 03:17:55 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,252=>Find no block
+Thu Jun 30 03:17:55 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,68
+Thu Jun 30 03:18:05 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,69
+Thu Jun 30 03:18:06 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,70
+Thu Jun 30 03:18:06 UTC 2022 Thu Jun 30 03:18:06 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,71=>Find no block
+Thu Jun 30 03:18:07 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,149
+Thu Jun 30 03:19:39 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,150
+Thu Jun 30 03:20:26 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,151
+Thu Jun 30 03:21:05 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,155
+Thu Jun 30 03:21:06 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,160
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+ final double x=x1-((f1*(x1-x0))/(f1-f0));
+ final double fx=computeObjectiveValue(x1);
+if(fx==0.0){
+return x1;
+}
+
+Time : 22/06/30 03:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+ final double x=x1-((f1*(x1-x0))/(f1-f0));
+ final double fx=computeObjectiveValue(x1);
+if(fx==0.0){
+return x;
+}
+
+Time : 22/06/30 03:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0==0){
+return x1;
+}
+ final double x=x1-((f1*(x1-x0))/(f1-f0));
+ final double fx=computeObjectiveValue(x1);
+if(fx==0.0){
+return x;
+}
+
+Time : 22/06/30 03:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0==0){
+return x1;
+}
+ final double x=x1-((f1*(x1-x0))/(f1-f0));
+ final double fx=computeObjectiveValue(x1);
+if(fx==0.0){
+return x1;
+}
+
+Time : 22/06/30 03:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+ final double x=x1-((f1*(x1-x0))/(f1-f0));
+ final double fx=computeObjectiveValue(x);
+x0=computeObjectiveValue(x1);
+if(fx==0.0){
+return x;
+}
+
+Time : 22/06/30 03:31
+----------------------------------------
+Thu Jun 30 03:41:02 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,161
+Thu Jun 30 03:41:03 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,166
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f1=fx;
+if(fx==0.0){
+return x;
+}
+
+Time : 22/06/30 03:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f1=fx;
+if(fx==0.0){
+return x1;
+}
+
+Time : 22/06/30 03:55
+----------------------------------------
+Thu Jun 30 04:07:43 UTC 2022 org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,128
+Thu Jun 30 04:07:53 UTC 2022 org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,134
+Thu Jun 30 04:07:56 UTC 2022 org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,140
+Thu Jun 30 04:08:18 UTC 2022 Thu Jun 30 04:08:18 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,283=>Find no block
+Thu Jun 30 04:08:19 UTC 2022 Thu Jun 30 04:08:19 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,380=>Find no block
+Thu Jun 30 04:08:19 UTC 2022 org.apache.commons.math.util.FastMath,3410
+Thu Jun 30 04:08:50 UTC 2022 org.apache.commons.math.util.FastMath,3925
+Thu Jun 30 04:09:43 UTC 2022 org.apache.commons.math.util.FastMath,3928
+Thu Jun 30 04:10:29 UTC 2022 org.apache.commons.math.util.FastMath,3929
+Thu Jun 30 04:10:29 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,146
+Thu Jun 30 04:12:31 UTC 2022 org.apache.commons.math.analysis.solvers.BaseAbstractUnivariateRealSolver,282
+Thu Jun 30 04:12:38 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,116
+Thu Jun 30 04:13:17 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,117
+Thu Jun 30 04:13:17 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,130
+Thu Jun 30 04:14:27 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,131
+Thu Jun 30 04:14:28 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,132
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double x1=getMax();
+double f0=computeObjectiveValue(x1);
+double f1=computeObjectiveValue(x1);
+
+Time : 22/06/30 04:15
+----------------------------------------
+Thu Jun 30 04:17:44 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,133
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double f0=computeObjectiveValue(x0);
+double f1=computeObjectiveValue(x0);
+if(f0==0.0){
+return x0;
+}
+
+Time : 22/06/30 04:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double f0=computeObjectiveValue(x1);
+double f1=computeObjectiveValue(x1);
+if(f0==0.0){
+return x0;
+}
+
+Time : 22/06/30 04:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double f0=computeObjectiveValue(x1);
+double f1=computeObjectiveValue(x1);
+if(f0==0.0){
+return DEFAULT_ABSOLUTE_ACCURACY;
+}
+
+Time : 22/06/30 04:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double f0=computeObjectiveValue(x0);
+double f1=computeObjectiveValue(x0);
+if(f0==0.0){
+return DEFAULT_ABSOLUTE_ACCURACY;
+}
+
+Time : 22/06/30 04:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double f0=computeObjectiveValue(x0);
+double f1=computeObjectiveValue(x1);
+f0=computeObjectiveValue(x0);
+if(f0==0.0){
+return x0;
+}
+
+Time : 22/06/30 04:27
+----------------------------------------
+Thu Jun 30 04:31:18 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,138
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=f1;
+if(f0==0.0){
+return x0;
+}
+
+Time : 22/06/30 04:31
+----------------------------------------
+Thu Jun 30 04:35:34 UTC 2022 org.apache.commons.math.analysis.solvers.BaseSecantSolver,141
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+f0=f1;
+if(f1==0.0){
+return x1;
+}
+
+Time : 22/06/30 04:36
+----------------------------------------
+Thu Jun 30 04:39:22 UTC 2022 Thu Jun 30 04:39:22 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,41=>Find no block
+Thu Jun 30 04:39:23 UTC 2022 Thu Jun 30 04:39:23 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,48=>Find no block
+Thu Jun 30 04:39:23 UTC 2022 Thu Jun 30 04:39:23 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,55=>Find no block
+Thu Jun 30 04:39:24 UTC 2022 Thu Jun 30 04:39:24 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,62=>Find no block
+Thu Jun 30 04:39:24 UTC 2022 Thu Jun 30 04:39:24 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,68=>Find no block
+Thu Jun 30 04:39:24 UTC 2022 Thu Jun 30 04:39:24 UTC 2022 : org.apache.commons.math.analysis.solvers.AllowedSolution,74=>Find no block
+Thu Jun 30 04:39:25 UTC 2022 Thu Jun 30 04:39:25 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,256=>Find no block
+Thu Jun 30 04:39:25 UTC 2022 Thu Jun 30 04:39:25 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,262=>Find no block
+Thu Jun 30 04:39:26 UTC 2022 Thu Jun 30 04:39:26 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,265=>Find no block
+Thu Jun 30 04:39:26 UTC 2022 Thu Jun 30 04:39:26 UTC 2022 : org.apache.commons.math.analysis.solvers.BaseSecantSolver,268=>Find no block
+Thu Jun 30 04:39:26 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,305
+Thu Jun 30 04:39:29 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,308
+Thu Jun 30 04:40:47 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,309
+Thu Jun 30 04:40:48 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,310
+Thu Jun 30 04:40:48 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,336
+Thu Jun 30 04:41:10 UTC 2022 Thu Jun 30 04:41:10 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,340=>Find no block
+Thu Jun 30 04:41:11 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,371
+Thu Jun 30 04:41:11 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,374
+Thu Jun 30 04:41:41 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,375
+Thu Jun 30 04:41:41 UTC 2022 Thu Jun 30 04:41:41 UTC 2022 : org.apache.commons.math.util.FastMath,80=>Find no block
+Thu Jun 30 04:41:42 UTC 2022 Thu Jun 30 04:41:42 UTC 2022 : org.apache.commons.math.util.FastMath,85=>Find no block
+Thu Jun 30 04:41:42 UTC 2022 Thu Jun 30 04:41:42 UTC 2022 : org.apache.commons.math.util.FastMath,90=>Find no block
+Thu Jun 30 04:41:43 UTC 2022 Thu Jun 30 04:41:43 UTC 2022 : org.apache.commons.math.util.FastMath,95=>Find no block
+Thu Jun 30 04:41:43 UTC 2022 Thu Jun 30 04:41:43 UTC 2022 : org.apache.commons.math.util.FastMath,98=>Find no block
+Thu Jun 30 04:41:44 UTC 2022 Thu Jun 30 04:41:44 UTC 2022 : org.apache.commons.math.util.FastMath,101=>Find no block
+Thu Jun 30 04:41:44 UTC 2022 Thu Jun 30 04:41:44 UTC 2022 : org.apache.commons.math.util.FastMath,110=>Find no block
+Thu Jun 30 04:41:44 UTC 2022 Thu Jun 30 04:41:44 UTC 2022 : org.apache.commons.math.util.FastMath,130=>Find no block
+Thu Jun 30 04:41:45 UTC 2022 Thu Jun 30 04:41:45 UTC 2022 : org.apache.commons.math.util.FastMath,143=>Find no block
+Thu Jun 30 04:41:45 UTC 2022 Thu Jun 30 04:41:45 UTC 2022 : org.apache.commons.math.util.FastMath,153=>Find no block
+Thu Jun 30 04:41:45 UTC 2022 Thu Jun 30 04:41:45 UTC 2022 : org.apache.commons.math.util.FastMath,156=>Find no block
+Thu Jun 30 04:41:46 UTC 2022 Thu Jun 30 04:41:46 UTC 2022 : org.apache.commons.math.util.FastMath,159=>Find no block
+Thu Jun 30 04:41:46 UTC 2022 Thu Jun 30 04:41:46 UTC 2022 : org.apache.commons.math.util.FastMath,162=>Find no block
+Thu Jun 30 04:41:47 UTC 2022 Thu Jun 30 04:41:47 UTC 2022 : org.apache.commons.math.util.FastMath,165=>Find no block
+Thu Jun 30 04:41:47 UTC 2022 Thu Jun 30 04:41:47 UTC 2022 : org.apache.commons.math.util.FastMath,168=>Find no block
+Thu Jun 30 04:41:47 UTC 2022 Thu Jun 30 04:41:47 UTC 2022 : org.apache.commons.math.util.FastMath,171=>Find no block
+Thu Jun 30 04:41:48 UTC 2022 Thu Jun 30 04:41:48 UTC 2022 : org.apache.commons.math.util.FastMath,192=>Find no block
+Thu Jun 30 04:41:48 UTC 2022 Thu Jun 30 04:41:48 UTC 2022 : org.apache.commons.math.util.FastMath,200=>Find no block
+Thu Jun 30 04:41:48 UTC 2022 Thu Jun 30 04:41:48 UTC 2022 : org.apache.commons.math.util.FastMath,203=>Find no block
+Thu Jun 30 04:41:49 UTC 2022 Thu Jun 30 04:41:49 UTC 2022 : org.apache.commons.math.util.FastMath,233=>Find no block
+Thu Jun 30 04:41:49 UTC 2022 Thu Jun 30 04:41:49 UTC 2022 : org.apache.commons.math.util.FastMath,234=>Find no block
+Thu Jun 30 04:41:49 UTC 2022 Thu Jun 30 04:41:49 UTC 2022 : org.apache.commons.math.util.FastMath,235=>Find no block
+Thu Jun 30 04:41:50 UTC 2022 Thu Jun 30 04:41:50 UTC 2022 : org.apache.commons.math.util.FastMath,238=>Find no block
+Thu Jun 30 04:41:50 UTC 2022 Thu Jun 30 04:41:50 UTC 2022 : org.apache.commons.math.util.FastMath,239=>Find no block
+Thu Jun 30 04:41:50 UTC 2022 Thu Jun 30 04:41:50 UTC 2022 : org.apache.commons.math.util.FastMath,242=>Find no block
+Thu Jun 30 04:41:51 UTC 2022 Thu Jun 30 04:41:51 UTC 2022 : org.apache.commons.math.util.FastMath,243=>Find no block
+Thu Jun 30 04:41:51 UTC 2022 Thu Jun 30 04:41:51 UTC 2022 : org.apache.commons.math.util.FastMath,244=>Find no block
+Thu Jun 30 04:41:52 UTC 2022 Thu Jun 30 04:41:52 UTC 2022 : org.apache.commons.math.util.FastMath,245=>Find no block
+Thu Jun 30 04:41:52 UTC 2022 Thu Jun 30 04:41:52 UTC 2022 : org.apache.commons.math.util.FastMath,247=>Find no block
+Thu Jun 30 04:41:52 UTC 2022 Thu Jun 30 04:41:52 UTC 2022 : org.apache.commons.math.util.FastMath,249=>Find no block
+Thu Jun 30 04:41:53 UTC 2022 Thu Jun 30 04:41:53 UTC 2022 : org.apache.commons.math.util.FastMath,250=>Find no block
+Thu Jun 30 04:41:53 UTC 2022 Thu Jun 30 04:41:53 UTC 2022 : org.apache.commons.math.util.FastMath,251=>Find no block
+Thu Jun 30 04:41:54 UTC 2022 Thu Jun 30 04:41:54 UTC 2022 : org.apache.commons.math.util.FastMath,256=>Find no block
+Thu Jun 30 04:41:54 UTC 2022 Thu Jun 30 04:41:54 UTC 2022 : org.apache.commons.math.util.FastMath,257=>Find no block
+Thu Jun 30 04:41:55 UTC 2022 Thu Jun 30 04:41:55 UTC 2022 : org.apache.commons.math.util.FastMath,258=>Find no block
+Thu Jun 30 04:41:55 UTC 2022 Thu Jun 30 04:41:55 UTC 2022 : org.apache.commons.math.util.FastMath,259=>Find no block
+Thu Jun 30 04:41:55 UTC 2022 Thu Jun 30 04:41:55 UTC 2022 : org.apache.commons.math.util.FastMath,263=>Find no block
+Thu Jun 30 04:41:56 UTC 2022 Thu Jun 30 04:41:56 UTC 2022 : org.apache.commons.math.util.FastMath,264=>Find no block
+Thu Jun 30 04:41:56 UTC 2022 Thu Jun 30 04:41:56 UTC 2022 : org.apache.commons.math.util.FastMath,265=>Find no block
+Thu Jun 30 04:41:56 UTC 2022 Thu Jun 30 04:41:56 UTC 2022 : org.apache.commons.math.util.FastMath,269=>Find no block
+Thu Jun 30 04:41:57 UTC 2022 Thu Jun 30 04:41:57 UTC 2022 : org.apache.commons.math.util.FastMath,270=>Find no block
+Thu Jun 30 04:41:57 UTC 2022 org.apache.commons.math.util.FastMath,1012
+Thu Jun 30 04:42:04 UTC 2022 org.apache.commons.math.util.FastMath,1013
+Thu Jun 30 04:42:04 UTC 2022 org.apache.commons.math.util.FastMath,1014
+Thu Jun 30 04:42:19 UTC 2022 org.apache.commons.math.util.FastMath,1015
+Thu Jun 30 04:43:49 UTC 2022 org.apache.commons.math.util.FastMath,1016
+Thu Jun 30 04:45:18 UTC 2022 org.apache.commons.math.util.FastMath,1017
+Thu Jun 30 04:45:19 UTC 2022 org.apache.commons.math.util.FastMath,1019
+Thu Jun 30 05:01:14 UTC 2022 org.apache.commons.math.util.FastMath,1020
+Thu Jun 30 05:01:14 UTC 2022 org.apache.commons.math.util.FastMath,1021
+Thu Jun 30 05:01:15 UTC 2022 org.apache.commons.math.util.FastMath,1022
+Thu Jun 30 05:01:16 UTC 2022 org.apache.commons.math.util.FastMath,1024
+Thu Jun 30 05:01:16 UTC 2022 org.apache.commons.math.util.FastMath,1025
+Thu Jun 30 05:01:16 UTC 2022 org.apache.commons.math.util.FastMath,1027
+Thu Jun 30 05:01:17 UTC 2022 org.apache.commons.math.util.FastMath,1028
+Thu Jun 30 05:01:17 UTC 2022 org.apache.commons.math.util.FastMath,1029
+Thu Jun 30 05:01:17 UTC 2022 org.apache.commons.math.util.FastMath,1032
+Thu Jun 30 05:01:36 UTC 2022 org.apache.commons.math.util.FastMath,1033
+Thu Jun 30 05:01:36 UTC 2022 org.apache.commons.math.util.FastMath,1034
+Thu Jun 30 05:01:37 UTC 2022 org.apache.commons.math.util.FastMath,1037
+Thu Jun 30 05:01:54 UTC 2022 org.apache.commons.math.util.FastMath,1046
+Thu Jun 30 05:03:31 UTC 2022 org.apache.commons.math.util.FastMath,1047
+Thu Jun 30 05:03:32 UTC 2022 org.apache.commons.math.util.FastMath,1048
+Thu Jun 30 05:03:32 UTC 2022 org.apache.commons.math.util.FastMath,1049
+Thu Jun 30 05:03:33 UTC 2022 Thu Jun 30 05:03:33 UTC 2022 : org.apache.commons.math.util.FastMath,1050=>Find no block
+Thu Jun 30 05:03:33 UTC 2022 Thu Jun 30 05:03:33 UTC 2022 : org.apache.commons.math.util.FastMath,1055=>Find no block
+Thu Jun 30 05:03:34 UTC 2022 org.apache.commons.math.util.FastMath,1062
+Thu Jun 30 05:04:43 UTC 2022 org.apache.commons.math.util.FastMath,1063
+Thu Jun 30 05:04:43 UTC 2022 org.apache.commons.math.util.FastMath,1065
+Thu Jun 30 05:05:48 UTC 2022 org.apache.commons.math.util.FastMath,1066
+Thu Jun 30 05:05:49 UTC 2022 org.apache.commons.math.util.FastMath,1067
+Thu Jun 30 05:05:49 UTC 2022 org.apache.commons.math.util.FastMath,1068
+Thu Jun 30 05:05:50 UTC 2022 Thu Jun 30 05:05:50 UTC 2022 : org.apache.commons.math.util.FastMath,1069=>Find no block
+Thu Jun 30 05:05:51 UTC 2022 org.apache.commons.math.util.FastMath,1070
+Thu Jun 30 05:05:51 UTC 2022 org.apache.commons.math.util.FastMath,1071
+Thu Jun 30 05:05:52 UTC 2022 org.apache.commons.math.util.FastMath,1072
+Thu Jun 30 05:05:52 UTC 2022 Thu Jun 30 05:05:52 UTC 2022 : org.apache.commons.math.util.FastMath,1074=>Find no block
+Thu Jun 30 05:05:52 UTC 2022 org.apache.commons.math.util.FastMath,1082
+Thu Jun 30 05:06:00 UTC 2022 org.apache.commons.math.util.FastMath,1083
+Thu Jun 30 05:06:00 UTC 2022 org.apache.commons.math.util.FastMath,1086
+Thu Jun 30 05:06:00 UTC 2022 Thu Jun 30 05:06:00 UTC 2022 : org.apache.commons.math.util.FastMath,1087=>Find no block
+Thu Jun 30 05:06:00 UTC 2022 org.apache.commons.math.util.FastMath,1095
+Thu Jun 30 05:06:09 UTC 2022 org.apache.commons.math.util.FastMath,1096
+Thu Jun 30 05:06:09 UTC 2022 org.apache.commons.math.util.FastMath,1098
+Thu Jun 30 05:06:10 UTC 2022 Thu Jun 30 05:06:10 UTC 2022 : org.apache.commons.math.util.FastMath,1099=>Find no block
+Thu Jun 30 05:06:10 UTC 2022 org.apache.commons.math.util.FastMath,1120
+Thu Jun 30 05:06:36 UTC 2022 org.apache.commons.math.util.FastMath,1121
+Thu Jun 30 05:06:37 UTC 2022 org.apache.commons.math.util.FastMath,1123
+Thu Jun 30 05:08:24 UTC 2022 org.apache.commons.math.util.FastMath,1128
+Thu Jun 30 05:08:47 UTC 2022 org.apache.commons.math.util.FastMath,1129
+Thu Jun 30 05:09:10 UTC 2022 org.apache.commons.math.util.FastMath,1131
+Thu Jun 30 05:09:40 UTC 2022 org.apache.commons.math.util.FastMath,1132
+Thu Jun 30 05:09:40 UTC 2022 org.apache.commons.math.util.FastMath,1136
+Thu Jun 30 05:16:47 UTC 2022 org.apache.commons.math.util.FastMath,1138
+Thu Jun 30 05:16:47 UTC 2022 org.apache.commons.math.util.FastMath,1140
+Thu Jun 30 05:16:48 UTC 2022 org.apache.commons.math.util.FastMath,1143
+Thu Jun 30 05:16:48 UTC 2022 org.apache.commons.math.util.FastMath,1145
+Thu Jun 30 05:16:49 UTC 2022 Thu Jun 30 05:16:49 UTC 2022 : org.apache.commons.math.util.FastMath,1147=>Find no block
+Thu Jun 30 05:16:49 UTC 2022 org.apache.commons.math.util.FastMath,1155
+Thu Jun 30 05:16:58 UTC 2022 org.apache.commons.math.util.FastMath,1156
+Thu Jun 30 05:16:58 UTC 2022 org.apache.commons.math.util.FastMath,1157
+Thu Jun 30 05:17:47 UTC 2022 org.apache.commons.math.util.FastMath,1160
+Thu Jun 30 05:18:33 UTC 2022 org.apache.commons.math.util.FastMath,1161
+Thu Jun 30 05:19:44 UTC 2022 org.apache.commons.math.util.FastMath,1162
+Thu Jun 30 05:21:17 UTC 2022 org.apache.commons.math.util.FastMath,1164
+Thu Jun 30 05:22:12 UTC 2022 org.apache.commons.math.util.FastMath,1165
+Thu Jun 30 05:22:34 UTC 2022 org.apache.commons.math.util.FastMath,1168
+Thu Jun 30 05:23:09 UTC 2022 org.apache.commons.math.util.FastMath,1169
+Thu Jun 30 05:25:31 UTC 2022 org.apache.commons.math.util.FastMath,1171
+Thu Jun 30 05:27:45 UTC 2022 org.apache.commons.math.util.FastMath,1172
+Thu Jun 30 05:28:24 UTC 2022 org.apache.commons.math.util.FastMath,1173
+Thu Jun 30 05:29:30 UTC 2022 org.apache.commons.math.util.FastMath,1174
+Thu Jun 30 05:30:27 UTC 2022 org.apache.commons.math.util.FastMath,1175
+Thu Jun 30 05:31:28 UTC 2022 org.apache.commons.math.util.FastMath,1176
+Thu Jun 30 05:31:58 UTC 2022 org.apache.commons.math.util.FastMath,1179
+Thu Jun 30 05:32:36 UTC 2022 org.apache.commons.math.util.FastMath,1180
+Thu Jun 30 05:33:53 UTC 2022 org.apache.commons.math.util.FastMath,1181
+Thu Jun 30 05:37:30 UTC 2022 org.apache.commons.math.util.FastMath,1183
+Thu Jun 30 05:39:13 UTC 2022 org.apache.commons.math.util.FastMath,1184
+Thu Jun 30 05:40:16 UTC 2022 org.apache.commons.math.util.FastMath,1185
+Thu Jun 30 05:40:17 UTC 2022 org.apache.commons.math.util.FastMath,1186
+Thu Jun 30 05:40:17 UTC 2022 org.apache.commons.math.util.FastMath,1187
+Thu Jun 30 05:40:18 UTC 2022 org.apache.commons.math.util.FastMath,1188
+Thu Jun 30 05:40:18 UTC 2022 org.apache.commons.math.util.FastMath,1191
+Thu Jun 30 05:40:55 UTC 2022 org.apache.commons.math.util.FastMath,1192
+Thu Jun 30 05:42:13 UTC 2022 org.apache.commons.math.util.FastMath,1193
+Thu Jun 30 05:46:03 UTC 2022 org.apache.commons.math.util.FastMath,1195
+Thu Jun 30 05:46:03 UTC 2022 org.apache.commons.math.util.FastMath,1196
+Thu Jun 30 05:46:04 UTC 2022 org.apache.commons.math.util.FastMath,1197
+Thu Jun 30 05:46:04 UTC 2022 org.apache.commons.math.util.FastMath,1198
+Success time : 22/06/30 05:46

@@ -1,2 +1,2 @@
-fix	org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator	65	INS	ImageMapUtilities
-buggy	org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator	65	DEL	toolTipText
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator	generateToolTipFragment(Ljava/lang/String;)Ljava/lang/String;	toolTipText	buggy
+org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator	generateToolTipFragment(Ljava/lang/String;)Ljava/lang/String;	toolTipText	fixed

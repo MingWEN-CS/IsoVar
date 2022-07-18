@@ -1,2 +1,2 @@
-buggy	org.apache.commons.lang3.time.DateUtils	262	UPD	cal1
-buggy	org.apache.commons.lang3.time.DateUtils	262	UPD	cal2
+org.apache.commons.lang3.time.DateUtils	isSameLocalTime(Ljava/util/Calendar;Ljava/util/Calendar;)Z	cal2	buggy
+org.apache.commons.lang3.time.DateUtils	isSameLocalTime(Ljava/util/Calendar;Ljava/util/Calendar;)Z	cal1	buggy

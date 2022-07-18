@@ -1,0 +1,300 @@
+=================================================
+Project : lang_16	start : 22/06/29 16:28
+Current failed test : org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber | 22/06/29 16:28
+Wed Jun 29 16:28:08 UTC 2022 org.apache.commons.lang3.math.NumberUtils,459
+Wed Jun 29 16:28:52 UTC 2022 org.apache.commons.lang3.math.NumberUtils,470
+Wed Jun 29 16:43:29 UTC 2022 org.apache.commons.lang3.math.NumberUtils,476
+Wed Jun 29 16:43:29 UTC 2022 org.apache.commons.lang3.math.NumberUtils,478
+Wed Jun 29 16:46:11 UTC 2022 org.apache.commons.lang3.math.NumberUtils,481
+Wed Jun 29 16:51:38 UTC 2022 org.apache.commons.lang3.math.NumberUtils,484
+Wed Jun 29 16:58:23 UTC 2022 org.apache.commons.lang3.math.NumberUtils,517
+Wed Jun 29 16:58:36 UTC 2022 org.apache.commons.lang3.math.NumberUtils,518
+Wed Jun 29 16:58:47 UTC 2022 org.apache.commons.lang3.math.NumberUtils,521
+Wed Jun 29 16:58:47 UTC 2022 org.apache.commons.lang3.math.NumberUtils,531
+Wed Jun 29 16:59:03 UTC 2022 org.apache.commons.lang3.math.NumberUtils,532
+Wed Jun 29 16:59:15 UTC 2022 org.apache.commons.lang3.math.NumberUtils,533
+Wed Jun 29 16:59:15 UTC 2022 org.apache.commons.lang3.math.NumberUtils,545
+Wed Jun 29 17:00:25 UTC 2022 org.apache.commons.lang3.math.NumberUtils,551
+Wed Jun 29 17:05:15 UTC 2022 org.apache.commons.lang3.math.NumberUtils,554
+Wed Jun 29 17:05:15 UTC 2022 org.apache.commons.lang3.math.NumberUtils,556
+Wed Jun 29 17:06:46 UTC 2022 org.apache.commons.lang3.math.NumberUtils,559
+Wed Jun 29 17:06:54 UTC 2022 Wed Jun 29 17:06:54 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,560=>Find no block
+Wed Jun 29 17:06:54 UTC 2022 org.apache.commons.lang3.math.NumberUtils,564
+Wed Jun 29 17:07:03 UTC 2022 org.apache.commons.lang3.math.NumberUtils,572
+Wed Jun 29 17:07:13 UTC 2022 org.apache.commons.lang3.math.NumberUtils,574
+Wed Jun 29 17:07:24 UTC 2022 org.apache.commons.lang3.math.NumberUtils,575
+Wed Jun 29 17:07:24 UTC 2022 org.apache.commons.lang3.math.NumberUtils,576
+Wed Jun 29 17:07:24 UTC 2022 org.apache.commons.lang3.math.NumberUtils,445
+Wed Jun 29 17:07:54 UTC 2022 org.apache.commons.lang3.math.NumberUtils,448
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+str=str.toLowerCase();
+if(StringUtils.isBlank(str)){
+throw new NumberFormatException("A blank string is not a valid number");
+}
+
+Time : 22/06/29 17:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.0203484586519547 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>0,0]
+int delimLen=(delimiters==null?-1:delimiters.length);
+if(StringUtils.isEmpty(str)||delimLen==0){
+return str;
+}
+str=str.toLowerCase();
+return capitalize(str,delimiters);
+
+Time : 22/06/29 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>448,450]
+if(StringUtils.isBlank(str)){
+throw new NumberFormatException("A blank string is not a valid number");
+}
+
+Time : 22/06/29 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>448,450]
+str=str.toLowerCase();
+if(StringUtils.isBlank(str)){
+throw new NumberFormatException("A blank string is not a valid number");
+}
+
+Time : 22/06/29 17:09
+----------------------------------------
+Wed Jun 29 17:09:12 UTC 2022 org.apache.commons.lang3.math.NumberUtils,451
+Wed Jun 29 17:09:32 UTC 2022 org.apache.commons.lang3.math.NumberUtils,458
+Wed Jun 29 17:09:32 UTC 2022 org.apache.commons.lang3.math.NumberUtils,461
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+str=str.toLowerCase();
+if(str.startsWith("0x")||str.startsWith("-0x")){
+return createInteger(str);
+}
+char lastChar=str.charAt(str.length()-1);
+String mant;
+
+Time : 22/06/29 17:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5069033004741224 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>0,0]
+int delimLen=(delimiters==null?-1:delimiters.length);
+if(StringUtils.isEmpty(str)||delimLen==0){
+return str;
+}
+str=str.toLowerCase();
+return capitalize(str,delimiters);
+
+Time : 22/06/29 17:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>458,462]
+if(str.startsWith("0x")||str.startsWith("-0x")){
+return createInteger(str);
+}
+char lastChar=str.charAt(str.length()-1);
+String mant;
+
+Time : 22/06/29 17:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_16_buggy/src/main/java/org/apache/commons/lang3/math/NumberUtils.java=>458,462]
+str=str.toLowerCase();
+if(str.startsWith("0x")||str.startsWith("-0x")){
+return createInteger(str);
+}
+char lastChar=str.charAt(str.length()-1);
+String mant;
+
+Time : 22/06/29 17:11
+----------------------------------------
+Wed Jun 29 17:12:04 UTC 2022 org.apache.commons.lang3.math.NumberUtils,465
+Wed Jun 29 17:13:43 UTC 2022 org.apache.commons.lang3.math.NumberUtils,466
+Wed Jun 29 17:13:43 UTC 2022 org.apache.commons.lang3.math.NumberUtils,468
+Wed Jun 29 17:25:35 UTC 2022 org.apache.commons.lang3.math.NumberUtils,480
+Wed Jun 29 17:25:36 UTC 2022 org.apache.commons.lang3.math.NumberUtils,486
+Wed Jun 29 17:25:36 UTC 2022 org.apache.commons.lang3.math.NumberUtils,488
+Wed Jun 29 17:33:04 UTC 2022 org.apache.commons.lang3.math.NumberUtils,490
+Wed Jun 29 17:41:31 UTC 2022 org.apache.commons.lang3.math.NumberUtils,491
+Wed Jun 29 17:41:31 UTC 2022 org.apache.commons.lang3.math.NumberUtils,494
+Wed Jun 29 17:41:31 UTC 2022 org.apache.commons.lang3.math.NumberUtils,497
+Wed Jun 29 17:47:56 UTC 2022 org.apache.commons.lang3.math.NumberUtils,498
+Wed Jun 29 17:47:56 UTC 2022 Wed Jun 29 17:47:56 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,499=>Find no block
+Wed Jun 29 17:47:56 UTC 2022 org.apache.commons.lang3.math.NumberUtils,502
+Wed Jun 29 17:47:56 UTC 2022 org.apache.commons.lang3.math.NumberUtils,506
+Wed Jun 29 17:47:57 UTC 2022 org.apache.commons.lang3.math.NumberUtils,605
+Wed Jun 29 17:48:34 UTC 2022 org.apache.commons.lang3.math.NumberUtils,608
+Wed Jun 29 17:52:02 UTC 2022 org.apache.commons.lang3.math.NumberUtils,609
+Wed Jun 29 17:52:02 UTC 2022 org.apache.commons.lang3.math.NumberUtils,610
+Wed Jun 29 17:52:02 UTC 2022 org.apache.commons.lang3.math.NumberUtils,627
+Wed Jun 29 17:52:02 UTC 2022 org.apache.commons.lang3.math.NumberUtils,630
+Wed Jun 29 17:53:11 UTC 2022 org.apache.commons.lang3.math.NumberUtils,643
+Wed Jun 29 17:53:12 UTC 2022 org.apache.commons.lang3.math.NumberUtils,646
+Wed Jun 29 17:54:22 UTC 2022 org.apache.commons.lang3.math.NumberUtils,660
+Wed Jun 29 17:54:22 UTC 2022 org.apache.commons.lang3.math.NumberUtils,664
+Wed Jun 29 17:55:32 UTC 2022 org.apache.commons.lang3.math.NumberUtils,677
+Wed Jun 29 17:55:32 UTC 2022 org.apache.commons.lang3.math.NumberUtils,680
+Wed Jun 29 17:56:44 UTC 2022 org.apache.commons.lang3.math.NumberUtils,1287
+Wed Jun 29 17:57:08 UTC 2022 org.apache.commons.lang3.math.NumberUtils,1290
+Wed Jun 29 17:58:09 UTC 2022 org.apache.commons.lang3.math.NumberUtils,1291
+Wed Jun 29 17:58:09 UTC 2022 org.apache.commons.lang3.math.NumberUtils,1295
+Wed Jun 29 17:59:33 UTC 2022 org.apache.commons.lang3.StringUtils,183
+Wed Jun 29 17:59:46 UTC 2022 org.apache.commons.lang3.StringUtils,223
+Wed Jun 29 18:01:15 UTC 2022 org.apache.commons.lang3.StringUtils,226
+Wed Jun 29 18:03:30 UTC 2022 org.apache.commons.lang3.StringUtils,227
+Wed Jun 29 18:03:30 UTC 2022 org.apache.commons.lang3.StringUtils,228
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,147=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,704=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,705=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,706=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,708=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,709=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,710=>Find no block
+Wed Jun 29 18:03:31 UTC 2022 Wed Jun 29 18:03:31 UTC 2022 : org.apache.commons.lang3.StringUtils,711=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,717=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,719=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,720=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,722=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,724=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,733=>Find no block
+Wed Jun 29 18:03:32 UTC 2022 Wed Jun 29 18:03:32 UTC 2022 : org.apache.commons.lang3.StringUtils,737=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.StringUtils,739=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.StringUtils,744=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.StringUtils,745=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.StringUtils,750=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,33=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,35=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,37=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,39=>Find no block
+Wed Jun 29 18:03:33 UTC 2022 Wed Jun 29 18:03:33 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,41=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,43=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,45=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,47=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,49=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,51=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,53=>Find no block
+Wed Jun 29 18:03:34 UTC 2022 Wed Jun 29 18:03:34 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,55=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,57=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,59=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,61=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,63=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,65=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 Wed Jun 29 18:03:35 UTC 2022 : org.apache.commons.lang3.math.NumberUtils,67=>Find no block
+Wed Jun 29 18:03:35 UTC 2022 org.apache.commons.lang3.SystemUtils,1416
+Wed Jun 29 18:03:36 UTC 2022 Wed Jun 29 18:03:36 UTC 2022 : org.apache.commons.lang3.SystemUtils,1417=>Find no block
+Wed Jun 29 18:03:36 UTC 2022 Wed Jun 29 18:03:36 UTC 2022 : org.apache.commons.lang3.SystemUtils,89=>Find no block
+Wed Jun 29 18:03:36 UTC 2022 Wed Jun 29 18:03:36 UTC 2022 : org.apache.commons.lang3.SystemUtils,111=>Find no block
+Wed Jun 29 18:03:36 UTC 2022 Wed Jun 29 18:03:36 UTC 2022 : org.apache.commons.lang3.SystemUtils,129=>Find no block
+Wed Jun 29 18:03:36 UTC 2022 Wed Jun 29 18:03:36 UTC 2022 : org.apache.commons.lang3.SystemUtils,147=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,165=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,186=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,204=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,222=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,240=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,259=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,277=>Find no block
+Wed Jun 29 18:03:37 UTC 2022 Wed Jun 29 18:03:37 UTC 2022 : org.apache.commons.lang3.SystemUtils,295=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,313=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,331=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,349=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,368=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,387=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,405=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,423=>Find no block
+Wed Jun 29 18:03:38 UTC 2022 Wed Jun 29 18:03:38 UTC 2022 : org.apache.commons.lang3.SystemUtils,441=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,442=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,461=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,480=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,498=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,516=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,535=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,553=>Find no block
+Wed Jun 29 18:03:39 UTC 2022 Wed Jun 29 18:03:39 UTC 2022 : org.apache.commons.lang3.SystemUtils,571=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,589=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,607=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,625=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,643=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,661=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,679=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,697=>Find no block
+Wed Jun 29 18:03:40 UTC 2022 Wed Jun 29 18:03:40 UTC 2022 : org.apache.commons.lang3.SystemUtils,715=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,733=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,753=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,772=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,790=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,809=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,827=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,845=>Find no block
+Wed Jun 29 18:03:41 UTC 2022 Wed Jun 29 18:03:41 UTC 2022 : org.apache.commons.lang3.SystemUtils,860=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,870=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,880=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,890=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,900=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,910=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,922=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,942=>Find no block
+Wed Jun 29 18:03:42 UTC 2022 Wed Jun 29 18:03:42 UTC 2022 : org.apache.commons.lang3.SystemUtils,954=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,966=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,978=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,990=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1002=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1014=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1026=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1038=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1050=>Find no block
+Wed Jun 29 18:03:43 UTC 2022 Wed Jun 29 18:03:43 UTC 2022 : org.apache.commons.lang3.SystemUtils,1062=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1074=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1086=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1099=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1111=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1123=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1136=>Find no block
+Wed Jun 29 18:03:44 UTC 2022 Wed Jun 29 18:03:44 UTC 2022 : org.apache.commons.lang3.SystemUtils,1149=>Find no block
+Wed Jun 29 18:03:45 UTC 2022 Wed Jun 29 18:03:45 UTC 2022 : org.apache.commons.lang3.SystemUtils,1162=>Find no block
+Wed Jun 29 18:03:45 UTC 2022 Wed Jun 29 18:03:45 UTC 2022 : org.apache.commons.lang3.SystemUtils,1175=>Find no block
+Wed Jun 29 18:03:45 UTC 2022 Wed Jun 29 18:03:45 UTC 2022 : org.apache.commons.lang3.SystemUtils,1188=>Find no block
+Wed Jun 29 18:03:45 UTC 2022 Wed Jun 29 18:03:45 UTC 2022 : org.apache.commons.lang3.SystemUtils,1200=>Find no block
+Wed Jun 29 18:03:45 UTC 2022 org.apache.commons.lang3.SystemUtils,1214
+Wed Jun 29 18:03:46 UTC 2022 org.apache.commons.lang3.SystemUtils,1229
+Wed Jun 29 18:03:47 UTC 2022 org.apache.commons.lang3.SystemUtils,1241
+Wed Jun 29 18:03:47 UTC 2022 org.apache.commons.lang3.SystemUtils,1252
+Wed Jun 29 18:03:56 UTC 2022 org.apache.commons.lang3.SystemUtils,1262
+Wed Jun 29 18:04:04 UTC 2022 org.apache.commons.lang3.SystemUtils,1280
+Wed Jun 29 18:04:05 UTC 2022 Wed Jun 29 18:04:05 UTC 2022 : org.apache.commons.lang3.SystemUtils,1281=>Find no block
+Wed Jun 29 18:04:05 UTC 2022 org.apache.commons.lang3.SystemUtils,1283
+Wed Jun 29 18:04:05 UTC 2022 org.apache.commons.lang3.SystemUtils,1285
+Wed Jun 29 18:04:05 UTC 2022 org.apache.commons.lang3.SystemUtils,1301
+Wed Jun 29 18:04:06 UTC 2022 org.apache.commons.lang3.SystemUtils,1316
+Wed Jun 29 18:04:07 UTC 2022 org.apache.commons.lang3.SystemUtils,1328
+Wed Jun 29 18:04:07 UTC 2022 org.apache.commons.lang3.SystemUtils,1347
+Wed Jun 29 18:04:08 UTC 2022 org.apache.commons.lang3.SystemUtils,1363
+Wed Jun 29 18:04:09 UTC 2022 org.apache.commons.lang3.SystemUtils,1364
+Wed Jun 29 18:04:09 UTC 2022 org.apache.commons.lang3.SystemUtils,1366
+Wed Jun 29 18:04:32 UTC 2022 org.apache.commons.lang3.SystemUtils,1382
+Wed Jun 29 18:04:33 UTC 2022 org.apache.commons.lang3.SystemUtils,1383
+Wed Jun 29 18:04:33 UTC 2022 org.apache.commons.lang3.SystemUtils,1385
+Wed Jun 29 18:04:33 UTC 2022 org.apache.commons.lang3.SystemUtils,1399
+Wed Jun 29 18:04:42 UTC 2022 org.apache.commons.lang3.SystemUtils,1400
+Wed Jun 29 18:04:42 UTC 2022 org.apache.commons.lang3.SystemUtils,1402
+Wed Jun 29 18:05:04 UTC 2022 Wed Jun 29 18:05:04 UTC 2022 : org.apache.commons.lang3.JavaVersion,89=>Find no block
+Wed Jun 29 18:05:04 UTC 2022 org.apache.commons.lang3.JavaVersion,90
+Wed Jun 29 18:05:10 UTC 2022 org.apache.commons.lang3.JavaVersion,91
+Wed Jun 29 18:05:10 UTC 2022 Wed Jun 29 18:05:10 UTC 2022 : org.apache.commons.lang3.JavaVersion,92=>Find no block
+Success time : 22/06/29 18:05

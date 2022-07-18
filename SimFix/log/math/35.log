@@ -1,0 +1,650 @@
+=================================================
+Project : math_35	start : 22/07/16 08:15
+Current failed test : org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooHigh | 22/07/16 08:16
+Sat Jul 16 08:16:43 UTC 2022 Sat Jul 16 08:16:43 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,36=>Find no block
+Sat Jul 16 08:16:44 UTC 2022 Sat Jul 16 08:16:44 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,50=>Find no block
+Sat Jul 16 08:16:46 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,51
+Sat Jul 16 08:17:43 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,55
+Sat Jul 16 08:18:03 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,59
+Sat Jul 16 08:18:53 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,60
+Sat Jul 16 08:18:54 UTC 2022 Sat Jul 16 08:18:54 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,61=>Find no block
+Sat Jul 16 08:18:57 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,50
+Sat Jul 16 08:19:50 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,51
+Sat Jul 16 08:19:51 UTC 2022 Sat Jul 16 08:19:51 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,52=>Find no block
+Sat Jul 16 08:19:51 UTC 2022 Sat Jul 16 08:19:51 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,69=>Find no block
+Sat Jul 16 08:19:52 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,70
+Sat Jul 16 08:19:53 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,73
+Sat Jul 16 08:20:31 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,74
+Sat Jul 16 08:20:32 UTC 2022 Sat Jul 16 08:20:32 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,75=>Find no block
+Sat Jul 16 08:20:34 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,64
+Sat Jul 16 08:21:02 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,65
+Sat Jul 16 08:21:03 UTC 2022 Sat Jul 16 08:21:03 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,66=>Find no block
+Sat Jul 16 08:21:05 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,52
+Sat Jul 16 08:21:06 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,56
+Sat Jul 16 08:21:07 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,71
+Sat Jul 16 08:21:08 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,82
+Sat Jul 16 08:21:42 UTC 2022 Sat Jul 16 08:21:42 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,83=>Find no block
+Sat Jul 16 08:21:43 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,90
+Sat Jul 16 08:21:48 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,98
+Sat Jul 16 08:22:49 UTC 2022 Sat Jul 16 08:22:49 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,99=>Find no block
+Sat Jul 16 08:22:51 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,107
+Sat Jul 16 08:24:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,108
+Sat Jul 16 08:24:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,109
+Sat Jul 16 08:24:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,111
+Sat Jul 16 08:25:03 UTC 2022 Sat Jul 16 08:25:03 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,113=>Find no block
+Sat Jul 16 08:25:04 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,114
+Sat Jul 16 08:25:05 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,122
+Sat Jul 16 08:25:10 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,130
+Sat Jul 16 08:25:54 UTC 2022 Sat Jul 16 08:25:54 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,131=>Find no block
+Sat Jul 16 08:25:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,138
+Sat Jul 16 08:26:21 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,146
+Sat Jul 16 08:27:00 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,155
+Sat Jul 16 08:27:20 UTC 2022 Sat Jul 16 08:27:20 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,28=>Find no block
+Sat Jul 16 08:27:20 UTC 2022 Sat Jul 16 08:27:20 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,33=>Find no block
+Sat Jul 16 08:27:28 UTC 2022 org.apache.commons.math3.genetics.Chromosome,45
+Sat Jul 16 08:27:41 UTC 2022 org.apache.commons.math3.genetics.Chromosome,47
+Sat Jul 16 08:27:42 UTC 2022 org.apache.commons.math3.genetics.Chromosome,49
+Sat Jul 16 08:28:02 UTC 2022 org.apache.commons.math3.genetics.Chromosome,65
+Sat Jul 16 08:28:16 UTC 2022 org.apache.commons.math3.genetics.Chromosome,76
+Sat Jul 16 08:28:21 UTC 2022 org.apache.commons.math3.genetics.Chromosome,89
+Sat Jul 16 08:28:28 UTC 2022 org.apache.commons.math3.genetics.Chromosome,90
+Sat Jul 16 08:28:29 UTC 2022 org.apache.commons.math3.genetics.Chromosome,91
+Sat Jul 16 08:28:30 UTC 2022 Sat Jul 16 08:28:30 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,93=>Find no block
+Sat Jul 16 08:28:31 UTC 2022 org.apache.commons.math3.genetics.Chromosome,94
+Sat Jul 16 08:28:36 UTC 2022 org.apache.commons.math3.genetics.Chromosome,104
+Sat Jul 16 08:28:40 UTC 2022 org.apache.commons.math3.genetics.Chromosome,105
+Sat Jul 16 08:28:51 UTC 2022 org.apache.commons.math3.genetics.Chromosome,106
+Sat Jul 16 08:28:51 UTC 2022 Sat Jul 16 08:28:51 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,108=>Find no block
+Sat Jul 16 08:28:52 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,76
+Sat Jul 16 08:34:08 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,78
+Sat Jul 16 08:34:09 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,79
+Sat Jul 16 08:34:10 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,82
+Sat Jul 16 08:34:12 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,83
+Sat Jul 16 08:34:13 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,84
+Sat Jul 16 08:34:14 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,86
+Sat Jul 16 08:34:15 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,98
+Sat Jul 16 08:34:20 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,99
+Sat Jul 16 08:34:21 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,101
+Sat Jul 16 08:34:25 UTC 2022 Sat Jul 16 08:34:25 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,102=>Find no block
+Sat Jul 16 08:34:26 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,109
+Sat Jul 16 08:34:30 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,37
+Sat Jul 16 08:34:35 UTC 2022 Sat Jul 16 08:34:35 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,38=>Find no block
+Sat Jul 16 08:34:36 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,47
+Sat Jul 16 08:34:42 UTC 2022 Sat Jul 16 08:34:42 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,48=>Find no block
+Sat Jul 16 08:34:48 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,50
+Sat Jul 16 08:34:55 UTC 2022 Sat Jul 16 08:34:55 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,54=>Find no block
+Sat Jul 16 08:34:56 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,68
+Sat Jul 16 08:35:47 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,70
+Sat Jul 16 08:35:49 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,71
+Sat Jul 16 08:35:50 UTC 2022 Sat Jul 16 08:35:50 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,72=>Find no block
+Sat Jul 16 08:35:52 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,78
+Sat Jul 16 08:35:56 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,85
+Sat Jul 16 08:36:00 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,46
+Sat Jul 16 08:36:40 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,47
+Sat Jul 16 08:36:42 UTC 2022 Sat Jul 16 08:36:42 UTC 2022 : org.apache.commons.math3.exception.MathIllegalNumberException,48=>Find no block
+Sat Jul 16 08:36:42 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,54
+Sat Jul 16 08:36:52 UTC 2022 Sat Jul 16 08:36:52 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,44=>Find no block
+Sat Jul 16 08:36:53 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,45
+Sat Jul 16 08:36:58 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,46
+Sat Jul 16 08:36:59 UTC 2022 Sat Jul 16 08:36:59 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,47=>Find no block
+Sat Jul 16 08:36:59 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,51
+Sat Jul 16 08:37:10 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,57
+Sat Jul 16 08:37:40 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,63
+Sat Jul 16 08:38:02 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,50
+Sat Jul 16 08:38:07 UTC 2022 Sat Jul 16 08:38:07 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,54=>Find no block
+Sat Jul 16 08:38:08 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,67
+Sat Jul 16 08:38:54 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,69
+Sat Jul 16 08:38:55 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,70
+Sat Jul 16 08:38:57 UTC 2022 Sat Jul 16 08:38:57 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,71=>Find no block
+Sat Jul 16 08:38:57 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,77
+Sat Jul 16 08:38:58 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,84
+Sat Jul 16 08:39:03 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,46
+Sat Jul 16 08:39:08 UTC 2022 Sat Jul 16 08:39:08 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,47=>Find no block
+Sat Jul 16 08:39:09 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,62
+Sat Jul 16 08:39:54 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,63
+Sat Jul 16 08:39:55 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,64
+Sat Jul 16 08:39:56 UTC 2022 Sat Jul 16 08:39:56 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,65=>Find no block
+Sat Jul 16 08:39:57 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,71
+Sat Jul 16 08:40:07 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,77
+Sat Jul 16 08:40:12 UTC 2022 Sat Jul 16 08:40:12 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,64=>Find no block
+Sat Jul 16 08:40:12 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,65
+Sat Jul 16 08:40:17 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,66
+Sat Jul 16 08:40:17 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,67
+Sat Jul 16 08:40:19 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,68
+Sat Jul 16 08:40:20 UTC 2022 Sat Jul 16 08:40:20 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,69=>Find no block
+Sat Jul 16 08:40:20 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,75
+Sat Jul 16 08:40:25 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,87
+Sat Jul 16 08:41:39 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,88
+Sat Jul 16 08:41:40 UTC 2022 Sat Jul 16 08:41:40 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,89=>Find no block
+Sat Jul 16 08:41:41 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,100
+Sat Jul 16 08:42:22 UTC 2022 Sat Jul 16 08:42:22 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,101=>Find no block
+Sat Jul 16 08:42:24 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,110
+Sat Jul 16 08:42:46 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,119
+Sat Jul 16 08:42:51 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,128
+Sat Jul 16 08:43:21 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,137
+Sat Jul 16 08:43:52 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,147
+Sat Jul 16 08:43:57 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,159
+Sat Jul 16 08:44:25 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,171
+Sat Jul 16 08:45:26 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,172
+Sat Jul 16 08:45:27 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,173
+Timeout time : 22/07/16 09:16
+Current failed test : org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooLow | 22/07/16 09:16
+Sat Jul 16 09:16:57 UTC 2022 Sat Jul 16 09:16:57 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,36=>Find no block
+Sat Jul 16 09:17:01 UTC 2022 Sat Jul 16 09:17:01 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,50=>Find no block
+Sat Jul 16 09:17:05 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,51
+Sat Jul 16 09:17:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,55
+Sat Jul 16 09:18:18 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,59
+Sat Jul 16 09:19:13 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,60
+Sat Jul 16 09:19:13 UTC 2022 Sat Jul 16 09:19:13 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,61=>Find no block
+Sat Jul 16 09:19:14 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,50
+Sat Jul 16 09:19:55 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,51
+Sat Jul 16 09:19:56 UTC 2022 Sat Jul 16 09:19:56 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,52=>Find no block
+Sat Jul 16 09:19:57 UTC 2022 Sat Jul 16 09:19:57 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,69=>Find no block
+Sat Jul 16 09:19:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,70
+Sat Jul 16 09:19:58 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,73
+Sat Jul 16 09:20:32 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,74
+Sat Jul 16 09:20:34 UTC 2022 Sat Jul 16 09:20:34 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,75=>Find no block
+Sat Jul 16 09:20:35 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,64
+Sat Jul 16 09:21:00 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,65
+Sat Jul 16 09:21:00 UTC 2022 Sat Jul 16 09:21:00 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,66=>Find no block
+Sat Jul 16 09:21:01 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,52
+Sat Jul 16 09:21:10 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,56
+Sat Jul 16 09:21:11 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,71
+Sat Jul 16 09:21:12 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,82
+Sat Jul 16 09:21:44 UTC 2022 Sat Jul 16 09:21:44 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,83=>Find no block
+Sat Jul 16 09:21:45 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,90
+Sat Jul 16 09:21:50 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,98
+Sat Jul 16 09:22:53 UTC 2022 Sat Jul 16 09:22:53 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,99=>Find no block
+Sat Jul 16 09:22:54 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,107
+Sat Jul 16 09:25:01 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,108
+Sat Jul 16 09:25:02 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,109
+Sat Jul 16 09:25:03 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,111
+Sat Jul 16 09:25:04 UTC 2022 Sat Jul 16 09:25:04 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,113=>Find no block
+Sat Jul 16 09:25:06 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,114
+Sat Jul 16 09:25:07 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,122
+Sat Jul 16 09:25:11 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,130
+Sat Jul 16 09:25:59 UTC 2022 Sat Jul 16 09:25:59 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,131=>Find no block
+Sat Jul 16 09:26:00 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,138
+Sat Jul 16 09:26:27 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,146
+Sat Jul 16 09:27:02 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,155
+Sat Jul 16 09:27:25 UTC 2022 Sat Jul 16 09:27:25 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,28=>Find no block
+Sat Jul 16 09:27:27 UTC 2022 Sat Jul 16 09:27:27 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,33=>Find no block
+Sat Jul 16 09:27:28 UTC 2022 org.apache.commons.math3.genetics.Chromosome,45
+Sat Jul 16 09:27:45 UTC 2022 org.apache.commons.math3.genetics.Chromosome,47
+Sat Jul 16 09:27:46 UTC 2022 org.apache.commons.math3.genetics.Chromosome,49
+Sat Jul 16 09:27:57 UTC 2022 org.apache.commons.math3.genetics.Chromosome,65
+Sat Jul 16 09:28:10 UTC 2022 org.apache.commons.math3.genetics.Chromosome,76
+Sat Jul 16 09:28:16 UTC 2022 org.apache.commons.math3.genetics.Chromosome,89
+Sat Jul 16 09:28:27 UTC 2022 org.apache.commons.math3.genetics.Chromosome,90
+Sat Jul 16 09:28:28 UTC 2022 org.apache.commons.math3.genetics.Chromosome,91
+Sat Jul 16 09:28:29 UTC 2022 Sat Jul 16 09:28:29 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,93=>Find no block
+Sat Jul 16 09:28:29 UTC 2022 org.apache.commons.math3.genetics.Chromosome,94
+Sat Jul 16 09:28:36 UTC 2022 org.apache.commons.math3.genetics.Chromosome,104
+Sat Jul 16 09:28:48 UTC 2022 org.apache.commons.math3.genetics.Chromosome,105
+Sat Jul 16 09:28:52 UTC 2022 org.apache.commons.math3.genetics.Chromosome,106
+Sat Jul 16 09:28:53 UTC 2022 Sat Jul 16 09:28:53 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,108=>Find no block
+Sat Jul 16 09:28:54 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,76
+Sat Jul 16 09:34:00 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,78
+Sat Jul 16 09:34:02 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,79
+Sat Jul 16 09:34:04 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,82
+Sat Jul 16 09:34:06 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,83
+Sat Jul 16 09:34:08 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,84
+Sat Jul 16 09:34:10 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,86
+Sat Jul 16 09:34:11 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,98
+Sat Jul 16 09:34:15 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,99
+Sat Jul 16 09:34:16 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,101
+Sat Jul 16 09:34:20 UTC 2022 Sat Jul 16 09:34:20 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,102=>Find no block
+Sat Jul 16 09:34:21 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,109
+Sat Jul 16 09:34:25 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,37
+Sat Jul 16 09:34:33 UTC 2022 Sat Jul 16 09:34:33 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,38=>Find no block
+Sat Jul 16 09:34:37 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,47
+Sat Jul 16 09:34:43 UTC 2022 Sat Jul 16 09:34:43 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,48=>Find no block
+Sat Jul 16 09:34:43 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,50
+Sat Jul 16 09:34:47 UTC 2022 Sat Jul 16 09:34:47 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,54=>Find no block
+Sat Jul 16 09:34:49 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,68
+Sat Jul 16 09:35:31 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,70
+Sat Jul 16 09:35:32 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,71
+Sat Jul 16 09:35:33 UTC 2022 Sat Jul 16 09:35:33 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,72=>Find no block
+Sat Jul 16 09:35:33 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,78
+Sat Jul 16 09:35:37 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,85
+Sat Jul 16 09:35:41 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,46
+Sat Jul 16 09:36:16 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,47
+Sat Jul 16 09:36:17 UTC 2022 Sat Jul 16 09:36:17 UTC 2022 : org.apache.commons.math3.exception.MathIllegalNumberException,48=>Find no block
+Sat Jul 16 09:36:18 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,54
+Sat Jul 16 09:36:23 UTC 2022 Sat Jul 16 09:36:23 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,44=>Find no block
+Sat Jul 16 09:36:25 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,45
+Sat Jul 16 09:36:32 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,46
+Sat Jul 16 09:36:33 UTC 2022 Sat Jul 16 09:36:33 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,47=>Find no block
+Sat Jul 16 09:36:34 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,51
+Sat Jul 16 09:36:38 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,57
+Sat Jul 16 09:37:09 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,63
+Sat Jul 16 09:37:29 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,50
+Sat Jul 16 09:37:34 UTC 2022 Sat Jul 16 09:37:34 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,54=>Find no block
+Sat Jul 16 09:37:35 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,67
+Sat Jul 16 09:38:20 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,69
+Sat Jul 16 09:38:21 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,70
+Sat Jul 16 09:38:22 UTC 2022 Sat Jul 16 09:38:22 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,71=>Find no block
+Sat Jul 16 09:38:23 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,77
+Sat Jul 16 09:38:23 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,84
+Sat Jul 16 09:38:36 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,46
+Sat Jul 16 09:38:41 UTC 2022 Sat Jul 16 09:38:41 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,47=>Find no block
+Sat Jul 16 09:38:42 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,62
+Sat Jul 16 09:39:29 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,63
+Sat Jul 16 09:39:32 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,64
+Sat Jul 16 09:39:34 UTC 2022 Sat Jul 16 09:39:34 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,65=>Find no block
+Sat Jul 16 09:39:36 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,71
+Sat Jul 16 09:39:41 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,77
+Sat Jul 16 09:39:51 UTC 2022 Sat Jul 16 09:39:51 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,64=>Find no block
+Sat Jul 16 09:39:52 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,65
+Sat Jul 16 09:39:57 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,66
+Sat Jul 16 09:39:58 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,67
+Sat Jul 16 09:39:59 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,68
+Sat Jul 16 09:39:59 UTC 2022 Sat Jul 16 09:39:59 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,69=>Find no block
+Sat Jul 16 09:40:00 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,75
+Sat Jul 16 09:40:04 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,87
+Sat Jul 16 09:41:26 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,88
+Sat Jul 16 09:41:27 UTC 2022 Sat Jul 16 09:41:27 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,89=>Find no block
+Sat Jul 16 09:41:28 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,100
+Sat Jul 16 09:42:12 UTC 2022 Sat Jul 16 09:42:12 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,101=>Find no block
+Sat Jul 16 09:42:13 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,110
+Sat Jul 16 09:42:33 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,119
+Sat Jul 16 09:42:37 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,128
+Sat Jul 16 09:43:06 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,137
+Sat Jul 16 09:43:34 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,147
+Sat Jul 16 09:43:40 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,159
+Sat Jul 16 09:44:02 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,171
+Sat Jul 16 09:45:16 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,172
+Sat Jul 16 09:45:17 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,173
+Timeout time : 22/07/16 10:16
+Current failed test : org.apache.commons.math3.genetics.FixedElapsedTimeTest::testIsSatisfied | 22/07/16 10:16
+Sat Jul 16 10:17:03 UTC 2022 Sat Jul 16 10:17:03 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,36=>Find no block
+Sat Jul 16 10:17:04 UTC 2022 Sat Jul 16 10:17:04 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,50=>Find no block
+Sat Jul 16 10:17:05 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,51
+Sat Jul 16 10:17:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,55
+Sat Jul 16 10:18:16 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,59
+Sat Jul 16 10:19:11 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,60
+Sat Jul 16 10:19:12 UTC 2022 Sat Jul 16 10:19:12 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,61=>Find no block
+Sat Jul 16 10:19:13 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,50
+Sat Jul 16 10:19:51 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,51
+Sat Jul 16 10:19:52 UTC 2022 Sat Jul 16 10:19:52 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,52=>Find no block
+Sat Jul 16 10:19:53 UTC 2022 Sat Jul 16 10:19:53 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,69=>Find no block
+Sat Jul 16 10:19:54 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,70
+Sat Jul 16 10:19:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,73
+Sat Jul 16 10:20:29 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,74
+Sat Jul 16 10:20:30 UTC 2022 Sat Jul 16 10:20:30 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,75=>Find no block
+Sat Jul 16 10:20:31 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,64
+Sat Jul 16 10:20:53 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,65
+Sat Jul 16 10:20:54 UTC 2022 Sat Jul 16 10:20:54 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,66=>Find no block
+Sat Jul 16 10:20:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,52
+Sat Jul 16 10:20:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,56
+Sat Jul 16 10:20:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,71
+Sat Jul 16 10:20:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,82
+Sat Jul 16 10:21:29 UTC 2022 Sat Jul 16 10:21:29 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,83=>Find no block
+Sat Jul 16 10:21:30 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,90
+Sat Jul 16 10:21:38 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,98
+Sat Jul 16 10:22:36 UTC 2022 Sat Jul 16 10:22:36 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,99=>Find no block
+Sat Jul 16 10:22:37 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,107
+Sat Jul 16 10:24:35 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,108
+Sat Jul 16 10:24:35 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,109
+Sat Jul 16 10:24:36 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,111
+Sat Jul 16 10:24:37 UTC 2022 Sat Jul 16 10:24:37 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,113=>Find no block
+Sat Jul 16 10:24:38 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,114
+Sat Jul 16 10:24:39 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,122
+Sat Jul 16 10:24:43 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,130
+Sat Jul 16 10:25:25 UTC 2022 Sat Jul 16 10:25:25 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,131=>Find no block
+Sat Jul 16 10:25:25 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,138
+Sat Jul 16 10:25:49 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,146
+Sat Jul 16 10:26:19 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,155
+Sat Jul 16 10:26:40 UTC 2022 Sat Jul 16 10:26:40 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,28=>Find no block
+Sat Jul 16 10:26:41 UTC 2022 Sat Jul 16 10:26:41 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,33=>Find no block
+Sat Jul 16 10:26:42 UTC 2022 org.apache.commons.math3.genetics.Chromosome,45
+Sat Jul 16 10:26:53 UTC 2022 org.apache.commons.math3.genetics.Chromosome,47
+Sat Jul 16 10:27:00 UTC 2022 org.apache.commons.math3.genetics.Chromosome,49
+Sat Jul 16 10:27:13 UTC 2022 org.apache.commons.math3.genetics.Chromosome,65
+Sat Jul 16 10:27:27 UTC 2022 org.apache.commons.math3.genetics.Chromosome,76
+Sat Jul 16 10:27:33 UTC 2022 org.apache.commons.math3.genetics.Chromosome,89
+Sat Jul 16 10:27:44 UTC 2022 org.apache.commons.math3.genetics.Chromosome,90
+Sat Jul 16 10:27:45 UTC 2022 org.apache.commons.math3.genetics.Chromosome,91
+Sat Jul 16 10:27:46 UTC 2022 Sat Jul 16 10:27:46 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,93=>Find no block
+Sat Jul 16 10:27:47 UTC 2022 org.apache.commons.math3.genetics.Chromosome,94
+Sat Jul 16 10:28:01 UTC 2022 org.apache.commons.math3.genetics.Chromosome,104
+Sat Jul 16 10:28:05 UTC 2022 org.apache.commons.math3.genetics.Chromosome,105
+Sat Jul 16 10:28:10 UTC 2022 org.apache.commons.math3.genetics.Chromosome,106
+Sat Jul 16 10:28:11 UTC 2022 Sat Jul 16 10:28:11 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,108=>Find no block
+Sat Jul 16 10:28:12 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,76
+Sat Jul 16 10:33:15 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,78
+Sat Jul 16 10:33:16 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,79
+Sat Jul 16 10:33:23 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,82
+Sat Jul 16 10:33:25 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,83
+Sat Jul 16 10:33:27 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,84
+Sat Jul 16 10:33:28 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,86
+Sat Jul 16 10:33:29 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,98
+Sat Jul 16 10:33:34 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,99
+Sat Jul 16 10:33:34 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,101
+Sat Jul 16 10:33:39 UTC 2022 Sat Jul 16 10:33:39 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,102=>Find no block
+Sat Jul 16 10:33:39 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,109
+Sat Jul 16 10:33:44 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,37
+Sat Jul 16 10:33:48 UTC 2022 Sat Jul 16 10:33:48 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,38=>Find no block
+Sat Jul 16 10:33:49 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,47
+Sat Jul 16 10:33:53 UTC 2022 Sat Jul 16 10:33:53 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,48=>Find no block
+Sat Jul 16 10:34:06 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,50
+Sat Jul 16 10:34:11 UTC 2022 Sat Jul 16 10:34:11 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,54=>Find no block
+Sat Jul 16 10:34:13 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,68
+Sat Jul 16 10:35:05 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,70
+Sat Jul 16 10:35:05 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,71
+Sat Jul 16 10:35:06 UTC 2022 Sat Jul 16 10:35:06 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,72=>Find no block
+Sat Jul 16 10:35:07 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,78
+Sat Jul 16 10:35:12 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,85
+Sat Jul 16 10:35:16 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,46
+Sat Jul 16 10:35:56 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,47
+Sat Jul 16 10:35:57 UTC 2022 Sat Jul 16 10:35:57 UTC 2022 : org.apache.commons.math3.exception.MathIllegalNumberException,48=>Find no block
+Sat Jul 16 10:35:58 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,54
+Sat Jul 16 10:36:08 UTC 2022 Sat Jul 16 10:36:08 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,44=>Find no block
+Sat Jul 16 10:36:09 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,45
+Sat Jul 16 10:36:13 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,46
+Sat Jul 16 10:36:14 UTC 2022 Sat Jul 16 10:36:14 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,47=>Find no block
+Sat Jul 16 10:36:15 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,51
+Sat Jul 16 10:36:19 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,57
+Sat Jul 16 10:36:45 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,63
+Sat Jul 16 10:37:06 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,50
+Sat Jul 16 10:37:12 UTC 2022 Sat Jul 16 10:37:12 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,54=>Find no block
+Sat Jul 16 10:37:13 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,67
+Sat Jul 16 10:37:57 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,69
+Sat Jul 16 10:37:58 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,70
+Sat Jul 16 10:37:59 UTC 2022 Sat Jul 16 10:37:59 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,71=>Find no block
+Sat Jul 16 10:37:59 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,77
+Sat Jul 16 10:38:00 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,84
+Sat Jul 16 10:38:09 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,46
+Sat Jul 16 10:38:14 UTC 2022 Sat Jul 16 10:38:14 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,47=>Find no block
+Sat Jul 16 10:38:14 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,62
+Sat Jul 16 10:38:52 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,63
+Sat Jul 16 10:38:54 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,64
+Sat Jul 16 10:38:55 UTC 2022 Sat Jul 16 10:38:55 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,65=>Find no block
+Sat Jul 16 10:38:55 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,71
+Sat Jul 16 10:39:02 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,77
+Sat Jul 16 10:39:06 UTC 2022 Sat Jul 16 10:39:06 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,64=>Find no block
+Sat Jul 16 10:39:06 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,65
+Sat Jul 16 10:39:11 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,66
+Sat Jul 16 10:39:12 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,67
+Sat Jul 16 10:39:12 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,68
+Sat Jul 16 10:39:13 UTC 2022 Sat Jul 16 10:39:13 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,69=>Find no block
+Sat Jul 16 10:39:14 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,75
+Sat Jul 16 10:39:18 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,87
+Sat Jul 16 10:40:27 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,88
+Sat Jul 16 10:40:28 UTC 2022 Sat Jul 16 10:40:28 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,89=>Find no block
+Sat Jul 16 10:40:29 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,100
+Sat Jul 16 10:41:08 UTC 2022 Sat Jul 16 10:41:08 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,101=>Find no block
+Sat Jul 16 10:41:09 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,110
+Sat Jul 16 10:41:27 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,119
+Sat Jul 16 10:41:31 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,128
+Sat Jul 16 10:41:54 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,137
+Sat Jul 16 10:42:17 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,147
+Sat Jul 16 10:42:22 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,159
+Sat Jul 16 10:42:47 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,171
+Sat Jul 16 10:43:45 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,172
+Sat Jul 16 10:43:46 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,173
+Sat Jul 16 11:14:41 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,174
+Sat Jul 16 11:14:42 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,175
+Sat Jul 16 11:14:43 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,176
+Sat Jul 16 11:14:44 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,177
+Sat Jul 16 11:14:45 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,179
+Sat Jul 16 11:14:46 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,180
+Sat Jul 16 11:14:47 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,182
+Sat Jul 16 11:14:47 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,186
+Timeout time : 22/07/16 11:17
+Current failed test : org.apache.commons.math3.genetics.ElitisticListPopulationTest::testChromosomeListConstructorTooLow | 22/07/16 11:17
+Sat Jul 16 11:17:09 UTC 2022 Sat Jul 16 11:17:09 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,36=>Find no block
+Sat Jul 16 11:17:10 UTC 2022 Sat Jul 16 11:17:10 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,50=>Find no block
+Sat Jul 16 11:17:10 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,51
+Sat Jul 16 11:18:02 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,55
+Sat Jul 16 11:18:24 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,59
+Sat Jul 16 11:19:18 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,60
+Sat Jul 16 11:19:19 UTC 2022 Sat Jul 16 11:19:19 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,61=>Find no block
+Sat Jul 16 11:19:20 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,50
+Sat Jul 16 11:20:01 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,51
+Sat Jul 16 11:20:02 UTC 2022 Sat Jul 16 11:20:02 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,52=>Find no block
+Sat Jul 16 11:20:03 UTC 2022 Sat Jul 16 11:20:03 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,69=>Find no block
+Sat Jul 16 11:20:04 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,70
+Sat Jul 16 11:20:05 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,73
+Sat Jul 16 11:20:40 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,74
+Sat Jul 16 11:20:41 UTC 2022 Sat Jul 16 11:20:41 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,75=>Find no block
+Sat Jul 16 11:20:43 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,64
+Sat Jul 16 11:21:14 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,65
+Sat Jul 16 11:21:15 UTC 2022 Sat Jul 16 11:21:15 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,66=>Find no block
+Sat Jul 16 11:21:16 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,52
+Sat Jul 16 11:21:17 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,56
+Sat Jul 16 11:21:18 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,71
+Sat Jul 16 11:21:19 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,82
+Sat Jul 16 11:21:57 UTC 2022 Sat Jul 16 11:21:57 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,83=>Find no block
+Sat Jul 16 11:21:58 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,90
+Sat Jul 16 11:22:02 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,98
+Sat Jul 16 11:23:00 UTC 2022 Sat Jul 16 11:23:00 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,99=>Find no block
+Sat Jul 16 11:23:01 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,107
+Sat Jul 16 11:24:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,108
+Sat Jul 16 11:24:57 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,109
+Sat Jul 16 11:24:58 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,111
+Sat Jul 16 11:25:02 UTC 2022 Sat Jul 16 11:25:02 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,113=>Find no block
+Sat Jul 16 11:25:03 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,114
+Sat Jul 16 11:25:03 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,122
+Sat Jul 16 11:25:08 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,130
+Sat Jul 16 11:25:57 UTC 2022 Sat Jul 16 11:25:57 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,131=>Find no block
+Sat Jul 16 11:25:58 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,138
+Sat Jul 16 11:26:27 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,146
+Sat Jul 16 11:27:01 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,155
+Sat Jul 16 11:27:26 UTC 2022 Sat Jul 16 11:27:26 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,28=>Find no block
+Sat Jul 16 11:27:27 UTC 2022 Sat Jul 16 11:27:27 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,33=>Find no block
+Sat Jul 16 11:27:28 UTC 2022 org.apache.commons.math3.genetics.Chromosome,45
+Sat Jul 16 11:27:40 UTC 2022 org.apache.commons.math3.genetics.Chromosome,47
+Sat Jul 16 11:27:41 UTC 2022 org.apache.commons.math3.genetics.Chromosome,49
+Sat Jul 16 11:27:54 UTC 2022 org.apache.commons.math3.genetics.Chromosome,65
+Sat Jul 16 11:28:07 UTC 2022 org.apache.commons.math3.genetics.Chromosome,76
+Sat Jul 16 11:28:13 UTC 2022 org.apache.commons.math3.genetics.Chromosome,89
+Sat Jul 16 11:28:21 UTC 2022 org.apache.commons.math3.genetics.Chromosome,90
+Sat Jul 16 11:28:21 UTC 2022 org.apache.commons.math3.genetics.Chromosome,91
+Sat Jul 16 11:28:22 UTC 2022 Sat Jul 16 11:28:22 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,93=>Find no block
+Sat Jul 16 11:28:23 UTC 2022 org.apache.commons.math3.genetics.Chromosome,94
+Sat Jul 16 11:28:27 UTC 2022 org.apache.commons.math3.genetics.Chromosome,104
+Sat Jul 16 11:28:32 UTC 2022 org.apache.commons.math3.genetics.Chromosome,105
+Sat Jul 16 11:28:40 UTC 2022 org.apache.commons.math3.genetics.Chromosome,106
+Sat Jul 16 11:28:40 UTC 2022 Sat Jul 16 11:28:40 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,108=>Find no block
+Sat Jul 16 11:28:41 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,76
+Sat Jul 16 11:33:49 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,78
+Sat Jul 16 11:33:51 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,79
+Sat Jul 16 11:33:51 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,82
+Sat Jul 16 11:33:52 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,83
+Sat Jul 16 11:33:53 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,84
+Sat Jul 16 11:33:54 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,86
+Sat Jul 16 11:33:55 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,98
+Sat Jul 16 11:33:59 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,99
+Sat Jul 16 11:34:00 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,101
+Sat Jul 16 11:34:04 UTC 2022 Sat Jul 16 11:34:04 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,102=>Find no block
+Sat Jul 16 11:34:05 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,109
+Sat Jul 16 11:34:09 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,37
+Sat Jul 16 11:34:13 UTC 2022 Sat Jul 16 11:34:13 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,38=>Find no block
+Sat Jul 16 11:34:14 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,47
+Sat Jul 16 11:34:18 UTC 2022 Sat Jul 16 11:34:18 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,48=>Find no block
+Sat Jul 16 11:34:19 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,50
+Sat Jul 16 11:34:29 UTC 2022 Sat Jul 16 11:34:29 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,54=>Find no block
+Sat Jul 16 11:34:30 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,68
+Sat Jul 16 11:35:14 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,70
+Sat Jul 16 11:35:14 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,71
+Sat Jul 16 11:35:15 UTC 2022 Sat Jul 16 11:35:15 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,72=>Find no block
+Sat Jul 16 11:35:19 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,78
+Sat Jul 16 11:35:23 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,85
+Sat Jul 16 11:35:27 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,46
+Sat Jul 16 11:36:06 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,47
+Sat Jul 16 11:36:06 UTC 2022 Sat Jul 16 11:36:06 UTC 2022 : org.apache.commons.math3.exception.MathIllegalNumberException,48=>Find no block
+Sat Jul 16 11:36:07 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,54
+Sat Jul 16 11:36:12 UTC 2022 Sat Jul 16 11:36:12 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,44=>Find no block
+Sat Jul 16 11:36:13 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,45
+Sat Jul 16 11:36:20 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,46
+Sat Jul 16 11:36:23 UTC 2022 Sat Jul 16 11:36:23 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,47=>Find no block
+Sat Jul 16 11:36:24 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,51
+Sat Jul 16 11:36:28 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,57
+Sat Jul 16 11:36:53 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,63
+Sat Jul 16 11:37:22 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,50
+Sat Jul 16 11:37:27 UTC 2022 Sat Jul 16 11:37:27 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,54=>Find no block
+Sat Jul 16 11:37:28 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,67
+Sat Jul 16 11:38:15 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,69
+Sat Jul 16 11:38:16 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,70
+Sat Jul 16 11:38:17 UTC 2022 Sat Jul 16 11:38:17 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,71=>Find no block
+Sat Jul 16 11:38:17 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,77
+Sat Jul 16 11:38:18 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,84
+Sat Jul 16 11:38:23 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,46
+Sat Jul 16 11:38:27 UTC 2022 Sat Jul 16 11:38:27 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,47=>Find no block
+Sat Jul 16 11:38:28 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,62
+Sat Jul 16 11:39:08 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,63
+Sat Jul 16 11:39:09 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,64
+Sat Jul 16 11:39:10 UTC 2022 Sat Jul 16 11:39:10 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,65=>Find no block
+Sat Jul 16 11:39:11 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,71
+Sat Jul 16 11:39:15 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,77
+Sat Jul 16 11:39:20 UTC 2022 Sat Jul 16 11:39:20 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,64=>Find no block
+Sat Jul 16 11:39:21 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,65
+Sat Jul 16 11:39:25 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,66
+Sat Jul 16 11:39:26 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,67
+Sat Jul 16 11:39:27 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,68
+Sat Jul 16 11:39:28 UTC 2022 Sat Jul 16 11:39:28 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,69=>Find no block
+Sat Jul 16 11:39:29 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,75
+Sat Jul 16 11:39:34 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,87
+Sat Jul 16 11:40:50 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,88
+Sat Jul 16 11:40:51 UTC 2022 Sat Jul 16 11:40:51 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,89=>Find no block
+Sat Jul 16 11:40:52 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,100
+Sat Jul 16 11:41:35 UTC 2022 Sat Jul 16 11:41:35 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,101=>Find no block
+Sat Jul 16 11:41:36 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,110
+Sat Jul 16 11:41:55 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,119
+Sat Jul 16 11:42:00 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,128
+Sat Jul 16 11:42:27 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,137
+Sat Jul 16 11:42:55 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,147
+Sat Jul 16 11:43:00 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,159
+Sat Jul 16 11:43:28 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,171
+Sat Jul 16 11:44:28 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,172
+Sat Jul 16 11:44:29 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,173
+Timeout time : 22/07/16 12:17
+Current failed test : org.apache.commons.math3.genetics.ElitisticListPopulationTest::testConstructorTooHigh | 22/07/16 12:17
+Sat Jul 16 12:17:14 UTC 2022 Sat Jul 16 12:17:14 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,36=>Find no block
+Sat Jul 16 12:17:15 UTC 2022 Sat Jul 16 12:17:15 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,50=>Find no block
+Sat Jul 16 12:17:16 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,51
+Sat Jul 16 12:18:13 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,55
+Sat Jul 16 12:18:37 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,59
+Sat Jul 16 12:19:30 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,60
+Sat Jul 16 12:19:31 UTC 2022 Sat Jul 16 12:19:31 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,61=>Find no block
+Sat Jul 16 12:19:32 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,50
+Sat Jul 16 12:20:12 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,51
+Sat Jul 16 12:20:13 UTC 2022 Sat Jul 16 12:20:13 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,52=>Find no block
+Sat Jul 16 12:20:14 UTC 2022 Sat Jul 16 12:20:14 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,69=>Find no block
+Sat Jul 16 12:20:15 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,70
+Sat Jul 16 12:20:16 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,73
+Sat Jul 16 12:20:48 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,74
+Sat Jul 16 12:20:49 UTC 2022 Sat Jul 16 12:20:49 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,75=>Find no block
+Sat Jul 16 12:20:50 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,64
+Sat Jul 16 12:21:12 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,65
+Sat Jul 16 12:21:13 UTC 2022 Sat Jul 16 12:21:13 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,66=>Find no block
+Sat Jul 16 12:21:15 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,52
+Sat Jul 16 12:21:15 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,56
+Sat Jul 16 12:21:16 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,71
+Sat Jul 16 12:21:17 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,82
+Sat Jul 16 12:21:48 UTC 2022 Sat Jul 16 12:21:48 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,83=>Find no block
+Sat Jul 16 12:21:49 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,90
+Sat Jul 16 12:21:54 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,98
+Sat Jul 16 12:22:57 UTC 2022 Sat Jul 16 12:22:57 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,99=>Find no block
+Sat Jul 16 12:22:58 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,107
+Sat Jul 16 12:24:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,108
+Sat Jul 16 12:24:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,109
+Sat Jul 16 12:24:56 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,111
+Sat Jul 16 12:24:59 UTC 2022 Sat Jul 16 12:24:59 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,113=>Find no block
+Sat Jul 16 12:25:00 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,114
+Sat Jul 16 12:25:01 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,122
+Sat Jul 16 12:25:06 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,130
+Sat Jul 16 12:25:54 UTC 2022 Sat Jul 16 12:25:54 UTC 2022 : org.apache.commons.math3.genetics.ListPopulation,131=>Find no block
+Sat Jul 16 12:25:55 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,138
+Sat Jul 16 12:26:21 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,146
+Sat Jul 16 12:26:51 UTC 2022 org.apache.commons.math3.genetics.ListPopulation,155
+Sat Jul 16 12:27:12 UTC 2022 Sat Jul 16 12:27:12 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,28=>Find no block
+Sat Jul 16 12:27:13 UTC 2022 Sat Jul 16 12:27:13 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,33=>Find no block
+Sat Jul 16 12:27:14 UTC 2022 org.apache.commons.math3.genetics.Chromosome,45
+Sat Jul 16 12:27:29 UTC 2022 org.apache.commons.math3.genetics.Chromosome,47
+Sat Jul 16 12:27:32 UTC 2022 org.apache.commons.math3.genetics.Chromosome,49
+Sat Jul 16 12:27:51 UTC 2022 org.apache.commons.math3.genetics.Chromosome,65
+Sat Jul 16 12:28:03 UTC 2022 org.apache.commons.math3.genetics.Chromosome,76
+Sat Jul 16 12:28:14 UTC 2022 org.apache.commons.math3.genetics.Chromosome,89
+Sat Jul 16 12:28:23 UTC 2022 org.apache.commons.math3.genetics.Chromosome,90
+Sat Jul 16 12:28:24 UTC 2022 org.apache.commons.math3.genetics.Chromosome,91
+Sat Jul 16 12:28:25 UTC 2022 Sat Jul 16 12:28:25 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,93=>Find no block
+Sat Jul 16 12:28:25 UTC 2022 org.apache.commons.math3.genetics.Chromosome,94
+Sat Jul 16 12:28:30 UTC 2022 org.apache.commons.math3.genetics.Chromosome,104
+Sat Jul 16 12:28:33 UTC 2022 org.apache.commons.math3.genetics.Chromosome,105
+Sat Jul 16 12:28:38 UTC 2022 org.apache.commons.math3.genetics.Chromosome,106
+Sat Jul 16 12:28:38 UTC 2022 Sat Jul 16 12:28:38 UTC 2022 : org.apache.commons.math3.genetics.Chromosome,108=>Find no block
+Sat Jul 16 12:28:39 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,76
+Sat Jul 16 12:33:49 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,78
+Sat Jul 16 12:33:51 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,79
+Sat Jul 16 12:33:53 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,82
+Sat Jul 16 12:33:54 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,83
+Sat Jul 16 12:33:55 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,84
+Sat Jul 16 12:33:56 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,86
+Sat Jul 16 12:33:57 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,98
+Sat Jul 16 12:34:02 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,99
+Sat Jul 16 12:34:03 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,101
+Sat Jul 16 12:34:08 UTC 2022 Sat Jul 16 12:34:08 UTC 2022 : org.apache.commons.math3.genetics.ElitisticListPopulation,102=>Find no block
+Sat Jul 16 12:34:09 UTC 2022 org.apache.commons.math3.genetics.ElitisticListPopulation,109
+Sat Jul 16 12:34:13 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,37
+Sat Jul 16 12:34:25 UTC 2022 Sat Jul 16 12:34:25 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,38=>Find no block
+Sat Jul 16 12:34:26 UTC 2022 org.apache.commons.math3.exception.NotPositiveException,47
+Sat Jul 16 12:34:31 UTC 2022 Sat Jul 16 12:34:31 UTC 2022 : org.apache.commons.math3.exception.NotPositiveException,48=>Find no block
+Sat Jul 16 12:34:31 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,50
+Sat Jul 16 12:34:37 UTC 2022 Sat Jul 16 12:34:37 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,54=>Find no block
+Sat Jul 16 12:34:38 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,68
+Sat Jul 16 12:35:26 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,70
+Sat Jul 16 12:35:27 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,71
+Sat Jul 16 12:35:28 UTC 2022 Sat Jul 16 12:35:28 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooSmallException,72=>Find no block
+Sat Jul 16 12:35:29 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,78
+Sat Jul 16 12:35:34 UTC 2022 org.apache.commons.math3.exception.NumberIsTooSmallException,85
+Sat Jul 16 12:35:39 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,46
+Sat Jul 16 12:36:15 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,47
+Sat Jul 16 12:36:17 UTC 2022 Sat Jul 16 12:36:17 UTC 2022 : org.apache.commons.math3.exception.MathIllegalNumberException,48=>Find no block
+Sat Jul 16 12:36:18 UTC 2022 org.apache.commons.math3.exception.MathIllegalNumberException,54
+Sat Jul 16 12:36:23 UTC 2022 Sat Jul 16 12:36:23 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,44=>Find no block
+Sat Jul 16 12:36:24 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,45
+Sat Jul 16 12:36:29 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,46
+Sat Jul 16 12:36:29 UTC 2022 Sat Jul 16 12:36:29 UTC 2022 : org.apache.commons.math3.exception.MathIllegalArgumentException,47=>Find no block
+Sat Jul 16 12:36:30 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,51
+Sat Jul 16 12:36:35 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,57
+Sat Jul 16 12:36:59 UTC 2022 org.apache.commons.math3.exception.MathIllegalArgumentException,63
+Sat Jul 16 12:37:18 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,50
+Sat Jul 16 12:37:22 UTC 2022 Sat Jul 16 12:37:22 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,54=>Find no block
+Sat Jul 16 12:37:23 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,67
+Sat Jul 16 12:38:09 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,69
+Sat Jul 16 12:38:12 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,70
+Sat Jul 16 12:38:17 UTC 2022 Sat Jul 16 12:38:17 UTC 2022 : org.apache.commons.math3.exception.NumberIsTooLargeException,71=>Find no block
+Sat Jul 16 12:38:20 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,77
+Sat Jul 16 12:38:22 UTC 2022 org.apache.commons.math3.exception.NumberIsTooLargeException,84
+Sat Jul 16 12:38:28 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,46
+Sat Jul 16 12:38:33 UTC 2022 Sat Jul 16 12:38:33 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,47=>Find no block
+Sat Jul 16 12:38:34 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,62
+Sat Jul 16 12:39:19 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,63
+Sat Jul 16 12:39:20 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,64
+Sat Jul 16 12:39:21 UTC 2022 Sat Jul 16 12:39:21 UTC 2022 : org.apache.commons.math3.exception.OutOfRangeException,65=>Find no block
+Sat Jul 16 12:39:22 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,71
+Sat Jul 16 12:39:26 UTC 2022 org.apache.commons.math3.exception.OutOfRangeException,77
+Sat Jul 16 12:39:30 UTC 2022 Sat Jul 16 12:39:30 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,64=>Find no block
+Sat Jul 16 12:39:31 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,65
+Sat Jul 16 12:39:35 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,66
+Sat Jul 16 12:39:36 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,67
+Sat Jul 16 12:39:37 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,68
+Sat Jul 16 12:39:38 UTC 2022 Sat Jul 16 12:39:38 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,69=>Find no block
+Sat Jul 16 12:39:39 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,75
+Sat Jul 16 12:39:44 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,87
+Sat Jul 16 12:40:55 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,88
+Sat Jul 16 12:40:56 UTC 2022 Sat Jul 16 12:40:56 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,89=>Find no block
+Sat Jul 16 12:40:57 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,100
+Sat Jul 16 12:41:41 UTC 2022 Sat Jul 16 12:41:41 UTC 2022 : org.apache.commons.math3.exception.util.ExceptionContext,101=>Find no block
+Sat Jul 16 12:41:42 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,110
+Sat Jul 16 12:42:03 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,119
+Sat Jul 16 12:42:08 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,128
+Sat Jul 16 12:42:38 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,137
+Sat Jul 16 12:43:06 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,147
+Sat Jul 16 12:43:15 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,159
+Sat Jul 16 12:43:33 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,171
+Sat Jul 16 12:44:40 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,172
+Sat Jul 16 12:44:41 UTC 2022 org.apache.commons.math3.exception.util.ExceptionContext,173
+Timeout time : 22/07/16 13:17

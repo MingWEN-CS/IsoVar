@@ -1,14 +1,18 @@
-fix	org.apache.commons.lang3.math.NumberUtils	468	INS	i
-fix	org.apache.commons.lang3.math.NumberUtils	468	INS	pfxLen
-fix	org.apache.commons.lang3.math.NumberUtils	468	INS	str
-fix	org.apache.commons.lang3.math.NumberUtils	477	INS	hexDigits
-fix	org.apache.commons.lang3.math.NumberUtils	477	INS	firstSigDigit
-fix	org.apache.commons.lang3.math.NumberUtils	480	INS	hexDigits
-fix	org.apache.commons.lang3.math.NumberUtils	480	INS	firstSigDigit
-fix	org.apache.commons.lang3.math.NumberUtils	467	INS	firstSigDigit
-buggy	org.apache.commons.lang3.math.NumberUtils	468	MOV	hexDigits
-buggy	org.apache.commons.lang3.math.NumberUtils	471	MOV	hexDigits
-fix	org.apache.commons.lang3.math.NumberUtils	470	INS	firstSigDigit
-fix	org.apache.commons.lang3.math.NumberUtils	469	INS	firstSigDigit
-fix	org.apache.commons.lang3.math.NumberUtils	469	INS	str
-fix	org.apache.commons.lang3.math.NumberUtils	471	INS	pfxLen
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	hexDigits	buggy
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	hexDigits	buggy
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	pfxLen	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	lastChar	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	str	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed
+org.apache.commons.lang3.math.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	len$	fixed

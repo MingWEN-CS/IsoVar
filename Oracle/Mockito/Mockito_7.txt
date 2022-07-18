@@ -1,2 +1,1 @@
-fix	org.mockito.internal.util.reflection.GenericMetadataSupport	379	INS	registerTypeParametersOn
-fix	org.mockito.internal.util.reflection.GenericMetadataSupport	379	INS	typeVariable
+org.mockito.internal.util.reflection.GenericMetadataSupport$TypeVariableReturnType	readTypeVariables()V	this.typeVariable	fixed

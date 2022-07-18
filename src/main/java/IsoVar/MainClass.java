@@ -4,10 +4,7 @@ import Instrument.BBMapping;
 import Instrument.Instrument;
 import Mutator.MutateController;
 import Similarity.Statistical;
-import Util.EvaluationUtil;
-import Util.Pair;
-import Util.RunCommand;
-import Util.TestSuite;
+import Util.*;
 import org.apache.commons.cli.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,21 +19,21 @@ import java.util.Set;
 
 public class MainClass {
 
-    private static String OPTION_PROJECT_NAME = "project_name";
-    private static String OPTION_PHASE = "phase";
-    private static String OPTION_ID = "ID";
-    private static String OPTION_TIMEOUT = "timeout";
-    private static String OPTION_DEBUG = "debug";
-    private static String OPTION_SKIP_MUTATION = "skip_mutation";
-    private static String OPTION_PATH_TO_PROJECT = "project_root";
-    private static String OPTION_PATH_TO_BINARY = "binary";
-    private static String OPTION_PATH_TO_TEST_BINARY = "test_binary";
-    private static String OPTION_PATH_TO_DEPENDENCY = "dependency";
-    private static String OPTION_PATH_TO_REPORT = "report_dir";
-    private static String OPTION_MAX_MUTATION = "max_mutation";
-    private static String OPTION_ALPHA = "alpha";
-    private static String OPTION_BETA = "beta";
-    private static String OPTION_GAMMA = "gamma";
+    private static final String OPTION_PROJECT_NAME = "project_name";
+    private static final String OPTION_PHASE = "phase";
+    private static final String OPTION_ID = "ID";
+    private static final String OPTION_TIMEOUT = "timeout";
+    private static final String OPTION_DEBUG = "debug";
+    private static final String OPTION_SKIP_MUTATION = "skip_mutation";
+    private static final String OPTION_PATH_TO_PROJECT = "project_root";
+    private static final String OPTION_PATH_TO_BINARY = "binary";
+    private static final String OPTION_PATH_TO_TEST_BINARY = "test_binary";
+    private static final String OPTION_PATH_TO_DEPENDENCY = "dependency";
+    private static final String OPTION_PATH_TO_REPORT = "report_dir";
+    private static final String OPTION_MAX_MUTATION = "max_mutation";
+    private static final String OPTION_ALPHA = "alpha";
+    private static final String OPTION_BETA = "beta";
+    private static final String OPTION_GAMMA = "gamma";
 
 
     protected final Options options = new Options();
@@ -135,6 +132,15 @@ public class MainClass {
                     break;
                 case "evaluate":
                     EvaluationUtil.main(new String[]{""});
+                    break;
+                case "parameters_tuning":
+                    ParametersTuning p = new ParametersTuning(config);
+                    p.printResult();
+                    break;
+                case "prapr":
+                    BoostPrapr.main(new String[]{""});
+                    break;
+
             }
 
         } catch (AbortAnalysisException e) {
@@ -180,6 +186,11 @@ public class MainClass {
 //            else config.setRootPath("E:/target_classes/");
 //        }
 
+        String phase = cmd.getOptionValue(OPTION_PHASE);
+        if (phase != null) {
+            config.setPhase(phase);
+        } else config.setPhase("instrument");
+
         String project_root = cmd.getOptionValue(OPTION_PATH_TO_PROJECT);
         if (project_root != null) {
             config.setProjectRoot(project_root);
@@ -198,7 +209,7 @@ public class MainClass {
         String alpha = cmd.getOptionValue(OPTION_ALPHA);
         if (alpha != null) {
             config.setAlpha(Double.parseDouble(alpha));
-        } else config.setAlpha(0.5);
+        } else config.setAlpha(0.4);
 
         String beta = cmd.getOptionValue(OPTION_BETA);
         if (beta != null) {
@@ -209,11 +220,6 @@ public class MainClass {
         if (gamma != null) {
             config.setGamma(Double.parseDouble(gamma));
         } else config.setGamma(0.1);
-
-        String phase = cmd.getOptionValue(OPTION_PHASE);
-        if (phase != null) {
-            config.setPhase(phase);
-        } else config.setPhase("instrument");
 
         String projectName = cmd.getOptionValue(OPTION_PROJECT_NAME);
         if (projectName != null) {
@@ -229,7 +235,7 @@ public class MainClass {
         String reportDir = cmd.getOptionValue(OPTION_PATH_TO_REPORT);
         if (reportDir != null) {
             config.setReport_dir(projectName);
-        } else config.setReport_dir("report/");
+        } else config.setReport_dir(Configuration.ReportRoot);
 
         String timeout = cmd.getOptionValue(OPTION_TIMEOUT);
         if (timeout != null) {
@@ -252,7 +258,7 @@ public class MainClass {
         String dependency = cmd.getOptionValue(OPTION_PATH_TO_DEPENDENCY);
         if (dependency != null) {
             config.setDependency(dependency);
-        } else config.setDependency("junit/");
+        } else config.setDependency(config.getProjectRoot() + "/dep");
 
         String max_mutation = cmd.getOptionValue(OPTION_MAX_MUTATION);
         if (max_mutation != null) {

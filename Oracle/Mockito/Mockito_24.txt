@@ -1,1 +1,1 @@
-fix	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	76	INS	invocation
+org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	answer(Lorg/mockito/invocation/InvocationOnMock;)Ljava/lang/Object;	invocation	fixed

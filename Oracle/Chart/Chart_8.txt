@@ -1,2 +1,4 @@
-fix	org.jfree.data.time.Week	175	INS	zone
-buggy	org.jfree.data.time.Week	175	DEL	RegularTimePeriod.DEFAULT_TIME_ZONE
+org.jfree.data.time.Week	<init>(Ljava/util/Date;Ljava/util/TimeZone;)V	time	buggy
+org.jfree.data.time.Week	<init>(Ljava/util/Date;Ljava/util/TimeZone;)V	.DEFAULT_TIME_ZONE	buggy
+org.jfree.data.time.Week	<init>(Ljava/util/Date;Ljava/util/TimeZone;)V	zone	fixed
+org.jfree.data.time.Week	<init>(Ljava/util/Date;Ljava/util/TimeZone;)V	time	fixed

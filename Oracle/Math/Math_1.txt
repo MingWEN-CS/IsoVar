@@ -1,6 +1,15 @@
-fix	org.apache.commons.math3.fraction.BigFraction	306	INS	epsilon
-fix	org.apache.commons.math3.fraction.BigFraction	306	INS	FastMath
-fix	org.apache.commons.math3.fraction.BigFraction	306	INS	maxDenominator
-fix	org.apache.commons.math3.fraction.Fraction	215	INS	epsilon
-fix	org.apache.commons.math3.fraction.Fraction	215	INS	FastMath
-fix	org.apache.commons.math3.fraction.Fraction	215	INS	maxDenominator
+org.apache.commons.math3.fraction.BigFraction	<init>(DDII)V	q1	fixed
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	.ZERO	fixed
+org.apache.commons.math3.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	d	fixed
+org.apache.commons.math3.fraction.BigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	num	fixed
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	wholeIsNeg	fixed
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	whole	fixed
+org.apache.commons.math3.fraction.FractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	source	fixed
+org.apache.commons.math3.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	den	fixed
+org.apache.commons.math3.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	n	fixed
+org.apache.commons.math3.fraction.BigFraction	<init>(DDII)V	maxDenominator	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	maxDenominator	fixed
+org.apache.commons.math3.fraction.BigFraction	<init>(DDII)V	epsilon	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	epsilon	fixed
+org.apache.commons.math3.fraction.FractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	pos	fixed
+org.apache.commons.math3.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/Fraction;	w	fixed

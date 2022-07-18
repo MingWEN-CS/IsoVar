@@ -1,2 +1,12 @@
-fix	org.apache.commons.math3.geometry.euclidean.threed.Line	88	INS	reverted.direction
-buggy	org.apache.commons.math3.geometry.euclidean.threed.Line	87	DEL	zero
+org.apache.commons.math3.geometry.euclidean.threed.Line	revert()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	this.zero	buggy
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	this.line	buggy
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	start	buggy
+org.apache.commons.math3.geometry.euclidean.threed.Line	revert()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	this.direction	buggy
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	interval	buggy
+org.apache.commons.math3.geometry.euclidean.threed.Line	revert()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	reverted	buggy
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	this.line	fixed
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	start	fixed
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	interval	fixed
+org.apache.commons.math3.geometry.euclidean.threed.SubLine	getSegments()Ljava/util/List;	end	fixed
+org.apache.commons.math3.geometry.euclidean.threed.Line	revert()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	reverted.direction	fixed
+org.apache.commons.math3.geometry.euclidean.threed.Line	revert()Lorg/apache/commons/math3/geometry/euclidean/threed/Line;	reverted	fixed

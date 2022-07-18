@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.FunctionRewriter	117	INS	NodeUtil
-fix	com.google.javascript.jscomp.FunctionRewriter	118	INS	NodeUtil
-fix	com.google.javascript.jscomp.FunctionRewriter	118	INS	n
+com.google.javascript.jscomp.FunctionRewriter	isReduceableFunctionExpression(Lcom/google/javascript/rhino/Node;)Z	n	buggy
+com.google.javascript.jscomp.FunctionRewriter	isReduceableFunctionExpression(Lcom/google/javascript/rhino/Node;)Z	n	fixed

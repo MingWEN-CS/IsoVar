@@ -3,16 +3,17 @@ package IsoVar;
 import Instrument.InstrTransform;
 import Util.Commit;
 import Util.Hunk;
+import Util.Pair;
 import Util.Patch;
 import soot.*;
 import soot.options.Options;
 
 import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 
 import static Instrument.InstrTransform.isJVMGeneratedMethod;
-import static Instrument.Instrument.byteCodeSunSignature;
-import static Instrument.Instrument.myHashCode;
+import static Instrument.Instrument.*;
 
 
 public class PatchSummary {
@@ -26,23 +27,30 @@ public class PatchSummary {
         resolvePostWithDiff(commit);
     }
 
-    public static HashSet<String> readOracles(Configuration config, boolean reMapping) {
-        File file = new File(config.oracleRootPath + "/" + config.getProjectName() + "/" +
+    public static HashSet<VariableTrimInfo> readOracles(Configuration config, boolean reMapping) {
+        File file = new File(Configuration.oracleRootPath + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
-        HashSet<String> oracles = new HashSet<>();
+        HashSet<VariableTrimInfo> oracles = new HashSet<>();
         try {
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
             while ((line = bf.readLine()) != null) {
                 lineSplit = line.split("\t");
-                oracles.add(lineSplit[0] + " " + lineSplit[1]);
-                String varName = lineSplit[1];
-                if (varName.endsWith("[]"))
-                    oracles.add(lineSplit[0] + " " + varName.substring(0, varName.length() - 2));
+                String varName = lineSplit[2];
+                int hash = myHashCode(lineSplit[0]) + myHashCode(lineSplit[1]);
+                VariableInfo var1 = new VariableInfo(varName, hash);
+                oracles.add(new VariableTrimInfo(var1));
+                if (varName.endsWith("[]")) {
+                    varName = varName.substring(0, varName.length() - 2);
+                    VariableInfo var = new VariableInfo(varName, hash);
+                    oracles.add(new VariableTrimInfo(var));
+                }
                 if (varName.contains(".") && !varName.startsWith(".")) {
-                    oracles.add(lineSplit[0] + " " + varName.substring(0, varName.indexOf(".")));
+                    varName = varName.substring(0, varName.indexOf("."));
+                    VariableInfo var = new VariableInfo(varName, hash);
+                    oracles.add(new VariableTrimInfo(var));
                 }
             }
             bf.close();
@@ -51,10 +59,10 @@ public class PatchSummary {
             if (!reMapping)
                 return oracles;
 
-            file = new File(config.instrMapping + "/" + config.getProjectName() + "/" +
+            file = new File(Configuration.instrMapping + "/" + config.getProjectName() + "/" +
                     config.getProjectName() + "_" + config.getCurrent() + ".txt");
             Map<String, String> hashMap = new HashMap<>();
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             bf = new BufferedReader(inputReader);
             while ((line = bf.readLine()) != null) {
                 StringBuilder sb = new StringBuilder();
@@ -77,12 +85,16 @@ public class PatchSummary {
             bf.close();
             inputReader.close();
 
-            HashSet<String> newOracles = new HashSet<>();
-            for (String oracle : oracles) {
-                String[] split = oracle.split(" ");
-                newOracles.add(hashMap.get(split[0]) + " " + split[1]);
-                if (split[1].endsWith("[]"))
-                    newOracles.add(hashMap.get(split[0]) + " " + split[1].substring(0, split[1].length() - 2));
+            HashSet<VariableTrimInfo> newOracles = new HashSet<>();
+            for (VariableTrimInfo oracle : oracles) {
+                String[] split = oracle.var.name.split(" ");
+                oracle.var.name = hashMap.get(split[0]) + " " + split[1];
+                newOracles.add(oracle);
+
+                if (split[1].endsWith("[]")) {
+                    oracle.var.name = hashMap.get(split[0]) + " " + split[1].substring(0, split[1].length() - 2);
+                    newOracles.add(oracle);
+                }
             }
             return newOracles;
 
@@ -93,18 +105,22 @@ public class PatchSummary {
     }
 
     protected void writeOracles() {
-        File file = new File(config.oracleRootPath + "/" + config.getProjectName() + "/" +
+        File file = new File(Configuration.oracleRootPath + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         File parent = file.getParentFile();
         if (!parent.exists())
             parent.mkdirs();
         try {
             FileWriter fw = new FileWriter(file);
-            for (VariableTrimInfo var : buggyVars) {
-                fw.write(var.methodHash + "\t" + var.name + "\tbuggy\n");
+            for (VariableTrimInfo varT : buggyVars) {
+                fw.write(varT.var.className + "\t" + varT.var.methodName + "\t");
+                String name = varT.var.name.contains("#") ? varT.var.trueName : varT.var.name;
+                fw.write(name + "\tbuggy\n");
             }
-            for (VariableTrimInfo var : fixedVars) {
-                fw.write(var.methodHash + "\t" + var.name + "\tfixed\n");
+            for (VariableTrimInfo varT : fixedVars) {
+                fw.write(varT.var.className + "\t" + varT.var.methodName + "\t");
+                String name = varT.var.name.contains("#") ? varT.var.trueName : varT.var.name;
+                fw.write(name + "\tfixed\n");
             }
             fw.close();
         } catch (IOException e) {
@@ -145,7 +161,10 @@ public class PatchSummary {
                     continue;
 
                 int start = method.getJavaSourceStartLineNumber();
-                int end = body.getUnits().getLast().getJavaSourceStartLineNumber();
+                int end = -1;
+                for (Unit unit : body.getUnits()) {
+                    end = Math.max(end, unit.getJavaSourceStartLineNumber());
+                }
                 boolean modify = false;
                 for (Integer line : lines) {
                     if (start <= line && line <= end) {
@@ -154,16 +173,24 @@ public class PatchSummary {
                     }
                 }
                 if (modify) {
-                    int hash = myHashCode(method.getDeclaringClass().getName()) +
-                            myHashCode(byteCodeSunSignature(method));
+//                    int hash = myHashCode(method.getDeclaringClass().getName()) +
+//                            myHashCode(byteCodeSunSignature(method));
                     Set<VariableInfo>[] methodVars = InstrTransform.doTransverse(body);
                     for (Set<VariableInfo> BBs : methodVars) {
                         for (VariableInfo varInBB : BBs) {
                             if (lines.contains(varInBB.getLine())) {
-//                                varInBB.className = method.getDeclaringClass().getName();
-//                                varInBB.methodName = method.getSubSignature();
-//                                varInBB.methodHash = hash;
-                                vars.add(new VariableTrimInfo(varInBB.name, varInBB.desc, hash, varInBB.isClinit));
+                                vars.add(new VariableTrimInfo(varInBB));
+                                if (varInBB.getLine() != -1 && !varInBB.name.contains(".")) {
+                                    Pair<Integer, Boolean> info = getVarsInfo(varInBB, methodVars);
+                                    String clazzRoot = config.getProjectTargetPath();
+                                    String path = clazzRoot + varInBB.className.replace(".", "/") + ".class";
+                                    String newName = recoverName(path, varInBB.methodName, varInBB.desc, info);
+                                    if (newName == null) {
+                                        varInBB.trueName = varInBB.name;
+                                    } else
+                                        varInBB.trueName = newName;
+                                } else
+                                    varInBB.trueName = varInBB.name;
                             }
                         }
                     }
@@ -183,7 +210,7 @@ public class PatchSummary {
                 // ignore test-related file
             else if (file.contains("src/test") ||
                     file.contains("src/main/test") ||
-                    file.contains("Test"))
+                    file.contains("/test/"))
                 continue;
 
             if (patch.isAddNewFile) {
@@ -211,7 +238,7 @@ public class PatchSummary {
         String subName = clazzName.substring(clazzName.lastIndexOf(".") + 1);
         File file = new File(config.getProjectTargetPath() + clazzName.replace(".", "/") + ".class");
         File parent = file.getParentFile();
-        for (File listFile : parent.listFiles()) {
+        for (File listFile : Objects.requireNonNull(parent.listFiles())) {
             if (listFile.isFile()) {
                 String name = listFile.getName().substring(0, listFile.getName().length() - 6);
                 if (name.contains(subName))

@@ -1,1 +1,2 @@
-buggy	org.apache.commons.math.stat.Frequency	303	UPD	getCumPct
+org.apache.commons.math.stat.Frequency	getPct(Ljava/lang/Object;)D	v	buggy
+org.apache.commons.math.stat.Frequency	getPct(Ljava/lang/Object;)D	v	fixed

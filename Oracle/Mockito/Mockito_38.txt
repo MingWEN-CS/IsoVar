@@ -1,1 +1,2 @@
-fix	org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool	48	INS	arg
+org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool	toStringEquals(Lorg/hamcrest/Matcher;Ljava/lang/Object;)Z	arg	buggy
+org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool	toStringEquals(Lorg/hamcrest/Matcher;Ljava/lang/Object;)Z	arg	fixed

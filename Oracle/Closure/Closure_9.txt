@@ -1,3 +1,8 @@
-fix	com.google.javascript.jscomp.ProcessCommonJSModules	119	INS	filename
-buggy	com.google.javascript.jscomp.ProcessCommonJSModules	183	UPD	normalizeSourceName
-buggy	com.google.javascript.jscomp.ProcessCommonJSModules	183	DEL	guessCJSModuleName
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	this.this$0	buggy
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	moduleName	buggy
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	script	buggy
+com.google.javascript.jscomp.ProcessCommonJSModules	normalizeSourceName(Ljava/lang/String;)Ljava/lang/String;	filename#2	fixed
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	this.this$0	fixed
+com.google.javascript.jscomp.ProcessCommonJSModules	normalizeSourceName(Ljava/lang/String;)Ljava/lang/String;	filename	fixed
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	moduleName	fixed
+com.google.javascript.jscomp.ProcessCommonJSModules$ProcessCommonJsModulesCallback	visitScript(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;)V	script	fixed

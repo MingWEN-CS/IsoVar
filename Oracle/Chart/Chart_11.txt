@@ -1,1 +1,4 @@
-buggy	org.jfree.chart.util.ShapeUtilities	275	UPD	p1
+org.jfree.chart.util.ShapeUtilities	equal(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	iterator2	buggy
+org.jfree.chart.util.ShapeUtilities	equal(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	p1	buggy
+org.jfree.chart.util.ShapeUtilities	equal(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	iterator2	fixed
+org.jfree.chart.util.ShapeUtilities	equal(Ljava/awt/geom/GeneralPath;Ljava/awt/geom/GeneralPath;)Z	p2	fixed

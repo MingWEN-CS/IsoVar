@@ -1,8 +1,5 @@
-fix	com.google.javascript.jscomp.ControlFlowAnalysis	894	INS	Token.INSTANCEOF
-fix	com.google.javascript.jscomp.DisambiguateProperties	763	INS	foundType
-fix	com.google.javascript.jscomp.DisambiguateProperties	769	INS	maybeType
-fix	com.google.javascript.jscomp.DisambiguateProperties	764	INS	maybeType
-fix	com.google.javascript.jscomp.DisambiguateProperties	764	INS	ObjectType
-fix	com.google.javascript.jscomp.DisambiguateProperties	765	INS	registry
-fix	com.google.javascript.jscomp.DisambiguateProperties	770	INS	foundType
-fix	com.google.javascript.jscomp.DisambiguateProperties	770	INS	maybeType
+com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem	getTypeWithProperty(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;	this.registry	fixed
+com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem	getTypeWithProperty(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;	foundType	fixed
+com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem	getTypeWithProperty(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;	field	fixed
+com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem	getTypeWithProperty(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;	maybeType	fixed
+com.google.javascript.jscomp.DisambiguateProperties$JSTypeSystem	getTypeWithProperty(Ljava/lang/String;Lcom/google/javascript/rhino/jstype/JSType;)Lcom/google/javascript/rhino/jstype/ObjectType;	type	fixed

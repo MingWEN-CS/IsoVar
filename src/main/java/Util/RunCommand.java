@@ -3,6 +3,7 @@ package Util;
 import IsoVar.Configuration;
 
 import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.Pattern;
@@ -14,6 +15,8 @@ public class RunCommand {
     public List<TestSuite> passing = new ArrayList<>();
     public Set<String> passingClazz = new HashSet<>();
     Configuration config;
+
+    public static short timeoutHit = 0;
 
     public RunCommand(Configuration config) {
         this.config = config;
@@ -29,7 +32,7 @@ public class RunCommand {
         failingPath = config.getProjectRoot() + "/trigger";
         try {
             File file = new File(failingPath);
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             while ((line = bf.readLine()) != null) {
@@ -41,7 +44,7 @@ public class RunCommand {
 
             passingPath = config.getProjectRoot() + "/alltest";
             file = new File(passingPath);
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             bf = new BufferedReader(inputReader);
             while ((line = bf.readLine()) != null) {
                 passingClazz.add(line);
@@ -60,7 +63,7 @@ public class RunCommand {
         File file = new File(failingPath);
         InputStreamReader inputReader;
         try {
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
@@ -74,7 +77,7 @@ public class RunCommand {
 
             passingPath = "/Bears-" + config.getCurrent() + "_passing.txt";
             file = new File(passingPath);
-            inputReader = new InputStreamReader(new FileInputStream(file));
+            inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             bf = new BufferedReader(inputReader);
             while ((line = bf.readLine()) != null) {
                 lineSplit = line.split("::");
@@ -90,7 +93,6 @@ public class RunCommand {
 
 
     private String generateCmd(Configuration config, String classNames, String mutant) {
-        String projectRoot = config.getProjectRoot();
 //        if (config.getProjectName().equals("Closure")) {
 //            dependence = projectRoot + "/build/lib/*";
 //            dependence += ";" + projectRoot + "/lib/*";
@@ -108,10 +110,11 @@ public class RunCommand {
                 "-cp \"";
         if (mutant != null)
             cmd += mutant + ";";
-        cmd += config.getProjectInstrPath() + ";" +
-                config.getProjectTargetPath() + ";" +
-                config.getProjectTestPath() + ";" +
-                config.getDependency() + "\" " +
+        cmd += config.getProjectInstrPath() + ";";
+        if (isLinux())
+            cmd += config.getProjectTargetPath() + ";" +
+                    config.getProjectTestPath() + ";";
+        cmd += config.getDependency() + "\" " +
                 toTestClazz + " " +
                 ProcessFailingTest;
         if (isLinux())
@@ -135,11 +138,17 @@ public class RunCommand {
 
         for (String className : usedSuites) {
             cmd = generateCmd(config, className, mutant);
+//            int timeout =
+            int timeout = config.getTimeout();
+            if (mutant == null && isFailing(className)) { // statistical phas
+                timeout = 60;
+            }
+            cmd = "timeout " + (timeout + 1) + "s " + cmd;
             if (config.isDebug())
                 System.out.println(cmd);
             Future<Map<TestSuite, Map<Integer, Integer[]>>> future = es.submit(new MyCallable_tomem_analyze(cmd, config));
             try {
-                Map<TestSuite, Map<Integer, Integer[]>> clazzAccess = future.get(config.getTimeout(), TimeUnit.SECONDS);
+                Map<TestSuite, Map<Integer, Integer[]>> clazzAccess = future.get(timeout, TimeUnit.SECONDS);
                 if (clazzAccess.containsKey(null) || clazzAccess.isEmpty()) {
 //                    cmd = cmd.replace("java -cp", "java -noverify -cp");
                     future = es.submit(new MyCallable_tomem_analyze(cmd, config));
@@ -162,15 +171,25 @@ public class RunCommand {
                 }
             } catch (InterruptedException | ExecutionException ignore) {
                 future.cancel(true);
-            } catch (TimeoutException timeout) {
+            } catch (TimeoutException t) {
                 for (TestSuite testSuite : failing) {
                     if (testSuite.className.equals(className))
-                        config.setSkip_mutation(true);
+                        timeoutHit++;
                 }
+                if (timeoutHit > 15)
+                    config.setSkip_mutation(true);
             }
         }
         es.shutdownNow();
         return cmd;
+    }
+
+    private boolean isFailing(String className) {
+        for (TestSuite testSuite : failing) {
+            if (testSuite.className.equals(className))
+                return true;
+        }
+        return false;
     }
 
 //    public Set<Integer> runCommandsFailingAccess(ProjectInfo project, Configuration config) {

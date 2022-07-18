@@ -1,17 +1,12 @@
-buggy	com.google.javascript.jscomp.TypedScopeCreator	1407	MOV	qVar
-fix	com.google.javascript.jscomp.TypedScopeCreator	1414	INS	qVarType
-fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	qVarType
-fix	com.google.javascript.jscomp.TypedScopeCreator	1416	INS	rhsValue
-fix	com.google.javascript.jscomp.TypedScopeCreator	1416	INS	Token.OBJECTLIT
-fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	ObjectType
-fix	com.google.javascript.jscomp.TypedScopeCreator	1415	INS	rhsValue
-fix	com.google.javascript.jscomp.TypedScopeCreator	1413	INS	qVar
-fix	com.google.javascript.jscomp.TypedScopeCreator	1417	INS	typeRegistry
-fix	com.google.javascript.jscomp.TypedScopeCreator	1418	INS	rhsValue
-fix	com.google.javascript.jscomp.TypedScopeCreator	1418	INS	qVarType
-fix	com.google.javascript.rhino.jstype.FunctionType	372	INS	oldPrototype
-fix	com.google.javascript.rhino.jstype.FunctionType	365	INS	oldPrototype
-fix	com.google.javascript.rhino.jstype.FunctionType	365	INS	prototype
-buggy	com.google.javascript.rhino.jstype.FunctionType	366	UPD	prototype
-fix	com.google.javascript.rhino.jstype.FunctionType	375	INS	oldPrototype
-buggy	com.google.javascript.rhino.jstype.FunctionType	341	DEL	baseType
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	qVar	buggy
+com.google.javascript.rhino.jstype.FunctionType	setPrototype(Lcom/google/javascript/rhino/jstype/PrototypeObjectType;)Z	replacedPrototype	buggy
+com.google.javascript.rhino.jstype.FunctionType	setPrototype(Lcom/google/javascript/rhino/jstype/PrototypeObjectType;)Z	prototype	buggy
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	rhsValue	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	qVarType	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	qVarType	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	this.this$0	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	qVarType	fixed
+com.google.javascript.jscomp.TypedScopeCreator$AbstractScopeBuilder	maybeDeclareQualifiedName(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/JSDocInfo;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	qVar	fixed
+com.google.javascript.rhino.jstype.FunctionType	setPrototype(Lcom/google/javascript/rhino/jstype/PrototypeObjectType;)Z	this.prototype	fixed
+com.google.javascript.rhino.jstype.FunctionType	setPrototype(Lcom/google/javascript/rhino/jstype/PrototypeObjectType;)Z	replacedPrototype	fixed
+com.google.javascript.rhino.jstype.FunctionType	setPrototype(Lcom/google/javascript/rhino/jstype/PrototypeObjectType;)Z	oldPrototype	fixed

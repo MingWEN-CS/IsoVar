@@ -1,2 +1,4 @@
-fix	com.google.javascript.jscomp.LiveVariablesAnalysis	206	INS	NodeUtil
-fix	com.google.javascript.jscomp.LiveVariablesAnalysis	210	INS	computeGenKill
+com.google.javascript.jscomp.LiveVariablesAnalysis	computeGenKill(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	gen	fixed
+com.google.javascript.jscomp.LiveVariablesAnalysis	computeGenKill(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	conditional	fixed
+com.google.javascript.jscomp.LiveVariablesAnalysis	computeGenKill(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	lhs	fixed
+com.google.javascript.jscomp.LiveVariablesAnalysis	computeGenKill(Lcom/google/javascript/rhino/Node;Ljava/util/BitSet;Ljava/util/BitSet;Z)V	kill	fixed

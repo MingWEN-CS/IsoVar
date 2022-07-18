@@ -1,1 +1,2 @@
-buggy	org.jfree.chart.renderer.category.AbstractCategoryItemRenderer	1797	UPD	dataset
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer	getLegendItems()Lorg/jfree/chart/LegendItemCollection;	dataset	buggy
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer	getLegendItems()Lorg/jfree/chart/LegendItemCollection;	dataset	fixed

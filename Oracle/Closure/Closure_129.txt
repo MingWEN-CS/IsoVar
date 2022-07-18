@@ -1,2 +1,1 @@
-fix	com.google.javascript.jscomp.PrepareAst	166	INS	first
-fix	com.google.javascript.jscomp.PrepareAst	167	INS	first
+com.google.javascript.jscomp.PrepareAst$PrepareAnnotations	annotateCalls(Lcom/google/javascript/rhino/Node;)V	first	fixed

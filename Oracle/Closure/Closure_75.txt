@@ -1,2 +1,3 @@
-fix	com.google.javascript.jscomp.NodeUtil	313	INS	rawJsString
-buggy	com.google.javascript.jscomp.NodeUtil	375	UPD	TernaryValue.TRUE
+com.google.javascript.jscomp.NodeUtil	isStrWhiteSpaceChar(I)Lcom/google/javascript/rhino/jstype/TernaryValue;	.TRUE	buggy
+com.google.javascript.jscomp.NodeUtil	getStringNumberValue(Ljava/lang/String;)Ljava/lang/Double;	rawJsString	fixed
+com.google.javascript.jscomp.NodeUtil	isStrWhiteSpaceChar(I)Lcom/google/javascript/rhino/jstype/TernaryValue;	.UNKNOWN	fixed

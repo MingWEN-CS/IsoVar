@@ -1,2 +1,6 @@
-fix	org.joda.time.format.DateTimeFormatter	708	INS	DateTimeUtils
-buggy	org.joda.time.format.DateTimeFormatter	710	MOV	chrono
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	defaultYear	buggy
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	instantLocal	buggy
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	chrono	buggy
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	instantMillis	fixed
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	defaultYear	fixed
+org.joda.time.format.DateTimeFormatter	parseInto(Lorg/joda/time/ReadWritableInstant;Ljava/lang/String;I)I	chrono	fixed

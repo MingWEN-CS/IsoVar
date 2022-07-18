@@ -1,2 +1,3 @@
-buggy	org.apache.commons.lang.LocaleUtils	223	UPD	cAvailableLocaleSet
-buggy	org.apache.commons.lang.LocaleUtils	223	MOV	cAvailableLocaleSet
+org.apache.commons.lang.LocaleUtils	isAvailableLocale(Ljava/util/Locale;)Z	.cAvailableLocaleSet	buggy
+org.apache.commons.lang.LocaleUtils	isAvailableLocale(Ljava/util/Locale;)Z	locale	buggy
+org.apache.commons.lang.LocaleUtils	isAvailableLocale(Ljava/util/Locale;)Z	locale	fixed

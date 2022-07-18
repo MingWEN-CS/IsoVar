@@ -1,1 +1,4 @@
-fix	org.jfree.chart.axis.Axis	1192	INS	owner
+org.jfree.chart.axis.NumberAxis	refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;)Ljava/util/List;	formatter	fixed
+org.jfree.chart.axis.CyclicNumberAxis	equals(Ljava/lang/Object;)Z	this.offset	fixed
+org.jfree.chart.axis.CyclicNumberAxis	equals(Ljava/lang/Object;)Z	that.offset	fixed
+org.jfree.chart.axis.Axis	drawLabel(Ljava/lang/String;Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/util/RectangleEdge;Lorg/jfree/chart/axis/AxisState;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;	owner	fixed

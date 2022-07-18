@@ -1,3 +1,2 @@
-fix	org.apache.commons.lang3.time.FastDateParser	144	INS	patternMatcher
-fix	org.apache.commons.lang3.time.FastDateParser	145	INS	pattern
-fix	org.apache.commons.lang3.time.FastDateParser	145	INS	patternMatcher
+org.apache.commons.lang3.time.FastDateParser	init()V	this.pattern	fixed
+org.apache.commons.lang3.time.FastDateParser	init()V	patternMatcher	fixed

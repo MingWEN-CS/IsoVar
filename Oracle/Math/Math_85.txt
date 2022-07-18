@@ -1,2 +1,4 @@
-buggy	org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	198	UPD	fa
-buggy	org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	198	UPD	fb
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	bracket(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fa	buggy
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	bracket(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fb	buggy
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	bracket(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fa	fixed
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils	bracket(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDDI)[D	fb	fixed

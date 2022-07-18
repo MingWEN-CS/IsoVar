@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer	chooseInitialCenters(Ljava/util/Collection;ILjava/util/Random;)Ljava/util/List;	sum	buggy
+org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer	chooseInitialCenters(Ljava/util/Collection;ILjava/util/Random;)Ljava/util/List;	sum	fixed

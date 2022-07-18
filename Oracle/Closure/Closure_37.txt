@@ -1,5 +1,3 @@
-fix	com.google.javascript.jscomp.NodeTraversal	541	INS	Preconditions
-fix	com.google.javascript.jscomp.parsing.IRFactory	667	INS	bodyNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	671	INS	Preconditions
-fix	com.google.javascript.jscomp.parsing.IRFactory	672	INS	bodyNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	672	INS	IR
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/rhino/head/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	bodyNode	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/rhino/head/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	this.this$0	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processFunctionNode(Lcom/google/javascript/rhino/head/ast/FunctionNode;)Lcom/google/javascript/rhino/Node;	functionType	fixed

@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.InlineObjectLiterals	331	INS	nodes
-fix	com.google.javascript.jscomp.InlineObjectLiterals	332	INS	replacement
-fix	com.google.javascript.jscomp.InlineObjectLiterals	332	INS	Token.TRUE
+com.google.javascript.jscomp.InlineObjectLiterals$InliningBehavior	replaceAssignmentExpression(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Ljava/util/Map;)V	nodes	fixed
+com.google.javascript.jscomp.InlineObjectLiterals$InliningBehavior	replaceAssignmentExpression(Lcom/google/javascript/jscomp/Scope$Var;Lcom/google/javascript/jscomp/ReferenceCollectingCallback$Reference;Ljava/util/Map;)V	key	fixed

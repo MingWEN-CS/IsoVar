@@ -1,18 +1,8 @@
-fix	org.apache.commons.lang.enums.ValuedEnum	202	INS	getValueInOtherClassLoader
-fix	org.apache.commons.lang.enums.ValuedEnum	202	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	183	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	186	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	199	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	207	INS	e
-fix	org.apache.commons.lang.enums.ValuedEnum	209	INS	e
-fix	org.apache.commons.lang.enums.ValuedEnum	211	INS	e
-fix	org.apache.commons.lang.enums.ValuedEnum	191	INS	ClassUtils
-fix	org.apache.commons.lang.enums.ValuedEnum	191	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	204	INS	mth
-fix	org.apache.commons.lang.enums.ValuedEnum	205	INS	value
-fix	org.apache.commons.lang.enums.ValuedEnum	206	INS	value
-fix	org.apache.commons.lang.enums.ValuedEnum	188	INS	iValue
-fix	org.apache.commons.lang.enums.ValuedEnum	188	INS	getValueInOtherClassLoader
-fix	org.apache.commons.lang.enums.ValuedEnum	187	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	204	INS	other
-fix	org.apache.commons.lang.enums.ValuedEnum	205	INS	mth
+org.apache.commons.lang.enums.ValuedEnum	getValueInOtherClassLoader(Ljava/lang/Object;)I	mth	fixed
+org.apache.commons.lang.enums.ValuedEnum	compareTo(Ljava/lang/Object;)I	other	fixed
+org.apache.commons.lang.enums.ValuedEnum	getValueInOtherClassLoader(Ljava/lang/Object;)I	mth#4	fixed
+org.apache.commons.lang.enums.ValuedEnum	getValueInOtherClassLoader(Ljava/lang/Object;)I	mth#2	fixed
+org.apache.commons.lang.enums.ValuedEnum	getValueInOtherClassLoader(Ljava/lang/Object;)I	mth#3	fixed
+org.apache.commons.lang.enums.ValuedEnum	compareTo(Ljava/lang/Object;)I	this	fixed
+org.apache.commons.lang.enums.ValuedEnum	compareTo(Ljava/lang/Object;)I	this.iValue	fixed
+org.apache.commons.lang.enums.ValuedEnum	getValueInOtherClassLoader(Ljava/lang/Object;)I	value	fixed

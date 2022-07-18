@@ -1,0 +1,212 @@
+=================================================
+Project : lang_43	start : 22/06/29 16:28
+Current failed test : org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477 | 22/06/29 16:28
+Wed Jun 29 16:28:08 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,158
+Wed Jun 29 16:28:23 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,159
+Wed Jun 29 16:28:35 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,419
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=pos.getIndex();
+char[] c=pattern.toCharArray();
+if(escapingOn&&c[start]==QUOTE){
+next(pos);
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0020093882692773 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>0,0]
+swtich (c[pos.getIndex()]){
+case QUOTE :
+next(pos);
+return appendTo==null?null:appendTo.append(c,lastHold,pos.getIndex()-lastHold);
+
+default :
+next(pos);
+
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>419,423]
+int start=pos.getIndex();
+char[] c=pattern.toCharArray();
+if(escapingOn&&c[start]==QUOTE){
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>419,423]
+int start=pos.getIndex();
+char[] c=pattern.toCharArray();
+if(escapingOn&&c[start]==QUOTE){
+next(pos);
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:29
+----------------------------------------
+Wed Jun 29 16:38:37 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,420
+Wed Jun 29 16:38:37 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,421
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(escapingOn&&c[start]==QUOTE){
+next(pos);
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.44663120112433 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>0,0]
+case QUOTE :
+next(pos);
+return appendTo==null?null:appendTo.append(c,lastHold,pos.getIndex()-lastHold);
+
+default :
+
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>421,423]
+if(escapingOn&&c[start]==QUOTE){
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_43_buggy/src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java=>421,423]
+if(escapingOn&&c[start]==QUOTE){
+next(pos);
+return appendTo==null?null:appendTo.append(QUOTE);
+}
+
+Time : 22/06/29 16:42
+----------------------------------------
+Wed Jun 29 16:44:33 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,422
+Wed Jun 29 16:44:33 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,112
+Wed Jun 29 16:44:34 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,148
+Wed Jun 29 16:44:43 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,149
+Wed Jun 29 16:44:44 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,150
+Wed Jun 29 16:44:45 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,152
+Wed Jun 29 16:45:35 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,153
+Wed Jun 29 16:46:58 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,154
+Wed Jun 29 16:46:58 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,155
+Wed Jun 29 17:13:48 UTC 2022 Wed Jun 29 17:13:48 UTC 2022 : org.apache.commons.lang.text.ExtendedMessageFormat,156=>Find no block
+Wed Jun 29 17:13:48 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,187
+Wed Jun 29 17:13:48 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,188
+Wed Jun 29 17:13:48 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,403
+Wed Jun 29 17:14:28 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,404
+Wed Jun 29 17:14:28 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,124
+Wed Jun 29 17:14:36 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,125
+Wed Jun 29 17:14:36 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,126
+Wed Jun 29 17:14:36 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,127
+Wed Jun 29 17:14:36 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,143
+Wed Jun 29 17:14:37 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,144
+Wed Jun 29 17:14:37 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,145
+Wed Jun 29 17:14:37 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,146
+Wed Jun 29 17:14:37 UTC 2022 org.apache.commons.lang.text.StrMatcher,349
+Wed Jun 29 17:14:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,350
+Wed Jun 29 17:14:44 UTC 2022 Wed Jun 29 17:14:44 UTC 2022 : org.apache.commons.lang.text.StrMatcher,351=>Find no block
+Wed Jun 29 17:14:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,363
+Wed Jun 29 18:41:13 UTC 2022 org.apache.commons.lang.text.StrMatcher,364
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,365
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,367
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,368
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,369
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,372
+Wed Jun 29 18:41:14 UTC 2022 org.apache.commons.lang.text.StrMatcher,216
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,217=>Find no block
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,37=>Find no block
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,41=>Find no block
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,45=>Find no block
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,50=>Find no block
+Wed Jun 29 18:41:15 UTC 2022 Wed Jun 29 18:41:15 UTC 2022 : org.apache.commons.lang.text.StrMatcher,54=>Find no block
+Wed Jun 29 18:41:16 UTC 2022 Wed Jun 29 18:41:16 UTC 2022 : org.apache.commons.lang.text.StrMatcher,58=>Find no block
+Wed Jun 29 18:41:16 UTC 2022 Wed Jun 29 18:41:16 UTC 2022 : org.apache.commons.lang.text.StrMatcher,62=>Find no block
+Wed Jun 29 18:41:16 UTC 2022 Wed Jun 29 18:41:16 UTC 2022 : org.apache.commons.lang.text.StrMatcher,66=>Find no block
+Wed Jun 29 18:41:16 UTC 2022 Wed Jun 29 18:41:16 UTC 2022 : org.apache.commons.lang.text.StrMatcher,70=>Find no block
+Wed Jun 29 18:41:16 UTC 2022 org.apache.commons.lang.text.StrMatcher,80
+Wed Jun 29 18:41:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,89
+Wed Jun 29 18:41:18 UTC 2022 org.apache.commons.lang.text.StrMatcher,98
+Wed Jun 29 18:41:18 UTC 2022 org.apache.commons.lang.text.StrMatcher,108
+Wed Jun 29 18:41:19 UTC 2022 org.apache.commons.lang.text.StrMatcher,117
+Wed Jun 29 18:41:19 UTC 2022 org.apache.commons.lang.text.StrMatcher,126
+Wed Jun 29 18:41:20 UTC 2022 org.apache.commons.lang.text.StrMatcher,135
+Wed Jun 29 18:41:21 UTC 2022 org.apache.commons.lang.text.StrMatcher,144
+Wed Jun 29 18:41:21 UTC 2022 org.apache.commons.lang.text.StrMatcher,153
+Wed Jun 29 18:41:22 UTC 2022 org.apache.commons.lang.text.StrMatcher,163
+Wed Jun 29 18:41:22 UTC 2022 org.apache.commons.lang.text.StrMatcher,173
+Wed Jun 29 18:44:43 UTC 2022 org.apache.commons.lang.text.StrMatcher,174
+Wed Jun 29 18:44:43 UTC 2022 org.apache.commons.lang.text.StrMatcher,176
+Wed Jun 29 18:46:12 UTC 2022 org.apache.commons.lang.text.StrMatcher,177
+Wed Jun 29 18:46:12 UTC 2022 org.apache.commons.lang.text.StrMatcher,179
+Wed Jun 29 18:49:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,189
+Wed Jun 29 18:51:57 UTC 2022 org.apache.commons.lang.text.StrMatcher,190
+Wed Jun 29 18:51:57 UTC 2022 org.apache.commons.lang.text.StrMatcher,192
+Wed Jun 29 18:53:24 UTC 2022 org.apache.commons.lang.text.StrMatcher,193
+Wed Jun 29 18:53:24 UTC 2022 org.apache.commons.lang.text.StrMatcher,195
+Wed Jun 29 18:57:19 UTC 2022 org.apache.commons.lang.text.StrMatcher,205
+Wed Jun 29 19:04:11 UTC 2022 org.apache.commons.lang.text.StrMatcher,206
+Wed Jun 29 19:04:12 UTC 2022 org.apache.commons.lang.text.StrMatcher,208
+Wed Jun 29 19:12:17 UTC 2022 org.apache.commons.lang.text.StrMatcher,267
+Wed Jun 29 19:12:18 UTC 2022 org.apache.commons.lang.text.StrMatcher,413
+Wed Jun 29 19:12:19 UTC 2022 Wed Jun 29 19:12:19 UTC 2022 : org.apache.commons.lang.text.StrMatcher,414=>Find no block
+Wed Jun 29 19:12:19 UTC 2022 org.apache.commons.lang.text.StrMatcher,426
+Wed Jun 29 19:12:57 UTC 2022 org.apache.commons.lang.text.StrMatcher,386
+Wed Jun 29 19:12:57 UTC 2022 Wed Jun 29 19:12:57 UTC 2022 : org.apache.commons.lang.text.StrMatcher,387=>Find no block
+Wed Jun 29 19:12:57 UTC 2022 org.apache.commons.lang.text.StrMatcher,399
+Wed Jun 29 19:12:58 UTC 2022 org.apache.commons.lang.text.StrMatcher,317
+Wed Jun 29 19:13:02 UTC 2022 org.apache.commons.lang.text.StrMatcher,318
+Wed Jun 29 19:13:02 UTC 2022 Wed Jun 29 19:13:02 UTC 2022 : org.apache.commons.lang.text.StrMatcher,319=>Find no block
+Wed Jun 29 19:13:02 UTC 2022 org.apache.commons.lang.text.StrMatcher,331
+Wed Jun 29 19:13:38 UTC 2022 org.apache.commons.lang.text.StrMatcher,284
+Wed Jun 29 19:13:43 UTC 2022 org.apache.commons.lang.text.StrMatcher,285
+Wed Jun 29 19:13:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,286
+Wed Jun 29 19:13:44 UTC 2022 Wed Jun 29 19:13:44 UTC 2022 : org.apache.commons.lang.text.StrMatcher,287=>Find no block
+Wed Jun 29 19:13:44 UTC 2022 org.apache.commons.lang.text.StrMatcher,299
+Wed Jun 29 19:14:21 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,90
+Wed Jun 29 19:14:22 UTC 2022 Wed Jun 29 19:14:22 UTC 2022 : org.apache.commons.lang.text.ExtendedMessageFormat,91=>Find no block
+Wed Jun 29 19:14:22 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,101
+Wed Jun 29 19:14:23 UTC 2022 Wed Jun 29 19:14:23 UTC 2022 : org.apache.commons.lang.text.ExtendedMessageFormat,102=>Find no block
+Wed Jun 29 19:14:23 UTC 2022 Wed Jun 29 19:14:23 UTC 2022 : org.apache.commons.lang.text.ExtendedMessageFormat,113=>Find no block
+Wed Jun 29 19:14:23 UTC 2022 Wed Jun 29 19:14:23 UTC 2022 : org.apache.commons.lang.text.ExtendedMessageFormat,128=>Find no block
+Wed Jun 29 19:14:23 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,134
+Wed Jun 29 19:14:24 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,161
+Wed Jun 29 19:14:27 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,162
+Wed Jun 29 19:14:40 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,163
+Wed Jun 29 19:18:16 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,164
+Wed Jun 29 19:53:07 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,165
+Wed Jun 29 20:29:54 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,166
+Wed Jun 29 21:06:14 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,167
+Wed Jun 29 21:07:23 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,168
+Wed Jun 29 21:12:52 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,169
+Wed Jun 29 21:12:52 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,170
+Wed Jun 29 21:12:53 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,172
+Wed Jun 29 21:12:53 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,173
+Wed Jun 29 21:12:53 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,174
+Wed Jun 29 21:12:53 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,177
+Wed Jun 29 21:23:00 UTC 2022 org.apache.commons.lang.text.ExtendedMessageFormat,178
+Timeout time : 22/06/29 21:28

@@ -1,3 +1,8 @@
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	698	INS	lvalLong
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	698	INS	lvalInt
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	698	UPD	lvalInt
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	result	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	rvalInt	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lvalInt	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	result	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lvalLong	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lvalLong	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	rvalInt	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldShift(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lvalInt	fixed

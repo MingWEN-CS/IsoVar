@@ -1,2 +1,1 @@
-fix	org.jfree.chart.plot.CategoryPlot	698	INS	axis
-fix	org.jfree.chart.plot.CategoryPlot	976	INS	axis
+org.jfree.chart.plot.CategoryPlot	getDomainAxisIndex(Lorg/jfree/chart/axis/CategoryAxis;)I	axis	fixed

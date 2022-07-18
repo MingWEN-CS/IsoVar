@@ -1,3 +1,12 @@
-fix	org.jfree.chart.block.BorderArrangement	453	INS	Math
-buggy	org.jfree.chart.block.BorderArrangement	453	MOV	constraint
-buggy	org.jfree.chart.block.BorderArrangement	453	MOV	w
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	w[]	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	constraint	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	h[]	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	.FIXED	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	.RANGE	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	c1	buggy
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	w[]	fixed
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	constraint	fixed
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	h[]	fixed
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	.FIXED	fixed
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	.RANGE	fixed
+org.jfree.chart.block.BorderArrangement	arrangeFF(Lorg/jfree/chart/block/BlockContainer;Ljava/awt/Graphics2D;Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/util/Size2D;	c1	fixed

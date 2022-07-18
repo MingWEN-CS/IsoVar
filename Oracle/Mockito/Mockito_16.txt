@@ -1,5 +1,7 @@
-fix	org.mockito.internal.MockitoCore	34	INS	shouldResetOngoingStubbing
-buggy	org.mockito.internal.MockitoCore	32	DEL	T
-buggy	org.mockito.internal.MockitoCore	32	DEL	mock
-buggy	org.mockito.internal.MockitoCore	32	DEL	classToMock
-buggy	org.mockito.internal.MockitoCore	32	DEL	mockSettings
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	mockSettings	buggy
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	classToMock	buggy
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	.MOCKITO_CORE	buggy
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	mockSettings	fixed
+org.mockito.internal.MockitoCore	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;Z)Ljava/lang/Object;	shouldResetOngoingStubbing	fixed
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	classToMock	fixed
+org.mockito.Mockito	mock(Ljava/lang/Class;Lorg/mockito/MockSettings;)Ljava/lang/Object;	.MOCKITO_CORE	fixed

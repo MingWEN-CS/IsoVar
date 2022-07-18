@@ -1,4 +1,6 @@
-fix	org.apache.commons.lang.text.StrBuilder	1730	INS	size
-fix	org.apache.commons.lang.text.StrBuilder	1673	INS	size
-buggy	org.apache.commons.lang.text.StrBuilder	1673	DEL	thisBuf.length
-buggy	org.apache.commons.lang.text.StrBuilder	1730	DEL	thisBuf.length
+org.apache.commons.lang.text.StrBuilder	indexOf(CI)I	startIndex	buggy
+org.apache.commons.lang.text.StrBuilder	contains(C)Z	thisBuf	buggy
+org.apache.commons.lang.text.StrBuilder	contains(C)Z	i	buggy
+org.apache.commons.lang.text.StrBuilder	indexOf(CI)I	startIndex	fixed
+org.apache.commons.lang.text.StrBuilder	contains(C)Z	this.size	fixed
+org.apache.commons.lang.text.StrBuilder	contains(C)Z	i	fixed

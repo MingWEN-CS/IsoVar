@@ -1,27 +1,32 @@
-fix	org.joda.time.chrono.ZonedChronology	481	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	467	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	436	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	448	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	460	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	528	INS	iZone
-fix	org.joda.time.chrono.ZonedChronology	540	INS	iZone
-fix	org.joda.time.DateTimeZone	936	INS	convertLocalToUTC
-fix	org.joda.time.DateTimeZone	936	INS	instantLocal
-fix	org.joda.time.DateTimeZone	936	INS	strict
-fix	org.joda.time.DateTimeZone	936	INS	originalInstantUTC
-fix	org.joda.time.DateTimeZone	928	INS	instantLocal
-fix	org.joda.time.DateTimeZone	929	INS	strict
-fix	org.joda.time.DateTimeZone	930	INS	originalInstantUTC
-fix	org.joda.time.DateTimeZone	932	INS	ArithmeticException
-fix	org.joda.time.DateTimeZone	933	INS	IllegalArgumentException
-fix	org.joda.time.DateTimeZone	940	INS	offsetLocalFromOriginal
-fix	org.joda.time.DateTimeZone	940	INS	offsetOriginal
-fix	org.joda.time.DateTimeZone	937	INS	offsetOriginal
-fix	org.joda.time.DateTimeZone	938	INS	instantUTC
-fix	org.joda.time.DateTimeZone	938	INS	instantLocal
-fix	org.joda.time.DateTimeZone	938	INS	offsetOriginal
-fix	org.joda.time.DateTimeZone	939	INS	offsetLocalFromOriginal
-fix	org.joda.time.DateTimeZone	943	INS	convertLocalToUTC
-fix	org.joda.time.DateTimeZone	937	INS	getOffset
-fix	org.joda.time.DateTimeZone	939	INS	getOffset
-fix	org.joda.time.DateTimeZone	941	INS	instantUTC
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JI)J	result	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JI)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JJ)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	addWrapField(JI)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JI)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundFloor(J)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundCeiling(J)J	localInstant	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JI)J	this.iZone	buggy
+org.joda.time.field.LenientDateTimeField	set(JI)J	this.iBase	buggy
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JI)J	localInstant	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	offsetOriginal	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	instantUTC	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JI)J	this.iZone	fixed
+org.joda.time.field.LenientDateTimeField	set(JI)J	this.iBase	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JI)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JJ)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	addWrapField(JI)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JI)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JLjava/lang/String;Ljava/util/Locale;)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundFloor(J)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundCeiling(J)J	instant	fixed
+org.joda.time.field.LenientDateTimeField	set(JI)J	instant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	set(JI)J	result	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JI)J	localInstant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	add(JJ)J	localInstant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	addWrapField(JI)J	localInstant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundFloor(J)J	localInstant	fixed
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField	roundCeiling(J)J	localInstant	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	originalInstantUTC	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	instantLocal	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	strict	fixed
+org.joda.time.DateTimeZone	convertLocalToUTC(JZJ)J	offsetLocalFromOriginal	fixed

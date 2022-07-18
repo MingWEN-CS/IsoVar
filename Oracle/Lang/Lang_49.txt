@@ -1,3 +1,3 @@
-fix	org.apache.commons.lang.math.Fraction	466	INS	numerator
-fix	org.apache.commons.lang.math.Fraction	467	INS	ZERO
-fix	org.apache.commons.lang.math.Fraction	467	INS	equals
+org.apache.commons.lang.math.Fraction	reduce()Lorg/apache/commons/lang/math/Fraction;	this.numerator	fixed
+org.apache.commons.lang.math.Fraction	reduce()Lorg/apache/commons/lang/math/Fraction;	.ZERO	fixed
+org.apache.commons.lang.math.Fraction	reduce()Lorg/apache/commons/lang/math/Fraction;	this	fixed

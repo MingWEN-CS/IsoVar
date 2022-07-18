@@ -1,1 +1,4 @@
-buggy	com.google.javascript.jscomp.ProcessClosurePrimitives	789	UPD	namespace
+com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName	replace()V	this.namespace	buggy
+com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName	replace()V	indexOfDot	buggy
+com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName	replace()V	this.namespace	fixed
+com.google.javascript.jscomp.ProcessClosurePrimitives$ProvidedName	replace()V	indexOfDot	fixed

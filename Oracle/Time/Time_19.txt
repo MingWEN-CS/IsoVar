@@ -1,1 +1,2 @@
-buggy	org.joda.time.DateTimeZone	900	UPD	offsetLocal
+org.joda.time.DateTimeZone	getOffsetFromLocal(J)I	offsetLocal	buggy
+org.joda.time.DateTimeZone	getOffsetFromLocal(J)I	offsetLocal	fixed

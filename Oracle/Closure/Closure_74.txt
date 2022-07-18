@@ -1,18 +1,13 @@
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1074	INS	getNormalizedNodeType
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1074	INS	n
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1076	INS	type
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1076	INS	Token.NOT
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1085	INS	type
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1075	INS	type
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	907	INS	getNormalizedNodeType
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	908	INS	getNormalizedNodeType
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1075	INS	n
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1078	INS	value
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1077	INS	value
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1079	INS	TRUE
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1080	INS	Token.TRUE
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1081	INS	FALSE
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1082	INS	Token.FALSE
-fix	com.google.javascript.jscomp.PeepholeFoldConstants	1077	INS	NodeUtil
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	907	DEL	left
-buggy	com.google.javascript.jscomp.PeepholeFoldConstants	908	DEL	right
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	left	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lhType	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	rhType	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	right	buggy
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	left	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	getNormalizedNodeType(Lcom/google/javascript/rhino/Node;)I	.$SwitchMap$com$google$javascript$rhino$jstype$TernaryValue	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	lhType	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	rhType	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	tryFoldComparison(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	right	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	getNormalizedNodeType(Lcom/google/javascript/rhino/Node;)I	.$SwitchMap$com$google$javascript$rhino$jstype$TernaryValue[]	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	getNormalizedNodeType(Lcom/google/javascript/rhino/Node;)I	type	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	getNormalizedNodeType(Lcom/google/javascript/rhino/Node;)I	value	fixed
+com.google.javascript.jscomp.PeepholeFoldConstants	getNormalizedNodeType(Lcom/google/javascript/rhino/Node;)I	n	fixed

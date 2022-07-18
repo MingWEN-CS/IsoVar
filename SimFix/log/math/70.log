@@ -1,0 +1,253 @@
+=================================================
+Project : math_70	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369 | 22/06/30 00:54
+Thu Jun 30 00:55:21 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,72
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return solve(f,min,max);
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.7847319278346623 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>0,0]
+return solve(f,min,max);
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>72,72]
+return solve(min,max);
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>72,72]
+return solve(f,min,max);
+
+Time : 22/06/30 00:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return solve(f,initial,max);
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.327000352707264 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>0,0]
+if(isBracketing(min,initial,f)){
+return solve(f,min,initial);
+}else {
+return solve(f,initial,max);
+}
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>72,72]
+return solve(min,max);
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_70_buggy/src/main/java/org/apache/commons/math/analysis/solvers/BisectionSolver.java=>72,72]
+return solve(f,initial,max);
+
+Time : 22/06/30 00:56
+----------------------------------------
+Thu Jun 30 00:56:38 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,66
+Thu Jun 30 00:57:04 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,223
+Thu Jun 30 00:57:09 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,165
+Thu Jun 30 00:58:34 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,166
+Thu Jun 30 00:58:36 UTC 2022 Thu Jun 30 00:58:36 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,167=>Find no block
+Thu Jun 30 00:58:38 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,208
+Thu Jun 30 01:05:37 UTC 2022 Thu Jun 30 01:05:37 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,213=>Find no block
+Thu Jun 30 01:05:37 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,79
+Thu Jun 30 01:05:54 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,80
+Thu Jun 30 01:05:54 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,85
+Thu Jun 30 01:06:32 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,86
+Thu Jun 30 01:22:27 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,87
+Thu Jun 30 01:23:21 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,88
+Thu Jun 30 01:23:22 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,52
+Thu Jun 30 01:23:24 UTC 2022 Thu Jun 30 01:23:24 UTC 2022 : org.apache.commons.math.analysis.solvers.BisectionSolver,53=>Find no block
+Thu Jun 30 01:23:24 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,93
+Thu Jun 30 01:25:20 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,94
+Thu Jun 30 01:25:20 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,95
+Thu Jun 30 01:25:21 UTC 2022 Thu Jun 30 01:25:21 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,96=>Find no block
+Thu Jun 30 01:25:21 UTC 2022 Thu Jun 30 01:25:21 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,41=>Find no block
+Thu Jun 30 01:25:21 UTC 2022 Thu Jun 30 01:25:21 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,61=>Find no block
+Thu Jun 30 01:25:22 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,62
+Thu Jun 30 01:26:34 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,63
+Thu Jun 30 01:26:34 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,64
+Thu Jun 30 01:26:35 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,65
+Thu Jun 30 01:26:35 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,66
+Thu Jun 30 01:26:35 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,67
+Thu Jun 30 01:26:36 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,68
+Thu Jun 30 01:26:36 UTC 2022 Thu Jun 30 01:26:36 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,69=>Find no block
+Thu Jun 30 01:26:36 UTC 2022 Thu Jun 30 01:26:36 UTC 2022 : org.apache.commons.math.MathException,55=>Find no block
+Thu Jun 30 01:26:37 UTC 2022 org.apache.commons.math.MathException,56
+Thu Jun 30 01:26:39 UTC 2022 org.apache.commons.math.MathException,57
+Thu Jun 30 01:26:39 UTC 2022 Thu Jun 30 01:26:39 UTC 2022 : org.apache.commons.math.MathException,58=>Find no block
+Thu Jun 30 01:26:40 UTC 2022 Thu Jun 30 01:26:40 UTC 2022 : org.apache.commons.math.MathException,67=>Find no block
+Thu Jun 30 01:26:40 UTC 2022 org.apache.commons.math.MathException,68
+Thu Jun 30 01:26:48 UTC 2022 org.apache.commons.math.MathException,69
+Thu Jun 30 01:26:48 UTC 2022 Thu Jun 30 01:26:48 UTC 2022 : org.apache.commons.math.MathException,70=>Find no block
+Thu Jun 30 01:26:48 UTC 2022 org.apache.commons.math.MathException,80
+Thu Jun 30 01:26:51 UTC 2022 org.apache.commons.math.MathException,81
+Thu Jun 30 01:26:51 UTC 2022 org.apache.commons.math.MathException,82
+Thu Jun 30 01:26:51 UTC 2022 Thu Jun 30 01:26:51 UTC 2022 : org.apache.commons.math.MathException,83=>Find no block
+Thu Jun 30 01:26:52 UTC 2022 org.apache.commons.math.MathException,96
+Thu Jun 30 01:27:00 UTC 2022 org.apache.commons.math.MathException,97
+Thu Jun 30 01:27:01 UTC 2022 org.apache.commons.math.MathException,98
+Thu Jun 30 01:27:01 UTC 2022 Thu Jun 30 01:27:01 UTC 2022 : org.apache.commons.math.MathException,99=>Find no block
+Thu Jun 30 01:27:01 UTC 2022 org.apache.commons.math.MathException,110
+Thu Jun 30 01:27:03 UTC 2022 org.apache.commons.math.MathException,112
+Thu Jun 30 01:27:05 UTC 2022 org.apache.commons.math.MathException,114
+Thu Jun 30 01:27:06 UTC 2022 Thu Jun 30 01:27:06 UTC 2022 : org.apache.commons.math.MathException,119=>Find no block
+Thu Jun 30 01:27:06 UTC 2022 Thu Jun 30 01:27:06 UTC 2022 : org.apache.commons.math.MathException,117=>Find no block
+Thu Jun 30 01:27:06 UTC 2022 org.apache.commons.math.MathException,123
+Thu Jun 30 01:27:06 UTC 2022 org.apache.commons.math.MathException,133
+Thu Jun 30 01:27:08 UTC 2022 org.apache.commons.math.MathException,142
+Thu Jun 30 01:27:24 UTC 2022 org.apache.commons.math.MathException,153
+Thu Jun 30 01:27:27 UTC 2022 org.apache.commons.math.MathException,159
+Thu Jun 30 01:27:40 UTC 2022 org.apache.commons.math.MathException,165
+Thu Jun 30 01:27:53 UTC 2022 org.apache.commons.math.MathException,173
+Thu Jun 30 01:27:56 UTC 2022 Thu Jun 30 01:27:56 UTC 2022 : org.apache.commons.math.MathException,174=>Find no block
+Thu Jun 30 01:27:57 UTC 2022 Thu Jun 30 01:27:57 UTC 2022 : org.apache.commons.math.MathException,183=>Find no block
+Thu Jun 30 01:27:57 UTC 2022 org.apache.commons.math.MathException,184
+Thu Jun 30 01:27:59 UTC 2022 org.apache.commons.math.MathException,185
+Thu Jun 30 01:27:59 UTC 2022 org.apache.commons.math.MathException,187
+Thu Jun 30 01:28:00 UTC 2022 Thu Jun 30 01:28:00 UTC 2022 : org.apache.commons.math.MathException,188=>Find no block
+Thu Jun 30 01:28:00 UTC 2022 Thu Jun 30 01:28:00 UTC 2022 : org.apache.commons.math.MathException,189=>Find no block
+Thu Jun 30 01:28:00 UTC 2022 org.apache.commons.math.MaxIterationsExceededException,43
+Thu Jun 30 01:28:02 UTC 2022 org.apache.commons.math.MaxIterationsExceededException,44
+Thu Jun 30 01:28:03 UTC 2022 Thu Jun 30 01:28:03 UTC 2022 : org.apache.commons.math.MaxIterationsExceededException,45=>Find no block
+Thu Jun 30 01:28:03 UTC 2022 org.apache.commons.math.MaxIterationsExceededException,56
+Thu Jun 30 01:28:25 UTC 2022 org.apache.commons.math.MaxIterationsExceededException,57
+Thu Jun 30 01:28:25 UTC 2022 Thu Jun 30 01:28:25 UTC 2022 : org.apache.commons.math.MaxIterationsExceededException,58=>Find no block
+Thu Jun 30 01:28:26 UTC 2022 org.apache.commons.math.MaxIterationsExceededException,64
+Thu Jun 30 01:28:52 UTC 2022 org.apache.commons.math.ConvergenceException,34
+Thu Jun 30 01:28:55 UTC 2022 Thu Jun 30 01:28:55 UTC 2022 : org.apache.commons.math.ConvergenceException,35=>Find no block
+Thu Jun 30 01:28:55 UTC 2022 org.apache.commons.math.ConvergenceException,45
+Thu Jun 30 01:29:16 UTC 2022 Thu Jun 30 01:29:16 UTC 2022 : org.apache.commons.math.ConvergenceException,46=>Find no block
+Thu Jun 30 01:29:16 UTC 2022 org.apache.commons.math.ConvergenceException,53
+Thu Jun 30 01:29:18 UTC 2022 Thu Jun 30 01:29:18 UTC 2022 : org.apache.commons.math.ConvergenceException,54=>Find no block
+Thu Jun 30 01:29:19 UTC 2022 org.apache.commons.math.ConvergenceException,65
+Thu Jun 30 01:29:42 UTC 2022 Thu Jun 30 01:29:42 UTC 2022 : org.apache.commons.math.ConvergenceException,66=>Find no block
+Thu Jun 30 01:29:42 UTC 2022 Thu Jun 30 01:29:42 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,241=>Find no block
+Thu Jun 30 01:29:43 UTC 2022 Thu Jun 30 01:29:43 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,243=>Find no block
+Thu Jun 30 01:29:43 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,39
+Thu Jun 30 01:29:45 UTC 2022 Thu Jun 30 01:29:45 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,40=>Find no block
+Thu Jun 30 01:29:46 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,58
+Thu Jun 30 01:30:22 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,59
+Thu Jun 30 01:30:22 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,82
+Thu Jun 30 01:31:44 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,83
+Thu Jun 30 01:31:45 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,84
+Thu Jun 30 01:31:45 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,85
+Thu Jun 30 01:31:46 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,132
+Thu Jun 30 01:31:47 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,175
+Thu Jun 30 01:34:45 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,176
+Thu Jun 30 01:34:45 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,178
+Thu Jun 30 01:47:33 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,179
+Thu Jun 30 01:47:33 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,182
+Thu Jun 30 01:59:53 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,183
+Thu Jun 30 01:59:55 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,187
+Thu Jun 30 02:12:56 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,188
+Thu Jun 30 02:14:06 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,191
+Thu Jun 30 02:22:20 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,194
+Thu Jun 30 02:28:56 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,195
+Thu Jun 30 02:28:56 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,196
+Thu Jun 30 02:28:57 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,198
+Thu Jun 30 02:28:57 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,199
+Thu Jun 30 02:28:58 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,200
+Thu Jun 30 02:28:58 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,203
+Thu Jun 30 02:32:01 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,204
+Thu Jun 30 02:32:01 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,212
+Thu Jun 30 02:35:10 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,232
+Thu Jun 30 02:38:05 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,233
+Thu Jun 30 02:38:05 UTC 2022 Thu Jun 30 02:38:05 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils,235=>Find no block
+Thu Jun 30 02:38:05 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,74
+Thu Jun 30 02:44:28 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,75
+Thu Jun 30 02:44:29 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,76
+Thu Jun 30 02:44:31 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,78
+Thu Jun 30 02:44:31 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,79
+Thu Jun 30 02:44:31 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,80
+Thu Jun 30 02:44:32 UTC 2022 Thu Jun 30 02:44:32 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,81=>Find no block
+Thu Jun 30 02:44:32 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,102
+Thu Jun 30 02:44:51 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,103
+Thu Jun 30 02:44:51 UTC 2022 Thu Jun 30 02:44:51 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,105=>Find no block
+Thu Jun 30 02:44:51 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,109
+Thu Jun 30 02:45:08 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,110
+Thu Jun 30 02:45:09 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,115
+Thu Jun 30 02:45:24 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,116
+Thu Jun 30 02:45:25 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,121
+Thu Jun 30 02:45:57 UTC 2022 Thu Jun 30 02:45:57 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,122=>Find no block
+Thu Jun 30 02:45:57 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,126
+Thu Jun 30 02:46:13 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,131
+Thu Jun 30 02:46:32 UTC 2022 Thu Jun 30 02:46:32 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,132=>Find no block
+Thu Jun 30 02:46:33 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,141
+Thu Jun 30 02:48:04 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,142
+Thu Jun 30 02:48:05 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,143
+Thu Jun 30 02:48:05 UTC 2022 Thu Jun 30 02:48:05 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,144=>Find no block
+Thu Jun 30 02:48:05 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,155
+Thu Jun 30 02:52:27 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,156
+Thu Jun 30 02:52:28 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,157
+Thu Jun 30 02:52:28 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,158
+Thu Jun 30 02:52:28 UTC 2022 Thu Jun 30 02:52:28 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,159=>Find no block
+Thu Jun 30 02:52:29 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,182
+Thu Jun 30 02:54:08 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,183
+Thu Jun 30 02:54:08 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,184
+Thu Jun 30 02:54:09 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,196
+Thu Jun 30 02:54:11 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,209
+Thu Jun 30 02:54:11 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,225
+Thu Jun 30 02:54:36 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,226
+Thu Jun 30 02:54:37 UTC 2022 Thu Jun 30 02:54:37 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,230=>Find no block
+Thu Jun 30 02:54:37 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,247
+Thu Jun 30 02:55:19 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,248
+Thu Jun 30 02:55:46 UTC 2022 org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,249
+Thu Jun 30 02:55:46 UTC 2022 Thu Jun 30 02:55:46 UTC 2022 : org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl,254=>Find no block
+Thu Jun 30 02:55:47 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,73
+Thu Jun 30 02:55:52 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,78
+Thu Jun 30 02:56:25 UTC 2022 Thu Jun 30 02:56:25 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,79=>Find no block
+Thu Jun 30 02:56:26 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,83
+Thu Jun 30 02:56:41 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,88
+Thu Jun 30 02:57:14 UTC 2022 Thu Jun 30 02:57:14 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,89=>Find no block
+Thu Jun 30 02:57:15 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,93
+Thu Jun 30 02:57:29 UTC 2022 Thu Jun 30 02:57:29 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,94=>Find no block
+Thu Jun 30 02:57:29 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,98
+Thu Jun 30 02:57:38 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,103
+Thu Jun 30 02:58:28 UTC 2022 Thu Jun 30 02:58:28 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,104=>Find no block
+Thu Jun 30 02:58:28 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,108
+Thu Jun 30 02:58:53 UTC 2022 Thu Jun 30 02:58:53 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,109=>Find no block
+Thu Jun 30 02:58:53 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,113
+Thu Jun 30 02:59:08 UTC 2022 org.apache.commons.math.ConvergingAlgorithmImpl,118
+Thu Jun 30 02:59:21 UTC 2022 Thu Jun 30 02:59:21 UTC 2022 : org.apache.commons.math.ConvergingAlgorithmImpl,119=>Find no block
+Thu Jun 30 02:59:21 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,44
+Thu Jun 30 02:59:23 UTC 2022 Thu Jun 30 02:59:23 UTC 2022 : org.apache.commons.math.analysis.solvers.BisectionSolver,45=>Find no block
+Thu Jun 30 02:59:24 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,59
+Thu Jun 30 02:59:24 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,89
+Thu Jun 30 03:02:47 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,91
+Thu Jun 30 03:02:48 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,93
+Thu Jun 30 03:02:48 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,96
+Thu Jun 30 03:02:49 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,99
+Thu Jun 30 03:02:49 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,100
+Thu Jun 30 03:02:49 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,101
+Thu Jun 30 03:02:50 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,102
+Thu Jun 30 03:02:50 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,104
+Thu Jun 30 03:23:17 UTC 2022 org.apache.commons.math.analysis.solvers.BisectionSolver,107
+Success time : 22/06/30 03:33

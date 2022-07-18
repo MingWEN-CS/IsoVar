@@ -1,0 +1,329 @@
+=================================================
+Project : math_53	start : 22/07/17 02:49
+Current failed test : org.apache.commons.math.complex.ComplexTest::testAddNaN | 22/07/17 02:49
+Sun Jul 17 02:49:20 UTC 2022 org.apache.commons.math.complex.Complex,152
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+return createComplex(real+rhs.getReal(),imaginary+rhs.getImaginary());
+
+Time : 22/07/17 02:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.800922844719878 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java=>0,0]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+return createComplex(real-rhs.getReal(),imaginary-rhs.getImaginary());
+
+Time : 22/07/17 02:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java=>152,154]
+MathUtils.checkNotNull(rhs);
+return createComplex(real+rhs.getReal(),imaginary+rhs.getImaginary());
+
+Time : 22/07/17 02:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_53_buggy/src/main/java/org/apache/commons/math/complex/Complex.java=>152,154]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+return createComplex(real+rhs.getReal(),imaginary+rhs.getImaginary());
+
+Time : 22/07/17 02:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+return createComplex(real*rhs.real-imaginary*rhs.imaginary,real*rhs.imaginary+imaginary*rhs.real);
+
+Time : 22/07/17 02:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+return createComplex(real*rhs.real-imaginary*rhs.imaginary,real*rhs.imaginary+imaginary*rhs.real);
+
+Time : 22/07/17 02:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+if(Double.isInfinite(real)||Double.isInfinite(imaginary)){
+return INF;
+}
+return createComplex(real*rhs.real-imaginary*rhs.imaginary,real*rhs.imaginary+imaginary*rhs.real);
+
+Time : 22/07/17 02:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+if(Double.isInfinite(real)||Double.isInfinite(imaginary)){
+return INF;
+}
+return createComplex(real+rhs.getReal(),imaginary+rhs.getImaginary());
+
+Time : 22/07/17 02:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+if(isNaN||rhs.isNaN){
+return NaN;
+}
+if(Double.isInfinite(real)||Double.isInfinite(imaginary)){
+return INF;
+}
+return createComplex(real*rhs.real-imaginary*rhs.imaginary,real*rhs.imaginary+imaginary*rhs.real);
+
+Time : 22/07/17 02:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+MathUtils.checkNotNull(rhs);
+return this.log().multiply(rhs).exp();
+
+Time : 22/07/17 02:59
+----------------------------------------
+Sun Jul 17 03:01:07 UTC 2022 org.apache.commons.math.complex.Complex,153
+Sun Jul 17 03:01:07 UTC 2022 org.apache.commons.math.complex.Complex,319
+Sun Jul 17 03:01:21 UTC 2022 Sun Jul 17 03:01:21 UTC 2022 : org.apache.commons.math.util.MathUtils,2334=>Find no block
+Sun Jul 17 03:01:22 UTC 2022 org.apache.commons.math.util.MathUtils,2331
+Sun Jul 17 03:01:36 UTC 2022 Sun Jul 17 03:01:36 UTC 2022 : org.apache.commons.math.util.MathUtils,85=>Find no block
+Sun Jul 17 03:01:36 UTC 2022 org.apache.commons.math.complex.Complex,997
+Sun Jul 17 03:01:38 UTC 2022 org.apache.commons.math.complex.Complex,308
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return imaginary;
+
+Time : 22/07/17 03:02
+----------------------------------------
+Sun Jul 17 03:03:30 UTC 2022 org.apache.commons.math.complex.Complex,299
+Sun Jul 17 03:03:59 UTC 2022 org.apache.commons.math.complex.Complex,90
+Sun Jul 17 03:04:37 UTC 2022 org.apache.commons.math.complex.Complex,91
+Sun Jul 17 03:04:37 UTC 2022 org.apache.commons.math.complex.Complex,92
+Sun Jul 17 03:04:37 UTC 2022 org.apache.commons.math.complex.Complex,94
+Sun Jul 17 03:04:38 UTC 2022 org.apache.commons.math.complex.Complex,95
+Sun Jul 17 03:04:38 UTC 2022 Sun Jul 17 03:04:38 UTC 2022 : org.apache.commons.math.complex.Complex,97=>Find no block
+Sun Jul 17 03:04:39 UTC 2022 Sun Jul 17 03:04:39 UTC 2022 : org.apache.commons.math.complex.Complex,52=>Find no block
+Sun Jul 17 03:04:39 UTC 2022 Sun Jul 17 03:04:39 UTC 2022 : org.apache.commons.math.complex.Complex,56=>Find no block
+Sun Jul 17 03:04:39 UTC 2022 Sun Jul 17 03:04:39 UTC 2022 : org.apache.commons.math.complex.Complex,60=>Find no block
+Sun Jul 17 03:04:40 UTC 2022 Sun Jul 17 03:04:40 UTC 2022 : org.apache.commons.math.complex.Complex,63=>Find no block
+Sun Jul 17 03:04:40 UTC 2022 Sun Jul 17 03:04:40 UTC 2022 : org.apache.commons.math.complex.Complex,66=>Find no block
+Sun Jul 17 03:04:40 UTC 2022 org.apache.commons.math.complex.Complex,110
+Sun Jul 17 03:04:45 UTC 2022 org.apache.commons.math.complex.Complex,111
+Sun Jul 17 03:04:46 UTC 2022 org.apache.commons.math.complex.Complex,114
+Sun Jul 17 03:04:57 UTC 2022 org.apache.commons.math.complex.Complex,115
+Sun Jul 17 03:04:57 UTC 2022 org.apache.commons.math.complex.Complex,118
+Sun Jul 17 03:14:00 UTC 2022 org.apache.commons.math.complex.Complex,119
+Sun Jul 17 03:14:00 UTC 2022 org.apache.commons.math.complex.Complex,120
+Sun Jul 17 03:14:00 UTC 2022 org.apache.commons.math.complex.Complex,122
+Sun Jul 17 03:17:48 UTC 2022 org.apache.commons.math.complex.Complex,123
+Sun Jul 17 03:17:48 UTC 2022 org.apache.commons.math.complex.Complex,125
+Sun Jul 17 03:17:49 UTC 2022 org.apache.commons.math.complex.Complex,126
+Sun Jul 17 03:17:49 UTC 2022 org.apache.commons.math.complex.Complex,128
+Sun Jul 17 03:21:37 UTC 2022 org.apache.commons.math.complex.Complex,129
+Sun Jul 17 03:21:37 UTC 2022 org.apache.commons.math.complex.Complex,172
+Sun Jul 17 03:21:40 UTC 2022 org.apache.commons.math.complex.Complex,173
+Sun Jul 17 03:21:40 UTC 2022 org.apache.commons.math.complex.Complex,175
+Sun Jul 17 03:22:51 UTC 2022 org.apache.commons.math.complex.Complex,215
+Sun Jul 17 03:23:17 UTC 2022 org.apache.commons.math.complex.Complex,216
+Sun Jul 17 03:23:24 UTC 2022 org.apache.commons.math.complex.Complex,217
+Sun Jul 17 03:23:25 UTC 2022 org.apache.commons.math.complex.Complex,220
+Sun Jul 17 03:24:43 UTC 2022 org.apache.commons.math.complex.Complex,221
+Sun Jul 17 03:25:31 UTC 2022 org.apache.commons.math.complex.Complex,222
+Sun Jul 17 03:25:59 UTC 2022 org.apache.commons.math.complex.Complex,223
+Sun Jul 17 03:25:59 UTC 2022 org.apache.commons.math.complex.Complex,226
+Sun Jul 17 03:26:01 UTC 2022 org.apache.commons.math.complex.Complex,227
+Sun Jul 17 03:26:02 UTC 2022 org.apache.commons.math.complex.Complex,230
+Sun Jul 17 03:33:26 UTC 2022 org.apache.commons.math.complex.Complex,231
+Sun Jul 17 03:33:26 UTC 2022 org.apache.commons.math.complex.Complex,232
+Sun Jul 17 03:33:26 UTC 2022 org.apache.commons.math.complex.Complex,233
+Sun Jul 17 03:33:27 UTC 2022 org.apache.commons.math.complex.Complex,236
+Sun Jul 17 03:33:27 UTC 2022 org.apache.commons.math.complex.Complex,237
+Sun Jul 17 03:33:28 UTC 2022 org.apache.commons.math.complex.Complex,238
+Sun Jul 17 03:33:28 UTC 2022 org.apache.commons.math.complex.Complex,263
+Sun Jul 17 03:34:20 UTC 2022 org.apache.commons.math.complex.Complex,264
+Sun Jul 17 03:34:21 UTC 2022 org.apache.commons.math.complex.Complex,266
+Sun Jul 17 03:34:55 UTC 2022 org.apache.commons.math.complex.Complex,267
+Sun Jul 17 03:34:55 UTC 2022 org.apache.commons.math.complex.Complex,268
+Sun Jul 17 03:34:56 UTC 2022 org.apache.commons.math.complex.Complex,269
+Sun Jul 17 03:34:56 UTC 2022 org.apache.commons.math.complex.Complex,271
+Sun Jul 17 03:34:57 UTC 2022 org.apache.commons.math.complex.Complex,274
+Sun Jul 17 03:35:48 UTC 2022 org.apache.commons.math.complex.Complex,286
+Sun Jul 17 03:35:50 UTC 2022 org.apache.commons.math.complex.Complex,287
+Sun Jul 17 03:35:51 UTC 2022 org.apache.commons.math.complex.Complex,289
+Sun Jul 17 03:38:18 UTC 2022 org.apache.commons.math.complex.Complex,332
+Sun Jul 17 03:38:20 UTC 2022 org.apache.commons.math.complex.Complex,364
+Sun Jul 17 03:41:56 UTC 2022 org.apache.commons.math.complex.Complex,365
+Sun Jul 17 03:41:57 UTC 2022 org.apache.commons.math.complex.Complex,366
+Sun Jul 17 03:41:57 UTC 2022 org.apache.commons.math.complex.Complex,368
+Sun Jul 17 03:41:57 UTC 2022 org.apache.commons.math.complex.Complex,371
+Sun Jul 17 03:41:58 UTC 2022 org.apache.commons.math.complex.Complex,373
+Sun Jul 17 03:41:58 UTC 2022 org.apache.commons.math.complex.Complex,404
+Sun Jul 17 03:43:17 UTC 2022 org.apache.commons.math.complex.Complex,405
+Sun Jul 17 03:43:18 UTC 2022 org.apache.commons.math.complex.Complex,407
+Sun Jul 17 03:43:18 UTC 2022 org.apache.commons.math.complex.Complex,410
+Sun Jul 17 03:43:18 UTC 2022 org.apache.commons.math.complex.Complex,412
+Sun Jul 17 03:46:47 UTC 2022 org.apache.commons.math.complex.Complex,424
+Sun Jul 17 03:46:48 UTC 2022 org.apache.commons.math.complex.Complex,425
+Sun Jul 17 03:46:48 UTC 2022 org.apache.commons.math.complex.Complex,428
+Sun Jul 17 03:47:59 UTC 2022 org.apache.commons.math.complex.Complex,451
+Sun Jul 17 03:50:25 UTC 2022 org.apache.commons.math.complex.Complex,452
+Sun Jul 17 03:50:26 UTC 2022 org.apache.commons.math.complex.Complex,453
+Sun Jul 17 03:50:26 UTC 2022 org.apache.commons.math.complex.Complex,456
+Sun Jul 17 03:50:27 UTC 2022 org.apache.commons.math.complex.Complex,475
+Sun Jul 17 03:50:27 UTC 2022 org.apache.commons.math.complex.Complex,476
+Sun Jul 17 03:50:28 UTC 2022 org.apache.commons.math.complex.Complex,479
+Sun Jul 17 03:51:37 UTC 2022 org.apache.commons.math.complex.Complex,498
+Sun Jul 17 03:51:37 UTC 2022 org.apache.commons.math.complex.Complex,499
+Sun Jul 17 03:51:38 UTC 2022 org.apache.commons.math.complex.Complex,502
+Sun Jul 17 03:52:46 UTC 2022 org.apache.commons.math.complex.Complex,521
+Sun Jul 17 03:52:46 UTC 2022 org.apache.commons.math.complex.Complex,522
+Sun Jul 17 03:52:47 UTC 2022 org.apache.commons.math.complex.Complex,525
+Sun Jul 17 03:53:30 UTC 2022 org.apache.commons.math.complex.Complex,556
+Sun Jul 17 03:53:30 UTC 2022 org.apache.commons.math.complex.Complex,557
+Sun Jul 17 03:53:30 UTC 2022 org.apache.commons.math.complex.Complex,560
+Sun Jul 17 03:54:57 UTC 2022 org.apache.commons.math.complex.Complex,590
+Sun Jul 17 03:54:57 UTC 2022 org.apache.commons.math.complex.Complex,591
+Sun Jul 17 03:54:58 UTC 2022 org.apache.commons.math.complex.Complex,594
+Sun Jul 17 03:56:24 UTC 2022 org.apache.commons.math.complex.Complex,625
+Sun Jul 17 03:56:24 UTC 2022 org.apache.commons.math.complex.Complex,626
+Sun Jul 17 03:56:25 UTC 2022 org.apache.commons.math.complex.Complex,629
+Sun Jul 17 03:58:38 UTC 2022 org.apache.commons.math.complex.Complex,630
+Sun Jul 17 03:58:38 UTC 2022 org.apache.commons.math.complex.Complex,663
+Sun Jul 17 03:58:39 UTC 2022 org.apache.commons.math.complex.Complex,664
+Sun Jul 17 03:58:39 UTC 2022 org.apache.commons.math.complex.Complex,667
+Sun Jul 17 04:00:13 UTC 2022 org.apache.commons.math.complex.Complex,690
+Sun Jul 17 04:01:29 UTC 2022 org.apache.commons.math.complex.Complex,691
+Sun Jul 17 04:01:30 UTC 2022 org.apache.commons.math.complex.Complex,721
+Sun Jul 17 04:01:30 UTC 2022 org.apache.commons.math.complex.Complex,722
+Sun Jul 17 04:01:31 UTC 2022 org.apache.commons.math.complex.Complex,725
+Sun Jul 17 04:02:54 UTC 2022 org.apache.commons.math.complex.Complex,755
+Sun Jul 17 04:02:55 UTC 2022 org.apache.commons.math.complex.Complex,756
+Sun Jul 17 04:02:55 UTC 2022 org.apache.commons.math.complex.Complex,759
+Sun Jul 17 04:04:17 UTC 2022 org.apache.commons.math.complex.Complex,797
+Sun Jul 17 04:04:17 UTC 2022 org.apache.commons.math.complex.Complex,798
+Sun Jul 17 04:04:18 UTC 2022 org.apache.commons.math.complex.Complex,801
+Sun Jul 17 04:04:20 UTC 2022 org.apache.commons.math.complex.Complex,802
+Sun Jul 17 04:04:20 UTC 2022 org.apache.commons.math.complex.Complex,805
+Sun Jul 17 04:07:24 UTC 2022 org.apache.commons.math.complex.Complex,806
+Sun Jul 17 04:07:25 UTC 2022 org.apache.commons.math.complex.Complex,807
+Sun Jul 17 04:07:25 UTC 2022 org.apache.commons.math.complex.Complex,809
+Sun Jul 17 04:07:26 UTC 2022 org.apache.commons.math.complex.Complex,833
+Sun Jul 17 04:08:19 UTC 2022 org.apache.commons.math.complex.Complex,863
+Sun Jul 17 04:08:20 UTC 2022 org.apache.commons.math.complex.Complex,864
+Sun Jul 17 04:08:20 UTC 2022 org.apache.commons.math.complex.Complex,867
+Sun Jul 17 04:11:05 UTC 2022 org.apache.commons.math.complex.Complex,868
+Sun Jul 17 04:11:05 UTC 2022 org.apache.commons.math.complex.Complex,869
+Sun Jul 17 04:11:06 UTC 2022 org.apache.commons.math.complex.Complex,871
+Sun Jul 17 04:11:06 UTC 2022 org.apache.commons.math.complex.Complex,901
+Sun Jul 17 04:11:06 UTC 2022 org.apache.commons.math.complex.Complex,902
+Sun Jul 17 04:11:07 UTC 2022 org.apache.commons.math.complex.Complex,905
+Sun Jul 17 04:13:47 UTC 2022 org.apache.commons.math.complex.Complex,906
+Sun Jul 17 04:13:48 UTC 2022 org.apache.commons.math.complex.Complex,907
+Sun Jul 17 04:13:48 UTC 2022 org.apache.commons.math.complex.Complex,909
+Sun Jul 17 04:13:49 UTC 2022 org.apache.commons.math.complex.Complex,929
+Sun Jul 17 04:13:51 UTC 2022 org.apache.commons.math.complex.Complex,952
+Sun Jul 17 04:16:56 UTC 2022 org.apache.commons.math.complex.Complex,953
+Sun Jul 17 04:16:56 UTC 2022 org.apache.commons.math.complex.Complex,958
+Sun Jul 17 04:21:34 UTC 2022 org.apache.commons.math.complex.Complex,960
+Sun Jul 17 04:21:34 UTC 2022 org.apache.commons.math.complex.Complex,961
+Sun Jul 17 04:21:35 UTC 2022 org.apache.commons.math.complex.Complex,962
+Sun Jul 17 04:21:35 UTC 2022 org.apache.commons.math.complex.Complex,965
+Sun Jul 17 04:21:40 UTC 2022 org.apache.commons.math.complex.Complex,966
+Sun Jul 17 04:21:41 UTC 2022 org.apache.commons.math.complex.Complex,967
+Sun Jul 17 04:21:41 UTC 2022 org.apache.commons.math.complex.Complex,971
+Sun Jul 17 04:24:15 UTC 2022 org.apache.commons.math.complex.Complex,974
+Sun Jul 17 04:26:34 UTC 2022 org.apache.commons.math.complex.Complex,975
+Sun Jul 17 04:28:36 UTC 2022 org.apache.commons.math.complex.Complex,976
+Sun Jul 17 04:35:37 UTC 2022 org.apache.commons.math.complex.Complex,977
+Sun Jul 17 04:41:49 UTC 2022 org.apache.commons.math.complex.Complex,979
+Sun Jul 17 04:41:49 UTC 2022 org.apache.commons.math.complex.Complex,980
+Sun Jul 17 04:41:50 UTC 2022 org.apache.commons.math.complex.Complex,981
+Sun Jul 17 04:41:50 UTC 2022 org.apache.commons.math.complex.Complex,982
+Sun Jul 17 04:41:51 UTC 2022 org.apache.commons.math.complex.Complex,985
+Sun Jul 17 04:46:35 UTC 2022 org.apache.commons.math.complex.Complex,1007
+Sun Jul 17 04:48:12 UTC 2022 org.apache.commons.math.complex.Complex,1012
+Sun Jul 17 04:48:46 UTC 2022 org.apache.commons.math.complex.Complex,1018
+Sun Jul 17 04:48:57 UTC 2022 Sun Jul 17 04:48:57 UTC 2022 : org.apache.commons.math.complex.Complex,49=>Find no block
+Sun Jul 17 04:48:57 UTC 2022 org.apache.commons.math.exception.NullArgumentException,41
+Sun Jul 17 04:48:59 UTC 2022 Sun Jul 17 04:48:59 UTC 2022 : org.apache.commons.math.exception.NullArgumentException,42=>Find no block
+Sun Jul 17 04:48:59 UTC 2022 org.apache.commons.math.exception.NullArgumentException,50
+Sun Jul 17 04:49:11 UTC 2022 Sun Jul 17 04:49:11 UTC 2022 : org.apache.commons.math.exception.NullArgumentException,51=>Find no block
+Sun Jul 17 04:49:12 UTC 2022 Sun Jul 17 04:49:12 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,44=>Find no block
+Sun Jul 17 04:49:12 UTC 2022 Sun Jul 17 04:49:12 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,37=>Find no block
+Sun Jul 17 04:49:12 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,45
+Sun Jul 17 04:49:14 UTC 2022 Sun Jul 17 04:49:14 UTC 2022 : org.apache.commons.math.exception.MathIllegalArgumentException,46=>Find no block
+Sun Jul 17 04:49:15 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,50
+Sun Jul 17 04:49:16 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,56
+Sun Jul 17 04:49:30 UTC 2022 org.apache.commons.math.exception.MathIllegalArgumentException,62
+Sun Jul 17 04:49:41 UTC 2022 Sun Jul 17 04:49:41 UTC 2022 : org.apache.commons.math.exception.MathArithmeticException,43=>Find no block
+Sun Jul 17 04:49:42 UTC 2022 Sun Jul 17 04:49:42 UTC 2022 : org.apache.commons.math.exception.MathArithmeticException,38=>Find no block
+Sun Jul 17 04:49:42 UTC 2022 org.apache.commons.math.exception.MathArithmeticException,44
+Sun Jul 17 04:49:58 UTC 2022 Sun Jul 17 04:49:58 UTC 2022 : org.apache.commons.math.exception.MathArithmeticException,45=>Find no block
+Sun Jul 17 04:49:59 UTC 2022 Sun Jul 17 04:49:59 UTC 2022 : org.apache.commons.math.exception.MathArithmeticException,55=>Find no block
+Sun Jul 17 04:49:59 UTC 2022 org.apache.commons.math.exception.MathArithmeticException,56
+Sun Jul 17 04:50:00 UTC 2022 Sun Jul 17 04:50:00 UTC 2022 : org.apache.commons.math.exception.MathArithmeticException,57=>Find no block
+Sun Jul 17 04:50:00 UTC 2022 org.apache.commons.math.exception.MathArithmeticException,61
+Sun Jul 17 04:50:00 UTC 2022 org.apache.commons.math.exception.MathArithmeticException,67
+Sun Jul 17 04:50:01 UTC 2022 org.apache.commons.math.exception.MathArithmeticException,73
+Sun Jul 17 04:50:01 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,61
+Sun Jul 17 04:50:03 UTC 2022 Sun Jul 17 04:50:03 UTC 2022 : org.apache.commons.math.exception.NonMonotonousSequenceException,62=>Find no block
+Sun Jul 17 04:50:04 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,80
+Sun Jul 17 04:50:28 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,89
+Sun Jul 17 04:50:28 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,90
+Sun Jul 17 04:50:29 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,91
+Sun Jul 17 04:50:29 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,92
+Sun Jul 17 04:50:30 UTC 2022 Sun Jul 17 04:50:30 UTC 2022 : org.apache.commons.math.exception.NonMonotonousSequenceException,93=>Find no block
+Sun Jul 17 04:50:30 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,99
+Sun Jul 17 04:50:32 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,105
+Sun Jul 17 04:50:33 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,113
+Sun Jul 17 04:50:48 UTC 2022 org.apache.commons.math.exception.NonMonotonousSequenceException,119
+Sun Jul 17 04:50:50 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,46
+Sun Jul 17 04:51:13 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,47
+Sun Jul 17 04:51:14 UTC 2022 Sun Jul 17 04:51:14 UTC 2022 : org.apache.commons.math.exception.MathIllegalNumberException,48=>Find no block
+Sun Jul 17 04:51:15 UTC 2022 org.apache.commons.math.exception.MathIllegalNumberException,54
+Sun Jul 17 04:51:17 UTC 2022 Sun Jul 17 04:51:17 UTC 2022 : org.apache.commons.math.util.MathUtils,1943=>Find no block
+Sun Jul 17 04:51:17 UTC 2022 Sun Jul 17 04:51:17 UTC 2022 : org.apache.commons.math.util.MathUtils,1945=>Find no block
+Sun Jul 17 04:51:18 UTC 2022 Sun Jul 17 04:51:18 UTC 2022 : org.apache.commons.math.util.MathUtils,1947=>Find no block
+Sun Jul 17 04:51:18 UTC 2022 org.apache.commons.math.exception.NumberIsTooLargeException,50
+Sun Jul 17 04:51:20 UTC 2022 Sun Jul 17 04:51:20 UTC 2022 : org.apache.commons.math.exception.NumberIsTooLargeException,54=>Find no block
+Sun Jul 17 04:51:20 UTC 2022 org.apache.commons.math.exception.NumberIsTooLargeException,67
+Success time : 22/07/17 04:51

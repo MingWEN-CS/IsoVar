@@ -1,1 +1,1 @@
-buggy	com.google.javascript.jscomp.Compiler	1285	DEL	options.skipAllPasses
+com.google.javascript.jscomp.Compiler	parseInputs()Lcom/google/javascript/rhino/Node;	this.options	buggy

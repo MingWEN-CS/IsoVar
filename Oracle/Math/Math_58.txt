@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.fitting.GaussianFitter	fit()[D	guess	buggy
+org.apache.commons.math.optimization.fitting.GaussianFitter	fit()[D	guess	fixed

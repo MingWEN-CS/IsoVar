@@ -1,0 +1,333 @@
+=================================================
+Project : closure_62	start : 22/07/16 08:14
+Current failed test : com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1 | 22/07/16 08:14
+Sat Jul 16 08:14:42 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,90
+Sat Jul 16 08:34:50 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,91
+Sat Jul 16 08:34:52 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,92
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(excerpt.equals(LINE)&&0<=charno&&charno<=sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.9715598018508236 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>0,0]
+String details=details();
+if(sourceName==null||lineNumber<=0){
+return details;
+}
+StringBuilder buf=new StringBuilder(details);
+buf.append(" (");
+if(sourceName!=null){
+buf.append(sourceName);
+}
+if(lineNumber>0){
+buf.append('#');
+buf.append(lineNumber);
+}
+buf.append(')');
+return buf.toString();
+
+Time : 22/07/16 10:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno<=sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(excerpt.equals(LINE)&&0<=charno&&charno-charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.1093718980603067 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>0,0]
+for(int j=0;j<charArray.length();++j){
+int mappingID=lastID;
+if(!charArray.isNull(j)){
+mappingID=charArray.optInt(j);
+if(mappingID>maxID){
+maxID=mappingID;
+}
+}
+if(startID==Integer.MIN_VALUE){
+startID=mappingID;
+}else {
+if(mappingID-lastID>Byte.MAX_VALUE||mappingID-lastID<Byte.MIN_VALUE){
+myLineFragment=new LineFragment(startID,Bytes.toArray(currentOffsets));
+currentOffsets.clear();
+fragmentList.add(myLineFragment);
+startID=mappingID;
+}else {
+currentOffsets.add((byte)(mappingID-lastID));
+}
+}
+lastID=mappingID;
+}
+
+Time : 22/07/16 10:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno-charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(excerpt.equals(LINE)&&0<=charno&&charno<='9'){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.097762372211653 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>0,0]
+if(bitShiftInChar==1){
+if(start==end)break;
+digit=s.charAt(start++);
+if('0'<=digit&&digit<='9')digit-='0';else if('a'<=digit&&digit<='z')digit-='a'-10;else digit-='A'-10;
+bitShiftInChar=radix;
+}
+
+Time : 22/07/16 10:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>97,108]
+if(excerpt.equals(LINE)&&0<=charno&&charno<='9'){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+b.append('\n');
+int charno=error.getCharno();
+if(excerpt.equals(LINE)&&0<=charno&&charno<=sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.3272268749140794 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>0,0]
+String details=details();
+if(sourceName==null||lineNumber<=0){
+return details;
+}
+StringBuilder buf=new StringBuilder(details);
+buf.append(" (");
+if(sourceName!=null){
+buf.append(sourceName);
+}
+if(lineNumber>0){
+buf.append('#');
+buf.append(lineNumber);
+}
+buf.append(')');
+return buf.toString();
+
+Time : 22/07/16 10:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>91,108]
+b.append('\n');
+int charno=error.getCharno();
+if(excerpt.equals(LINE)&&0<=charno&&charno<sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_62_buggy/src/com/google/javascript/jscomp/LightweightMessageFormatter.java=>91,108]
+b.append('\n');
+int charno=error.getCharno();
+if(excerpt.equals(LINE)&&0<=charno&&charno<=sourceExcerpt.length()){
+for(int i=0;i<charno;i++){
+char c=sourceExcerpt.charAt(i);
+if(Character.isWhitespace(c)){
+b.append(c);
+}else {
+b.append(' ');
+}
+}
+b.append("^\n");
+}
+
+Time : 22/07/16 10:49
+----------------------------------------
+Sat Jul 16 11:19:32 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,97
+Sat Jul 16 11:19:34 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,59
+Sat Jul 16 11:20:24 UTC 2022 com.google.javascript.jscomp.AbstractMessageFormatter,75
+Sat Jul 16 11:20:42 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,76
+Sat Jul 16 11:52:54 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,77
+Sat Jul 16 11:52:55 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,78
+Sat Jul 16 11:52:56 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,79
+Sat Jul 16 11:52:57 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,81
+Sat Jul 16 11:52:57 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,122
+Sat Jul 16 11:53:02 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,68
+Sat Jul 16 11:53:20 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,69
+Sat Jul 16 11:53:21 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,74
+Sat Jul 16 12:03:05 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,75
+Sat Jul 16 12:03:06 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,84
+Sat Jul 16 12:30:28 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,85
+Sat Jul 16 12:49:21 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,87
+Sat Jul 16 13:06:27 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,88
+Sat Jul 16 13:06:28 UTC 2022 com.google.javascript.jscomp.LightweightMessageFormatter,89
+Timeout time : 22/07/16 13:14

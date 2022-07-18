@@ -1,29 +1,52 @@
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	258	INS	oldObj
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	259	INS	qtf
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	258	INS	rows
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	259	INS	rows
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	272	INS	i
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	272	INS	rows
-buggy	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	278	UPD	qTy
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	329	INS	updateResidualsAndCost
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	330	INS	current
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	351	INS	tmpVec
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	351	INS	objective
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	352	INS	objective
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	352	INS	oldObj
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	353	INS	oldObj
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	353	INS	tmpVec
-buggy	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	346	UPD	determineLMParameter
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	273	INS	qtf
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	273	INS	i
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	330	INS	point
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	330	INS	objective
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	433	INS	checker
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	449	INS	tmpVec
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	449	INS	objective
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	450	INS	objective
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	450	INS	oldObj
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	451	INS	oldObj
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	451	INS	tmpVec
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	321	INS	qtf
-fix	org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	321	INS	i
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work2	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work1	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	pj	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work3	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	diag	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	previous	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.residuals[]	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	delta	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	i	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	sum	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.jacobian[]	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	current	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.jacobian	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldRes	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.objective	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.residuals	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.point	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.checker	buggy
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work2	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work1	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	work3	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	diag	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	delta	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	sum	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.rows	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.jacobian[]	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	current	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.objective	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	pj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	pj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	j	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	j	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.residuals	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldObj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldObj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldObj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldObj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	oldObj	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.checker	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.residuals[]	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	i	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf[]	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	qtf[]	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.jacobian	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	this.point	fixed
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer	doOptimize()Lorg/apache/commons/math/optimization/VectorialPointValuePair;	sum	fixed

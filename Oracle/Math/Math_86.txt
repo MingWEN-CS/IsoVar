@@ -1,6 +1,8 @@
-fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	ltI
-fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	i
-fix	org.apache.commons.math.linear.CholeskyDecompositionImpl	134	INS	absolutePositivityThreshold
-buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	lTData
-buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	i
-buggy	org.apache.commons.math.linear.CholeskyDecompositionImpl	114	DEL	absolutePositivityThreshold
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	this.lTData[]	buggy
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	i	buggy
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	this.lTData	buggy
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	absolutePositivityThreshold	buggy
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	i	fixed
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	lI[]	fixed
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	lI	fixed
+org.apache.commons.math.linear.CholeskyDecompositionImpl	<init>(Lorg/apache/commons/math/linear/RealMatrix;DD)V	absolutePositivityThreshold	fixed

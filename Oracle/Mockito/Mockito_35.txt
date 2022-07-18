@@ -1,2 +1,4 @@
-fix	org.mockito.Matchers	479	INS	value
-fix	org.mockito.Matchers	516	INS	value
+org.mockito.Matchers	isA(Ljava/lang/Class;)Ljava/lang/Object;	clazz	buggy
+org.mockito.Matchers	eq(Ljava/lang/Object;)Ljava/lang/Object;	value	buggy
+org.mockito.Matchers	isA(Ljava/lang/Class;)Ljava/lang/Object;	clazz	fixed
+org.mockito.Matchers	eq(Ljava/lang/Object;)Ljava/lang/Object;	value	fixed

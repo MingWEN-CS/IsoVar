@@ -1,0 +1,4 @@
+com.google.javascript.jscomp.PeepholeOptimizationsPass	traverse(Lcom/google/javascript/rhino/Node;)V	next	buggy
+com.google.javascript.jscomp.PeepholeOptimizationsPass	traverse(Lcom/google/javascript/rhino/Node;)V	c	buggy
+com.google.javascript.jscomp.PeepholeOptimizationsPass	traverse(Lcom/google/javascript/rhino/Node;)V	next	fixed
+com.google.javascript.jscomp.PeepholeOptimizationsPass	traverse(Lcom/google/javascript/rhino/Node;)V	c	fixed

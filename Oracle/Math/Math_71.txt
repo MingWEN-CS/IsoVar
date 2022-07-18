@@ -1,7 +1,9 @@
-fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	300	INS	interpolator
-fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	301	INS	System
-fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	302	INS	hNew
-fix	org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	303	INS	stepSize
-fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	180	INS	interpolator
-fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	181	INS	System
-fix	org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	182	INS	stepSize
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	getSafety()D	this.safety	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	this.stepStart	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	interpolator	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	yTmp	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	y0	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	y	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	rki#4	fixed
+org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	this.stepSize	fixed
+org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator	integrate(Lorg/apache/commons/math/ode/FirstOrderDifferentialEquations;D[DD[D)D	yTmp	fixed

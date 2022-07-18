@@ -1,2 +1,1 @@
-fix	org.jfree.chart.plot.PiePlot	1378	INS	dataset
-fix	org.jfree.chart.plot.PiePlot	2054	INS	dataset
+org.jfree.chart.plot.PiePlot	getMaximumExplodePercent()D	this.dataset	fixed

@@ -1,0 +1,250 @@
+=================================================
+Project : math_5	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 22/06/30 00:55
+Thu Jun 30 00:55:56 UTC 2022 org.apache.commons.math3.complex.Complex,305
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(real==0.0&&imaginary==0.0){
+return INF;
+}
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.7606388292556647 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>0,0]
+if(Double.isInfinite(real)||Double.isInfinite(imaginary)){
+return INF;
+}
+
+Time : 22/06/30 00:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>304,306]
+if(real==0.0&&imaginary==0.0){
+return NaN;
+}
+
+Time : 22/06/30 00:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>304,306]
+if(real==0.0&&imaginary==0.0){
+return INF;
+}
+
+Time : 22/06/30 00:58
+----------------------------------------
+Thu Jun 30 00:58:27 UTC 2022 org.apache.commons.math3.complex.Complex,1228
+Thu Jun 30 00:58:41 UTC 2022 org.apache.commons.math3.complex.Complex,304
+Thu Jun 30 00:58:42 UTC 2022 org.apache.commons.math3.complex.Complex,300
+Thu Jun 30 00:58:59 UTC 2022 org.apache.commons.math3.complex.Complex,348
+Thu Jun 30 00:59:15 UTC 2022 org.apache.commons.math3.complex.Complex,344
+Thu Jun 30 00:59:54 UTC 2022 org.apache.commons.math3.complex.Complex,345
+Thu Jun 30 00:59:56 UTC 2022 org.apache.commons.math3.complex.Complex,343
+Thu Jun 30 00:59:56 UTC 2022 org.apache.commons.math3.complex.Complex,340
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this!=other){
+return true;
+}
+
+Time : 22/06/30 01:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this!=null){
+return true;
+}
+
+Time : 22/06/30 01:10
+----------------------------------------
+Thu Jun 30 01:20:55 UTC 2022 Thu Jun 30 01:20:55 UTC 2022 : org.apache.commons.math3.complex.Complex,98=>Find no block
+Thu Jun 30 01:20:56 UTC 2022 org.apache.commons.math3.complex.Complex,99
+Thu Jun 30 01:21:47 UTC 2022 org.apache.commons.math3.complex.Complex,100
+Thu Jun 30 01:21:47 UTC 2022 org.apache.commons.math3.complex.Complex,102
+Thu Jun 30 01:21:48 UTC 2022 org.apache.commons.math3.complex.Complex,103
+Thu Jun 30 01:21:50 UTC 2022 Thu Jun 30 01:21:50 UTC 2022 : org.apache.commons.math3.complex.Complex,105=>Find no block
+Thu Jun 30 01:21:51 UTC 2022 Thu Jun 30 01:21:51 UTC 2022 : org.apache.commons.math3.complex.Complex,59=>Find no block
+Thu Jun 30 01:21:52 UTC 2022 Thu Jun 30 01:21:52 UTC 2022 : org.apache.commons.math3.complex.Complex,62=>Find no block
+Thu Jun 30 01:21:53 UTC 2022 Thu Jun 30 01:21:53 UTC 2022 : org.apache.commons.math3.complex.Complex,65=>Find no block
+Thu Jun 30 01:21:54 UTC 2022 Thu Jun 30 01:21:54 UTC 2022 : org.apache.commons.math3.complex.Complex,67=>Find no block
+Thu Jun 30 01:21:54 UTC 2022 Thu Jun 30 01:21:54 UTC 2022 : org.apache.commons.math3.complex.Complex,69=>Find no block
+Thu Jun 30 01:21:55 UTC 2022 org.apache.commons.math3.complex.Complex,89
+Thu Jun 30 01:21:59 UTC 2022 Thu Jun 30 01:21:59 UTC 2022 : org.apache.commons.math3.complex.Complex,90=>Find no block
+Thu Jun 30 01:22:00 UTC 2022 org.apache.commons.math3.complex.Complex,116
+Thu Jun 30 01:22:09 UTC 2022 org.apache.commons.math3.complex.Complex,117
+Thu Jun 30 01:22:10 UTC 2022 org.apache.commons.math3.complex.Complex,119
+Thu Jun 30 01:22:25 UTC 2022 org.apache.commons.math3.complex.Complex,120
+Thu Jun 30 01:22:26 UTC 2022 org.apache.commons.math3.complex.Complex,122
+Thu Jun 30 01:36:25 UTC 2022 org.apache.commons.math3.complex.Complex,123
+Thu Jun 30 01:36:26 UTC 2022 org.apache.commons.math3.complex.Complex,124
+Thu Jun 30 01:36:27 UTC 2022 org.apache.commons.math3.complex.Complex,126
+Thu Jun 30 01:43:39 UTC 2022 org.apache.commons.math3.complex.Complex,127
+Thu Jun 30 01:43:39 UTC 2022 org.apache.commons.math3.complex.Complex,129
+Thu Jun 30 01:43:40 UTC 2022 org.apache.commons.math3.complex.Complex,130
+Thu Jun 30 01:43:41 UTC 2022 org.apache.commons.math3.complex.Complex,132
+Thu Jun 30 01:50:59 UTC 2022 org.apache.commons.math3.complex.Complex,133
+Thu Jun 30 01:51:04 UTC 2022 org.apache.commons.math3.complex.Complex,157
+Thu Jun 30 01:55:15 UTC 2022 org.apache.commons.math3.complex.Complex,158
+Thu Jun 30 01:56:45 UTC 2022 org.apache.commons.math3.complex.Complex,159
+Thu Jun 30 01:57:02 UTC 2022 org.apache.commons.math3.complex.Complex,162
+Thu Jun 30 01:57:20 UTC 2022 org.apache.commons.math3.complex.Complex,175
+Thu Jun 30 02:00:18 UTC 2022 org.apache.commons.math3.complex.Complex,176
+Thu Jun 30 02:00:20 UTC 2022 org.apache.commons.math3.complex.Complex,179
+Thu Jun 30 02:06:23 UTC 2022 org.apache.commons.math3.complex.Complex,197
+Thu Jun 30 02:06:24 UTC 2022 org.apache.commons.math3.complex.Complex,198
+Thu Jun 30 02:06:25 UTC 2022 org.apache.commons.math3.complex.Complex,201
+Thu Jun 30 02:08:50 UTC 2022 org.apache.commons.math3.complex.Complex,248
+Thu Jun 30 02:10:10 UTC 2022 org.apache.commons.math3.complex.Complex,249
+Thu Jun 30 02:10:50 UTC 2022 org.apache.commons.math3.complex.Complex,250
+Thu Jun 30 02:10:51 UTC 2022 org.apache.commons.math3.complex.Complex,253
+Thu Jun 30 02:15:49 UTC 2022 org.apache.commons.math3.complex.Complex,254
+Thu Jun 30 02:17:31 UTC 2022 org.apache.commons.math3.complex.Complex,255
+Thu Jun 30 02:18:40 UTC 2022 org.apache.commons.math3.complex.Complex,256
+Thu Jun 30 02:18:43 UTC 2022 org.apache.commons.math3.complex.Complex,259
+Thu Jun 30 02:19:01 UTC 2022 org.apache.commons.math3.complex.Complex,260
+Thu Jun 30 02:19:06 UTC 2022 org.apache.commons.math3.complex.Complex,263
+Thu Jun 30 03:26:51 UTC 2022 org.apache.commons.math3.complex.Complex,264
+Thu Jun 30 03:26:53 UTC 2022 org.apache.commons.math3.complex.Complex,265
+Thu Jun 30 03:27:02 UTC 2022 org.apache.commons.math3.complex.Complex,266
+Thu Jun 30 03:27:15 UTC 2022 org.apache.commons.math3.complex.Complex,269
+Thu Jun 30 03:27:18 UTC 2022 org.apache.commons.math3.complex.Complex,270
+Thu Jun 30 03:27:20 UTC 2022 org.apache.commons.math3.complex.Complex,271
+Thu Jun 30 03:27:22 UTC 2022 org.apache.commons.math3.complex.Complex,285
+Thu Jun 30 03:29:57 UTC 2022 org.apache.commons.math3.complex.Complex,286
+Thu Jun 30 03:29:58 UTC 2022 org.apache.commons.math3.complex.Complex,288
+Thu Jun 30 03:30:02 UTC 2022 org.apache.commons.math3.complex.Complex,289
+Thu Jun 30 03:30:03 UTC 2022 org.apache.commons.math3.complex.Complex,291
+Thu Jun 30 03:31:16 UTC 2022 org.apache.commons.math3.complex.Complex,292
+Thu Jun 30 03:31:36 UTC 2022 org.apache.commons.math3.complex.Complex,294
+Thu Jun 30 03:38:58 UTC 2022 org.apache.commons.math3.complex.Complex,301
+Thu Jun 30 03:38:59 UTC 2022 org.apache.commons.math3.complex.Complex,308
+Thu Jun 30 03:39:25 UTC 2022 org.apache.commons.math3.complex.Complex,309
+Thu Jun 30 03:39:26 UTC 2022 org.apache.commons.math3.complex.Complex,312
+Thu Jun 30 03:50:36 UTC 2022 org.apache.commons.math3.complex.Complex,313
+Thu Jun 30 03:50:37 UTC 2022 org.apache.commons.math3.complex.Complex,314
+Thu Jun 30 03:50:38 UTC 2022 org.apache.commons.math3.complex.Complex,315
+Thu Jun 30 03:50:42 UTC 2022 org.apache.commons.math3.complex.Complex,317
+Thu Jun 30 03:50:45 UTC 2022 org.apache.commons.math3.complex.Complex,318
+Thu Jun 30 03:50:46 UTC 2022 org.apache.commons.math3.complex.Complex,319
+Thu Jun 30 03:50:47 UTC 2022 org.apache.commons.math3.complex.Complex,341
+Thu Jun 30 03:50:48 UTC 2022 org.apache.commons.math3.complex.Complex,346
+Thu Jun 30 03:50:48 UTC 2022 org.apache.commons.math3.complex.Complex,351
+Thu Jun 30 03:52:16 UTC 2022 org.apache.commons.math3.complex.Complex,363
+Thu Jun 30 03:52:25 UTC 2022 org.apache.commons.math3.complex.Complex,364
+Thu Jun 30 03:52:25 UTC 2022 org.apache.commons.math3.complex.Complex,366
+Thu Jun 30 03:55:56 UTC 2022 org.apache.commons.math3.complex.Complex,376
+Thu Jun 30 03:56:42 UTC 2022 org.apache.commons.math3.complex.Complex,385
+Thu Jun 30 03:57:28 UTC 2022 org.apache.commons.math3.complex.Complex,396
+Thu Jun 30 03:57:48 UTC 2022 org.apache.commons.math3.complex.Complex,409
+Thu Jun 30 03:57:53 UTC 2022 org.apache.commons.math3.complex.Complex,438
+Thu Jun 30 04:04:47 UTC 2022 org.apache.commons.math3.complex.Complex,439
+Thu Jun 30 04:04:49 UTC 2022 org.apache.commons.math3.complex.Complex,440
+Thu Jun 30 04:04:50 UTC 2022 org.apache.commons.math3.complex.Complex,442
+Thu Jun 30 04:04:50 UTC 2022 org.apache.commons.math3.complex.Complex,447
+Thu Jun 30 04:04:51 UTC 2022 org.apache.commons.math3.complex.Complex,449
+Thu Jun 30 04:04:52 UTC 2022 org.apache.commons.math3.complex.Complex,462
+Thu Jun 30 04:04:52 UTC 2022 org.apache.commons.math3.complex.Complex,463
+Thu Jun 30 04:04:54 UTC 2022 org.apache.commons.math3.complex.Complex,465
+Thu Jun 30 04:04:54 UTC 2022 org.apache.commons.math3.complex.Complex,467
+Thu Jun 30 04:04:55 UTC 2022 org.apache.commons.math3.complex.Complex,469
+Thu Jun 30 04:07:17 UTC 2022 org.apache.commons.math3.complex.Complex,481
+Thu Jun 30 04:09:38 UTC 2022 org.apache.commons.math3.complex.Complex,482
+Thu Jun 30 04:09:39 UTC 2022 org.apache.commons.math3.complex.Complex,484
+Thu Jun 30 04:09:39 UTC 2022 org.apache.commons.math3.complex.Complex,488
+Thu Jun 30 04:09:40 UTC 2022 org.apache.commons.math3.complex.Complex,490
+Thu Jun 30 04:15:45 UTC 2022 org.apache.commons.math3.complex.Complex,501
+Thu Jun 30 04:15:46 UTC 2022 org.apache.commons.math3.complex.Complex,502
+Thu Jun 30 04:15:47 UTC 2022 org.apache.commons.math3.complex.Complex,505
+Thu Jun 30 04:18:08 UTC 2022 org.apache.commons.math3.complex.Complex,528
+Thu Jun 30 04:21:48 UTC 2022 org.apache.commons.math3.complex.Complex,529
+Thu Jun 30 04:22:11 UTC 2022 org.apache.commons.math3.complex.Complex,530
+Thu Jun 30 04:22:12 UTC 2022 org.apache.commons.math3.complex.Complex,533
+Thu Jun 30 04:22:13 UTC 2022 org.apache.commons.math3.complex.Complex,546
+Thu Jun 30 04:24:31 UTC 2022 org.apache.commons.math3.complex.Complex,547
+Thu Jun 30 04:24:32 UTC 2022 org.apache.commons.math3.complex.Complex,549
+Thu Jun 30 04:29:54 UTC 2022 org.apache.commons.math3.complex.Complex,569
+Thu Jun 30 04:29:55 UTC 2022 org.apache.commons.math3.complex.Complex,570
+Thu Jun 30 04:29:56 UTC 2022 org.apache.commons.math3.complex.Complex,573
+Thu Jun 30 04:31:39 UTC 2022 org.apache.commons.math3.complex.Complex,593
+Thu Jun 30 04:31:39 UTC 2022 org.apache.commons.math3.complex.Complex,594
+Thu Jun 30 04:31:40 UTC 2022 org.apache.commons.math3.complex.Complex,597
+Thu Jun 30 04:33:17 UTC 2022 org.apache.commons.math3.complex.Complex,617
+Thu Jun 30 04:33:18 UTC 2022 org.apache.commons.math3.complex.Complex,618
+Thu Jun 30 04:33:19 UTC 2022 org.apache.commons.math3.complex.Complex,621
+Thu Jun 30 04:35:55 UTC 2022 org.apache.commons.math3.complex.Complex,658
+Thu Jun 30 04:35:56 UTC 2022 org.apache.commons.math3.complex.Complex,659
+Thu Jun 30 04:35:57 UTC 2022 org.apache.commons.math3.complex.Complex,662
+Thu Jun 30 04:38:18 UTC 2022 org.apache.commons.math3.complex.Complex,698
+Thu Jun 30 04:38:18 UTC 2022 org.apache.commons.math3.complex.Complex,699
+Thu Jun 30 04:38:19 UTC 2022 org.apache.commons.math3.complex.Complex,702
+Thu Jun 30 04:40:43 UTC 2022 org.apache.commons.math3.complex.Complex,739
+Thu Jun 30 04:40:44 UTC 2022 org.apache.commons.math3.complex.Complex,740
+Thu Jun 30 04:40:45 UTC 2022 org.apache.commons.math3.complex.Complex,743
+Thu Jun 30 04:44:19 UTC 2022 org.apache.commons.math3.complex.Complex,744
+Thu Jun 30 04:44:20 UTC 2022 org.apache.commons.math3.complex.Complex,784
+Thu Jun 30 04:44:20 UTC 2022 org.apache.commons.math3.complex.Complex,785
+Thu Jun 30 04:44:21 UTC 2022 org.apache.commons.math3.complex.Complex,788
+Thu Jun 30 04:47:10 UTC 2022 org.apache.commons.math3.complex.Complex,814
+Thu Jun 30 04:49:09 UTC 2022 org.apache.commons.math3.complex.Complex,815
+Thu Jun 30 04:49:10 UTC 2022 org.apache.commons.math3.complex.Complex,826
+Thu Jun 30 04:50:32 UTC 2022 org.apache.commons.math3.complex.Complex,862
+Thu Jun 30 04:50:32 UTC 2022 org.apache.commons.math3.complex.Complex,863
+Thu Jun 30 04:50:33 UTC 2022 org.apache.commons.math3.complex.Complex,866
+Thu Jun 30 04:52:57 UTC 2022 org.apache.commons.math3.complex.Complex,902
+Thu Jun 30 04:52:57 UTC 2022 org.apache.commons.math3.complex.Complex,903
+Thu Jun 30 04:52:58 UTC 2022 org.apache.commons.math3.complex.Complex,906
+Thu Jun 30 04:55:27 UTC 2022 org.apache.commons.math3.complex.Complex,945
+Thu Jun 30 04:55:28 UTC 2022 org.apache.commons.math3.complex.Complex,946
+Thu Jun 30 04:55:29 UTC 2022 org.apache.commons.math3.complex.Complex,949
+Thu Jun 30 04:56:04 UTC 2022 org.apache.commons.math3.complex.Complex,950
+Thu Jun 30 04:56:05 UTC 2022 org.apache.commons.math3.complex.Complex,953
+Thu Jun 30 05:05:16 UTC 2022 org.apache.commons.math3.complex.Complex,954
+Thu Jun 30 05:05:17 UTC 2022 org.apache.commons.math3.complex.Complex,955
+Thu Jun 30 05:05:18 UTC 2022 org.apache.commons.math3.complex.Complex,957
+Thu Jun 30 05:05:19 UTC 2022 org.apache.commons.math3.complex.Complex,980
+Thu Jun 30 05:06:38 UTC 2022 org.apache.commons.math3.complex.Complex,1016
+Thu Jun 30 05:07:41 UTC 2022 org.apache.commons.math3.complex.Complex,1017
+Thu Jun 30 05:07:41 UTC 2022 org.apache.commons.math3.complex.Complex,1019
+Thu Jun 30 05:09:37 UTC 2022 org.apache.commons.math3.complex.Complex,1020
+Thu Jun 30 05:09:38 UTC 2022 org.apache.commons.math3.complex.Complex,1022
+Thu Jun 30 05:10:46 UTC 2022 org.apache.commons.math3.complex.Complex,1023
+Thu Jun 30 05:10:46 UTC 2022 org.apache.commons.math3.complex.Complex,1026
+Thu Jun 30 05:15:04 UTC 2022 org.apache.commons.math3.complex.Complex,1027
+Thu Jun 30 05:17:15 UTC 2022 org.apache.commons.math3.complex.Complex,1028
+Thu Jun 30 05:23:27 UTC 2022 org.apache.commons.math3.complex.Complex,1030
+Thu Jun 30 05:23:28 UTC 2022 org.apache.commons.math3.complex.Complex,1067
+Thu Jun 30 05:24:00 UTC 2022 org.apache.commons.math3.complex.Complex,1068
+Thu Jun 30 05:24:01 UTC 2022 org.apache.commons.math3.complex.Complex,1070
+Thu Jun 30 05:25:32 UTC 2022 org.apache.commons.math3.complex.Complex,1071
+Thu Jun 30 05:25:33 UTC 2022 org.apache.commons.math3.complex.Complex,1073
+Thu Jun 30 05:26:33 UTC 2022 org.apache.commons.math3.complex.Complex,1074
+Thu Jun 30 05:26:34 UTC 2022 org.apache.commons.math3.complex.Complex,1076
+Thu Jun 30 05:30:46 UTC 2022 org.apache.commons.math3.complex.Complex,1077
+Thu Jun 30 05:32:54 UTC 2022 org.apache.commons.math3.complex.Complex,1078
+Thu Jun 30 05:39:00 UTC 2022 org.apache.commons.math3.complex.Complex,1080
+Thu Jun 30 05:39:01 UTC 2022 org.apache.commons.math3.complex.Complex,1104
+Thu Jun 30 05:39:05 UTC 2022 org.apache.commons.math3.complex.Complex,1131
+Thu Jun 30 05:41:56 UTC 2022 org.apache.commons.math3.complex.Complex,1132
+Thu Jun 30 05:41:57 UTC 2022 org.apache.commons.math3.complex.Complex,1136
+Thu Jun 30 05:47:32 UTC 2022 org.apache.commons.math3.complex.Complex,1138
+Thu Jun 30 05:47:33 UTC 2022 org.apache.commons.math3.complex.Complex,1139
+Thu Jun 30 05:47:34 UTC 2022 org.apache.commons.math3.complex.Complex,1140
+Thu Jun 30 05:47:35 UTC 2022 org.apache.commons.math3.complex.Complex,1142
+Thu Jun 30 05:47:43 UTC 2022 org.apache.commons.math3.complex.Complex,1143
+Thu Jun 30 05:47:44 UTC 2022 org.apache.commons.math3.complex.Complex,1144
+Thu Jun 30 05:47:44 UTC 2022 org.apache.commons.math3.complex.Complex,1148
+Thu Jun 30 05:51:45 UTC 2022 org.apache.commons.math3.complex.Complex,1151
+Timeout time : 22/06/30 05:55

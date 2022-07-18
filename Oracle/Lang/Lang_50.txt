@@ -1,2 +1,5 @@
-buggy	org.apache.commons.lang.time.FastDateFormat	285	DEL	locale
-buggy	org.apache.commons.lang.time.FastDateFormat	465	DEL	locale
+org.apache.commons.lang.time.FastDateFormat	getDateInstance(ILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;	locale	buggy
+org.apache.commons.lang.time.FastDateFormat	getDateInstance(ILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;	key	buggy
+org.apache.commons.lang.time.FastDateFormat	getDateInstance(ILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;	locale	fixed
+org.apache.commons.lang.time.FastDateFormat	getDateInstance(ILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;	key#3	fixed
+org.apache.commons.lang.time.FastDateFormat	getDateInstance(ILjava/util/TimeZone;Ljava/util/Locale;)Lorg/apache/commons/lang/time/FastDateFormat;	key	fixed

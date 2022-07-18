@@ -1,6 +1,6 @@
-fix	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	INS	resultEqualsValue
-buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	MOV	ctorType
-buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	UPD	ctorType
-fix	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	618	INS	type
-buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	DEL	resultEqualsValue
-buggy	com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter	613	DEL	ctorType
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	ctorType	buggy
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	this.resultEqualsValue	buggy
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	type	buggy
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	ctorType	fixed
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	this.resultEqualsValue	fixed
+com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter$RestrictByOneTypeOfResultVisitor	caseObjectType(Lcom/google/javascript/rhino/jstype/ObjectType;)Lcom/google/javascript/rhino/jstype/JSType;	type	fixed

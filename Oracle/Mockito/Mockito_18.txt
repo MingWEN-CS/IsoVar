@@ -1,1 +1,1 @@
-fix	org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	87	INS	type
+org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues	returnValueFor(Ljava/lang/Class;)Ljava/lang/Object;	type	fixed

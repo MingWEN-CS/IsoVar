@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.GlobalNamespace	908	INS	declaration
-fix	com.google.javascript.jscomp.GlobalNamespace	907	INS	Preconditions
-buggy	com.google.javascript.rhino.JSDocInfoBuilder	189	DEL	parseDocumentation
+com.google.javascript.rhino.JSDocInfoBuilder	recordBlockDescription(Ljava/lang/String;)Z	this.parseDocumentation	buggy
+com.google.javascript.jscomp.GlobalNamespace$Name	canCollapseUnannotatedChildNames()Z	this.declaration	fixed

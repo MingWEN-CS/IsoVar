@@ -1,9 +1,8 @@
-buggy	org.joda.time.format.DateTimeFormatterBuilder	2542	MOV	ALL_IDS
-fix	org.joda.time.format.DateTimeFormatterBuilder	2550	INS	best
-fix	org.joda.time.format.DateTimeFormatterBuilder	2542	INS	best
-fix	org.joda.time.format.DateTimeFormatterBuilder	2545	INS	best
-fix	org.joda.time.format.DateTimeFormatterBuilder	2545	INS	id
-buggy	org.joda.time.format.DateTimeFormatterBuilder	2544	UPD	DateTimeZone
-fix	org.joda.time.format.DateTimeFormatterBuilder	2552	INS	best
-fix	org.joda.time.format.DateTimeFormatterBuilder	2546	INS	best
-fix	org.joda.time.format.DateTimeFormatterBuilder	2546	INS	id
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	bucket	buggy
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	id	buggy
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	position	buggy
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	bucket	fixed
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	best	fixed
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	best	fixed
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	position	fixed
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId	parseInto(Lorg/joda/time/format/DateTimeParserBucket;Ljava/lang/String;I)I	id	fixed

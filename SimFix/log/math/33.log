@@ -1,0 +1,204 @@
+=================================================
+Project : math_33	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath781 | 22/06/30 00:55
+Thu Jun 30 00:55:35 UTC 2022 org.apache.commons.math3.optimization.linear.Relationship,59
+Thu Jun 30 00:56:21 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,406
+Thu Jun 30 00:57:59 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,407
+Thu Jun 30 00:58:00 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,261
+Thu Jun 30 00:58:03 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,339
+Thu Jun 30 00:58:33 UTC 2022 Thu Jun 30 00:58:33 UTC 2022 : org.apache.commons.math3.optimization.linear.Relationship,57=>Find no block
+Thu Jun 30 00:58:35 UTC 2022 Thu Jun 30 00:58:35 UTC 2022 : org.apache.commons.math3.optimization.linear.Relationship,57=>Find no block
+Thu Jun 30 00:58:38 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,226
+Thu Jun 30 00:59:15 UTC 2022 org.apache.commons.math3.optimization.PointValuePair,67
+Thu Jun 30 00:59:27 UTC 2022 org.apache.commons.math3.optimization.PointValuePair,68
+Thu Jun 30 00:59:28 UTC 2022 org.apache.commons.math3.util.Pair,63
+Thu Jun 30 00:59:31 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,162
+Thu Jun 30 00:59:36 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,199
+Thu Jun 30 00:59:40 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,215
+Thu Jun 30 00:59:45 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,298
+Thu Jun 30 01:00:13 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,299
+Thu Jun 30 01:01:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,300
+Thu Jun 30 01:01:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,302
+Thu Jun 30 01:01:20 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,347
+Thu Jun 30 01:01:36 UTC 2022 Thu Jun 30 01:01:36 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexSolver,181=>Find no block
+Thu Jun 30 01:01:37 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,224
+Thu Jun 30 01:02:10 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,332
+Thu Jun 30 01:02:43 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,333
+Thu Jun 30 01:07:18 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,336
+Thu Jun 30 01:07:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,337
+Thu Jun 30 01:07:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,338
+Thu Jun 30 01:07:20 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,344
+Thu Jun 30 01:09:21 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,345
+Thu Jun 30 01:09:22 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,346
+Thu Jun 30 01:09:22 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,351
+Thu Jun 30 01:19:46 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,352
+Thu Jun 30 01:19:47 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,353
+Thu Jun 30 01:19:47 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,354
+Thu Jun 30 01:19:48 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,355
+Thu Jun 30 01:19:49 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,356
+Thu Jun 30 01:19:49 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,361
+Thu Jun 30 01:22:57 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,362
+Thu Jun 30 01:22:59 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,365
+Thu Jun 30 01:27:52 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,366
+Thu Jun 30 01:27:52 UTC 2022 Thu Jun 30 01:27:52 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexTableau,367=>Find no block
+Thu Jun 30 01:27:54 UTC 2022 org.apache.commons.math3.util.MathUtils,257
+Thu Jun 30 01:28:06 UTC 2022 Thu Jun 30 01:28:06 UTC 2022 : org.apache.commons.math3.util.MathUtils,260=>Find no block
+Thu Jun 30 01:28:07 UTC 2022 Thu Jun 30 01:28:07 UTC 2022 : org.apache.commons.math3.linear.Array2DRowRealMatrix,74=>Find no block
+Thu Jun 30 01:28:08 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,75
+Thu Jun 30 01:28:11 UTC 2022 Thu Jun 30 01:28:11 UTC 2022 : org.apache.commons.math3.linear.Array2DRowRealMatrix,76=>Find no block
+Thu Jun 30 01:28:11 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,262
+Thu Jun 30 02:04:53 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,263
+Thu Jun 30 02:04:54 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,266
+Thu Jun 30 02:04:55 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,269
+Thu Jun 30 02:17:02 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,270
+Thu Jun 30 02:28:01 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,271
+Thu Jun 30 02:28:01 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,275
+Thu Jun 30 02:40:03 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,276
+Thu Jun 30 02:40:03 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,279
+Thu Jun 30 03:09:36 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,280
+Thu Jun 30 03:09:37 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,281
+Thu Jun 30 03:09:37 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,284
+Thu Jun 30 03:09:38 UTC 2022 Thu Jun 30 03:09:38 UTC 2022 : org.apache.commons.math3.linear.Array2DRowRealMatrix,286=>Find no block
+Thu Jun 30 03:09:38 UTC 2022 Thu Jun 30 03:09:38 UTC 2022 : org.apache.commons.math3.linear.Array2DRowRealMatrix,290=>Find no block
+Thu Jun 30 03:09:39 UTC 2022 org.apache.commons.math3.linear.Array2DRowRealMatrix,526
+Thu Jun 30 03:09:41 UTC 2022 Thu Jun 30 03:09:41 UTC 2022 : org.apache.commons.math3.linear.Array2DRowRealMatrix,527=>Find no block
+Thu Jun 30 03:09:42 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,174
+Thu Jun 30 03:09:45 UTC 2022 Thu Jun 30 03:09:45 UTC 2022 : org.apache.commons.math3.linear.AbstractRealMatrix,44=>Find no block
+Thu Jun 30 03:09:45 UTC 2022 org.apache.commons.math3.optimization.PointValuePair,41
+Thu Jun 30 03:09:53 UTC 2022 Thu Jun 30 03:09:53 UTC 2022 : org.apache.commons.math3.optimization.PointValuePair,42=>Find no block
+Thu Jun 30 03:09:53 UTC 2022 org.apache.commons.math3.optimization.PointValuePair,55
+Thu Jun 30 03:09:56 UTC 2022 Thu Jun 30 03:09:56 UTC 2022 : org.apache.commons.math3.optimization.PointValuePair,59=>Find no block
+Thu Jun 30 03:09:57 UTC 2022 Thu Jun 30 03:09:57 UTC 2022 : org.apache.commons.math3.util.Pair,42=>Find no block
+Thu Jun 30 03:09:57 UTC 2022 org.apache.commons.math3.util.Pair,43
+Thu Jun 30 03:10:00 UTC 2022 org.apache.commons.math3.util.Pair,44
+Thu Jun 30 03:10:00 UTC 2022 Thu Jun 30 03:10:00 UTC 2022 : org.apache.commons.math3.util.Pair,45=>Find no block
+Thu Jun 30 03:10:00 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,317
+Thu Jun 30 03:10:11 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,320
+Thu Jun 30 03:17:01 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,397
+Thu Jun 30 03:17:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,398
+Thu Jun 30 03:17:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,399
+Thu Jun 30 03:17:29 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,401
+Thu Jun 30 03:17:42 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,402
+Thu Jun 30 03:17:42 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,403
+Thu Jun 30 03:38:01 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,404
+Thu Jun 30 03:40:16 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,405
+Thu Jun 30 03:40:17 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,409
+Thu Jun 30 03:42:18 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,410
+Thu Jun 30 03:42:21 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,415
+Thu Jun 30 03:42:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,420
+Thu Jun 30 03:42:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,421
+Thu Jun 30 03:42:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,426
+Thu Jun 30 03:55:33 UTC 2022 org.apache.commons.math3.optimization.linear.LinearObjectiveFunction,92
+Thu Jun 30 03:56:10 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,448
+Thu Jun 30 04:04:57 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,449
+Thu Jun 30 04:07:15 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,450
+Thu Jun 30 04:07:15 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,451
+Thu Jun 30 04:14:58 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,452
+Thu Jun 30 04:14:59 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,453
+Thu Jun 30 04:15:00 UTC 2022 org.apache.commons.math3.linear.ArrayRealVector,455
+Thu Jun 30 04:20:40 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,173
+Thu Jun 30 04:20:41 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,178
+Thu Jun 30 04:20:54 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,201
+Thu Jun 30 04:21:27 UTC 2022 org.apache.commons.math3.util.Precision,116
+Thu Jun 30 04:23:50 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,196
+Thu Jun 30 04:23:50 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,198
+Thu Jun 30 04:23:51 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,311
+Thu Jun 30 04:23:51 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,312
+Thu Jun 30 04:23:52 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,313
+Thu Jun 30 04:23:52 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,314
+Thu Jun 30 04:23:53 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,315
+Thu Jun 30 04:23:53 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,316
+Thu Jun 30 04:23:54 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,328
+Thu Jun 30 04:23:56 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,385
+Thu Jun 30 04:24:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,439
+Thu Jun 30 04:28:38 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,440
+Thu Jun 30 04:28:38 UTC 2022 Thu Jun 30 04:28:38 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexTableau,442=>Find no block
+Thu Jun 30 04:28:39 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,456
+Thu Jun 30 04:29:00 UTC 2022 Thu Jun 30 04:29:00 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexTableau,458=>Find no block
+Thu Jun 30 04:29:00 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,127
+Thu Jun 30 04:29:33 UTC 2022 Thu Jun 30 04:29:33 UTC 2022 : org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,130=>Find no block
+Thu Jun 30 04:29:34 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,70
+Thu Jun 30 04:34:22 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,71
+Thu Jun 30 04:34:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,72
+Thu Jun 30 04:34:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,73
+Thu Jun 30 04:34:24 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,74
+Thu Jun 30 04:34:24 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,75
+Thu Jun 30 04:34:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,76
+Thu Jun 30 04:34:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,79
+Thu Jun 30 04:34:26 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,90
+Thu Jun 30 04:45:45 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,91
+Thu Jun 30 04:45:46 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,92
+Thu Jun 30 04:45:46 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,93
+Thu Jun 30 04:46:32 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,94
+Thu Jun 30 04:46:32 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,96
+Thu Jun 30 04:46:33 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,97
+Thu Jun 30 04:46:33 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,98
+Thu Jun 30 04:46:34 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,99
+Thu Jun 30 04:46:34 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,101
+Thu Jun 30 04:46:35 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,102
+Thu Jun 30 04:46:35 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,103
+Thu Jun 30 04:46:36 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,104
+Thu Jun 30 04:46:36 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,109
+Thu Jun 30 04:47:04 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,111
+Thu Jun 30 04:47:05 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,125
+Thu Jun 30 04:48:01 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,137
+Thu Jun 30 04:48:12 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,139
+Thu Jun 30 04:48:13 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,140
+Thu Jun 30 04:48:25 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,141
+Thu Jun 30 04:48:27 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,146
+Thu Jun 30 04:49:15 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,147
+Thu Jun 30 04:55:09 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,150
+Thu Jun 30 04:55:10 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,151
+Thu Jun 30 04:55:11 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,152
+Thu Jun 30 04:55:11 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,153
+Thu Jun 30 04:55:12 UTC 2022 Thu Jun 30 04:55:12 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexSolver,156=>Find no block
+Thu Jun 30 04:55:13 UTC 2022 org.apache.commons.math3.util.Precision,92
+Thu Jun 30 04:55:13 UTC 2022 org.apache.commons.math3.util.Precision,309
+Thu Jun 30 04:55:31 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,155
+Thu Jun 30 04:55:35 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,168
+Thu Jun 30 04:59:50 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,188
+Thu Jun 30 04:59:54 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,225
+Thu Jun 30 04:59:54 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,232
+Thu Jun 30 05:00:12 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,233
+Thu Jun 30 05:00:13 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,234
+Thu Jun 30 05:00:13 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,508
+Thu Jun 30 05:00:22 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,516
+Thu Jun 30 05:00:24 UTC 2022 org.apache.commons.math3.util.Precision,115
+Thu Jun 30 05:00:25 UTC 2022 org.apache.commons.math3.util.Precision,117
+Thu Jun 30 05:00:25 UTC 2022 org.apache.commons.math3.util.Precision,118
+Thu Jun 30 05:00:26 UTC 2022 org.apache.commons.math3.util.Precision,120
+Thu Jun 30 05:01:06 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,165
+Thu Jun 30 05:05:20 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,382
+Thu Jun 30 05:07:31 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,383
+Thu Jun 30 05:07:32 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,384
+Thu Jun 30 05:07:32 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,388
+Thu Jun 30 05:09:36 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexTableau,473
+Thu Jun 30 05:09:58 UTC 2022 Thu Jun 30 05:09:58 UTC 2022 : org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,74=>Find no block
+Thu Jun 30 05:09:59 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,75
+Thu Jun 30 05:10:03 UTC 2022 Thu Jun 30 05:10:03 UTC 2022 : org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,76=>Find no block
+Thu Jun 30 05:10:04 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,82
+Thu Jun 30 05:10:07 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,89
+Thu Jun 30 05:10:10 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,96
+Thu Jun 30 05:10:13 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,103
+Thu Jun 30 05:10:20 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,108
+Thu Jun 30 05:10:27 UTC 2022 Thu Jun 30 05:10:27 UTC 2022 : org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,109=>Find no block
+Thu Jun 30 05:10:27 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,139
+Thu Jun 30 05:10:37 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,140
+Thu Jun 30 05:10:38 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,141
+Thu Jun 30 05:10:38 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,142
+Thu Jun 30 05:10:38 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,144
+Thu Jun 30 05:10:39 UTC 2022 org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer,147
+Thu Jun 30 05:10:39 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,51
+Thu Jun 30 05:10:42 UTC 2022 Thu Jun 30 05:10:42 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexSolver,52=>Find no block
+Thu Jun 30 05:10:42 UTC 2022 Thu Jun 30 05:10:42 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexSolver,59=>Find no block
+Thu Jun 30 05:10:43 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,60
+Thu Jun 30 05:11:18 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,61
+Thu Jun 30 05:11:19 UTC 2022 Thu Jun 30 05:11:19 UTC 2022 : org.apache.commons.math3.optimization.linear.SimplexSolver,62=>Find no block
+Thu Jun 30 05:11:19 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,169
+Thu Jun 30 05:11:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,187
+Thu Jun 30 05:11:23 UTC 2022 org.apache.commons.math3.optimization.linear.SimplexSolver,195
+Thu Jun 30 05:11:24 UTC 2022 org.apache.commons.math3.util.FastMath,3020
+Thu Jun 30 05:11:31 UTC 2022 org.apache.commons.math3.util.Precision,89
+Thu Jun 30 05:11:53 UTC 2022 org.apache.commons.math3.util.Precision,90
+Thu Jun 30 05:11:54 UTC 2022 org.apache.commons.math3.util.Precision,91
+Failed time : 22/06/30 05:11

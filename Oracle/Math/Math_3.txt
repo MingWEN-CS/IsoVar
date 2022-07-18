@@ -1,3 +1,3 @@
-fix	org.apache.commons.math3.util.MathArrays	821	INS	len
-fix	org.apache.commons.math3.util.MathArrays	823	INS	a
-fix	org.apache.commons.math3.util.MathArrays	823	INS	b
+org.apache.commons.math3.util.MathArrays	linearCombination([D[D)D	a[]	fixed
+org.apache.commons.math3.util.MathArrays	linearCombination([D[D)D	len	fixed
+org.apache.commons.math3.util.MathArrays	linearCombination([D[D)D	b[]	fixed

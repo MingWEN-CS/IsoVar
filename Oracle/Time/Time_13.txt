@@ -1,7 +1,7 @@
-fix	org.joda.time.format.PeriodFormatterBuilder	1133	INS	bufLen
-fix	org.joda.time.format.PeriodFormatterBuilder	1133	INS	buf
-fix	org.joda.time.format.PeriodFormatterBuilder	1143	INS	valueLong
-fix	org.joda.time.format.PeriodFormatterBuilder	1143	INS	DateTimeConstants.MILLIS_PER_SECOND
-fix	org.joda.time.format.PeriodFormatterBuilder	1098	INS	valueLong
-fix	org.joda.time.format.PeriodFormatterBuilder	1098	INS	Math
-fix	org.joda.time.format.PeriodFormatterBuilder	1144	INS	buf
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	calculatePrintedLength(Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)I	sum	buggy
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	printTo(Ljava/lang/StringBuffer;Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)V	buf	fixed
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	printTo(Ljava/lang/StringBuffer;Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)V	buf	fixed
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	calculatePrintedLength(Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)I	valueLong	fixed
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	printTo(Ljava/lang/StringBuffer;Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)V	bufLen	fixed
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	printTo(Ljava/lang/StringBuffer;Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)V	bufLen	fixed
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter	calculatePrintedLength(Lorg/joda/time/ReadablePeriod;Ljava/util/Locale;)I	sum	fixed

@@ -1,2 +1,10 @@
-fix	com.google.javascript.jscomp.CheckAccessControls	416	INS	parent
-buggy	com.google.javascript.jscomp.CheckAccessControls	416	UPD	t
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	buggy
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	buggy
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	t	buggy
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	isOverride	buggy
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	getprop	buggy
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	fixed
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	fixed
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	fixed
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	isOverride	fixed
+com.google.javascript.jscomp.CheckAccessControls	checkPropertyVisibility(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	getprop	fixed

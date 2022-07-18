@@ -1,1 +1,4 @@
-buggy	com.google.javascript.jscomp.NodeUtil	1417	UPD	allResultsMatch
+com.google.javascript.jscomp.NodeUtil	mayBeString(Lcom/google/javascript/rhino/Node;Z)Z	.MAY_BE_STRING_PREDICATE	buggy
+com.google.javascript.jscomp.NodeUtil	mayBeString(Lcom/google/javascript/rhino/Node;Z)Z	n	buggy
+com.google.javascript.jscomp.NodeUtil	mayBeString(Lcom/google/javascript/rhino/Node;Z)Z	.MAY_BE_STRING_PREDICATE	fixed
+com.google.javascript.jscomp.NodeUtil	mayBeString(Lcom/google/javascript/rhino/Node;Z)Z	n	fixed

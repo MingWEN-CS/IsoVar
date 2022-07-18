@@ -1,4 +1,1 @@
-fix	org.apache.commons.math3.dfp.Dfp	1603	INS	x
-fix	org.apache.commons.math3.dfp.Dfp	1603	INS	RADIX
-fix	org.apache.commons.math3.dfp.Dfp	1606	INS	multiply
-fix	org.apache.commons.math3.dfp.Dfp	1606	INS	newInstance
+org.apache.commons.math3.dfp.Dfp	multiply(I)Lorg/apache/commons/math3/dfp/Dfp;	x	fixed

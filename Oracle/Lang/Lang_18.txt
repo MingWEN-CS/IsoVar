@@ -1,3 +1,7 @@
-buggy	org.apache.commons.lang3.time.FastDateFormat	495	UPD	tokenLen
-fix	org.apache.commons.lang3.time.FastDateFormat	498	INS	tokenLen
-buggy	org.apache.commons.lang3.time.FastDateFormat	496	DEL	selectNumberRule
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	tokenLen	buggy
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	rule	buggy
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	.INSTANCE	buggy
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	this	fixed
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	tokenLen	fixed
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	rule	fixed
+org.apache.commons.lang3.time.FastDateFormat	parsePattern()Ljava/util/List;	.INSTANCE	fixed

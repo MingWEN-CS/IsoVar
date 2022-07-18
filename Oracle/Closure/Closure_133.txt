@@ -1,2 +1,2 @@
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	2401	INS	unreadToken
-fix	com.google.javascript.jscomp.parsing.JsDocInfoParser	2401	INS	NO_UNREAD_TOKEN
+com.google.javascript.jscomp.parsing.JsDocInfoParser	getRemainingJSDocLine()Ljava/lang/String;	.NO_UNREAD_TOKEN	fixed
+com.google.javascript.jscomp.parsing.JsDocInfoParser	getRemainingJSDocLine()Ljava/lang/String;	this.unreadToken	fixed

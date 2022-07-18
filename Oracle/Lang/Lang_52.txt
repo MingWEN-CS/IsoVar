@@ -1,2 +1,1 @@
-fix	org.apache.commons.lang.StringEscapeUtils	237	INS	out
-fix	org.apache.commons.lang.StringEscapeUtils	238	INS	out
+org.apache.commons.lang.StringEscapeUtils	escapeJavaStyleString(Ljava/io/Writer;Ljava/lang/String;Z)V	out	fixed

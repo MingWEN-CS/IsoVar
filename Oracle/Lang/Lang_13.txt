@@ -1,16 +1,5 @@
-fix	org.apache.commons.lang3.SerializationUtils	239	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	254	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	255	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	256	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	257	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	258	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	259	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	260	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	261	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	262	INS	primitiveTypes
-fix	org.apache.commons.lang3.SerializationUtils	281	INS	cnfe
-fix	org.apache.commons.lang3.SerializationUtils	283	INS	cls
-fix	org.apache.commons.lang3.SerializationUtils	282	INS	cls
-fix	org.apache.commons.lang3.SerializationUtils	284	INS	cls
-fix	org.apache.commons.lang3.SerializationUtils	286	INS	cnfe
-fix	org.apache.commons.lang3.SerializationUtils	282	INS	primitiveTypes
+org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;	cnfe	fixed
+org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream	<init>(Ljava/io/InputStream;Ljava/lang/ClassLoader;)V	.TYPE	fixed
+org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;	name	fixed
+org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream	<clinit>()V	.primitiveTypes	fixed
+org.apache.commons.lang3.SerializationUtils$ClassLoaderAwareObjectInputStream	resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;	cls	fixed

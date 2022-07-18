@@ -1,8 +1,7 @@
-fix	org.apache.commons.lang3.text.translate.CharSequenceTranslator	89	INS	pos
-fix	org.apache.commons.lang3.text.translate.CharSequenceTranslator	89	INS	c.length
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	83	DEL	Character
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	100	DEL	pos
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	94	DEL	pos
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	94	DEL	len
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	97	DEL	pos
-buggy	org.apache.commons.lang3.text.translate.CharSequenceTranslator	102	DEL	pos
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	input	buggy
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	len	buggy
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	pos	buggy
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	input	fixed
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	c	fixed
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	len	fixed
+org.apache.commons.lang3.text.translate.CharSequenceTranslator	translate(Ljava/lang/CharSequence;Ljava/io/Writer;)V	pos	fixed

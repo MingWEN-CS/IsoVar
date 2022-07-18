@@ -1,1 +1,5 @@
-fix	org.apache.commons.math.analysis.solvers.BisectionSolver	72	INS	solve
+org.apache.commons.math.analysis.solvers.BisectionSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	min	buggy
+org.apache.commons.math.analysis.solvers.BisectionSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	max	buggy
+org.apache.commons.math.analysis.solvers.BisectionSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	min	fixed
+org.apache.commons.math.analysis.solvers.BisectionSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	max	fixed
+org.apache.commons.math.analysis.solvers.BisectionSolver	solve(Lorg/apache/commons/math/analysis/UnivariateRealFunction;DDD)D	f	fixed

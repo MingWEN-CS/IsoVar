@@ -1,25 +1,30 @@
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	990	INS	bLoEnc
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	991	INS	bHiEnc
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	990	INS	encode
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	991	INS	encode
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	995	UPD	x
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	995	UPD	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	992	UPD	x
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	992	UPD	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	MOV	diff
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	MOV	x
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	MOV	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	MOV	boundaries
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	991	INS	boundaries
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	994	INS	bLoEnc
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	994	INS	i
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	997	INS	bHiEnc
-fix	org.apache.commons.math3.optimization.direct.CMAESOptimizer	997	INS	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	932	DEL	boundaries
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	932	DEL	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	932	DEL	x
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	DEL	i
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	DEL	res
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	DEL	diff
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	DEL	x
-buggy	org.apache.commons.math3.optimization.direct.CMAESOptimizer	958	DEL	boundaries
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	res	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	i	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	diff	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	this.this$0	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	res[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	res[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	x	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	x	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	x	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	x[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	x[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	x[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	x[]	buggy
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	res	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	bLoEnc[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	bLoEnc	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	i	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	diff	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	this.this$0	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	res[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	res[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	bHiEnc	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	bHiEnc	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	x	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	x	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	x	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	bHiEnc[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	encode([D)[D	x[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	decode([D)[D	x[]	fixed
+org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction	isFeasible([D)Z	x[]	fixed

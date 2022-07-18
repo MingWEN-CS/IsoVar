@@ -1,2 +1,4 @@
-buggy	org.jfree.data.time.TimePeriodValues	300	UPD	minMiddleIndex
-buggy	org.jfree.data.time.TimePeriodValues	302	UPD	minMiddleIndex
+org.jfree.data.time.TimePeriodValues	updateBounds(Lorg/jfree/data/time/TimePeriod;I)V	this.maxMiddleIndex	buggy
+org.jfree.data.time.TimePeriodValues	updateBounds(Lorg/jfree/data/time/TimePeriod;I)V	e	fixed
+org.jfree.data.time.TimePeriodValues	updateBounds(Lorg/jfree/data/time/TimePeriod;I)V	this.maxMiddleIndex	fixed
+org.jfree.data.time.TimePeriodValues	updateBounds(Lorg/jfree/data/time/TimePeriod;I)V	minStart	fixed

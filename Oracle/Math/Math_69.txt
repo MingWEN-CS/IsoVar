@@ -1,2 +1,12 @@
-fix	org.apache.commons.math.stat.correlation.PearsonsCorrelation	171	INS	t
-buggy	org.apache.commons.math.stat.correlation.PearsonsCorrelation	171	DEL	tDistribution
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	out[]	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	t	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	i	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	tDistribution	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	j	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	out	buggy
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	out[]	fixed
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	t	fixed
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	i	fixed
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	tDistribution	fixed
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	j	fixed
+org.apache.commons.math.stat.correlation.PearsonsCorrelation	getCorrelationPValues()Lorg/apache/commons/math/linear/RealMatrix;	out	fixed

@@ -1,3 +1,4 @@
-fix	com.google.javascript.jscomp.CodeGenerator	785	INS	len
-buggy	com.google.javascript.jscomp.CodeGenerator	791	UPD	len
-buggy	com.google.javascript.jscomp.CodeGenerator	791	UPD	s
+com.google.javascript.jscomp.CodeGenerator	isSimpleNumber(Ljava/lang/String;)Z	s	buggy
+com.google.javascript.jscomp.CodeGenerator	isSimpleNumber(Ljava/lang/String;)Z	len	buggy
+com.google.javascript.jscomp.CodeGenerator	isSimpleNumber(Ljava/lang/String;)Z	s	fixed
+com.google.javascript.jscomp.CodeGenerator	isSimpleNumber(Ljava/lang/String;)Z	len	fixed

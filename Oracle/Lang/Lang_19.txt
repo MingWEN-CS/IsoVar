@@ -1,14 +1,17 @@
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	end
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	seqEnd
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	57	INS	input
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	semiNext
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	end
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	seqEnd
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	84	INS	input
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	50	INS	start
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	50	INS	seqEnd
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	86	INS	semiNext
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	58	INS	input
-fix	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	59	INS	input
-buggy	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	54	UPD	input
-buggy	org.apache.commons.lang3.text.translate.NumericEntityUnescaper	54	MOV	input
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	start	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	index	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	end	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	isHex	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	seqEnd	buggy
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	input	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	start	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	index	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	nfe#14	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	end	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	isHex	fixed
+org.apache.commons.lang3.text.translate.NumericEntityUnescaper	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	seqEnd	fixed

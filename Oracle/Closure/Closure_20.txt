@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	220	INS	value
-buggy	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	220	MOV	value
-fix	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	221	INS	NodeUtil
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	tryFoldSimpleFunctionCall(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	value	buggy
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax	tryFoldSimpleFunctionCall(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	value	fixed

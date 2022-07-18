@@ -1,2 +1,1 @@
-fix	org.joda.time.format.PeriodFormatterBuilder	801	INS	sep.iAfterParser
-fix	org.joda.time.format.PeriodFormatterBuilder	801	INS	sep.iAfterPrinter
+org.joda.time.format.PeriodFormatterBuilder	toFormatter(Ljava/util/List;ZZ)Lorg/joda/time/format/PeriodFormatter;	sep	fixed

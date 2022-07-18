@@ -1,24 +1,18 @@
-fix	org.apache.commons.math3.linear.OpenMapRealVector	350	INS	i
-fix	org.apache.commons.math3.linear.OpenMapRealVector	350	INS	n
-fix	org.apache.commons.math3.linear.OpenMapRealVector	373	INS	v
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	349	UPD	iter
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	349	UPD	entries
-fix	org.apache.commons.math3.linear.OpenMapRealVector	375	INS	i
-fix	org.apache.commons.math3.linear.OpenMapRealVector	375	INS	n
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	352	UPD	iter
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	352	MOV	iter
-fix	org.apache.commons.math3.linear.OpenMapRealVector	374	INS	n
-fix	org.apache.commons.math3.linear.OpenMapRealVector	374	INS	getDimension
-fix	org.apache.commons.math3.linear.OpenMapRealVector	376	INS	y
-fix	org.apache.commons.math3.linear.OpenMapRealVector	377	INS	Double
-fix	org.apache.commons.math3.linear.OpenMapRealVector	376	INS	v
-fix	org.apache.commons.math3.linear.OpenMapRealVector	379	INS	Double
-fix	org.apache.commons.math3.linear.OpenMapRealVector	378	INS	res
-fix	org.apache.commons.math3.linear.OpenMapRealVector	380	INS	x
-fix	org.apache.commons.math3.linear.OpenMapRealVector	381	INS	res
-fix	org.apache.commons.math3.linear.OpenMapRealVector	381	INS	x
-fix	org.apache.commons.math3.linear.OpenMapRealVector	381	INS	y
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	349	DEL	entries
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	352	DEL	iter
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	350	DEL	iter
-buggy	org.apache.commons.math3.linear.OpenMapRealVector	351	DEL	iter
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	res	buggy
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	v	buggy
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	iter	buggy
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	this.entries	buggy
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	res	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	i	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	i	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	i	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	i	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	i	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	n	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	n	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	n	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	n	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeDivide(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	v	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	v	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	x	fixed
+org.apache.commons.math3.linear.OpenMapRealVector	ebeMultiply(Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/OpenMapRealVector;	y	fixed

@@ -1,2 +1,8 @@
-buggy	org.apache.commons.lang3.text.translate.LookupTranslator	77	MOV	lookupMap
-fix	org.apache.commons.lang3.text.translate.LookupTranslator	77	INS	subSeq
+org.apache.commons.lang3.text.translate.LookupTranslator	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	result	buggy
+org.apache.commons.lang3.text.translate.LookupTranslator	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	subSeq	buggy
+org.apache.commons.lang3.text.translate.LookupTranslator	<init>([[Ljava/lang/CharSequence;)V	seq[]	buggy
+org.apache.commons.lang3.text.translate.LookupTranslator	<init>([[Ljava/lang/CharSequence;)V	this.lookupMap	buggy
+org.apache.commons.lang3.text.translate.LookupTranslator	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	result	fixed
+org.apache.commons.lang3.text.translate.LookupTranslator	translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I	subSeq	fixed
+org.apache.commons.lang3.text.translate.LookupTranslator	<init>([[Ljava/lang/CharSequence;)V	seq[]	fixed
+org.apache.commons.lang3.text.translate.LookupTranslator	<init>([[Ljava/lang/CharSequence;)V	this.lookupMap	fixed

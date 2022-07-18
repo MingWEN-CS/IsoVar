@@ -4,27 +4,19 @@ import Instrument.BBMapping;
 import IsoVar.Configuration;
 import IsoVar.VariableInfo;
 import IsoVar.VariableTrimInfo;
-import Util.Pair;
 import Util.RunCommand;
 import Util.TestSuite;
-import org.javatuples.Quartet;
-import org.javatuples.Triplet;
-import org.objectweb.asm.ClassReader;
-import org.objectweb.asm.ClassWriter;
-import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.tree.*;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static org.objectweb.asm.Opcodes.*;
+import static Instrument.Instrument.myHashCode;
 
 public class Statistical {
-    private final int maxVarCount = 40;
+    private final int maxVarCount = 60;
     public Map<VariableTrimInfo, Set<Integer>> vars;
     double alpha;
 
@@ -66,10 +58,6 @@ public class Statistical {
         Iterator<Map<Integer, Integer[]>> it = values.iterator();
         Map<Integer, Integer[]> first = it.next();
         Set<Integer> common = new HashSet<>();
-//        Set<Integer> common = new HashSet<>(first.keySet());
-//        while (it.hasNext()) {
-//            common.retainAll(it.next().keySet());
-//        }
         for (Map<Integer, Integer[]> value : values) {
             common.addAll(value.keySet());
         }
@@ -102,13 +90,13 @@ public class Statistical {
                 if (var.isParameter)
                     continue;
 //                VariableTrimInfo trimVar = new VariableTrimInfo(var.name, var.desc, var.methodHash, var.isClinit);
-                if (tmp.get(var.name) != null) {
-                    Set<Integer> in = tmp.get(var.name);
+                if (tmp.get(var.trueName) != null) {
+                    Set<Integer> in = tmp.get(var.trueName);
                     in.add(mapping.index);
                 } else if (!var.isParameter) {
                     Set<Integer> in = new HashSet<>();
                     in.add(mapping.index);
-                    tmp.put(var.name, in);
+                    tmp.put(var.trueName, in);
                 }
             }
         }
@@ -120,11 +108,12 @@ public class Statistical {
             if (accessed[i]) {
                 BBMapping mapping = mappings[i];
                 for (VariableInfo var : mapping.vars) {
-                    Set<Integer> in = tmp.get(var.name);
+                    Set<Integer> in = tmp.get(var.trueName);
                     if (in != null && in.contains(mapping.index)) {
-                        if (!addedVar.contains(var.name)) {
-                            varsTrim.putIfAbsent(new VariableTrimInfo(var.name, var.desc, var.methodHash, var.isClinit), in);
-                            addedVar.add(var.name);
+                        if (!addedVar.contains(var.trueName)) {
+
+                            varsTrim.putIfAbsent(new VariableTrimInfo(var), in);
+                            addedVar.add(var.trueName);
                         }
                     }
                 }
@@ -183,14 +172,15 @@ public class Statistical {
     public void doCalculate(Map<TestSuite, Map<Integer, Integer[]>> failingBBAccess,
                             Map<TestSuite, Map<Integer, Integer[]>> passingBBAccess) {
         for (Map.Entry<VariableTrimInfo, Set<Integer>> entry : this.vars.entrySet()) {
-            VariableTrimInfo var = entry.getKey();
+            VariableTrimInfo varT = entry.getKey();
+            VariableInfo var = varT.var;
             Set<Integer> varMappingBB = entry.getValue();
             List<Integer[]> varFailingAccess = new ArrayList<>();
             double failingFreq = calFrequency(varMappingBB, failingBBAccess,
-                    varFailingAccess, var.methodHash, var.isClinit);
+                    varFailingAccess, var.methodHash, varT.var.isClinit);
             List<Integer[]> varPassingAccess = new ArrayList<>();
             double passingFreq = calFrequency(varMappingBB, passingBBAccess,
-                    varPassingAccess, var.methodHash, var.isClinit);
+                    varPassingAccess, var.methodHash, varT.var.isClinit);
             double avg = 0;
             for (Integer[] failingAccess : varFailingAccess) {
                 for (Integer[] passingAccess : varPassingAccess) {
@@ -204,17 +194,17 @@ public class Statistical {
             } else cosSim = 0;
 
             if ((failingFreq + passingFreq) != 0) {
-                var.statistical = failingFreq / (failingFreq + passingFreq) - cosSim * this.alpha;
-                if (var.statistical > -0.001 && var.statistical < 0.001)
-                    var.statistical = 0;
+                varT.statistical = failingFreq / (failingFreq + passingFreq) - cosSim * this.alpha;
+                if (varT.statistical > -0.001 && varT.statistical < 0.001)
+                    varT.statistical = 0;
             } else
-                var.statistical = 0;
+                varT.statistical = 0;
 
-            var.failingFreq = failingFreq;
-            var.passingFreq = passingFreq;
-            var.cosSim = cosSim;
+            varT.failingFreq = failingFreq;
+            varT.passingFreq = passingFreq;
+            varT.cosSim = cosSim;
 
-            var.suspicious += var.statistical;
+            varT.suspicious += varT.statistical;
         }
     }
 
@@ -223,27 +213,19 @@ public class Statistical {
 //            File file = new File(config.similaritiesRoot+"_allmethod" + "/" + config.getProjectName() + "/" +
             File file = new File(config.getReport_dir() + "/" + config.getProjectName() + "/" +
                     config.getProjectName() + "_" + config.getCurrent() + ".txt");
-            File parent = file.getParentFile();
-            if (!parent.exists())
-                parent.mkdirs();
+            file.getParentFile().mkdirs();
             FileWriter fw = new FileWriter(file);
             List<VariableTrimInfo> sortedVars = new ArrayList<>(this.vars.keySet());
             sortedVars.sort((v1, v2) -> Double.compare(v2.suspicious, v1.suspicious));
-            String clazzRoot = config.getProjectTargetPath();
-            for (VariableTrimInfo var : sortedVars) {
-                String name = var.name;
-                Quartet<String, String, Integer, Integer> varInfo = getVarsInfo(name, bbMappings.get(var.methodHash));
-                if (varInfo == null)
-                    continue;
-                if (name.contains("#")) {
-                    String newName = recoverName(var.desc, clazzRoot, varInfo);
-                    if (newName != null)
-                        name = newName;
-                }
+            for (VariableTrimInfo varT : sortedVars) {
+                VariableInfo var = varT.var;
+//                String name = var.trueName == null ? var.name : var.trueName;
 //                fw.write(var.methodHash + "\t" + name + "\t" + var.suspicious +
 //                        "\t[" + var.statistical + " " + var.failingFreq + " " + var.passingFreq + " " + var.cosSim +
 //                        "]\t[" + var.mutate + " " + var.failingDiff + " " + var.passingDiff + "]\n");
-                fw.write(varInfo.getValue0() + "\t" + varInfo.getValue1() + "\t" + name + "\t" + var.suspicious + "\n");
+                fw.write(var.className + "\t" + var.methodName + "\t" + var.trueName + "\t" + varT.suspicious +
+                        "\t[" + varT.statistical + " " + varT.failingFreq + " " + varT.passingFreq + " " + varT.cosSim +
+                        "]\t[" + varT.mutate + " " + varT.failingDiff + " " + varT.passingDiff + "]\n");
             }
             fw.close();
         } catch (IOException e) {
@@ -251,144 +233,56 @@ public class Statistical {
         }
     }
 
-    private String recoverName(String desc, String clazzRoot, Quartet<String, String, Integer, Integer> info) {
+    public static Map<String, Double> readStatisticalResult(Configuration config) {
+        Map<String, Double> varSusMap = new HashMap<>();
+        File file = new File(Configuration.ReportRoot + "/" + config.getProjectName() + "/" +
+                config.getProjectName() + "_" + config.getCurrent() + ".txt");
+        InputStreamReader ir;
         try {
-            String path = clazzRoot + info.getValue0().replace(".", "/") + ".class";
-            ClassNode cn = new ClassNode(ASM7);
-            ClassReader cr = new ClassReader(new FileInputStream(path));
-            cr.accept(cn, ClassReader.EXPAND_FRAMES | ClassReader.SKIP_FRAMES);
-            int def = info.getValue2();
-            int use = info.getValue3();
-            Pair<String, Integer> newDesc = transformVarDescToBytecode(desc);
-            for (MethodNode mn : cn.methods) {
-                if (info.getValue1().equals(mn.name + mn.desc)) {
-                    int currentLine = -1;
-                    AbstractInsnNode[] instructions = mn.instructions.toArray();
-                    List<LocalVariableNode> candidates = new ArrayList<>();
-                    Map<LabelNode, Integer> labelIndexMap = new HashMap<>();
-                    int targetInsnIndex = -1;
-                    int targetVarIndex = -1;
-                    for (int i = 0; i < mn.instructions.size(); i++) {
-                        AbstractInsnNode ins = instructions[i];
-                        if (ins instanceof LineNumberNode) {
-                            LineNumberNode lineNumberNode = (LineNumberNode) ins;
-                            currentLine = lineNumberNode.line;
-                        } else if (ins instanceof LabelNode) {
-                            labelIndexMap.put((LabelNode) ins, i);
-                        } else if (def == currentLine && instructions[i] instanceof VarInsnNode) {
-                            VarInsnNode varInsnNode = (VarInsnNode) ins;
-                            targetVarIndex = varInsnNode.var;
-                            int opcode = varInsnNode.getOpcode();
-                            if (opcode == newDesc.getValue()) {
-                                for (LocalVariableNode local : mn.localVariables) {
-                                    if (labelIndexMap.containsKey(local.start))
-                                        continue;
-                                    if (local.index == targetVarIndex &&
-                                            local.desc.equals(newDesc.getKey())) {
-                                        candidates.add(local);
-                                    }
-                                }
-                            }
-                        } else if (use == currentLine && instructions[i] instanceof VarInsnNode) {
-                            VarInsnNode varInsnNode = (VarInsnNode) ins;
-                            if (varInsnNode.var == targetVarIndex)
-                                targetInsnIndex = i;
-                        }
-                    }
-                    if (candidates.size() == 1) {
-                        return candidates.get(0).name;
-                    } else {
-                        for (LocalVariableNode candidate : candidates) {
-                            if (candidate.index == targetVarIndex &&
-                                    labelIndexMap.get(candidate.start) <= targetInsnIndex &&
-                                    labelIndexMap.get(candidate.end) >= targetInsnIndex) {
-                                return candidate.name;
-                            }
-                        }
-                    }
-                    // may overwrite parameter slot
-                    for (LocalVariableNode local : mn.localVariables) {
-                        if (targetVarIndex == local.index) {
-                           return local.name;
-                        }
-                    }
-                }
+            ir = new InputStreamReader(Files.newInputStream(file.toPath()));
+            BufferedReader bf = new BufferedReader(ir);
+            String line;
+            String[] split;
+            while ((line = bf.readLine()) != null) {
+                split = line.split("\t");
+                String className = split[0];
+                String methodSig = split[1];
+                String varName = split[2];
+//                double suspicious = Double.parseDouble(split[3]);
+                String[] statStr = split[4].split(" ");
+                double failFreq = Double.parseDouble(statStr[1]);
+                double passFreq = Double.parseDouble(statStr[2]);
+                if (passFreq > -0.001 && passFreq < 0.001)
+                    passFreq = 0;
+                double cosSim = Double.parseDouble(statStr[3].substring(0, statStr[3].length() - 1));
+                double stat = failFreq / (failFreq + passFreq) - cosSim * 0.5;
+//                if (cosSim == 0)
+//                    stat = 0;
+                if (cosSim == 0 && config.getProjectName().equals("Math"))
+                    stat = 1;
+
+                String[] mutateStr = split[5].split(" ");
+                double failingDiff = Double.parseDouble(mutateStr[1]);
+                double passingDiff = Double.parseDouble(mutateStr[2].substring(0, mutateStr[2].length() - 1));
+                double mutate = failingDiff - passingDiff * config.getBeta();
+
+                double suspicious;
+                if (mutate == 0)
+                    suspicious = stat;
+                else
+                    suspicious = stat + mutate * config.getGamma();
+                int hash = myHashCode(className) + myHashCode(methodSig);
+                String id = hash + "#" + varName;
+                varSusMap.put(id, suspicious);
             }
+            bf.close();
+            ir.close();
+
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return null;
+        return varSusMap;
     }
-
-    private Pair<String, Integer> transformVarDescToBytecode(String desc) {
-        StringBuilder prefix = new StringBuilder();
-        int store = -1;
-        while (desc.endsWith("[]")) {
-            desc = desc.substring(0, desc.length() - 2);
-            prefix.append("[");
-            store = ASTORE;
-        }
-        switch (desc) {
-            case "boolean":
-                if (store == -1)
-                    store = ISTORE;
-                return new Pair<>(prefix + "Z", store);
-            case "char":
-                if (store == -1)
-                    store = ISTORE;
-                return new Pair<>(prefix + "C", store);
-            case "byte":
-                if (store == -1)
-                    store = ISTORE;
-                return new Pair<>(prefix + "B", store);
-            case "short":
-                if (store == -1)
-                    store = ISTORE;
-                return new Pair<>(prefix + "S", store);
-            case "int":
-                if (store == -1)
-                    store = ISTORE;
-                return new Pair<>(prefix + "I", store);
-            case "float":
-                if (store == -1)
-                    store = FSTORE;
-                return new Pair<>(prefix + "F", store);
-            case "double":
-                if (store == -1)
-                    store = DSTORE;
-                return new Pair<>(prefix + "D", store);
-            case "long":
-                if (store == -1)
-                    store = LSTORE;
-                return new Pair<>(prefix + "J", store);
-            default:
-                return new Pair<>(prefix + "L" + desc.replace(".", "/") + ";", ASTORE);
-        }
-    }
-
-
-    private Quartet<String, String, Integer, Integer> getVarsInfo(String name, BBMapping[] bbMappings) {
-        int def = -1;
-        int use = -1;
-        VariableInfo tmp = null;
-        for (BBMapping bbMapping : bbMappings) {
-            if (def != -1 && use != -1)
-                break;
-            for (VariableInfo var : bbMapping.vars) {
-                if (var.name.equals(name) && var.isDef() && def == -1) {
-                    def = var.getLine();
-                }
-                if (var.name.equals(name) && !var.isDef() && use == -1) {
-                    use = var.getLine();
-                    tmp = var;
-                }
-            }
-        }
-        if (tmp == null)
-            return null;
-        return new Quartet<>(tmp.className, tmp.methodName, def, use);
-    }
-
 
     public Map<VariableTrimInfo, Set<VariableInfo>> prepareVarsToBeMutated(Map<Integer, BBMapping[]> bbMappings,
                                                                            Map<TestSuite, Map<Integer, Integer[]>> failingBBAccess) {
@@ -406,10 +300,10 @@ public class Statistical {
                 }
             }
         }
-        for (VariableTrimInfo varTrim : sortedVars) {
+        for (VariableTrimInfo varTrim : varsToBeMutated) {
             Set<VariableInfo> toAddVars = new HashSet<>();
-            BBMapping[] BBs = bbMappings.get(varTrim.methodHash);
-            Integer[] access = suite.get(varTrim.methodHash);
+            BBMapping[] BBs = bbMappings.get(varTrim.var.methodHash);
+            Integer[] access = suite.get(varTrim.var.methodHash);
             if (access == null) {
                 access = new Integer[bbMappings.size()];
                 Arrays.fill(access, 0);
@@ -422,7 +316,7 @@ public class Statistical {
                     continue;
                 // for defs in BB
                 for (VariableInfo var : BB.vars) {
-                    if (!var.name.equals(varTrim.name))
+                    if (!var.name.equals(varTrim.var.name))
                         continue;
                     if (var.isDef()) {
                         if (var.isParameter)
@@ -435,7 +329,7 @@ public class Statistical {
 
                 // for uses in BB
                 for (VariableInfo var : BB.vars) {
-                    if (!var.name.equals(varTrim.name))
+                    if (!var.name.equals(varTrim.var.name))
                         continue;
                     if (!var.isDef() && paramVar != null) {
                         toAddVars.add(paramVar);
@@ -457,7 +351,7 @@ public class Statistical {
                                                                  RunCommand cmd) {
         Map<Integer, Set<String>> map = new HashMap<>();
         for (VariableTrimInfo varTrim : varTrims) {
-            if (map.containsKey(varTrim.methodHash))
+            if (map.containsKey(varTrim.var.methodHash))
                 continue;
             Set<String> set = new HashSet<>();
             String clazzForFailing = findClasses(failingBBAccess, varTrim);
@@ -476,7 +370,7 @@ public class Statistical {
                 else
                     set.add(clazz);
             }
-            map.put(varTrim.methodHash, set);
+            map.put(varTrim.var.methodHash, set);
         }
         return map;
     }
@@ -485,7 +379,7 @@ public class Statistical {
         List<String> list2 = new ArrayList<>();
         for (Map.Entry<TestSuite, Map<Integer, Integer[]>> entry : BBAccess.entrySet()) {
             Map<Integer, Integer[]> access = entry.getValue();
-            if (access.get(varTrim.methodHash) != null) {
+            if (access.get(varTrim.var.methodHash) != null) {
                 TestSuite suite = entry.getKey();
                 list2.add(suite.className);
             }

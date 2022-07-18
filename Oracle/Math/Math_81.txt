@@ -1,5 +1,17 @@
-fix	org.apache.commons.math.linear.EigenDecompositionImpl	603	INS	upperSpectra
-fix	org.apache.commons.math.linear.EigenDecompositionImpl	603	INS	Math
-buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	work
-buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	i
-buggy	org.apache.commons.math.linear.EigenDecompositionImpl	906	UPD	TOLERANCE_2
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	fourI	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.work[]	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.sigma	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	computeShiftIncrement(III)V	start	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	i	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.work	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	computeShiftIncrement(III)V	end	buggy
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	fourI	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.work[]	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.sigma	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	computeGershgorinCircles()V	upper	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	computeGershgorinCircles()V	this.upperSpectra	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	computeShiftIncrement(III)V	start	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	i	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	i	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	processGeneralBlock(I)V	this.work	fixed
+org.apache.commons.math.linear.EigenDecompositionImpl	computeShiftIncrement(III)V	end	fixed

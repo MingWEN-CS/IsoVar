@@ -1,3 +1,2 @@
-fix	com.google.javascript.jscomp.TypeCheck	1572	INS	implicitProto
-fix	com.google.javascript.jscomp.TypeCheck	1575	INS	currentPropertyNames
-fix	com.google.javascript.jscomp.TypeCheck	1575	INS	ImmutableSet
+com.google.javascript.jscomp.TypeCheck	checkInterfaceConflictProperties(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Lcom/google/javascript/rhino/jstype/ObjectType;)V	currentPropertyNames	fixed
+com.google.javascript.jscomp.TypeCheck	checkInterfaceConflictProperties(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Lcom/google/javascript/rhino/jstype/ObjectType;)V	implicitProto	fixed

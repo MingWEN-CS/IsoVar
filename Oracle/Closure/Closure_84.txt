@@ -1,23 +1,12 @@
-fix	com.google.javascript.jscomp.parsing.IRFactory	824	INS	validAssignmentTarget
-fix	com.google.javascript.jscomp.parsing.IRFactory	824	INS	target
-fix	com.google.javascript.jscomp.parsing.IRFactory	341	INS	target
-fix	com.google.javascript.jscomp.parsing.IRFactory	825	INS	target
-fix	com.google.javascript.jscomp.parsing.IRFactory	826	INS	Token.NAME
-fix	com.google.javascript.jscomp.parsing.IRFactory	827	INS	Token.GETPROP
-fix	com.google.javascript.jscomp.parsing.IRFactory	828	INS	Token.GETELEM
-fix	com.google.javascript.jscomp.parsing.IRFactory	341	INS	assign
-fix	com.google.javascript.jscomp.parsing.IRFactory	342	INS	validAssignmentTarget
-fix	com.google.javascript.jscomp.parsing.IRFactory	804	INS	type
-fix	com.google.javascript.jscomp.parsing.IRFactory	804	INS	Token.INC
-fix	com.google.javascript.jscomp.parsing.IRFactory	804	INS	Token.DEC
-fix	com.google.javascript.jscomp.parsing.IRFactory	343	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	345	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	346	INS	target
-fix	com.google.javascript.jscomp.parsing.IRFactory	805	INS	validAssignmentTarget
-fix	com.google.javascript.jscomp.parsing.IRFactory	806	INS	msg
-fix	com.google.javascript.jscomp.parsing.IRFactory	809	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	810	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	811	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	812	INS	operand
-fix	com.google.javascript.jscomp.parsing.IRFactory	806	INS	type
-fix	com.google.javascript.jscomp.parsing.IRFactory	806	INS	Token.INC
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	msg	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processAssignment(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;	this.this$0	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	type	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	type	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	type	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	operand	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processUnaryExpression(Lcom/google/javascript/jscomp/mozilla/rhino/ast/UnaryExpression;)Lcom/google/javascript/rhino/Node;	operand	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processAssignment(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;	target	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processAssignment(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;	assign	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processAssignment(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;	target	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processAssignment(Lcom/google/javascript/jscomp/mozilla/rhino/ast/Assignment;)Lcom/google/javascript/rhino/Node;	target	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	validAssignmentTarget(Lcom/google/javascript/rhino/Node;)Z	target	fixed

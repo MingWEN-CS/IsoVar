@@ -1,4 +1,5 @@
-buggy	com.google.javascript.jscomp.MinimizeExitPoints	141	DEL	NodeUtil
-buggy	com.google.javascript.jscomp.MinimizeExitPoints	142	DEL	finallyBlock
-buggy	com.google.javascript.jscomp.MinimizeExitPoints	142	DEL	n
-buggy	com.google.javascript.jscomp.MinimizeExitPoints	143	DEL	tryMinimizeExits
+com.google.javascript.jscomp.MinimizeExitPoints	tryMinimizeExits(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	exitType	buggy
+com.google.javascript.jscomp.MinimizeExitPoints	tryMinimizeExits(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	catchNode	buggy
+com.google.javascript.jscomp.MinimizeExitPoints	tryMinimizeExits(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	catchNode	buggy
+com.google.javascript.jscomp.MinimizeExitPoints	tryMinimizeExits(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	labelName	buggy
+com.google.javascript.jscomp.MinimizeExitPoints	tryMinimizeExits(Lcom/google/javascript/rhino/Node;ILjava/lang/String;)V	n	buggy

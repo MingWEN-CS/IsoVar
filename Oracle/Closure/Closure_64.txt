@@ -1,7 +1,16 @@
-fix	com.google.javascript.jscomp.Compiler	1467	INS	firstOutput
-fix	com.google.javascript.jscomp.Compiler	1473	INS	builder
-fix	com.google.javascript.jscomp.Compiler	1473	INS	firstOutput
-buggy	com.google.javascript.jscomp.Compiler	1474	MOV	options
-buggy	com.google.javascript.jscomp.Compiler	1474	MOV	LanguageMode.ECMASCRIPT5_STRICT
-fix	com.google.javascript.jscomp.Compiler	1432	INS	toSource
-fix	com.google.javascript.jscomp.Compiler	1432	INS	inputSeqNum
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	this.this$0	buggy
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	this.val$root	buggy
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	delimiter	buggy
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;)Ljava/lang/String;	.ECMASCRIPT5_STRICT	buggy
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;)Ljava/lang/String;	builder	buggy
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;)Ljava/lang/String;	n	buggy
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;)Ljava/lang/String;	this.options	buggy
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	this.this$0	fixed
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	this.val$root	fixed
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	delimiter	fixed
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	.ECMASCRIPT5_STRICT	fixed
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	builder	fixed
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	firstOutput	fixed
+com.google.javascript.jscomp.Compiler$9	call()Ljava/lang/Void;	this.val$inputSeqNum	fixed
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;)Ljava/lang/String;	n	fixed
+com.google.javascript.jscomp.Compiler	toSource(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/SourceMap;Z)Ljava/lang/String;	this.options	fixed

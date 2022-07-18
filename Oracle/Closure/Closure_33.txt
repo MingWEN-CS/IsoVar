@@ -1,1 +1,0 @@
-fix	com.google.javascript.rhino.jstype.PrototypeObjectType	557	INS	hasReferenceName

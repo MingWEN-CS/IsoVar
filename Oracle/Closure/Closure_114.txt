@@ -1,2 +1,2 @@
-fix	com.google.javascript.jscomp.NameAnalyzer	578	INS	parent
-fix	com.google.javascript.jscomp.NameAnalyzer	578	INS	n
+com.google.javascript.jscomp.NameAnalyzer$FindDependencyScopes	recordAssignment(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	parent	fixed
+com.google.javascript.jscomp.NameAnalyzer$FindDependencyScopes	recordAssignment(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)V	n	fixed

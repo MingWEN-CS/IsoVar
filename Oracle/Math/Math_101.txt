@@ -1,5 +1,6 @@
-fix	org.apache.commons.math.complex.ComplexFormat	377	INS	startIndex
-fix	org.apache.commons.math.complex.ComplexFormat	377	INS	source
-buggy	org.apache.commons.math.complex.ComplexFormat	378	MOV	source
-fix	org.apache.commons.math.complex.ComplexFormat	378	INS	endIndex
-fix	org.apache.commons.math.complex.ComplexFormat	378	INS	source
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	startIndex	buggy
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	endIndex	buggy
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	source	buggy
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	startIndex	fixed
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	endIndex	fixed
+org.apache.commons.math.complex.ComplexFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/complex/Complex;	source	fixed

@@ -1,22 +1,16 @@
-fix	org.jfree.data.general.DatasetUtilities	755	INS	value
-fix	org.jfree.data.general.DatasetUtilities	1249	INS	value
-fix	org.jfree.data.general.DatasetUtilities	755	INS	intervalXYData
-fix	org.jfree.data.general.DatasetUtilities	758	INS	Double
-fix	org.jfree.data.general.DatasetUtilities	1249	INS	ixyd
-fix	org.jfree.data.general.DatasetUtilities	1252	INS	Double
-fix	org.jfree.data.general.DatasetUtilities	759	INS	minimum
-fix	org.jfree.data.general.DatasetUtilities	760	INS	maximum
-fix	org.jfree.data.general.DatasetUtilities	764	INS	maximum
-fix	org.jfree.data.general.DatasetUtilities	767	INS	minimum
-fix	org.jfree.data.general.DatasetUtilities	1253	INS	minimum
-fix	org.jfree.data.general.DatasetUtilities	1254	INS	maximum
-fix	org.jfree.data.general.DatasetUtilities	1258	INS	maximum
-fix	org.jfree.data.general.DatasetUtilities	1261	INS	minimum
-fix	org.jfree.data.general.DatasetUtilities	759	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	760	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	764	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	767	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	1253	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	1254	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	1258	INS	Math
-fix	org.jfree.data.general.DatasetUtilities	1261	INS	Math
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	item	fixed
+org.jfree.data.general.DatasetUtilities	iterateRangeBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	ixyd	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	uvalue	fixed
+org.jfree.data.general.DatasetUtilities	iterateRangeBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	uvalue	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	intervalXYData	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	lvalue	fixed
+org.jfree.data.general.DatasetUtilities	iterateRangeBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	lvalue	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	series	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	maximum	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	maximum	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	value	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	value	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	minimum	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	value	fixed
+org.jfree.data.general.DatasetUtilities	iterateDomainBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	value	fixed
+org.jfree.data.general.DatasetUtilities	iterateRangeBounds(Lorg/jfree/data/xy/XYDataset;Z)Lorg/jfree/data/Range;	value	fixed

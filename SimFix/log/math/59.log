@@ -1,0 +1,227 @@
+=================================================
+Project : math_59	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.util.FastMathTest::testMinMaxFloat | 22/06/30 00:54
+Thu Jun 30 00:55:15 UTC 2022 org.apache.commons.math.util.FastMath,3446
+Thu Jun 30 00:56:06 UTC 2022 org.apache.commons.math.util.FastMath,3482
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return (a<=b)?b:(Float.isNaN(a+b)?Float.NaN:a);
+
+Time : 22/06/30 00:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.9943661523522511 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_59_buggy/src/main/java/org/apache/commons/math/util/FastMath.java=>0,0]
+return (a<=b)?b:(Double.isNaN(a+b)?Double.NaN:a);
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_59_buggy/src/main/java/org/apache/commons/math/util/FastMath.java=>3482,3482]
+return (a<=b)?b:(Float.isNaN(a+b)?Float.NaN:b);
+
+Time : 22/06/30 00:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_59_buggy/src/main/java/org/apache/commons/math/util/FastMath.java=>3482,3482]
+return (a<=b)?b:(Float.isNaN(a+b)?Float.NaN:a);
+
+Time : 22/06/30 00:57
+----------------------------------------
+Thu Jun 30 00:58:09 UTC 2022 org.apache.commons.math.dfp.DfpField,174
+Thu Jun 30 00:58:11 UTC 2022 Thu Jun 30 00:58:11 UTC 2022 : org.apache.commons.math.dfp.DfpField,175=>Find no block
+Thu Jun 30 00:58:11 UTC 2022 Thu Jun 30 00:58:11 UTC 2022 : org.apache.commons.math.dfp.DfpField,188=>Find no block
+Thu Jun 30 00:58:12 UTC 2022 org.apache.commons.math.dfp.DfpField,190
+Thu Jun 30 00:58:17 UTC 2022 org.apache.commons.math.dfp.DfpField,191
+Thu Jun 30 00:58:18 UTC 2022 org.apache.commons.math.dfp.DfpField,192
+Thu Jun 30 00:58:35 UTC 2022 org.apache.commons.math.dfp.DfpField,193
+Thu Jun 30 00:59:06 UTC 2022 org.apache.commons.math.dfp.DfpField,194
+Thu Jun 30 00:59:31 UTC 2022 org.apache.commons.math.dfp.DfpField,195
+Thu Jun 30 00:59:32 UTC 2022 org.apache.commons.math.dfp.DfpField,197
+Thu Jun 30 01:01:34 UTC 2022 Thu Jun 30 01:01:34 UTC 2022 : org.apache.commons.math.dfp.DfpField,199=>Find no block
+Thu Jun 30 01:01:35 UTC 2022 org.apache.commons.math.dfp.DfpField,205
+Thu Jun 30 01:02:30 UTC 2022 org.apache.commons.math.dfp.DfpField,208
+Thu Jun 30 01:02:30 UTC 2022 org.apache.commons.math.dfp.DfpField,209
+Thu Jun 30 01:03:01 UTC 2022 org.apache.commons.math.dfp.DfpField,210
+Thu Jun 30 01:03:37 UTC 2022 org.apache.commons.math.dfp.DfpField,211
+Thu Jun 30 01:04:07 UTC 2022 org.apache.commons.math.dfp.DfpField,212
+Thu Jun 30 01:04:30 UTC 2022 org.apache.commons.math.dfp.DfpField,213
+Thu Jun 30 01:05:01 UTC 2022 org.apache.commons.math.dfp.DfpField,214
+Thu Jun 30 01:05:40 UTC 2022 org.apache.commons.math.dfp.DfpField,215
+Thu Jun 30 01:06:34 UTC 2022 org.apache.commons.math.dfp.DfpField,216
+Thu Jun 30 01:07:21 UTC 2022 org.apache.commons.math.dfp.DfpField,217
+Thu Jun 30 01:08:29 UTC 2022 org.apache.commons.math.dfp.DfpField,218
+Thu Jun 30 01:09:08 UTC 2022 org.apache.commons.math.dfp.DfpField,219
+Thu Jun 30 01:10:12 UTC 2022 org.apache.commons.math.dfp.DfpField,220
+Thu Jun 30 01:10:46 UTC 2022 org.apache.commons.math.dfp.DfpField,221
+Thu Jun 30 01:10:46 UTC 2022 Thu Jun 30 01:10:46 UTC 2022 : org.apache.commons.math.dfp.DfpField,223=>Find no block
+Thu Jun 30 01:10:47 UTC 2022 org.apache.commons.math.dfp.DfpField,226
+Thu Jun 30 01:11:32 UTC 2022 org.apache.commons.math.dfp.DfpField,227
+Thu Jun 30 01:11:33 UTC 2022 org.apache.commons.math.dfp.DfpField,228
+Thu Jun 30 01:12:21 UTC 2022 org.apache.commons.math.dfp.DfpField,229
+Thu Jun 30 01:12:33 UTC 2022 org.apache.commons.math.dfp.DfpField,230
+Thu Jun 30 01:12:47 UTC 2022 org.apache.commons.math.dfp.DfpField,231
+Thu Jun 30 01:12:59 UTC 2022 org.apache.commons.math.dfp.DfpField,232
+Thu Jun 30 01:13:11 UTC 2022 org.apache.commons.math.dfp.DfpField,233
+Thu Jun 30 01:13:34 UTC 2022 org.apache.commons.math.dfp.DfpField,234
+Thu Jun 30 01:13:46 UTC 2022 org.apache.commons.math.dfp.DfpField,235
+Thu Jun 30 01:14:00 UTC 2022 org.apache.commons.math.dfp.DfpField,236
+Thu Jun 30 01:14:35 UTC 2022 org.apache.commons.math.dfp.DfpField,237
+Thu Jun 30 01:15:00 UTC 2022 org.apache.commons.math.dfp.DfpField,238
+Thu Jun 30 01:15:08 UTC 2022 org.apache.commons.math.dfp.DfpField,239
+Thu Jun 30 01:15:08 UTC 2022 Thu Jun 30 01:15:08 UTC 2022 : org.apache.commons.math.dfp.DfpField,242=>Find no block
+Thu Jun 30 01:15:09 UTC 2022 org.apache.commons.math.dfp.DfpField,248
+Thu Jun 30 01:15:11 UTC 2022 org.apache.commons.math.dfp.DfpField,266
+Thu Jun 30 01:15:13 UTC 2022 org.apache.commons.math.dfp.DfpField,328
+Thu Jun 30 01:15:17 UTC 2022 Thu Jun 30 01:15:17 UTC 2022 : org.apache.commons.math.dfp.DfpField,329=>Find no block
+Thu Jun 30 01:15:18 UTC 2022 org.apache.commons.math.dfp.DfpField,400
+Thu Jun 30 01:16:04 UTC 2022 org.apache.commons.math.dfp.DfpField,522
+Thu Jun 30 01:16:33 UTC 2022 org.apache.commons.math.dfp.DfpField,523
+Thu Jun 30 01:16:33 UTC 2022 org.apache.commons.math.dfp.DfpField,524
+Thu Jun 30 01:16:35 UTC 2022 org.apache.commons.math.dfp.DfpField,525
+Thu Jun 30 01:16:40 UTC 2022 org.apache.commons.math.dfp.DfpField,527
+Thu Jun 30 01:16:40 UTC 2022 org.apache.commons.math.dfp.DfpField,529
+Thu Jun 30 01:35:21 UTC 2022 org.apache.commons.math.dfp.DfpField,530
+Thu Jun 30 01:38:45 UTC 2022 org.apache.commons.math.dfp.DfpField,532
+Thu Jun 30 01:38:46 UTC 2022 org.apache.commons.math.dfp.DfpField,533
+Thu Jun 30 01:38:47 UTC 2022 org.apache.commons.math.dfp.DfpField,536
+Thu Jun 30 01:38:47 UTC 2022 org.apache.commons.math.dfp.DfpField,537
+Thu Jun 30 01:38:48 UTC 2022 org.apache.commons.math.dfp.DfpField,538
+Thu Jun 30 01:38:48 UTC 2022 org.apache.commons.math.dfp.DfpField,541
+Thu Jun 30 01:38:49 UTC 2022 org.apache.commons.math.dfp.DfpField,542
+Thu Jun 30 01:38:49 UTC 2022 org.apache.commons.math.dfp.DfpField,543
+Thu Jun 30 01:38:50 UTC 2022 org.apache.commons.math.dfp.DfpField,546
+Thu Jun 30 01:38:50 UTC 2022 org.apache.commons.math.dfp.DfpField,547
+Thu Jun 30 01:38:50 UTC 2022 org.apache.commons.math.dfp.DfpField,551
+Thu Jun 30 02:03:47 UTC 2022 org.apache.commons.math.dfp.DfpField,553
+Thu Jun 30 02:03:48 UTC 2022 org.apache.commons.math.dfp.DfpField,554
+Thu Jun 30 02:03:48 UTC 2022 org.apache.commons.math.dfp.DfpField,555
+Thu Jun 30 02:03:49 UTC 2022 org.apache.commons.math.dfp.DfpField,556
+Thu Jun 30 02:03:49 UTC 2022 org.apache.commons.math.dfp.DfpField,560
+Thu Jun 30 02:17:41 UTC 2022 org.apache.commons.math.dfp.DfpField,562
+Thu Jun 30 02:17:45 UTC 2022 org.apache.commons.math.dfp.DfpField,570
+Thu Jun 30 02:21:39 UTC 2022 org.apache.commons.math.dfp.DfpField,573
+Thu Jun 30 02:21:41 UTC 2022 org.apache.commons.math.dfp.DfpField,574
+Thu Jun 30 02:21:42 UTC 2022 org.apache.commons.math.dfp.DfpField,575
+Thu Jun 30 02:21:44 UTC 2022 org.apache.commons.math.dfp.DfpField,576
+Thu Jun 30 02:22:01 UTC 2022 org.apache.commons.math.dfp.DfpField,578
+Thu Jun 30 02:24:15 UTC 2022 org.apache.commons.math.dfp.DfpField,579
+Thu Jun 30 02:25:40 UTC 2022 org.apache.commons.math.dfp.DfpField,580
+Thu Jun 30 02:26:48 UTC 2022 org.apache.commons.math.dfp.DfpField,582
+Thu Jun 30 02:27:59 UTC 2022 org.apache.commons.math.dfp.DfpField,583
+Thu Jun 30 02:29:21 UTC 2022 org.apache.commons.math.dfp.DfpField,584
+Thu Jun 30 02:29:56 UTC 2022 org.apache.commons.math.dfp.DfpField,586
+Thu Jun 30 02:30:23 UTC 2022 org.apache.commons.math.dfp.DfpField,587
+Thu Jun 30 02:30:58 UTC 2022 org.apache.commons.math.dfp.DfpField,588
+Thu Jun 30 02:31:32 UTC 2022 org.apache.commons.math.dfp.DfpField,589
+Thu Jun 30 02:31:49 UTC 2022 org.apache.commons.math.dfp.DfpField,590
+Thu Jun 30 02:31:49 UTC 2022 Thu Jun 30 02:31:49 UTC 2022 : org.apache.commons.math.dfp.DfpField,593=>Find no block
+Thu Jun 30 02:31:50 UTC 2022 org.apache.commons.math.dfp.DfpField,603
+Thu Jun 30 02:33:52 UTC 2022 org.apache.commons.math.dfp.DfpField,604
+Thu Jun 30 02:33:52 UTC 2022 org.apache.commons.math.dfp.DfpField,605
+Thu Jun 30 02:37:10 UTC 2022 org.apache.commons.math.dfp.DfpField,606
+Thu Jun 30 02:40:17 UTC 2022 org.apache.commons.math.dfp.DfpField,607
+Thu Jun 30 02:40:17 UTC 2022 org.apache.commons.math.dfp.DfpField,615
+Thu Jun 30 03:04:24 UTC 2022 org.apache.commons.math.dfp.DfpField,616
+Thu Jun 30 03:07:24 UTC 2022 org.apache.commons.math.dfp.DfpField,618
+Thu Jun 30 03:07:25 UTC 2022 org.apache.commons.math.dfp.DfpField,619
+Thu Jun 30 03:09:12 UTC 2022 org.apache.commons.math.dfp.DfpField,620
+Thu Jun 30 03:10:54 UTC 2022 org.apache.commons.math.dfp.DfpField,621
+Thu Jun 30 03:13:33 UTC 2022 org.apache.commons.math.dfp.DfpField,623
+Thu Jun 30 03:16:48 UTC 2022 org.apache.commons.math.dfp.DfpField,625
+Thu Jun 30 03:20:06 UTC 2022 org.apache.commons.math.dfp.DfpField,626
+Thu Jun 30 03:22:53 UTC 2022 org.apache.commons.math.dfp.DfpField,627
+Thu Jun 30 03:25:47 UTC 2022 org.apache.commons.math.dfp.DfpField,629
+Thu Jun 30 03:25:47 UTC 2022 org.apache.commons.math.dfp.DfpField,630
+Thu Jun 30 03:25:48 UTC 2022 org.apache.commons.math.dfp.DfpField,634
+Thu Jun 30 03:48:55 UTC 2022 org.apache.commons.math.dfp.DfpField,645
+Thu Jun 30 03:48:58 UTC 2022 org.apache.commons.math.dfp.DfpField,646
+Thu Jun 30 03:48:58 UTC 2022 org.apache.commons.math.dfp.DfpField,647
+Thu Jun 30 03:49:01 UTC 2022 org.apache.commons.math.dfp.DfpField,648
+Thu Jun 30 03:49:05 UTC 2022 org.apache.commons.math.dfp.DfpField,649
+Thu Jun 30 04:10:47 UTC 2022 org.apache.commons.math.dfp.DfpField,651
+Thu Jun 30 04:10:48 UTC 2022 org.apache.commons.math.dfp.DfpField,652
+Thu Jun 30 04:10:49 UTC 2022 org.apache.commons.math.dfp.DfpField,653
+Thu Jun 30 04:10:49 UTC 2022 org.apache.commons.math.dfp.DfpField,654
+Thu Jun 30 04:10:49 UTC 2022 org.apache.commons.math.dfp.DfpField,655
+Thu Jun 30 04:10:50 UTC 2022 org.apache.commons.math.dfp.DfpField,656
+Thu Jun 30 04:10:50 UTC 2022 org.apache.commons.math.dfp.DfpField,657
+Thu Jun 30 04:10:51 UTC 2022 org.apache.commons.math.dfp.DfpField,659
+Thu Jun 30 04:10:51 UTC 2022 org.apache.commons.math.dfp.DfpField,662
+Thu Jun 30 04:21:23 UTC 2022 org.apache.commons.math.dfp.DfpField,728
+Thu Jun 30 04:22:45 UTC 2022 org.apache.commons.math.dfp.DfpField,729
+Thu Jun 30 04:22:46 UTC 2022 org.apache.commons.math.dfp.DfpField,731
+Thu Jun 30 04:23:40 UTC 2022 org.apache.commons.math.dfp.DfpField,732
+Thu Jun 30 04:23:42 UTC 2022 org.apache.commons.math.dfp.DfpField,733
+Thu Jun 30 04:23:43 UTC 2022 org.apache.commons.math.dfp.DfpField,734
+Thu Jun 30 04:34:42 UTC 2022 org.apache.commons.math.dfp.DfpField,735
+Thu Jun 30 04:34:43 UTC 2022 org.apache.commons.math.dfp.DfpField,736
+Thu Jun 30 04:34:43 UTC 2022 org.apache.commons.math.dfp.DfpField,737
+Thu Jun 30 04:34:44 UTC 2022 org.apache.commons.math.dfp.DfpField,738
+Thu Jun 30 04:34:44 UTC 2022 org.apache.commons.math.dfp.DfpField,739
+Thu Jun 30 04:34:45 UTC 2022 org.apache.commons.math.dfp.DfpField,740
+Thu Jun 30 04:34:45 UTC 2022 org.apache.commons.math.dfp.DfpField,741
+Thu Jun 30 04:34:46 UTC 2022 org.apache.commons.math.dfp.DfpField,743
+Thu Jun 30 04:34:46 UTC 2022 org.apache.commons.math.dfp.DfpField,746
+Thu Jun 30 04:49:39 UTC 2022 Thu Jun 30 04:49:39 UTC 2022 : org.apache.commons.math.dfp.DfpField,29=>Find no block
+Thu Jun 30 04:49:39 UTC 2022 Thu Jun 30 04:49:39 UTC 2022 : org.apache.commons.math.dfp.DfpField,32=>Find no block
+Thu Jun 30 04:49:40 UTC 2022 Thu Jun 30 04:49:40 UTC 2022 : org.apache.commons.math.dfp.DfpField,35=>Find no block
+Thu Jun 30 04:49:40 UTC 2022 Thu Jun 30 04:49:40 UTC 2022 : org.apache.commons.math.dfp.DfpField,38=>Find no block
+Thu Jun 30 04:49:40 UTC 2022 Thu Jun 30 04:49:40 UTC 2022 : org.apache.commons.math.dfp.DfpField,41=>Find no block
+Thu Jun 30 04:49:41 UTC 2022 Thu Jun 30 04:49:41 UTC 2022 : org.apache.commons.math.dfp.DfpField,46=>Find no block
+Thu Jun 30 04:49:41 UTC 2022 Thu Jun 30 04:49:41 UTC 2022 : org.apache.commons.math.dfp.DfpField,49=>Find no block
+Thu Jun 30 04:49:42 UTC 2022 Thu Jun 30 04:49:42 UTC 2022 : org.apache.commons.math.dfp.DfpField,52=>Find no block
+Thu Jun 30 04:49:42 UTC 2022 Thu Jun 30 04:49:42 UTC 2022 : org.apache.commons.math.dfp.DfpField,55=>Find no block
+Thu Jun 30 04:49:42 UTC 2022 org.apache.commons.math.dfp.Dfp,202
+Thu Jun 30 04:49:44 UTC 2022 Thu Jun 30 04:49:44 UTC 2022 : org.apache.commons.math.dfp.Dfp,203=>Find no block
+Thu Jun 30 04:49:45 UTC 2022 Thu Jun 30 04:49:45 UTC 2022 : org.apache.commons.math.dfp.Dfp,209=>Find no block
+Thu Jun 30 04:49:45 UTC 2022 org.apache.commons.math.dfp.Dfp,212
+Thu Jun 30 04:51:39 UTC 2022 org.apache.commons.math.dfp.Dfp,213
+Thu Jun 30 04:51:40 UTC 2022 org.apache.commons.math.dfp.Dfp,214
+Thu Jun 30 04:53:35 UTC 2022 org.apache.commons.math.dfp.Dfp,216
+Thu Jun 30 04:54:48 UTC 2022 org.apache.commons.math.dfp.Dfp,217
+Thu Jun 30 04:55:02 UTC 2022 org.apache.commons.math.dfp.Dfp,225
+Thu Jun 30 04:57:28 UTC 2022 org.apache.commons.math.dfp.Dfp,226
+Thu Jun 30 04:57:29 UTC 2022 org.apache.commons.math.dfp.Dfp,227
+Thu Jun 30 04:57:29 UTC 2022 org.apache.commons.math.dfp.Dfp,229
+Thu Jun 30 04:57:30 UTC 2022 org.apache.commons.math.dfp.Dfp,232
+Thu Jun 30 04:59:48 UTC 2022 org.apache.commons.math.dfp.Dfp,233
+Thu Jun 30 05:09:30 UTC 2022 org.apache.commons.math.dfp.Dfp,234
+Thu Jun 30 05:09:30 UTC 2022 org.apache.commons.math.dfp.Dfp,235
+Thu Jun 30 05:09:30 UTC 2022 org.apache.commons.math.dfp.Dfp,236
+Thu Jun 30 05:09:31 UTC 2022 org.apache.commons.math.dfp.Dfp,237
+Thu Jun 30 05:09:34 UTC 2022 org.apache.commons.math.dfp.Dfp,240
+Thu Jun 30 05:20:11 UTC 2022 Thu Jun 30 05:20:11 UTC 2022 : org.apache.commons.math.dfp.Dfp,250=>Find no block
+Thu Jun 30 05:20:12 UTC 2022 Thu Jun 30 05:20:12 UTC 2022 : org.apache.commons.math.dfp.Dfp,318=>Find no block
+Thu Jun 30 05:20:12 UTC 2022 org.apache.commons.math.dfp.Dfp,319
+Thu Jun 30 05:24:09 UTC 2022 org.apache.commons.math.dfp.Dfp,320
+Thu Jun 30 05:24:09 UTC 2022 org.apache.commons.math.dfp.Dfp,321
+Thu Jun 30 05:24:10 UTC 2022 org.apache.commons.math.dfp.Dfp,322
+Thu Jun 30 05:24:10 UTC 2022 org.apache.commons.math.dfp.Dfp,323
+Thu Jun 30 05:24:11 UTC 2022 Thu Jun 30 05:24:11 UTC 2022 : org.apache.commons.math.dfp.Dfp,324=>Find no block
+Thu Jun 30 05:24:11 UTC 2022 Thu Jun 30 05:24:11 UTC 2022 : org.apache.commons.math.dfp.Dfp,330=>Find no block
+Thu Jun 30 05:24:11 UTC 2022 org.apache.commons.math.dfp.Dfp,333
+Thu Jun 30 05:26:15 UTC 2022 org.apache.commons.math.dfp.Dfp,334
+Thu Jun 30 05:26:15 UTC 2022 org.apache.commons.math.dfp.Dfp,335
+Thu Jun 30 05:27:52 UTC 2022 org.apache.commons.math.dfp.Dfp,336
+Thu Jun 30 05:30:25 UTC 2022 org.apache.commons.math.dfp.Dfp,337
+Thu Jun 30 05:32:28 UTC 2022 org.apache.commons.math.dfp.Dfp,339
+Thu Jun 30 05:34:37 UTC 2022 org.apache.commons.math.dfp.Dfp,340
+Thu Jun 30 05:35:13 UTC 2022 org.apache.commons.math.dfp.Dfp,341
+Thu Jun 30 05:35:41 UTC 2022 org.apache.commons.math.dfp.Dfp,342
+Thu Jun 30 05:37:03 UTC 2022 org.apache.commons.math.dfp.Dfp,345
+Thu Jun 30 05:37:53 UTC 2022 org.apache.commons.math.dfp.Dfp,351
+Thu Jun 30 05:38:42 UTC 2022 org.apache.commons.math.dfp.Dfp,357
+Thu Jun 30 05:39:37 UTC 2022 org.apache.commons.math.dfp.Dfp,364
+Thu Jun 30 05:42:50 UTC 2022 org.apache.commons.math.dfp.Dfp,365
+Thu Jun 30 05:42:51 UTC 2022 org.apache.commons.math.dfp.Dfp,366
+Thu Jun 30 05:42:51 UTC 2022 org.apache.commons.math.dfp.Dfp,370
+Thu Jun 30 05:44:35 UTC 2022 org.apache.commons.math.dfp.Dfp,371
+Timeout time : 22/06/30 05:55

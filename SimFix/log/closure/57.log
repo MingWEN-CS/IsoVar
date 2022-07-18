@@ -1,0 +1,251 @@
+=================================================
+Project : closure_57	start : 22/06/29 16:28
+Current failed test : com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire | 22/06/29 16:28
+Wed Jun 29 16:28:16 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,185
+Wed Jun 29 16:30:15 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,192
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(target!=null&&target.getType()==Token.STRING){
+className=target.getString();
+}
+
+Time : 22/06/29 16:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.4285714285714286 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>0,0]
+if(last!=null&&last.getType()==Token.STRING){
+String propName=last.getString();
+return (propName.equals(methodName));
+}
+
+Time : 22/06/29 16:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>197,199]
+if(target!=null){
+className=target.getString();
+}
+
+Time : 22/06/29 16:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>197,199]
+if(target!=null&&target.getType()==Token.STRING){
+className=target.getString();
+}
+
+Time : 22/06/29 16:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(target!=null&&(target.getType()==Token.STRING||target.getType()==Token.REGEXP)){
+className=target.getString();
+}
+
+Time : 22/06/29 16:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.0717525603928417 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>0,0]
+if(nameNode.getFirstChild().getType()==Token.STRING&&STRING_REGEXP_METHODS.contains(nameNode.getLastChild().getString())){
+Node param=nameNode.getNext();
+if(param!=null&&(param.getType()==Token.STRING||param.getType()==Token.REGEXP))return false;
+}
+
+Time : 22/06/29 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>197,199]
+if(target!=null){
+className=target.getString();
+}
+
+Time : 22/06/29 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>197,199]
+if(target!=null&&(target.getType()==Token.STRING||target.getType()==Token.REGEXP)){
+className=target.getString();
+}
+
+Time : 22/06/29 16:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null&&(target.getType()==Token.STRING||target.getType()==Token.REGEXP)){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 16:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.216345125189958 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>0,0]
+if(nameNode.getFirstChild().getType()==Token.STRING&&STRING_REGEXP_METHODS.contains(nameNode.getLastChild().getString())){
+Node param=nameNode.getNext();
+if(param!=null&&(param.getType()==Token.STRING||param.getType()==Token.REGEXP))return false;
+}
+
+Time : 22/06/29 16:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>195,200]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 16:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>195,200]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null&&(target.getType()==Token.STRING||target.getType()==Token.REGEXP)){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 16:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null&&target.getType()==Token.STRING){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 17:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9798162889235719 : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>0,0]
+case Token.NAME :
+Scope.Var var=t.getScope().getVar(expr.getString());
+if(var!=null&&var.isConst()){
+Node value=var.getInitialValue();
+if(value!=null&&value.getType()==Token.STRING){
+key=value.getString();
+replacementString=getReplacement(key);
+replacement=Node.newString(replacementString);
+break;
+}
+}
+
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>195,200]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Closure/Closure_57_buggy/src/com/google/javascript/jscomp/ClosureCodingConvention.java=>195,200]
+if(functionName.equals(qualifiedName)){
+Node target=callee.getNext();
+if(target!=null&&target.getType()==Token.STRING){
+className=target.getString();
+}
+}
+
+Time : 22/06/29 17:02
+----------------------------------------
+Wed Jun 29 19:00:21 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,193
+Wed Jun 29 19:00:22 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,194
+Wed Jun 29 19:00:22 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,195
+Wed Jun 29 19:00:22 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,196
+Wed Jun 29 19:00:23 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,197
+Wed Jun 29 19:00:23 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,198
+Wed Jun 29 19:00:23 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,190
+Wed Jun 29 19:20:13 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,191
+Wed Jun 29 19:20:13 UTC 2022 com.google.javascript.jscomp.ClosureCodingConvention,203
+Wed Jun 29 19:39:38 UTC 2022 com.google.javascript.jscomp.Compiler,1311
+Wed Jun 29 19:46:30 UTC 2022 com.google.javascript.jscomp.NodeUtil,1605
+Wed Jun 29 20:23:54 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,140
+Wed Jun 29 20:24:06 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,141
+Wed Jun 29 20:24:11 UTC 2022 com.google.javascript.jscomp.Compiler,1768
+Wed Jun 29 20:24:39 UTC 2022 com.google.javascript.jscomp.Compiler,1769
+Wed Jun 29 20:25:01 UTC 2022 com.google.javascript.jscomp.Compiler,1327
+Wed Jun 29 20:25:04 UTC 2022 com.google.javascript.jscomp.Compiler,1323
+Wed Jun 29 20:29:11 UTC 2022 com.google.javascript.jscomp.Compiler,1324
+Wed Jun 29 20:29:11 UTC 2022 com.google.javascript.jscomp.Compiler,1326
+Wed Jun 29 20:29:12 UTC 2022 com.google.javascript.jscomp.Compiler,1329
+Wed Jun 29 20:29:12 UTC 2022 com.google.javascript.jscomp.Compiler,1330
+Wed Jun 29 20:29:12 UTC 2022 com.google.javascript.jscomp.Compiler,251
+Wed Jun 29 20:36:20 UTC 2022 com.google.javascript.jscomp.Compiler,245
+Wed Jun 29 20:37:08 UTC 2022 com.google.javascript.jscomp.Compiler,247
+Wed Jun 29 20:37:08 UTC 2022 com.google.javascript.jscomp.CompilerOptions,1008
+Wed Jun 29 20:37:30 UTC 2022 Wed Jun 29 20:37:30 UTC 2022 : com.google.javascript.jscomp.DiagnosticGroup,61=>Find no block
+Wed Jun 29 20:37:31 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,62
+Wed Jun 29 20:38:27 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,63
+Wed Jun 29 20:38:27 UTC 2022 Wed Jun 29 20:38:27 UTC 2022 : com.google.javascript.jscomp.DiagnosticGroup,64=>Find no block
+Wed Jun 29 20:38:28 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,72
+Wed Jun 29 20:41:39 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,73
+Wed Jun 29 20:41:39 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,75
+Wed Jun 29 20:46:08 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,118
+Wed Jun 29 20:48:11 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,119
+Wed Jun 29 20:48:12 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,121
+Wed Jun 29 20:48:12 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,129
+Wed Jun 29 20:48:12 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,118
+Wed Jun 29 20:48:16 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,119
+Wed Jun 29 20:48:17 UTC 2022 com.google.javascript.jscomp.DiagnosticGroup,120
+Wed Jun 29 20:48:17 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,864
+Wed Jun 29 20:58:54 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,865
+Wed Jun 29 20:58:54 UTC 2022 com.google.javascript.jscomp.parsing.TypeSafeDispatcher,257
+Wed Jun 29 21:05:40 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,1288
+Wed Jun 29 21:06:32 UTC 2022 com.google.javascript.rhino.Node,608
+Wed Jun 29 21:06:35 UTC 2022 com.google.javascript.jscomp.parsing.IRFactory,591
+Wed Jun 29 21:21:39 UTC 2022 Wed Jun 29 21:21:39 UTC 2022 : com.google.javascript.jscomp.parsing.IRFactory,592=>Find no block
+Wed Jun 29 21:21:40 UTC 2022 com.google.javascript.jscomp.Compiler,286
+Wed Jun 29 21:22:00 UTC 2022 com.google.javascript.jscomp.WarningsGuard,95
+Wed Jun 29 21:22:02 UTC 2022 com.google.javascript.jscomp.WarningsGuard,106
+Wed Jun 29 21:22:03 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,149
+Wed Jun 29 21:24:29 UTC 2022 com.google.javascript.jscomp.DiagnosticGroupWarningsGuard,45
+Wed Jun 29 21:24:31 UTC 2022 com.google.javascript.jscomp.DiagnosticGroupWarningsGuard,58
+Wed Jun 29 21:25:27 UTC 2022 com.google.javascript.jscomp.ComposeWarningsGuard,144
+Wed Jun 29 21:25:27 UTC 2022 Wed Jun 29 21:25:27 UTC 2022 : com.google.javascript.jscomp.ComposeWarningsGuard,147=>Find no block
+Wed Jun 29 21:25:27 UTC 2022 com.google.javascript.jscomp.PrepareAst,152
+Timeout time : 22/06/29 21:28

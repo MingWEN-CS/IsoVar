@@ -1,5 +1,2 @@
-fix	com.google.javascript.jscomp.NodeUtil	108	INS	Token.VOID
-fix	com.google.javascript.jscomp.NodeUtil	109	INS	TernaryValue.FALSE
-fix	com.google.javascript.jscomp.NodeUtil	138	INS	mayHaveSideEffects
-buggy	com.google.javascript.jscomp.NodeUtil	136	MOV	TernaryValue.FALSE
-fix	com.google.javascript.jscomp.NodeUtil	138	INS	n
+com.google.javascript.jscomp.NodeUtil	getImpureBooleanValue(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/TernaryValue;	.FALSE	fixed
+com.google.javascript.jscomp.NodeUtil	getPureBooleanValue(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/jstype/TernaryValue;	n	fixed

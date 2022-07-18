@@ -1,4 +1,4 @@
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	m
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	i
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	length
-fix	org.mockito.internal.invocation.InvocationMatcher	106	INS	k
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/internal/invocation/Invocation;)V	m	buggy
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/internal/invocation/Invocation;)V	i	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/internal/invocation/Invocation;)V	k	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/internal/invocation/Invocation;)V	m	fixed

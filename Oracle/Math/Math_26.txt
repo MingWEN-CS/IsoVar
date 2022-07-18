@@ -1,5 +1,20 @@
-fix	org.apache.commons.math3.fraction.Fraction	181	INS	FastMath
-fix	org.apache.commons.math3.fraction.Fraction	209	INS	FastMath
-buggy	org.apache.commons.math3.fraction.Fraction	181	DEL	a0
-buggy	org.apache.commons.math3.fraction.Fraction	209	DEL	p2
-buggy	org.apache.commons.math3.fraction.Fraction	209	DEL	q2
+org.apache.commons.math3.fraction.BigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	initialIndex	buggy
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	q2	buggy
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	p2	buggy
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	overflow	buggy
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	.ZERO	buggy
+org.apache.commons.math3.fraction.BigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	pos	buggy
+org.apache.commons.math3.fraction.BigFraction	<init>(D)V	bits	buggy
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	den	buggy
+org.apache.commons.math3.fraction.BigFraction	<init>(D)V	value	buggy
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	a0	buggy
+org.apache.commons.math3.fraction.BigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	initialIndex	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	q2	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	p2	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	overflow	fixed
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	.ZERO	fixed
+org.apache.commons.math3.fraction.BigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	pos	fixed
+org.apache.commons.math3.fraction.BigFraction	<init>(D)V	bits	fixed
+org.apache.commons.math3.fraction.ProperBigFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math3/fraction/BigFraction;	den	fixed
+org.apache.commons.math3.fraction.BigFraction	<init>(D)V	value	fixed
+org.apache.commons.math3.fraction.Fraction	<init>(DDII)V	a0	fixed

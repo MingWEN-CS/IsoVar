@@ -1,2 +1,4 @@
-fix	com.google.javascript.jscomp.CodeGenerator	285	INS	getContextForNoInOperator
-buggy	com.google.javascript.jscomp.CodeGenerator	285	DEL	Context.OTHER
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	rhsContext	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	.OTHER	buggy
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	context	fixed
+com.google.javascript.jscomp.CodeGenerator	add(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/jscomp/CodeGenerator$Context;)V	rhsContext	fixed

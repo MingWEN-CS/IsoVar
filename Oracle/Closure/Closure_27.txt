@@ -1,7 +1,9 @@
-fix	com.google.javascript.rhino.IR	111	INS	blockUnchecked
-fix	com.google.javascript.rhino.IR	111	INS	stmt
-fix	com.google.javascript.rhino.IR	112	INS	Token.BLOCK
-fix	com.google.javascript.rhino.IR	112	INS	stmt
-buggy	com.google.javascript.rhino.IR	224	UPD	tryBody
-buggy	com.google.javascript.rhino.IR	225	UPD	finallyBody
-buggy	com.google.javascript.rhino.IR	233	UPD	block
+com.google.javascript.rhino.IR	tryCatch(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	catchNode	buggy
+com.google.javascript.rhino.IR	tryFinally(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	finallyBody	buggy
+com.google.javascript.rhino.IR	tryFinally(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	tryBody	buggy
+com.google.javascript.rhino.IR	tryCatch(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	catchBody	buggy
+com.google.javascript.rhino.IR	tryCatch(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	catchNode	fixed
+com.google.javascript.rhino.IR	tryFinally(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	finallyBody	fixed
+com.google.javascript.rhino.IR	tryFinally(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	tryBody	fixed
+com.google.javascript.rhino.IR	tryCatch(Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	catchBody	fixed
+com.google.javascript.rhino.IR	blockUnchecked(Lcom/google/javascript/rhino/Node;)Lcom/google/javascript/rhino/Node;	stmt	fixed

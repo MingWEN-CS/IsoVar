@@ -6,6 +6,7 @@ import Util.TestSuite;
 import soot.*;
 import soot.options.Options;
 
+import java.io.File;
 import java.util.*;
 
 import static Similarity.Statistical.calSingleCosSimilarity;
@@ -25,7 +26,7 @@ public class MutateController {
         Options.v().setPhaseOption("jb", "use-original-names:true");
         Options.v().setPhaseOption("jb.cp", "enabled:false");
         Options.v().set_ignore_resolving_levels(true);
-//        String sootClassPath = Scene.v().defaultClassPath() + ";D:/target_classes/Time/Time_1_buggy/target/classes/;target/classes/";
+//        String sootClassPath = Scene.v().defaultClassPath() + ";D:/target_classes/Time/Time_1_buggy/target/c`lasses/;target/classes/";
         String sootClassPath = Scene.v().defaultClassPath() + ";target/classes;" + config.getProjectTargetPath();
         if (MainClass.isLinux())
             sootClassPath = sootClassPath.replace(";", ":");
@@ -42,7 +43,7 @@ public class MutateController {
     public List<String> mutateSingleVar(VariableInfo var, int times) {
         List<String> mutants = null;
 //        String mutantTemplate = "Mutants/Time/Time_1/" + var.className + "_" + var.name + "_" + var.getLine() + "_";
-        String mutantTemplate = config.IsoVarRoot + "/" + config.mutantsRootPath + "/" + config.getProjectName() + "/" +
+        String mutantTemplate = Configuration.IsoVarRoot + "/" + Configuration.mutantsRootPath + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + "/" + var.className + "_" +
                 var.name + "_" + var.getLine() + "_";
 //        System.out.println(var.className + "\t" + var.methodName + " " + var.name + " " + var.desc+" "+var.getLine());
@@ -75,8 +76,10 @@ public class MutateController {
                          Map<TestSuite, Map<Integer, Integer[]>> passingBBAccess) {
         initialSoot();
         for (Map.Entry<VariableTrimInfo, Set<VariableInfo>> entry : varsToBeMutate.entrySet()) {
+            if (config.isSkip_mutation())
+                break;
             VariableTrimInfo varTrim = entry.getKey();
-            Set<String> suites = suitesAll.get(varTrim.methodHash);
+            Set<String> suites = suitesAll.get(varTrim.var.methodHash);
             Set<VariableInfo> vars = entry.getValue();
             int times = config.getMax_mutation() / vars.size();
             if (times == 0)
@@ -103,10 +106,15 @@ public class MutateController {
             }
             varTrim.suspicious += varTrim.mutate * config.getGamma();
         }
+        File mutateDir = new File(Configuration.IsoVarRoot + "/" + Configuration.mutantsRootPath + "/" + config.getProjectName() + "/" +
+                config.getProjectName() + "_" + config.getCurrent() + "/");
+        if(mutateDir.exists()) // delete the mutants
+            mutateDir.delete();
+
     }
 
     private double[] runTestsOnMutant(String mutant,
-                                      VariableTrimInfo var,
+                                      VariableTrimInfo varT,
                                       Set<String> suites,
                                       Map<TestSuite, Map<Integer, Integer[]>> originFailingBBAccess,
                                       Map<TestSuite, Map<Integer, Integer[]>> originPassingBBAccess) {
@@ -126,7 +134,7 @@ public class MutateController {
             TestSuite suite = entry.getKey();
             Map<Integer, Integer[]> origin = originFailingBBAccess.get(suite);
             Map<Integer, Integer[]> newAcc = entry.getValue();
-            if (newAcc.containsKey(var.methodHash)) {
+            if (newAcc.containsKey(varT.var.methodHash)) {
 //                totalFailing+= calSingleCosSimilarity(origin.get(var.methodHash),newAcc.get(var.methodHash));
                 totalFailing += calAverageSimilarity(origin, newAcc);
                 cnt++;
@@ -142,7 +150,7 @@ public class MutateController {
             TestSuite suite = entry.getKey();
             Map<Integer, Integer[]> origin = originPassingBBAccess.get(suite);
             Map<Integer, Integer[]> newAcc = entry.getValue();
-            if (newAcc.containsKey(var.methodHash)) {
+            if (newAcc.containsKey(varT.var.methodHash)) {
 //                totalFailing+= calSingleCosSimilarity(origin.get(var.methodHash),newAcc.get(var.methodHash));
                 totalPassing += calAverageSimilarity(origin, newAcc);
                 cnt++;

@@ -1,0 +1,1718 @@
+=================================================
+Project : lang_39	start : 22/06/29 16:28
+Current failed test : org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray | 22/06/29 16:28
+Wed Jun 29 16:28:05 UTC 2022 org.apache.commons.lang3.StringUtils,3502
+Wed Jun 29 16:28:23 UTC 2022 org.apache.commons.lang3.StringUtils,3648
+Wed Jun 29 16:30:05 UTC 2022 org.apache.commons.lang3.StringUtils,3727
+Wed Jun 29 16:30:06 UTC 2022 org.apache.commons.lang3.StringUtils,3612
+Wed Jun 29 16:33:12 UTC 2022 org.apache.commons.lang3.StringUtils,3615
+Wed Jun 29 16:33:12 UTC 2022 org.apache.commons.lang3.StringUtils,3619
+Wed Jun 29 16:33:13 UTC 2022 org.apache.commons.lang3.StringUtils,3623
+Wed Jun 29 16:40:04 UTC 2022 org.apache.commons.lang3.StringUtils,3624
+Wed Jun 29 16:49:13 UTC 2022 org.apache.commons.lang3.StringUtils,3627
+Wed Jun 29 16:49:33 UTC 2022 org.apache.commons.lang3.StringUtils,3635
+Wed Jun 29 16:50:28 UTC 2022 org.apache.commons.lang3.StringUtils,3638
+Wed Jun 29 16:50:28 UTC 2022 org.apache.commons.lang3.StringUtils,3639
+Wed Jun 29 16:50:29 UTC 2022 org.apache.commons.lang3.StringUtils,3640
+Wed Jun 29 16:50:29 UTC 2022 org.apache.commons.lang3.StringUtils,3644
+Wed Jun 29 16:57:54 UTC 2022 org.apache.commons.lang3.StringUtils,3645
+Wed Jun 29 16:57:55 UTC 2022 org.apache.commons.lang3.StringUtils,3650
+Wed Jun 29 17:13:46 UTC 2022 org.apache.commons.lang3.StringUtils,3653
+Wed Jun 29 17:13:47 UTC 2022 org.apache.commons.lang3.StringUtils,3654
+Wed Jun 29 17:13:47 UTC 2022 org.apache.commons.lang3.StringUtils,3656
+Wed Jun 29 17:13:47 UTC 2022 org.apache.commons.lang3.StringUtils,3657
+Wed Jun 29 17:13:47 UTC 2022 org.apache.commons.lang3.StringUtils,3658
+Wed Jun 29 17:13:47 UTC 2022 org.apache.commons.lang3.StringUtils,3665
+Wed Jun 29 17:13:59 UTC 2022 org.apache.commons.lang3.StringUtils,3666
+Wed Jun 29 17:13:59 UTC 2022 org.apache.commons.lang3.StringUtils,3669
+Wed Jun 29 17:15:33 UTC 2022 org.apache.commons.lang3.StringUtils,3672
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<increase;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3774216196769467 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+int strSize=str.length();
+int validSize=invalidChars.length;
+for(int i=0;i<strSize;i++){
+char ch=str.charAt(i);
+for(int j=0;j<validSize;j++){
+if(invalidChars[j]==ch){
+return false;
+}
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<increase;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3414815116080265 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3414815116080265 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3339751196988665 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3339751196988665 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3339751196988665 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3339751196988665 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.3971999843041556 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=startIndex;i<len;i++){
+if(matcher.isMatch(buf,i,startIndex,len)>0){
+return i;
+}
+}
+
+Time : 22/06/29 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3680]
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3619942432953898 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.3619942432953898 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.320086225746367 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.320086225746367 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.320086225746367 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.320086225746367 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int start=0;
+int increase=0;
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.3517776472738554 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=startIndex;i<len;i++){
+if(matcher.isMatch(buf,i,startIndex,len)>0){
+return i;
+}
+}
+
+Time : 22/06/29 17:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3669,3680]
+int start=0;
+int increase=0;
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+
+Time : 22/06/29 17:24
+----------------------------------------
+Wed Jun 29 17:25:40 UTC 2022 org.apache.commons.lang3.StringUtils,3675
+Wed Jun 29 17:25:40 UTC 2022 org.apache.commons.lang3.StringUtils,3676
+Wed Jun 29 17:25:40 UTC 2022 org.apache.commons.lang3.StringUtils,3677
+Wed Jun 29 17:25:40 UTC 2022 org.apache.commons.lang3.StringUtils,3682
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.2147193676514063 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.2147193676514063 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i]);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.208182173001747 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.208182173001747 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.208182173001747 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.208182173001747 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+if(tempIndex==-1){
+noMoreMatchesForReplIndex[i]=true;
+}else {
+if(textIndex==-1||tempIndex<textIndex){
+textIndex=tempIndex;
+replaceIndex=i;
+}
+}
+}
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchLength;i++){
+if(noMoreMatchesForReplIndex[i]||searchList[i]==null||searchList[i].length()==0||replacementList[i]==null){
+continue;
+}
+tempIndex=text.indexOf(searchList[i],start);
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.2939131243848976 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>0,0]
+for(int i=startIndex;i<len;i++){
+if(matcher.isMatch(buf,i,startIndex,len)>0){
+return i;
+}
+}
+
+Time : 22/06/29 17:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<searchList.length;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_39_buggy/src/java/org/apache/commons/lang3/StringUtils.java=>3675,3684]
+for(int i=0;i<timeToLive;i++){
+int greater=replacementList[i].length()-searchList[i].length();
+if(greater>0){
+increase+=3*greater;
+}
+}
+increase=Math.min(increase,text.length()/5);
+StringBuilder buf=new StringBuilder(text.length()+increase);
+
+Time : 22/06/29 17:29
+----------------------------------------
+Wed Jun 29 17:30:41 UTC 2022 org.apache.commons.lang3.StringUtils,3684
+Wed Jun 29 17:30:41 UTC 2022 org.apache.commons.lang3.StringUtils,3686
+Wed Jun 29 17:46:16 UTC 2022 org.apache.commons.lang3.StringUtils,3688
+Wed Jun 29 17:46:16 UTC 2022 org.apache.commons.lang3.StringUtils,3689
+Wed Jun 29 17:46:16 UTC 2022 org.apache.commons.lang3.StringUtils,3691
+Wed Jun 29 17:53:12 UTC 2022 org.apache.commons.lang3.StringUtils,3693
+Wed Jun 29 17:54:42 UTC 2022 org.apache.commons.lang3.StringUtils,3695
+Wed Jun 29 17:55:16 UTC 2022 org.apache.commons.lang3.StringUtils,3696
+Wed Jun 29 17:55:23 UTC 2022 org.apache.commons.lang3.StringUtils,3697
+Wed Jun 29 17:55:23 UTC 2022 org.apache.commons.lang3.StringUtils,3700
+Wed Jun 29 17:55:23 UTC 2022 org.apache.commons.lang3.StringUtils,3701
+Wed Jun 29 17:55:23 UTC 2022 org.apache.commons.lang3.StringUtils,3706
+Wed Jun 29 18:11:37 UTC 2022 org.apache.commons.lang3.StringUtils,3709
+Wed Jun 29 18:11:37 UTC 2022 org.apache.commons.lang3.StringUtils,3710
+Wed Jun 29 18:11:37 UTC 2022 org.apache.commons.lang3.StringUtils,3712
+Wed Jun 29 18:11:37 UTC 2022 org.apache.commons.lang3.StringUtils,3713
+Wed Jun 29 18:11:38 UTC 2022 org.apache.commons.lang3.StringUtils,3714
+Wed Jun 29 18:11:38 UTC 2022 org.apache.commons.lang3.StringUtils,3721
+Wed Jun 29 18:17:38 UTC 2022 org.apache.commons.lang3.StringUtils,3722
+Wed Jun 29 18:22:24 UTC 2022 org.apache.commons.lang3.StringUtils,3723
+Wed Jun 29 18:22:24 UTC 2022 org.apache.commons.lang3.StringUtils,3725
+Wed Jun 29 18:27:32 UTC 2022 org.apache.commons.lang3.StringUtils,3726
+Wed Jun 29 18:27:32 UTC 2022 org.apache.commons.lang3.StringUtils,167
+Wed Jun 29 18:27:32 UTC 2022 Wed Jun 29 18:27:32 UTC 2022 : org.apache.commons.lang3.StringUtils,168=>Find no block
+Wed Jun 29 18:27:32 UTC 2022 org.apache.commons.lang3.StringUtils,191
+Wed Jun 29 18:28:11 UTC 2022 org.apache.commons.lang3.StringUtils,209
+Wed Jun 29 18:28:18 UTC 2022 org.apache.commons.lang3.StringUtils,229
+Wed Jun 29 18:29:47 UTC 2022 org.apache.commons.lang3.StringUtils,230
+Wed Jun 29 18:29:47 UTC 2022 org.apache.commons.lang3.StringUtils,232
+Wed Jun 29 18:31:37 UTC 2022 org.apache.commons.lang3.StringUtils,233
+Wed Jun 29 18:31:37 UTC 2022 org.apache.commons.lang3.StringUtils,234
+Wed Jun 29 18:31:38 UTC 2022 org.apache.commons.lang3.StringUtils,237
+Wed Jun 29 18:35:27 UTC 2022 org.apache.commons.lang3.StringUtils,257
+Wed Jun 29 18:35:34 UTC 2022 org.apache.commons.lang3.StringUtils,286
+Wed Jun 29 18:36:07 UTC 2022 org.apache.commons.lang3.StringUtils,312
+Wed Jun 29 18:36:55 UTC 2022 org.apache.commons.lang3.StringUtils,313
+Wed Jun 29 18:36:55 UTC 2022 org.apache.commons.lang3.StringUtils,338
+Wed Jun 29 18:37:21 UTC 2022 org.apache.commons.lang3.StringUtils,366
+Wed Jun 29 18:38:41 UTC 2022 org.apache.commons.lang3.StringUtils,393
+Wed Jun 29 18:40:12 UTC 2022 org.apache.commons.lang3.StringUtils,394
+Wed Jun 29 18:40:12 UTC 2022 org.apache.commons.lang3.StringUtils,396
+Wed Jun 29 18:43:11 UTC 2022 org.apache.commons.lang3.StringUtils,397
+Wed Jun 29 18:43:11 UTC 2022 org.apache.commons.lang3.StringUtils,423
+Wed Jun 29 18:43:39 UTC 2022 org.apache.commons.lang3.StringUtils,453
+Wed Jun 29 18:44:00 UTC 2022 org.apache.commons.lang3.StringUtils,454
+Wed Jun 29 18:44:00 UTC 2022 org.apache.commons.lang3.StringUtils,456
+Wed Jun 29 18:45:57 UTC 2022 org.apache.commons.lang3.StringUtils,457
+Wed Jun 29 18:45:57 UTC 2022 org.apache.commons.lang3.StringUtils,486
+Wed Jun 29 18:48:45 UTC 2022 org.apache.commons.lang3.StringUtils,487
+Wed Jun 29 18:48:46 UTC 2022 org.apache.commons.lang3.StringUtils,489
+Wed Jun 29 18:52:20 UTC 2022 org.apache.commons.lang3.StringUtils,490
+Wed Jun 29 19:05:02 UTC 2022 org.apache.commons.lang3.StringUtils,491
+Wed Jun 29 19:05:02 UTC 2022 org.apache.commons.lang3.StringUtils,492
+Wed Jun 29 19:05:03 UTC 2022 org.apache.commons.lang3.StringUtils,494
+Wed Jun 29 19:05:03 UTC 2022 org.apache.commons.lang3.StringUtils,495
+Wed Jun 29 19:05:03 UTC 2022 org.apache.commons.lang3.StringUtils,497
+Wed Jun 29 19:05:03 UTC 2022 org.apache.commons.lang3.StringUtils,498
+Wed Jun 29 19:05:03 UTC 2022 org.apache.commons.lang3.StringUtils,501
+Wed Jun 29 19:22:26 UTC 2022 org.apache.commons.lang3.StringUtils,530
+Wed Jun 29 19:25:23 UTC 2022 org.apache.commons.lang3.StringUtils,531
+Wed Jun 29 19:25:24 UTC 2022 org.apache.commons.lang3.StringUtils,534
+Wed Jun 29 19:34:49 UTC 2022 org.apache.commons.lang3.StringUtils,535
+Wed Jun 29 19:34:49 UTC 2022 org.apache.commons.lang3.StringUtils,536
+Wed Jun 29 19:34:50 UTC 2022 org.apache.commons.lang3.StringUtils,538
+Wed Jun 29 19:34:50 UTC 2022 org.apache.commons.lang3.StringUtils,539
+Wed Jun 29 19:34:50 UTC 2022 org.apache.commons.lang3.StringUtils,541
+Wed Jun 29 19:34:50 UTC 2022 org.apache.commons.lang3.StringUtils,542
+Wed Jun 29 19:34:50 UTC 2022 org.apache.commons.lang3.StringUtils,545
+Wed Jun 29 19:49:08 UTC 2022 org.apache.commons.lang3.StringUtils,570
+Wed Jun 29 19:49:09 UTC 2022 org.apache.commons.lang3.StringUtils,600
+Wed Jun 29 19:50:24 UTC 2022 org.apache.commons.lang3.StringUtils,601
+Wed Jun 29 19:50:24 UTC 2022 org.apache.commons.lang3.StringUtils,603
+Wed Jun 29 19:55:06 UTC 2022 org.apache.commons.lang3.StringUtils,604
+Wed Jun 29 19:55:07 UTC 2022 org.apache.commons.lang3.StringUtils,605
+Wed Jun 29 19:55:07 UTC 2022 org.apache.commons.lang3.StringUtils,607
+Wed Jun 29 19:55:07 UTC 2022 org.apache.commons.lang3.StringUtils,627
+Wed Jun 29 19:55:14 UTC 2022 org.apache.commons.lang3.StringUtils,628
+Wed Jun 29 19:55:14 UTC 2022 org.apache.commons.lang3.StringUtils,630
+Wed Jun 29 19:55:36 UTC 2022 org.apache.commons.lang3.StringUtils,637
+Wed Jun 29 19:55:52 UTC 2022 org.apache.commons.lang3.StringUtils,640
+Wed Jun 29 19:55:52 UTC 2022 org.apache.commons.lang3.StringUtils,643
+Wed Jun 29 19:56:10 UTC 2022 org.apache.commons.lang3.StringUtils,646
+Wed Jun 29 19:56:22 UTC 2022 org.apache.commons.lang3.StringUtils,649
+Wed Jun 29 19:56:34 UTC 2022 org.apache.commons.lang3.StringUtils,652
+Wed Jun 29 19:56:52 UTC 2022 org.apache.commons.lang3.StringUtils,653
+Wed Jun 29 19:56:52 UTC 2022 Wed Jun 29 19:56:52 UTC 2022 : org.apache.commons.lang3.StringUtils,654=>Find no block
+Wed Jun 29 19:56:52 UTC 2022 org.apache.commons.lang3.StringUtils,655
+Wed Jun 29 19:56:52 UTC 2022 Wed Jun 29 19:56:52 UTC 2022 : org.apache.commons.lang3.StringUtils,656=>Find no block
+Wed Jun 29 19:56:52 UTC 2022 org.apache.commons.lang3.StringUtils,657
+Wed Jun 29 19:56:52 UTC 2022 Wed Jun 29 19:56:52 UTC 2022 : org.apache.commons.lang3.StringUtils,658=>Find no block
+Wed Jun 29 19:56:52 UTC 2022 org.apache.commons.lang3.StringUtils,659
+Wed Jun 29 19:56:53 UTC 2022 Wed Jun 29 19:56:53 UTC 2022 : org.apache.commons.lang3.StringUtils,660=>Find no block
+Wed Jun 29 19:56:53 UTC 2022 org.apache.commons.lang3.StringUtils,661
+Wed Jun 29 19:56:53 UTC 2022 Wed Jun 29 19:56:53 UTC 2022 : org.apache.commons.lang3.StringUtils,662=>Find no block
+Wed Jun 29 19:56:53 UTC 2022 org.apache.commons.lang3.StringUtils,663
+Wed Jun 29 19:56:53 UTC 2022 Wed Jun 29 19:56:53 UTC 2022 : org.apache.commons.lang3.StringUtils,664=>Find no block
+Wed Jun 29 19:56:53 UTC 2022 org.apache.commons.lang3.StringUtils,665
+Wed Jun 29 19:56:53 UTC 2022 Wed Jun 29 19:56:53 UTC 2022 : org.apache.commons.lang3.StringUtils,666=>Find no block
+Wed Jun 29 19:56:54 UTC 2022 org.apache.commons.lang3.StringUtils,667
+Wed Jun 29 19:56:54 UTC 2022 org.apache.commons.lang3.StringUtils,670
+Wed Jun 29 19:56:54 UTC 2022 org.apache.commons.lang3.StringUtils,697
+Wed Jun 29 19:57:05 UTC 2022 org.apache.commons.lang3.StringUtils,722
+Wed Jun 29 19:57:12 UTC 2022 org.apache.commons.lang3.StringUtils,747
+Wed Jun 29 19:57:31 UTC 2022 org.apache.commons.lang3.StringUtils,748
+Wed Jun 29 19:57:32 UTC 2022 org.apache.commons.lang3.StringUtils,750
+Wed Jun 29 20:01:03 UTC 2022 org.apache.commons.lang3.StringUtils,779
+Wed Jun 29 20:01:03 UTC 2022 org.apache.commons.lang3.StringUtils,780
+Wed Jun 29 20:01:03 UTC 2022 org.apache.commons.lang3.StringUtils,782
+Wed Jun 29 20:04:12 UTC 2022 org.apache.commons.lang3.StringUtils,808
+Wed Jun 29 20:06:08 UTC 2022 org.apache.commons.lang3.StringUtils,809
+Wed Jun 29 20:06:08 UTC 2022 org.apache.commons.lang3.StringUtils,811
+Wed Jun 29 20:09:48 UTC 2022 org.apache.commons.lang3.StringUtils,842
+Wed Jun 29 20:12:06 UTC 2022 org.apache.commons.lang3.StringUtils,843
+Wed Jun 29 20:12:06 UTC 2022 org.apache.commons.lang3.StringUtils,845
+Wed Jun 29 20:13:22 UTC 2022 org.apache.commons.lang3.StringUtils,846
+Wed Jun 29 20:13:22 UTC 2022 org.apache.commons.lang3.StringUtils,848
+Wed Jun 29 20:16:11 UTC 2022 org.apache.commons.lang3.StringUtils,849
+Wed Jun 29 20:21:55 UTC 2022 org.apache.commons.lang3.StringUtils,851
+Wed Jun 29 20:21:55 UTC 2022 org.apache.commons.lang3.StringUtils,852
+Wed Jun 29 20:21:56 UTC 2022 org.apache.commons.lang3.StringUtils,853
+Wed Jun 29 20:21:56 UTC 2022 org.apache.commons.lang3.StringUtils,855
+Wed Jun 29 20:21:56 UTC 2022 org.apache.commons.lang3.StringUtils,856
+Wed Jun 29 20:21:56 UTC 2022 org.apache.commons.lang3.StringUtils,857
+Wed Jun 29 20:24:08 UTC 2022 org.apache.commons.lang3.StringUtils,892
+Wed Jun 29 20:24:08 UTC 2022 org.apache.commons.lang3.StringUtils,893
+Wed Jun 29 20:24:09 UTC 2022 org.apache.commons.lang3.StringUtils,896
+Wed Jun 29 20:27:25 UTC 2022 org.apache.commons.lang3.StringUtils,897
+Wed Jun 29 20:27:25 UTC 2022 org.apache.commons.lang3.StringUtils,899
+Wed Jun 29 20:34:05 UTC 2022 org.apache.commons.lang3.StringUtils,924
+Wed Jun 29 20:34:05 UTC 2022 org.apache.commons.lang3.StringUtils,925
+Wed Jun 29 20:34:05 UTC 2022 org.apache.commons.lang3.StringUtils,927
+Wed Jun 29 20:37:30 UTC 2022 org.apache.commons.lang3.StringUtils,958
+Wed Jun 29 20:37:31 UTC 2022 org.apache.commons.lang3.StringUtils,959
+Wed Jun 29 20:37:31 UTC 2022 org.apache.commons.lang3.StringUtils,961
+Wed Jun 29 20:40:33 UTC 2022 org.apache.commons.lang3.StringUtils,987
+Wed Jun 29 20:40:33 UTC 2022 org.apache.commons.lang3.StringUtils,988
+Wed Jun 29 20:40:33 UTC 2022 org.apache.commons.lang3.StringUtils,990
+Wed Jun 29 20:43:45 UTC 2022 org.apache.commons.lang3.StringUtils,1022
+Wed Jun 29 20:43:45 UTC 2022 org.apache.commons.lang3.StringUtils,1023
+Wed Jun 29 20:43:46 UTC 2022 org.apache.commons.lang3.StringUtils,1025
+Wed Jun 29 20:47:09 UTC 2022 org.apache.commons.lang3.StringUtils,1050
+Wed Jun 29 20:47:27 UTC 2022 org.apache.commons.lang3.StringUtils,1051
+Wed Jun 29 20:47:27 UTC 2022 org.apache.commons.lang3.StringUtils,1053
+Wed Jun 29 20:49:08 UTC 2022 org.apache.commons.lang3.StringUtils,1078
+Wed Jun 29 20:51:09 UTC 2022 org.apache.commons.lang3.StringUtils,1079
+Wed Jun 29 20:51:09 UTC 2022 org.apache.commons.lang3.StringUtils,1081
+Wed Jun 29 20:54:36 UTC 2022 org.apache.commons.lang3.StringUtils,1108
+Wed Jun 29 20:54:36 UTC 2022 org.apache.commons.lang3.StringUtils,1109
+Wed Jun 29 20:54:36 UTC 2022 org.apache.commons.lang3.StringUtils,1111
+Wed Jun 29 21:08:50 UTC 2022 org.apache.commons.lang3.StringUtils,1112
+Wed Jun 29 21:08:51 UTC 2022 org.apache.commons.lang3.StringUtils,1113
+Wed Jun 29 21:08:51 UTC 2022 org.apache.commons.lang3.StringUtils,1114
+Wed Jun 29 21:08:51 UTC 2022 org.apache.commons.lang3.StringUtils,1115
+Wed Jun 29 21:08:51 UTC 2022 org.apache.commons.lang3.StringUtils,1118
+Wed Jun 29 21:08:51 UTC 2022 org.apache.commons.lang3.StringUtils,1146
+Wed Jun 29 21:10:11 UTC 2022 org.apache.commons.lang3.StringUtils,1147
+Wed Jun 29 21:10:11 UTC 2022 org.apache.commons.lang3.StringUtils,1149
+Wed Jun 29 21:17:47 UTC 2022 org.apache.commons.lang3.StringUtils,1150
+Wed Jun 29 21:17:47 UTC 2022 org.apache.commons.lang3.StringUtils,1151
+Wed Jun 29 21:17:47 UTC 2022 org.apache.commons.lang3.StringUtils,1152
+Wed Jun 29 21:17:47 UTC 2022 org.apache.commons.lang3.StringUtils,1153
+Wed Jun 29 21:17:47 UTC 2022 org.apache.commons.lang3.StringUtils,1157
+Wed Jun 29 21:21:14 UTC 2022 org.apache.commons.lang3.StringUtils,1183
+Wed Jun 29 21:22:40 UTC 2022 org.apache.commons.lang3.StringUtils,1184
+Wed Jun 29 21:22:40 UTC 2022 org.apache.commons.lang3.StringUtils,1186
+Wed Jun 29 21:24:17 UTC 2022 org.apache.commons.lang3.StringUtils,1215
+Wed Jun 29 21:26:58 UTC 2022 org.apache.commons.lang3.StringUtils,1216
+Wed Jun 29 21:26:58 UTC 2022 org.apache.commons.lang3.StringUtils,1218
+Timeout time : 22/06/29 21:28

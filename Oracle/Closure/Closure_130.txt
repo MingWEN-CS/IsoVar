@@ -1,5 +1,7 @@
-fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.inExterns
-fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.globalSets
-fix	com.google.javascript.jscomp.CollapseProperties	172	INS	name.localSets
-buggy	com.google.javascript.jscomp.CollapseProperties	172	MOV	name.globalSets
-buggy	com.google.javascript.jscomp.CollapseProperties	172	MOV	name.localSets
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.localSets	buggy
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.aliasingGets	buggy
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.globalSets	buggy
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.inExterns	fixed
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.localSets	fixed
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.aliasingGets	fixed
+com.google.javascript.jscomp.CollapseProperties	inlineAliases(Lcom/google/javascript/jscomp/GlobalNamespace;)V	name.globalSets	fixed

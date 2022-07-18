@@ -1,1 +1,1 @@
-fix	com.google.javascript.jscomp.CodeGenerator	966	INS	sb
+com.google.javascript.jscomp.CodeGenerator	strEscape(Ljava/lang/String;CLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/nio/charset/CharsetEncoder;)Ljava/lang/String;	sb	fixed

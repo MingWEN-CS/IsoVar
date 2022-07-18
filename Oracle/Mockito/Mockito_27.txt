@@ -1,6 +1,6 @@
-fix	org.mockito.internal.util.MockUtil	64	INS	newMethodInterceptorFilter
-fix	org.mockito.internal.util.MockUtil	64	INS	oldMockHandler
-buggy	org.mockito.internal.util.MockUtil	64	DEL	newMockHandler
-buggy	org.mockito.internal.util.MockUtil	64	DEL	oldMockHandler
-buggy	org.mockito.internal.util.MockUtil	65	DEL	newMockHandler
-buggy	org.mockito.internal.util.MockUtil	65	DEL	org.mockito.Mockito
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	oldMockHandler	buggy
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	newFilter	buggy
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	newMockHandler	buggy
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	.RETURNS_DEFAULTS	buggy
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	oldMockHandler	fixed
+org.mockito.internal.util.MockUtil	resetMock(Ljava/lang/Object;)V	newFilter	fixed

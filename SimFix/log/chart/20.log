@@ -1,0 +1,241 @@
+=================================================
+Project : chart_20	start : 22/06/29 16:28
+Current failed test : org.jfree.chart.plot.junit.ValueMarkerTests::test1808376 | 22/06/29 16:28
+Wed Jun 29 16:28:22 UTC 2022 org.jfree.chart.plot.Marker,265
+Wed Jun 29 16:28:32 UTC 2022 org.jfree.chart.plot.Marker,238
+Wed Jun 29 16:28:38 UTC 2022 org.jfree.chart.plot.Marker,211
+Wed Jun 29 16:28:43 UTC 2022 org.jfree.chart.plot.ValueMarker,107
+Wed Jun 29 16:29:01 UTC 2022 org.jfree.chart.plot.ValueMarker,95
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+super(paint,stroke,outlinePaint,outlineStroke,alpha);
+this.value=value;
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.36278376661655 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_20_buggy/source/org/jfree/chart/plot/ValueMarker.java=>0,0]
+super(paint,stroke,outlinePaint,outlineStroke,alpha);
+this.key=key;
+setLabelOffsetType(LengthAdjustmentType.EXPAND);
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_20_buggy/source/org/jfree/chart/plot/ValueMarker.java=>95,96]
+super(paint,stroke,paint,stroke,alpha);
+this.value=value;
+
+Time : 22/06/29 16:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_20_buggy/source/org/jfree/chart/plot/ValueMarker.java=>95,96]
+super(paint,stroke,outlinePaint,outlineStroke,alpha);
+this.value=value;
+
+Time : 22/06/29 16:29
+----------------------------------------
+Wed Jun 29 16:30:58 UTC 2022 org.jfree.chart.plot.ValueMarker,96
+Wed Jun 29 16:30:59 UTC 2022 Wed Jun 29 16:30:59 UTC 2022 : org.jfree.chart.plot.ValueMarker,97=>Find no block
+Wed Jun 29 16:31:00 UTC 2022 Wed Jun 29 16:31:00 UTC 2022 : org.jfree.chart.plot.Marker,175=>Find no block
+Wed Jun 29 16:31:00 UTC 2022 Wed Jun 29 16:31:00 UTC 2022 : org.jfree.chart.plot.Marker,117=>Find no block
+Wed Jun 29 16:31:01 UTC 2022 org.jfree.chart.plot.Marker,177
+Wed Jun 29 16:32:11 UTC 2022 org.jfree.chart.plot.Marker,180
+Wed Jun 29 16:32:53 UTC 2022 org.jfree.chart.plot.Marker,183
+Wed Jun 29 16:33:14 UTC 2022 org.jfree.chart.plot.Marker,187
+Wed Jun 29 16:35:13 UTC 2022 org.jfree.chart.plot.Marker,188
+Wed Jun 29 16:38:48 UTC 2022 org.jfree.chart.plot.Marker,189
+Wed Jun 29 16:41:37 UTC 2022 org.jfree.chart.plot.Marker,190
+Wed Jun 29 16:43:38 UTC 2022 org.jfree.chart.plot.Marker,191
+Wed Jun 29 16:45:25 UTC 2022 org.jfree.chart.plot.Marker,193
+Wed Jun 29 16:47:40 UTC 2022 org.jfree.chart.plot.Marker,194
+Wed Jun 29 16:49:04 UTC 2022 org.jfree.chart.plot.Marker,195
+Wed Jun 29 16:50:36 UTC 2022 org.jfree.chart.plot.Marker,196
+Wed Jun 29 16:51:02 UTC 2022 org.jfree.chart.plot.Marker,197
+Wed Jun 29 16:51:19 UTC 2022 org.jfree.chart.plot.Marker,198
+Wed Jun 29 16:51:58 UTC 2022 org.jfree.chart.plot.Marker,200
+Wed Jun 29 16:51:59 UTC 2022 Wed Jun 29 16:51:59 UTC 2022 : org.jfree.chart.plot.Marker,201=>Find no block
+Wed Jun 29 16:51:59 UTC 2022 Wed Jun 29 16:51:59 UTC 2022 : org.jfree.chart.util.LengthAdjustmentType,78=>Find no block
+Wed Jun 29 16:52:00 UTC 2022 org.jfree.chart.util.LengthAdjustmentType,79
+Wed Jun 29 16:52:15 UTC 2022 Wed Jun 29 16:52:15 UTC 2022 : org.jfree.chart.util.LengthAdjustmentType,80=>Find no block
+Wed Jun 29 16:52:15 UTC 2022 Wed Jun 29 16:52:15 UTC 2022 : org.jfree.chart.util.LengthAdjustmentType,59=>Find no block
+Wed Jun 29 16:52:16 UTC 2022 Wed Jun 29 16:52:16 UTC 2022 : org.jfree.chart.util.LengthAdjustmentType,63=>Find no block
+Wed Jun 29 16:52:16 UTC 2022 Wed Jun 29 16:52:16 UTC 2022 : org.jfree.chart.util.LengthAdjustmentType,67=>Find no block
+Wed Jun 29 16:52:17 UTC 2022 Wed Jun 29 16:52:17 UTC 2022 : org.jfree.chart.util.RectangleAnchor,83=>Find no block
+Wed Jun 29 16:52:17 UTC 2022 org.jfree.chart.util.RectangleAnchor,84
+Wed Jun 29 16:52:18 UTC 2022 Wed Jun 29 16:52:18 UTC 2022 : org.jfree.chart.util.RectangleAnchor,85=>Find no block
+Wed Jun 29 16:52:19 UTC 2022 Wed Jun 29 16:52:19 UTC 2022 : org.jfree.chart.util.RectangleAnchor,40=>Find no block
+Wed Jun 29 16:52:19 UTC 2022 Wed Jun 29 16:52:19 UTC 2022 : org.jfree.chart.util.RectangleAnchor,44=>Find no block
+Wed Jun 29 16:52:20 UTC 2022 Wed Jun 29 16:52:20 UTC 2022 : org.jfree.chart.util.RectangleAnchor,48=>Find no block
+Wed Jun 29 16:52:21 UTC 2022 Wed Jun 29 16:52:21 UTC 2022 : org.jfree.chart.util.RectangleAnchor,52=>Find no block
+Wed Jun 29 16:52:21 UTC 2022 Wed Jun 29 16:52:21 UTC 2022 : org.jfree.chart.util.RectangleAnchor,56=>Find no block
+Wed Jun 29 16:52:22 UTC 2022 Wed Jun 29 16:52:22 UTC 2022 : org.jfree.chart.util.RectangleAnchor,60=>Find no block
+Wed Jun 29 16:52:22 UTC 2022 Wed Jun 29 16:52:22 UTC 2022 : org.jfree.chart.util.RectangleAnchor,64=>Find no block
+Wed Jun 29 16:52:23 UTC 2022 Wed Jun 29 16:52:23 UTC 2022 : org.jfree.chart.util.RectangleAnchor,68=>Find no block
+Wed Jun 29 16:52:23 UTC 2022 Wed Jun 29 16:52:23 UTC 2022 : org.jfree.chart.util.RectangleAnchor,72=>Find no block
+Wed Jun 29 16:52:24 UTC 2022 org.jfree.chart.util.RectangleInsets,79
+Wed Jun 29 16:52:27 UTC 2022 Wed Jun 29 16:52:27 UTC 2022 : org.jfree.chart.util.RectangleInsets,80=>Find no block
+Wed Jun 29 16:52:28 UTC 2022 Wed Jun 29 16:52:28 UTC 2022 : org.jfree.chart.util.RectangleInsets,93=>Find no block
+Wed Jun 29 16:52:29 UTC 2022 org.jfree.chart.util.RectangleInsets,94
+Wed Jun 29 16:52:52 UTC 2022 org.jfree.chart.util.RectangleInsets,97
+Wed Jun 29 16:53:33 UTC 2022 org.jfree.chart.util.RectangleInsets,98
+Wed Jun 29 16:53:34 UTC 2022 org.jfree.chart.util.RectangleInsets,99
+Wed Jun 29 16:53:34 UTC 2022 org.jfree.chart.util.RectangleInsets,100
+Wed Jun 29 16:53:35 UTC 2022 org.jfree.chart.util.RectangleInsets,101
+Wed Jun 29 16:53:35 UTC 2022 Wed Jun 29 16:53:35 UTC 2022 : org.jfree.chart.util.RectangleInsets,102=>Find no block
+Wed Jun 29 16:53:36 UTC 2022 Wed Jun 29 16:53:36 UTC 2022 : org.jfree.chart.util.RectangleInsets,42=>Find no block
+Wed Jun 29 16:53:36 UTC 2022 Wed Jun 29 16:53:36 UTC 2022 : org.jfree.chart.util.UnitType,71=>Find no block
+Wed Jun 29 16:53:36 UTC 2022 org.jfree.chart.util.UnitType,72
+Wed Jun 29 16:53:37 UTC 2022 Wed Jun 29 16:53:37 UTC 2022 : org.jfree.chart.util.UnitType,73=>Find no block
+Wed Jun 29 16:53:37 UTC 2022 Wed Jun 29 16:53:37 UTC 2022 : org.jfree.chart.util.UnitType,58=>Find no block
+Wed Jun 29 16:53:38 UTC 2022 Wed Jun 29 16:53:38 UTC 2022 : org.jfree.chart.util.UnitType,61=>Find no block
+Wed Jun 29 16:53:38 UTC 2022 Wed Jun 29 16:53:38 UTC 2022 : org.jfree.chart.text.TextAnchor,126=>Find no block
+Wed Jun 29 16:53:39 UTC 2022 org.jfree.chart.text.TextAnchor,127
+Wed Jun 29 16:53:39 UTC 2022 Wed Jun 29 16:53:39 UTC 2022 : org.jfree.chart.text.TextAnchor,128=>Find no block
+Wed Jun 29 16:53:40 UTC 2022 Wed Jun 29 16:53:40 UTC 2022 : org.jfree.chart.text.TextAnchor,60=>Find no block
+Wed Jun 29 16:53:40 UTC 2022 Wed Jun 29 16:53:40 UTC 2022 : org.jfree.chart.text.TextAnchor,64=>Find no block
+Wed Jun 29 16:53:41 UTC 2022 Wed Jun 29 16:53:41 UTC 2022 : org.jfree.chart.text.TextAnchor,68=>Find no block
+Wed Jun 29 16:53:41 UTC 2022 Wed Jun 29 16:53:41 UTC 2022 : org.jfree.chart.text.TextAnchor,72=>Find no block
+Wed Jun 29 16:53:42 UTC 2022 Wed Jun 29 16:53:42 UTC 2022 : org.jfree.chart.text.TextAnchor,76=>Find no block
+Wed Jun 29 16:53:42 UTC 2022 Wed Jun 29 16:53:42 UTC 2022 : org.jfree.chart.text.TextAnchor,80=>Find no block
+Wed Jun 29 16:53:43 UTC 2022 Wed Jun 29 16:53:43 UTC 2022 : org.jfree.chart.text.TextAnchor,84=>Find no block
+Wed Jun 29 16:53:43 UTC 2022 Wed Jun 29 16:53:43 UTC 2022 : org.jfree.chart.text.TextAnchor,88=>Find no block
+Wed Jun 29 16:53:44 UTC 2022 Wed Jun 29 16:53:44 UTC 2022 : org.jfree.chart.text.TextAnchor,91=>Find no block
+Wed Jun 29 16:53:44 UTC 2022 Wed Jun 29 16:53:44 UTC 2022 : org.jfree.chart.text.TextAnchor,95=>Find no block
+Wed Jun 29 16:53:45 UTC 2022 Wed Jun 29 16:53:45 UTC 2022 : org.jfree.chart.text.TextAnchor,99=>Find no block
+Wed Jun 29 16:53:45 UTC 2022 Wed Jun 29 16:53:45 UTC 2022 : org.jfree.chart.text.TextAnchor,103=>Find no block
+Wed Jun 29 16:53:46 UTC 2022 Wed Jun 29 16:53:46 UTC 2022 : org.jfree.chart.text.TextAnchor,107=>Find no block
+Wed Jun 29 16:53:46 UTC 2022 Wed Jun 29 16:53:46 UTC 2022 : org.jfree.chart.text.TextAnchor,111=>Find no block
+Wed Jun 29 16:53:47 UTC 2022 Wed Jun 29 16:53:47 UTC 2022 : org.jfree.chart.text.TextAnchor,115=>Find no block
+Wed Jun 29 16:53:47 UTC 2022 org.jfree.chart.plot.ValueMarker,68
+Wed Jun 29 16:54:21 UTC 2022 org.jfree.chart.plot.ValueMarker,69
+Wed Jun 29 16:54:21 UTC 2022 Wed Jun 29 16:54:21 UTC 2022 : org.jfree.chart.plot.ValueMarker,70=>Find no block
+Wed Jun 29 16:54:22 UTC 2022 org.jfree.chart.plot.ValueMarker,80
+Wed Jun 29 16:54:38 UTC 2022 Wed Jun 29 16:54:38 UTC 2022 : org.jfree.chart.plot.ValueMarker,81=>Find no block
+Wed Jun 29 16:54:39 UTC 2022 org.jfree.chart.plot.ValueMarker,121
+Wed Jun 29 16:55:49 UTC 2022 org.jfree.chart.plot.ValueMarker,122
+Wed Jun 29 16:55:49 UTC 2022 Wed Jun 29 16:55:49 UTC 2022 : org.jfree.chart.plot.ValueMarker,123=>Find no block
+Wed Jun 29 16:55:50 UTC 2022 org.jfree.chart.plot.ValueMarker,141
+Wed Jun 29 16:56:45 UTC 2022 org.jfree.chart.plot.ValueMarker,142
+Wed Jun 29 16:56:46 UTC 2022 org.jfree.chart.plot.ValueMarker,144
+Wed Jun 29 16:56:51 UTC 2022 org.jfree.chart.plot.ValueMarker,145
+Wed Jun 29 16:56:51 UTC 2022 org.jfree.chart.plot.ValueMarker,147
+Wed Jun 29 16:57:03 UTC 2022 org.jfree.chart.plot.ValueMarker,148
+Wed Jun 29 16:57:04 UTC 2022 org.jfree.chart.plot.ValueMarker,150
+Wed Jun 29 17:00:28 UTC 2022 org.jfree.chart.plot.ValueMarker,151
+Wed Jun 29 17:00:28 UTC 2022 org.jfree.chart.plot.ValueMarker,152
+Wed Jun 29 17:00:29 UTC 2022 org.jfree.chart.plot.ValueMarker,154
+Wed Jun 29 17:01:06 UTC 2022 org.jfree.chart.plot.Marker,146
+Wed Jun 29 17:01:10 UTC 2022 Wed Jun 29 17:01:10 UTC 2022 : org.jfree.chart.plot.Marker,147=>Find no block
+Wed Jun 29 17:01:10 UTC 2022 org.jfree.chart.plot.Marker,155
+Wed Jun 29 17:01:13 UTC 2022 Wed Jun 29 17:01:13 UTC 2022 : org.jfree.chart.plot.Marker,157=>Find no block
+Wed Jun 29 17:01:14 UTC 2022 org.jfree.chart.plot.Marker,178
+Wed Jun 29 17:01:15 UTC 2022 org.jfree.chart.plot.Marker,181
+Wed Jun 29 17:01:15 UTC 2022 org.jfree.chart.plot.Marker,184
+Wed Jun 29 17:01:16 UTC 2022 org.jfree.chart.plot.Marker,223
+Wed Jun 29 17:01:16 UTC 2022 org.jfree.chart.plot.Marker,224
+Wed Jun 29 17:01:16 UTC 2022 org.jfree.chart.plot.Marker,226
+Wed Jun 29 17:09:23 UTC 2022 org.jfree.chart.plot.Marker,227
+Wed Jun 29 17:09:24 UTC 2022 Wed Jun 29 17:09:24 UTC 2022 : org.jfree.chart.plot.Marker,228=>Find no block
+Wed Jun 29 17:09:24 UTC 2022 org.jfree.chart.plot.Marker,250
+Wed Jun 29 17:09:25 UTC 2022 org.jfree.chart.plot.Marker,251
+Wed Jun 29 17:09:25 UTC 2022 org.jfree.chart.plot.Marker,253
+Wed Jun 29 17:17:25 UTC 2022 org.jfree.chart.plot.Marker,254
+Wed Jun 29 17:17:25 UTC 2022 Wed Jun 29 17:17:25 UTC 2022 : org.jfree.chart.plot.Marker,255=>Find no block
+Wed Jun 29 17:17:26 UTC 2022 org.jfree.chart.plot.Marker,277
+Wed Jun 29 17:21:39 UTC 2022 org.jfree.chart.plot.Marker,278
+Wed Jun 29 17:21:39 UTC 2022 Wed Jun 29 17:21:39 UTC 2022 : org.jfree.chart.plot.Marker,279=>Find no block
+Wed Jun 29 17:21:40 UTC 2022 org.jfree.chart.plot.Marker,289
+Wed Jun 29 17:21:43 UTC 2022 org.jfree.chart.plot.Marker,301
+Wed Jun 29 17:25:04 UTC 2022 org.jfree.chart.plot.Marker,302
+Wed Jun 29 17:25:04 UTC 2022 Wed Jun 29 17:25:04 UTC 2022 : org.jfree.chart.plot.Marker,303=>Find no block
+Wed Jun 29 17:25:05 UTC 2022 org.jfree.chart.plot.Marker,313
+Wed Jun 29 17:25:08 UTC 2022 org.jfree.chart.plot.Marker,331
+Wed Jun 29 17:25:08 UTC 2022 org.jfree.chart.plot.Marker,332
+Wed Jun 29 17:25:09 UTC 2022 org.jfree.chart.plot.Marker,334
+Wed Jun 29 17:30:08 UTC 2022 org.jfree.chart.plot.Marker,335
+Wed Jun 29 17:30:08 UTC 2022 Wed Jun 29 17:30:08 UTC 2022 : org.jfree.chart.plot.Marker,336=>Find no block
+Wed Jun 29 17:30:09 UTC 2022 org.jfree.chart.plot.Marker,346
+Wed Jun 29 17:30:12 UTC 2022 org.jfree.chart.plot.Marker,358
+Wed Jun 29 17:33:32 UTC 2022 org.jfree.chart.plot.Marker,359
+Wed Jun 29 17:33:32 UTC 2022 Wed Jun 29 17:33:32 UTC 2022 : org.jfree.chart.plot.Marker,360=>Find no block
+Wed Jun 29 17:33:33 UTC 2022 org.jfree.chart.plot.Marker,370
+Wed Jun 29 17:33:36 UTC 2022 org.jfree.chart.plot.Marker,382
+Wed Jun 29 17:34:01 UTC 2022 org.jfree.chart.plot.Marker,383
+Wed Jun 29 17:34:02 UTC 2022 org.jfree.chart.plot.Marker,385
+Wed Jun 29 17:41:27 UTC 2022 org.jfree.chart.plot.Marker,386
+Wed Jun 29 17:41:28 UTC 2022 Wed Jun 29 17:41:28 UTC 2022 : org.jfree.chart.plot.Marker,387=>Find no block
+Wed Jun 29 17:41:29 UTC 2022 org.jfree.chart.plot.Marker,397
+Wed Jun 29 17:41:33 UTC 2022 org.jfree.chart.plot.Marker,409
+Wed Jun 29 17:41:33 UTC 2022 org.jfree.chart.plot.Marker,410
+Wed Jun 29 17:41:34 UTC 2022 org.jfree.chart.plot.Marker,412
+Wed Jun 29 17:50:37 UTC 2022 org.jfree.chart.plot.Marker,413
+Wed Jun 29 17:50:37 UTC 2022 Wed Jun 29 17:50:37 UTC 2022 : org.jfree.chart.plot.Marker,414=>Find no block
+Wed Jun 29 17:50:38 UTC 2022 org.jfree.chart.plot.Marker,425
+Wed Jun 29 17:50:40 UTC 2022 org.jfree.chart.plot.Marker,438
+Wed Jun 29 17:50:56 UTC 2022 org.jfree.chart.plot.Marker,439
+Wed Jun 29 17:50:57 UTC 2022 org.jfree.chart.plot.Marker,441
+Wed Jun 29 17:56:31 UTC 2022 org.jfree.chart.plot.Marker,442
+Wed Jun 29 17:56:32 UTC 2022 Wed Jun 29 17:56:32 UTC 2022 : org.jfree.chart.plot.Marker,443=>Find no block
+Wed Jun 29 17:56:32 UTC 2022 org.jfree.chart.plot.Marker,453
+Wed Jun 29 17:56:35 UTC 2022 org.jfree.chart.plot.Marker,465
+Wed Jun 29 17:56:38 UTC 2022 org.jfree.chart.plot.Marker,466
+Wed Jun 29 17:56:39 UTC 2022 org.jfree.chart.plot.Marker,468
+Wed Jun 29 18:02:27 UTC 2022 org.jfree.chart.plot.Marker,469
+Wed Jun 29 18:02:28 UTC 2022 Wed Jun 29 18:02:28 UTC 2022 : org.jfree.chart.plot.Marker,470=>Find no block
+Wed Jun 29 18:02:28 UTC 2022 org.jfree.chart.plot.Marker,480
+Wed Jun 29 18:02:32 UTC 2022 org.jfree.chart.plot.Marker,492
+Wed Jun 29 18:02:34 UTC 2022 org.jfree.chart.plot.Marker,493
+Wed Jun 29 18:02:35 UTC 2022 org.jfree.chart.plot.Marker,495
+Wed Jun 29 18:08:05 UTC 2022 org.jfree.chart.plot.Marker,496
+Wed Jun 29 18:08:05 UTC 2022 Wed Jun 29 18:08:05 UTC 2022 : org.jfree.chart.plot.Marker,497=>Find no block
+Wed Jun 29 18:08:06 UTC 2022 org.jfree.chart.plot.Marker,507
+Wed Jun 29 18:08:09 UTC 2022 org.jfree.chart.plot.Marker,519
+Wed Jun 29 18:08:09 UTC 2022 org.jfree.chart.plot.Marker,520
+Wed Jun 29 18:08:10 UTC 2022 org.jfree.chart.plot.Marker,522
+Wed Jun 29 18:13:54 UTC 2022 org.jfree.chart.plot.Marker,523
+Wed Jun 29 18:13:54 UTC 2022 Wed Jun 29 18:13:54 UTC 2022 : org.jfree.chart.plot.Marker,524=>Find no block
+Wed Jun 29 18:13:55 UTC 2022 org.jfree.chart.plot.Marker,536
+Wed Jun 29 18:14:36 UTC 2022 Wed Jun 29 18:14:36 UTC 2022 : org.jfree.chart.plot.Marker,537=>Find no block
+Wed Jun 29 18:14:36 UTC 2022 org.jfree.chart.plot.Marker,549
+Wed Jun 29 18:14:58 UTC 2022 Wed Jun 29 18:14:58 UTC 2022 : org.jfree.chart.plot.Marker,550=>Find no block
+Wed Jun 29 18:14:58 UTC 2022 org.jfree.chart.plot.Marker,561
+Wed Jun 29 18:17:22 UTC 2022 org.jfree.chart.plot.Marker,562
+Wed Jun 29 18:17:23 UTC 2022 org.jfree.chart.plot.Marker,563
+Wed Jun 29 18:17:23 UTC 2022 org.jfree.chart.plot.Marker,564
+Wed Jun 29 18:17:24 UTC 2022 Wed Jun 29 18:17:24 UTC 2022 : org.jfree.chart.plot.Marker,568=>Find no block
+Wed Jun 29 18:17:24 UTC 2022 org.jfree.chart.plot.Marker,580
+Wed Jun 29 18:17:27 UTC 2022 org.jfree.chart.plot.Marker,591
+Wed Jun 29 18:17:28 UTC 2022 org.jfree.chart.plot.Marker,592
+Wed Jun 29 18:17:28 UTC 2022 org.jfree.chart.plot.Marker,594
+Wed Jun 29 18:17:40 UTC 2022 org.jfree.chart.plot.Marker,595
+Wed Jun 29 18:17:40 UTC 2022 org.jfree.chart.plot.Marker,597
+Wed Jun 29 18:34:58 UTC 2022 org.jfree.chart.plot.Marker,598
+Wed Jun 29 18:34:59 UTC 2022 org.jfree.chart.plot.Marker,599
+Wed Jun 29 18:35:00 UTC 2022 org.jfree.chart.plot.Marker,601
+Wed Jun 29 18:44:49 UTC 2022 org.jfree.chart.plot.Marker,602
+Wed Jun 29 18:44:49 UTC 2022 org.jfree.chart.plot.Marker,604
+Wed Jun 29 18:53:16 UTC 2022 org.jfree.chart.plot.Marker,605
+Wed Jun 29 18:53:17 UTC 2022 org.jfree.chart.plot.Marker,607
+Wed Jun 29 19:03:02 UTC 2022 org.jfree.chart.plot.Marker,608
+Wed Jun 29 19:03:03 UTC 2022 org.jfree.chart.plot.Marker,610
+Wed Jun 29 19:03:42 UTC 2022 org.jfree.chart.plot.Marker,611
+Wed Jun 29 19:03:42 UTC 2022 org.jfree.chart.plot.Marker,613
+Wed Jun 29 19:14:12 UTC 2022 org.jfree.chart.plot.Marker,614
+Wed Jun 29 19:14:12 UTC 2022 org.jfree.chart.plot.Marker,616
+Wed Jun 29 19:24:23 UTC 2022 org.jfree.chart.plot.Marker,617
+Wed Jun 29 19:24:23 UTC 2022 org.jfree.chart.plot.Marker,619
+Wed Jun 29 19:33:59 UTC 2022 org.jfree.chart.plot.Marker,620
+Wed Jun 29 19:34:00 UTC 2022 org.jfree.chart.plot.Marker,622
+Wed Jun 29 19:36:08 UTC 2022 org.jfree.chart.plot.Marker,623
+Wed Jun 29 19:36:08 UTC 2022 org.jfree.chart.plot.Marker,625
+Wed Jun 29 19:38:17 UTC 2022 org.jfree.chart.plot.Marker,626
+Success time : 22/06/29 19:38

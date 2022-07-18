@@ -1,4 +1,1 @@
-fix	org.apache.commons.lang.time.FastDateFormat	1022	INS	readObject
-fix	org.apache.commons.lang.time.FastDateFormat	1022	INS	in
-fix	org.apache.commons.lang.time.FastDateFormat	1023	INS	in
-fix	org.apache.commons.lang.time.FastDateFormat	1024	INS	init
+org.apache.commons.lang.time.FastDateFormat	readObject(Ljava/io/ObjectInputStream;)V	in	fixed

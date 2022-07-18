@@ -1,3 +1,5 @@
-fix	org.apache.commons.math3.distribution.DiscreteDistribution	187	INS	sampleSize
-buggy	org.apache.commons.math3.distribution.DiscreteDistribution	187	DEL	java.lang.reflect.Array
-buggy	org.apache.commons.math3.distribution.DiscreteDistribution	187	DEL	singletons
+org.apache.commons.math3.distribution.DiscreteDistribution	sample(I)[Ljava/lang/Object;	this.singletons	buggy
+org.apache.commons.math3.distribution.DiscreteDistribution	sample(I)[Ljava/lang/Object;	sampleSize	buggy
+org.apache.commons.math3.distribution.DiscreteDistribution	sample(I)[Ljava/lang/Object;	out	buggy
+org.apache.commons.math3.distribution.DiscreteDistribution	sample(I)[Ljava/lang/Object;	sampleSize	fixed
+org.apache.commons.math3.distribution.DiscreteDistribution	sample(I)[Ljava/lang/Object;	out	fixed

@@ -1,0 +1,425 @@
+=================================================
+Project : chart_7	start : 22/07/16 08:12
+Current failed test : org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex | 22/07/16 08:12
+Sat Jul 16 08:12:43 UTC 2022 org.jfree.data.time.TimePeriodValues,552
+Sat Jul 16 08:12:52 UTC 2022 org.jfree.data.time.TimePeriodValues,267
+Sat Jul 16 08:14:06 UTC 2022 org.jfree.data.time.TimePeriodValues,292
+Sat Jul 16 08:14:57 UTC 2022 org.jfree.data.time.TimePeriodValues,317
+Sat Jul 16 08:16:33 UTC 2022 Sat Jul 16 08:16:33 UTC 2022 : org.jfree.data.time.SimpleTimePeriod,76=>Find no block
+Sat Jul 16 08:16:34 UTC 2022 org.jfree.data.time.SimpleTimePeriod,77
+Sat Jul 16 08:17:31 UTC 2022 org.jfree.data.time.SimpleTimePeriod,80
+Sat Jul 16 08:18:34 UTC 2022 org.jfree.data.time.SimpleTimePeriod,81
+Sat Jul 16 08:18:41 UTC 2022 Sat Jul 16 08:18:41 UTC 2022 : org.jfree.data.time.SimpleTimePeriod,82=>Find no block
+Sat Jul 16 08:18:43 UTC 2022 org.jfree.data.time.SimpleTimePeriod,100
+Sat Jul 16 08:18:49 UTC 2022 org.jfree.data.time.SimpleTimePeriod,120
+Sat Jul 16 08:19:08 UTC 2022 Sat Jul 16 08:19:08 UTC 2022 : org.jfree.data.time.Year,96=>Find no block
+Sat Jul 16 08:19:10 UTC 2022 org.jfree.data.time.Year,97
+Sat Jul 16 08:30:49 UTC 2022 org.jfree.data.time.Year,103
+Sat Jul 16 08:41:21 UTC 2022 org.jfree.data.time.Year,104
+Sat Jul 16 08:41:24 UTC 2022 Sat Jul 16 08:41:24 UTC 2022 : org.jfree.data.time.Year,105=>Find no block
+Sat Jul 16 08:41:25 UTC 2022 org.jfree.data.time.Year,150
+Sat Jul 16 08:41:58 UTC 2022 org.jfree.data.time.Year,164
+Sat Jul 16 08:42:05 UTC 2022 org.jfree.data.time.Year,176
+Sat Jul 16 08:42:40 UTC 2022 org.jfree.data.time.Year,177
+Sat Jul 16 08:42:41 UTC 2022 Sat Jul 16 08:42:41 UTC 2022 : org.jfree.data.time.Year,178=>Find no block
+Sat Jul 16 08:42:42 UTC 2022 org.jfree.data.time.Year,233
+Sat Jul 16 08:47:30 UTC 2022 org.jfree.data.time.Year,234
+Sat Jul 16 08:47:32 UTC 2022 org.jfree.data.time.Year,237
+Sat Jul 16 08:47:33 UTC 2022 org.jfree.data.time.Year,252
+Sat Jul 16 08:52:11 UTC 2022 org.jfree.data.time.Year,253
+Sat Jul 16 08:52:20 UTC 2022 org.jfree.data.time.Year,256
+Sat Jul 16 08:52:23 UTC 2022 org.jfree.data.time.TimePeriodValues,363
+Sat Jul 16 08:55:01 UTC 2022 org.jfree.data.time.TimePeriodValues,364
+Sat Jul 16 08:55:02 UTC 2022 Sat Jul 16 08:55:02 UTC 2022 : org.jfree.data.time.TimePeriodValues,365=>Find no block
+Sat Jul 16 08:55:04 UTC 2022 org.jfree.data.time.TimePeriodValues,375
+Sat Jul 16 08:55:05 UTC 2022 org.jfree.data.time.TimePeriodValues,376
+Sat Jul 16 08:55:06 UTC 2022 Sat Jul 16 08:55:06 UTC 2022 : org.jfree.data.time.TimePeriodValues,377=>Find no block
+Sat Jul 16 08:55:07 UTC 2022 org.jfree.data.time.TimePeriodValue,88
+Sat Jul 16 08:55:31 UTC 2022 Sat Jul 16 08:55:31 UTC 2022 : org.jfree.data.time.TimePeriodValue,89=>Find no block
+Sat Jul 16 08:55:33 UTC 2022 Sat Jul 16 08:55:33 UTC 2022 : org.jfree.data.time.RegularTimePeriod,70=>Find no block
+Sat Jul 16 08:55:34 UTC 2022 Sat Jul 16 08:55:34 UTC 2022 : org.jfree.data.time.RegularTimePeriod,161=>Find no block
+Sat Jul 16 08:55:35 UTC 2022 org.jfree.data.time.RegularTimePeriod,182
+Sat Jul 16 08:55:41 UTC 2022 org.jfree.data.time.RegularTimePeriod,194
+Sat Jul 16 08:55:48 UTC 2022 Sat Jul 16 08:55:48 UTC 2022 : org.jfree.data.time.TimePeriodValue,70=>Find no block
+Sat Jul 16 08:55:50 UTC 2022 org.jfree.data.time.TimePeriodValue,71
+Sat Jul 16 08:56:43 UTC 2022 org.jfree.data.time.TimePeriodValue,74
+Sat Jul 16 08:57:41 UTC 2022 org.jfree.data.time.TimePeriodValue,75
+Sat Jul 16 08:57:42 UTC 2022 Sat Jul 16 08:57:42 UTC 2022 : org.jfree.data.time.TimePeriodValue,76=>Find no block
+Sat Jul 16 08:57:44 UTC 2022 org.jfree.data.time.TimePeriodValue,97
+Sat Jul 16 08:57:50 UTC 2022 org.jfree.data.time.TimePeriodValues,205
+Sat Jul 16 08:58:24 UTC 2022 org.jfree.data.time.TimePeriodValues,243
+Sat Jul 16 08:58:54 UTC 2022 org.jfree.data.time.TimePeriodValues,246
+Sat Jul 16 09:06:32 UTC 2022 org.jfree.data.time.TimePeriodValues,247
+Sat Jul 16 09:06:37 UTC 2022 org.jfree.data.time.TimePeriodValues,248
+Sat Jul 16 09:06:39 UTC 2022 Sat Jul 16 09:06:39 UTC 2022 : org.jfree.data.time.TimePeriodValues,249=>Find no block
+Sat Jul 16 09:06:40 UTC 2022 org.jfree.data.time.TimePeriodValues,259
+Sat Jul 16 09:07:49 UTC 2022 org.jfree.data.time.TimePeriodValues,260
+Sat Jul 16 09:07:50 UTC 2022 org.jfree.data.time.TimePeriodValues,261
+Sat Jul 16 09:12:17 UTC 2022 org.jfree.data.time.TimePeriodValues,263
+Sat Jul 16 09:12:18 UTC 2022 org.jfree.data.time.TimePeriodValues,264
+Sat Jul 16 09:12:19 UTC 2022 org.jfree.data.time.TimePeriodValues,266
+Sat Jul 16 09:12:20 UTC 2022 Sat Jul 16 09:12:20 UTC 2022 : org.jfree.data.time.TimePeriodValues,269=>Find no block
+Sat Jul 16 09:12:21 UTC 2022 org.jfree.data.time.TimePeriodValues,271
+Sat Jul 16 09:12:22 UTC 2022 org.jfree.data.time.TimePeriodValues,274
+Sat Jul 16 09:14:33 UTC 2022 org.jfree.data.time.TimePeriodValues,275
+Sat Jul 16 09:14:35 UTC 2022 org.jfree.data.time.TimePeriodValues,277
+Sat Jul 16 09:14:37 UTC 2022 org.jfree.data.time.TimePeriodValues,278
+Sat Jul 16 09:14:38 UTC 2022 Sat Jul 16 09:14:38 UTC 2022 : org.jfree.data.time.TimePeriodValues,280=>Find no block
+Sat Jul 16 09:14:39 UTC 2022 org.jfree.data.time.TimePeriodValues,282
+Sat Jul 16 09:14:40 UTC 2022 org.jfree.data.time.TimePeriodValues,285
+Sat Jul 16 09:16:13 UTC 2022 org.jfree.data.time.TimePeriodValues,286
+Sat Jul 16 09:16:14 UTC 2022 org.jfree.data.time.TimePeriodValues,288
+Sat Jul 16 09:16:16 UTC 2022 org.jfree.data.time.TimePeriodValues,290
+Sat Jul 16 09:16:17 UTC 2022 org.jfree.data.time.TimePeriodValues,291
+Sat Jul 16 09:16:18 UTC 2022 Sat Jul 16 09:16:18 UTC 2022 : org.jfree.data.time.TimePeriodValues,294=>Find no block
+Sat Jul 16 09:16:19 UTC 2022 org.jfree.data.time.TimePeriodValues,296
+Sat Jul 16 09:16:20 UTC 2022 org.jfree.data.time.TimePeriodValues,299
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.416666666666667 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>0,0]
+if(this.minMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long minMiddle=s+(e-s)/2;
+if(middle<minMiddle){
+this.minMiddleIndex=index;
+}
+}else {
+this.minMiddleIndex=index;
+}
+
+Time : 22/07/16 09:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.416666666666667 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>0,0]
+if(this.minMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long minMiddle=s+(e-s)/2;
+if(middle<minMiddle){
+this.minMiddleIndex=index;
+}
+}else {
+this.minMiddleIndex=index;
+}
+
+Time : 22/07/16 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 3.416666666666667 : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>0,0]
+if(this.minMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long minMiddle=s+(e-s)/2;
+if(middle<minMiddle){
+this.minMiddleIndex=index;
+}
+}else {
+this.minMiddleIndex=index;
+}
+
+Time : 22/07/16 09:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Chart/Chart_7_buggy/source/org/jfree/data/time/TimePeriodValues.java=>299,311]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.maxMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(middle>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(this.maxMiddleIndex>=0){
+long s=getDataItem(this.maxMiddleIndex).getPeriod().getStart().getTime();
+long e=getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+long maxMiddle=s+(e-s)/2;
+if(start>maxMiddle){
+this.maxMiddleIndex=index;
+}
+}else {
+this.maxMiddleIndex=index;
+}
+
+Time : 22/07/16 09:19
+----------------------------------------
+Sat Jul 16 09:20:11 UTC 2022 org.jfree.data.time.TimePeriodValues,300
+Sat Jul 16 09:20:14 UTC 2022 org.jfree.data.time.TimePeriodValues,302
+Sat Jul 16 09:20:16 UTC 2022 org.jfree.data.time.TimePeriodValues,304
+Sat Jul 16 09:20:17 UTC 2022 org.jfree.data.time.TimePeriodValues,305
+Sat Jul 16 09:20:19 UTC 2022 org.jfree.data.time.TimePeriodValues,306
+Sat Jul 16 09:20:20 UTC 2022 Sat Jul 16 09:20:20 UTC 2022 : org.jfree.data.time.TimePeriodValues,308=>Find no block
+Sat Jul 16 09:20:21 UTC 2022 org.jfree.data.time.TimePeriodValues,310
+Sat Jul 16 09:20:27 UTC 2022 org.jfree.data.time.TimePeriodValues,313
+Sat Jul 16 09:23:12 UTC 2022 org.jfree.data.time.TimePeriodValues,314
+Sat Jul 16 09:23:14 UTC 2022 org.jfree.data.time.TimePeriodValues,316
+Sat Jul 16 09:23:21 UTC 2022 Sat Jul 16 09:23:21 UTC 2022 : org.jfree.data.time.TimePeriodValues,319=>Find no block
+Sat Jul 16 09:23:22 UTC 2022 org.jfree.data.time.TimePeriodValues,321
+Sat Jul 16 09:23:23 UTC 2022 org.jfree.data.time.TimePeriodValues,324
+Sat Jul 16 09:26:33 UTC 2022 org.jfree.data.time.TimePeriodValues,325
+Sat Jul 16 09:26:34 UTC 2022 org.jfree.data.time.TimePeriodValues,327
+Sat Jul 16 09:26:36 UTC 2022 org.jfree.data.time.TimePeriodValues,328
+Sat Jul 16 09:26:37 UTC 2022 Sat Jul 16 09:26:37 UTC 2022 : org.jfree.data.time.TimePeriodValues,330=>Find no block
+Sat Jul 16 09:26:38 UTC 2022 org.jfree.data.time.TimePeriodValues,332
+Sat Jul 16 09:26:39 UTC 2022 Sat Jul 16 09:26:39 UTC 2022 : org.jfree.data.time.TimePeriodValues,335=>Find no block
+Sat Jul 16 09:26:40 UTC 2022 org.jfree.data.general.Series,313
+Sat Jul 16 09:28:33 UTC 2022 org.jfree.data.general.Series,314
+Sat Jul 16 09:28:34 UTC 2022 Sat Jul 16 09:28:34 UTC 2022 : org.jfree.data.general.Series,316=>Find no block
+Sat Jul 16 09:28:37 UTC 2022 org.jfree.data.general.Series,326
+Sat Jul 16 09:37:12 UTC 2022 org.jfree.data.general.Series,327
+Sat Jul 16 09:37:14 UTC 2022 Sat Jul 16 09:37:14 UTC 2022 : org.jfree.data.general.Series,334=>Find no block
+Sat Jul 16 09:37:15 UTC 2022 org.jfree.data.general.SeriesChangeEvent,61
+Sat Jul 16 09:37:20 UTC 2022 Sat Jul 16 09:37:20 UTC 2022 : org.jfree.data.general.SeriesChangeEvent,62=>Find no block
+Sat Jul 16 09:37:21 UTC 2022 org.jfree.data.time.TimePeriodValues,114
+Sat Jul 16 09:37:26 UTC 2022 Sat Jul 16 09:37:26 UTC 2022 : org.jfree.data.time.TimePeriodValues,115=>Find no block
+Sat Jul 16 09:37:27 UTC 2022 org.jfree.data.time.TimePeriodValues,129
+Sat Jul 16 09:39:12 UTC 2022 Sat Jul 16 09:39:12 UTC 2022 : org.jfree.data.time.TimePeriodValues,91=>Find no block
+Sat Jul 16 09:39:14 UTC 2022 Sat Jul 16 09:39:14 UTC 2022 : org.jfree.data.time.TimePeriodValues,94=>Find no block
+Sat Jul 16 09:39:15 UTC 2022 Sat Jul 16 09:39:15 UTC 2022 : org.jfree.data.time.TimePeriodValues,97=>Find no block
+Sat Jul 16 09:39:16 UTC 2022 Sat Jul 16 09:39:16 UTC 2022 : org.jfree.data.time.TimePeriodValues,100=>Find no block
+Sat Jul 16 09:39:17 UTC 2022 Sat Jul 16 09:39:17 UTC 2022 : org.jfree.data.time.TimePeriodValues,103=>Find no block
+Sat Jul 16 09:39:17 UTC 2022 Sat Jul 16 09:39:17 UTC 2022 : org.jfree.data.time.TimePeriodValues,106=>Find no block
+Sat Jul 16 09:39:18 UTC 2022 org.jfree.data.time.TimePeriodValues,130
+Sat Jul 16 09:39:19 UTC 2022 org.jfree.data.time.TimePeriodValues,131
+Sat Jul 16 09:39:20 UTC 2022 org.jfree.data.time.TimePeriodValues,132
+Sat Jul 16 09:39:21 UTC 2022 Sat Jul 16 09:39:21 UTC 2022 : org.jfree.data.time.TimePeriodValues,133=>Find no block
+Sat Jul 16 09:39:22 UTC 2022 org.jfree.data.general.Series,102
+Sat Jul 16 09:39:27 UTC 2022 Sat Jul 16 09:39:27 UTC 2022 : org.jfree.data.general.Series,103=>Find no block
+Sat Jul 16 09:39:29 UTC 2022 Sat Jul 16 09:39:29 UTC 2022 : org.jfree.data.general.Series,111=>Find no block
+Sat Jul 16 09:39:33 UTC 2022 org.jfree.data.general.Series,112
+Sat Jul 16 09:40:07 UTC 2022 org.jfree.data.general.Series,115
+Sat Jul 16 09:43:23 UTC 2022 org.jfree.data.general.Series,116
+Sat Jul 16 09:43:25 UTC 2022 org.jfree.data.general.Series,117
+Sat Jul 16 09:43:26 UTC 2022 org.jfree.data.general.Series,118
+Sat Jul 16 09:43:28 UTC 2022 org.jfree.data.general.Series,119
+Sat Jul 16 09:43:29 UTC 2022 Sat Jul 16 09:43:29 UTC 2022 : org.jfree.data.general.Series,120=>Find no block
+Sat Jul 16 09:43:30 UTC 2022 org.jfree.data.time.TimePeriodValue,72
+Sat Jul 16 09:43:32 UTC 2022 org.jfree.data.time.TimePeriodValue,108
+Sat Jul 16 09:43:38 UTC 2022 org.jfree.data.time.TimePeriodValue,119
+Sat Jul 16 09:44:35 UTC 2022 Sat Jul 16 09:44:35 UTC 2022 : org.jfree.data.time.TimePeriodValue,120=>Find no block
+Sat Jul 16 09:44:36 UTC 2022 org.jfree.data.time.TimePeriodValue,130
+Sat Jul 16 09:47:04 UTC 2022 org.jfree.data.time.TimePeriodValue,131
+Sat Jul 16 09:47:06 UTC 2022 org.jfree.data.time.TimePeriodValue,133
+Sat Jul 16 09:47:32 UTC 2022 org.jfree.data.time.TimePeriodValue,134
+Sat Jul 16 09:47:35 UTC 2022 org.jfree.data.time.TimePeriodValue,137
+Sat Jul 16 09:52:03 UTC 2022 org.jfree.data.time.TimePeriodValue,139
+Sat Jul 16 09:52:04 UTC 2022 org.jfree.data.time.TimePeriodValue,141
+Sat Jul 16 09:52:05 UTC 2022 org.jfree.data.time.TimePeriodValue,143
+Sat Jul 16 09:53:05 UTC 2022 org.jfree.data.time.TimePeriodValue,145
+Sat Jul 16 09:53:06 UTC 2022 org.jfree.data.time.TimePeriodValue,148
+Sat Jul 16 09:54:27 UTC 2022 org.jfree.data.time.TimePeriodValue,158
+Sat Jul 16 09:55:32 UTC 2022 org.jfree.data.time.TimePeriodValue,159
+Sat Jul 16 09:55:34 UTC 2022 org.jfree.data.time.TimePeriodValue,160
+Sat Jul 16 09:55:35 UTC 2022 org.jfree.data.time.TimePeriodValue,172
+Sat Jul 16 10:00:01 UTC 2022 org.jfree.data.time.TimePeriodValue,174
+Sat Jul 16 10:00:02 UTC 2022 Sat Jul 16 10:00:02 UTC 2022 : org.jfree.data.time.TimePeriodValue,178=>Find no block
+Sat Jul 16 10:00:03 UTC 2022 Sat Jul 16 10:00:03 UTC 2022 : org.jfree.data.time.TimePeriodValue,176=>Find no block
+Sat Jul 16 10:00:04 UTC 2022 org.jfree.data.time.TimePeriodValue,177
+Sat Jul 16 10:00:11 UTC 2022 org.jfree.data.time.TimePeriodValue,179
+Sat Jul 16 10:00:13 UTC 2022 org.jfree.data.time.TimePeriodValue,189
+Sat Jul 16 10:00:19 UTC 2022 org.jfree.data.time.RegularTimePeriod,85
+Sat Jul 16 10:01:02 UTC 2022 org.jfree.data.time.RegularTimePeriod,87
+Sat Jul 16 10:01:03 UTC 2022 org.jfree.data.time.RegularTimePeriod,89
+Sat Jul 16 10:01:04 UTC 2022 Sat Jul 16 10:01:04 UTC 2022 : org.jfree.data.time.RegularTimePeriod,94=>Find no block
+Sat Jul 16 10:01:05 UTC 2022 Sat Jul 16 10:01:05 UTC 2022 : org.jfree.data.time.RegularTimePeriod,92=>Find no block
+Sat Jul 16 10:01:06 UTC 2022 org.jfree.data.time.RegularTimePeriod,95
+Sat Jul 16 10:01:07 UTC 2022 org.jfree.data.time.RegularTimePeriod,107
+Sat Jul 16 10:03:54 UTC 2022 org.jfree.data.time.RegularTimePeriod,108
+Sat Jul 16 10:04:02 UTC 2022 org.jfree.data.time.RegularTimePeriod,110
+Sat Jul 16 10:04:03 UTC 2022 org.jfree.data.time.RegularTimePeriod,111
+Sat Jul 16 10:04:09 UTC 2022 org.jfree.data.time.RegularTimePeriod,113
+Sat Jul 16 10:04:10 UTC 2022 org.jfree.data.time.RegularTimePeriod,114
+Sat Jul 16 10:04:15 UTC 2022 org.jfree.data.time.RegularTimePeriod,116
+Sat Jul 16 10:04:16 UTC 2022 org.jfree.data.time.RegularTimePeriod,117
+Sat Jul 16 10:04:18 UTC 2022 org.jfree.data.time.RegularTimePeriod,119
+Sat Jul 16 10:04:19 UTC 2022 org.jfree.data.time.RegularTimePeriod,120
+Sat Jul 16 10:04:20 UTC 2022 org.jfree.data.time.RegularTimePeriod,122
+Sat Jul 16 10:04:21 UTC 2022 org.jfree.data.time.RegularTimePeriod,123
+Sat Jul 16 10:04:22 UTC 2022 org.jfree.data.time.RegularTimePeriod,125
+Sat Jul 16 10:04:23 UTC 2022 org.jfree.data.time.RegularTimePeriod,126
+Sat Jul 16 10:04:25 UTC 2022 org.jfree.data.time.RegularTimePeriod,129
+Sat Jul 16 10:04:25 UTC 2022 org.jfree.data.time.RegularTimePeriod,254
+Sat Jul 16 10:04:51 UTC 2022 org.jfree.data.time.RegularTimePeriod,255
+Sat Jul 16 10:04:53 UTC 2022 org.jfree.data.time.RegularTimePeriod,256
+Sat Jul 16 10:04:57 UTC 2022 org.jfree.data.time.RegularTimePeriod,268
+Sat Jul 16 10:07:51 UTC 2022 org.jfree.data.time.RegularTimePeriod,269
+Sat Jul 16 10:07:52 UTC 2022 org.jfree.data.time.RegularTimePeriod,270
+Sat Jul 16 10:07:53 UTC 2022 org.jfree.data.time.RegularTimePeriod,279
+Sat Jul 16 10:07:58 UTC 2022 Sat Jul 16 10:07:58 UTC 2022 : org.jfree.data.time.RegularTimePeriod,88=>Find no block
+Sat Jul 16 10:07:59 UTC 2022 org.jfree.data.time.Day,112
+Sat Jul 16 10:08:05 UTC 2022 Sat Jul 16 10:08:05 UTC 2022 : org.jfree.data.time.Day,113=>Find no block
+Sat Jul 16 10:08:06 UTC 2022 Sat Jul 16 10:08:06 UTC 2022 : org.jfree.data.time.Day,122=>Find no block
+Sat Jul 16 10:08:06 UTC 2022 org.jfree.data.time.Day,123
+Sat Jul 16 10:09:49 UTC 2022 org.jfree.data.time.Day,124
+Sat Jul 16 10:09:50 UTC 2022 Sat Jul 16 10:09:50 UTC 2022 : org.jfree.data.time.Day,125=>Find no block
+Sat Jul 16 10:09:51 UTC 2022 Sat Jul 16 10:09:51 UTC 2022 : org.jfree.data.time.Day,132=>Find no block
+Sat Jul 16 10:09:52 UTC 2022 org.jfree.data.time.Day,133
+Sat Jul 16 10:09:58 UTC 2022 org.jfree.data.time.Day,134
+Sat Jul 16 10:09:59 UTC 2022 org.jfree.data.time.Day,136
+Sat Jul 16 10:10:49 UTC 2022 org.jfree.data.time.Day,137
+Sat Jul 16 10:10:50 UTC 2022 Sat Jul 16 10:10:50 UTC 2022 : org.jfree.data.time.Day,138=>Find no block
+Sat Jul 16 10:10:52 UTC 2022 org.jfree.data.time.Day,148
+Sat Jul 16 10:10:57 UTC 2022 Sat Jul 16 10:10:57 UTC 2022 : org.jfree.data.time.Day,149=>Find no block
+Sat Jul 16 10:10:58 UTC 2022 Sat Jul 16 10:10:58 UTC 2022 : org.jfree.data.time.Day,157=>Find no block
+Sat Jul 16 10:10:59 UTC 2022 org.jfree.data.time.Day,158
+Sat Jul 16 10:11:04 UTC 2022 org.jfree.data.time.Day,159
+Sat Jul 16 10:11:05 UTC 2022 org.jfree.data.time.Day,161
+Sat Jul 16 10:11:11 UTC 2022 org.jfree.data.time.Day,162
+Sat Jul 16 10:11:18 UTC 2022 org.jfree.data.time.Day,164
+Sat Jul 16 10:12:30 UTC 2022 org.jfree.data.time.Day,165
+Sat Jul 16 10:15:42 UTC 2022 org.jfree.data.time.Day,166
+Sat Jul 16 10:19:39 UTC 2022 org.jfree.data.time.Day,167
+Sat Jul 16 10:26:51 UTC 2022 org.jfree.data.time.Day,168
+Success time : 22/07/16 10:33

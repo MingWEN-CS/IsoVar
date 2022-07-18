@@ -1,3 +1,1 @@
-fix	org.apache.commons.lang.NumberUtils	145	INS	val
-fix	org.apache.commons.lang.NumberUtils	145	INS	Character
-fix	org.apache.commons.lang.NumberUtils	146	INS	val
+org.apache.commons.lang.NumberUtils	createNumber(Ljava/lang/String;)Ljava/lang/Number;	val	fixed

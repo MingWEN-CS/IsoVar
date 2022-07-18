@@ -1,0 +1,3017 @@
+=================================================
+Project : math_71	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent_purify_2 | 22/06/30 00:55
+Thu Jun 30 00:55:46 UTC 2022 org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator,180
+Thu Jun 30 01:12:32 UTC 2022 org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator,300
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.abs(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(minReduction)<Math.abs(dt)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.abs(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(minReduction)<=Math.abs(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(minReduction)<Math.abs(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<=Math.abs(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9813664065064278 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java=>294,304]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+
+loop=false;
+}else {
+hNew=dt;
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+Thu Jun 30 01:48:16 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,150
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((initialStepSize<minStep)||(initialStepSize>maxStep)){
+initialStep=-1.0;
+}else {
+initialStep=minStep;
+}
+
+Time : 22/06/30 01:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.0692001814457766 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java=>0,0]
+if(Math.abs(h)<minStep){
+if(acceptSmall){
+filteredH=forward?minStep:-minStep;
+}else {
+throw new IntegratorException("minimal step size ({0,number,0.00E00}) reached, integration needs {1,number,0.00E00}",minStep,Math.abs(h));
+}
+}
+
+Time : 22/06/30 01:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java=>150,154]
+if((initialStepSize<minStep)||(initialStepSize>maxStep)){
+initialStep=-1.0;
+}else {
+initialStep=initialStepSize;
+}
+
+Time : 22/06/30 01:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java=>150,154]
+if((initialStepSize<minStep)||(initialStepSize>maxStep)){
+initialStep=-1.0;
+}else {
+initialStep=minStep;
+}
+
+Time : 22/06/30 01:48
+----------------------------------------
+Thu Jun 30 01:48:44 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,153
+Thu Jun 30 01:48:45 UTC 2022 Thu Jun 30 01:48:45 UTC 2022 : org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,155=>Find no block
+Thu Jun 30 01:48:45 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,211
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(minStep>0){
+return forward?initialStep:-initialStep;
+}
+
+Time : 22/06/30 01:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(stepSize>0){
+return forward?initialStep:-initialStep;
+}
+
+Time : 22/06/30 01:59
+----------------------------------------
+Thu Jun 30 02:09:20 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,292
+Thu Jun 30 02:09:53 UTC 2022 org.apache.commons.math.analysis.solvers.BrentSolver,335
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 02:31
+----------------------------------------
+Thu Jun 30 02:31:56 UTC 2022 org.apache.commons.math.ode.sampling.DummyStepInterpolator,107
+Timeout time : 22/06/30 02:35
+Current failed test : org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent_purify_1 | 22/06/30 02:35
+Thu Jun 30 02:35:46 UTC 2022 org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator,180
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<=Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<=Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.abs(t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.abs(t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 02:49
+----------------------------------------
+Thu Jun 30 03:08:07 UTC 2022 org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator,300
+Thu Jun 30 03:32:22 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,150
+Thu Jun 30 03:33:07 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,153
+Thu Jun 30 03:33:19 UTC 2022 Thu Jun 30 03:33:19 UTC 2022 : org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,155=>Find no block
+Thu Jun 30 03:33:39 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,211
+Thu Jun 30 03:34:26 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,292
+Thu Jun 30 03:34:58 UTC 2022 org.apache.commons.math.analysis.solvers.BrentSolver,335
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 03:56
+----------------------------------------
+Thu Jun 30 03:57:13 UTC 2022 org.apache.commons.math.ode.sampling.DummyStepInterpolator,107
+Thu Jun 30 04:04:09 UTC 2022 org.apache.commons.math.ode.sampling.DummyStepInterpolator,108
+Thu Jun 30 04:04:10 UTC 2022 Thu Jun 30 04:04:10 UTC 2022 : org.apache.commons.math.ode.sampling.DummyStepInterpolator,109=>Find no block
+Thu Jun 30 04:04:10 UTC 2022 Thu Jun 30 04:04:10 UTC 2022 : org.apache.commons.math.ode.sampling.AbstractStepInterpolator,107=>Find no block
+Thu Jun 30 04:04:10 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,109
+Thu Jun 30 04:05:33 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,110
+Thu Jun 30 04:05:34 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,111
+Thu Jun 30 04:07:31 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,112
+Thu Jun 30 04:09:47 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,114
+Thu Jun 30 04:12:28 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,115
+Thu Jun 30 04:14:26 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,116
+Timeout time : 22/06/30 04:15
+Current failed test : org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent_purify_4 | 22/06/30 04:15
+Thu Jun 30 04:15:49 UTC 2022 org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator,180
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.0791107674086833 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>0,0]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+hNew=0;
+stepSize=0;
+loop=false;
+}else {
+hNew=dt;
+interpolator.rescale(hNew);
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_71_buggy/src/main/java/org/apache/commons/math/ode/nonstiff/RungeKuttaIntegrator.java=>174,184]
+if(Math.abs(dt)<=Math.ulp(stepStart)){
+interpolator.storeTime(stepStart);
+System.arraycopy(y,0,yTmp,0,y0.length);
+stepSize=0;
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<=Math.abs(stepStart)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(stepStart)<=Math.max(t*Math.abs(dt),t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<Math.abs(t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(Math.abs(dt)<=Math.abs(t)){
+loop=false;
+}else {
+stepSize=dt;
+}
+
+Time : 22/06/30 04:28
+----------------------------------------
+Thu Jun 30 04:46:14 UTC 2022 org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator,300
+Thu Jun 30 05:08:06 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,150
+Thu Jun 30 05:08:20 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,153
+Thu Jun 30 05:08:20 UTC 2022 Thu Jun 30 05:08:20 UTC 2022 : org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,155=>Find no block
+Thu Jun 30 05:08:21 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,211
+Thu Jun 30 05:08:50 UTC 2022 org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator,292
+Thu Jun 30 05:09:19 UTC 2022 org.apache.commons.math.analysis.solvers.BrentSolver,335
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(dx<=0.0){
+y2=y0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(dx<=0.0){
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+y2=y0;
+delta=tolerance-x0;
+oldDelta=delta;
+
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(x0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+oldDelta=x1-tolerance;
+i++;
+if(y1>0.0){
+y2=y0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y1>0.0){
+delta=tolerance-x0;
+oldDelta=delta;
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(y0>0.0){
+x1=x1+0.5*tolerance;
+}else if(dx<=0.0){
+x1=x1-0.5*tolerance;
+}
+
+Time : 22/06/30 05:29
+----------------------------------------
+Thu Jun 30 05:30:14 UTC 2022 org.apache.commons.math.ode.sampling.DummyStepInterpolator,107
+Thu Jun 30 05:36:49 UTC 2022 org.apache.commons.math.ode.sampling.DummyStepInterpolator,108
+Thu Jun 30 05:36:49 UTC 2022 Thu Jun 30 05:36:49 UTC 2022 : org.apache.commons.math.ode.sampling.DummyStepInterpolator,109=>Find no block
+Thu Jun 30 05:36:49 UTC 2022 Thu Jun 30 05:36:49 UTC 2022 : org.apache.commons.math.ode.sampling.AbstractStepInterpolator,107=>Find no block
+Thu Jun 30 05:36:50 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,109
+Thu Jun 30 05:38:09 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,110
+Thu Jun 30 05:38:09 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,111
+Thu Jun 30 05:40:06 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,112
+Thu Jun 30 05:42:19 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,114
+Thu Jun 30 05:45:04 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,115
+Thu Jun 30 05:47:02 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,116
+Thu Jun 30 05:49:42 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,118
+Thu Jun 30 05:53:26 UTC 2022 org.apache.commons.math.ode.sampling.AbstractStepInterpolator,119
+Timeout time : 22/06/30 05:55

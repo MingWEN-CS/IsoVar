@@ -1,0 +1,570 @@
+=================================================
+Project : math_79	start : 22/06/30 00:54
+Current failed test : org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testPerformClusterAnalysisDegenerate | 22/06/30 00:54
+Thu Jun 30 00:55:19 UTC 2022 Thu Jun 30 00:55:19 UTC 2022 : org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,30=>Find no block
+Thu Jun 30 00:55:30 UTC 2022 Thu Jun 30 00:55:30 UTC 2022 : org.apache.commons.math.stat.clustering.Cluster,45=>Find no block
+Thu Jun 30 00:55:38 UTC 2022 org.apache.commons.math.stat.clustering.Cluster,46
+Thu Jun 30 00:55:56 UTC 2022 org.apache.commons.math.stat.clustering.Cluster,47
+Thu Jun 30 00:56:03 UTC 2022 Thu Jun 30 00:56:03 UTC 2022 : org.apache.commons.math.stat.clustering.Cluster,48=>Find no block
+Thu Jun 30 00:56:12 UTC 2022 org.apache.commons.math.stat.clustering.Cluster,71
+Thu Jun 30 00:56:21 UTC 2022 Thu Jun 30 00:56:21 UTC 2022 : org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,40=>Find no block
+Thu Jun 30 00:56:23 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,41
+Thu Jun 30 00:56:25 UTC 2022 Thu Jun 30 00:56:25 UTC 2022 : org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,42=>Find no block
+Thu Jun 30 00:56:26 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,56
+Thu Jun 30 00:57:10 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,57
+Thu Jun 30 00:57:11 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,89
+Thu Jun 30 00:57:14 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,90
+Thu Jun 30 00:57:14 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,91
+Thu Jun 30 00:57:14 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,107
+Thu Jun 30 00:57:32 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,108
+Thu Jun 30 00:57:32 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,111
+Thu Jun 30 00:58:10 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,112
+Thu Jun 30 00:58:54 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,114
+Thu Jun 30 00:58:55 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,115
+Thu Jun 30 01:10:17 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,139
+Thu Jun 30 01:14:04 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,153
+Thu Jun 30 01:14:55 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,154
+Thu Jun 30 01:14:56 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,155
+Thu Jun 30 01:14:57 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,156
+Thu Jun 30 01:14:58 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,157
+Thu Jun 30 01:14:58 UTC 2022 Thu Jun 30 01:14:58 UTC 2022 : org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,161=>Find no block
+Thu Jun 30 01:14:59 UTC 2022 org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer,162
+Thu Jun 30 01:14:59 UTC 2022 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,57
+Thu Jun 30 01:15:01 UTC 2022 org.apache.commons.math.util.MathUtils,1624
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=NAN_GAP;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.428571428571429 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.428571428571429 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=NAN_GAP;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(SAFE_MIN);
+
+Time : 22/06/30 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(SAFE_MIN);
+
+Time : 22/06/30 01:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(SAFE_MIN);
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+double sum=0;
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(SAFE_MIN);
+
+Time : 22/06/30 01:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=0;i<sum;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.abs(sum);
+
+Time : 22/06/30 01:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+char sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.9481534242642742 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+{
+int index=pos.getIndex();
+ final int n=source.length();
+char ret=0;
+if(index<n){
+char c;
+do {
+c=source.charAt(index++);
+} while(Character.isWhitespace(c)&&index<n);
+pos.setIndex(index);
+if(index<n){
+ret=c;
+}
+}
+return ret;
+}
+
+Time : 22/06/30 01:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+int sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1624,1629]
+char sum=0;
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+return Math.sqrt(sum);
+
+Time : 22/06/30 01:29
+----------------------------------------
+Thu Jun 30 01:29:14 UTC 2022 org.apache.commons.math.util.MathUtils,1625
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.5190034835864012 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+for(int i=0;i<data.length;++i){
+ final double delta=data[i]-v[i];
+sum+=Math.abs(delta);
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1625,1628]
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1625,1628]
+for(int i=0;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=NAN_GAP;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<sum;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=NAN_GAP;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=NAN_GAP;i<sum;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=sum;i<sum;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<sum;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=sum;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.2451471763720783 : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>0,0]
+for(int i=k+1;i<solvedCols;++i){
+double rik=jacobian[i][pk];
+ final double temp2=cos*rik+sin*lmDiag[i];
+lmDiag[i]=-sin*rik+cos*lmDiag[i];
+jacobian[i][pk]=temp2;
+}
+
+Time : 22/06/30 01:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1625,1628]
+for(int i=0;i<p1.length;i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Math/Math_79_buggy/src/main/java/org/apache/commons/math/util/MathUtils.java=>1625,1628]
+for(int i=sum;i<p1.length;i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<(sum>>1);i++){
+ final int dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+for(int i=0;i<(sum>>1);i++){
+ final double dp=p1[i]-p2[i];
+sum+=dp*dp;
+}
+
+Time : 22/06/30 01:39
+----------------------------------------
+Thu Jun 30 01:42:29 UTC 2022 org.apache.commons.math.util.MathUtils,1626
+Thu Jun 30 01:42:29 UTC 2022 org.apache.commons.math.util.MathUtils,1627
+Thu Jun 30 01:42:29 UTC 2022 org.apache.commons.math.util.MathUtils,1629
+Thu Jun 30 01:42:30 UTC 2022 Thu Jun 30 01:42:30 UTC 2022 : org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,43=>Find no block
+Thu Jun 30 01:42:30 UTC 2022 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,44
+Thu Jun 30 01:42:32 UTC 2022 Thu Jun 30 01:42:32 UTC 2022 : org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,45=>Find no block
+Thu Jun 30 01:42:32 UTC 2022 org.apache.commons.math.stat.clustering.EuclideanIntegerPoint,52
+Thu Jun 30 01:42:35 UTC 2022 Thu Jun 30 01:42:35 UTC 2022 : org.apache.commons.math.util.MathUtils,30=>Find no block
+Thu Jun 30 01:42:35 UTC 2022 Thu Jun 30 01:42:35 UTC 2022 : org.apache.commons.math.util.MathUtils,69=>Find no block
+Thu Jun 30 01:42:35 UTC 2022 org.apache.commons.math.util.MathUtils,82
+Thu Jun 30 01:42:37 UTC 2022 Thu Jun 30 01:42:37 UTC 2022 : org.apache.commons.math.util.MathUtils,83=>Find no block
+Thu Jun 30 01:42:37 UTC 2022 org.apache.commons.math.util.MathUtils,96
+Thu Jun 30 01:43:08 UTC 2022 org.apache.commons.math.util.MathUtils,97
+Thu Jun 30 01:43:21 UTC 2022 org.apache.commons.math.util.MathUtils,98
+Thu Jun 30 01:43:21 UTC 2022 org.apache.commons.math.util.MathUtils,100
+Thu Jun 30 01:43:22 UTC 2022 org.apache.commons.math.util.MathUtils,114
+Thu Jun 30 01:43:24 UTC 2022 org.apache.commons.math.util.MathUtils,130
+Thu Jun 30 01:44:48 UTC 2022 org.apache.commons.math.util.MathUtils,132
+Thu Jun 30 01:44:50 UTC 2022 org.apache.commons.math.util.MathUtils,136
+Thu Jun 30 01:44:51 UTC 2022 org.apache.commons.math.util.MathUtils,137
+Thu Jun 30 01:44:51 UTC 2022 org.apache.commons.math.util.MathUtils,139
+Thu Jun 30 01:44:52 UTC 2022 org.apache.commons.math.util.MathUtils,140
+Thu Jun 30 01:44:52 UTC 2022 org.apache.commons.math.util.MathUtils,142
+Thu Jun 30 01:44:52 UTC 2022 org.apache.commons.math.util.MathUtils,146
+Thu Jun 30 01:44:53 UTC 2022 org.apache.commons.math.util.MathUtils,153
+Thu Jun 30 01:44:53 UTC 2022 org.apache.commons.math.util.MathUtils,154
+Thu Jun 30 01:44:53 UTC 2022 org.apache.commons.math.util.MathUtils,156
+Thu Jun 30 01:44:54 UTC 2022 org.apache.commons.math.util.MathUtils,160
+Thu Jun 30 01:45:11 UTC 2022 org.apache.commons.math.util.MathUtils,189
+Thu Jun 30 01:51:26 UTC 2022 org.apache.commons.math.util.MathUtils,190
+Thu Jun 30 01:57:40 UTC 2022 org.apache.commons.math.util.MathUtils,191
+Thu Jun 30 01:57:56 UTC 2022 org.apache.commons.math.util.MathUtils,193
+Thu Jun 30 02:04:44 UTC 2022 org.apache.commons.math.util.MathUtils,194
+Thu Jun 30 02:04:45 UTC 2022 org.apache.commons.math.util.MathUtils,197
+Thu Jun 30 02:06:57 UTC 2022 org.apache.commons.math.util.MathUtils,198
+Thu Jun 30 02:06:58 UTC 2022 org.apache.commons.math.util.MathUtils,205
+Thu Jun 30 02:16:39 UTC 2022 org.apache.commons.math.util.MathUtils,206
+Thu Jun 30 02:57:26 UTC 2022 org.apache.commons.math.util.MathUtils,208
+Thu Jun 30 03:07:17 UTC 2022 org.apache.commons.math.util.MathUtils,209
+Thu Jun 30 03:07:17 UTC 2022 org.apache.commons.math.util.MathUtils,210
+Thu Jun 30 03:07:18 UTC 2022 org.apache.commons.math.util.MathUtils,211
+Thu Jun 30 03:07:19 UTC 2022 org.apache.commons.math.util.MathUtils,213
+Thu Jun 30 03:07:20 UTC 2022 org.apache.commons.math.util.MathUtils,216
+Thu Jun 30 03:17:08 UTC 2022 org.apache.commons.math.util.MathUtils,217
+Thu Jun 30 03:17:08 UTC 2022 org.apache.commons.math.util.MathUtils,224
+Thu Jun 30 03:17:09 UTC 2022 org.apache.commons.math.util.MathUtils,225
+Thu Jun 30 03:17:09 UTC 2022 org.apache.commons.math.util.MathUtils,226
+Thu Jun 30 03:17:09 UTC 2022 Thu Jun 30 03:17:09 UTC 2022 : org.apache.commons.math.util.MathUtils,228=>Find no block
+Thu Jun 30 03:17:10 UTC 2022 org.apache.commons.math.util.MathUtils,232
+Thu Jun 30 03:27:05 UTC 2022 org.apache.commons.math.util.MathUtils,233
+Thu Jun 30 03:27:14 UTC 2022 org.apache.commons.math.util.MathUtils,234
+Thu Jun 30 03:27:16 UTC 2022 org.apache.commons.math.util.MathUtils,235
+Thu Jun 30 03:27:18 UTC 2022 org.apache.commons.math.util.MathUtils,236
+Thu Jun 30 03:27:19 UTC 2022 org.apache.commons.math.util.MathUtils,239
+Thu Jun 30 03:42:17 UTC 2022 org.apache.commons.math.util.MathUtils,265
+Thu Jun 30 03:48:51 UTC 2022 org.apache.commons.math.util.MathUtils,266
+Thu Jun 30 03:54:23 UTC 2022 org.apache.commons.math.util.MathUtils,267
+Thu Jun 30 03:54:23 UTC 2022 org.apache.commons.math.util.MathUtils,269
+Thu Jun 30 03:54:23 UTC 2022 org.apache.commons.math.util.MathUtils,270
+Thu Jun 30 03:54:24 UTC 2022 org.apache.commons.math.util.MathUtils,272
+Thu Jun 30 03:56:51 UTC 2022 org.apache.commons.math.util.MathUtils,273
+Thu Jun 30 03:56:52 UTC 2022 org.apache.commons.math.util.MathUtils,275
+Thu Jun 30 04:00:02 UTC 2022 org.apache.commons.math.util.MathUtils,276
+Thu Jun 30 04:00:02 UTC 2022 org.apache.commons.math.util.MathUtils,279
+Thu Jun 30 04:22:24 UTC 2022 org.apache.commons.math.util.MathUtils,280
+Thu Jun 30 04:22:24 UTC 2022 org.apache.commons.math.util.MathUtils,281
+Thu Jun 30 04:22:25 UTC 2022 org.apache.commons.math.util.MathUtils,284
+Thu Jun 30 04:27:34 UTC 2022 org.apache.commons.math.util.MathUtils,306
+Thu Jun 30 04:33:37 UTC 2022 org.apache.commons.math.util.MathUtils,307
+Thu Jun 30 04:38:42 UTC 2022 org.apache.commons.math.util.MathUtils,308
+Thu Jun 30 04:38:42 UTC 2022 org.apache.commons.math.util.MathUtils,310
+Thu Jun 30 04:45:01 UTC 2022 org.apache.commons.math.util.MathUtils,311
+Thu Jun 30 04:45:02 UTC 2022 org.apache.commons.math.util.MathUtils,318
+Thu Jun 30 04:48:58 UTC 2022 org.apache.commons.math.util.MathUtils,319
+Thu Jun 30 04:48:58 UTC 2022 org.apache.commons.math.util.MathUtils,326
+Thu Jun 30 04:52:52 UTC 2022 org.apache.commons.math.util.MathUtils,327
+Thu Jun 30 04:52:52 UTC 2022 org.apache.commons.math.util.MathUtils,330
+Thu Jun 30 04:55:05 UTC 2022 org.apache.commons.math.util.MathUtils,331
+Thu Jun 30 04:55:05 UTC 2022 org.apache.commons.math.util.MathUtils,337
+Thu Jun 30 05:10:16 UTC 2022 org.apache.commons.math.util.MathUtils,340
+Thu Jun 30 05:10:17 UTC 2022 org.apache.commons.math.util.MathUtils,341
+Thu Jun 30 05:10:17 UTC 2022 org.apache.commons.math.util.MathUtils,345
+Thu Jun 30 05:24:02 UTC 2022 org.apache.commons.math.util.MathUtils,346
+Thu Jun 30 05:24:02 UTC 2022 org.apache.commons.math.util.MathUtils,349
+Thu Jun 30 05:29:06 UTC 2022 org.apache.commons.math.util.MathUtils,360
+Thu Jun 30 05:45:14 UTC 2022 org.apache.commons.math.util.MathUtils,361
+Thu Jun 30 05:45:14 UTC 2022 org.apache.commons.math.util.MathUtils,365
+Timeout time : 22/06/30 05:55

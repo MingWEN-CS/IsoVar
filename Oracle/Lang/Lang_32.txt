@@ -1,13 +1,10 @@
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	148	INS	registry
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	148	INS	value
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	540	INS	s
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	147	INS	registry
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	539	INS	s
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	519	INS	getRegistry
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	539	INS	getRegistry
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	541	INS	s
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	520	INS	REGISTRY
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	543	INS	s
-fix	org.apache.commons.lang3.builder.HashCodeBuilder	544	INS	REGISTRY
-buggy	org.apache.commons.lang3.builder.HashCodeBuilder	105	DEL	Override
-buggy	org.apache.commons.lang3.builder.HashCodeBuilder	106	DEL	initialValue
+org.apache.commons.lang3.builder.HashCodeBuilder	<clinit>()V	.REGISTRY	buggy
+org.apache.commons.lang3.builder.HashCodeBuilder	isRegistered(Ljava/lang/Object;)Z	value	buggy
+org.apache.commons.lang3.builder.HashCodeBuilder	isRegistered(Ljava/lang/Object;)Z	registry	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	unregister(Ljava/lang/Object;)V	s	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	<clinit>()V	.REGISTRY	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	register(Ljava/lang/Object;)V	l1	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	register(Ljava/lang/Object;)V	l2	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	unregister(Ljava/lang/Object;)V	l2	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	unregister(Ljava/lang/Object;)V	l3	fixed
+org.apache.commons.lang3.builder.HashCodeBuilder	isRegistered(Ljava/lang/Object;)Z	value	fixed

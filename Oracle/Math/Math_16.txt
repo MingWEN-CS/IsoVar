@@ -1,30 +1,26 @@
-fix	org.apache.commons.math3.util.FastMath	82	INS	LOG_MAX_VALUE
-fix	org.apache.commons.math3.util.FastMath	82	INS	StrictMath
-buggy	org.apache.commons.math3.util.FastMath	393	MOV	x
-buggy	org.apache.commons.math3.util.FastMath	454	MOV	x
-buggy	org.apache.commons.math3.util.FastMath	397	MOV	x
-buggy	org.apache.commons.math3.util.FastMath	458	MOV	x
-fix	org.apache.commons.math3.util.FastMath	395	INS	x
-fix	org.apache.commons.math3.util.FastMath	395	INS	LOG_MAX_VALUE
-fix	org.apache.commons.math3.util.FastMath	465	INS	x
-fix	org.apache.commons.math3.util.FastMath	465	INS	LOG_MAX_VALUE
-fix	org.apache.commons.math3.util.FastMath	403	INS	x
-fix	org.apache.commons.math3.util.FastMath	403	INS	LOG_MAX_VALUE
-fix	org.apache.commons.math3.util.FastMath	473	INS	x
-fix	org.apache.commons.math3.util.FastMath	473	INS	LOG_MAX_VALUE
-fix	org.apache.commons.math3.util.FastMath	398	INS	t
-fix	org.apache.commons.math3.util.FastMath	468	INS	t
-fix	org.apache.commons.math3.util.FastMath	397	INS	t
-fix	org.apache.commons.math3.util.FastMath	406	INS	t
-fix	org.apache.commons.math3.util.FastMath	467	INS	t
-fix	org.apache.commons.math3.util.FastMath	476	INS	t
-fix	org.apache.commons.math3.util.FastMath	397	INS	exp
-fix	org.apache.commons.math3.util.FastMath	397	INS	x
-fix	org.apache.commons.math3.util.FastMath	405	INS	t
-fix	org.apache.commons.math3.util.FastMath	467	INS	exp
-fix	org.apache.commons.math3.util.FastMath	467	INS	x
-fix	org.apache.commons.math3.util.FastMath	475	INS	t
-fix	org.apache.commons.math3.util.FastMath	405	INS	exp
-fix	org.apache.commons.math3.util.FastMath	405	INS	x
-fix	org.apache.commons.math3.util.FastMath	475	INS	exp
-fix	org.apache.commons.math3.util.FastMath	475	INS	x
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	zs[]	buggy
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	buggy
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	tmp	buggy
+org.apache.commons.math3.util.FastMath	cosh(D)D	x	buggy
+org.apache.commons.math3.util.FastMathCalc	splitReciprocal([D[D)V	a	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	a[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	zs[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	zs[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	zs[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	result[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	b[]	fixed
+org.apache.commons.math3.util.FastMath	<clinit>()V	.LOG_MAX_VALUE	fixed
+org.apache.commons.math3.util.FastMath	cosh(D)D	t	fixed
+org.apache.commons.math3.util.FastMath	cosh(D)D	t	fixed
+org.apache.commons.math3.util.FastMath	cosh(D)D	t	fixed
+org.apache.commons.math3.util.FastMathCalc	splitReciprocal([D[D)V	in[]	fixed
+org.apache.commons.math3.util.FastMathCalc	splitReciprocal([D[D)V	in[]	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	tmp	fixed
+org.apache.commons.math3.util.FastMath	cosh(D)D	x	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	zs	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	ys	fixed
+org.apache.commons.math3.util.FastMathCalc	quadMult([D[D[D)V	xs	fixed

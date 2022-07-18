@@ -1,1 +1,5 @@
-fix	org.apache.commons.lang3.time.FastDateFormat	820	INS	mLocale
+org.apache.commons.lang3.time.FastDateFormat	format(Ljava/util/Date;)Ljava/lang/String;	c	buggy
+org.apache.commons.lang3.time.FastDateFormat	format(Ljava/util/Date;)Ljava/lang/String;	this.mTimeZone	buggy
+org.apache.commons.lang3.time.FastDateFormat	format(Ljava/util/Date;)Ljava/lang/String;	c	fixed
+org.apache.commons.lang3.time.FastDateFormat	format(Ljava/util/Date;)Ljava/lang/String;	this.mTimeZone	fixed
+org.apache.commons.lang3.time.FastDateFormat	format(Ljava/util/Date;)Ljava/lang/String;	this.mLocale	fixed

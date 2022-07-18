@@ -1,7 +1,6 @@
-fix	org.apache.commons.lang.text.StrBuilder	1776	INS	len
-fix	org.apache.commons.lang.text.StrBuilder	1776	INS	size
-fix	org.apache.commons.lang.text.StrBuilder	1776	INS	strLen
-buggy	org.apache.commons.lang.text.StrBuilder	1776	MOV	strLen
-buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	thisBuf.length
-buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	len
-buggy	org.apache.commons.lang.text.StrBuilder	1776	DEL	strLen
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	strLen	buggy
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	thisBuf	buggy
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	len	buggy
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	strLen	fixed
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	len	fixed
+org.apache.commons.lang.text.StrBuilder	indexOf(Ljava/lang/String;I)I	this.size	fixed

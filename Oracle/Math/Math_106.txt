@@ -1,5 +1,4 @@
-fix	org.apache.commons.math.fraction.ProperFractionFormat	171	INS	num
-fix	org.apache.commons.math.fraction.ProperFractionFormat	211	INS	den
-fix	org.apache.commons.math.fraction.ProperFractionFormat	173	INS	pos
-fix	org.apache.commons.math.fraction.ProperFractionFormat	174	INS	pos
-fix	org.apache.commons.math.fraction.ProperFractionFormat	213	INS	pos
+org.apache.commons.math.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	initialIndex	fixed
+org.apache.commons.math.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	pos	fixed
+org.apache.commons.math.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	num	fixed
+org.apache.commons.math.fraction.ProperFractionFormat	parse(Ljava/lang/String;Ljava/text/ParsePosition;)Lorg/apache/commons/math/fraction/Fraction;	den	fixed

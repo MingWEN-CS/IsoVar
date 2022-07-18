@@ -1,3 +1,9 @@
-fix	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	32	INS	instantiator
-buggy	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	34	UPD	classInstantiator
-buggy	org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	45	UPD	classInstantiator
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	mockInstance	buggy
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	this.classInstantiator	buggy
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	mockedProxyType	buggy
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	mockInstance	fixed
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	settings	fixed
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	instantiator	fixed
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	instantiator	fixed
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	instantiator	fixed
+org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker	createMock(Lorg/mockito/mock/MockCreationSettings;Lorg/mockito/invocation/MockHandler;)Ljava/lang/Object;	mockedProxyType	fixed

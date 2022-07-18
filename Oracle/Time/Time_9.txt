@@ -1,16 +1,15 @@
-fix	org.joda.time.DateTimeZone	96	INS	MAX_MILLIS
-fix	org.joda.time.DateTimeZone	258	INS	hoursOffset
-fix	org.joda.time.DateTimeZone	286	INS	millisOffset
-fix	org.joda.time.DateTimeZone	286	INS	MAX_MILLIS
-fix	org.joda.time.DateTimeZone	259	INS	hoursOffset
-fix	org.joda.time.DateTimeZone	266	INS	hoursInMinutes
-fix	org.joda.time.DateTimeZone	266	INS	hoursOffset
-fix	org.joda.time.DateTimeZone	287	INS	millisOffset
-fix	org.joda.time.DateTimeZone	268	INS	minutesOffset
-fix	org.joda.time.DateTimeZone	268	INS	hoursInMinutes
-fix	org.joda.time.DateTimeZone	270	INS	minutesOffset
-fix	org.joda.time.DateTimeZone	270	INS	hoursInMinutes
-buggy	org.joda.time.DateTimeZone	262	DEL	FieldUtils
-buggy	org.joda.time.DateTimeZone	264	DEL	FieldUtils
-buggy	org.joda.time.DateTimeZone	264	DEL	minutesOffset
-buggy	org.joda.time.DateTimeZone	266	DEL	FieldUtils
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursOffset	buggy
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	minutesOffset	buggy
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	minutesOffset	buggy
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	minutesOffset	buggy
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursInMinutes	buggy
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursOffset	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursOffset	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursOffset	fixed
+org.joda.time.DateTimeZone	forOffsetMillis(I)Lorg/joda/time/DateTimeZone;	millisOffset	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	offset	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	minutesOffset#4	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	minutesOffset	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursInMinutes	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursInMinutes	fixed
+org.joda.time.DateTimeZone	forOffsetHoursMinutes(II)Lorg/joda/time/DateTimeZone;	hoursInMinutes	fixed

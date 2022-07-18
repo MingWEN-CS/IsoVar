@@ -1,7 +1,8 @@
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	151	INS	best
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	151	INS	current
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	235	INS	best
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	280	INS	best
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	284	INS	best
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	239	INS	best
-fix	org.apache.commons.math3.optimization.univariate.BrentOptimizer	243	INS	best
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	current	buggy
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	previous	buggy
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	isMinim	buggy
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	current	fixed
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	previous	fixed
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	previous	fixed
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	isMinim	fixed
+org.apache.commons.math3.optimization.univariate.BrentOptimizer	doOptimize()Lorg/apache/commons/math3/optimization/univariate/UnivariatePointValuePair;	best	fixed

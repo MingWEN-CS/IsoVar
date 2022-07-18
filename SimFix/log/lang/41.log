@@ -1,0 +1,1566 @@
+=================================================
+Project : lang_41	start : 22/07/16 08:15
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class_purify_1 | 22/07/16 08:17
+Sat Jul 16 08:17:37 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 08:17:43 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 08:17:43 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 08:17:44 UTC 2022 org.apache.commons.lang.ClassUtils,232
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageName(cls.getName());
+
+Time : 22/07/16 08:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:18
+----------------------------------------
+Sat Jul 16 08:18:47 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 08:18:48 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 08:19:08 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 08:29:07 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 08:29:07 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 08:29:08 UTC 2022 Sat Jul 16 08:29:08 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 08:29:08 UTC 2022 Sat Jul 16 08:29:08 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 08:29:08 UTC 2022 Sat Jul 16 08:29:08 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 08:29:08 UTC 2022 Sat Jul 16 08:29:08 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 08:29:09 UTC 2022 Sat Jul 16 08:29:09 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 08:29:10 UTC 2022 Sat Jul 16 08:29:10 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 08:29:11 UTC 2022 Sat Jul 16 08:29:11 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 08:29:11 UTC 2022 Sat Jul 16 08:29:11 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 08:29:11 UTC 2022 Sat Jul 16 08:29:11 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 08:29:11 UTC 2022 Sat Jul 16 08:29:11 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 08:29:11 UTC 2022 Sat Jul 16 08:29:11 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 08:29:12 UTC 2022 Sat Jul 16 08:29:12 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 08:29:15 UTC 2022 Sat Jul 16 08:29:15 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 08:29:19 UTC 2022 Sat Jul 16 08:29:19 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 08:29:20 UTC 2022 Sat Jul 16 08:29:20 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 08:29:20 UTC 2022 Sat Jul 16 08:29:20 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 08:29:20 UTC 2022 Sat Jul 16 08:29:20 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 08:29:20 UTC 2022 Sat Jul 16 08:29:20 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 08:29:21 UTC 2022 Sat Jul 16 08:29:21 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 08:29:21 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 08:29:52 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 08:29:52 UTC 2022 Sat Jul 16 08:29:52 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 08:29:52 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 08:29:52 UTC 2022 org.apache.commons.lang.ClassUtils,172
+Sat Jul 16 08:30:36 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 08:30:36 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 08:32:38 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 08:34
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class_purify_10 | 22/07/16 08:34
+Sat Jul 16 08:34:39 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 08:34:48 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 08:34:48 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 08:34:49 UTC 2022 org.apache.commons.lang.ClassUtils,232
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageName(cls.getName());
+
+Time : 22/07/16 08:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:35
+----------------------------------------
+Sat Jul 16 08:35:50 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 08:35:52 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 08:36:09 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 08:46:09 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 08:46:10 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 08:46:10 UTC 2022 Sat Jul 16 08:46:10 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 08:46:10 UTC 2022 Sat Jul 16 08:46:10 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 08:46:11 UTC 2022 Sat Jul 16 08:46:11 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 08:46:11 UTC 2022 Sat Jul 16 08:46:11 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 08:46:11 UTC 2022 Sat Jul 16 08:46:11 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 08:46:11 UTC 2022 Sat Jul 16 08:46:11 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 08:46:12 UTC 2022 Sat Jul 16 08:46:12 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 08:46:12 UTC 2022 Sat Jul 16 08:46:12 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 08:46:12 UTC 2022 Sat Jul 16 08:46:12 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 08:46:12 UTC 2022 Sat Jul 16 08:46:12 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 08:46:12 UTC 2022 Sat Jul 16 08:46:12 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 08:46:13 UTC 2022 Sat Jul 16 08:46:13 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 08:46:13 UTC 2022 Sat Jul 16 08:46:13 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 08:46:13 UTC 2022 Sat Jul 16 08:46:13 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 08:46:13 UTC 2022 Sat Jul 16 08:46:13 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 08:46:14 UTC 2022 Sat Jul 16 08:46:14 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 08:46:14 UTC 2022 Sat Jul 16 08:46:14 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 08:46:14 UTC 2022 Sat Jul 16 08:46:14 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 08:46:14 UTC 2022 Sat Jul 16 08:46:14 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 08:46:14 UTC 2022 Sat Jul 16 08:46:14 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 08:46:15 UTC 2022 Sat Jul 16 08:46:15 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 08:46:15 UTC 2022 Sat Jul 16 08:46:15 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 08:46:15 UTC 2022 Sat Jul 16 08:46:15 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 08:46:15 UTC 2022 Sat Jul 16 08:46:15 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 08:46:15 UTC 2022 Sat Jul 16 08:46:15 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 08:46:16 UTC 2022 Sat Jul 16 08:46:16 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 08:46:16 UTC 2022 Sat Jul 16 08:46:16 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 08:46:16 UTC 2022 Sat Jul 16 08:46:16 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 08:46:16 UTC 2022 Sat Jul 16 08:46:16 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 08:46:16 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 08:46:48 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 08:46:48 UTC 2022 Sat Jul 16 08:46:48 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 08:46:48 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 08:46:48 UTC 2022 org.apache.commons.lang.ClassUtils,172
+Sat Jul 16 08:47:30 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 08:47:31 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 08:49:26 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 08:51
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class_purify_11 | 22/07/16 08:51
+Sat Jul 16 08:51:44 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 08:51:51 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 08:51:51 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 08:51:51 UTC 2022 org.apache.commons.lang.ClassUtils,232
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageName(cls.getName());
+
+Time : 22/07/16 08:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 08:52
+----------------------------------------
+Sat Jul 16 08:52:54 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 08:53:01 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 08:53:23 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 09:03:09 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 09:03:09 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 09:03:10 UTC 2022 Sat Jul 16 09:03:10 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 09:03:10 UTC 2022 Sat Jul 16 09:03:10 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 09:03:10 UTC 2022 Sat Jul 16 09:03:10 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 09:03:11 UTC 2022 Sat Jul 16 09:03:11 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 09:03:11 UTC 2022 Sat Jul 16 09:03:11 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 09:03:11 UTC 2022 Sat Jul 16 09:03:11 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 09:03:11 UTC 2022 Sat Jul 16 09:03:11 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 09:03:12 UTC 2022 Sat Jul 16 09:03:12 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 09:03:13 UTC 2022 Sat Jul 16 09:03:13 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 09:03:13 UTC 2022 Sat Jul 16 09:03:13 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 09:03:13 UTC 2022 Sat Jul 16 09:03:13 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 09:03:13 UTC 2022 Sat Jul 16 09:03:13 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 09:03:14 UTC 2022 Sat Jul 16 09:03:14 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 09:03:14 UTC 2022 Sat Jul 16 09:03:14 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 09:03:15 UTC 2022 Sat Jul 16 09:03:15 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 09:03:15 UTC 2022 Sat Jul 16 09:03:15 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 09:03:15 UTC 2022 Sat Jul 16 09:03:15 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 09:03:15 UTC 2022 Sat Jul 16 09:03:15 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 09:03:16 UTC 2022 Sat Jul 16 09:03:16 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 09:03:16 UTC 2022 Sat Jul 16 09:03:16 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 09:03:16 UTC 2022 Sat Jul 16 09:03:16 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 09:03:16 UTC 2022 Sat Jul 16 09:03:16 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 09:03:16 UTC 2022 Sat Jul 16 09:03:16 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 09:03:17 UTC 2022 Sat Jul 16 09:03:17 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 09:03:17 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 09:03:46 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 09:03:46 UTC 2022 Sat Jul 16 09:03:46 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 09:03:47 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 09:03:47 UTC 2022 org.apache.commons.lang.ClassUtils,172
+Sat Jul 16 09:04:29 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 09:04:29 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 09:06:29 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 09:08
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class_purify_12 | 22/07/16 09:08
+Sat Jul 16 09:08:45 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 09:08:52 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 09:08:52 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 09:08:52 UTC 2022 org.apache.commons.lang.ClassUtils,232
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 09:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 09:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageName(cls.getName());
+
+Time : 22/07/16 09:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>229,232]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getPackageCanonicalName(cls.getName());
+
+Time : 22/07/16 09:09
+----------------------------------------
+Sat Jul 16 09:10:03 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 09:10:05 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 09:10:29 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 09:20:05 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 09:20:05 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 09:20:06 UTC 2022 Sat Jul 16 09:20:06 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 09:20:07 UTC 2022 Sat Jul 16 09:20:07 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 09:20:07 UTC 2022 Sat Jul 16 09:20:07 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 09:20:07 UTC 2022 Sat Jul 16 09:20:07 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 09:20:07 UTC 2022 Sat Jul 16 09:20:07 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 09:20:07 UTC 2022 Sat Jul 16 09:20:07 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 09:20:08 UTC 2022 Sat Jul 16 09:20:08 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 09:20:08 UTC 2022 Sat Jul 16 09:20:08 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 09:20:08 UTC 2022 Sat Jul 16 09:20:08 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 09:20:09 UTC 2022 Sat Jul 16 09:20:09 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 09:20:09 UTC 2022 Sat Jul 16 09:20:09 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 09:20:09 UTC 2022 Sat Jul 16 09:20:09 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 09:20:10 UTC 2022 Sat Jul 16 09:20:10 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 09:20:10 UTC 2022 Sat Jul 16 09:20:10 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 09:20:10 UTC 2022 Sat Jul 16 09:20:10 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 09:20:11 UTC 2022 Sat Jul 16 09:20:11 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 09:20:11 UTC 2022 Sat Jul 16 09:20:11 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 09:20:12 UTC 2022 Sat Jul 16 09:20:12 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 09:20:12 UTC 2022 Sat Jul 16 09:20:12 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 09:20:13 UTC 2022 Sat Jul 16 09:20:13 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 09:20:13 UTC 2022 Sat Jul 16 09:20:13 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 09:20:13 UTC 2022 Sat Jul 16 09:20:13 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 09:20:13 UTC 2022 Sat Jul 16 09:20:13 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 09:20:14 UTC 2022 Sat Jul 16 09:20:14 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 09:20:14 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 09:20:47 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 09:20:48 UTC 2022 Sat Jul 16 09:20:48 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 09:20:48 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 09:20:48 UTC 2022 org.apache.commons.lang.ClassUtils,172
+Sat Jul 16 09:21:35 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 09:21:39 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 09:23:45 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 09:25
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_1 | 22/07/16 09:25
+Sat Jul 16 09:25:50 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 09:25:55 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 09:25:56 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 09:25:56 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 09:26:41 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 09:26:43 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 09:27:04 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 09:36:22 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 09:36:22 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 09:36:22 UTC 2022 Sat Jul 16 09:36:22 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 09:36:23 UTC 2022 Sat Jul 16 09:36:23 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 09:36:23 UTC 2022 Sat Jul 16 09:36:23 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 09:36:23 UTC 2022 Sat Jul 16 09:36:23 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 09:36:24 UTC 2022 Sat Jul 16 09:36:24 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 09:36:24 UTC 2022 Sat Jul 16 09:36:24 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 09:36:25 UTC 2022 Sat Jul 16 09:36:25 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 09:36:25 UTC 2022 Sat Jul 16 09:36:25 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 09:36:25 UTC 2022 Sat Jul 16 09:36:25 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 09:36:26 UTC 2022 Sat Jul 16 09:36:26 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 09:36:26 UTC 2022 Sat Jul 16 09:36:26 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 09:36:26 UTC 2022 Sat Jul 16 09:36:26 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 09:36:26 UTC 2022 Sat Jul 16 09:36:26 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 09:36:27 UTC 2022 Sat Jul 16 09:36:27 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 09:36:27 UTC 2022 Sat Jul 16 09:36:27 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 09:36:27 UTC 2022 Sat Jul 16 09:36:27 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 09:36:28 UTC 2022 Sat Jul 16 09:36:28 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 09:36:28 UTC 2022 Sat Jul 16 09:36:28 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 09:36:28 UTC 2022 Sat Jul 16 09:36:28 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 09:36:28 UTC 2022 Sat Jul 16 09:36:28 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 09:36:28 UTC 2022 Sat Jul 16 09:36:28 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 09:36:29 UTC 2022 Sat Jul 16 09:36:29 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 09:36:29 UTC 2022 Sat Jul 16 09:36:29 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 09:36:29 UTC 2022 Sat Jul 16 09:36:29 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 09:36:29 UTC 2022 Sat Jul 16 09:36:29 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 09:36:30 UTC 2022 Sat Jul 16 09:36:30 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 09:36:30 UTC 2022 Sat Jul 16 09:36:30 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 09:36:30 UTC 2022 Sat Jul 16 09:36:30 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 09:36:31 UTC 2022 Sat Jul 16 09:36:31 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 09:36:31 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 09:37:04 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 09:37:06 UTC 2022 Sat Jul 16 09:37:06 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 09:37:07 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 09:37:08 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 09:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:37
+----------------------------------------
+Sat Jul 16 09:38:11 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 09:38:11 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 09:40:22 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 09:42
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_2 | 22/07/16 09:42
+Sat Jul 16 09:42:51 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 09:42:58 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 09:42:58 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 09:42:58 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 09:43:44 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 09:43:44 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 09:44:05 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 09:55:48 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 09:55:48 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 09:55:48 UTC 2022 Sat Jul 16 09:55:48 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 09:55:48 UTC 2022 Sat Jul 16 09:55:48 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 09:55:49 UTC 2022 Sat Jul 16 09:55:49 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 09:55:49 UTC 2022 Sat Jul 16 09:55:49 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 09:55:49 UTC 2022 Sat Jul 16 09:55:49 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 09:55:49 UTC 2022 Sat Jul 16 09:55:49 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 09:55:49 UTC 2022 Sat Jul 16 09:55:49 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 09:55:50 UTC 2022 Sat Jul 16 09:55:50 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 09:55:50 UTC 2022 Sat Jul 16 09:55:50 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 09:55:50 UTC 2022 Sat Jul 16 09:55:50 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 09:55:50 UTC 2022 Sat Jul 16 09:55:50 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 09:55:50 UTC 2022 Sat Jul 16 09:55:50 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 09:55:51 UTC 2022 Sat Jul 16 09:55:51 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 09:55:51 UTC 2022 Sat Jul 16 09:55:51 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 09:55:51 UTC 2022 Sat Jul 16 09:55:51 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 09:55:51 UTC 2022 Sat Jul 16 09:55:51 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 09:55:52 UTC 2022 Sat Jul 16 09:55:52 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 09:55:52 UTC 2022 Sat Jul 16 09:55:52 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 09:55:52 UTC 2022 Sat Jul 16 09:55:52 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 09:55:53 UTC 2022 Sat Jul 16 09:55:53 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 09:55:54 UTC 2022 Sat Jul 16 09:55:54 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 09:55:56 UTC 2022 Sat Jul 16 09:55:56 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 09:55:56 UTC 2022 Sat Jul 16 09:55:56 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 09:55:56 UTC 2022 Sat Jul 16 09:55:56 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 09:55:57 UTC 2022 Sat Jul 16 09:55:57 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 09:55:57 UTC 2022 Sat Jul 16 09:55:57 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 09:55:57 UTC 2022 Sat Jul 16 09:55:57 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 09:55:57 UTC 2022 Sat Jul 16 09:55:57 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 09:55:58 UTC 2022 Sat Jul 16 09:55:58 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 09:55:58 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 09:56:30 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 09:56:32 UTC 2022 Sat Jul 16 09:56:32 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 09:56:32 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 09:56:32 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 09:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 09:57
+----------------------------------------
+Sat Jul 16 09:57:31 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 09:57:31 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 09:59:34 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 09:59
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_11 | 22/07/16 09:59
+Sat Jul 16 09:59:53 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 09:59:58 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 09:59:58 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 09:59:58 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 10:00:44 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 10:00:45 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 10:01:04 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 10:10:32 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 10:10:32 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 10:10:33 UTC 2022 Sat Jul 16 10:10:33 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 10:10:33 UTC 2022 Sat Jul 16 10:10:33 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 10:10:33 UTC 2022 Sat Jul 16 10:10:33 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 10:10:33 UTC 2022 Sat Jul 16 10:10:33 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 10:10:34 UTC 2022 Sat Jul 16 10:10:34 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 10:10:34 UTC 2022 Sat Jul 16 10:10:34 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 10:10:34 UTC 2022 Sat Jul 16 10:10:34 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 10:10:34 UTC 2022 Sat Jul 16 10:10:34 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 10:10:35 UTC 2022 Sat Jul 16 10:10:35 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 10:10:36 UTC 2022 Sat Jul 16 10:10:36 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 10:10:36 UTC 2022 Sat Jul 16 10:10:36 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 10:10:38 UTC 2022 Sat Jul 16 10:10:38 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 10:10:38 UTC 2022 Sat Jul 16 10:10:38 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 10:10:41 UTC 2022 Sat Jul 16 10:10:41 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 10:10:41 UTC 2022 Sat Jul 16 10:10:41 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 10:10:41 UTC 2022 Sat Jul 16 10:10:41 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 10:10:42 UTC 2022 Sat Jul 16 10:10:42 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 10:10:42 UTC 2022 Sat Jul 16 10:10:42 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 10:10:42 UTC 2022 Sat Jul 16 10:10:42 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 10:10:43 UTC 2022 Sat Jul 16 10:10:43 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 10:10:43 UTC 2022 Sat Jul 16 10:10:43 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 10:10:43 UTC 2022 Sat Jul 16 10:10:43 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 10:10:44 UTC 2022 Sat Jul 16 10:10:44 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 10:10:44 UTC 2022 Sat Jul 16 10:10:44 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 10:10:44 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 10:11:18 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 10:11:18 UTC 2022 Sat Jul 16 10:11:18 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 10:11:19 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 10:11:19 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 10:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:11
+----------------------------------------
+Sat Jul 16 10:12:15 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 10:12:16 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 10:14:13 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 10:16
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_12 | 22/07/16 10:16
+Sat Jul 16 10:16:57 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 10:17:06 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 10:17:06 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 10:17:07 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 10:17:53 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 10:17:54 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 10:18:14 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 10:27:30 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 10:27:30 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 10:27:31 UTC 2022 Sat Jul 16 10:27:31 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 10:27:31 UTC 2022 Sat Jul 16 10:27:31 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 10:27:31 UTC 2022 Sat Jul 16 10:27:31 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 10:27:32 UTC 2022 Sat Jul 16 10:27:32 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 10:27:32 UTC 2022 Sat Jul 16 10:27:32 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 10:27:33 UTC 2022 Sat Jul 16 10:27:33 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 10:27:33 UTC 2022 Sat Jul 16 10:27:33 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 10:27:33 UTC 2022 Sat Jul 16 10:27:33 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 10:27:34 UTC 2022 Sat Jul 16 10:27:34 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 10:27:34 UTC 2022 Sat Jul 16 10:27:34 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 10:27:35 UTC 2022 Sat Jul 16 10:27:35 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 10:27:35 UTC 2022 Sat Jul 16 10:27:35 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 10:27:35 UTC 2022 Sat Jul 16 10:27:35 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 10:27:35 UTC 2022 Sat Jul 16 10:27:35 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 10:27:36 UTC 2022 Sat Jul 16 10:27:36 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 10:27:36 UTC 2022 Sat Jul 16 10:27:36 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 10:27:36 UTC 2022 Sat Jul 16 10:27:36 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 10:27:36 UTC 2022 Sat Jul 16 10:27:36 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 10:27:37 UTC 2022 Sat Jul 16 10:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 10:27:37 UTC 2022 Sat Jul 16 10:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 10:27:37 UTC 2022 Sat Jul 16 10:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 10:27:37 UTC 2022 Sat Jul 16 10:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 10:27:37 UTC 2022 Sat Jul 16 10:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 10:27:38 UTC 2022 Sat Jul 16 10:27:38 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 10:27:38 UTC 2022 Sat Jul 16 10:27:38 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 10:27:38 UTC 2022 Sat Jul 16 10:27:38 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 10:27:39 UTC 2022 Sat Jul 16 10:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 10:27:39 UTC 2022 Sat Jul 16 10:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 10:27:39 UTC 2022 Sat Jul 16 10:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 10:27:39 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 10:28:07 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 10:28:07 UTC 2022 Sat Jul 16 10:28:07 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 10:28:07 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 10:28:07 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 10:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:28
+----------------------------------------
+Sat Jul 16 10:29:04 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 10:29:04 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 10:31:07 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 10:33
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_13 | 22/07/16 10:33
+Sat Jul 16 10:34:07 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 10:34:12 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 10:34:13 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 10:34:13 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 10:34:58 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 10:35:04 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 10:35:20 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 10:44:33 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 10:44:34 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 10:44:34 UTC 2022 Sat Jul 16 10:44:34 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 10:44:34 UTC 2022 Sat Jul 16 10:44:34 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 10:44:34 UTC 2022 Sat Jul 16 10:44:34 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 10:44:34 UTC 2022 Sat Jul 16 10:44:34 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 10:44:35 UTC 2022 Sat Jul 16 10:44:35 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 10:44:35 UTC 2022 Sat Jul 16 10:44:35 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 10:44:35 UTC 2022 Sat Jul 16 10:44:35 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 10:44:35 UTC 2022 Sat Jul 16 10:44:35 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 10:44:35 UTC 2022 Sat Jul 16 10:44:35 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 10:44:36 UTC 2022 Sat Jul 16 10:44:36 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 10:44:36 UTC 2022 Sat Jul 16 10:44:36 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 10:44:36 UTC 2022 Sat Jul 16 10:44:36 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 10:44:36 UTC 2022 Sat Jul 16 10:44:36 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 10:44:36 UTC 2022 Sat Jul 16 10:44:36 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 10:44:37 UTC 2022 Sat Jul 16 10:44:37 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 10:44:37 UTC 2022 Sat Jul 16 10:44:37 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 10:44:37 UTC 2022 Sat Jul 16 10:44:37 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 10:44:37 UTC 2022 Sat Jul 16 10:44:37 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 10:44:38 UTC 2022 Sat Jul 16 10:44:38 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 10:44:38 UTC 2022 Sat Jul 16 10:44:38 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 10:44:38 UTC 2022 Sat Jul 16 10:44:38 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 10:44:38 UTC 2022 Sat Jul 16 10:44:38 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 10:44:38 UTC 2022 Sat Jul 16 10:44:38 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 10:44:39 UTC 2022 Sat Jul 16 10:44:39 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 10:44:40 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 10:44:59 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 10:45:00 UTC 2022 Sat Jul 16 10:45:00 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 10:45:00 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 10:45:00 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 10:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 10:45
+----------------------------------------
+Sat Jul 16 10:45:43 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 10:45:44 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 10:47:06 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 10:51
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_14 | 22/07/16 10:51
+Sat Jul 16 10:51:14 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 10:51:18 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 10:51:18 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 10:51:18 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 10:51:52 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 10:51:53 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 10:52:08 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 11:00:24 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 11:00:25 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 11:00:25 UTC 2022 Sat Jul 16 11:00:25 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 11:00:25 UTC 2022 Sat Jul 16 11:00:25 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 11:00:26 UTC 2022 Sat Jul 16 11:00:26 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 11:00:26 UTC 2022 Sat Jul 16 11:00:26 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 11:00:27 UTC 2022 Sat Jul 16 11:00:27 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 11:00:27 UTC 2022 Sat Jul 16 11:00:27 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 11:00:27 UTC 2022 Sat Jul 16 11:00:27 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 11:00:28 UTC 2022 Sat Jul 16 11:00:28 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 11:00:28 UTC 2022 Sat Jul 16 11:00:28 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 11:00:28 UTC 2022 Sat Jul 16 11:00:28 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 11:00:28 UTC 2022 Sat Jul 16 11:00:28 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 11:00:28 UTC 2022 Sat Jul 16 11:00:28 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 11:00:29 UTC 2022 Sat Jul 16 11:00:29 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 11:00:32 UTC 2022 Sat Jul 16 11:00:32 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 11:00:32 UTC 2022 Sat Jul 16 11:00:32 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 11:00:32 UTC 2022 Sat Jul 16 11:00:32 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 11:00:33 UTC 2022 Sat Jul 16 11:00:33 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 11:00:33 UTC 2022 Sat Jul 16 11:00:33 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 11:00:33 UTC 2022 Sat Jul 16 11:00:33 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 11:00:33 UTC 2022 Sat Jul 16 11:00:33 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 11:00:33 UTC 2022 Sat Jul 16 11:00:33 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 11:00:34 UTC 2022 Sat Jul 16 11:00:34 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 11:00:34 UTC 2022 Sat Jul 16 11:00:34 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 11:00:34 UTC 2022 Sat Jul 16 11:00:34 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 11:00:34 UTC 2022 Sat Jul 16 11:00:34 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 11:00:34 UTC 2022 Sat Jul 16 11:00:34 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 11:00:35 UTC 2022 Sat Jul 16 11:00:35 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 11:00:35 UTC 2022 Sat Jul 16 11:00:35 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 11:00:35 UTC 2022 Sat Jul 16 11:00:35 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 11:00:35 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 11:01:03 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 11:01:05 UTC 2022 Sat Jul 16 11:01:05 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 11:01:06 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 11:01:06 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 11:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:01
+----------------------------------------
+Sat Jul 16 11:02:00 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 11:02:00 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 11:03:52 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 11:08
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_15 | 22/07/16 11:08
+Sat Jul 16 11:08:22 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 11:08:27 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 11:08:27 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 11:08:28 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 11:09:11 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 11:09:12 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 11:09:29 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 11:19:29 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 11:19:29 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 11:19:29 UTC 2022 Sat Jul 16 11:19:29 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 11:19:29 UTC 2022 Sat Jul 16 11:19:29 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 11:19:30 UTC 2022 Sat Jul 16 11:19:30 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 11:19:30 UTC 2022 Sat Jul 16 11:19:30 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 11:19:31 UTC 2022 Sat Jul 16 11:19:31 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 11:19:31 UTC 2022 Sat Jul 16 11:19:31 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 11:19:32 UTC 2022 Sat Jul 16 11:19:32 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 11:19:32 UTC 2022 Sat Jul 16 11:19:32 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 11:19:32 UTC 2022 Sat Jul 16 11:19:32 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 11:19:33 UTC 2022 Sat Jul 16 11:19:33 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 11:19:33 UTC 2022 Sat Jul 16 11:19:33 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 11:19:33 UTC 2022 Sat Jul 16 11:19:33 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 11:19:34 UTC 2022 Sat Jul 16 11:19:34 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 11:19:34 UTC 2022 Sat Jul 16 11:19:34 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 11:19:35 UTC 2022 Sat Jul 16 11:19:35 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 11:19:35 UTC 2022 Sat Jul 16 11:19:35 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 11:19:36 UTC 2022 Sat Jul 16 11:19:36 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 11:19:36 UTC 2022 Sat Jul 16 11:19:36 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 11:19:36 UTC 2022 Sat Jul 16 11:19:36 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 11:19:36 UTC 2022 Sat Jul 16 11:19:36 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 11:19:37 UTC 2022 Sat Jul 16 11:19:37 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 11:19:37 UTC 2022 Sat Jul 16 11:19:37 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 11:19:37 UTC 2022 Sat Jul 16 11:19:37 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 11:19:37 UTC 2022 Sat Jul 16 11:19:37 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 11:19:38 UTC 2022 Sat Jul 16 11:19:38 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 11:19:38 UTC 2022 Sat Jul 16 11:19:38 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 11:19:38 UTC 2022 Sat Jul 16 11:19:38 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 11:19:38 UTC 2022 Sat Jul 16 11:19:38 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 11:19:39 UTC 2022 Sat Jul 16 11:19:39 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 11:19:39 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 11:20:11 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 11:20:11 UTC 2022 Sat Jul 16 11:20:11 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 11:20:12 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 11:20:12 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 11:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:20
+----------------------------------------
+Sat Jul 16 11:21:14 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 11:21:14 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 11:23:16 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 11:25
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_16 | 22/07/16 11:25
+Sat Jul 16 11:25:28 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 11:25:35 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 11:25:36 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 11:25:36 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 11:26:25 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 11:26:27 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 11:26:49 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 11:36:14 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 11:36:14 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 11:36:14 UTC 2022 Sat Jul 16 11:36:14 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 11:36:14 UTC 2022 Sat Jul 16 11:36:14 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 11:36:15 UTC 2022 Sat Jul 16 11:36:15 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 11:36:15 UTC 2022 Sat Jul 16 11:36:15 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 11:36:15 UTC 2022 Sat Jul 16 11:36:15 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 11:36:15 UTC 2022 Sat Jul 16 11:36:15 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 11:36:16 UTC 2022 Sat Jul 16 11:36:16 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 11:36:17 UTC 2022 Sat Jul 16 11:36:17 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 11:36:17 UTC 2022 Sat Jul 16 11:36:17 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 11:36:17 UTC 2022 Sat Jul 16 11:36:17 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 11:36:17 UTC 2022 Sat Jul 16 11:36:17 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 11:36:18 UTC 2022 Sat Jul 16 11:36:18 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 11:36:18 UTC 2022 Sat Jul 16 11:36:18 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 11:36:18 UTC 2022 Sat Jul 16 11:36:18 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 11:36:18 UTC 2022 Sat Jul 16 11:36:18 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 11:36:19 UTC 2022 Sat Jul 16 11:36:19 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 11:36:19 UTC 2022 Sat Jul 16 11:36:19 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 11:36:20 UTC 2022 Sat Jul 16 11:36:20 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 11:36:20 UTC 2022 Sat Jul 16 11:36:20 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 11:36:20 UTC 2022 Sat Jul 16 11:36:20 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 11:36:21 UTC 2022 Sat Jul 16 11:36:21 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 11:36:21 UTC 2022 Sat Jul 16 11:36:21 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 11:36:22 UTC 2022 Sat Jul 16 11:36:22 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 11:36:22 UTC 2022 Sat Jul 16 11:36:22 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 11:36:23 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 11:36:54 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 11:36:54 UTC 2022 Sat Jul 16 11:36:54 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 11:36:56 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 11:37:00 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 11:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:37
+----------------------------------------
+Sat Jul 16 11:37:57 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 11:37:57 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 11:39:44 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 11:42
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_17 | 22/07/16 11:42
+Sat Jul 16 11:42:30 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 11:42:35 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 11:42:36 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 11:42:36 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 11:43:20 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 11:43:28 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 11:43:45 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 11:53:04 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 11:53:05 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 11:53:05 UTC 2022 Sat Jul 16 11:53:05 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 11:53:05 UTC 2022 Sat Jul 16 11:53:05 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 11:53:05 UTC 2022 Sat Jul 16 11:53:05 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 11:53:05 UTC 2022 Sat Jul 16 11:53:05 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 11:53:06 UTC 2022 Sat Jul 16 11:53:06 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 11:53:07 UTC 2022 Sat Jul 16 11:53:07 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 11:53:07 UTC 2022 Sat Jul 16 11:53:07 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 11:53:07 UTC 2022 Sat Jul 16 11:53:07 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 11:53:07 UTC 2022 Sat Jul 16 11:53:07 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 11:53:07 UTC 2022 Sat Jul 16 11:53:07 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 11:53:08 UTC 2022 Sat Jul 16 11:53:08 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 11:53:08 UTC 2022 Sat Jul 16 11:53:08 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 11:53:08 UTC 2022 Sat Jul 16 11:53:08 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 11:53:08 UTC 2022 Sat Jul 16 11:53:08 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 11:53:09 UTC 2022 Sat Jul 16 11:53:09 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 11:53:09 UTC 2022 Sat Jul 16 11:53:09 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 11:53:09 UTC 2022 Sat Jul 16 11:53:09 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 11:53:09 UTC 2022 Sat Jul 16 11:53:09 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 11:53:09 UTC 2022 Sat Jul 16 11:53:09 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 11:53:10 UTC 2022 Sat Jul 16 11:53:10 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 11:53:10 UTC 2022 Sat Jul 16 11:53:10 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 11:53:10 UTC 2022 Sat Jul 16 11:53:10 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 11:53:10 UTC 2022 Sat Jul 16 11:53:10 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 11:53:10 UTC 2022 Sat Jul 16 11:53:10 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 11:53:11 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 11:53:43 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 11:53:46 UTC 2022 Sat Jul 16 11:53:46 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 11:53:46 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 11:53:47 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 11:54
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 11:54
+----------------------------------------
+Sat Jul 16 11:54:46 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 11:54:46 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 11:56:43 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 11:59
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_18 | 22/07/16 11:59
+Sat Jul 16 11:59:34 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 11:59:39 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 11:59:40 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 11:59:40 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 12:00:19 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 12:00:20 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 12:00:37 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 12:09:39 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 12:09:39 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 12:09:39 UTC 2022 Sat Jul 16 12:09:39 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 12:09:40 UTC 2022 Sat Jul 16 12:09:40 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 12:09:40 UTC 2022 Sat Jul 16 12:09:40 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 12:09:40 UTC 2022 Sat Jul 16 12:09:40 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 12:09:40 UTC 2022 Sat Jul 16 12:09:40 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 12:09:41 UTC 2022 Sat Jul 16 12:09:41 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 12:09:41 UTC 2022 Sat Jul 16 12:09:41 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 12:09:41 UTC 2022 Sat Jul 16 12:09:41 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 12:09:41 UTC 2022 Sat Jul 16 12:09:41 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 12:09:41 UTC 2022 Sat Jul 16 12:09:41 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 12:09:42 UTC 2022 Sat Jul 16 12:09:42 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 12:09:42 UTC 2022 Sat Jul 16 12:09:42 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 12:09:42 UTC 2022 Sat Jul 16 12:09:42 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 12:09:42 UTC 2022 Sat Jul 16 12:09:42 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 12:09:43 UTC 2022 Sat Jul 16 12:09:43 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 12:09:44 UTC 2022 Sat Jul 16 12:09:44 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 12:09:44 UTC 2022 Sat Jul 16 12:09:44 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 12:09:44 UTC 2022 Sat Jul 16 12:09:44 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 12:09:44 UTC 2022 Sat Jul 16 12:09:44 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 12:09:45 UTC 2022 Sat Jul 16 12:09:45 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 12:09:45 UTC 2022 Sat Jul 16 12:09:45 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 12:09:45 UTC 2022 Sat Jul 16 12:09:45 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 12:09:45 UTC 2022 Sat Jul 16 12:09:45 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 12:09:45 UTC 2022 Sat Jul 16 12:09:45 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 12:09:46 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 12:10:13 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 12:10:14 UTC 2022 Sat Jul 16 12:10:14 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 12:10:14 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 12:10:14 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 12:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:10
+----------------------------------------
+Sat Jul 16 12:11:13 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 12:11:13 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 12:13:11 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 12:16
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_19 | 22/07/16 12:16
+Sat Jul 16 12:16:38 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 12:16:43 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 12:16:43 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 12:16:43 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 12:17:24 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 12:17:26 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 12:17:45 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 12:27:28 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 12:27:28 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 12:27:29 UTC 2022 Sat Jul 16 12:27:29 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 12:27:29 UTC 2022 Sat Jul 16 12:27:29 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 12:27:30 UTC 2022 Sat Jul 16 12:27:30 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 12:27:30 UTC 2022 Sat Jul 16 12:27:30 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 12:27:31 UTC 2022 Sat Jul 16 12:27:31 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 12:27:31 UTC 2022 Sat Jul 16 12:27:31 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 12:27:32 UTC 2022 Sat Jul 16 12:27:32 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 12:27:32 UTC 2022 Sat Jul 16 12:27:32 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 12:27:32 UTC 2022 Sat Jul 16 12:27:32 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 12:27:34 UTC 2022 Sat Jul 16 12:27:34 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 12:27:34 UTC 2022 Sat Jul 16 12:27:34 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 12:27:35 UTC 2022 Sat Jul 16 12:27:35 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 12:27:37 UTC 2022 Sat Jul 16 12:27:37 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 12:27:38 UTC 2022 Sat Jul 16 12:27:38 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 12:27:38 UTC 2022 Sat Jul 16 12:27:38 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 12:27:39 UTC 2022 Sat Jul 16 12:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 12:27:39 UTC 2022 Sat Jul 16 12:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 12:27:39 UTC 2022 Sat Jul 16 12:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 12:27:39 UTC 2022 Sat Jul 16 12:27:39 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 12:27:40 UTC 2022 Sat Jul 16 12:27:40 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 12:27:40 UTC 2022 Sat Jul 16 12:27:40 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 12:27:40 UTC 2022 Sat Jul 16 12:27:40 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 12:27:41 UTC 2022 Sat Jul 16 12:27:41 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 12:27:42 UTC 2022 Sat Jul 16 12:27:42 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 12:27:42 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 12:28:14 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 12:28:15 UTC 2022 Sat Jul 16 12:28:15 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 12:28:15 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 12:28:15 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 12:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:28
+----------------------------------------
+Sat Jul 16 12:29:11 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 12:29:11 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 12:31:13 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 12:33
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_20 | 22/07/16 12:33
+Sat Jul 16 12:33:48 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 12:33:53 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 12:33:53 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 12:33:53 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 12:34:35 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 12:34:37 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 12:35:00 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 12:44:42 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 12:44:43 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 12:44:43 UTC 2022 Sat Jul 16 12:44:43 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 12:44:43 UTC 2022 Sat Jul 16 12:44:43 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 12:44:44 UTC 2022 Sat Jul 16 12:44:44 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 12:44:44 UTC 2022 Sat Jul 16 12:44:44 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 12:44:44 UTC 2022 Sat Jul 16 12:44:44 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 12:44:44 UTC 2022 Sat Jul 16 12:44:44 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 12:44:44 UTC 2022 Sat Jul 16 12:44:44 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 12:44:45 UTC 2022 Sat Jul 16 12:44:45 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 12:44:45 UTC 2022 Sat Jul 16 12:44:45 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 12:44:45 UTC 2022 Sat Jul 16 12:44:45 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 12:44:45 UTC 2022 Sat Jul 16 12:44:45 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 12:44:45 UTC 2022 Sat Jul 16 12:44:45 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 12:44:46 UTC 2022 Sat Jul 16 12:44:46 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 12:44:46 UTC 2022 Sat Jul 16 12:44:46 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 12:44:46 UTC 2022 Sat Jul 16 12:44:46 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 12:44:46 UTC 2022 Sat Jul 16 12:44:46 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 12:44:46 UTC 2022 Sat Jul 16 12:44:46 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 12:44:47 UTC 2022 Sat Jul 16 12:44:47 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 12:44:47 UTC 2022 Sat Jul 16 12:44:47 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 12:44:47 UTC 2022 Sat Jul 16 12:44:47 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 12:44:47 UTC 2022 Sat Jul 16 12:44:47 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 12:44:48 UTC 2022 Sat Jul 16 12:44:48 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 12:44:48 UTC 2022 Sat Jul 16 12:44:48 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 12:44:48 UTC 2022 Sat Jul 16 12:44:48 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 12:44:48 UTC 2022 Sat Jul 16 12:44:48 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 12:44:48 UTC 2022 Sat Jul 16 12:44:48 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 12:44:49 UTC 2022 Sat Jul 16 12:44:49 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 12:44:49 UTC 2022 Sat Jul 16 12:44:49 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 12:44:49 UTC 2022 Sat Jul 16 12:44:49 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 12:44:49 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 12:45:29 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 12:45:32 UTC 2022 Sat Jul 16 12:45:32 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 12:45:35 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 12:45:36 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 12:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 12:46
+----------------------------------------
+Sat Jul 16 12:46:39 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 12:46:39 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 12:48:39 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 12:50
+Current failed test : org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class_purify_21 | 22/07/16 12:50
+Sat Jul 16 12:50:48 UTC 2022 org.apache.commons.lang.ClassUtils,170
+Sat Jul 16 12:50:57 UTC 2022 org.apache.commons.lang.ClassUtils,230
+Sat Jul 16 12:50:59 UTC 2022 org.apache.commons.lang.ClassUtils,229
+Sat Jul 16 12:51:00 UTC 2022 org.apache.commons.lang.ClassUtils,232
+Sat Jul 16 12:51:45 UTC 2022 org.apache.commons.lang.ClassUtils,201
+Sat Jul 16 12:51:46 UTC 2022 org.apache.commons.lang.ClassUtils,245
+Sat Jul 16 12:52:06 UTC 2022 org.apache.commons.lang.ClassUtils,252
+Sat Jul 16 13:01:57 UTC 2022 org.apache.commons.lang.ClassUtils,253
+Sat Jul 16 13:01:58 UTC 2022 org.apache.commons.lang.ClassUtils,256
+Sat Jul 16 13:01:58 UTC 2022 Sat Jul 16 13:01:58 UTC 2022 : org.apache.commons.lang.ClassUtils,58=>Find no block
+Sat Jul 16 13:01:58 UTC 2022 Sat Jul 16 13:01:58 UTC 2022 : org.apache.commons.lang.ClassUtils,68=>Find no block
+Sat Jul 16 13:01:58 UTC 2022 Sat Jul 16 13:01:58 UTC 2022 : org.apache.commons.lang.ClassUtils,73=>Find no block
+Sat Jul 16 13:01:59 UTC 2022 Sat Jul 16 13:01:59 UTC 2022 : org.apache.commons.lang.ClassUtils,75=>Find no block
+Sat Jul 16 13:01:59 UTC 2022 Sat Jul 16 13:01:59 UTC 2022 : org.apache.commons.lang.ClassUtils,76=>Find no block
+Sat Jul 16 13:01:59 UTC 2022 Sat Jul 16 13:01:59 UTC 2022 : org.apache.commons.lang.ClassUtils,77=>Find no block
+Sat Jul 16 13:01:59 UTC 2022 Sat Jul 16 13:01:59 UTC 2022 : org.apache.commons.lang.ClassUtils,78=>Find no block
+Sat Jul 16 13:02:00 UTC 2022 Sat Jul 16 13:02:00 UTC 2022 : org.apache.commons.lang.ClassUtils,79=>Find no block
+Sat Jul 16 13:02:00 UTC 2022 Sat Jul 16 13:02:00 UTC 2022 : org.apache.commons.lang.ClassUtils,80=>Find no block
+Sat Jul 16 13:02:00 UTC 2022 Sat Jul 16 13:02:00 UTC 2022 : org.apache.commons.lang.ClassUtils,81=>Find no block
+Sat Jul 16 13:02:00 UTC 2022 Sat Jul 16 13:02:00 UTC 2022 : org.apache.commons.lang.ClassUtils,82=>Find no block
+Sat Jul 16 13:02:00 UTC 2022 Sat Jul 16 13:02:00 UTC 2022 : org.apache.commons.lang.ClassUtils,83=>Find no block
+Sat Jul 16 13:02:01 UTC 2022 Sat Jul 16 13:02:01 UTC 2022 : org.apache.commons.lang.ClassUtils,89=>Find no block
+Sat Jul 16 13:02:01 UTC 2022 Sat Jul 16 13:02:01 UTC 2022 : org.apache.commons.lang.ClassUtils,91=>Find no block
+Sat Jul 16 13:02:01 UTC 2022 Sat Jul 16 13:02:01 UTC 2022 : org.apache.commons.lang.ClassUtils,92=>Find no block
+Sat Jul 16 13:02:01 UTC 2022 Sat Jul 16 13:02:01 UTC 2022 : org.apache.commons.lang.ClassUtils,93=>Find no block
+Sat Jul 16 13:02:01 UTC 2022 Sat Jul 16 13:02:01 UTC 2022 : org.apache.commons.lang.ClassUtils,94=>Find no block
+Sat Jul 16 13:02:02 UTC 2022 Sat Jul 16 13:02:02 UTC 2022 : org.apache.commons.lang.ClassUtils,96=>Find no block
+Sat Jul 16 13:02:02 UTC 2022 Sat Jul 16 13:02:02 UTC 2022 : org.apache.commons.lang.ClassUtils,102=>Find no block
+Sat Jul 16 13:02:02 UTC 2022 Sat Jul 16 13:02:02 UTC 2022 : org.apache.commons.lang.ClassUtils,107=>Find no block
+Sat Jul 16 13:02:02 UTC 2022 Sat Jul 16 13:02:02 UTC 2022 : org.apache.commons.lang.ClassUtils,124=>Find no block
+Sat Jul 16 13:02:03 UTC 2022 Sat Jul 16 13:02:03 UTC 2022 : org.apache.commons.lang.ClassUtils,125=>Find no block
+Sat Jul 16 13:02:03 UTC 2022 Sat Jul 16 13:02:03 UTC 2022 : org.apache.commons.lang.ClassUtils,126=>Find no block
+Sat Jul 16 13:02:03 UTC 2022 Sat Jul 16 13:02:03 UTC 2022 : org.apache.commons.lang.ClassUtils,127=>Find no block
+Sat Jul 16 13:02:03 UTC 2022 Sat Jul 16 13:02:03 UTC 2022 : org.apache.commons.lang.ClassUtils,128=>Find no block
+Sat Jul 16 13:02:03 UTC 2022 Sat Jul 16 13:02:03 UTC 2022 : org.apache.commons.lang.ClassUtils,129=>Find no block
+Sat Jul 16 13:02:04 UTC 2022 Sat Jul 16 13:02:04 UTC 2022 : org.apache.commons.lang.ClassUtils,130=>Find no block
+Sat Jul 16 13:02:04 UTC 2022 Sat Jul 16 13:02:04 UTC 2022 : org.apache.commons.lang.ClassUtils,131=>Find no block
+Sat Jul 16 13:02:04 UTC 2022 Sat Jul 16 13:02:04 UTC 2022 : org.apache.commons.lang.ClassUtils,132=>Find no block
+Sat Jul 16 13:02:04 UTC 2022 org.apache.commons.lang.ClassUtils,116
+Sat Jul 16 13:02:36 UTC 2022 org.apache.commons.lang.ClassUtils,117
+Sat Jul 16 13:02:36 UTC 2022 Sat Jul 16 13:02:36 UTC 2022 : org.apache.commons.lang.ClassUtils,118=>Find no block
+Sat Jul 16 13:02:36 UTC 2022 org.apache.commons.lang.ClassUtils,169
+Sat Jul 16 13:02:37 UTC 2022 org.apache.commons.lang.ClassUtils,172
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 13:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.5 : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>0,0]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 13:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortClassName(cls.getName());
+
+Time : 22/07/16 13:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/data/MutationAnalysis/target_classes_comment_new/Lang/Lang_41_buggy/src/java/org/apache/commons/lang/ClassUtils.java=>169,172]
+if(cls==null){
+return StringUtils.EMPTY;
+}
+return getShortCanonicalName(cls.getName());
+
+Time : 22/07/16 13:03
+----------------------------------------
+Sat Jul 16 13:03:33 UTC 2022 org.apache.commons.lang.ClassUtils,184
+Sat Jul 16 13:03:33 UTC 2022 org.apache.commons.lang.ClassUtils,187
+Sat Jul 16 13:05:30 UTC 2022 org.apache.commons.lang.ClassUtils,196
+Timeout time : 22/07/16 13:07

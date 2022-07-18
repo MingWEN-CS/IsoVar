@@ -3,10 +3,12 @@ package Util;
 import Instrument.Instrument;
 import IsoVar.Configuration;
 import IsoVar.PatchSummary;
+import IsoVar.VariableInfo;
 import IsoVar.VariableTrimInfo;
 import org.javatuples.Triplet;
 
 import java.io.*;
+import java.nio.file.Files;
 import java.util.*;
 
 import static Instrument.Instrument.myHashCode;
@@ -14,8 +16,8 @@ import static Instrument.Instrument.myHashCode;
 public class EvaluationUtil {
 
     static double alpha = 0.4;
-    static double beta = 1;
-    static double gama = 0.2;
+    static double beta = 0.9;
+    static double gama = 0.1;
 //    static double gama = 0;
 
     public static void main(String[] args) {
@@ -23,9 +25,10 @@ public class EvaluationUtil {
         try {
             List<List<Integer>> ranks = new ArrayList<>();
             File statistical = new File(config.metricRoot + "/statistic.txt");
+            statistical.getParentFile().mkdirs();
             FileWriter stat = new FileWriter(statistical, true);
 //            String[] projects = {"Time", "Chart", "Lang", "Math", "Closure", "Mockito"};
-            String[] projects = {"Time"};
+            String[] projects = {"Lang"};
             for (String project : projects) {
                 config.setProjectName(project);
 //                File metricFile = new File(config.metricRoot + "/" + config.getProjectName() + "_ochiai.txt");
@@ -50,12 +53,15 @@ public class EvaluationUtil {
                     if (config.getProjectName().equals("Bears") && bears_no_work.contains(i))
                         continue;
                     System.out.println("handing " + config.getProjectName() + "_" + config.getCurrent());
-                    HashSet<String> oracles = PatchSummary.readOracles(config, false); // remapping for ochiai
+                    HashSet<VariableTrimInfo> oracles = PatchSummary.readOracles(config, false); // remapping for ochiai
                     if (oracles.isEmpty())
                         continue;
-                    List<Pair<String, Double>> indexes = readVarSuspicious(config); // IsoVar
-                    if (project.equals("Math") && i == 39)
+                    if(!(new File(Configuration.ReportRoot + "/" + config.getProjectName() + "/" +
+                            config.getProjectName() + "_" + config.getCurrent() + ".txt").exists()))
                         continue;
+                    List<Pair<VariableTrimInfo, Double>> indexes = readVarSuspicious(config); // IsoVar
+//                    if (project.equals("Math") && i == 39)
+//                        continue;
 //                List<Pair<String, Double>> indexes = readBaseLine_Bears_Ochiai(config, "ochiai"); // Bears
 //                    List<Pair<String, Double>> indexes = readBaseLine_D4j_Ochiai(config, "ochiai"); // D4j
                     indexes.sort((a, b) -> Double.compare(b.getValue(), a.getValue()));
@@ -114,8 +120,8 @@ public class EvaluationUtil {
                 fw.write("\nMAP\t" + String.format("%.3f", MAP) + "\n");
                 fw.write("MRR\t" + String.format("%.3f", MRR) + "\n");
                 fw.write("\ntop1 " + top1 + "\n");
-                    fw.write("top5 " + top5 + "\n");
-                    fw.write("top10 " + top10 + "\n\n");
+                fw.write("top5 " + top5 + "\n");
+                fw.write("top10 " + top10 + "\n\n");
                 fw.write("\n");
                 fw.close();
 //            }
@@ -127,21 +133,24 @@ public class EvaluationUtil {
         }
     }
 
-    public static List<Pair<String, Double>> readVarSuspicious(Configuration config) {
-        List<Pair<String, Double>> list = new ArrayList<>();
+    public static List<Pair<VariableTrimInfo, Double>> readVarSuspicious(Configuration config) {
+        List<Pair<VariableTrimInfo, Double>> list = new ArrayList<>();
 //        File file = new File(config.similaritiesRoot + "_allmethod/" + config.getProjectName() + "/" +
 //                config.getProjectName() + "_" + config.getCurrent() + ".txt");
-        File file = new File(config.getReport_dir() + "/" + config.getProjectName() + "/" +
+        File file = new File(Configuration.ReportRoot + "/" + config.getProjectName() + "/" +
                 config.getProjectName() + "_" + config.getCurrent() + ".txt");
         try {
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             String[] lineSplit;
             while ((line = bf.readLine()) != null) {
                 lineSplit = line.split("\t");
-                String var = lineSplit[0] + " " + lineSplit[1];
-                String[] statStr = lineSplit[3].split(" ");
+                int methodHash = myHashCode(lineSplit[0]) + myHashCode(lineSplit[1]);
+//                String var = methodHash + " " + lineSplit[2];
+                VariableInfo var = new VariableInfo(lineSplit[2], methodHash);
+
+                String[] statStr = lineSplit[4].split(" ");
                 double failFreq = Double.parseDouble(statStr[1]);
                 double passFreq = Double.parseDouble(statStr[2]);
                 if (passFreq > -0.001 && passFreq < 0.001)
@@ -153,7 +162,7 @@ public class EvaluationUtil {
                 if (cosSim == 0 && config.getProjectName().equals("Math"))
                     stat = 1;
 
-                String[] mutateStr = lineSplit[4].split(" ");
+                String[] mutateStr = lineSplit[5].split(" ");
                 double failingDiff = Double.parseDouble(mutateStr[1]);
                 double passingDiff = Double.parseDouble(mutateStr[2].substring(0, mutateStr[2].length() - 1));
                 double mutate = failingDiff - passingDiff * beta;
@@ -168,8 +177,9 @@ public class EvaluationUtil {
 //                else if (mutate > 0)
 //                    suspicious = (1 - gama) * stat + mutate * gama;
                 else
-                    suspicious = stat + mutate * gama;
-                list.add(new Pair<>(var, suspicious));
+                    suspicious = stat - mutate * gama;
+                VariableTrimInfo varT = new VariableTrimInfo(var, failFreq, passFreq, cosSim, stat, failingDiff, passingDiff, mutate, suspicious);
+                list.add(new Pair<>(varT, suspicious));
             }
             bf.close();
             inputReader.close();
@@ -180,7 +190,7 @@ public class EvaluationUtil {
         return list;
     }
 
-    public static List<Integer> getOracleRanks(List<Pair<String, Double>> indexes, HashSet<String> oracles) {
+    public static List<Integer> getOracleRanks(List<Pair<VariableTrimInfo, Double>> indexes, HashSet<VariableTrimInfo> oracles) {
         List<Integer> ranks = new ArrayList<>();
         Collections.sort(indexes);
 //		System.out.println(indexes.toString() + "\t" + oracles.toString());
@@ -277,7 +287,8 @@ public class EvaluationUtil {
             }
         }
         for (Map.Entry<VariableTrimInfo, List<Double>> entry : varSus.entrySet()) {
-            VariableTrimInfo var = entry.getKey();
+            VariableTrimInfo varT = entry.getKey();
+            VariableInfo var = varT.var;
             List<Double> suss = entry.getValue();
             if (suss.isEmpty())
                 list.add(new Pair<>(var.methodHash + " " + var.name, 0d));
@@ -295,8 +306,7 @@ public class EvaluationUtil {
     private static List<Triplet<String, Integer, Double>> readRanking_D4j_Ochiai(Configuration config, String name) {
         List<Triplet<String, Integer, Double>> list = new ArrayList<>();
         try {
-//            File file = new File(config.getBaselineRankingFile(name));
-            File file = new File("D:/repository/ochiai.txt");
+            File file = new File(config.getBaselineRankingFile(name));
             InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
@@ -317,7 +327,7 @@ public class EvaluationUtil {
         return list;
     }
 
-        public static int hashCode(String str) {
+    public static int hashCode(String str) {
         int hash = 0;
         int itr = str.length() / 32;
         if (str.length() % 32 != 0)
@@ -331,11 +341,11 @@ public class EvaluationUtil {
     }
 
     private static List<Pair<String, Double>> getVarPairSusInMethod_Bears
-            (Map<VariableTrimInfo, Set<Integer>> varMapLines,
-             Map<Integer, Double> lineMapSus) {
+            (Map<VariableTrimInfo, Set<Integer>> varMapLines, Map<Integer, Double> lineMapSus) {
         List<Pair<String, Double>> list = new ArrayList<>();
         for (Map.Entry<VariableTrimInfo, Set<Integer>> entry : varMapLines.entrySet()) {
-            VariableTrimInfo var = entry.getKey();
+            VariableTrimInfo varT = entry.getKey();
+            VariableInfo var = varT.var;
             Set<Integer> lines = entry.getValue();
             List<Double> varSus = new ArrayList<>();
             for (Map.Entry<Integer, Double> susMap : lineMapSus.entrySet()) {
@@ -361,7 +371,7 @@ public class EvaluationUtil {
         File file = new File(config.getBaselineRankingFile(baseline));
         Map<Integer, Map<Integer, Double>> map = new HashMap<>();
         try {
-            InputStreamReader inputReader = new InputStreamReader(new FileInputStream(file));
+            InputStreamReader inputReader = new InputStreamReader(Files.newInputStream(file.toPath()));
             BufferedReader bf = new BufferedReader(inputReader);
             String line;
             while ((line = bf.readLine()) != null) {

@@ -1,4 +1,6 @@
-fix	org.apache.commons.math.stat.regression.SimpleRegression	264	INS	Math
-buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumYY
-buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumXY
-buggy	org.apache.commons.math.stat.regression.SimpleRegression	264	MOV	sumXX
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumXY	buggy
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumXX	buggy
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumYY	buggy
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumXY	fixed
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumXX	fixed
+org.apache.commons.math.stat.regression.SimpleRegression	getSumSquaredErrors()D	this.sumYY	fixed

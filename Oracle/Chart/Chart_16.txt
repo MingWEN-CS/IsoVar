@@ -1,3 +1,8 @@
-fix	org.jfree.data.category.DefaultIntervalCategoryDataset	338	INS	getCategoryCount
-buggy	org.jfree.data.category.DefaultIntervalCategoryDataset	338	DEL	startData
-buggy	org.jfree.data.category.DefaultIntervalCategoryDataset	338	DEL	length
+org.jfree.data.category.DefaultIntervalCategoryDataset	setCategoryKeys([Ljava/lang/Comparable;)V	categoryKeys	buggy
+org.jfree.data.category.DefaultIntervalCategoryDataset	setCategoryKeys([Ljava/lang/Comparable;)V	this.startData[]	buggy
+org.jfree.data.category.DefaultIntervalCategoryDataset	<init>([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V	this.seriesKeys	buggy
+org.jfree.data.category.DefaultIntervalCategoryDataset	<init>([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V	this.categoryKeys	buggy
+org.jfree.data.category.DefaultIntervalCategoryDataset	setCategoryKeys([Ljava/lang/Comparable;)V	this.startData	buggy
+org.jfree.data.category.DefaultIntervalCategoryDataset	setCategoryKeys([Ljava/lang/Comparable;)V	categoryKeys	fixed
+org.jfree.data.category.DefaultIntervalCategoryDataset	<init>([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V	this.seriesKeys	fixed
+org.jfree.data.category.DefaultIntervalCategoryDataset	<init>([Ljava/lang/Comparable;[Ljava/lang/Comparable;[[Ljava/lang/Number;[[Ljava/lang/Number;)V	this.categoryKeys	fixed

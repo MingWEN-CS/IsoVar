@@ -1,6 +1,2 @@
-fix	com.google.javascript.jscomp.parsing.IRFactory	568	INS	loopNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	569	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	571	INS	errorReporter
-fix	com.google.javascript.jscomp.parsing.IRFactory	575	INS	newNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	572	INS	loopNode
-fix	com.google.javascript.jscomp.parsing.IRFactory	575	INS	Node
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processForInLoop(Lcom/google/javascript/rhino/head/ast/ForInLoop;)Lcom/google/javascript/rhino/Node;	this.this$0	fixed
+com.google.javascript.jscomp.parsing.IRFactory$TransformDispatcher	processForInLoop(Lcom/google/javascript/rhino/head/ast/ForInLoop;)Lcom/google/javascript/rhino/Node;	loopNode	fixed

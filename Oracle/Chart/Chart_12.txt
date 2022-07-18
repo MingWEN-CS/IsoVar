@@ -1,2 +1,3 @@
-fix	org.jfree.chart.plot.MultiplePiePlot	145	INS	setDataset
-buggy	org.jfree.chart.plot.MultiplePiePlot	145	DEL	dataset
+org.jfree.chart.plot.MultiplePiePlot	<init>(Lorg/jfree/data/category/CategoryDataset;)V	this.dataset	buggy
+org.jfree.chart.plot.MultiplePiePlot	<init>(Lorg/jfree/data/category/CategoryDataset;)V	dataset	buggy
+org.jfree.chart.plot.MultiplePiePlot	<init>(Lorg/jfree/data/category/CategoryDataset;)V	dataset	fixed

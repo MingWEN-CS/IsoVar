@@ -1,4 +1,1 @@
-fix	org.mockito.exceptions.Reporter	677	INS	details
-fix	org.mockito.exceptions.Reporter	678	INS	details
-fix	org.mockito.exceptions.Reporter	424	INS	safelyGetMockName
-fix	org.mockito.exceptions.Reporter	434	INS	safelyGetMockName
+org.mockito.exceptions.Reporter	exceptionCauseMessageIfAvailable(Ljava/lang/Exception;)Ljava/lang/String;	details	fixed

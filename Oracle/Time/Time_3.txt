@@ -1,10 +1,10 @@
-fix	org.joda.time.MutableDateTime	639	INS	amount
-fix	org.joda.time.MutableDateTime	662	INS	years
-fix	org.joda.time.MutableDateTime	685	INS	weekyears
-fix	org.joda.time.MutableDateTime	708	INS	months
-fix	org.joda.time.MutableDateTime	731	INS	weeks
-fix	org.joda.time.MutableDateTime	774	INS	days
-fix	org.joda.time.MutableDateTime	797	INS	hours
-fix	org.joda.time.MutableDateTime	830	INS	minutes
-fix	org.joda.time.MutableDateTime	863	INS	seconds
-fix	org.joda.time.MutableDateTime	898	INS	millis
+org.joda.time.MutableDateTime	add(Lorg/joda/time/DurationFieldType;I)V	amount	fixed
+org.joda.time.MutableDateTime	addHours(I)V	hours	fixed
+org.joda.time.MutableDateTime	addSeconds(I)V	seconds	fixed
+org.joda.time.MutableDateTime	addMonths(I)V	months	fixed
+org.joda.time.MutableDateTime	addWeeks(I)V	weeks	fixed
+org.joda.time.MutableDateTime	addMinutes(I)V	minutes	fixed
+org.joda.time.MutableDateTime	addWeekyears(I)V	weekyears	fixed
+org.joda.time.MutableDateTime	addDays(I)V	days	fixed
+org.joda.time.MutableDateTime	addMillis(I)V	millis	fixed
+org.joda.time.MutableDateTime	addYears(I)V	years	fixed

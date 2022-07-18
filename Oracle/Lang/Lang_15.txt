@@ -1,12 +1,18 @@
-fix	org.apache.commons.lang3.reflect.TypeUtils	219	INS	var
-buggy	org.apache.commons.lang3.reflect.TypeUtils	219	UPD	toTypeVarAssigns
-buggy	org.apache.commons.lang3.reflect.TypeUtils	220	UPD	entry
-fix	org.apache.commons.lang3.reflect.TypeUtils	220	INS	unrollVariableAssignments
-buggy	org.apache.commons.lang3.reflect.TypeUtils	221	UPD	fromTypeVarAssigns
-buggy	org.apache.commons.lang3.reflect.TypeUtils	221	UPD	entry
-buggy	org.apache.commons.lang3.reflect.TypeUtils	221	MOV	entry
-buggy	org.apache.commons.lang3.reflect.TypeUtils	219	DEL	entry
-buggy	org.apache.commons.lang3.reflect.TypeUtils	221	DEL	entry
-buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	cls
-buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	length
-buggy	org.apache.commons.lang3.reflect.TypeUtils	675	DEL	toClass
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	entry	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	toTypeArg	buggy
+org.apache.commons.lang3.reflect.TypeUtils	getTypeArguments(Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Map;)Ljava/util/Map;	toClass	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	toTypeVarAssigns	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	i$	buggy
+org.apache.commons.lang3.reflect.TypeUtils	getTypeArguments(Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Map;)Ljava/util/Map;	cls	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	fromTypeArg	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	fromTypeVarAssigns	buggy
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	toTypeArg	fixed
+org.apache.commons.lang3.reflect.TypeUtils	getTypeArguments(Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Map;)Ljava/util/Map;	toClass	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	var	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	var	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	var	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	toTypeVarAssigns	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	i$	fixed
+org.apache.commons.lang3.reflect.TypeUtils	getTypeArguments(Ljava/lang/Class;Ljava/lang/Class;Ljava/util/Map;)Ljava/util/Map;	cls	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	fromTypeArg	fixed
+org.apache.commons.lang3.reflect.TypeUtils	isAssignable(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z	fromTypeVarAssigns	fixed

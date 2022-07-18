@@ -1,22 +1,22 @@
-fix	org.mockito.internal.invocation.InvocationMatcher	145	INS	uniqueMatcherSet
-fix	org.mockito.internal.invocation.InvocationMatcher	145	INS	indexOfVararg
-buggy	org.mockito.internal.invocation.InvocationMatcher	127	MOV	position
-buggy	org.mockito.internal.invocation.InvocationMatcher	127	MOV	indexOfVararg
-buggy	org.mockito.internal.invocation.InvocationMatcher	127	MOV	matchers
-fix	org.mockito.internal.invocation.InvocationMatcher	155	INS	set
-fix	org.mockito.internal.invocation.InvocationMatcher	146	INS	set
-fix	org.mockito.internal.invocation.InvocationMatcher	127	INS	m
-fix	org.mockito.internal.invocation.InvocationMatcher	127	INS	uniqueMatcherSet
-buggy	org.mockito.internal.invocation.InvocationMatcher	128	UPD	m
-fix	org.mockito.internal.invocation.InvocationMatcher	149	INS	matcher
-fix	org.mockito.internal.invocation.InvocationMatcher	150	INS	set
-fix	org.mockito.internal.invocation.InvocationMatcher	152	INS	set
-fix	org.mockito.internal.invocation.InvocationMatcher	130	INS	i
-fix	org.mockito.internal.invocation.InvocationMatcher	130	INS	Array
-fix	org.mockito.internal.invocation.InvocationMatcher	129	INS	rawArgument
-fix	org.mockito.internal.invocation.InvocationMatcher	129	INS	indexOfVararg
-fix	org.mockito.internal.invocation.InvocationMatcher	150	INS	matcher
-fix	org.mockito.internal.invocation.InvocationMatcher	131	INS	Array
-buggy	org.mockito.internal.invocation.InvocationMatcher	130	DEL	position
-buggy	org.mockito.internal.invocation.InvocationMatcher	130	DEL	indexOfVararg
-buggy	org.mockito.internal.invocation.InvocationMatcher	130	DEL	invocation
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	this.matchers	buggy
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	invocation	buggy
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	indexOfVararg	buggy
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	position	buggy
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	m	buggy
+org.mockito.internal.invocation.InvocationMatcher	uniqueMatcherSet(I)Ljava/util/Set;	this.matchers	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	indexOfVararg	fixed
+org.mockito.internal.invocation.InvocationMatcher	uniqueMatcherSet(I)Ljava/util/Set;	set	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	i	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	i	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	i	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	i	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	position	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	position	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	position	fixed
+org.mockito.internal.invocation.InvocationMatcher	uniqueMatcherSet(I)Ljava/util/Set;	matcher	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	m	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	rawArgument	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	rawArgument	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	rawArgument	fixed
+org.mockito.internal.invocation.InvocationMatcher	captureArgumentsFrom(Lorg/mockito/invocation/Invocation;)V	invocation	fixed
+org.mockito.internal.invocation.InvocationMatcher	uniqueMatcherSet(I)Ljava/util/Set;	position	fixed

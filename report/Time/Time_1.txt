@@ -1,67 +1,74 @@
-org.joda.time.field.UnsupportedDurationField	compareTo(Lorg/joda/time/DurationField;)I	durationField	0.4985170538803757
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	i	0.4933133236564228
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	compare	0.48525960692569586
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	this.iChronology	0.48207900331000014
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	types	0.48153547133138963
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	lastUnitField	0.4812346502292162
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	types	0.4794320300417252
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	values	0.47447536289460773
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	loopUnitField	0.4704609864786313
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	chronology	0.4690409921408789
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	values	0.4664407001288868
-org.joda.time.DateTimeFieldType	era()Lorg/joda/time/DateTimeFieldType;	.ERA_TYPE	0.4646609360076408
-org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	this.iTypes	0.4628217349857007
-org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chrono	0.4628217349857007
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	chronology	0.46259232785322857
-org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	loopType	0.4619501092698428
-org.joda.time.Partial	getChronology()Lorg/joda/time/Chronology;	this.iChronology	0.4619047619047618
-org.joda.time.Partial	size()I	this.iTypes	0.4616757914782196
-org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	index	0.45478542599541305
-org.joda.time.chrono.BasicYearDateTimeField	getMinimumValue()I	this.iChronology	0.4505882352941176
-org.joda.time.chrono.BasicMonthOfYearDateTimeField	getMaximumValue()I	this.iMax	0.43194925028835063
-org.joda.time.chrono.AssembledChronology	eras()Lorg/joda/time/DurationField;	this.iEras	0.427030748049564
-org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	chronology	0.42674152878615623
-org.joda.time.chrono.AssembledChronology	era()Lorg/joda/time/DateTimeField;	this.iEra	0.42132269099201825
-org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	thisMillis	0.40487453147810026
-org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	otherField	0.40441011864786214
-org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getDurationType()Lorg/joda/time/DurationFieldType;	this.iUnitType	0.4031969595349877
-org.joda.time.chrono.BasicYearDateTimeField	getMaximumValue()I	this.iChronology	0.4017857142857142
-org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	otherMillis	0.4000665029826031
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	partial	0.3891255003042348
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	field	0.3855082219062048
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	value	0.38384271491360433
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	values	0.3836387387749328
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	i	0.382954007641624
-org.joda.time.field.BaseDateTimeField	getMaximumValue(Lorg/joda/time/ReadablePartial;[I)I	instant	0.38094199738334067
-org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	size	0.3801363286251574
-org.joda.time.field.BaseDateTimeField	getMinimumValue(Lorg/joda/time/ReadablePartial;[I)I	instant	0.3799825746024831
-org.joda.time.base.AbstractPartial	getField(I)Lorg/joda/time/DateTimeField;	index	0.3625818687807569
-org.joda.time.chrono.AssembledChronology	years()Lorg/joda/time/DurationField;	this.iYears	0.34607329842931933
-org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	chronology	0.3380004148516905
-org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	this.iOrdinal	0.3380004148516905
-org.joda.time.chrono.AssembledChronology	months()Lorg/joda/time/DurationField;	this.iMonths	0.3331614765931119
-org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chronology	0.27124279735376533
-org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chronology	0.2683529859262077
-org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	this.iOrdinal	0.2683529859262077
-org.joda.time.chrono.ISOChronology	withUTC()Lorg/joda/time/Chronology;	.INSTANCE_UTC	0.2102672292545711
-org.joda.time.DateTimeFieldType	monthOfYear()Lorg/joda/time/DateTimeFieldType;	.MONTH_OF_YEAR_TYPE	0.2093942054433714
-org.joda.time.DateTimeFieldType	year()Lorg/joda/time/DateTimeFieldType;	.YEAR_TYPE	0.20889629759606942
-org.joda.time.chrono.AssembledChronology	year()Lorg/joda/time/DateTimeField;	this.iYear	0.19920387677397022
-org.joda.time.chrono.AssembledChronology	monthOfYear()Lorg/joda/time/DateTimeField;	this.iMonthOfYear	0.1927297668038409
-org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	chrono	0.14060562955314193
-org.joda.time.chrono.AssembledChronology	getParam()Ljava/lang/Object;	this.iParam	0.1394428616650839
-org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	zone	0.13718125927895763
-org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	.cFastCache	0.12465030253999748
-org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	index	0.12465030253999748
-org.joda.time.chrono.AssembledChronology	getZone()Lorg/joda/time/DateTimeZone;	this.iBase	0.11953688084649594
-org.joda.time.chrono.AssembledChronology	getZone()Lorg/joda/time/DateTimeZone;	base	0.11953688084649594
-org.joda.time.DateTimeUtils	getChronology(Lorg/joda/time/Chronology;)Lorg/joda/time/Chronology;	chrono	0.10879222754519763
-org.joda.time.DateTimeUtils	setCurrentMillisFixed(J)V	fixedMillis	0.08508327299058649
-org.joda.time.DateTimeUtils$FixedMillisProvider	<init>(J)V	fixedMillis	0.08508327299058649
-org.joda.time.DateTimeUtils	checkPermission()V	sm	0.08491385550890407
-org.joda.time.DateTimeUtils	setCurrentMillisSystem()V	.SYSTEM_MILLIS_PROVIDER	0.08491385550890407
-org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	zone	0.07102793421203724
-org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	l2	0.0710247349823322
-org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	sm	0.0710247349823322
-org.joda.time.DateTimeZone	getDefault()Lorg/joda/time/DateTimeZone;	zone	0.04291012934422894
-org.joda.time.DateTimeZone	getDefault()Lorg/joda/time/DateTimeZone;	.cDefault	0.03656699342402736
+org.joda.time.field.UnsupportedDurationField	compareTo(Lorg/joda/time/DurationField;)I	durationField	0.4985174203113417	[0.4985174203113417 1.0 0.0014847809948032665 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	values	0.498023210429928	[0.48130160271976685 1.0 0.019054689433308587 1.0]	[0.16721607710161124 0.6427745664739886 0.5283983215248637]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	values	0.49710619853832494	[0.4679254912475965 0.75 0.02876763177431329 0.9902691318994685]	[0.2918070729072839 0.6275471546835113 0.37304453530691933]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	i	0.49584437297053835	[0.4678422870540326 0.5 0.019348552338530067 0.9898045708932749]	[0.2800208591650575 0.4515036257116165 0.19053640727395446]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	this.iChronology	0.4817382176020222	[0.4817382176020222 0.6666666666666666 0.026396106574280338 0.9603512248768886]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[I)V	types	0.48130160271976685	[0.48130160271976685 1.0 0.019054689433308587 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	lastUnitField	0.4810069323913644	[0.4810069323913644 1.0 0.03687206137094778 0.9668644168401832]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	types	0.47922919194372154	[0.47922919194372154 0.5 0.01944135115070527 0.9666867701992029]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	compare	0.47730413385010945	[0.46665844626857295 1.0 0.034892353377876766 0.9992512566737582]	[0.10645687581536496 0.2064550011592743 0.11110902815989925]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	loopUnitField	0.4702817264651736	[0.4702817264651736 1.0 0.03687206137094778 0.9883148286925648]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	chronology	0.46982536572469286	[0.46982536572469286 1.0 0.03823311061618411 0.9866989289009896]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	this.iTypes	0.46703857933648807	[0.46703857933648807 0.5 0.01880722593417471 0.993421052631579]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	this.iValues	0.46703857933648807	[0.46703857933648807 0.5 0.01880722593417471 0.993421052631579]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType	era()Lorg/joda/time/DateTimeFieldType;	.ERA_TYPE	0.46351931330472107	[0.46351931330472107 1.0 0.0378619153674833 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	this.iTypes	0.462830593280915	[0.462830593280915 1.0 0.038604305864884926 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chrono	0.462830593280915	[0.462830593280915 1.0 0.038604305864884926 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	chronology	0.4623719933317456	[0.4623719933317456 1.0 0.039099232863152686 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	getChronology()Lorg/joda/time/Chronology;	this.iChronology	0.4619138300404666	[0.4619138300404666 1.0 0.03959415986142044 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	<init>([Lorg/joda/time/DateTimeFieldType;[ILorg/joda/time/Chronology;)V	loopType	0.46171776609744813	[0.46171776609744813 0.1111111111111111 0.004839286205284709 0.9930928054859197]	[0.0 0.0 0.0]
+org.joda.time.Partial	size()I	this.iTypes	0.46168491194669203	[0.46168491194669203 1.0 0.039841623360554315 1.0]	[0.0 0.0 0.0]
+org.joda.time.Partial	getField(ILorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	index	0.45312212458870543	[0.462830593280915 1.0 0.038604305864884926 1.0]	[-0.0970846869220961 0.26054905332987277 0.39737082250218764]
+org.joda.time.chrono.BasicYearDateTimeField	getMinimumValue()I	this.iChronology	0.4497062279670976	[0.4497062279670976 1.0 0.052957188814649836 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.BasicMonthOfYearDateTimeField	getMaximumValue()I	this.iMax	0.43196494464944646	[0.43196494464944646 1.0 0.07300173224449394 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	eras()Lorg/joda/time/DurationField;	this.iEras	0.4268348623853211	[0.4268348623853211 1.0 0.078940856223707 1.0]	[0.0 0.0 0.0]
+org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	chronology	0.4265500242109152	[0.4265500242109152 0.3076923076923077 0.0642643671596899 0.8013523569005859]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	era()Lorg/joda/time/DateTimeField;	this.iEra	0.42113061317529066	[0.42113061317529066 1.0 0.0856223707003217 1.0]	[0.0 0.0 0.0]
+org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	thisMillis	0.41705771893364124	[0.40527693689750605 1.0 0.10591437762929967 0.9979043942739071]	[0.1178078203613522 0.3372770671645437 0.24385471867021277]
+org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	otherMillis	0.4065734067014304	[0.40527693689750605 1.0 0.10591437762929967 0.9979043942739071]	[0.012964698039243577 0.21079816697783982 0.21981496548732915]
+org.joda.time.field.BaseDurationField	compareTo(Lorg/joda/time/DurationField;)I	otherField	0.4042291340344596	[0.4042291340344596 1.0 0.10591437762929967 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getDurationType()Lorg/joda/time/DurationFieldType;	this.iUnitType	0.4022103148024113	[0.4022103148024113 1.0 0.10838901262063845 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.BasicYearDateTimeField	getMaximumValue()I	this.iChronology	0.40100334448160535	[0.40100334448160535 1.0 0.10987379361544172 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	partial	0.38915095458079946	[0.38915095458079946 0.6666666666666666 0.08780829827600463 0.9889314587933556]	[0.0 0.0 0.0]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	values	0.38765230055156796	[0.3867845032562716 0.6 0.07899034892353395 0.9937609738067216]	[0.00867797295296363 0.23243413319922382 0.24861795582917798]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	field	0.38553394128638585	[0.38553394128638585 0.5 0.06675327889136352 0.9933683143489618]	[0.0 0.0 0.0]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	value	0.3830746333354608	[0.38553394128638585 0.5 0.06675327889136352 0.9933683143489618]	[-0.024593079509250507 0.11683005129198905 0.15713681200137727]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	size	0.38121474892455887	[0.3868822170777489 1.0 0.13165058153922296 0.9935655461637672]	[-0.05667468153190011 0.16486513196394084 0.24615534832871216]
+org.joda.time.field.BaseDateTimeField	getMaximumValue(Lorg/joda/time/ReadablePartial;[I)I	instant	0.38096795291039887	[0.38096795291039887 1.0 0.13511507052709726 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.BaseChronology	validate(Lorg/joda/time/ReadablePartial;[I)V	i	0.3808316332473928	[0.3883508167547348 1.0 0.13146498391487255 0.9909182472931988]	[-0.07519183507342014 0.1081607956232451 0.20372514521851692]
+org.joda.time.field.BaseDateTimeField	getMinimumValue(Lorg/joda/time/ReadablePartial;[I)I	instant	0.38000871080139376	[0.38000871080139376 1.0 0.13635238802276664 1.0]	[0.0 0.0 0.0]
+org.joda.time.base.AbstractPartial	getField(I)Lorg/joda/time/DateTimeField;	index	0.36244904384941296	[0.37297472456254055 1.0 0.14550853749072012 1.0]	[-0.10525680713127578 0.27566792982684335 0.4232497077312435]
+org.joda.time.chrono.AssembledChronology	years()Lorg/joda/time/DurationField;	this.iYears	0.34575136040184173	[0.34575136040184173 1.0 0.1823805988616679 1.0]	[0.0 0.0 0.0]
+org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	chronology	0.33786025295459265	[0.33786025295459265 1.0 0.1935164563226924 1.0]	[0.0 0.0 0.0]
+org.joda.time.DurationFieldType$StandardDurationFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DurationField;	this.iOrdinal	0.33786025295459265	[0.33786025295459265 1.0 0.1935164563226924 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	months()Lorg/joda/time/DurationField;	this.iMonths	0.33268081599010924	[0.33268081599010924 1.0 0.20094036129670872 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chronology	0.27131893955700975	[0.27131893955700975 0.16666666666666666 0.07362039099232867 0.8445917810301614]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	chronology	0.2679589509692132	[0.2679589509692132 1.0 0.3021529324424647 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType$StandardDateTimeFieldType	getField(Lorg/joda/time/Chronology;)Lorg/joda/time/DateTimeField;	this.iOrdinal	0.2679589509692132	[0.2679589509692132 1.0 0.3021529324424647 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType	dayOfMonth()Lorg/joda/time/DateTimeFieldType;	.DAY_OF_MONTH_TYPE	0.224323355440043	[0.224323355440043 1.0 0.38059886166790396 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.ISOChronology	withUTC()Lorg/joda/time/Chronology;	.INSTANCE_UTC	0.21031815784847951	[0.21031815784847951 1.0 0.40781984657263054 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType	monthOfYear()Lorg/joda/time/DateTimeFieldType;	.MONTH_OF_YEAR_TYPE	0.20882301350640242	[0.20882301350640242 1.0 0.41078940856223706 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeFieldType	year()Lorg/joda/time/DateTimeFieldType;	.YEAR_TYPE	0.2083260297984224	[0.2083260297984224 1.0 0.41177926255877256 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	year()Lorg/joda/time/DateTimeField;	this.iYear	0.19792746113989634	[0.19792746113989634 1.0 0.4328136599851522 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	monthOfYear()Lorg/joda/time/DateTimeField;	this.iMonthOfYear	0.19147843942505138	[0.19147843942505138 1.0 0.4461766889383816 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	chrono	0.1404252842590198	[0.1404252842590198 0.5 0.29918337045285837 0.970426718987766]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	getParam()Ljava/lang/Object;	this.iParam	0.13899430740037955	[0.13899430740037955 1.0 0.5649591685226429 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	zone	0.13725207428407082	[0.13725207428407082 0.5 0.2956363936319393 0.9823513799166441]	[0.0 0.0 0.0]
+org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	.cFastCache	0.12650394746700433	[0.12650394746700433 0.5 0.3067310071764415 0.9865626572132304]	[0.0 0.0 0.0]
+org.joda.time.chrono.ISOChronology	getInstance(Lorg/joda/time/DateTimeZone;)Lorg/joda/time/chrono/ISOChronology;	index	0.12650394746700433	[0.12650394746700433 0.5 0.3067310071764415 0.9865626572132304]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	getZone()Lorg/joda/time/DateTimeZone;	this.iBase	0.1191205760686379	[0.1191205760686379 1.0 0.6151942588468201 1.0]	[0.0 0.0 0.0]
+org.joda.time.chrono.AssembledChronology	getZone()Lorg/joda/time/DateTimeZone;	base	0.1191205760686379	[0.1191205760686379 1.0 0.6151942588468201 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	getChronology(Lorg/joda/time/Chronology;)Lorg/joda/time/Chronology;	chrono	0.10876074170089634	[0.10876074170089634 1.0 0.6945063103192279 0.9627632920637057]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	setCurrentMillisFixed(J)V	fixedMillis	0.08505863616620823	[0.08505863616620823 1.0 0.7092303885176936 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	setCurrentMillisFixed(J)V	.cMillisProvider	0.08505863616620823	[0.08505863616620823 1.0 0.7092303885176936 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils$FixedMillisProvider	<init>(J)V	this.iMillis	0.08505863616620823	[0.08505863616620823 1.0 0.7092303885176936 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils$FixedMillisProvider	<init>(J)V	fixedMillis	0.08505863616620823	[0.08505863616620823 1.0 0.7092303885176936 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	checkPermission()V	sm	0.08488927485887965	[0.08488927485887965 0.5 0.3548626577579807 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	setCurrentMillisSystem()V	.SYSTEM_MILLIS_PROVIDER	0.08488927485887965	[0.08488927485887965 1.0 0.7097253155159614 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeUtils	setCurrentMillisSystem()V	.cMillisProvider	0.08488927485887965	[0.08488927485887965 1.0 0.7097253155159614 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	zone	0.07100786116873381	[0.07100786116873381 1.0 0.7512991833704529 0.9999936036481194]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	l2	0.07100466299279351	[0.07100466299279351 0.5 0.37564959168522644 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	sm	0.07100466299279351	[0.07100466299279351 0.5 0.37564959168522644 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	setDefault(Lorg/joda/time/DateTimeZone;)V	.cDefault	0.07100466299279351	[0.07100466299279351 1.0 0.7512991833704529 1.0]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	getDefault()Lorg/joda/time/DateTimeZone;	zone	0.04289856945780973	[0.04289856945780973 0.5 0.42538975501113585 0.9948286131902772]	[0.0 0.0 0.0]
+org.joda.time.DateTimeZone	getDefault()Lorg/joda/time/DateTimeZone;	.cDefault	0.03655720959544212	[0.03655720959544212 0.3333333333333333 0.2925018559762465 0.9921287599312932]	[0.0 0.0 0.0]

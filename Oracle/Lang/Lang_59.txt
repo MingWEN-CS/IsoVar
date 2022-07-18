@@ -1,1 +1,8 @@
-buggy	org.apache.commons.lang.text.StrBuilder	884	UPD	str
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	strLen	buggy
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	str	buggy
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	this.size	buggy
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	this.buffer	buggy
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	str	fixed
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	this.size	fixed
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	width	fixed
+org.apache.commons.lang.text.StrBuilder	appendFixedWidthPadRight(Ljava/lang/Object;IC)Lorg/apache/commons/lang/text/StrBuilder;	this.buffer	fixed

@@ -1,10 +1,5 @@
-buggy	com.google.javascript.jscomp.CheckGlobalThis	115	MOV	n
-buggy	com.google.javascript.jscomp.CheckGlobalThis	115	MOV	lhs
-fix	com.google.javascript.jscomp.CheckGlobalThis	126	INS	NodeUtil
-fix	com.google.javascript.jscomp.CheckGlobalThis	92	INS	jsDoc
-fix	com.google.javascript.jscomp.CheckGlobalThis	131	INS	llhs
-buggy	com.google.javascript.jscomp.CheckGlobalThis	129	UPD	lhs
-fix	com.google.javascript.jscomp.CheckGlobalThis	131	INS	lhs
-fix	com.google.javascript.jscomp.CheckGlobalThis	132	INS	Token.GETPROP
-buggy	com.google.javascript.jscomp.CheckGlobalThis	129	MOV	lhs
-fix	com.google.javascript.jscomp.CheckGlobalThis	133	INS	llhs
+com.google.javascript.jscomp.CheckGlobalThis	shouldTraverse(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z	lhs	buggy
+com.google.javascript.jscomp.CheckGlobalThis	shouldTraverse(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z	lhs	buggy
+com.google.javascript.jscomp.CheckGlobalThis	shouldTraverse(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z	rhs	fixed
+com.google.javascript.jscomp.CheckGlobalThis	shouldTraverse(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z	rhs	fixed
+com.google.javascript.jscomp.CheckGlobalThis	shouldTraverse(Lcom/google/javascript/jscomp/NodeTraversal;Lcom/google/javascript/rhino/Node;Lcom/google/javascript/rhino/Node;)Z	llhs	fixed
