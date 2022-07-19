@@ -111,7 +111,7 @@ public class RunCommand {
         if (mutant != null)
             cmd += mutant + ";";
         cmd += config.getProjectInstrPath() + ";";
-        if (isLinux())
+        if (!isLinux())
             cmd += config.getProjectTargetPath() + ";" +
                     config.getProjectTestPath() + ";";
         cmd += config.getDependency() + "\" " +
@@ -143,7 +143,8 @@ public class RunCommand {
             if (mutant == null && isFailing(className)) { // statistical phas
                 timeout = 60;
             }
-            cmd = "timeout " + (timeout + 1) + "s " + cmd;
+            if(isLinux())
+                cmd = "timeout " + (timeout + 1) + "s " + cmd;
             if (config.isDebug())
                 System.out.println(cmd);
             Future<Map<TestSuite, Map<Integer, Integer[]>>> future = es.submit(new MyCallable_tomem_analyze(cmd, config));
