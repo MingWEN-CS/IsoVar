@@ -106,7 +106,7 @@ Note: for Defects4j and Bears, we have hard-coded some information related to th
 $ java -jar artifacts/IsoVar.jar --phase analyze --project_name Time --ID 1
 ```
 
-the format for each variable is: className \t methodSignature \t variableName \t suspicious  
+the format for each variable is: className \t methodSignature \t variableName \t suspicious [intermediate results]
 
 
 ## Running IsoVar on a demo without installing Defect4j: demo.zip
