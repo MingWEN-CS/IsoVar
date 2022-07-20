@@ -71,26 +71,28 @@ $ cd IsoVar
 $ java -jar .\artifacts\IsoVar.jar --help
 usage: java -jar IsoVar.jar [OPTIONS]
  -?,--help              print this help message
- -alpha <arg>           value of gamma, default is 0.1
- -beta <arg>            value of beta, default is 0.9
- -binary <arg>          target directory of classes (relative to working
+ --alpha <arg>           value of gamma, default is 0.4
+ --beta <arg>            value of beta, default is 0.9
+ --gamma <arg>            value of beta, default is 1
+ --binary <arg>          target directory of classes (relative to working
                         directory)
- -debug <arg>           enable debug? default is false.
- -dependency <arg>      path to all dependency, eg, path_to_dependency/*
+ --debug <arg>           enable debug? default is false.
+ --dependency <arg>      path to all dependency, eg, path_to_dependency/*
                         or a file containing all dependency.(relative to
                         working directory)
- -ID <arg>              bug id
- -max_mutation <arg>    max mutation time for one variables. default is
+ --ID <arg>              bug id
+ --max_mutation <arg>    max mutation time for one variables. default is
                         10.
- -phase <arg>           analyze phase, [instrument] or [analyze]
- -project_name <arg>    project name
- -project_root <arg>    target directory of project path
- -report_dir <arg>      report dir path. default is
+ --phase <arg>           analyze phase, [instrument] or [analyze] or [parameters_tuning]
+ --project_name <arg>    project name
+ --project_root <arg>    target directory of project path
+ --report_dir <arg>      report dir path. default is
                         report/projectName/projectName_ID.txt
- -skip_mutation <arg>   skip muation phase? default is false
- -test_binary <arg>     Target directory of test classes (relative to
+ --skip_mutation <arg>   skip muation phase? default is false
+ --test_binary <arg>     Target directory of test classes (relative to
                         working directory)
- -timeout <arg>         timeout for one test classes. default is 20s.
+ --timeout <arg>         timeout for one test classes. default is 30s.
+
 ```
 
 3. instrument the project and a mapping file will be generated at [InstrMapping/Time/Time_1.txt](InstrMapping/Time/Time_1.txt)
